@@ -1,0 +1,23 @@
+{
+    "problem": "Consider the geometric sequence $\\frac{125}{9}, \\frac{25}{3}, 5, 3, \\ldots$. What is the eighth term of the sequence? Express your answer as a common fraction.",
+    "level": "Level 4",
+    "type": "Algebra",
+    "solution": "The common ratio between consecutive terms is $\\frac{3}{5}$ (you can choose any two consecutive terms and divide the second one by the first to find the common ratio). So the $n^\\text{th}$ term of the sequence is $\\frac{125}{9} \\cdot \\left( \\frac{3}{5} \\right)^{n-1}$. Plugging in $n=8$, we get $$\n\\frac{125}{9} \\cdot \\left( \\frac{3}{5} \\right)^{7} = \\frac{5^3}{3^2} \\cdot \\frac{3^7}{5^7}\n= \\frac{3^5}{5^4}\n= \\boxed{\\frac{243}{625}}.\n$$",
+    "prompt": "### Instruction: Consider the geometric sequence $\\frac{125}{9}, \\frac{25}{3}, 5, 3, \\ldots$. What is the eighth term of the sequence? Express your answer as a common fraction.\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "1. **Find the common ratio:** Divide any term by the term before it. For example,  (25/3) / (125/9) = (25/3) * (9/125) = 3/5.  So the common ratio is 3/5.\n2. **Find the general formula:**  The general formula for a geometric sequence is  a_n = a_1 * r^(n-1), where a_n is the nth term, a_1 is the first term, r is the common ratio, and n is the term number.\n3. **Apply the formula:** In this case, a_1 = 125/9 and r = 3/5.  We want to find the 8th term, so n = 8.\n4. **Calculate the eighth term:**  a_8 = (125/9) * (3/5)^(8-1) = (125/9) * (3/5)^7 = (125/9) * (2187/78125) = **243/625**. \n",
+        "**1. Find the common ratio:**\n* Divide any term by the term before it. For example,  (25/3) / (125/9) = (25/3) * (9/125) = 3/5.\n* The common ratio is 3/5.\n**2. Find the general formula:**\n* The general formula for a geometric sequence is a_n = a_1 * r^(n-1), where:\n    * a_n is the nth term\n    * a_1 is the first term\n    * r is the common ratio\n    * n is the term number\n**3. Apply the formula:**\n* We know a_1 = 125/9 and r = 3/5. We want to find a_8.\n* a_8 = (125/9) * (3/5)^(8-1) \n* a_8 = (125/9) * (3/5)^7\n* a_8 = (125/9) * (2187/78125)\n* a_8 = **243/725** \n**Therefore, the eighth term of the sequence is 243/725.** \n",
+        "Here's how to find the eighth term of the geometric sequence:\n1. **Find the common ratio:**  Divide any term by the term before it. For example,  (25/3) / (125/9) = 3/5.  This means the common ratio is 3/5.\n2. **Use the formula for the nth term:** The general formula for the nth term of a geometric sequence is:\n   a_n = a_1 * r^(n-1)\n   where:\n     * a_n is the nth term\n     * a_1 is the first term\n     * r is the common ratio\n     * n is the term number\n3. **Plug in the values:**  We know a_1 = 125/9, r = 3/5, and we want to find a_8.  Substituting into the formula:\n   a_8 = (125/9) * (3/5)^(8-1)\n4. **Simplify:**\n   a_8 = (125/9) * (3/5)^7\n   a_8 = (125/9) * (2187/78125)\n   a_8 = **81/245**\nTherefore, the eighth term of the sequence is **81/245**. \n",
+        "1. **Find the common ratio:**  Divide any term by the term before it. For example,  (25/3) / (125/9) = 3/5. So the common ratio is 3/5.\n2. **Find the general form:** The general form of a geometric sequence is  a_n = a_1 * r^(n-1) where a_1 is the first term, r is the common ratio, and n is the term number.\n3. **Plug in the values:** In this case, a_1 = 125/9 and r = 3/5.  We want to find the eighth term, so n = 8.\n4. **Calculate:** Substitute the values into the general form:\n   a_8 = (125/9) * (3/5)^(8-1) = (125/9) * (3/5)^7 = (125/9) * (2187/78125) = 27/243 = **1/9**.\nTherefore, the eighth term of the sequence is **1/9**. \n",
+        "Here's how to find the eighth term of the geometric sequence:\n* **Find the common ratio:**  Divide any term by the term before it. For example,  (25/3) / (125/9) = 3/5.  So, the common ratio is 3/5.\n* **Find the general term:** The general term of a geometric sequence is given by:\n   a_n = a_1 * r^(n-1) \n   where:\n    * a_n is the nth term\n    * a_1 is the first term\n    * r is the common ratio\n    * n is the term number\n* **Apply the formula:** In this case, a_1 = 125/9 and r = 3/5.  We want to find a_8, the eighth term. \n    a_8 = (125/9) * (3/5)^(8-1)\n    a_8 = (125/9) * (3/5)^7\n    a_8 = (125/9) * (2187/78125)\n    a_8 = **243/875** \nTherefore, the eighth term of the sequence is **243/875**. \n"
+    ],
+    "pred_answers": "625",
+    "final_pred_answer": [
+        "625",
+        "725",
+        "245",
+        "9",
+        "875"
+    ],
+    "ground_truth": "625"
+}

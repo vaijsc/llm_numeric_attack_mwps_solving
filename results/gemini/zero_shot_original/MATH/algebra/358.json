@@ -1,0 +1,23 @@
+{
+    "problem": "Solve  \\[\\frac{9-4x}{x+6}=7\\]for $x$.",
+    "level": "Level 2",
+    "type": "Algebra",
+    "solution": "Cross-multiplication gives  \\[9-4x=7x+42.\\]Simplifying this expression tells us $-11x=33$ or  \\[x=\\boxed{-3}.\\]",
+    "prompt": "### Instruction: Solve  \\[\\frac{9-4x}{x+6}=7\\]for $x$.\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "1. **Multiply both sides by (x+6):** \n   This eliminates the denominator on the left side.\n   \n   ```\n   (x+6) * (9-4x)/(x+6) = 7 * (x+6)\n   ```\n   \n   Simplifying:\n   ```\n   9-4x = 7x + 42\n   ```\n2. **Combine x terms:**\n   Add 4x to both sides:\n   ```\n   9 = 11x + 42\n   ```\n3. **Combine constant terms:**\n   Subtract 42 from both sides:\n   ```\n   -33 = 11x\n   ```\n4. **Solve for x:**\n   Divide both sides by 11:\n   ```\n   x = -3\n   ```\nTherefore, the solution to the equation is **x = -3**. \n",
+        "1. **Multiply both sides by (x+6):** \n   This eliminates the fraction on the left side:\n   ```\n   (x+6) * (9-4x)/(x+6) = 7 * (x+6)\n   ```\n   This simplifies to:\n   ```\n   9 - 4x = 7x + 42\n   ```\n2. **Combine like terms:**\n   Add 4x to both sides:\n   ```\n   9 = 11x + 42\n   ```\n   Subtract 42 from both sides:\n   ```\n   -33 = 11x \n   ```\n3. **Solve for x:**\n   Divide both sides by 11:\n   ```\n   x = -3\n   ```\nTherefore, the solution to the equation is **x = -3**. \n",
+        "1. **Multiply both sides by the denominator:** \n   To get rid of the fraction, multiply both sides of the equation by $(x+6)$:\n   \n   ```\n   (x+6) * [(9-4x)/(x+6)] = 7 * (x+6)\n   ```\n   This simplifies to:\n   ```\n   9 - 4x = 7x + 42 \n   ```\n2. **Combine like terms:**\n   Move all the $x$ terms to one side and the constant terms to the other:\n   ```\n   -4x - 7x = 42 - 9 \n   -11x = 33\n   ```\n3. **Solve for x:**\n   Divide both sides by -11 to isolate $x$:\n   ```\n   x = 33 / -11\n   x = -3\n   ```\n**Therefore, the solution to the equation is  x = -3.** \n",
+        "1. **Multiply both sides by (x+6):** \n   This gets rid of the fraction on the left side. \n   \n   \\[9-4x = 7(x+6)\\]\n2. **Distribute on the right side:**\n   \n   \\[9-4x = 7x + 42\\]\n3. **Combine x terms on one side:**\n   Add 4x to both sides:\n   \n   \\[9 = 11x + 42\\]\n4. **Combine constant terms on the other side:**\n   Subtract 42 from both sides:\n   \n   \\[-33 = 11x\\]\n5. **Isolate x:**\n   Divide both sides by 11:\n   \n   \\[x = \\boxed{-3}\\] \n",
+        "1. **Multiply both sides by (x+6):** \n   This eliminates the fraction on the left side:\n   \n   ```\n   (x+6) * (9-4x) / (x+6) = 7 * (x+6)\n   ```\n   \n   Simplifying: \n   ```\n   9 - 4x = 7x + 42\n   ```\n2. **Combine x terms:**\n   Add 4x to both sides:\n   ```\n   9 = 11x + 42 \n   ```\n3. **Combine constant terms:**\n   Subtract 42 from both sides:\n   ```\n   -33 = 11x\n   ```\n4. **Isolate x:**\n   Divide both sides by 11:\n   ```\n   x = -3\n   ```\n**Therefore, the solution to the equation is x = -3.** \n"
+    ],
+    "pred_answers": "-3",
+    "final_pred_answer": [
+        "-3",
+        "-3",
+        "-3",
+        "-3",
+        "-3"
+    ],
+    "ground_truth": "-3"
+}

@@ -1,0 +1,23 @@
+{
+    "problem": "The expression $x^2 + 18x - 63$ can be written in the form $(x - a)(x + b)$, where $a$ and $b$ are both nonnegative real numbers. What is the value of $b$?",
+    "level": "Level 2",
+    "type": "Algebra",
+    "solution": "Factoring, we find that $x^2 + 18x - 63 = (x - 3)(x + 21).$ Therefore, $b = \\boxed{21}.$",
+    "prompt": "### Instruction: The expression $x^2 + 18x - 63$ can be written in the form $(x - a)(x + b)$, where $a$ and $b$ are both nonnegative real numbers. What is the value of $b$?\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "Here's how to solve the problem step-by-step:\n**1. Factor the expression:**\nWe need to find two numbers that multiply to -63 and add up to 18. These numbers are 21 and -3.  \nTherefore, we can factor the expression as: \n  \n  *  x\u00b2 + 18x - 63 = (x + 21)(x - 3) \n**2. Identify the value of 'b':**\nComparing this to the form (x - a)(x + b), we see that:\n*  a = 3\n*  b = 21\n**Answer:** The value of b is **21**. \n",
+        "Here's how to solve the problem step-by-step:\n**1. Factor the quadratic expression:**\n* We need to find two numbers that multiply to -63 and add up to 18.  \n* The numbers 21 and -3 satisfy these conditions:  21 * -3 = -63 and 21 + (-3) = 18.\nTherefore, we can factor the expression as:\n  *  x\u00b2 + 18x - 63 = (x + 21)(x - 3)\n**2. Identify 'b':**\n* The expression is now in the form (x - a)(x + b), where a = 3 and b = 21.\n**Answer:** The value of b is **21**. \n",
+        "Here's how to solve the problem step-by-step:\n**1. Factor the expression:**\nWe need to find two numbers that multiply to -63 and add up to 18.  These numbers are 21 and -3.  Therefore:\n*  x\u00b2 + 18x - 63 = (x + 21)(x - 3)\n**2. Identify 'b':**\nWe want the expression in the form (x - a)(x + b), where 'a' and 'b' are nonnegative.  In our factored form,  'b' is the number added to 'x' in the second factor:\n* (x + 21)(x - 3) = (x - 3)(x + 21)\n**3. Answer:**\nTherefore, the value of 'b' is **21**. \n",
+        "Here's how to solve the problem step-by-step:\n**1. Factor the expression:**\n* We need to find two numbers that multiply to -63 and add up to 18 (the coefficient of the x term).\n* The numbers 21 and -3 satisfy these conditions: 21 * -3 = -63 and 21 + (-3) = 18\n**2. Apply the factorization:**\n*  We can now rewrite the expression as: \n   (x + 21)(x - 3)\n**3. Identify the value of 'b':**\n* Comparing this to the desired form (x - a)(x + b), we see that **b = 3**.\n**Therefore, the value of b is 3.** \n",
+        "Here's how to solve the problem step-by-step:\n**1. Factor the Quadratic**\nWe need to find two numbers that:\n* Multiply to give -63 (the constant term)\n* Add to give 18 (the coefficient of the x term)\nThe numbers 21 and -3 satisfy these conditions: \n* 21 * -3 = -63\n* 21 + (-3) = 18\nTherefore, we can factor the expression as:\n(x + 21)(x - 3)\n**2. Identify the Value of b**\nComparing this to the form (x - a)(x + b), we see that:\n* a = 3\n* **b = 21**\n**Answer:** The value of b is **21**. \n"
+    ],
+    "pred_answers": "21",
+    "final_pred_answer": [
+        "21",
+        "21",
+        "21",
+        "3",
+        "21"
+    ],
+    "ground_truth": "21"
+}

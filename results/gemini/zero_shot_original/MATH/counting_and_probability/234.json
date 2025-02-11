@@ -1,0 +1,23 @@
+{
+    "problem": "Suppose that I have 6 different books, 2 of which are math books.  In how many ways can I stack my 6 books on a shelf if I want a math book on both ends of the stack?",
+    "level": "Level 2",
+    "type": "Counting & Probability",
+    "solution": "We first place the math books.  We have two choices for the bottom book, and then the only one remaining choice for the top book which is the other math book.  Then we place the four other books in the middle.  There are 4 choices for the first book, 3 choices for the second, 2 choices for the third, and only 1 choice for the fourth.  So the total number of ways the books can be placed is $2 \\times 1 \\times 4 \\times 3 \\times 2 \\times 1 = \\boxed{48}$.",
+    "prompt": "### Instruction: Suppose that I have 6 different books, 2 of which are math books.  In how many ways can I stack my 6 books on a shelf if I want a math book on both ends of the stack?\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "Here's how to solve the problem step-by-step:\n1. **Choose the math books for the ends:** You have 2 choices for the math book on the left end and 1 choice left for the math book on the right end. This gives us 2 * 1 = 2 possibilities.\n2. **Arrange the remaining books:**  You have 4 books left to arrange in the middle.  There are 4 choices for the first book, 3 choices for the second, and so on.  This gives us 4 * 3 * 2 * 1 = 24 ways to arrange the remaining books.\n3. **Combine the possibilities:** To get the total number of ways to stack the books, we multiply the number of possibilities for each step: 2 * 24 = **48 ways**. \n",
+        "Here's how to solve this step-by-step:\n1. **Choose the math books for the ends:** You have 2 choices for the math book on the left end and then 1 choice left for the math book on the right end. This gives us 2 * 1 = 2 ways to choose the math books for the ends.\n2. **Arrange the remaining books:**  You have 4 books left to arrange in the middle. These can be arranged in 4! (4 factorial) ways, which is 4 * 3 * 2 * 1 = 24 ways.\n3. **Combine the arrangements:**  Since the choices for the end books and the choices for the middle books are independent, we multiply the possibilities together: 2 ways (for ends) * 24 ways (for middle) = 48 ways.\n**Therefore, there are 48 ways to stack the books with a math book on each end.** \n",
+        "Here's how to solve this problem step-by-step:\n**1. Choose the Math Books for the Ends**\n* We have 2 choices for the math book on the left end of the shelf.\n* After placing one math book, we only have 1 choice left for the math book on the right end.\n**2. Arrange the Remaining Books**\n* We have 4 books left to arrange in the middle of the shelf.\n* There are 4! (4 factorial) ways to arrange these 4 books.  4! = 4 * 3 * 2 * 1 = 24\n**3. Combine the Possibilities**\n* To get the total number of arrangements, we multiply the possibilities from each step: 2 * 1 * 24 = **48**\n**Therefore, there are 48 ways to stack the books with a math book on each end.** \n",
+        "Here's how to solve this problem step-by-step:\n**1. Place the Math Books**\n* Since we want a math book on each end, we have 2 choices for the book on the left end and 1 choice for the book on the right end. \n**2. Arrange the Remaining Books**\n* We have 4 books left to arrange in the middle of the stack. These can be arranged in 4! (4 factorial) ways. \n**3. Calculate the Total Number of Arrangements**\n* To get the total number of arrangements, we multiply the number of choices for each step: 2 * 1 * 4! = 2 * 1 * 24 = **48**\n**Therefore, there are 48 ways to stack the books with a math book on each end.** \n",
+        "Here's how to solve this step-by-step:\n1. **Choose the math books for the ends:** You have 2 choices for the math book on the left end, and then only 1 choice left for the math book on the right end. So there are 2 * 1 = 2 ways to place the math books.\n2. **Arrange the remaining books:** You have 4 books left to arrange in the middle. These can be arranged in 4! (4 factorial) ways, which is 4 * 3 * 2 * 1 = 24 ways.\n3. **Combine the possibilities:** For each way you arrange the math books on the ends, there are 24 ways to arrange the remaining books.  Therefore, the total number of arrangements is 2 * 24 = **48**.\n**So there are 48 ways to stack the books with a math book on each end.** \n"
+    ],
+    "pred_answers": "48",
+    "final_pred_answer": [
+        "48",
+        "48",
+        "48",
+        "48",
+        "48"
+    ],
+    "ground_truth": "48"
+}

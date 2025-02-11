@@ -1,0 +1,23 @@
+{
+    "problem": "If $(x + y)^2 = 105$ and $x^2 + y^2 = 65$, what is the value of $xy$?",
+    "level": "Level 3",
+    "type": "Algebra",
+    "solution": "If we expand the left hand side of the first equation, we get $x^2 + 2xy + y^2 = 105$, so $2xy + (x^2 + y^2) = 105$. We are given that $x^2 + y^2 = 65$, so we can substitute for $x^2 + y^2$ to obtain $2xy + 65 = 105$. It follows that $xy = \\boxed{20}$.",
+    "prompt": "### Instruction: If $(x + y)^2 = 105$ and $x^2 + y^2 = 65$, what is the value of $xy$?\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "Here's how to solve this problem step-by-step:\n**1. Expand the Square:**\n*  Start with the equation $(x + y)^2 = 105$ and expand the left side: \n   *  $(x + y)^2 = x^2 + 2xy + y^2 = 105$\n**2. Substitute and Simplify:**\n*  We're given that  $x^2 + y^2 = 65$. Substitute this into the expanded equation:\n   *  $65 + 2xy = 105$\n**3. Solve for xy:**\n*  Subtract 65 from both sides:\n   *  $2xy = 40$\n*  Divide both sides by 2:\n   *  $xy = 20$\n**Therefore, the value of xy is 20.** \n",
+        "Here's how to solve the problem step-by-step:\n**1. Expand the square:**\n* $(x + y)^2 = x^2 + 2xy + y^2$\n**2. Substitute known values:**\n* We know  $(x + y)^2 = 105$ and $x^2 + y^2 = 65$. Substitute these into the expanded equation:\n   *  105 = 65 + 2xy\n**3. Solve for xy:**\n* Subtract 65 from both sides: 40 = 2xy\n* Divide both sides by 2:  20 = xy\n**Therefore, the value of xy is 20.** \n",
+        "Here's how to solve this problem step-by-step:\n**1. Expand the Square**\n*  Start with the equation (x + y)\u00b2 = 105. \n*  Expand the left side: x\u00b2 + 2xy + y\u00b2 = 105\n**2. Use the Second Equation**\n* We know x\u00b2 + y\u00b2 = 65.  Substitute this into the expanded equation:\n   65 + 2xy = 105\n**3. Solve for xy**\n* Subtract 65 from both sides: 2xy = 40\n* Divide both sides by 2: xy = 20\n**Therefore, the value of xy is 20.** \n",
+        "Here's how to solve the problem step-by-step:\n**1. Expand the first equation:**\n*  (x + y)\u00b2 = x\u00b2 + 2xy + y\u00b2 = 105\n**2.  Substitute the second equation into the expanded first equation:**\n*  65 + 2xy = 105\n**3.  Solve for xy:**\n*  2xy = 40\n*  xy = 20\n**Therefore, the value of xy is 20.** \n",
+        "Here's how to solve this problem step-by-step:\n1. **Expand the square:**  \n   (x + y)\u00b2 = x\u00b2 + 2xy + y\u00b2\n2. **Substitute known values:** We are given that (x + y)\u00b2 = 105 and x\u00b2 + y\u00b2 = 65. Substitute these into the expanded equation:\n   105 = 65 + 2xy\n3. **Solve for xy:**\n   * Subtract 65 from both sides: 40 = 2xy\n   * Divide both sides by 2: 20 = xy\n**Therefore, the value of xy is 20.** \n"
+    ],
+    "pred_answers": "20",
+    "final_pred_answer": [
+        "20",
+        "20",
+        "20",
+        "20",
+        "20"
+    ],
+    "ground_truth": "20"
+}

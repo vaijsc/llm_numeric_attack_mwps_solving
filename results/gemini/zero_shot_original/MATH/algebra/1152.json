@@ -1,0 +1,23 @@
+{
+    "problem": "Simplify $(4a^2)^3$.",
+    "level": "Level 2",
+    "type": "Algebra",
+    "solution": "$(4a^2)^3 = 4^3\\cdot (a^2)^3 = 64a^{2\\cdot 3} = \\boxed{64a^6}$.",
+    "prompt": "### Instruction: Simplify $(4a^2)^3$.\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "Here's how to simplify $(4a^2)^3$:\n**1. Apply the power of a product rule:**\n* This rule states that  (ab)^n = a^n * b^n.  \n* In our case, this means: (4a^2)^3 = 4^3 * (a^2)^3 \n**2. Apply the power of a power rule:**\n* This rule states that (a^m)^n = a^(m*n).\n* Applying this to the 'a' term: (a^2)^3 = a^(2*3) = a^6\n**3. Simplify the numerical part:**\n* 4^3 = 4 * 4 * 4 = 64\n**Putting it all together:**\n(4a^2)^3 = 4^3 * (a^2)^3 = 64 * a^6 = **64a^6** \n",
+        "Here's how to simplify $(4a^2)^3$:\n**1. Apply the Power of a Product Rule:**\n* This rule states that (ab)^n = a^n * b^n.  \n* In our case, we have (4a^2)^3 = 4^3 * (a^2)^3\n**2. Apply the Power of a Power Rule:**\n* This rule states that (a^m)^n = a^(m*n).\n* So, (a^2)^3 = a^(2*3) = a^6\n**3. Simplify:**\n* 4^3 = 64\n* Putting it all together: (4a^2)^3 = 4^3 * (a^2)^3 = 64a^6\n**Therefore, the simplified form of (4a^2)^3 is 64a^6** \n",
+        "Here's how to simplify the expression step-by-step:\n* **Apply the power of a product rule:** This rule states that  (ab)^n = a^n * b^n.  So, (4a^2)^3 = 4^3 * (a^2)^3\n* **Simplify the powers:** 4^3 = 64 and (a^2)^3 = a^(2*3) = a^6\n* **Combine the results:** 64 * a^6 = **64a^6**\nTherefore, the simplified expression is **64a^6**. \n",
+        "Here's how to simplify $(4a^2)^3$:\n**Step 1: Apply the power of a product rule**\nThe power of a product rule states that $(ab)^n = a^n * b^n$.  Applying this to our problem:\n(4a\u00b2)\u00b3 = 4\u00b3 * (a\u00b2)\u00b3\n**Step 2: Apply the power of a power rule**\nThe power of a power rule states that (a^m)^n = a^(m*n).  Applying this:\n4\u00b3 * (a\u00b2)\u00b3 = 64 * a^(2*3)\n**Step 3: Simplify**\n64 * a^(2*3) = **64a\u2076** \n**Therefore, the simplified expression is 64a\u2076** \n",
+        "Here's how to simplify $(4a^2)^3$:\n**1. Distribute the exponent:**\n   *  The exponent 3 applies to both the 4 and the  $a^2$ inside the parentheses.\n   *  This gives us:  $4^3 \\cdot (a^2)^3$\n**2. Simplify each term:**\n   *  $4^3 = 4 \\cdot 4 \\cdot 4 = 64$\n   *  $(a^2)^3 = a^{2\\cdot 3} = a^6$ \n**3. Combine the simplified terms:**\n   *  $64 \\cdot a^6 = \\boxed{64a^6}$ \n"
+    ],
+    "pred_answers": "6",
+    "final_pred_answer": [
+        "6",
+        "6",
+        "6",
+        "64",
+        "6"
+    ],
+    "ground_truth": "6"
+}

@@ -1,0 +1,23 @@
+{
+    "problem": "Expand $(q-5)(3r+6)$.",
+    "level": "Level 1",
+    "type": "Algebra",
+    "solution": "We apply the distributive property repeatedly: \\begin{align*}\n(q-5)(3r+6) &= q(3r+6) - 5(3r+6)\\\\\n&= q\\cdot 3r + q\\cdot 6 - 5\\cdot 3r - 5\\cdot 6\\\\\n&= \\boxed{3qr + 6q - 15r -30}.\n\\end{align*}",
+    "prompt": "### Instruction: Expand $(q-5)(3r+6)$.\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "We can expand this expression using the distributive property (sometimes called FOIL):\n1. **Multiply the first terms of each binomial:**  \n   *  (q) * (3r) = 3qr\n2. **Multiply the outer terms of the binomials:**\n   * (q) * (6) = 6q\n3. **Multiply the inner terms of the binomials:**\n   * (-5) * (3r) = -15r\n4. **Multiply the last terms of each binomial:**\n   * (-5) * (6) = -30\n5. **Combine all the terms:**\n   * 3qr + 6q - 15r - 30\n**Therefore, the expanded form of (q - 5)(3r + 6) is 3qr + 6q - 15r - 30.** \n",
+        "Here's how to expand the expression step-by-step:\n1. **Distribute the first term:**\n   Multiply the first term of the first binomial, `q`, by each term in the second binomial:\n   \n   ```\n   q * (3r + 6) = 3qr + 6q\n   ```\n2. **Distribute the second term:**\n   Multiply the second term of the first binomial, `-5`, by each term in the second binomial:\n   ```\n   -5 * (3r + 6) = -15r - 30\n   ```\n3. **Combine the results:**\n   Add the results from steps 1 and 2:\n   ```\n   (3qr + 6q) + (-15r - 30) = 3qr + 6q - 15r - 30 \n   ```\nTherefore, the expanded form of $(q-5)(3r+6)$ is **3qr + 6q - 15r - 30**. \n",
+        "1. **Distribute the first term:** \n   * Multiply  'q' by each term inside the second set of parentheses: \n      * q * 3r = 3qr\n      * q * 6 = 6q\n2. **Distribute the second term:** \n   * Multiply '-5' by each term inside the second set of parentheses:\n      * -5 * 3r = -15r\n      * -5 * 6 = -30\n3. **Combine the results:** \n   *  We now have: 3qr + 6q - 15r - 30\nTherefore, the expanded form of (q - 5)(3r + 6) is **3qr + 6q - 15r - 30**. \n",
+        "Here's how to expand $(q-5)(3r+6)$:\n**1. Distribute the first term of the first binomial:**\n* Multiply  *q* by each term in the second binomial:\n   *  *q* * (3r) = 3qr\n   *  *q* * (6) = 6q\n**2. Distribute the second term of the first binomial:**\n* Multiply -5 by each term in the second binomial:\n   *  -5 * (3r) = -15r\n   *  -5 * (6) = -30\n**3. Combine the results:**\n*  3qr + 6q - 15r - 30\n**Therefore, the expanded form of (q-5)(3r+6) is 3qr + 6q - 15r - 30.** \n",
+        "Here's how to expand $(q-5)(3r+6)$ step-by-step using the distributive property (also known as FOIL):\n**1.  Distribute the 'q' from the first set of parentheses:**\n   *  $q (3r + 6) = 3qr + 6q$\n**2.  Distribute the '-5' from the first set of parentheses:**\n   *  $-5 (3r + 6) = -15r - 30$\n**3.  Combine the results from steps 1 and 2:**\n   *  $(3qr + 6q) + (-15r - 30)$\n**4.  Simplify the expression:**\n   *  **3qr + 6q - 15r - 30**\n**Therefore, the expanded form of (q-5)(3r+6) is 3qr + 6q - 15r - 30** \n"
+    ],
+    "pred_answers": "30",
+    "final_pred_answer": [
+        "30",
+        "30",
+        "30",
+        "30",
+        "30"
+    ],
+    "ground_truth": "-30"
+}

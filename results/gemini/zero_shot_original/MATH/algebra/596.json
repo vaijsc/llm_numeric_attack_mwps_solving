@@ -1,0 +1,23 @@
+{
+    "problem": "Evaluate $\\lceil (3.6)^2 \\rceil - ( \\lceil 3.6 \\rceil ) ^2$.",
+    "level": "Level 4",
+    "type": "Algebra",
+    "solution": "$\\lceil (3.6)^2 \\rceil = \\lceil 12.96 \\rceil = 13$ because the least integer greater than $12.96$ is $13$. $( \\lceil 3.6 \\rceil ) ^2 = 4^2 = 16$ because the least integer greater than $3.6$ is $4$. Therefore, the answer is $13-16=\\boxed{-3}$.",
+    "prompt": "### Instruction: Evaluate $\\lceil (3.6)^2 \\rceil - ( \\lceil 3.6 \\rceil ) ^2$.\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "Here's how to evaluate the expression step-by-step:\n**1. Calculate (3.6)^2:**\n   (3.6)^2 = 12.96\n**2. Find the ceiling of 12.96:**\n   The ceiling function, denoted by  \u2308  \u2309, gives the smallest integer greater than or equal to the input.  \n   So, \u230812.96\u2309 = 13 \n**3. Find the ceiling of 3.6:**\n   \u23083.6\u2309 = 4\n**4. Calculate (\u23083.6\u2309)^2:**\n   (4)^2 = 16\n**5.  Subtract the results:**\n   \u2308(3.6)^2\u2309 - (\u23083.6\u2309)^2 = 13 - 16 = -3\n**Therefore, the answer is -3.** \n",
+        "Here's how to evaluate the expression step-by-step:\n**1. Calculate (3.6)^2:**\n   (3.6)^2 = 12.96\n**2. Find the ceiling of (3.6)^2:**\n   The ceiling function, denoted by  \u2308  \u2309, gives the smallest integer greater than or equal to the input. \n   Since 12.96 is between 12 and 13,  \u230812.96\u2309 = 13\n**3. Find the ceiling of 3.6:**\n   \u23083.6\u2309 = 4\n**4. Square the ceiling of 3.6:**\n   (\u23083.6\u2309)^2 = 4^2 = 16\n**5. Subtract the results:**\n   \u2308(3.6)^2\u2309 - (\u23083.6\u2309)^2 = 13 - 16 = -3\n**Therefore, the answer is -3.** \n",
+        "Here's how to evaluate the expression step-by-step:\n**1. Calculate the square of 3.6:**\n   (3.6)\u00b2 = 12.96\n**2. Find the ceiling of 12.96:**\n   The ceiling function, denoted by  \u2308 \u2309, gives the smallest integer greater than or equal to the input. Since 12.96 is between 12 and 13,  \u230812.96\u2309 = 13.\n**3. Find the ceiling of 3.6:**\n   \u23083.6\u2309 = 4\n**4. Square the ceiling of 3.6:**\n   (\u23083.6\u2309)\u00b2 = 4\u00b2 = 16\n**5. Subtract the results:**\n   \u2308(3.6)\u00b2\u2309 - (\u23083.6\u2309)\u00b2 = 13 - 16 = **-3**\n**Therefore, the value of the expression is -3.** \n",
+        "Here's how to solve the problem step-by-step:\n1. **Calculate (3.6)^2:** (3.6)^2 = 12.96\n2. **Find the ceiling of 12.96:**  The ceiling function, denoted by $\\lceil x \\rceil$, gives the smallest integer greater than or equal to x.  Therefore,  $\\lceil 12.96 \\rceil = 13$.\n3. **Find the ceiling of 3.6:**  $\\lceil 3.6 \\rceil = 4$\n4. **Calculate (\u23083.6\u2309)^2:**  (4)^2 = 16\n5. **Subtract the results:**  13 - 16 = -3\n**Therefore,  $\\lceil (3.6)^2 \\rceil - ( \\lceil 3.6 \\rceil ) ^2 = -3$.** \n",
+        "Here's how to evaluate the expression step-by-step:\n**1. Calculate the square of 3.6:**\n   (3.6)\u00b2 = 12.96\n**2. Find the ceiling of 12.96:**\n   \u230812.96\u2309 = 13 (The ceiling function rounds a number up to the nearest integer.)\n**3. Find the ceiling of 3.6:**\n   \u23083.6\u2309 = 4\n**4. Square the ceiling of 3.6:**\n   (\u23083.6\u2309)\u00b2 = 4\u00b2 = 16\n**5. Subtract the results:**\n   \u2308(3.6)\u00b2\u2309 - (\u23083.6\u2309)\u00b2 = 13 - 16 = **-3**\nTherefore,  \u2308(3.6)\u00b2\u2309 - (\u23083.6\u2309)\u00b2 = **-3**. \n"
+    ],
+    "pred_answers": "-3",
+    "final_pred_answer": [
+        "-3",
+        "-3",
+        "-3",
+        "-3",
+        "-3"
+    ],
+    "ground_truth": "-3"
+}

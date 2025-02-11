@@ -1,0 +1,23 @@
+{
+    "problem": "A Senate committee consists of 5 Republicans, 6 Democrats, and 2 Independents.  A subcommittee of 3 members is randomly chosen.  What is the probability that the subcommittee consists of three Republicans?",
+    "level": "Level 3",
+    "type": "Counting & Probability",
+    "solution": "There are $\\binom{13}{3} = 286$ ways to choose a subcommittee from the committee, and $\\binom{5}{3} = 10$ ways to choose a subcommittee of all Republicans.  The chance that a random subcommittee is all Republican is $\\dfrac{10}{286} = \\boxed{\\dfrac{5}{143}}$.",
+    "prompt": "### Instruction: A Senate committee consists of 5 Republicans, 6 Democrats, and 2 Independents.  A subcommittee of 3 members is randomly chosen.  What is the probability that the subcommittee consists of three Republicans?\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "Here's how to solve this problem step-by-step:\n**1. Find the total number of possible subcommittees:**\n* There are 13 senators in total (5 + 6 + 2).\n* We need to choose 3 of them, so we use combinations:  \u00b9\u00b3C\u2083 = (13!)/(3!10!) = 286\n**2. Find the number of subcommittees with three Republicans:**\n* We need to choose 3 Republicans out of 5:  \u2075C\u2083 = (5!)/(3!2!) = 10\n**3. Calculate the probability:**\n* Probability = (Favorable outcomes) / (Total possible outcomes)\n* Probability = 10 / 286 = **5/143**\n**Therefore, the probability that the subcommittee consists of three Republicans is 5/143.** \n",
+        "Here's how to solve this problem step-by-step:\n**1. Find the total number of possible subcommittees:**\n* We have 13 senators (5 + 6 + 2) and we need to choose 3.  \n* The number of ways to do this is given by the combination formula:  \u00b9\u00b3C\u2083 = (13!)/(3!10!) = 286\n**2. Find the number of subcommittees with three Republicans:**\n* We need to choose 3 Republicans out of 5.\n* The number of ways to do this is: \u2075C\u2083 = (5!)/(3!2!) = 10\n**3. Calculate the probability:**\n* Probability = (Favorable Outcomes) / (Total Possible Outcomes)\n* Probability of a subcommittee with 3 Republicans = 10 / 286 = **5/143** \n",
+        "Here's how to solve this problem step-by-step:\n**1. Find the total number of possible subcommittees:**\n* We need to choose 3 members from a total of 13 senators.  This is a combination problem.\n* The total number of ways to choose 3 senators out of 13 is  \u00b9\u00b3C\u2083 = (13 * 12 * 11) / (3 * 2 * 1) = 286\n**2. Find the number of subcommittees with only Republicans:**\n* We need to choose 3 Republicans out of 5.\n* The number of ways to do this is \u2075C\u2083 = (5 * 4 * 3) / (3 * 2 * 1) = 10\n**3. Calculate the probability:**\n* The probability of the subcommittee consisting of three Republicans is the number of favorable outcomes (subcommittees with only Republicans) divided by the total number of possible outcomes (all possible subcommittees).\n* Probability = 10 / 286 = **5/143** \n",
+        "Here's how to solve this problem step-by-step:\n**1. Find the total number of possible subcommittees:**\n* There are 13 senators in total (5 + 6 + 2).\n* We need to choose a group of 3.  This is a combination problem: \u2081\u2083C\u2083 = (13!)/(3!10!) = 286\n**2. Find the number of subcommittees with three Republicans:**\n* We need to choose 3 Republicans out of 5. This is another combination: \u2085C\u2083 = (5!)/(3!2!) = 10\n**3. Calculate the probability:**\n* The probability of a subcommittee having all three Republicans is the number of successful subcommittees (all Republicans) divided by the total number of possible subcommittees. \n* Probability = 10/286 = **5/143** \n",
+        "Here's how to solve this problem step-by-step:\n**1. Find the total number of possible subcommittees:**\n* There are 13 senators in total.\n* To find the number of ways to choose 3 out of 13, we use combinations:  \u00b9\u00b3C\u2083 = (13!)/(3!10!) = 286\n**2. Find the number of subcommittees with three Republicans:**\n* We need to choose 3 Republicans out of 5:  \u2075C\u2083 = (5!)/(3!2!) = 10\n**3. Calculate the probability:**\n* Probability = (Number of favorable outcomes) / (Total number of possible outcomes)\n* Probability = 10 / 286 \n* Probability = **5/143** \n**Therefore, the probability that the subcommittee consists of three Republicans is 5/143.** \n"
+    ],
+    "pred_answers": "143",
+    "final_pred_answer": [
+        "143",
+        "143",
+        "143",
+        "143",
+        "143"
+    ],
+    "ground_truth": "143"
+}

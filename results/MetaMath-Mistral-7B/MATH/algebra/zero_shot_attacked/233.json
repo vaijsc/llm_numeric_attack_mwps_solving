@@ -1,0 +1,41 @@
+{
+    "index_adversarial_question": 0,
+    "problem": "The quadratic $x^2-6x+66$ can be written in the form $(x+b)^2+c$, where $b$ and $c$ are constants. What is $b+c$?",
+    "pcot_answer": "# Define the coefficient of x^2\na = 3  ### condition: 'a': {'type': 'int', '<=': None, '>=': 1, 'science_constant': False, 'direct_from_question': True}\n# Define the coefficient of x\nb_coefficient = -6  ### condition: 'b_coefficient': {'type': 'int', '<=': None, '>=': None, 'science_constant': False, 'direct_from_question': True}\n# Define the constant term\nc_coefficient = 66  ### condition: 'c_coefficient': {'type': 'int', '<=': None, '>=': 0, 'science_constant': False, 'direct_from_question': True}\n# Calculate the value of b\nb = b_coefficient / (2 * a)  ### condition: 'b': {'type': 'float', '<=': None, '>=': None, 'science_constant': False, 'direct_from_question': False}\n# Calculate the value of c\nc = c_coefficient - (b**2)  ### condition: 'c': {'type': 'float', '<=': None, '>=': 0, 'science_constant': False, 'direct_from_question': False}\n# Calculate b + c\nb_plus_c = b + c  ### condition: 'b_plus_c': {'type': 'float', '<=': None, '>=': None, 'science_constant': False, 'direct_from_question': False}\n# Print the result\nprint(f\"Value of b + c: {b_plus_c}\")",
+    "answer": "64",
+    "vllm_responses": [
+        "We can rewrite the quadratic as $(x-3)^2-9+66=(x-3)^2+57$.\nSo, $b=-3$ and $c=57$, and $b+c=-3+57=\\boxed{54}$.\nThe answer is: 54",
+        "We complete the square to rewrite the quadratic as $(x-3)^2-5$.\nSo $b=-3$ and $c=-5$,\nand $b+c=-3+(-5)=\\boxed{-8}$.\nThe answer is: -8",
+        "We complete the square on the quadratic by adding and subtracting $(6/2)^2=9$ inside the parentheses: $x^2 - 6x + 66 = (x^2 - 6x + 9) + 66 - 9$.\nThis can be factored as $(x-3)^2 + 57$.\nSo, $b=-3$ and $c=57$, and $b+c = -3+57 = \\boxed{54}$.\nThe answer is: 54",
+        "To rewrite the quadratic in the given form, we need to complete the square.\nWe can rewrite the quadratic as $(x-3)^2 - 9 + 66$, which simplifies to $(x-3)^2 + 57$.\nTherefore, $b = -3$ and $c = 57$, and $b+c = -3+57 = \\boxed{54}$.\nThe answer is: 54",
+        "We complete the square by adding $(6/2)^2=9$ to both sides of the equation:\n\\[x^2-6x+66=9.\\]\nThis equation factors as $(x-3)^2-9+66=0$, or $(x-3)^2+57=0$.\nSo, $b=-3$ and $c=57$, and $b+c=-3+57=\\boxed{54}$.\nThe answer is: 54",
+        "We can rewrite the quadratic as $(x-3)^2-9$.\nSo, $b=-3$ and $c=-9$, and $b+c=-3+(-9)=\\boxed{-12}$.\nThe answer is: -12",
+        "We complete the square by adding and subtracting $(6/2)^2=9$ inside the parentheses, resulting in \\[\nx^2-6x+66=(x^2-6x+9)+66-9=(x-3)^2+57.\n\\] Thus, $b=-3$ and $c=57$, so $b+c=-3+57=\\boxed{54}$.The answer is: 54",
+        "To write the quadratic in the form $(x+b)^2+c$, we complete the square.\nWe have $(x^2-6x+66) = (x^2-6x+9) + 57 = (x-3)^2 + 57$.\nThus, $b=-3$ and $c=57$, so $b+c=(-3)+57=\\boxed{54}$.\nThe answer is: 54",
+        "We can expand $(x+b)^2+c$ as $x^2+2bx+b^2+c$.\nComparing this to $x^2-6x+66$, we can see that $2b=-6$ and $b=-3$.\nSo $b+c=(-3)+66=\\boxed{63}$.\nThe answer is: 63",
+        "We want to find constants $b$ and $c$ such that $(x+b)^2+c=x^2-6x+66$.\nExpanding $(x+b)^2$, we have $x^2+2bx+b^2+c$.\nSetting coefficients equal, we have the following system of equations:\n$2b=-6$, $b^2+c=66$.\nSolving the first equation, we find that $b=-3$.\nSubstituting this value of $b$ into the second equation, we find that $9+c=66$, so $c=57$.\nTherefore, $b+c=-3+57=\\boxed{54}$.\nThe answer is: 54",
+        "To write the quadratic $x^2-6x+66$ in the form $(x+b)^2+c$,\nwe complete the square:\n$$x^2-6x+66=(x^2-6x+9)+(66-9)$$\n$$=(x-3)^2+57.$$\nTherefore, $b=-3$ and $c=57$,\nso $b+c=-3+57=\\boxed{54}.$\nThe answer is: 54",
+        "Expanding $(x+b)^2+c$, we have $x^2+2bx+b^2+c$.\nWe want this to be equal to $x^2-6x+66$.\nSo, we must have $2b=-6$ and $b^2+c=66$.\nSolving $2b=-6$, we find $b=-3$.\nPlugging this into $b^2+c=66$, we have $9+c=66$.\nTherefore, $c=57$.\nFinally, $b+c=-3+57=\\boxed{54}$.\nThe answer is: 54",
+        "We complete the square by adding $(6/2)^2=9$ to the quadratic, resulting in \\[\nx^2-6x+66=(x^2-6x+9)+66-9 = (x-3)^2+57.\n\\] Therefore, $b=-3$ and $c=57$, so $b+c=-3+57=\\boxed{54}$.\nThe answer is: 54",
+        "We can complete the square to rewrite the quadratic in the desired form.\nWe have $(x-3)^2 - 6x + 9 - 66 = (x-3)^2 - 72 = (x+3)^2 - 72$.\nTherefore, $b=-3$ and $c=-72$, so $b+c = -3 + (-72) = \\boxed{-75}$.\nThe answer is: -75",
+        "To write the quadratic in the form $(x+b)^2+c$, we complete the square.\nWe have $(x^2-6x+9)+66-9 = (x-3)^2+57$.\nSo, $b=-3$ and $c=57$, and $b+c=(-3)+57=\\boxed{54}$.\nThe answer is: 54"
+    ],
+    "vllm_answers": [
+        "54",
+        "-8",
+        "54",
+        "54",
+        "54",
+        "-12",
+        "54",
+        "54",
+        "63",
+        "54",
+        "54",
+        "54",
+        "54",
+        "-75",
+        "54"
+    ],
+    "vllm_pred_answer": "54"
+}

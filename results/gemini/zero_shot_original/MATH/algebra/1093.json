@@ -1,0 +1,23 @@
+{
+    "problem": "Evaluate $\\lceil\\sqrt{10}\\rceil+ \\lfloor\\sqrt{10}\\rfloor$.",
+    "level": "Level 3",
+    "type": "Algebra",
+    "solution": "Since $\\sqrt{9}<\\sqrt{10}<\\sqrt{16}$, we know that $\\sqrt{10}$ is a number between $3$ and $4$. Therefore, the smallest integer that is greater than or equal to $\\sqrt{10}$ is $4$ and the greatest integer that is less than or equal to $\\sqrt{10}$ is $3$. So, $\\lceil\\sqrt{10}\\rceil+ \\lfloor\\sqrt{10}\\rfloor=4+3=\\boxed{7}$.",
+    "prompt": "### Instruction: Evaluate $\\lceil\\sqrt{10}\\rceil+ \\lfloor\\sqrt{10}\\rfloor$.\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "Here's how to evaluate the expression step-by-step:\n* **Understanding the functions:**\n    * **Ceiling function (\u2308x\u2309):**  The smallest integer greater than or equal to x.\n    * **Floor function (\u230ax\u230b):** The largest integer less than or equal to x.\n* **Evaluating the square root:**  \u221a10 is between 3 and 4 (since 3\u00b2 = 9 and 4\u00b2 = 16).\n* **Applying the ceiling function:** \u2308\u221a10\u2309 = 4  (The smallest integer greater than or equal to \u221a10 is 4).\n* **Applying the floor function:** \u230a\u221a10\u230b = 3 (The largest integer less than or equal to \u221a10 is 3).\n* **Adding the results:** 4 + 3 = 7\n**Therefore, \u2308\u221a10\u2309 + \u230a\u221a10\u230b = 7** \n",
+        "Here's how to evaluate the expression:\n* **Understanding the Functions:**\n    *  **Ceiling Function (\u2308x\u2309):**  The smallest integer greater than or equal to x. \n    * **Floor Function (\u230ax\u230b):** The largest integer less than or equal to x. \n* **Evaluating the Square Root:**\n    *  \u221a10 is between 3 and 4 (since 3\u00b2 = 9 and 4\u00b2 = 16).\n* **Applying the Ceiling Function:**\n    *  \u2308\u221a10\u2309 = 4 (the smallest integer greater than or equal to \u221a10)\n* **Applying the Floor Function:**\n    *  \u230a\u221a10\u230b = 3 (the largest integer less than or equal to \u221a10)\n* **Final Calculation:**\n    * \u2308\u221a10\u2309 + \u230a\u221a10\u230b = 4 + 3 = 7\n**Therefore, \u2308\u221a10\u2309 + \u230a\u221a10\u230b = 7** \n",
+        "Here's how to evaluate the expression step-by-step:\n* **Understanding the functions:**\n    * **Ceiling function (\u2308x\u2309):**  The smallest integer greater than or equal to x.\n    * **Floor function (\u230ax\u230b):** The largest integer less than or equal to x.\n* **Finding the values:**\n    *  \u221a10 is between 3 and 4 (since 3\u00b2 = 9 and 4\u00b2 = 16).\n    *  \u2308\u221a10\u2309 = 4 (the smallest integer greater than or equal to \u221a10)\n    *  \u230a\u221a10\u230b = 3 (the largest integer less than or equal to \u221a10)\n* **Calculation:**\n    * \u2308\u221a10\u2309 + \u230a\u221a10\u230b = 4 + 3 = 7\n**Therefore,  \u2308\u221a10\u2309 + \u230a\u221a10\u230b = 7** \n",
+        "Here's how to evaluate the expression step-by-step:\n* **Understanding the symbols:**\n    *  **\u2308x\u2309**  represents the **ceiling function**, which rounds *x* up to the nearest integer.\n    *  **\u230ax\u230b** represents the **floor function**, which rounds *x* down to the nearest integer.\n* **Calculate the square root:** \u221a10 is approximately 3.16.\n* **Apply the ceiling function:** \u2308\u221a10\u2309 = \u23083.16\u2309 = 4  (round up to the nearest integer)\n* **Apply the floor function:** \u230a\u221a10\u230b = \u230a3.16\u230b = 3 (round down to the nearest integer)\n* **Add the results:** 4 + 3 = 7\n**Therefore, \u2308\u221a10\u2309 + \u230a\u221a10\u230b = 7** \n",
+        "Here's how to solve this problem step-by-step:\n* **Understanding the functions:**\n    * **Ceiling function (\u2308x\u2309):**  This function rounds a number *up* to the nearest integer. \n    * **Floor function (\u230ax\u230b):** This function rounds a number *down* to the nearest integer.\n* **Calculating the square root:**  \u221a10 is approximately 3.16.\n* **Applying the ceiling function:** \u2308\u221a10\u2309 = \u23083.16\u2309 = 4  (since 4 is the smallest integer greater than or equal to 3.16)\n* **Applying the floor function:** \u230a\u221a10\u230b = \u230a3.16\u230b = 3  (since 3 is the largest integer less than or equal to 3.16)\n* **Adding the results:** \u2308\u221a10\u2309 + \u230a\u221a10\u230b = 4 + 3 = **7** \n"
+    ],
+    "pred_answers": "7",
+    "final_pred_answer": [
+        "7",
+        "7",
+        "7",
+        "7",
+        "7"
+    ],
+    "ground_truth": "7"
+}

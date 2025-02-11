@@ -1,0 +1,23 @@
+{
+    "problem": "Simplify $(x+3)(x-1) - x(x+2)$.",
+    "level": "Level 2",
+    "type": "Algebra",
+    "solution": "The first two terms multiply to $x^2 + 2x - 3$, and the last two multiply to $x^2 + 2x$. Thus, both the $x^2$ and the $2x$ cancel, leaving an answer of $\\boxed{-3}$.",
+    "prompt": "### Instruction: Simplify $(x+3)(x-1) - x(x+2)$.\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "Here's how to simplify the expression step-by-step:\n1. **Expand the first product:**\n   (x + 3)(x - 1) = x(x - 1) + 3(x - 1) \n   = x\u00b2 - x + 3x - 3\n   = x\u00b2 + 2x - 3\n2. **Expand the second product:**\n   -x(x + 2) = -x\u00b2 - 2x\n3. **Combine the results:**\n   x\u00b2 + 2x - 3 - x\u00b2 - 2x \n4. **Simplify by combining like terms:**\n   (x\u00b2 - x\u00b2) + (2x - 2x) - 3 = **-3**\nTherefore, the simplified expression is **-3**. \n",
+        "Here's how to simplify the expression step-by-step:\n1. **Expand the first product:** \n   (x + 3)(x - 1) = x(x - 1) + 3(x - 1) = x\u00b2 - x + 3x - 3\n2. **Expand the second product:**\n   -x(x + 2) = -x\u00b2 - 2x\n3. **Combine the results:**\n   (x\u00b2 - x + 3x - 3) - (x\u00b2 + 2x) = x\u00b2 - x + 3x - 3 - x\u00b2 - 2x\n4. **Simplify by combining like terms:**\n   x\u00b2 - x\u00b2 - x + 3x - 2x - 3 = **-3**\n**Therefore, the simplified expression is -3.** \n",
+        "**Step 1: Expand the first product.**\n* Use the distributive property (FOIL): (x + 3)(x - 1) = x(x) + x(-1) + 3(x) + 3(-1) \n* Simplify: = x\u00b2 - x + 3x - 3\n**Step 2: Expand the second product.**\n* Use the distributive property: x(x + 2) = x(x) + x(2)\n* Simplify: = x\u00b2 + 2x\n**Step 3: Combine the expanded terms.**\n* Substitute the expanded products back into the original expression: (x\u00b2 - x + 3x - 3) - (x\u00b2 + 2x)\n* Distribute the negative sign: x\u00b2 - x + 3x - 3 - x\u00b2 - 2x\n**Step 4: Simplify by combining like terms.**\n* Combine the x\u00b2 terms: (x\u00b2 - x\u00b2) = 0\n* Combine the x terms: (-x + 3x - 2x) = 0\n* Combine the constant term: -3\n**Final Result:** The simplified expression is **-3**. \n",
+        "Here's how to simplify the expression step-by-step:\n1. **Expand the first product:**\n   (x + 3)(x - 1) = x(x - 1) + 3(x - 1) = x\u00b2 - x + 3x - 3 = x\u00b2 + 2x - 3\n2. **Expand the second product:**\n   -x(x + 2) = -x\u00b2 - 2x\n3. **Combine the results:**\n   x\u00b2 + 2x - 3 - x\u00b2 - 2x = **-3**\n**Therefore, the simplified expression is -3.** \n",
+        "Here's how to simplify the expression step by step:\n1. **Expand the first product:**\n   (x + 3)(x - 1) = x(x - 1) + 3(x - 1) = x\u00b2 - x + 3x - 3 = x\u00b2 + 2x - 3\n2. **Expand the second product:**\n   -x(x + 2) = -x\u00b2 - 2x\n3. **Combine the results:**\n   (x\u00b2 + 2x - 3) - (x\u00b2 + 2x) = x\u00b2 + 2x - 3 - x\u00b2 - 2x\n4. **Simplify by combining like terms:**\n   x\u00b2 + 2x - 3 - x\u00b2 - 2x = **-3**\nTherefore, the simplified expression is **-3**. \n"
+    ],
+    "pred_answers": "-3",
+    "final_pred_answer": [
+        "-3",
+        "-3",
+        "-3",
+        "-3",
+        "-3"
+    ],
+    "ground_truth": "-3"
+}

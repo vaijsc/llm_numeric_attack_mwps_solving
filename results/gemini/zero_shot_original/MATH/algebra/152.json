@@ -1,0 +1,23 @@
+{
+    "problem": "What is the greatest prime factor of the sum of the arithmetic sequence $1 + 2 + 3 + \\cdots + 80$?",
+    "level": "Level 3",
+    "type": "Algebra",
+    "solution": "For all $n$, $1 + 2 + \\dots + n = n(n + 1)/2$, so $1+2+3+\\dots+80=\\frac{80 \\cdot 81}{2}=40\\cdot81=2^3\\cdot5\\cdot3^4$. Thus, the greatest prime factor of the sum is $\\boxed{5}$.",
+    "prompt": "### Instruction: What is the greatest prime factor of the sum of the arithmetic sequence $1 + 2 + 3 + \\cdots + 80$?\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "Here's how to solve the problem step-by-step:\n**1. Find the sum of the arithmetic sequence:**\nThe sum of an arithmetic sequence is given by:\n*  S = (n/2)(a + l) \nWhere:\n* S = sum of the sequence\n* n = number of terms\n* a = first term\n* l = last term\nIn this case:\n* n = 80\n* a = 1\n* l = 80\nSo, the sum of the sequence is: S = (80/2)(1 + 80) = 40 * 81 = 3240\n**2. Find the prime factorization of the sum:**\nTo find the greatest prime factor, we need to factorize 3240:\n* 3240 = 2 * 2 * 2 * 3 * 3 * 3 * 3 * 5 \n* 3240 = 2\u00b3 * 3\u2074 * 5\n**3. Identify the greatest prime factor:**\nThe greatest prime factor in the factorization of 3240 is **5**. \n**Therefore, the greatest prime factor of the sum of the arithmetic sequence 1 + 2 + 3 + ... + 80 is 5.** \n",
+        "Here's how to solve the problem step-by-step:\n**1. Find the sum of the arithmetic sequence:**\n* The sum of an arithmetic sequence is given by:  (n/2)(a + l) where 'n' is the number of terms, 'a' is the first term, and 'l' is the last term.\n* In this case, n = 80, a = 1, and l = 80.\n* Sum = (80/2)(1 + 80) = 40 * 81 = 3240\n**2. Prime Factorize the sum:**\n* 3240 is divisible by 2: 3240 = 2 * 1620\n* 1620 is divisible by 2: 1620 = 2 * 810\n* 810 is divisible by 2: 810 = 2 * 405\n* 405 is divisible by 3: 405 = 3 * 135\n* 135 is divisible by 3: 135 = 3 * 45\n* 45 is divisible by 3: 45 = 3 * 15\n* 15 is divisible by 3: 15 = 3 * 5 \n* 5 is a prime number\n**3. Identify the greatest prime factor:**\n* The prime factorization of 3240 is 2 * 2 * 2 * 3 * 3 * 3 * 3 * 5\n* The greatest prime factor is **5**. \n**Therefore, the greatest prime factor of the sum of the arithmetic sequence is 5.** \n",
+        "Here's how to solve the problem step-by-step:\n**1. Find the sum of the arithmetic sequence:**\nThe sum of an arithmetic sequence is the average of the first and last term, multiplied by the number of terms.  In this case:\n* First term: 1\n* Last term: 80\n* Number of terms: 80\nTherefore, the sum is  (1 + 80)/2 * 80 = 3240.\n**2. Prime Factorization of 3240:**\nTo find the greatest prime factor, we need to break 3240 down into its prime factors:\n* 3240 = 2 * 1620\n* 1620 = 2 * 810\n* 810 = 2 * 405\n* 405 = 3 * 135\n* 135 = 3 * 45\n* 45 = 3 * 15\n* 15 = 3 * 5\nTherefore, the prime factorization of 3240 is 2^3 * 3^4 * 5.\n**3. Identify the Greatest Prime Factor:**\nThe greatest prime factor in the prime factorization of 3240 is **5**. \n",
+        "Here's how to solve the problem step-by-step:\n**1. Find the sum of the arithmetic sequence:**\nThe sum of an arithmetic sequence is given by: \n  \n  *  S = (n/2)(a + l) \nwhere:\n    * S = sum of the sequence\n    * n = number of terms \n    * a = first term\n    * l = last term\nIn this case:\n    * n = 80\n    * a = 1\n    * l = 80\nTherefore: \n  * S = (80/2)(1 + 80) = 40 * 81 = 3240\n**2. Find the prime factorization of the sum:**\nThe prime factorization of 3240 is: 2\u00b2 * 3\u2074 * 5\n**3. Identify the greatest prime factor:**\nThe greatest prime factor in the factorization of 3240 is **5**. \n**Therefore, the greatest prime factor of the sum of the arithmetic sequence 1 + 2 + 3 + ... + 80 is 5.** \n",
+        "Here's how to solve the problem step-by-step:\n**1. Find the sum of the arithmetic sequence:**\n* The sum of an arithmetic series is given by:  (number of terms / 2) * (first term + last term)\n* In this case: (80 / 2) * (1 + 80) = 40 * 81 = 3240\n**2. Prime Factorization:**\n* Find the prime factorization of 3240: \n   * 3240 = 2 * 2 * 2 * 3 * 3 * 3 * 3 * 5 = 2\u00b3 * 3\u2074 * 5\n**3. Identify the Greatest Prime Factor:**\n* The greatest prime factor in the prime factorization of 3240 is **5**.\n**Therefore, the greatest prime factor of the sum of the arithmetic sequence is 5.** \n"
+    ],
+    "pred_answers": "5",
+    "final_pred_answer": [
+        "5",
+        "5",
+        "5",
+        "5",
+        "5"
+    ],
+    "ground_truth": "5"
+}

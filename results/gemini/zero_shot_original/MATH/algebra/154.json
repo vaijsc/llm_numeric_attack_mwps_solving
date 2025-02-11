@@ -1,0 +1,23 @@
+{
+    "problem": "If $\\frac{x}{y}= 2$ and $\\frac{z}{x}= 4$, what is the value of $\\frac{z}{y}$?",
+    "level": "Level 1",
+    "type": "Algebra",
+    "solution": "$\\frac z y=\\frac z x\\cdot\\frac x y=4\\cdot2=\\boxed{8}$.",
+    "prompt": "### Instruction: If $\\frac{x}{y}= 2$ and $\\frac{z}{x}= 4$, what is the value of $\\frac{z}{y}$?\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "Here's how to solve the problem step-by-step:\n1. **Isolate x in the first equation:**\n   Since  x/y = 2, we can multiply both sides by y to get: \n   x = 2y\n2. **Substitute the value of x in the second equation:**\n   We know z/x = 4.  Substitute x = 2y into this equation:\n   z / (2y) = 4\n3. **Solve for z/y:**\n   To isolate z/y, multiply both sides of the equation by 2y:\n   z = 8y\n   Then, divide both sides by y:\n   z/y = 8\n**Therefore, the value of z/y is 8.** \n",
+        "Here's how to solve the problem step-by-step:\n1. **Understanding the Ratios:**\n   *  The first equation,  x/y = 2,  tells us that  x is twice as big as y.\n   * The second equation, z/x = 4, tells us that z is four times as big as x.\n2. **Combining the Ratios:** \n   * We want to find z/y.  Notice that  (z/x) * (x/y) = z/y.  \n   * This means we can multiply the two given ratios to get the desired ratio.\n3. **Calculation:**\n   *  (z/x) * (x/y) = (4) * (2) = 8\n**Therefore, the value of z/y is 8.** \n",
+        "Here's how to solve this problem step-by-step:\n1. **Isolate 'x' in the first equation:**\n   If  x/y = 2, then x = 2y\n2. **Substitute 'x' in the second equation:**\n   If z/x = 4 and x = 2y, then z/(2y) = 4\n3. **Solve for z/y:**\n   Multiply both sides of the equation by 2y: z = 8y\n   Divide both sides by y: z/y = 8\n**Therefore, the value of z/y is 8.** \n",
+        "Here's how to solve this step-by-step:\n1. **Multiply the equations together:** \n   (x/y) * (z/x) = 2 * 4\n   \n2. **Simplify:** Notice that the 'x' terms cancel out:\n   z/y = 8\n**Therefore, the value of z/y is 8.** \n",
+        "Here's how to solve the problem step-by-step:\n1. **Understanding the relationships:**\n   - We know that  x is twice as large as y (since x/y = 2).\n   - We also know that z is four times as large as x (since z/x = 4).\n2. **Combining the relationships:**\n   - To find z/y, we can think about how z relates to y directly. Since z is four times x, and x is twice y, then z is (4 * 2) = 8 times larger than y.\n3. **Solution:**\n   - Therefore, z/y = 8. \n"
+    ],
+    "pred_answers": "8",
+    "final_pred_answer": [
+        "8",
+        "8",
+        "8",
+        "8",
+        "8"
+    ],
+    "ground_truth": "8"
+}

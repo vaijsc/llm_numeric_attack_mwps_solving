@@ -1,0 +1,23 @@
+{
+    "problem": "Compute $\\dbinom{182}{180}$.",
+    "level": "Level 2",
+    "type": "Counting & Probability",
+    "solution": "$$\\dbinom{182}{180}=\\dbinom{182}{2}=\\dfrac{182\\times 181}{2!}=\\boxed{16,\\!471}.$$",
+    "prompt": "### Instruction: Compute $\\dbinom{182}{180}$.\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "**Step 1: Understand the binomial coefficient**\nThe binomial coefficient $\\binom{n}{k}$ represents the number of ways to choose $k$ items from a set of $n$ items, where order doesn't matter.  It can be calculated using the formula:\n  $\\binom{n}{k} = \\dfrac{n!}{k!(n-k)!}$\n**Step 2: Apply the formula**\nIn this case, we want to find $\\binom{182}{180}$.  Let's plug in the values:\n$\\binom{182}{180} = \\dfrac{182!}{180!(182-180)!} = \\dfrac{182!}{180!2!}$\n**Step 3: Simplify the expression**\nNotice that 182! contains 180! as a factor:\n182! = 182 * 181 * 180 * 179 * ... * 2 * 1 = 182 * 181 * 180!\nAlso, 2! = 2 * 1 = 2.\nSubstituting these back into our expression:\n$\\dfrac{182!}{180!2!} = \\dfrac{182 * 181 * 180!}{180! * 2} = \\dfrac{182 * 181}{2}$\n**Step 4: Calculate the result**\nFinally, calculate the product:\n$\\dfrac{182 * 181}{2} = \\boxed{16431}$ \n",
+        "Here's how to compute $\\binom{182}{180}$ step-by-step:\n**Understanding the Binomial Coefficient**\nThe binomial coefficient $\\binom{n}{k}$ (read \"n choose k\") represents the number of ways to choose a group of *k* items from a set of *n* distinct items. It's calculated as:\n$$\\binom{n}{k} = \\frac{n!}{k!(n-k)!}$$\nwhere \"!\" denotes the factorial (e.g., 5! = 5 * 4 * 3 * 2 * 1).\n**Calculation**\n1. **Set up the formula:**\n   We have n = 182 and k = 180, so:\n   $$\\binom{182}{180} = \\frac{182!}{180!(182-180)!}$$\n2. **Simplify:**\n   $$\\binom{182}{180} = \\frac{182!}{180!2!}$$\n3. **Expand the factorials:**\n   $$\\binom{182}{180} = \\frac{182 \\times 181 \\times 180!}{180! \\times 2 \\times 1}$$\n4. **Cancel common terms:**\n   $$\\binom{182}{180} = \\frac{182 \\times 181}{2 \\times 1}$$\n5. **Calculate:**\n   $$\\binom{182}{180} = \\frac{32982}{2} = 16491$$\n**Therefore, $\\binom{182}{180} = 16491$.** \n",
+        "We can compute $\\binom{182}{180}$ using the following formula:\n$$\\binom{n}{k} = \\frac{n!}{k!(n-k)!}$$\nIn this case, we have $n = 182$ and $k = 180$.  Substituting these values into the formula, we get:\n$$\\binom{182}{180} = \\frac{182!}{180!(182-180)!} = \\frac{182!}{180!2!}$$\nTo simplify this, we can expand the factorials:\n$$\\frac{182!}{180!2!} = \\frac{182 \\times 181 \\times 180!}{180! \\times 2 \\times 1}$$\nCanceling the $180!$ terms, we are left with:\n$$\\frac{182 \\times 181}{2 \\times 1} = \\frac{32962}{2} = \\boxed{16481}$$ \n",
+        "We have that\n\\[\\binom{182}{180} = \\frac{182!}{180!2!} = \\frac{182 \\times 181}{2 \\times 1} = \\boxed{16431}.\\]",
+        "We know that $\\binom{n}{k} = \\frac{n!}{k!(n-k)!}$.  Therefore,\n\\[\\binom{182}{180} = \\frac{182!}{180!2!} = \\frac{182 \\cdot 181}{2 \\cdot 1} = \\boxed{16431}.\\]"
+    ],
+    "pred_answers": "16431",
+    "final_pred_answer": [
+        "16431",
+        "16491",
+        "16481",
+        "16431",
+        "16431"
+    ],
+    "ground_truth": "471"
+}

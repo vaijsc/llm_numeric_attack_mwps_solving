@@ -1,0 +1,23 @@
+{
+    "problem": "If a recipe for a two-pound cake requires 1.5 cups of flour, how many cups are needed for 2 five-pound cakes?",
+    "level": "Level 1",
+    "type": "Algebra",
+    "solution": "We first find that $2$ five-pound cakes results in $2 \\times 5 = 10$ pounds of cake total. Since a two-pound cake requires $1.5$ cups of flour, a ten pounds of cake will require five times as much flour (since $10/2=5$). Five times $1.5$ cups of flour is $\\boxed{7.5}$ pounds of flour.",
+    "prompt": "### Instruction: If a recipe for a two-pound cake requires 1.5 cups of flour, how many cups are needed for 2 five-pound cakes?\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "Here's how to solve this problem step-by-step:\n**1. Find the flour needed for one five-pound cake:**\n* Since a two-pound cake needs 1.5 cups of flour, a five-pound cake will need more flour. \n* The ratio of cake weight to flour is 2 pounds : 1.5 cups. \n* To find the flour needed for a five-pound cake, set up a proportion: \n   2 pounds / 1.5 cups = 5 pounds / x cups\n* Cross-multiply: 2x = 7.5\n* Solve for x: x = 7.5 / 2 = 3.75 cups\n**2. Find the total flour needed for two five-pound cakes:**\n* Since one five-pound cake needs 3.75 cups of flour, two cakes will need double that amount.\n* Total flour: 3.75 cups/cake * 2 cakes = 7.5 cups\n**Answer:** You will need **7.5 cups** of flour for two five-pound cakes. \n",
+        "Here's how to solve this problem step-by-step:\n**1. Calculate the flour needed for one five-pound cake:**\n* A five-pound cake is 2.5 times larger than a two-pound cake (5 pounds / 2 pounds = 2.5).\n* Since the flour amount scales proportionally, you'll need 2.5 times more flour for a five-pound cake: 1.5 cups * 2.5 = 3.75 cups.\n**2. Calculate the total flour needed for two five-pound cakes:**\n* You need 3.75 cups of flour per five-pound cake.\n* For two cakes, you'll need twice that amount: 3.75 cups * 2 = 7.5 cups.\n**Answer:** You need **7.5 cups** of flour for two five-pound cakes. \n",
+        "Here's how to solve the problem step-by-step:\n**1. Determine the flour needed for one five-pound cake:**\n* Since a two-pound cake needs 1.5 cups of flour, a five-pound cake would need more flour. \n* To figure out how much more, find the ratio of the cake sizes: 5 pounds / 2 pounds = 2.5 \n* Multiply the flour amount for the two-pound cake by this ratio: 1.5 cups * 2.5 = 3.75 cups\n**2. Calculate the total flour needed for two five-pound cakes:**\n*  Multiply the flour needed for one five-pound cake by 2: 3.75 cups * 2 = 7.5 cups\n**Answer:** You will need **7.5 cups** of flour for two five-pound cakes. \n",
+        "Here's how to solve this problem step-by-step:\n**1. Calculate the total weight of the cakes:**\n* You want to make 2 cakes, each weighing 5 pounds, so the total weight is 2 cakes * 5 pounds/cake = 10 pounds.\n**2. Figure out the flour needed per pound of cake:**\n* The 2-pound cake uses 1.5 cups of flour, so the flour per pound is 1.5 cups / 2 pounds = 0.75 cups/pound.\n**3. Calculate the total flour needed:**\n* Multiply the flour per pound by the total weight of the cakes: 0.75 cups/pound * 10 pounds = 7.5 cups.\n**Answer:** You will need **7.5 cups** of flour for two five-pound cakes. \n",
+        "Here's how to solve the problem step-by-step:\n**1. Calculate the total weight of the cakes:**\n* Two 5-pound cakes weigh a total of 2 * 5 = 10 pounds.\n**2. Determine the scaling factor:**\n* The new cakes are 10 pounds / 2 pounds = 5 times heavier than the original recipe.\n**3. Calculate the flour needed:**\n* Since we need 1.5 cups of flour for the original recipe, we need 1.5 cups * 5 = 7.5 cups of flour for the larger cakes.\n**Therefore, you need 7.5 cups of flour for two five-pound cakes.** \n"
+    ],
+    "pred_answers": "7.5",
+    "final_pred_answer": [
+        "7.5",
+        "7.5",
+        "7.5",
+        "7.5",
+        "7.5"
+    ],
+    "ground_truth": "7.5"
+}

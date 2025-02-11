@@ -1,0 +1,23 @@
+{
+    "problem": "The sum of two numbers is 40 and their difference is 12. What is their product?",
+    "level": "Level 1",
+    "type": "Algebra",
+    "solution": "Let's start by rewriting this problem into equation form:\n\n\\begin{align*}\nx + y &= 40, \\\\\nx - y &= 12.\n\\end{align*}We want to find $xy$, so let's find $x$ and $y$ separately.\n\nBegin by adding the two equations:  \\begin{align*}\n2x &= 52 \\\\\nx &= 26\n\\end{align*}Now, subtract the two equations \\begin{align*}\n2y &= 28 \\\\\ny &= 14\n\\end{align*}So then $x \\cdot y = 26 \\cdot 14 = \\boxed{364}$.",
+    "prompt": "### Instruction: The sum of two numbers is 40 and their difference is 12. What is their product?\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "Here's how to solve this problem step-by-step:\n**1. Set up equations:**\n* Let 'x' represent the larger number.\n* Let 'y' represent the smaller number.\nWe are given:\n* x + y = 40 \n* x - y = 12\n**2. Solve for x and y:**\n* **Add the two equations together:** Notice that the 'y' terms cancel out.\n   (x + y) + (x - y) = 40 + 12\n   2x = 52\n* **Solve for x:** Divide both sides by 2.\n   x = 26\n* **Substitute the value of x back into either original equation to solve for y:** Let's use x + y = 40\n   26 + y = 40\n* **Solve for y:** Subtract 26 from both sides.\n   y = 14\n**3. Calculate the product:**\n* Now that we know x = 26 and y = 14, we can find their product:\n   x * y = 26 * 14 = 364\n**Therefore, the product of the two numbers is 364.** \n",
+        "Here's how to solve the problem step-by-step:\n**1. Set up equations:**\n* Let 'x' be the larger number.\n* Let 'y' be the smaller number.\nWe are given:\n*  x + y = 40  \n*  x - y = 12\n**2. Solve for x and y:**\n* **Add the two equations together:** \n   (x + y) + (x - y) = 40 + 12\n   2x = 52\n   x = 26 \n* **Substitute the value of x (26) into either of the original equations to solve for y:**\n   26 + y = 40\n   y = 14\n**3. Calculate the product:**\n*  Product = x * y = 26 * 14 = **364**\n**Therefore, the product of the two numbers is 364.** \n",
+        "Here's how to solve this problem step-by-step:\n**1. Set up equations:**\n* Let 'x' be the larger number.\n* Let 'y' be the smaller number.\nWe are given:\n*  x + y = 40 \n*  x - y = 12\n**2. Solve for x and y:**\n* **Add the two equations together:** Notice that the 'y' terms cancel out:\n   (x + y) + (x - y) = 40 + 12\n   2x = 52\n   x = 26\n* **Substitute the value of x (26) back into either of the original equations to solve for y:**\n   26 + y = 40\n   y = 14\n**3. Calculate the product:**\n* Now that you know x = 26 and y = 14, multiply them together:\n   x * y = 26 * 14 = 364\n**Therefore, the product of the two numbers is 364.** \n",
+        "Here's how to solve the problem step-by-step:\n**1. Set up equations:**\n* Let 'x' be the larger number.\n* Let 'y' be the smaller number.\nWe are given:\n* x + y = 40 \n* x - y = 12\n**2. Solve for one variable:**\n* Add the two equations together: \n   (x + y) + (x - y) = 40 + 12\n* This simplifies to: 2x = 52\n* Divide both sides by 2: x = 26\n**3. Solve for the other variable:**\n* Substitute the value of x (26) into either of the original equations. Let's use x + y = 40.\n* 26 + y = 40\n* Subtract 26 from both sides: y = 14\n**4. Calculate the product:**\n* The product of the two numbers is x * y.\n* Product = 26 * 14 = 364\n**Therefore, the product of the two numbers is 364.** \n",
+        "Here's how to solve this problem step-by-step:\n**1. Set up equations:**\n* Let 'x' be the larger number.\n* Let 'y' be the smaller number.\nWe are given:\n*  x + y = 40 \n*  x - y = 12\n**2. Solve for x and y:**\n* **Add the two equations together:** \n   (x + y) + (x - y) = 40 + 12\n   2x = 52\n   x = 26\n* **Substitute the value of x (26) into either of the original equations to solve for y:**\n   26 + y = 40\n   y = 14\n**3. Calculate the product:**\n* Product of the two numbers = x * y \n* Product = 26 * 14 = **364**\n**Therefore, the product of the two numbers is 364.** \n"
+    ],
+    "pred_answers": "364",
+    "final_pred_answer": [
+        "364",
+        "364",
+        "364",
+        "364",
+        "364"
+    ],
+    "ground_truth": "364"
+}

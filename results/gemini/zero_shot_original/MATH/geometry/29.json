@@ -1,0 +1,23 @@
+{
+    "problem": "Two sides of a triangle are each $8$ units long. If the third side has a whole number length, what is the greatest possible perimeter, in units, for the triangle?",
+    "level": "Level 2",
+    "type": "Geometry",
+    "solution": "The Triangle Inequality says that the sum of the lengths of any two sides must be greater than the length of the third side. That means $8+8=16$ must be greater than the length of the third side. The third side has a whole number length, so the greatest possible length is 15 units. That makes the perimeter $8+8+15=\\boxed{31}$ units.",
+    "prompt": "### Instruction: Two sides of a triangle are each $8$ units long. If the third side has a whole number length, what is the greatest possible perimeter, in units, for the triangle?\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "Here's how to solve the problem step-by-step:\n**1. Triangle Inequality Theorem**\nThe Triangle Inequality Theorem states that the sum of the lengths of any two sides of a triangle must be greater than the length of the third side.\n**2. Applying the Theorem**\n* We know two sides are 8 units each.\n* To maximize the perimeter, we want to make the third side as large as possible.\n* Let's call the third side 'x'.\n*  Applying the theorem:\n   * 8 + 8 > x \n   * 16 > x\n**3. Finding the Greatest Possible Whole Number Length**\nThe greatest possible whole number length for 'x' that satisfies the inequality is **15**.\n**4. Calculating the Perimeter**\nThe greatest possible perimeter is 8 + 8 + 15 = **31 units**. \n",
+        "Here's how to solve the problem step-by-step:\n**Understanding the Triangle Inequality**\nThe Triangle Inequality Theorem states that the sum of any two sides of a triangle must be greater than the length of the third side.\n**Finding the Maximum Third Side**\n*  Let the third side have length *x*.\n*  We need to find the largest possible *x* that satisfies the Triangle Inequality.\n*  Applying the theorem: \n    *  8 + 8 > x  (The sum of the two shorter sides must be greater than the longest side)\n    *  16 > x \n**Finding the Maximum Perimeter**\n* The greatest possible whole number value for *x* is 15.\n* The maximum perimeter is 8 + 8 + 15 = **31 units**. \n",
+        "Here's how to solve the problem step-by-step:\n**Understanding the Triangle Inequality**\nThe Triangle Inequality states that the sum of the lengths of any two sides of a triangle must be greater than the length of the third side.\n**Applying the Inequality**\n* We know two sides are 8 units long.\n* To maximize the perimeter, we want to make the third side as long as possible.\n* Let's call the third side 'x'. \n* The Triangle Inequality tells us:\n    * 8 + 8 > x \n    * 16 > x\n**Finding the Greatest Possible Length**\n* The greatest whole number value of 'x' that satisfies 16 > x is x = 15.\n**Calculating the Perimeter**\n* Perimeter = 8 + 8 + 15 = **31 units**\n**Answer:** The greatest possible perimeter for the triangle is **31 units**. \n",
+        "Here's how to solve the problem step-by-step:\n* **Triangle Inequality:**  The Triangle Inequality Theorem states that the sum of the lengths of any two sides of a triangle must be greater than the length of the third side.\n* **Applying the Theorem:**\n    * Since two sides are 8 units each, the third side must be less than 8 + 8 = 16 units. \n    *  The third side must also be greater than 8 - 8 = 0 units.\n* **Finding the Greatest Possible Perimeter:**  To maximize the perimeter, we want the third side to be as large as possible while still satisfying the Triangle Inequality.  The greatest possible whole number length for the third side is 15 units.\n* **Calculating the Perimeter:** The greatest possible perimeter is 8 + 8 + 15 = **31 units**. \n",
+        "### Response:\nTo form a triangle, the sum of the lengths of any two sides must be greater than the length of the third side.\n* **Consider the two sides of length 8:** Their sum is 16. \n* **The third side must be less than 16:**  If the third side were 16 or greater, the triangle inequality wouldn't hold. \n* **The greatest possible whole number length for the third side is 15.**\nTherefore, the greatest possible perimeter is 8 + 8 + 15 = **31 units**. \n"
+    ],
+    "pred_answers": "31",
+    "final_pred_answer": [
+        "31",
+        "31",
+        "31",
+        "31",
+        "31"
+    ],
+    "ground_truth": "31"
+}

@@ -1,0 +1,23 @@
+{
+    "problem": "If $\\frac{\\sqrt{6y+2}}{\\sqrt{2y}}=\\frac52$, solve for $y$. Express your answer in simplest fractional form.",
+    "level": "Level 4",
+    "type": "Algebra",
+    "solution": "To begin, we observe that the expression $\\frac{\\sqrt{6y+2}}{\\sqrt{2y}}$ is defined if and only if $y>0$. In this case, it is equal to $\\sqrt{\\frac{6y+2}{2y}}$. Since the quantity under the radical is always nonnegative for $y>0$, we may safely square both sides of our equation without creating fake solutions: $$\\frac{6y+2}{2y}=\\frac{25}{4}.$$Now we cross-multiply to obtain $$4(6y+2) = 25(2y),$$and solve this linear equation: \\begin{align*}\n24y+8 &= 50y \\\\\n8 &= 26y \\\\\n\\boxed{\\frac{4}{13}} &= y\n\\end{align*}",
+    "prompt": "### Instruction: If $\\frac{\\sqrt{6y+2}}{\\sqrt{2y}}=\\frac52$, solve for $y$. Express your answer in simplest fractional form.\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "Here's how to solve for *y*:\n1. **Square both sides:** Squaring both sides of the equation eliminates the square roots: \n   \n   ```\n   (\u221a(6y + 2) / \u221a(2y))^2 = (5/2)^2\n   ```\n   This simplifies to:\n   ```\n   (6y + 2) / (2y) = 25/4\n   ```\n2. **Cross-multiply:** Multiply both sides by (2y) and by 4:\n   ```\n   4(6y + 2) = 25(2y)\n   ```\n3. **Simplify and solve for y:** Expand both sides and combine like terms:\n   ```\n   24y + 8 = 50y\n   ```\n   Subtract 24y from both sides:\n   ```\n   8 = 26y\n   ```\n   Divide both sides by 26:\n   ```\n   y = 8/26\n   ```\n4. **Simplify the fraction:**  Reduce the fraction to its simplest form by dividing both numerator and denominator by their greatest common factor, 2:\n   ```\n   y = **4/13**\n   ```\nTherefore, the solution is **y = 4/13**. \n",
+        "Here's how to solve the equation step-by-step:\n1. **Simplify the radicals:** Since the square root of a product is equal to the product of the square roots, we can simplify:\n   ```\n   \u221a(6y + 2) / \u221a(2y) = \u221a[(6y + 2) / (2y)]\n   ```\n2. **Simplify the fraction inside the radical:**\n   ```\n   \u221a[(6y + 2) / (2y)] = \u221a[3 + 1/y] \n   ```\n3. **Rewrite the equation:**\n   ```\n   \u221a[3 + 1/y] = 5/2\n   ```\n4. **Square both sides:**\n   ```\n   3 + 1/y = 25/4\n   ```\n5. **Subtract 3 from both sides:**\n   ```\n   1/y = 13/4\n   ```\n6. **Take the reciprocal of both sides:**\n   ```\n   y = 4/13\n   ```\nTherefore, the solution is  **y = 4/13**. \n",
+        "Here's how to solve the equation step-by-step:\n1. **Simplify the radicals:**  The square root of 2 is a factor of both the numerator and denominator on the left side of the equation.  We can simplify:\n   $$\\frac{\\sqrt{6y+2}}{\\sqrt{2y}} = \\frac{\\sqrt{2(3y+1)}}{\\sqrt{2y}} = \\frac{\\sqrt{2}\\sqrt{3y+1}}{\\sqrt{2}\\sqrt{y}} = \\frac{\\sqrt{3y+1}}{\\sqrt{y}}$$\n2. **Square both sides:** To eliminate the square roots, square both sides of the equation:\n   $$\\left(\\frac{\\sqrt{3y+1}}{\\sqrt{y}}\\right)^2 = \\left(\\frac{5}{2}\\right)^2$$\n3. **Simplify:**\n   $$\\frac{3y+1}{y} = \\frac{25}{4}$$\n4. **Cross-multiply:**\n   $$4(3y+1) = 25y$$\n5. **Distribute and solve for y:**\n   $$12y + 4 = 25y$$\n   $$4 = 13y$$\n   $$y = \\boxed{\\frac{4}{13}}$$ \n",
+        "1. **Square both sides:** Squaring both sides of the equation gets rid of the square roots:\n   \n   \\[\\left(\\frac{\\sqrt{6y+2}}{\\sqrt{2y}}\\right)^2 = \\left(\\frac{5}{2}\\right)^2\\]\n   \n   This simplifies to:\n   \n   \\[\\frac{6y+2}{2y} = \\frac{25}{4}\\]\n2. **Cross-multiply:** Multiply both sides by $2y$ and by $4$:\n   \\[4(6y+2) = 25(2y)\\]\n3. **Simplify and solve for y:**  Expand and solve the linear equation:\n   \\[24y + 8 = 50y\\]\n   \\[8 = 26y\\]\n   \\[y = \\boxed{\\frac{4}{13}}\\] \n",
+        "Here's how to solve for *y* step-by-step:\n1. **Simplify the radicals:** \n   * The square root of 2y can be factored out of the numerator: \n     *  \u221a(6y + 2) = \u221a(2y * 3 + 2y * 1) = \u221a(2y) * \u221a(3 + 1) = \u221a(2y) * \u221a4 = 2\u221a(2y)\n2. **Rewrite the equation:**\n   * Now our equation is: (2\u221a(2y)) / \u221a(2y) = 5/2\n3. **Cancel the common factors:**\n   * The \u221a(2y) terms cancel out, leaving us with: 2 = 5/2\n4. **Solve for y:**\n   * This is a contradiction!  2 cannot equal 5/2. \n**Therefore, there is no solution for *y* that satisfies the given equation.** \n"
+    ],
+    "pred_answers": "13",
+    "final_pred_answer": [
+        "13",
+        "13",
+        "13",
+        "13",
+        "2"
+    ],
+    "ground_truth": "13"
+}

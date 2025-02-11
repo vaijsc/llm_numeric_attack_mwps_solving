@@ -1,0 +1,23 @@
+{
+    "problem": "Evaluate: $\\left( \\frac{1}{2} + \\frac{1}{3} \\right) \\left( \\frac{1}{2} - \\frac{1}{3} \\right)$",
+    "level": "Level 2",
+    "type": "Algebra",
+    "solution": "For any $x$ and $y$, $(x+y)(x-y)=x^2-y^2+xy-xy=x^2-y^2$, so \\begin{align*}\n\\left( \\frac{1}{2} + \\frac{1}{3} \\right) \\left( \\frac{1}{2} - \\frac{1}{3} \\right)&=\\left(\\frac12\\right)^2-\\left(\\frac13\\right)^2\\\\\n&=\\frac14-\\frac19\\\\\n&=\\frac{9}{36}-\\frac{4}{36}\\\\\n&=\\boxed{\\frac{5}{36}}\n\\end{align*}",
+    "prompt": "### Instruction: Evaluate: $\\left( \\frac{1}{2} + \\frac{1}{3} \\right) \\left( \\frac{1}{2} - \\frac{1}{3} \\right)$\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "Here's how to evaluate the expression step-by-step:\n1. **Simplify the fractions inside the parentheses:**\n   *  (1/2) + (1/3) = (3/6) + (2/6) = 5/6\n   *  (1/2) - (1/3) = (3/6) - (2/6) = 1/6\n2. **Multiply the simplified fractions:**\n   * (5/6) * (1/6) = 5/36\n**Therefore,  (1/2 + 1/3) * (1/2 - 1/3) = 5/36** \n",
+        "1. **Simplify the fractions inside the parentheses:**\n   *  (1/2) + (1/3) = (3/6) + (2/6) = 5/6\n   *  (1/2) - (1/3) = (3/6) - (2/6) = 1/6\n2. **Multiply the simplified fractions:**\n   * (5/6) * (1/6) = 5/36\n**Therefore,  (1/2 + 1/3)(1/2 - 1/3) = 5/36** \n",
+        "**Step 1: Simplify the fractions inside the parentheses.**\n*  $\\frac{1}{2} + \\frac{1}{3} = \\frac{3}{6} + \\frac{2}{6} = \\frac{5}{6}$\n*  $\\frac{1}{2} - \\frac{1}{3} = \\frac{3}{6} - \\frac{2}{6} = \\frac{1}{6}$\n**Step 2: Multiply the simplified fractions.**\n* $\\left(\\frac{5}{6}\\right) \\left(\\frac{1}{6}\\right) = \\frac{5 \\cdot 1}{6 \\cdot 6} = \\boxed{\\frac{5}{36}}$ \n",
+        "1. **Simplify the fractions inside the parentheses:**\n   *  (1/2) + (1/3) = (3/6) + (2/6) = 5/6\n   *  (1/2) - (1/3) = (3/6) - (2/6) = 1/6\n2. **Multiply the simplified fractions:**\n   * (5/6) * (1/6) = 5/36\n**Therefore, the answer is 5/36.** \n",
+        "**1. Find a common denominator for the fractions inside the parentheses:**\n* The least common denominator for 2 and 3 is 6.\n*  $\\frac{1}{2} = \\frac{1 \\times 3}{2 \\times 3} = \\frac{3}{6}$\n*  $\\frac{1}{3} = \\frac{1 \\times 2}{3 \\times 2} = \\frac{2}{6}$\n**2. Substitute the fractions with their equivalent fractions with a common denominator:**\n* $\\left( \\frac{1}{2} + \\frac{1}{3} \\right) \\left( \\frac{1}{2} - \\frac{1}{3} \\right) = \\left( \\frac{3}{6} + \\frac{2}{6} \\right) \\left( \\frac{3}{6} - \\frac{2}{6} \\right)$\n**3. Perform the addition and subtraction inside the parentheses:**\n* $\\left( \\frac{3}{6} + \\frac{2}{6} \\right) \\left( \\frac{3}{6} - \\frac{2}{6} \\right) = \\left( \\frac{5}{6} \\right) \\left( \\frac{1}{6} \\right)$\n**4. Multiply the fractions:**\n* $\\left( \\frac{5}{6} \\right) \\left( \\frac{1}{6} \\right) = \\frac{5 \\times 1}{6 \\times 6} = \\boxed{\\frac{5}{36}}$ \n"
+    ],
+    "pred_answers": "36",
+    "final_pred_answer": [
+        "36",
+        "36",
+        "36",
+        "36",
+        "36"
+    ],
+    "ground_truth": "36"
+}

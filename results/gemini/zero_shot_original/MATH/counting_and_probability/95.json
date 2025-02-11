@@ -1,0 +1,23 @@
+{
+    "problem": "What is the value of $\\displaystyle{{(3!)!\\over3!}}$?",
+    "level": "Level 1",
+    "type": "Counting & Probability",
+    "solution": "$$\\displaystyle{\\frac{(3!)!}{3!}=\\frac{6!}{3!}\n=6\\cdot5\\cdot4=120.}$$OR $$\\displaystyle\\frac{(3!)!}{3!}=\\frac{6!}{6}=5!=5\\cdot4\\cdot3\\cdot2=\\boxed{120}.$$",
+    "prompt": "### Instruction: What is the value of $\\displaystyle{{(3!)!\\over3!}}$?\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "Here's how to solve this problem step-by-step:\n* **Calculate 3! (3 factorial):** 3! = 3 * 2 * 1 = 6\n* **Calculate (3!)!:** (3!)! = 6! = 6 * 5 * 4 * 3 * 2 * 1 = 720\n* **Divide (3!)! by 3!:** 720 / 6 = **120**\nTherefore, the value of  $\\displaystyle{{(3!)!\\over3!}}$ is **120**. \n",
+        "Here's how to solve this step-by-step:\n**1. Calculate 3! (3 factorial):**\n* 3! = 3 * 2 * 1 = 6\n**2. Calculate (3!)! (the factorial of 3 factorial):**\n* (3!)! = 6! = 6 * 5 * 4 * 3 * 2 * 1 = 720\n**3. Divide (3!)! by 3!:**\n* 720 / 6 = 120\n**Therefore, the value of  (3!)! / 3! is 120.** \n",
+        "Here's how to solve this problem step-by-step:\n1. **Calculate 3! (3 factorial):**  3! = 3 * 2 * 1 = 6\n2. **Calculate (3!)!:** This means 6! (6 factorial) which is 6 * 5 * 4 * 3 * 2 * 1 = 720\n3. **Divide by 3!:**  720 / 6 = 120\n**Therefore, the value of (3!)! / 3! is 120.** \n",
+        "Here's how to solve this problem step-by-step:\n1. **Calculate 3!**  \n   3! (3 factorial) means 3 * 2 * 1 = 6\n2. **Calculate (3!)!** \n   This is 6! (6 factorial) which means 6 * 5 * 4 * 3 * 2 * 1 = 720\n3. **Divide (3!)! by 3!**\n   This is 720 / 6 = 120\n**Therefore, the value of  (3!)! / 3!  is 120.** \n",
+        "Here's how to solve this step-by-step:\n1. **Calculate 3!** \n   * 3! (3 factorial) means 3 * 2 * 1 = 6\n2. **Calculate (3!)!**\n   * (3!)! means 6! (6 factorial) which is 6 * 5 * 4 * 3 * 2 * 1 = 720\n3. **Divide (3!)! by 3!**\n   * 720 / 6 = 120\n**Therefore, the value of (3!)! / 3! is 120.** \n"
+    ],
+    "pred_answers": "120",
+    "final_pred_answer": [
+        "120",
+        "120",
+        "120",
+        "120",
+        "120"
+    ],
+    "ground_truth": "120"
+}

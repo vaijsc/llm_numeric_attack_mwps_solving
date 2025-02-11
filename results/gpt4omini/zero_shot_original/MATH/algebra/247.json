@@ -1,0 +1,23 @@
+{
+    "problem": "If $t(x) = 3-g(x)$ and $g(x) = \\sqrt{x}$, then what is $t(g(16))$?",
+    "level": "Level 3",
+    "type": "Algebra",
+    "solution": "We have $g(16) = 4$, so $t(g(16)) = t(4) = 3- g(4) = 3-\\sqrt{4} = 3-2 = \\boxed{1}$.",
+    "prompt": "### Instruction: If $t(x) = 3-g(x)$ and $g(x) = \\sqrt{x}$, then what is $t(g(16))$?\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "To find \\( t(g(16)) \\), we need to go through the following steps:\n1. **Calculate \\( g(16) \\)**:\n   We start with the function \\( g(x) \\):\n   \\[\n   g(x) = \\sqrt{x}\n   \\]\n   Now, substituting \\( x = 16 \\):\n   \\[\n   g(16) = \\sqrt{16} = 4\n   \\]\n2. **Substitute \\( g(16) \\) into \\( t(x) \\)**:\n   We have found that \\( g(16) = 4 \\). Now we need to find \\( t(4) \\) using the function \\( t(x) \\):\n   \\[\n   t(x) = 3 - g(x)\n   \\]\n   So, we need to compute \\( g(4) \\) first:\n   \\[\n   g(4) = \\sqrt{4} = 2\n   \\]\n3. **Calculate \\( t(4) \\)**:\n   Now we can substitute \\( g(4) \\) back into the expression for \\( t(x) \\):\n   \\[\n   t(4) = 3 - g(4) = 3 - 2 = 1\n   \\]\nThus, the final answer is:\n\\[\nt(g(16)) = t(4) = 1\n\\]\nTherefore, the result is:\n\\[\n\\boxed{1}\n\\]",
+        "To solve for \\( t(g(16)) \\), we will follow these steps:\n1. **Find \\( g(16) \\)**:\n   We know that \\( g(x) = \\sqrt{x} \\). Thus, we can calculate:\n   \\[\n   g(16) = \\sqrt{16} = 4.\n   \\]\n2. **Next, find \\( t(g(16)) \\)**, which is equivalent to \\( t(4) \\):\n   We have the expression for \\( t(x) \\) given by \\( t(x) = 3 - g(x) \\). Therefore, we need to find \\( t(4) \\):\n   \\[\n   t(4) = 3 - g(4).\n   \\]\n3. **Calculate \\( g(4) \\)**:\n   Again using the definition of \\( g(x) \\):\n   \\[\n   g(4) = \\sqrt{4} = 2.\n   \\]\n4. **Substitute \\( g(4) \\) back into \\( t(4) \\)**:\n   Now we can calculate \\( t(4) \\):\n   \\[\n   t(4) = 3 - g(4) = 3 - 2 = 1.\n   \\]\nThus, the final answer is:\n\\[\n\\boxed{1}.\n\\]",
+        "Let's solve for \\( t(g(16)) \\) step by step.\n1. **Find \\( g(16) \\)**:\n   \\[\n   g(x) = \\sqrt{x}\n   \\]\n   Therefore, substituting \\( x = 16 \\):\n   \\[\n   g(16) = \\sqrt{16} = 4\n   \\]\n2. **Now, find \\( t(g(16)) = t(4) \\)**:\n   We have the function \\( t(x) = 3 - g(x) \\).\n   So now we need to calculate \\( t(4) \\):\n   \\[\n   t(4) = 3 - g(4)\n   \\]\n3. **Find \\( g(4) \\)**:\n   Using the function \\( g(x) = \\sqrt{x} \\):\n   \\[\n   g(4) = \\sqrt{4} = 2\n   \\]\n4. **Substituting the value of \\( g(4) \\) back into \\( t(4) \\)**:\n   \\[\n   t(4) = 3 - g(4) = 3 - 2 = 1\n   \\]\nThus, the final result is:\n\\[\nt(g(16)) = 1\n\\]\nTherefore, the answer is:\n\\[\n\\boxed{1}\n\\]",
+        "To find \\( t(g(16)) \\), we first need to determine \\( g(16) \\) using the function \\( g(x) = \\sqrt{x} \\).\nStep 1: Calculate \\( g(16) \\):\n\\[\ng(16) = \\sqrt{16} = 4\n\\]\nStep 2: Next, we need to compute \\( t(g(16)) \\). Since we found that \\( g(16) = 4 \\), we now need to find \\( t(4) \\) using the function \\( t(x) = 3 - g(x) \\).\nStep 3: Calculate \\( t(4) \\):\n\\[\nt(4) = 3 - g(4)\n\\]\nStep 4: Now calculate \\( g(4) \\):\n\\[\ng(4) = \\sqrt{4} = 2\n\\]\nStep 5: Substitute \\( g(4) = 2 \\) back into the equation for \\( t(4) \\):\n\\[\nt(4) = 3 - 2 = 1\n\\]\nThus, the final answer is:\n\\[\n\\boxed{1}\n\\]",
+        "To find \\( t(g(16)) \\), we follow these steps:\n1. **Calculate \\( g(16) \\)**:\n   We know that \\( g(x) = \\sqrt{x} \\). Therefore, we can calculate \\( g(16) \\):\n   \\[\n   g(16) = \\sqrt{16} = 4\n   \\]\n2. **Now substitute \\( g(16) \\) into \\( t \\)**:\n   We need to find \\( t(g(16)) = t(4) \\). We recall the definition of \\( t(x) \\):\n   \\[\n   t(x) = 3 - g(x)\n   \\]\n   Therefore, we need to calculate \\( t(4) \\):\n   \\[\n   t(4) = 3 - g(4)\n   \\]\n3. **Calculate \\( g(4) \\)**:\n   Using the function \\( g(x) = \\sqrt{x} \\), we find \\( g(4) \\):\n   \\[\n   g(4) = \\sqrt{4} = 2\n   \\]\n4. **Substitute back into \\( t(4) \\)**:\n   Now we can complete the calculation of \\( t(4) \\):\n   \\[\n   t(4) = 3 - g(4) = 3 - 2 = 1\n   \\]\nThus, the final result is:\n\\[\n\\boxed{1}\n\\]"
+    ],
+    "pred_answers": "1",
+    "final_pred_answer": [
+        "1",
+        "1",
+        "1",
+        "1",
+        "1"
+    ],
+    "ground_truth": "1"
+}

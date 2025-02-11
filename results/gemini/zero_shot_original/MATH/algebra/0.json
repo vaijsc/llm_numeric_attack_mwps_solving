@@ -1,0 +1,23 @@
+{
+    "problem": "How many vertical asymptotes does the graph of $y=\\frac{2}{x^2+x-6}$ have?",
+    "level": "Level 3",
+    "type": "Algebra",
+    "solution": "The denominator of the rational function factors into $x^2+x-6=(x-2)(x+3)$. Since the numerator is always nonzero, there is a vertical asymptote whenever the denominator is $0$, which occurs for $x = 2$ and $x = -3$.  Therefore, the graph has $\\boxed{2}$ vertical asymptotes.",
+    "prompt": "### Instruction: How many vertical asymptotes does the graph of $y=\\frac{2}{x^2+x-6}$ have?\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "Here's how to find the vertical asymptotes:\n**1. Factor the denominator:**\nThe denominator factors as  (x + 3)(x - 2).\n**2. Find the values that make the denominator zero:**\nThe denominator is zero when x = -3 or x = 2.\n**3. Check for cancellation:**\nThe numerator (2) does not have any factors in common with the denominator. \n**4. Determine vertical asymptotes:**\nSince there are no common factors, the values that make the denominator zero correspond to vertical asymptotes. \n**Answer:** The graph of  y = 2/(x\u00b2 + x - 6) has **two** vertical asymptotes. \n",
+        "### Response:\n1. **Factor the denominator:** The denominator factors as  (x+3)(x-2).\n2. **Identify the values that make the denominator zero:** The denominator is zero when x = -3 or x = 2.\n3. **Check if these values are in the domain:**  Since the function is a rational function, the values that make the denominator zero are not in the domain.\n4. **Vertical asymptotes occur at the values not in the domain:** Therefore, there are vertical asymptotes at x = -3 and x = 2.\n5. **Count the asymptotes:** There are **two** vertical asymptotes. \n",
+        "### Step 1: Find the values of x that make the denominator zero. \nTo find the vertical asymptotes, we need to find the values of *x* that make the denominator of the function equal to zero.  This is because the function will be undefined at these points.\nThe denominator is $x^2 + x - 6$.  We can factor this to get $(x+3)(x-2)$.\nSetting this equal to zero, we get:\n \n $(x+3)(x-2) = 0$ \n \n This gives us two solutions: \n \n $x = -3$ and $x = 2$\n### Step 2: Determine if these values are vertical asymptotes. \nWe found two values of *x* that make the denominator zero.  However, we need to make sure that these values don't also make the numerator zero.  If they did, the function would be undefined but not have a vertical asymptote.\nIn this case, the numerator is a constant (2) and will never be zero. \nTherefore, the values $x = -3$ and $x = 2$  **do** correspond to vertical asymptotes.\n### Step 3:  Count the vertical asymptotes.\nSince we found two values of *x* that result in vertical asymptotes, the graph of the function has **two** vertical asymptotes. \n",
+        "Here's how to find the vertical asymptotes:\n**1. Factor the denominator:**\nThe denominator factors as  (x + 3)(x - 2).\n**2. Identify the values that make the denominator zero:**\nThe denominator is zero when x = -3 or x = 2.\n**3. Check if these values are also zeros of the numerator:**\nThe numerator is 2, which is never zero.\n**4. Determine vertical asymptotes:**\nSince the denominator is zero at x = -3 and x = 2, and the numerator is not zero at these points, there are vertical asymptotes at **x = -3** and **x = 2**.\n**Therefore, the graph of the function has two vertical asymptotes.** \n",
+        "Here's how to find the vertical asymptotes:\n1. **Factor the denominator:** The denominator factors as (x+3)(x-2).\n2. **Find the values that make the denominator zero:**  The denominator is zero when x = -3 or x = 2.\n3. **Check for cancellation:** The numerator (2) doesn't share any factors with the denominator. This means the zeros of the denominator don't cancel out.\n4. **Vertical Asymptotes:** Since the zeros of the denominator don't cancel, they correspond to vertical asymptotes. Therefore, the graph of the function has **two** vertical asymptotes. \n"
+    ],
+    "pred_answers": "2",
+    "final_pred_answer": [
+        "2",
+        "5",
+        "3",
+        "2",
+        "4"
+    ],
+    "ground_truth": "2"
+}

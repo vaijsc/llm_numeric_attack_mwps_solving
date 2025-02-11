@@ -1,0 +1,23 @@
+{
+    "problem": "If $a<b$, what is the value of $|a-b|+a+b$?\n\n(Your answer can include $a$ and $b,$ and should be as simplified as possible.)",
+    "level": "Level 5",
+    "type": "Algebra",
+    "solution": "Since $a<b,$ $a-b<0.$ It follows that $|a-b|=-(a-b),$ and the equation can be simplified as  \\[|a-b|+a+b=-(a-b)+a+b=\\boxed{2b}.\\]",
+    "prompt": "### Instruction: If $a<b$, what is the value of $|a-b|+a+b$?\n\n(Your answer can include $a$ and $b,$ and should be as simplified as possible.)\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "Here's how to solve the problem step-by-step:\n* **Understanding the Absolute Value:**  The absolute value of a number is its distance from zero. So,  |a - b| represents the positive difference between *a* and *b*. \n* **Since a < b:**  We know that (a - b) is negative. To make it positive, we take its absolute value, which is -(a - b) or b - a. \n* **Substituting:** Now we can substitute this back into the original expression: \n    * |a - b| + a + b = (b - a) + a + b\n* **Simplifying:**  The *a* terms cancel out, leaving us with:\n    * (b - a) + a + b = **2b**\n**Therefore, the value of |a - b| + a + b is 2b.** \n",
+        "Here's how to solve this:\n**1. Understand the Absolute Value**\n* The absolute value of a number is its distance from zero.  It's always positive.\n* Since  $a < b$, we know that  $(a-b)$ is negative. \n**2. Simplify the Expression**\n* Because $(a-b)$ is negative, the absolute value makes it positive:  $|a-b| = -(a-b) = -a + b$.\n* Now substitute this back into the original expression:\n   *  $|a-b| + a + b = (-a + b) + a + b$\n**3. Combine Like Terms**\n* The 'a' terms cancel out:  -a + a = 0\n* We are left with:  b + b = 2b\n**Answer:** \nThe value of $|a-b| + a + b$ is **2b**. \n",
+        "Here's how to solve this step-by-step:\n**1. Understand the absolute value:**\n   * The absolute value of a number is its distance from zero, always a positive value.\n   * Since  *a* < *b*, the difference (*a* - *b*) will be negative. \n   * Therefore,  | *a* - *b* | = *b* - *a*.\n**2. Substitute and simplify:**\n   *  | *a* - *b* | + *a* + *b*  = (*b* - *a*) + *a* + *b*\n   *  = *b* - *a* + *a* + *b*\n   *  = **2*b**\n**Therefore, the value of |a - b| + a + b is 2*b.** \n",
+        "Here's how we can solve this step-by-step:\n1. **Understanding the absolute value:**  Since $a < b$, the difference  $(a - b)$ will be negative. The absolute value of a negative number is its positive counterpart. So,  $|a - b| = -(a - b) = -a + b$.\n2. **Substituting:** Now we can substitute this back into the original expression:\n   \n   $|a - b| + a + b = (-a + b) + a + b$\n3. **Simplifying:**  The 'a' terms cancel out:\n   (-a + b) + a + b =  **2b** \n**Therefore, if a < b, the value of |a - b| + a + b is 2b.** \n",
+        "Here's how to solve the problem step-by-step:\n* **Understanding the absolute value:** Since  *a* < *b*, the expression (a - b) will be negative. The absolute value of a negative number is its positive counterpart. So, |a - b| = -(a - b) = -a + b.\n* **Substituting and simplifying:** \n   *  |a - b| + a + b = (-a + b) + a + b\n   *  = -a + b + a + b\n   *  = **2b**\n**Therefore, the value of |a - b| + a + b is 2b.** \n"
+    ],
+    "pred_answers": "2",
+    "final_pred_answer": [
+        "2",
+        "2",
+        "2",
+        "2",
+        "2"
+    ],
+    "ground_truth": "2"
+}

@@ -1,0 +1,23 @@
+{
+    "problem": "Vanessa will graph the lines $y = \\frac{1}{3}x + 7$ and $y = 2x+5$. What is the sum of the $x$-coordinates of the two lines' $x$-intercepts? Express your answer as a decimal to the nearest tenth.",
+    "level": "Level 3",
+    "type": "Algebra",
+    "solution": "The $x$-intercept occurs where $y=0$.  For the first equation, setting $0 = \\frac{1}{3} x + 7$ yields $x = -21$.  For the second equation, setting $0 = 2x + 5$ yields $x = -2.5$.  Adding these together, our answer is $-21 + -2.5 = \\boxed{-23.5}$.",
+    "prompt": "### Instruction: Vanessa will graph the lines $y = \\frac{1}{3}x + 7$ and $y = 2x+5$. What is the sum of the $x$-coordinates of the two lines' $x$-intercepts? Express your answer as a decimal to the nearest tenth.\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "Here's how to solve the problem step-by-step:\n**1. Find the x-intercepts:**\n* **For the line  y = (1/3)x + 7:**\n    *  An x-intercept occurs when y = 0.  Substitute y = 0 into the equation and solve for x:\n       0 = (1/3)x + 7\n       -7 = (1/3)x\n       x = -21\n* **For the line y = 2x + 5:**\n    * Substitute y = 0 and solve for x:\n       0 = 2x + 5\n       -5 = 2x\n       x = -2.5\n**2. Calculate the sum of the x-coordinates:**\n* The x-coordinates of the intercepts are -21 and -2.5.\n* Their sum is -21 + (-2.5) = -23.5\n**Answer:** The sum of the x-coordinates of the two lines' x-intercepts is **-23.5**. \n",
+        "Here's how to solve the problem step-by-step:\n**1. Find the x-intercept of each line:**\n* **Line 1:  y = (1/3)x + 7**\n   To find the x-intercept, set y = 0 and solve for x:\n   0 = (1/3)x + 7\n   -7 = (1/3)x\n   x = -21\n* **Line 2: y = 2x + 5**\n   To find the x-intercept, set y = 0 and solve for x:\n   0 = 2x + 5\n   -5 = 2x\n   x = -2.5\n**2. Find the sum of the x-coordinates:**\nThe sum of the x-coordinates of the x-intercepts is -21 + (-2.5) = -23.5\n**Answer:** The sum of the x-coordinates of the two lines' x-intercepts is **-23.5**. \n",
+        "Here's how to solve the problem step-by-step:\n**1. Find the x-intercepts**\n* **For the line  y = (1/3)x + 7:**\n   *  An x-intercept occurs when y = 0.  Substitute y = 0 into the equation:\n      0 = (1/3)x + 7\n   *  Solve for x:\n      -7 = (1/3)x\n      x = -21\n* **For the line y = 2x + 5:**\n   *  Substitute y = 0:\n      0 = 2x + 5\n   *  Solve for x:\n      -5 = 2x\n      x = -2.5\n**2. Calculate the sum of the x-coordinates**\n* Add the two x-intercepts we found: -21 + (-2.5) = -23.5\n**Answer:** The sum of the x-coordinates of the two lines' x-intercepts is **-23.5**. \n",
+        "Here's how to solve the problem step-by-step:\n**1. Find the x-intercepts:**\n* **x-intercept** is the point where the line crosses the x-axis.  This happens when y = 0.\n* **For the line y = (1/3)x + 7:**\n   * Set y = 0 and solve for x:\n     0 = (1/3)x + 7\n     -7 = (1/3)x\n     x = -21 \n* **For the line y = 2x + 5:**\n   * Set y = 0 and solve for x:\n     0 = 2x + 5\n     -5 = 2x\n     x = -2.5\n**2. Find the sum of the x-coordinates:**\n* The x-intercepts are -21 and -2.5.\n* Their sum is -21 + (-2.5) = -23.5\n**Answer:** The sum of the x-coordinates of the two lines' x-intercepts is **-23.5**. \n",
+        "Here's how to solve the problem step-by-step:\n**1. Find the x-intercepts:**\n* **For  y = (1/3)x + 7:**\n   * To find the x-intercept, set y = 0 and solve for x:\n     0 = (1/3)x + 7\n     -7 = (1/3)x\n     x = -21 \n* **For y = 2x + 5:**\n   * Set y = 0 and solve for x:\n     0 = 2x + 5\n     -5 = 2x\n     x = -2.5\n**2. Calculate the sum of the x-intercepts:**\n* The sum of the x-intercepts is -21 + (-2.5) = -23.5\n**Answer:** The sum of the x-coordinates of the two lines' x-intercepts is **-23.5**. \n"
+    ],
+    "pred_answers": "-23.5",
+    "final_pred_answer": [
+        "-23.5",
+        "-23.5",
+        "-23.5",
+        "-23.5",
+        "-23.5"
+    ],
+    "ground_truth": "-23.5"
+}

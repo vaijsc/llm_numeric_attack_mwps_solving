@@ -1,0 +1,23 @@
+{
+    "problem": "Below is a portion of the graph of a function, $y=g(x)$:\n\n[asy]\nimport graph; size(8cm); real lsf=0.5; pen dps=linewidth(0.7)+fontsize(10); defaultpen(dps); pen ds=black; real xmin=-6.25,xmax=6.25,ymin=-6.25,ymax=6.25;\n\npen cqcqcq=rgb(0.75,0.75,0.75);\n\n/*grid*/ pen gs=linewidth(0.7)+cqcqcq+linetype(\"2 2\"); real gx=1,gy=1;\nfor(real i=ceil(xmin/gx)*gx;i<=floor(xmax/gx)*gx;i+=gx) draw((i,ymin)--(i,ymax),gs); for(real i=ceil(ymin/gy)*gy;i<=floor(ymax/gy)*gy;i+=gy) draw((xmin,i)--(xmax,i),gs);\n\nLabel laxis; laxis.p=fontsize(10);\n\nxaxis(\"\",xmin,xmax,Ticks(laxis,Step=1.0,Size=2,NoZero),Arrows(6),above=true); yaxis(\"\",ymin,ymax,Ticks(laxis,Step=1.0,Size=2,NoZero),Arrows(6),above=true);\nreal f1(real x){return -6*sin(x*pi/6);}\ndraw(graph(f1,-6.25,6.25),linewidth(1));\nclip((xmin,ymin)--(xmin,ymax)--(xmax,ymax)--(xmax,ymin)--cycle);\n[/asy]\n\nWhat is the value of $g(g(-1))$?",
+    "level": "Level 3",
+    "type": "Algebra",
+    "solution": "The point $(-1,3)$ is on the graph, which indicates that $g(-1)=3$.\n\nThe point $(3,-6)$ is on the graph, which indicates that $g(3)=-6$.\n\nThus, $g(g(-1)) = g(3) = \\boxed{-6}$.",
+    "prompt": "### Instruction: Below is a portion of the graph of a function, $y=g(x)$:\n\n[asy]\nimport graph; size(8cm); real lsf=0.5; pen dps=linewidth(0.7)+fontsize(10); defaultpen(dps); pen ds=black; real xmin=-6.25,xmax=6.25,ymin=-6.25,ymax=6.25;\n\npen cqcqcq=rgb(0.75,0.75,0.75);\n\n/*grid*/ pen gs=linewidth(0.7)+cqcqcq+linetype(\"2 2\"); real gx=1,gy=1;\nfor(real i=ceil(xmin/gx)*gx;i<=floor(xmax/gx)*gx;i+=gx) draw((i,ymin)--(i,ymax),gs); for(real i=ceil(ymin/gy)*gy;i<=floor(ymax/gy)*gy;i+=gy) draw((xmin,i)--(xmax,i),gs);\n\nLabel laxis; laxis.p=fontsize(10);\n\nxaxis(\"\",xmin,xmax,Ticks(laxis,Step=1.0,Size=2,NoZero),Arrows(6),above=true); yaxis(\"\",ymin,ymax,Ticks(laxis,Step=1.0,Size=2,NoZero),Arrows(6),above=true);\nreal f1(real x){return -6*sin(x*pi/6);}\ndraw(graph(f1,-6.25,6.25),linewidth(1));\nclip((xmin,ymin)--(xmin,ymax)--(xmax,ymax)--(xmax,ymin)--cycle);\n[/asy]\n\nWhat is the value of $g(g(-1))$?\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "Here's how to solve this step-by-step:\n1. **Find g(-1):**  Look at the graph and find the point where x = -1.  The corresponding y-value is the value of g(-1).  From the graph, we see that g(-1) = -3.\n2. **Find g(g(-1)), which is g(-3):** Now, we need to find the y-value when x = -3.  Looking at the graph, we see that g(-3) = 0.\n**Therefore, g(g(-1)) = 0.** \n",
+        "Here's how to break down the problem:\n* **Find g(-1):**  Look at the graph and find the point where x = -1.  The corresponding y-value is the value of g(-1).  We see that g(-1) = -3.\n* **Find g(g(-1)), which is g(-3):** Now, find the point on the graph where x = -3. The corresponding y-value is the value of g(-3).  We see that g(-3) = 0.\n**Therefore, g(g(-1)) = 0.** \n",
+        "Here's how to solve the problem step-by-step:\n1. **Find g(-1):**  Look at the graph where x = -1.  The corresponding y-value is -3. So, g(-1) = -3.\n2. **Find g(g(-1)) which is g(-3):** Now look at the graph where x = -3. The corresponding y-value is 0. So, g(-3) = 0.\n**Therefore, g(g(-1)) = 0.** \n",
+        "Here's how to find the value of $g(g(-1))$ step-by-step:\n1. **Find g(-1):**  Look at the graph where  x = -1.  The point on the graph at x = -1 has a y-value of -3.  Therefore,  *g(-1) = -3*.\n2. **Find g(g(-1)) which is g(-3):** Now, look at the graph where x = -3.  The point on the graph at x = -3 has a y-value of 0.  Therefore, *g(-3) = 0*.\n**Therefore, g(g(-1)) = 0.** \n",
+        "Here's how to find the value of  g(g(-1)):\n1. **Find g(-1):**  Look at the graph and find the point where x = -1.  The corresponding y-value is the value of g(-1).  From the graph, we see that g(-1) = -3.\n2. **Find g(g(-1)), which is g(-3):** Now look at the graph and find the point where x = -3.  The corresponding y-value is the value of g(-3).  From the graph, we see that g(-3) = 0.\n**Therefore, g(g(-1)) = 0.** \n"
+    ],
+    "pred_answers": "0",
+    "final_pred_answer": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+    ],
+    "ground_truth": "-6"
+}

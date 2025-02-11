@@ -1,0 +1,23 @@
+{
+    "problem": "For a certain species of ocean fish, 8 fish can exist per cubic meter of water without the symptoms of overcrowding. If doctors want to study 600 fish, what is the minimum number of cubic meters of water necessary to maintain a healthy study environment?",
+    "level": "Level 1",
+    "type": "Algebra",
+    "solution": "We need 8 fish per cubic meter.  We have 600 fish, so we have $600/8 = 75$ groups of 8 fish, which means we need $\\boxed{75}$ cubic meters of water.",
+    "prompt": "### Instruction: For a certain species of ocean fish, 8 fish can exist per cubic meter of water without the symptoms of overcrowding. If doctors want to study 600 fish, what is the minimum number of cubic meters of water necessary to maintain a healthy study environment?\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "Here's how to solve the problem step-by-step:\n1. **Find the cubic meters needed per fish:**  Since 8 fish can live comfortably in 1 cubic meter, each fish needs 1/8 of a cubic meter. \n2. **Calculate the total cubic meters needed:**  Multiply the cubic meters per fish by the number of fish: (1/8 cubic meter/fish) * (600 fish) = 75 cubic meters.\n**Answer:** The minimum number of cubic meters of water needed to maintain a healthy study environment for 600 fish is 75 cubic meters. \n",
+        "Here's how to solve this problem step-by-step:\n* **Find the water needed per fish:**  Since 8 fish can live in 1 cubic meter, each fish needs 1/8 of a cubic meter of water. \n* **Calculate the total water needed:** To house 600 fish, you'll need 600 fish * (1/8 cubic meter/fish) = 75 cubic meters of water.\n**Answer:** The minimum number of cubic meters of water necessary is **75**. \n",
+        "Here's how to solve this problem step-by-step:\n* **Understand the relationship:** We know that 8 fish can live comfortably in 1 cubic meter of water.\n* **Divide the desired population by the capacity per cubic meter:** To find the total cubic meters needed, divide the desired population (600 fish) by the number of fish per cubic meter (8 fish): 600 fish / 8 fish/cubic meter = 75 cubic meters.\n**Answer:** The minimum number of cubic meters of water necessary to maintain a healthy study environment for 600 fish is 75 cubic meters. \n",
+        "Here's how to solve the problem step-by-step:\n1. **Find the space needed per fish:** Since 8 fish can live in 1 cubic meter, each fish needs 1/8 of a cubic meter of space.\n2. **Calculate total space needed:**  Multiply the space needed per fish by the total number of fish: (1/8 cubic meter/fish) * 600 fish = 75 cubic meters.\n**Answer:** The minimum number of cubic meters of water necessary is 75. \n",
+        "Here's how to solve the problem:\n* **Divide the total number of fish by the capacity per cubic meter:** 600 fish / 8 fish/cubic meter = 75 cubic meters.\n**Answer:** The minimum number of cubic meters of water necessary is **75**. \n"
+    ],
+    "pred_answers": "75",
+    "final_pred_answer": [
+        "600",
+        "75",
+        "600",
+        "75",
+        "75"
+    ],
+    "ground_truth": "75"
+}

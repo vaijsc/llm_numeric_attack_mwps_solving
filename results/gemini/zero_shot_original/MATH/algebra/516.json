@@ -1,0 +1,23 @@
+{
+    "problem": "Let $f(x) = x + 2$ and $g(x) = 1/f(x)$. What is $g(f(-3))$?",
+    "level": "Level 4",
+    "type": "Algebra",
+    "solution": "First, we find that $f(-3) = (-3) + 2 = -1$. Then, $$g(f(-3)) = g(-1) = 1/f(-1) = 1/(-1 + 2) = \\boxed{1}.$$",
+    "prompt": "### Instruction: Let $f(x) = x + 2$ and $g(x) = 1/f(x)$. What is $g(f(-3))$?\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "Here's how to solve the problem step by step:\n1. **Find f(-3):** \n   Substitute -3 for *x* in the function *f(x)*:\n   *f(-3) = -3 + 2 = -1*\n2. **Find g(f(-3)), which is g(-1):**\n   Substitute -1 for *x* in the function *g(x)*:\n   *g(-1) = 1/f(-1)* \n3. **Find f(-1):**\n   Substitute -1 for *x* in the function *f(x)*:\n   *f(-1) = -1 + 2 = 1*\n4. **Substitute f(-1) back into g(-1):**\n   *g(-1) = 1/f(-1) = 1/1 = 1*\n**Therefore, g(f(-3)) = 1** \n",
+        "Here's how to solve the problem step-by-step:\n1. **Find f(-3):** \n   Since  f(x) = x + 2, we have f(-3) = -3 + 2 = -1\n2. **Find g(f(-3)), which is the same as g(-1):**\n   Since g(x) = 1/f(x), we have g(-1) = 1/f(-1)\n3. **Find f(-1):**\n   Since f(x) = x + 2, we have f(-1) = -1 + 2 = 1\n4. **Substitute to find g(-1):**\n   g(-1) = 1/f(-1) = 1/1 = 1\n**Therefore, g(f(-3)) = 1** \n",
+        "Here's how to solve this step-by-step:\n1. **Find f(-3):** \n   Substitute -3 for *x* in the equation for *f(x)*:\n   * f(-3) = (-3) + 2 = -1\n2. **Find g(f(-3)), which is the same as g(-1):**\n   Substitute -1 for *x* in the equation for *g(x)*:\n   * g(-1) = 1/f(-1) = 1/(-1 + 2) = 1/1 = 1\n**Therefore, g(f(-3)) = 1** \n",
+        "Here's how to solve the problem step-by-step:\n1. **Find f(-3):** \n   Since  f(x) = x + 2, substitute x = -3:\n   f(-3) = -3 + 2 = -1\n2. **Find g(f(-3)), which is g(-1):**\n   We know g(x) = 1/f(x), so:\n   g(-1) = 1/f(-1)\n3. **Find f(-1):**\n   f(-1) = -1 + 2 = 1\n4. **Substitute f(-1) back into the expression for g(-1):**\n   g(-1) = 1/f(-1) = 1/1 = 1\n**Therefore, g(f(-3)) = 1** \n",
+        "Here's how to solve the problem step-by-step:\n1. **Find f(-3):** \n   Substitute -3 for *x* in the function *f(x)*:\n   * f(-3) = -3 + 2 = -1\n2. **Find g(f(-3)), which is the same as g(-1):** \n   Substitute -1 for *x* in the function *g(x)*:\n   * g(-1) = 1/f(-1) \n   * Since we already found f(-1) = -1, we have:\n   * g(-1) = 1/(-1) = -1\n**Therefore, g(f(-3)) = -1** \n"
+    ],
+    "pred_answers": "1",
+    "final_pred_answer": [
+        "1",
+        "1",
+        "1",
+        "1",
+        "-1"
+    ],
+    "ground_truth": "1"
+}

@@ -1,0 +1,23 @@
+{
+    "problem": "Determine the number of ways to arrange the letters of the word CIRCLE.",
+    "level": "Level 2",
+    "type": "Counting & Probability",
+    "solution": "There are two C's and six total letters, so the answer is $\\dfrac{6!}{2!} = \\boxed{360}$.",
+    "prompt": "### Instruction: Determine the number of ways to arrange the letters of the word CIRCLE.\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "Here's how to determine the number of ways to arrange the letters of the word CIRCLE:\n**1. Count the letters:**\n* There are 6 letters in the word CIRCLE.\n**2. Consider if any letters repeat:**\n*  The letter 'C' repeats twice.\n**3. Calculate the arrangements:**\n* **If all letters were unique:**  We would have 6! (6 factorial) ways to arrange them, which is 6 * 5 * 4 * 3 * 2 * 1 = 720.\n* **Since 'C' repeats:** We need to adjust for the overcounting.  We divide the total number of arrangements by the factorial of the number of times the letter 'C' repeats. So, we divide 720 by 2! (2 factorial).\n**Calculation:**\n* 720 / (2 * 1) = 720 / 2 = 360\n**Answer:** There are **360** ways to arrange the letters of the word CIRCLE. \n",
+        "Here's how to determine the number of ways to arrange the letters of the word CIRCLE:\n**1. Total Letters:**\n* The word CIRCLE has 6 letters.\n**2. Unique Letters:**\n* All the letters are unique (no repeats).\n**3. Permutations:**\n* Since all the letters are different, we can use the formula for permutations:  n! (n factorial), where n is the number of items.\n**4. Calculation:**\n* 6! = 6 * 5 * 4 * 3 * 2 * 1 = 720\n**Therefore, there are 720 ways to arrange the letters of the word CIRCLE.** \n",
+        "Here's how to determine the number of ways to arrange the letters in the word CIRCLE:\n**1. Count the letters:**\n* There are 6 letters in the word CIRCLE.\n**2.  Consider duplicates:**\n*  There are no duplicate letters in the word CIRCLE.\n**3. Calculate the factorial:**\n* If there were no repeated letters, we would simply calculate 6! (6 factorial), which is 6 * 5 * 4 * 3 * 2 * 1 = 720.\n**4.  Final Answer:**\n* Since there are no repeated letters, there are **720** ways to arrange the letters of the word CIRCLE. \n",
+        "Here's how to determine the number of ways to arrange the letters of the word CIRCLE:\n**1. Count the Letters:**\n* The word CIRCLE has 6 letters.\n**2. Consider Repetition:**\n* There is one letter that repeats:  The letter 'C' appears twice.\n**3. The Formula:**\nTo account for the repetition, we use the following formula:\n* **Number of arrangements = (Total number of letters)! / (Number of repetitions of a letter)!**\n**4. Apply the Formula:**\n* Number of arrangements = 6! / 2! \n* Number of arrangements = (6 * 5 * 4 * 3 * 2 * 1) / (2 * 1)\n* Number of arrangements = 720 / 2\n* Number of arrangements = 360\n**Therefore, there are 360 different ways to arrange the letters of the word CIRCLE.** \n",
+        "Here's how to determine the number of ways to arrange the letters of the word CIRCLE:\n**1.  Count the Letters:**\n   The word CIRCLE has 6 letters.\n**2.  Consider Repetition:**\n   There is no letter repetition in the word CIRCLE.\n**3.  Calculate the Arrangements:**\n   * If all the letters were unique, we would have 6! (6 factorial) ways to arrange them. \n   * 6! = 6 * 5 * 4 * 3 * 2 * 1 = 720\n**Therefore, there are 720 ways to arrange the letters of the word CIRCLE.** \n"
+    ],
+    "pred_answers": "720",
+    "final_pred_answer": [
+        "360",
+        "720",
+        "720",
+        "360",
+        "720"
+    ],
+    "ground_truth": "360"
+}

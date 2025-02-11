@@ -1,0 +1,23 @@
+{
+    "problem": "If the area of the triangle shown is 40, what is $r$? [asy]\nimport graph; size(200); defaultpen(linewidth(0.8));\n\nreal xmin=0;\nreal xmax=12;\nreal ymin=0;\nreal ymax=10;\n\nxlimits(xmin, xmax);\n\nylimits(ymin, ymax);\n\nxaxis(\"$x$\",0,12,EndArrow);\nyaxis(\"$y$\",0,10,EndArrow);\ndot(Label(\"$O$\",align=SW),(0,0));\ndraw((0,8)--(10,0));\ndot(Label(\"$(0,8)$\",align=E),(0,8));\ndot(Label(\"$(r,0)$\",align=S),(10,0));\n[/asy]",
+    "level": "Level 1",
+    "type": "Geometry",
+    "solution": "The triangle is a right triangle, since the $x$- and $y$-axes are perpendicular to each other. So the base of the triangle is $r$ units long and the height of the triangle is $8$ units. The area of the triangle is $\\frac12(r)(8)=4r$. We're told that the area is $40$, so $4r=40\\qquad$, which means  $r=\\boxed{10}$.",
+    "prompt": "### Instruction: If the area of the triangle shown is 40, what is $r$? [asy]\nimport graph; size(200); defaultpen(linewidth(0.8));\n\nreal xmin=0;\nreal xmax=12;\nreal ymin=0;\nreal ymax=10;\n\nxlimits(xmin, xmax);\n\nylimits(ymin, ymax);\n\nxaxis(\"$x$\",0,12,EndArrow);\nyaxis(\"$y$\",0,10,EndArrow);\ndot(Label(\"$O$\",align=SW),(0,0));\ndraw((0,8)--(10,0));\ndot(Label(\"$(0,8)$\",align=E),(0,8));\ndot(Label(\"$(r,0)$\",align=S),(10,0));\n[/asy]\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "Here's how to solve the problem:\n**1. Understand the Geometry**\n* The triangle is a right triangle with base *r* and height 8.\n* The area of a triangle is given by (1/2) * base * height.\n**2. Set up the Equation**\n* We know the area is 40: (1/2) * *r* * 8 = 40\n**3. Solve for *r***\n* Simplify the equation: 4*r* = 40\n* Divide both sides by 4: *r* = 10\n**Therefore, *r* = 10** \n",
+        "Here's how to solve the problem step-by-step:\n**1. Understand the Area Formula:**\nThe area of a triangle is given by:\nArea = (1/2) * base * height\n**2. Identify the Base and Height:**\n* **Base:** The base of the triangle is the line segment along the x-axis, which has a length of *r*.\n* **Height:** The height of the triangle is the perpendicular distance from the point (0, 8) to the x-axis, which is 8.\n**3. Set up the Equation:**\nWe know the area is 40. Substitute the base, height, and area into the area formula:\n40 = (1/2) * r * 8\n**4. Solve for r:**\n* Simplify the equation: 40 = 4r\n* Divide both sides by 4: r = 10\n**Answer:** Therefore, the value of *r* is **10**. \n",
+        "Here's how to solve the problem step-by-step:\n**1. Understand the Triangle**\n* The triangle is a right triangle with base 'r' and height 8.\n**2. Area Formula**\n* The area of a triangle is (1/2) * base * height.\n**3. Set up the Equation**\n* We know the area is 40:  (1/2) * r * 8 = 40\n**4. Solve for 'r'**\n* Simplify: 4r = 40\n* Divide both sides by 4: r = 10\n**Answer:** Therefore, r = **10**. \n",
+        "Here's how to solve the problem step-by-step:\n1. **Identify the Base and Height:**  The base of the triangle is the line segment from (0, 8) to (r, 0).  This has length *r*. The height of the triangle is the perpendicular distance from the point (0, 8) to the base. This distance is 8.\n2. **Area Formula:** The area of a triangle is given by (1/2) * base * height. We know the area is 40, so:\n   (1/2) * r * 8 = 40\n3. **Solve for r:** \n   * Simplify: 4r = 40\n   * Divide both sides by 4: r = 10\n**Therefore, r = 10.** \n",
+        "Here's how to solve the problem:\n**1. Understand the Triangle:**\n* The triangle is a right triangle with base 'r' and height '8'.\n**2. Area Formula:**\n* The area of a triangle is given by: (1/2) * base * height \n**3. Set up the Equation:**\n* We are given that the area is 40:  (1/2) * r * 8 = 40\n**4. Solve for 'r':**\n* Simplify the equation: 4r = 40\n* Divide both sides by 4: r = 10\n**Therefore, r = 10** \n"
+    ],
+    "pred_answers": "10",
+    "final_pred_answer": [
+        "10",
+        "10",
+        "10",
+        "10",
+        "10"
+    ],
+    "ground_truth": "10"
+}

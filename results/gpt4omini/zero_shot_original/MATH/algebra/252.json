@@ -1,0 +1,23 @@
+{
+    "problem": "Find $x$ such that $\\log_5(x-18)=2$.",
+    "level": "Level 2",
+    "type": "Algebra",
+    "solution": "Writing the equation in exponential form gives $5^2=x-18$. This means that $x-18=25$, so $x=\\boxed{43}$.",
+    "prompt": "### Instruction: Find $x$ such that $\\log_5(x-18)=2$.\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "To solve the equation \\(\\log_5(x-18) = 2\\), we need to rewrite it in exponential form. The logarithmic equation states that \\(x - 18\\) is equal to \\(5\\) raised to the power of \\(2\\). Therefore, we can express this as:\n\\[\nx - 18 = 5^2\n\\]\nCalculating \\(5^2\\):\n\\[\n5^2 = 25\n\\]\nNow substituting this back into the equation gives us:\n\\[\nx - 18 = 25\n\\]\nNext, we solve for \\(x\\) by adding \\(18\\) to both sides:\n\\[\nx = 25 + 18\n\\]\nCalculating the right side:\n\\[\nx = 43\n\\]\nThus, the value of \\(x\\) that satisfies the equation is\n\\[\n\\boxed{43}\n\\]\nTo confirm our solution, we can substitute \\(x = 43\\) back into the original logarithmic equation:\n\\[\n\\log_5(43 - 18) = \\log_5(25)\n\\]\nSince \\(25\\) is \\(5^2\\), we have:\n\\[\n\\log_5(25) = 2\n\\]\nThis matches the original equation, verifying that our solution \\(x = 43\\) is correct.",
+        "To solve the equation \\(\\log_5(x-18) = 2\\), we will follow these steps:\n1. **Rewrite the logarithmic equation in exponential form**: \n   The equation \\(\\log_5(x-18) = 2\\) means that the expression \\(x-18\\) is equal to \\(5\\) raised to the power of \\(2\\).\n   \\[\n   x - 18 = 5^2\n   \\]\n2. **Calculate \\(5^2\\)**:\n   \\[\n   5^2 = 25\n   \\]\n   Substituting this back into the equation gives:\n   \\[\n   x - 18 = 25\n   \\]\n3. **Solve for \\(x\\)**:\n   To find \\(x\\), we add \\(18\\) to both sides:\n   \\[\n   x = 25 + 18\n   \\]\n   \\[\n   x = 43\n   \\]\nThus, the solution is:\n\\[\n\\boxed{43}\n\\]",
+        "To find \\( x \\) such that \\( \\log_5(x-18) = 2 \\), we will rewrite the logarithmic equation in exponential form. \nThe equation \\( \\log_5(x-18) = 2 \\) can be rewritten as:\n\\[\nx - 18 = 5^2\n\\]\nNow we calculate \\( 5^2 \\):\n\\[\n5^2 = 25\n\\]\nSo, we have:\n\\[\nx - 18 = 25\n\\]\nNext, we solve for \\( x \\) by adding 18 to both sides:\n\\[\nx = 25 + 18\n\\]\nCalculating the sum gives:\n\\[\nx = 43\n\\]\nThus, the solution is:\n\\[\n\\boxed{43}\n\\]",
+        "To solve the equation \\( \\log_5(x - 18) = 2 \\), we will start by rewriting the logarithmic equation in its exponential form.\nThe logarithmic equation states that \\( \\log_5(y) = b \\) can be rewritten as:\n\\[\ny = 5^b\n\\]\nIn our case, \\( y = x - 18 \\) and \\( b = 2 \\). Thus, we can rewrite the equation as:\n\\[\nx - 18 = 5^2\n\\]\nNow, calculating \\( 5^2 \\):\n\\[\n5^2 = 25\n\\]\nSo, we have:\n\\[\nx - 18 = 25\n\\]\nNext, we will solve for \\( x \\) by adding 18 to both sides:\n\\[\nx = 25 + 18\n\\]\n\\[\nx = 43\n\\]\nThus, the solution is:\n\\[\n\\boxed{43}\n\\] \nWe can verify the solution by substituting \\( x = 43 \\) back into the original equation:\n\\[\n\\log_5(43 - 18) = \\log_5(25)\n\\]\nCalculating \\( \\log_5(25) \\) gives us:\n\\[\n\\log_5(25) = \\log_5(5^2) = 2\n\\]\nSince both sides of the original equation are equal, our solution \\( x = 43 \\) is correct.",
+        "To solve the equation \\(\\log_5(x-18) = 2\\), we can start by using the property of logarithms that relates logarithmic and exponential forms. \nThe equation \\(\\log_5(x-18) = 2\\) can be rewritten in exponential form:\n\\[\nx - 18 = 5^2\n\\]\nNow we compute \\(5^2\\):\n\\[\n5^2 = 25\n\\]\nSubstituting back, we have:\n\\[\nx - 18 = 25\n\\]\nNext, we solve for \\(x\\) by adding 18 to both sides:\n\\[\nx = 25 + 18\n\\]\nCalculating that:\n\\[\nx = 43\n\\]\nFinally, it\u2019s good practice to verify our solution. We substitute \\(x\\) back into the original logarithmic equation:\n\\[\n\\log_5(43 - 18) = \\log_5(25)\n\\]\nSince \\(25 = 5^2\\), we find:\n\\[\n\\log_5(25) = 2\n\\]\nThus, our solution is verified. Therefore, the value of \\(x\\) is\n\\[\n\\boxed{43}\n\\]"
+    ],
+    "pred_answers": "43",
+    "final_pred_answer": [
+        "43",
+        "43",
+        "43",
+        "43",
+        "43"
+    ],
+    "ground_truth": "43"
+}

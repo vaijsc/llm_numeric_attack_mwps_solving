@@ -1,0 +1,23 @@
+{
+    "problem": "Let $g(2x + 5) = 4x^2 - 3x + 2$. Find $g(-3)$.",
+    "level": "Level 4",
+    "type": "Algebra",
+    "solution": "Since we know what $g(2x+5)$ is, to determine $g(-3)$, we must determine what value of $x$ makes $2x+5$ equal to $-3$.  Solving $2x+5=-3$ gives us $x=-4$.  Letting $x=-4$ in $g(2x+5)= 4x^2 -3x+2$ gives $g(-3) = 4(-4)^2 -3(-4) +2 = 4\\cdot 16 + 12 + 2 =\\boxed{78}$.",
+    "prompt": "### Instruction: Let $g(2x + 5) = 4x^2 - 3x + 2$. Find $g(-3)$.\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "Here's how to solve the problem step-by-step:\n**1.  Find the value of  'x' that makes the input of 'g' equal to -3:**\n   *  We have  *g(2x + 5) = -3*.  We want to find the 'x' that makes  *(2x + 5) = -3*.\n   *  Solve the equation:\n      *  2x + 5 = -3\n      *  2x = -8\n      *  x = -4\n**2. Substitute the value of 'x' into the expression for  'g':**\n   *  Since *g(2x + 5) = 4x^2 - 3x + 2*, and we found *x = -4*, we can substitute:\n   *  *g(2(-4) + 5) = 4(-4)^2 - 3(-4) + 2*\n**3. Simplify and Calculate:**\n   *  *g(-3) = 4(16) + 12 + 2* \n   *  *g(-3) = 64 + 12 + 2*\n   *  *g(-3) = 78*\n**Therefore,  g(-3) = 78** \n",
+        "Here's how to solve the problem step-by-step:\n**1.  Find the value of  'u' that makes  2u + 5 = -3**\n   * We want to find the value of  'u' that makes the inside of the function  *g*  equal to -3.  \n   * Set up the equation: 2u + 5 = -3\n   * Solve for 'u':\n      * 2u = -8\n      * u = -4\n**2. Substitute 'u' back into the given equation**\n   * Since  g(2u + 5) = 4u\u00b2 - 3u + 2, and we know u = -4,  we can substitute:\n   * g(2(-4) + 5) = 4(-4)\u00b2 - 3(-4) + 2\n**3. Simplify and solve for g(-3)**\n   * g(-3) = 4(16) + 12 + 2\n   * g(-3) = 64 + 12 + 2\n   * g(-3) = 78\n**Therefore, g(-3) = 78** \n",
+        "Here's how to solve this problem:\n**1. Understand the Problem**\nWe're given a function *g* in a slightly unusual form.  Instead of having *g(x)* directly, we have *g(2x + 5)*. We need to find *g(-3)*.\n**2.  Solve for the Input**\n* We need to find a value for *x* that makes the input *2x + 5* equal to -3:\n  *  2x + 5 = -3\n  *  2x = -8\n  *  x = -4\n**3.  Substitute**\n* Now that we know *x = -4* makes the input *2x + 5* equal to -3, we can substitute *x = -4* into the expression for *g(2x + 5)*:\n  *  g(2(-4) + 5) = 4(-4)^2 - 3(-4) + 2\n**4.  Simplify**\n*  g(-3) = 64 + 12 + 2 \n*  g(-3) = 78\n**Therefore, g(-3) = 78** \n",
+        "Here's how to solve this problem:\n**1.  Find an expression for  *x* in terms of  *(2x + 5)*:**\n   * Notice that  *(2x + 5)*  is a linear expression. We can solve for  *x* in terms of *(2x + 5)*:\n      *  *(2x + 5) = y*  (let's use *y* for simplicity)\n      *  *2x = y - 5*\n      *  *x = (y - 5)/2*\n**2. Substitute the expression for *x* into the given equation:**\n   *  We know  *g(2x + 5) = 4x\u00b2 - 3x + 2*. \n   *  Let's replace  *x* with the expression we found:\n      *  *g(y) = 4[(y - 5)/2]\u00b2 - 3[(y - 5)/2] + 2*\n**3. Simplify the expression:**\n   *  *g(y) = 4[(y\u00b2 - 10y + 25)/4] - 3(y - 5)/2 + 2*\n   *  *g(y) = y\u00b2 - 10y + 25 - (3y - 15)/2 + 2*\n   *  *g(y) = y\u00b2 - 10y + 25 - (3y/2) + (15/2) + 2*\n   *  *g(y) = y\u00b2 - (23/2)y + 52/2*\n   *  *g(y) = y\u00b2 - (23/2)y + 26*\n**4.  Evaluate *g(-3)*:**\n   *  We found  *g(y) = y\u00b2 - (23/2)y + 26*. \n   *  To find *g(-3)*, we substitute *y = -3* into the expression:\n      *  *g(-3) = (-3)\u00b2 - (23/2)(-3) + 26*\n      *  *g(-3) = 9 + (69/2) + 26*\n      *  *g(-3) = 133/2*\n**Therefore, *g(-3) = 133/2*** \n",
+        "Here's how to solve the problem step-by-step:\n**1. Understand the Problem:**\nWe are given a function *g* expressed in terms of  (2x + 5). We need to find the value of *g* when the input is -3.\n**2. Find the Value of x that Makes the Input -3:**\nWe need to solve the equation: \n  2x + 5 = -3 \n* Subtract 5 from both sides: 2x = -8\n* Divide both sides by 2: x = -4\n**3. Substitute the Value of x:**\nSince we know that *g*(2x + 5) = 4x\u00b2 - 3x + 2, and we found x = -4, we can substitute:\n* g(2(-4) + 5) = 4(-4)\u00b2 - 3(-4) + 2\n* g(-3) = 64 + 12 + 2\n**4. Calculate the Result:**\n* g(-3) = 78\n**Therefore, g(-3) = 78** \n"
+    ],
+    "pred_answers": "78",
+    "final_pred_answer": [
+        "78",
+        "78",
+        "78",
+        "2",
+        "78"
+    ],
+    "ground_truth": "78"
+}

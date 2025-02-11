@@ -1,0 +1,23 @@
+{
+    "problem": "If $x = 3$ and $y = 2$, then what is the value of $\\frac{2x^3-3y^2}{6}$ ?",
+    "level": "Level 1",
+    "type": "Algebra",
+    "solution": "We have  \\[\\frac{2x^3 - 3y^2}{6} = \\frac{2(3)^3 - 3(2)^2}{6} = \\frac{2(27) - 3(4)}{6} = \\frac{54-12}{6} = \\boxed{7}.\\]",
+    "prompt": "### Instruction: If $x = 3$ and $y = 2$, then what is the value of $\\frac{2x^3-3y^2}{6}$ ?\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "Here's how to solve the problem step-by-step:\n1. **Substitute the values:** \n   We are given  *x = 3* and *y = 2*.  Substitute these values into the expression:\n   (2 * 3\u00b3) - (3 * 2\u00b2) / 6\n2. **Calculate the exponents:**\n   Simplify the exponents:\n   (2 * 27) - (3 * 4) / 6\n3. **Perform multiplication:**\n   Multiply the numbers:\n   54 - 12 / 6\n4. **Divide:**\n   Perform the division:\n   54 - 2\n5. **Subtract:**\n   Finally, subtract:\n   52\n**Therefore, the value of the expression is 52.** \n",
+        "Here's how to solve the problem step-by-step:\n1. **Substitute the values:**\n   * Replace 'x' with 3 and 'y' with 2 in the expression: \n   (2 * 3\u00b3 - 3 * 2\u00b2) / 6\n2. **Simplify the exponents:**\n   * 3\u00b3 = 3 * 3 * 3 = 27\n   * 2\u00b2 = 2 * 2 = 4\n   * The expression becomes: (2 * 27 - 3 * 4) / 6\n3. **Perform the multiplications:**\n   * 2 * 27 = 54\n   * 3 * 4 = 12\n   * The expression becomes: (54 - 12) / 6\n4. **Subtract within the parentheses:**\n   * 54 - 12 = 42\n   * The expression becomes: 42 / 6\n5. **Divide:**\n   * 42 / 6 = 7\n**Therefore, the value of the expression is 7.** \n",
+        "Here's how to solve the problem step-by-step:\n1. **Substitute the values:**  Since we know  *x = 3* and *y = 2*, substitute these values into the expression:\n   (2 * 3\u00b3 - 3 * 2\u00b2) / 6\n2. **Calculate the exponents:** \n   (2 * 27 - 3 * 4) / 6\n3. **Perform multiplications:**\n   (54 - 12) / 6\n4. **Subtract inside the parentheses:**\n   42 / 6\n5. **Divide:**\n   7\n**Therefore, the value of the expression is 7.** \n",
+        "Here's how to solve the problem step-by-step:\n1. **Substitute the values:**\n   Since we know  *x = 3* and *y = 2*, substitute those values into the expression:\n   \n   (2 * 3\u00b3) - (3 * 2\u00b2) / 6\n2. **Simplify the exponents:**\n   Calculate the powers:\n   \n   (2 * 27) - (3 * 4) / 6\n3. **Perform the multiplications:**\n   \n   54 - 12 / 6\n4. **Divide:**\n   \n   54 - 2\n5. **Subtract:**\n   \n   52\n**Therefore, the value of the expression is 52.** \n",
+        "Here's how to solve the problem step-by-step:\n1. **Substitute the values:**\n   Since we know  *x = 3* and *y = 2*, substitute these values into the expression:\n   (2 * 3\u00b3 - 3 * 2\u00b2) / 6\n2. **Calculate the exponents:**\n   3\u00b3 = 3 * 3 * 3 = 27\n   2\u00b2 = 2 * 2 = 4\n   The expression now becomes:\n   (2 * 27 - 3 * 4) / 6\n3. **Perform the multiplications:**\n   (54 - 12) / 6\n4. **Simplify the numerator:**\n   42 / 6\n5. **Divide:**\n   42 / 6 = 7\n**Therefore, the value of (2x\u00b3 - 3y\u00b2) / 6 when x = 3 and y = 2 is 7.** \n"
+    ],
+    "pred_answers": "7",
+    "final_pred_answer": [
+        "52",
+        "7",
+        "7",
+        "52",
+        "7"
+    ],
+    "ground_truth": "7"
+}

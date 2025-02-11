@@ -1,0 +1,23 @@
+{
+    "problem": "Together, Amy and Betty have 20 apples. Amy has three times the number of apples that Betty has. How many more apples than Betty does Amy have?",
+    "level": "Level 1",
+    "type": "Algebra",
+    "solution": "Call the amount of apples Amy has $a$ and the amount of apples Betty has $b$. We can use the following system of equations to represent the given information: \\begin{align*}\na + b &= 20 \\\\\na &= 3b \\\\\n\\end{align*}Substituting for $a$ into the first equation gives $3b + b = 20$. Solving for $b$ gives $b = 5$. Thus $a = 15$. So Amy has $15 - 5 = \\boxed{10}$ more apples than Betty.",
+    "prompt": "### Instruction: Together, Amy and Betty have 20 apples. Amy has three times the number of apples that Betty has. How many more apples than Betty does Amy have?\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "Here's how to solve the problem step by step:\n**1. Set up variables:**\n* Let 'x' represent the number of apples Betty has.\n* Amy has three times as many as Betty, so Amy has 3x apples.\n**2. Write an equation:**\n* Together they have 20 apples: x + 3x = 20\n**3. Solve for x:**\n* Combine like terms: 4x = 20\n* Divide both sides by 4: x = 5  (Betty has 5 apples)\n**4. Calculate Amy's apples:**\n* Amy has 3x apples, so she has 3 * 5 = 15 apples.\n**5. Find the difference:**\n* Amy has 15 - 5 = 10 more apples than Betty.\n**Answer:** Amy has 10 more apples than Betty. \n",
+        "Here's how to solve this problem step-by-step:\n**1. Set up variables:**\n* Let 'x' represent the number of apples Betty has.\n* Amy has three times as many apples as Betty, so Amy has 3x apples.\n**2. Write an equation:**\n* Together they have 20 apples: x + 3x = 20\n**3. Solve for x:**\n* Combine like terms: 4x = 20\n* Divide both sides by 4: x = 5 \n**4. Find how many apples Amy has:**\n* Amy has 3x apples, so Amy has 3 * 5 = 15 apples.\n**5. Find the difference:**\n* Amy has 15 - 5 = 10 more apples than Betty.\n**Answer:** Amy has 10 more apples than Betty. \n",
+        "Here's how to solve this problem step-by-step:\n**1. Set up variables:**\n* Let 'x' represent the number of apples Betty has.\n* Amy has three times as many apples as Betty, so Amy has 3x apples.\n**2. Formulate an equation:**\n* Together they have 20 apples:  x + 3x = 20\n**3. Solve for x:**\n* Combine like terms: 4x = 20\n* Divide both sides by 4: x = 5 \n**4. Find how many apples Amy has:**\n* Amy has 3x apples, so she has 3 * 5 = 15 apples.\n**5. Calculate the difference:**\n* Amy has 15 - 5 = 10 more apples than Betty.\n**Answer:** Amy has 10 more apples than Betty. \n",
+        "Here's how to solve the problem step-by-step:\n**1. Set up variables:**\n* Let 'x' represent the number of apples Betty has.\n* Amy has three times the number of apples Betty has, so Amy has 3x apples.\n**2. Create an equation:**\n* Together they have 20 apples:  x + 3x = 20\n**3. Solve for x:**\n* Combine like terms: 4x = 20\n* Divide both sides by 4: x = 5 \n**4. Find out how many apples Amy has:**\n* Amy has 3x apples, so she has 3 * 5 = 15 apples\n**5. Find the difference:**\n* Amy has 15 apples and Betty has 5 apples.\n* Amy has 15 - 5 = 10 more apples than Betty.\n**Answer:** Amy has 10 more apples than Betty. \n",
+        "Here's how to solve the problem step by step:\n**1. Set up variables:**\n* Let 'x' represent the number of apples Betty has.\n* Amy has three times the number of apples Betty has, so Amy has 3x apples.\n**2. Write an equation:**\n* Together, they have 20 apples:  x + 3x = 20\n**3. Solve for x:**\n* Combine like terms: 4x = 20\n* Divide both sides by 4: x = 5  (This means Betty has 5 apples)\n**4. Find Amy's apples:**\n* Amy has 3x apples, so she has 3 * 5 = 15 apples.\n**5. Find the difference:**\n* Amy has 15 - 5 = 10 more apples than Betty.\n**Answer:** Amy has 10 more apples than Betty. \n"
+    ],
+    "pred_answers": "10",
+    "final_pred_answer": [
+        "10",
+        "10",
+        "10",
+        "10",
+        "10"
+    ],
+    "ground_truth": "10"
+}

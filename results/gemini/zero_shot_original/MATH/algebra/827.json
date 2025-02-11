@@ -1,0 +1,23 @@
+{
+    "problem": "Evaluate $\\lceil 8.8 \\rceil+\\lceil -8.8 \\rceil$.",
+    "level": "Level 4",
+    "type": "Algebra",
+    "solution": "The smallest integer greater than $8.8$ is $9$. The smallest integer greater than $-8.8$ is $-8$. Therefore, the answer is $9-8= \\boxed{1}$.",
+    "prompt": "### Instruction: Evaluate $\\lceil 8.8 \\rceil+\\lceil -8.8 \\rceil$.\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "Here's how to evaluate the expression:\n* **Understanding the ceiling function:** The ceiling function, denoted by $\\lceil x \\rceil$, gives the smallest integer greater than or equal to x.\n* **Evaluating  $\\lceil 8.8 \\rceil$:** The smallest integer greater than or equal to 8.8 is 9. So, $\\lceil 8.8 \\rceil = 9$.\n* **Evaluating  $\\lceil -8.8 \\rceil$:** The smallest integer greater than or equal to -8.8 is -8. So, $\\lceil -8.8 \\rceil = -8$.\n* **Adding the results:**  $\\lceil 8.8 \\rceil + \\lceil -8.8 \\rceil = 9 + (-8) = \\boxed{1}$. \n",
+        "Here's how to solve the problem step-by-step:\n* **Understanding the ceiling function:** The ceiling function, denoted by $\\lceil x \\rceil$, gives the smallest integer greater than or equal to $x$.\n* **Evaluating the first term:**  $\\lceil 8.8 \\rceil = 9$ since 9 is the smallest integer greater than or equal to 8.8.\n* **Evaluating the second term:** $\\lceil -8.8 \\rceil = -8$ since -8 is the smallest integer greater than or equal to -8.8.\n* **Adding the terms:**  $\\lceil 8.8 \\rceil + \\lceil -8.8 \\rceil = 9 + (-8) = \\boxed{1}$. \n",
+        "Here's how to evaluate the expression step-by-step:\n* **Understanding the ceiling function:** The ceiling function, denoted by  \u2308x\u2309,  rounds a number *up* to the nearest integer. \n* **Evaluating \u23088.8\u2309:**  Since 8.8 is already between 8 and 9, the ceiling function rounds it up to 9. So, \u23088.8\u2309 = 9.\n* **Evaluating \u2308-8.8\u2309:** Since -8.8 is between -9 and -8, the ceiling function rounds it up to -8. So, \u2308-8.8\u2309 = -8.\n* **Adding the results:** 9 + (-8) = 1\n**Therefore, \u23088.8\u2309 + \u2308-8.8\u2309 = 1.** \n",
+        "Here's how to solve the problem:\n* **Understanding the Ceiling Function:** The ceiling function, denoted by $\\lceil x \\rceil$, gives the smallest integer greater than or equal to *x*. \n* **Evaluating the Ceiling of 8.8:** The smallest integer greater than or equal to 8.8 is 9. So, $\\lceil 8.8 \\rceil = 9$.\n* **Evaluating the Ceiling of -8.8:** The smallest integer greater than or equal to -8.8 is -8. So, $\\lceil -8.8 \\rceil = -8$.\n* **Adding the Results:** Finally, $\\lceil 8.8 \\rceil + \\lceil -8.8 \\rceil = 9 + (-8) = \\boxed{1}$. \n",
+        "Here's how to evaluate the expression:\n* **Understanding the ceiling function:** The ceiling function, denoted by $\\lceil x \\rceil$, gives the smallest integer greater than or equal to x.\n* **Evaluating the first term:**  Since 8.8 is between 8 and 9, the smallest integer greater than or equal to 8.8 is 9.  Therefore, $\\lceil 8.8 \\rceil = 9$.\n* **Evaluating the second term:** Since -8.8 is between -9 and -8, the smallest integer greater than or equal to -8.8 is -8. Therefore, $\\lceil -8.8 \\rceil = -8$.\n* **Adding the terms:** Finally,  $\\lceil 8.8 \\rceil + \\lceil -8.8 \\rceil = 9 + (-8) = \\boxed{1}$. \n"
+    ],
+    "pred_answers": "1",
+    "final_pred_answer": [
+        "1",
+        "1",
+        "1",
+        "1",
+        "1"
+    ],
+    "ground_truth": "1"
+}

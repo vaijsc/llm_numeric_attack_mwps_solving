@@ -1,0 +1,23 @@
+{
+    "problem": "Points $A(-1, -2)$ and $B(3, 2)$ are the endpoints of a diameter of a circle graphed in a coordinate plane. How many square units are in the area of the circle? Express your answer in terms of $\\pi$.",
+    "level": "Level 4",
+    "type": "Algebra",
+    "solution": "We must find the radius of the circle in order to find the area. We are told that points $A$ and $B$ are the endpoints of a diameter, so we use the distance formula to find the length of the diameter.\n\n\\begin{align*}\n\\sqrt{(-1-3)^2+(-2-2)^2} &= \\sqrt{16 + 16} \\\\\n&= 4\\sqrt{2}\n\\end{align*}Since the diameter has a length of $4\\sqrt{2}$, the radius must have length $2\\sqrt{2}$. Therefore, the answer is $(2\\sqrt{2})^2\\pi = \\boxed{8\\pi}$.",
+    "prompt": "### Instruction: Points $A(-1, -2)$ and $B(3, 2)$ are the endpoints of a diameter of a circle graphed in a coordinate plane. How many square units are in the area of the circle? Express your answer in terms of $\\pi$.\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "Here's how to solve the problem step-by-step:\n1. **Find the diameter:** The distance between points A and B is the diameter of the circle. We can use the distance formula: \n   \n   Distance =  \u221a[(3 - (-1))^2 + (2 - (-2))^2] = \u221a(4^2 + 4^2) = \u221a32 = 4\u221a2 \n2. **Find the radius:** The radius is half the diameter: \n   \n   Radius = (4\u221a2) / 2 = 2\u221a2\n3. **Calculate the area:** The area of a circle is \u03c0r\u00b2: \n   \n   Area = \u03c0(2\u221a2)\u00b2 = \u03c0(8) = **8\u03c0 square units** \n",
+        "Here's how to solve the problem step-by-step:\n**1. Find the diameter of the circle:**\n* The diameter of the circle is the distance between points A and B. \n* We can use the distance formula:  \n   \u221a[(x\u2082 - x\u2081)\u00b2 + (y\u2082 - y\u2081)\u00b2]\n* Substitute the coordinates of A and B:\n   \u221a[(3 - (-1))\u00b2 + (2 - (-2))\u00b2] = \u221a(4\u00b2 + 4\u00b2) = \u221a32 = 4\u221a2 \n**2. Find the radius of the circle:**\n* The radius is half the diameter: (4\u221a2) / 2 = 2\u221a2\n**3. Calculate the area of the circle:**\n* The area of a circle is given by the formula: \u03c0r\u00b2\n* Substitute the radius we found: \u03c0(2\u221a2)\u00b2 = \u03c0(8) = **8\u03c0**\n**Therefore, there are 8\u03c0 square units in the area of the circle.** \n",
+        "Here's how to solve the problem step-by-step:\n**1. Find the diameter of the circle:**\n* The diameter of the circle is the distance between points A and B.\n* Use the distance formula:  \u221a[(x\u2082 - x\u2081)\u00b2 + (y\u2082 - y\u2081)\u00b2]\n* Substitute the coordinates of A and B: \u221a[(3 - (-1))\u00b2 + (2 - (-2))\u00b2] = \u221a(4\u00b2 + 4\u00b2) = \u221a32 = 4\u221a2 \n**2. Find the radius of the circle:**\n* The radius is half the diameter: (4\u221a2)/2 = 2\u221a2\n**3. Calculate the area of the circle:**\n* The area of a circle is given by the formula: \u03c0r\u00b2\n* Substitute the radius: \u03c0(2\u221a2)\u00b2 = \u03c0(8) = 8\u03c0\n**Answer:** The area of the circle is **8\u03c0** square units. \n",
+        "Here's how to solve the problem step-by-step:\n**1. Find the diameter:**\n* The diameter of the circle is the distance between points A and B. \n* Use the distance formula:  \n   \u221a[(3 - (-1))^2 + (2 - (-2))^2] = \u221a(4\u00b2 + 4\u00b2) = \u221a32 = 4\u221a2\n**2. Find the radius:**\n* The radius is half the diameter:  (4\u221a2) / 2 = 2\u221a2\n**3. Calculate the area:**\n* The area of a circle is given by the formula: \u03c0r\u00b2\n* Substitute the radius: \u03c0(2\u221a2)\u00b2 = \u03c0(8) = **8\u03c0**\n**Therefore, the area of the circle is 8\u03c0 square units.** \n",
+        "Here's how to solve the problem step-by-step:\n**1. Find the diameter of the circle:**\n* The diameter of the circle is the distance between points A and B. \n* Use the distance formula:  \n   \u221a[(3 - (-1))^2 + (2 - (-2))^2] = \u221a(4\u00b2 + 4\u00b2) = \u221a32 = 4\u221a2\n**2. Find the radius of the circle:**\n* The radius is half the diameter: (4\u221a2)/2 = 2\u221a2\n**3. Calculate the area of the circle:**\n* The area of a circle is given by the formula:  \u03c0 * radius\u00b2\n* Substitute the radius: \u03c0 * (2\u221a2)\u00b2 = \u03c0 * 8 = **8\u03c0**\n**Therefore, the area of the circle is 8\u03c0 square units.** \n"
+    ],
+    "pred_answers": "8",
+    "final_pred_answer": [
+        "8",
+        "8",
+        "8",
+        "8",
+        "8"
+    ],
+    "ground_truth": "8"
+}

@@ -1,0 +1,23 @@
+{
+    "problem": "Let $f(y) = y^4 -3y^3 +y - 3$ and $g(y) = y^3 + 7y^2 -2$. Find $f(y) + g(y)$.  Write your answer as a polynomial with terms of decreasing degree.",
+    "level": "Level 3",
+    "type": "Algebra",
+    "solution": "We see that $f(y) + g(y) = y^4 -3y^3+y-3 +y^3+7y^2-2.$ Simplifying, we get $\\boxed{y^4-2y^3+7y^2+y-5}$.",
+    "prompt": "### Instruction: Let $f(y) = y^4 -3y^3 +y - 3$ and $g(y) = y^3 + 7y^2 -2$. Find $f(y) + g(y)$.  Write your answer as a polynomial with terms of decreasing degree.\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "Here's how to find  $f(y) + g(y)$ step by step:\n1. **Write out the functions:**\n   *  $f(y) = y^4 - 3y^3 + y - 3$\n   *  $g(y) = y^3 + 7y^2 - 2$\n2. **Add the corresponding terms:**\n   *  **y\u2074 terms:**  There's only one y\u2074 term, so it remains as  $y^4$.\n   *  **y\u00b3 terms:**  (-3y\u00b3) + (y\u00b3) = -2y\u00b3\n   *  **y\u00b2 terms:**  There's only one y\u00b2 term, so it remains as +7y\u00b2\n   *  **y terms:** There's only one y term, so it remains as +y\n   *  **Constant terms:**  (-3) + (-2) = -5\n3. **Combine the terms:**\n   *  $f(y) + g(y) = y^4 - 2y^3 + 7y^2 + y - 5$\n**Therefore,  $f(y) + g(y) = y^4 - 2y^3 + 7y^2 + y - 5$.** \n",
+        "1. **Write out the expressions for f(y) and g(y):**\n   \n   *  f(y) = y\u2074 - 3y\u00b3 + y - 3\n   *  g(y) = y\u00b3 + 7y\u00b2 - 2\n2. **Add the corresponding terms together:**\n   *  y\u2074  (from f(y))\n   *  -3y\u00b3 + y\u00b3 = -2y\u00b3 (from f(y) and g(y))\n   *  7y\u00b2  (from g(y))\n   *  y  (from f(y))\n   *  -3 - 2 = -5 (from f(y) and g(y))\n3. **Combine the terms to form the final polynomial:**\n   f(y) + g(y) = **y\u2074 - 2y\u00b3 + 7y\u00b2 + y - 5** \n",
+        "1. **Write out the expressions for f(y) and g(y):**\n   *  f(y) = y\u2074 - 3y\u00b3 + y - 3\n   *  g(y) = y\u00b3 + 7y\u00b2 - 2\n2. **Add the corresponding terms:**\n   *  y\u2074 (from f(y))  +  (no y\u2074 term in g(y)) = y\u2074\n   *  -3y\u00b3 (from f(y)) + y\u00b3 (from g(y)) = -2y\u00b3\n   *  (no y\u00b2 term in f(y)) + 7y\u00b2 (from g(y)) = 7y\u00b2\n   *  y (from f(y)) + (no y term in g(y)) = y\n   *  -3 (from f(y)) - 2 (from g(y)) = -5\n3. **Combine the terms:**\n   * f(y) + g(y) = y\u2074 - 2y\u00b3 + 7y\u00b2 + y - 5\n**Therefore, f(y) + g(y) = y\u2074 - 2y\u00b3 + 7y\u00b2 + y - 5** \n",
+        "**1. Write out the expressions for f(y) and g(y):**\n*  f(y) = y\u2074 - 3y\u00b3 + y - 3\n*  g(y) = y\u00b3 + 7y\u00b2 - 2\n**2. Combine the terms with the same powers of y:**\n* **y\u2074 terms:** Only f(y) has a y\u2074 term, so we keep y\u2074.\n* **y\u00b3 terms:**  -3y\u00b3 from f(y) + y\u00b3 from g(y) = -2y\u00b3\n* **y\u00b2 terms:**  Only g(y) has a y\u00b2 term, so we keep 7y\u00b2.\n* **y terms:** Only f(y) has a y term, so we keep y.\n* **Constant terms:** -3 from f(y) - 2 from g(y) = -5\n**3. Write the final polynomial:**\nf(y) + g(y) = **y\u2074 - 2y\u00b3 + 7y\u00b2 + y - 5** \n",
+        "1. **Write out the expressions for f(y) and g(y):** \n   *  f(y) = y\u2074 - 3y\u00b3 + y - 3\n   *  g(y) = y\u00b3 + 7y\u00b2 - 2\n2. **Add the corresponding terms:** \n   *  y\u2074  + ( -3y\u00b3 + y\u00b3) + (7y\u00b2) + (y) + (-3 - 2)\n3. **Simplify:**\n   *  y\u2074 - 2y\u00b3 + 7y\u00b2 + y - 5\n**Therefore, f(y) + g(y) = y\u2074 - 2y\u00b3 + 7y\u00b2 + y - 5** \n"
+    ],
+    "pred_answers": "5",
+    "final_pred_answer": [
+        "5",
+        "5",
+        "5",
+        "5",
+        "5"
+    ],
+    "ground_truth": "-5"
+}

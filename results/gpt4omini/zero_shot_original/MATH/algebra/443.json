@@ -1,0 +1,23 @@
+{
+    "problem": "If $\\sqrt{400}=\\sqrt{81}+\\sqrt{n}$, then what is the value of $n$?",
+    "level": "Level 1",
+    "type": "Algebra",
+    "solution": "Not to be fooled by the square roots, we rewrite the equation as $20=9+\\sqrt{n}.$ Thus, $\\sqrt{n}=11$ and $n=\\boxed{121}.$",
+    "prompt": "### Instruction: If $\\sqrt{400}=\\sqrt{81}+\\sqrt{n}$, then what is the value of $n$?\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "To solve the equation \\(\\sqrt{400} = \\sqrt{81} + \\sqrt{n}\\), we start by calculating the square roots on the left and right sides.\n1. Calculate \\(\\sqrt{400}\\):\n   \\[\n   \\sqrt{400} = 20.\n   \\]\n2. Calculate \\(\\sqrt{81}\\):\n   \\[\n   \\sqrt{81} = 9.\n   \\]\n3. Substitute these values back into the equation:\n   \\[\n   20 = 9 + \\sqrt{n}.\n   \\]\n4. Isolate \\(\\sqrt{n}\\) by subtracting 9 from both sides:\n   \\[\n   20 - 9 = \\sqrt{n},\n   \\]\n   \\[\n   11 = \\sqrt{n}.\n   \\]\n5. To solve for \\(n\\), square both sides of the equation:\n   \\[\n   n = 11^2 = 121.\n   \\]\nThus, the value of \\(n\\) is \\(\\boxed{121}\\).",
+        "We start with the equation given in the problem:\n\\[\n\\sqrt{400} = \\sqrt{81} + \\sqrt{n}.\n\\]\nFirst, we calculate \\(\\sqrt{400}\\):\n\\[\n\\sqrt{400} = 20.\n\\]\nNext, we calculate \\(\\sqrt{81}\\):\n\\[\n\\sqrt{81} = 9.\n\\]\nNow, we can substitute these values back into the equation:\n\\[\n20 = 9 + \\sqrt{n}.\n\\]\nTo isolate \\(\\sqrt{n}\\), we subtract 9 from both sides:\n\\[\n20 - 9 = \\sqrt{n}.\n\\]\nThis simplifies to:\n\\[\n11 = \\sqrt{n}.\n\\]\nNext, to find \\(n\\), we square both sides of the equation:\n\\[\nn = 11^2.\n\\]\nCalculating \\(11^2\\):\n\\[\nn = 121.\n\\]\nThus, the value of \\(n\\) is \n\\[\n\\boxed{121}.\n\\]",
+        "To solve the equation \\(\\sqrt{400}=\\sqrt{81}+\\sqrt{n}\\), we first evaluate the square roots on the left and right sides of the equation.\n1. Calculate \\(\\sqrt{400}\\):\n   \\[\n   \\sqrt{400} = 20\n   \\]\n2. Calculate \\(\\sqrt{81}\\):\n   \\[\n   \\sqrt{81} = 9\n   \\]\nNow we can substitute these values back into the equation:\n\\[\n20 = 9 + \\sqrt{n}\n\\]\n3. To isolate \\(\\sqrt{n}\\), subtract \\(9\\) from both sides:\n   \\[\n   20 - 9 = \\sqrt{n}\n   \\]\n   \\[\n   11 = \\sqrt{n}\n   \\]\n4. Next, square both sides to solve for \\(n\\):\n   \\[\n   n = 11^2\n   \\]\n   \\[\n   n = 121\n   \\]\nThus, the value of \\(n\\) is \\(\\boxed{121}\\).",
+        "To solve the equation \\( \\sqrt{400} = \\sqrt{81} + \\sqrt{n} \\), we can start by calculating the square roots involved.\nFirst, we find \\( \\sqrt{400} \\):\n\\[\n\\sqrt{400} = 20\n\\]\nNext, we find \\( \\sqrt{81} \\):\n\\[\n\\sqrt{81} = 9\n\\]\nNow we can substitute these values back into the original equation:\n\\[\n20 = 9 + \\sqrt{n}\n\\]\nTo isolate \\( \\sqrt{n} \\), we subtract \\( 9 \\) from both sides:\n\\[\n20 - 9 = \\sqrt{n}\n\\]\n\\[\n11 = \\sqrt{n}\n\\]\nNext, we square both sides to solve for \\( n \\):\n\\[\nn = 11^2\n\\]\n\\[\nn = 121\n\\]\nThus, the value of \\( n \\) is:\n\\[\n\\boxed{121}\n\\]\nTo confirm, let's substitute \\( n = 121 \\) back into the original equation:\nFirst, we calculate \\( \\sqrt{121} \\):\n\\[\n\\sqrt{121} = 11\n\\]\nThen, we check our work:\n\\[\n\\sqrt{400} = \\sqrt{81} + \\sqrt{121}\n\\]\n\\[\n20 = 9 + 11\n\\]\n\\[\n20 = 20\n\\]\nSince both sides are equal, the solution is verified. The value of \\( n \\) is indeed:\n\\[\n\\boxed{121}\n\\]",
+        "First, we need to calculate the values of \\(\\sqrt{400}\\) and \\(\\sqrt{81}\\).\nStarting with \\(\\sqrt{400}\\):\n\\[\n\\sqrt{400} = 20\n\\]\nNext, we calculate \\(\\sqrt{81}\\):\n\\[\n\\sqrt{81} = 9\n\\]\nNow we substitute these values into the equation:\n\\[\n\\sqrt{400} = \\sqrt{81} + \\sqrt{n}\n\\]\nThis simplifies to:\n\\[\n20 = 9 + \\sqrt{n}\n\\]\nNext, we can isolate \\(\\sqrt{n}\\) by subtracting \\(9\\) from both sides:\n\\[\n20 - 9 = \\sqrt{n}\n\\]\nThis gives us:\n\\[\n11 = \\sqrt{n}\n\\]\nTo find \\(n\\), we square both sides of the equation:\n\\[\nn = 11^2\n\\]\nCalculating \\(11^2\\):\n\\[\nn = 121\n\\]\nThus, the value of \\(n\\) is \n\\[\n\\boxed{121}\n\\]"
+    ],
+    "pred_answers": "121",
+    "final_pred_answer": [
+        "121",
+        "121",
+        "121",
+        "121",
+        "121"
+    ],
+    "ground_truth": "121"
+}

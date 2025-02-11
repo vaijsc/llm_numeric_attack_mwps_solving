@@ -1,0 +1,23 @@
+{
+    "problem": "What is the sum of the two values of $x$ for which $(x+3)^2 = 121$?",
+    "level": "Level 2",
+    "type": "Algebra",
+    "solution": "Expanding the left side, we have $x^2+6x+9=121 \\Rightarrow x^2+6x-112=0$. For a quadratic with the equation $ax^2+bx+c=0$, the sum of the roots is $-b/a$. Applying this formula to the problem, we have that the sum of the two roots is $-6/1=\\boxed{-6}$.",
+    "prompt": "### Instruction: What is the sum of the two values of $x$ for which $(x+3)^2 = 121$?\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "Here's how to solve the problem step-by-step:\n1. **Take the square root of both sides:** \n   \u221a((x+3)\u00b2) = \u00b1\u221a121 \n2. **Simplify:**\n   x + 3 = \u00b111\n3. **Solve for x:**\n   *  x + 3 = 11  =>  x = 8\n   *  x + 3 = -11 => x = -14\n4. **Find the sum:**\n   8 + (-14) = **-6**\n**Therefore, the sum of the two values of x is -6.** \n",
+        "Here's how to solve the problem step-by-step:\n1. **Take the square root of both sides:** \n   Since we have a squared term, we can get rid of it by taking the square root of both sides of the equation: \n   \u221a((x+3)\u00b2) = \u00b1\u221a121\n2. **Simplify:**\n   This gives us:\n   x + 3 = \u00b111\n3. **Solve for x:**\n   Now we have two separate equations to solve:\n   * x + 3 = 11  \n   * x + 3 = -11\n   Solving each equation:\n   * x = 8\n   * x = -14\n4. **Find the sum:**\n   The sum of the two values of x is 8 + (-14) = **-6** \n",
+        "Here's how to solve the problem step-by-step:\n1. **Take the square root of both sides:** \n   \u221a(x+3)\u00b2 = \u221a121\n   x + 3 = \u00b111  (Remember that taking the square root can result in both positive and negative values)\n2. **Solve for x:**\n   * x + 3 = 11   =>  x = 8\n   * x + 3 = -11  =>  x = -14\n3. **Find the sum:**\n   8 + (-14) = -6\n**Therefore, the sum of the two values of x is -6.** \n",
+        "1. **Take the square root of both sides:** \n   \u221a((x + 3)\u00b2) = \u00b1\u221a121\n2. **Simplify:**\n   x + 3 = \u00b111\n3. **Solve for x:**\n   x = -3 \u00b1 11\n4. **Find the two possible values of x:**\n   x = -3 + 11 = 8\n   x = -3 - 11 = -14\n5. **Calculate the sum:**\n   8 + (-14) = **-6** \nTherefore, the sum of the two values of x is **-6**. \n",
+        "Here's how to solve the problem step-by-step:\n1. **Take the square root of both sides:** \n   \u221a[(x + 3)\u00b2] = \u00b1\u221a121\n2. **Simplify:**\n   x + 3 = \u00b111\n3. **Solve for x:**\n   x = -3 \u00b1 11\n4. **Find the two solutions:**\n   * x = -3 + 11 = 8\n   * x = -3 - 11 = -14\n5. **Calculate the sum:**\n   8 + (-14) = **-6** \nTherefore, the sum of the two values of x is **-6**. \n"
+    ],
+    "pred_answers": "-6",
+    "final_pred_answer": [
+        "-6",
+        "-6",
+        "-6",
+        "-6",
+        "-6"
+    ],
+    "ground_truth": "-6"
+}

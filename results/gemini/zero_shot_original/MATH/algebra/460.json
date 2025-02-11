@@ -1,0 +1,23 @@
+{
+    "problem": "If $f(x)=\\dfrac{2}{x+1}$, then what is the value of $f^{-1}\\left(\\frac{1}{5}\\right)$?",
+    "level": "Level 4",
+    "type": "Algebra",
+    "solution": "$f^{-1}\\left(\\frac{1}{5}\\right)$ is defined as the number $x$ such that $f(x)=\\frac{1}{5}$. Thus, we solve the equation $$\\frac{2}{x+1} = \\frac{1}{5}.$$Multiplying both sides by $5(x+1)$, we have $$10 = x+1.$$Subtracting $1$ from both sides gives $x=\\boxed{9}$.",
+    "prompt": "### Instruction: If $f(x)=\\dfrac{2}{x+1}$, then what is the value of $f^{-1}\\left(\\frac{1}{5}\\right)$?\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "Here's how to solve the problem step by step:\n**1. Find the inverse function, f\u207b\u00b9(x):**\n* **Start with the original function:**  \n   y = 2/(x + 1)\n* **Swap x and y:**\n   x = 2/(y + 1)\n* **Solve for y:**\n    * Multiply both sides by (y + 1): x(y + 1) = 2\n    * Distribute: xy + x = 2\n    * Subtract x from both sides: xy = 2 - x\n    * Divide both sides by x: y = (2 - x) / x\n* **Replace y with f\u207b\u00b9(x):**\n    f\u207b\u00b9(x) = (2 - x) / x\n**2. Evaluate f\u207b\u00b9(1/5):**\n* **Substitute x = 1/5 into the inverse function:**\n    f\u207b\u00b9(1/5) = (2 - 1/5) / (1/5)\n* **Simplify:**\n    f\u207b\u00b9(1/5) = (9/5) / (1/5) = 9\n**Therefore, the value of f\u207b\u00b9(1/5) is 9.** \n",
+        "Here's how to solve the problem step-by-step:\n**1. Find the inverse function,  f\u207b\u00b9(x)**\n* **Replace f(x) with y:**  \n   y = 2/(x+1)\n* **Swap x and y:** \n   x = 2/(y+1)\n* **Solve for y:**\n    * Multiply both sides by (y+1): x(y+1) = 2\n    * Distribute: xy + x = 2\n    * Subtract x from both sides: xy = 2 - x\n    * Divide both sides by x: y = (2 - x)/x\n* **Replace y with f\u207b\u00b9(x):**\n   f\u207b\u00b9(x) = (2 - x)/x\n**2. Evaluate f\u207b\u00b9(1/5)**\n* Substitute (1/5) for x in the expression for f\u207b\u00b9(x):\n   f\u207b\u00b9(1/5) = (2 - 1/5) / (1/5)\n**3. Simplify**\n* Find a common denominator for the numerator:\n   f\u207b\u00b9(1/5) = (10/5 - 1/5) / (1/5)\n* Simplify: \n   f\u207b\u00b9(1/5) = (9/5) / (1/5)\n* Dividing by a fraction is the same as multiplying by its reciprocal:\n   f\u207b\u00b9(1/5) = (9/5) * (5/1)\n* Simplify:\n   f\u207b\u00b9(1/5) = 9\n**Therefore, the value of f\u207b\u00b9(1/5) is 9.** \n",
+        "Here's how to solve the problem step-by-step:\n**1. Find the inverse function,  f\u207b\u00b9(x):**\n* **Replace f(x) with y:**  \n   y = 2/(x + 1)\n* **Swap x and y:** \n   x = 2/(y + 1)\n* **Solve for y:**\n   * Multiply both sides by (y + 1): x(y + 1) = 2\n   * Distribute: xy + x = 2\n   * Subtract x from both sides: xy = 2 - x\n   * Divide both sides by x: y = (2 - x) / x\n* **Replace y with f\u207b\u00b9(x):**\n   f\u207b\u00b9(x) = (2 - x) / x\n**2. Evaluate f\u207b\u00b9(1/5):**\n* **Substitute x = 1/5 into the inverse function:**\n   f\u207b\u00b9(1/5) = (2 - 1/5) / (1/5)\n* **Simplify:**\n   f\u207b\u00b9(1/5) = (9/5) / (1/5) = 9\n**Therefore, the value of f\u207b\u00b9(1/5) is 9.** \n",
+        "Here's how to solve the problem step-by-step:\n**1. Find the inverse function, f\u207b\u00b9(x):**\n* **Replace f(x) with y:**  \n   y = 2/(x+1)\n* **Swap x and y:** \n   x = 2/(y+1)\n* **Solve for y:**\n    * Multiply both sides by (y+1): x(y+1) = 2\n    * Distribute: xy + x = 2\n    * Subtract x from both sides: xy = 2 - x\n    * Divide both sides by x: y = (2 - x) / x\n* **Replace y with f\u207b\u00b9(x):**\n   f\u207b\u00b9(x) = (2 - x) / x\n**2. Evaluate f\u207b\u00b9(1/5):**\n* **Substitute x = 1/5 into the expression for f\u207b\u00b9(x):**\n   f\u207b\u00b9(1/5) = (2 - (1/5)) / (1/5)\n* **Simplify:**\n   f\u207b\u00b9(1/5) = (9/5) / (1/5) = 9\n**Therefore, the value of f\u207b\u00b9(1/5) is 9.** \n",
+        "Here's how to solve the problem step-by-step:\n**1. Find the inverse function, f\u207b\u00b9(x):**\n* **Start with the equation:**  y = f(x) = 2/(x+1)\n* **Swap x and y:** x = 2/(y+1)\n* **Solve for y:**\n    * Multiply both sides by (y+1): x(y+1) = 2\n    * Distribute: xy + x = 2\n    * Subtract x from both sides: xy = 2 - x\n    * Divide both sides by x: y = (2 - x) / x\n* **Replace y with f\u207b\u00b9(x):** f\u207b\u00b9(x) = (2 - x) / x\n**2. Evaluate f\u207b\u00b9(1/5):**\n* **Substitute x = 1/5 into the inverse function:** f\u207b\u00b9(1/5) = (2 - 1/5) / (1/5)\n* **Simplify:** f\u207b\u00b9(1/5) = (9/5) / (1/5) = 9\n**Therefore, the value of f\u207b\u00b9(1/5) is 9.** \n"
+    ],
+    "pred_answers": "9",
+    "final_pred_answer": [
+        "9",
+        "9",
+        "9",
+        "9",
+        "9"
+    ],
+    "ground_truth": "9"
+}

@@ -1,0 +1,23 @@
+{
+    "problem": "Evaluate $\\left\\lceil -\\frac{7}{4}\\right\\rceil$.",
+    "level": "Level 3",
+    "type": "Algebra",
+    "solution": "$-\\frac{7}{4}$ is between $-1$ and $-2$, so $\\left\\lceil -\\frac{7}{4}\\right\\rceil=\\boxed{-1}$.",
+    "prompt": "### Instruction: Evaluate $\\left\\lceil -\\frac{7}{4}\\right\\rceil$.\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "To evaluate \\(\\left\\lceil -\\frac{7}{4}\\right\\rceil\\), we need to first calculate the value of \\(-\\frac{7}{4}\\).\n1. Begin by calculating \\(\\frac{7}{4}\\):\n   \\[\n   \\frac{7}{4} = 1.75\n   \\]\n2. Now, apply the negative sign:\n   \\[\n   -\\frac{7}{4} = -1.75\n   \\]\n3. Next, we apply the ceiling function, denoted by \\(\\lceil x \\rceil\\). The ceiling function gives the smallest integer greater than or equal to \\(x\\). \n4. For the value \\(-1.75\\):\n   - The integers greater than \\(-1.75\\) are \\(-1, 0, 1, 2, \\ldots\\)\n   - The smallest integer that is greater than \\(-1.75\\) is \\(-1\\).\nTherefore,\n\\[\n\\left\\lceil -\\frac{7}{4}\\right\\rceil = -1.\n\\]\nThus, the final answer is \n\\[\n\\boxed{-1}.\n\\]",
+        "To evaluate \\(\\left\\lceil -\\frac{7}{4} \\right\\rceil\\), we first need to compute the value of \\(-\\frac{7}{4}\\).\n1. **Calculate \\(-\\frac{7}{4}\\)**:\n   \\[\n   -\\frac{7}{4} = -1.75\n   \\]\n2. **Determine the ceiling of \\(-1.75\\)**:\n   The ceiling function, denoted as \\(\\lceil x \\rceil\\), gives the smallest integer that is greater than or equal to \\(x\\). \n   For \\(-1.75\\), we look for the smallest integer that is greater than \\(-1.75\\). The integers surrounding \\(-1.75\\) are:\n   - The next greater integer is \\(-1\\)\n   - The next lower integer is \\(-2\\)\n   Since \\(-1\\) is greater than \\(-1.75\\) and \\(-2\\) is less than \\(-1.75\\), we find:\n   \\[\n   \\lceil -1.75 \\rceil = -1\n   \\]\n3. **Final result**:\n   Therefore, the final evaluation is:\n   \\[\n   \\left\\lceil -\\frac{7}{4} \\right\\rceil = -1\n   \\]\nThus, the answer is \\(\\boxed{-1}\\).",
+        "To evaluate \\(\\left\\lceil -\\frac{7}{4}\\right\\rceil\\), we first need to calculate the value of \\(-\\frac{7}{4}\\).\n1. **Calculate \\(-\\frac{7}{4}\\)**:\n   \\[\n   -\\frac{7}{4} = -1.75\n   \\]\n2. **Understand the ceiling function**:\n   The ceiling function \\(\\left\\lceil x \\right\\rceil\\) gives the smallest integer that is greater than or equal to \\(x\\).\n3. **Determine \\(\\left\\lceil -1.75 \\right\\rceil\\)**:\n   We look for the smallest integer that is greater than or equal to \\(-1.75\\). The integers around \\(-1.75\\) are \\(-2\\) and \\(-1\\). Since \\(-1\\) is greater than \\(-1.75\\), and \\(-2\\) is less than \\(-1.75\\), the smallest integer greater than or equal to \\(-1.75\\) is:\n   \\[\n   \\left\\lceil -1.75 \\right\\rceil = -1\n   \\]\nThus, the final evaluation is:\n\\[\n\\boxed{-1}\n\\]",
+        "To evaluate \\(\\left\\lceil -\\frac{7}{4}\\right\\rceil\\), we first need to calculate the value of \\(-\\frac{7}{4}\\).\n1. **Calculate \\(-\\frac{7}{4}\\)**:\n   \\[\n   -\\frac{7}{4} = -1.75\n   \\]\n2. **Find the ceiling of \\(-1.75\\)**:\n   The ceiling function, denoted as \\(\\lceil x \\rceil\\), returns the smallest integer that is greater than or equal to \\(x\\).\n   Since \\(-1.75\\) is between \\(-2\\) and \\(-1\\), the smallest integer greater than or equal to \\(-1.75\\) is \\(-1\\).\nThus, we conclude that:\n\\[\n\\left\\lceil -\\frac{7}{4} \\right\\rceil = \\left\\lceil -1.75 \\right\\rceil = -1\n\\]\nSo, the final answer is:\n\\[\n\\boxed{-1}\n\\]",
+        "To evaluate \\(\\left\\lceil -\\frac{7}{4} \\right\\rceil\\), we start by simplifying \\(-\\frac{7}{4}\\).\n1. Calculate the value of \\(-\\frac{7}{4}\\):\n   \\[\n   -\\frac{7}{4} = -1.75\n   \\]\n2. Now we need to find \\(\\left\\lceil -1.75 \\right\\rceil\\). The ceiling function \\(\\lceil x \\rceil\\) returns the smallest integer that is greater than or equal to \\(x\\).\n3. Identify the integers surrounding \\(-1.75\\):\n   - The integer immediately greater than \\(-1.75\\) is \\(-1\\).\n   - The integer immediately less than \\(-1.75\\) is \\(-2\\).\n4. Since \\(-1\\) is the smallest integer that is greater than or equal to \\(-1.75\\), we have:\n   \\[\n   \\left\\lceil -1.75 \\right\\rceil = -1\n   \\]\nThus, the final result is:\n\\[\n\\left\\lceil -\\frac{7}{4} \\right\\rceil = -1\n\\]"
+    ],
+    "pred_answers": "-1",
+    "final_pred_answer": [
+        "-1",
+        "-1",
+        "-1",
+        "-1",
+        "-1"
+    ],
+    "ground_truth": "-1"
+}

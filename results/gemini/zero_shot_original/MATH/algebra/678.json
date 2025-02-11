@@ -1,0 +1,23 @@
+{
+    "problem": "How much greater than $19^2$ is $31^2$ ?",
+    "level": "Level 1",
+    "type": "Algebra",
+    "solution": "We want to find the value of $31^2 - 19^2$. This factors into $(31+19)(31-19)$, which equals $50 \\cdot 12$, or $\\boxed{600}$.",
+    "prompt": "### Instruction: How much greater than $19^2$ is $31^2$ ?\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "Here's how to solve the problem step-by-step:\n1. **Calculate 19\u00b2:** 19\u00b2 = 19 * 19 = 361\n2. **Calculate 31\u00b2:** 31\u00b2 = 31 * 31 = 961\n3. **Find the difference:** 961 - 361 = 600\n**Answer:** 31\u00b2 is **600** greater than 19\u00b2. \n",
+        "1. **Calculate 19\u00b2:** 19\u00b2 = 19 * 19 = 361\n2. **Calculate 31\u00b2:** 31\u00b2 = 31 * 31 = 961\n3. **Find the difference:** 961 - 361 = 600\nTherefore, $31^2$ is **600** greater than $19^2$. \n",
+        "1. **Calculate the squares:**\n   *  19\u00b2 = 19 * 19 = 361\n   *  31\u00b2 = 31 * 31 = 961\n2. **Find the difference:**\n   *  961 - 361 = 600\n**Answer:** 31\u00b2 is **600** greater than 19\u00b2. \n",
+        "**1. Calculate the squares:**\n*  19\u00b2 = 19 * 19 = 361\n*  31\u00b2 = 31 * 31 = 961\n**2. Find the difference:**\n* 961 - 361 = 600\n**Answer:** 31\u00b2 is **600** greater than 19\u00b2. \n",
+        "Here's how to solve the problem step-by-step:\n1. **Calculate 19\u00b2:** 19\u00b2 = 19 * 19 = 361\n2. **Calculate 31\u00b2:** 31\u00b2 = 31 * 31 = 961\n3. **Find the difference:** 961 - 361 = 600\n**Answer:**  31\u00b2 is **600** greater than 19\u00b2. \n"
+    ],
+    "pred_answers": "31",
+    "final_pred_answer": [
+        "31",
+        "2",
+        "31",
+        "31",
+        "31"
+    ],
+    "ground_truth": "600"
+}

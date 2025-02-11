@@ -1,0 +1,23 @@
+{
+    "problem": "What integer $x$ satisfies the equation: $2^{x + 2} = 32$ ?",
+    "level": "Level 1",
+    "type": "Algebra",
+    "solution": "Two raised to the 5th power equals 32, and since the function $f(x)=2^x$ is monotonically increasing, 5 is the only real number $r$ for which $2^r=32$.  Therefore, $x+2=5\\implies x=\\boxed{3}$.",
+    "prompt": "### Instruction: What integer $x$ satisfies the equation: $2^{x + 2} = 32$ ?\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "Here's how to solve the equation step-by-step:\n1. **Rewrite 32 as a power of 2:**  We know that 32 is equal to 2 to the power of 5 (2^5 = 32).\n2. **Substitute:** Now we can rewrite the equation:  2^(x+2) = 2^5\n3. **Equate the exponents:**  Since the bases are the same, we can equate the exponents: x + 2 = 5\n4. **Solve for x:** Subtract 2 from both sides to get x = 3\n**Therefore, the integer x that satisfies the equation is x = 3.** \n",
+        "Here's how to solve the equation step-by-step:\n1. **Express 32 as a power of 2:**  We know that  32 is equal to 2 multiplied by itself five times (2 x 2 x 2 x 2 x 2), or 2\u2075.\n2. **Rewrite the equation:** Now our equation becomes: 2^(x+2) = 2\u2075\n3. **Equate the exponents:** Since the bases are the same, we can equate the exponents: x + 2 = 5\n4. **Solve for x:** Subtract 2 from both sides to get x = 3.\n**Therefore, the integer x that satisfies the equation is 3.** \n",
+        "**1. Express 32 as a power of 2:**\n   We know that 32 is equal to 2 multiplied by itself five times: 32 = 2 * 2 * 2 * 2 * 2 = 2\u2075\n**2. Substitute and simplify:**\n   Now our equation looks like this: 2^(x + 2) = 2\u2075 \n   Since the bases are the same, we can equate the exponents: x + 2 = 5\n**3. Solve for x:**\n   Subtract 2 from both sides: x = 5 - 2\n**4. Final Answer:**\n   Therefore, x = **3**. \n",
+        "Here's how to solve the equation step-by-step:\n1. **Rewrite 32 as a power of 2:**  We know that 32 is equal to 2 to the power of 5 (2^5).\n2. **Substitute:**  Now we have the equation: 2^(x + 2) = 2^5\n3. **Equate exponents:** Since the bases are the same, we can equate the exponents: x + 2 = 5\n4. **Solve for x:** Subtract 2 from both sides: x = 3\n**Therefore, the integer x that satisfies the equation is 3.** \n",
+        "Here's how to solve the equation step-by-step:\n1. **Rewrite 32 as a power of 2:**  We know that  32 is the same as 2 multiplied by itself five times (2 x 2 x 2 x 2 x 2), which can be written as 2\u2075.\n2. **Substitute:**  Now our equation becomes: 2^(x + 2) = 2\u2075\n3. **Equate the exponents:**  Since the bases are the same (both are 2), we can equate the exponents: x + 2 = 5\n4. **Solve for x:** Subtract 2 from both sides: x = 3\n**Therefore, the integer x that satisfies the equation is 3.** \n"
+    ],
+    "pred_answers": "3",
+    "final_pred_answer": [
+        "3",
+        "3",
+        "3",
+        "3",
+        "3"
+    ],
+    "ground_truth": "3"
+}

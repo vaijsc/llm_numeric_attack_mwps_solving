@@ -1,0 +1,23 @@
+{
+    "problem": "Find the integer that lies between $\\sqrt[3]{-45}$ and $\\sqrt[3]{-101}$.",
+    "level": "Level 2",
+    "type": "Algebra",
+    "solution": "We have $(-3)^3 = -27$, $(-4)^3 = -64$, and $(-5)^3 = -125$.  Since $-64$ is between $-45$ and $-101$, we know that $\\sqrt[3]{-64}$, which equals $\\boxed{-4}$, is between $\\sqrt[3]{-45}$ and $\\sqrt[3]{-101}$.",
+    "prompt": "### Instruction: Find the integer that lies between $\\sqrt[3]{-45}$ and $\\sqrt[3]{-101}$.\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "Here's how to find the integer between those cube roots:\n**1. Understand Cube Roots**\n* A cube root of a number is the value that, when multiplied by itself three times, equals the original number. For example, the cube root of 8 is 2 because 2 x 2 x 2 = 8.\n* Cube roots of negative numbers are negative.\n**2. Estimate the Cube Roots**\n* **-45:**  Since  -3 x -3 x -3 = -27, and -4 x -4 x -4 = -64, we know that the cube root of -45 lies between -3 and -4.\n* **-101:** Since -5 x -5 x -5 = -125, the cube root of -101 lies between -4 and -5.\n**3. Find the Integer**\nWe now know that the cube root of -45 is between -3 and -4, and the cube root of -101 is between -4 and -5. The only integer that falls between these two ranges is **-4**.\n**Therefore, the integer that lies between the cube root of -45 and the cube root of -101 is -4.** \n",
+        "Here's how to find the integer between the cube roots:\n1. **Understand Cube Roots:**  The cube root of a number is the value that, when multiplied by itself three times, equals the original number.\n2. **Estimate the Cube Roots:**\n   *  Since  -45 is closer to -64 (which is -4 cubed) than to -27 (which is -3 cubed), we know that  \u221a\u221b-45 is slightly greater than -4.\n   *  Since -101 is closer to -125 (which is -5 cubed) than to -64 (which is -4 cubed), we know that \u221a\u221b-101 is slightly less than -5.\n3. **The Integer:** The only integer that lies between -4 and -5 is **-4**. \n**Therefore, the integer between  \u221a\u221b-45 and \u221a\u221b-101 is -4.** \n",
+        "Here's how we can find the integer between the cube roots:\n* **Understanding Cube Roots:**  A cube root of a number is the value that, when multiplied by itself three times, equals the original number. For example, the cube root of 8 is 2 because 2 * 2 * 2 = 8.\n* **Negative Cube Roots:**  The cube root of a negative number is negative.  \n* **Estimating:**\n    *  The cube root of -64 is -4 (because -4 * -4 * -4 = -64). Since -45 is a little larger than -64,  \u221a\u221b-45 will be a little larger than -4.\n    * The cube root of -125 is -5 (because -5 * -5 * -5 = -125). Since -101 is a little smaller than -125,  \u221a\u221b-101 will be a little smaller than -5.\n* **Conclusion:** Since \u221a\u221b-45 is a little larger than -4 and \u221a\u221b-101 is a little smaller than -5, the only integer between them is **-4**. \n",
+        "Here's how we can find the integer between the two cube roots:\n* **Understanding Cube Roots:**  A cube root of a number is the value that, when multiplied by itself three times, equals the original number. For example, the cube root of 8 is 2 because 2 * 2 * 2 = 8.\n* **Estimating Cube Roots:**\n    *  Since -45 is between -64 (-4 x -4 x -4) and -27 (-3 x -3 x -3), we know that the cube root of -45 will be between -4 and -3.\n    * Since -101 is between -125 (-5 x -5 x -5) and -64, we know that the cube root of -101 will be between -5 and -4.\n* **The Integer:** Since the cube root of -45 is between -4 and -3, and the cube root of -101 is between -5 and -4, the only integer that lies between them is **-4**. \n",
+        "Here's how to find the integer between the cube roots:\n* **Understanding Cube Roots:** A cube root of a number is the value that, when multiplied by itself three times, equals the original number. \n* **Estimating:**\n    *  Since -45 is closer to -64 than -27, we know  \u221a[3]{-45} is closer to -4 (because -4 x -4 x -4 = -64).\n    *  Similarly, since -101 is closer to -125 than -64, we know \u221a[3]{-101} is closer to -5 (because -5 x -5 x -5 = -125).\n* **Conclusion:** Therefore, the integer that lies between \u221a[3]{-45} and \u221a[3]{-101} is **-4**. \n"
+    ],
+    "pred_answers": "-4",
+    "final_pred_answer": [
+        "-4",
+        "-4",
+        "-4",
+        "-4",
+        "-4"
+    ],
+    "ground_truth": "-101"
+}

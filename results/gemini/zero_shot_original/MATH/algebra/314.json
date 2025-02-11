@@ -1,0 +1,23 @@
+{
+    "problem": "Rationalize the denominator of $\\frac{\\sqrt{5}+\\sqrt{2}}{\\sqrt{5}-\\sqrt{2}}$. The answer can be written as $\\frac{A+B\\sqrt{C}}{D}$, where $A$, $B$, $C$, and $D$ are integers, $D$ is positive, and $C$ is not divisible by the square of any prime. If the greatest common divisor of $A$, $B$, and $D$ is 1, find $A+B+C+D$.",
+    "level": "Level 4",
+    "type": "Algebra",
+    "solution": "We rationalize the denominator by multiplying both the top and bottom by the conjugate of the denominator. $$\\frac{\\sqrt{5}+\\sqrt{2}}{\\sqrt{5}-\\sqrt{2}} \\cdot \\frac{\\sqrt{5}+\\sqrt{2}}{\\sqrt{5}+\\sqrt{2}}=\\frac{5+2\\sqrt{5}\\cdot \\sqrt{2}+2}{5-2}=\\frac{7+2\\sqrt{10}}{3}$$ Therefore, $A+B+C+D=7+2+10+3=\\boxed{22}$.",
+    "prompt": "### Instruction: Rationalize the denominator of $\\frac{\\sqrt{5}+\\sqrt{2}}{\\sqrt{5}-\\sqrt{2}}$. The answer can be written as $\\frac{A+B\\sqrt{C}}{D}$, where $A$, $B$, $C$, and $D$ are integers, $D$ is positive, and $C$ is not divisible by the square of any prime. If the greatest common divisor of $A$, $B$, and $D$ is 1, find $A+B+C+D$.\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "We can rationalize the denominator by multiplying both the numerator and denominator by the conjugate of the denominator, which is $\\sqrt{5} + \\sqrt{2}$:\n$$\\frac{\\sqrt{5}+\\sqrt{2}}{\\sqrt{5}-\\sqrt{2}} \\cdot \\frac{\\sqrt{5}+\\sqrt{2}}{\\sqrt{5}+\\sqrt{2}} = \\frac{(\\sqrt{5}+\\sqrt{2})^2}{(\\sqrt{5})^2 - (\\sqrt{2})^2}$$\nExpanding the numerator and simplifying the denominator, we get:\n$$\\frac{5 + 2\\sqrt{10} + 2}{5-2} = \\frac{7 + 2\\sqrt{10}}{3}$$\nTherefore, $A = 7$, $B = 2$, $C = 10$, and $D = 3$.  The sum $A + B + C + D = 7 + 2 + 10 + 3 = \\boxed{22}$. \n",
+        "To rationalize the denominator, we multiply both the numerator and denominator by the conjugate of the denominator:\n$$\\frac{\\sqrt{5}+\\sqrt{2}}{\\sqrt{5}-\\sqrt{2}} \\cdot \\frac{\\sqrt{5}+\\sqrt{2}}{\\sqrt{5}+\\sqrt{2}}$$\nThis gives us:\n$$\\frac{(\\sqrt{5}+\\sqrt{2})^2}{(\\sqrt{5})^2 - (\\sqrt{2})^2} = \\frac{5 + 2\\sqrt{10} + 2}{5-2} = \\frac{7 + 2\\sqrt{10}}{3}$$\nTherefore, $A = 7$, $B = 2$, $C = 10$, and $D = 3$.  The answer is $A+B+C+D = 7 + 2 + 10 + 3 = \\boxed{22}$. \n",
+        "To rationalize the denominator, we multiply both the numerator and denominator by the conjugate of the denominator, which is $\\sqrt{5}+\\sqrt{2}$:\n$$\\frac{\\sqrt{5}+\\sqrt{2}}{\\sqrt{5}-\\sqrt{2}} \\cdot \\frac{\\sqrt{5}+\\sqrt{2}}{\\sqrt{5}+\\sqrt{2}} = \\frac{(\\sqrt{5}+\\sqrt{2})^2}{(\\sqrt{5})^2 - (\\sqrt{2})^2}$$\nExpanding the numerator and simplifying the denominator, we get:\n$$\\frac{5 + 2\\sqrt{10} + 2}{5-2} = \\frac{7 + 2\\sqrt{10}}{3}$$\nTherefore, $A = 7$, $B = 2$, $C = 10$, and $D = 3$.  The greatest common divisor of 7, 2, and 3 is 1, so  $A+B+C+D = 7 + 2 + 10 + 3 = \\boxed{22}$. \n",
+        "To rationalize the denominator, we multiply both the numerator and denominator by the conjugate of the denominator, which is $\\sqrt{5} + \\sqrt{2}$:\n$$\\frac{\\sqrt{5}+\\sqrt{2}}{\\sqrt{5}-\\sqrt{2}} \\cdot \\frac{\\sqrt{5}+\\sqrt{2}}{\\sqrt{5}+\\sqrt{2}} = \\frac{(\\sqrt{5}+\\sqrt{2})^2}{(\\sqrt{5})^2 - (\\sqrt{2})^2}$$\nExpanding the numerator and simplifying the denominator, we get:\n$$\\frac{5 + 2\\sqrt{10} + 2}{5-2} = \\frac{7 + 2\\sqrt{10}}{3}$$\nTherefore, $A = 7$, $B = 2$, $C = 10$, and $D = 3$.  Finally, $A + B + C + D = 7 + 2 + 10 + 3 = \\boxed{22}$. \n",
+        "Here's how to rationalize the denominator and find the answer:\n**1. Multiply by the conjugate:**\nTo get rid of the radical in the denominator, we multiply both the numerator and denominator by the conjugate of the denominator, which is $\\sqrt{5} + \\sqrt{2}$:\n  $$\\frac{\\sqrt{5}+\\sqrt{2}}{\\sqrt{5}-\\sqrt{2}} \\cdot \\frac{\\sqrt{5}+\\sqrt{2}}{\\sqrt{5}+\\sqrt{2}}$$\n**2. Simplify:**\n* **Numerator:**  Use the distributive property or FOIL method to multiply the binomials:\n    * $(\\sqrt{5} + \\sqrt{2})(\\sqrt{5} + \\sqrt{2}) = 5 + 2\\sqrt{10} + 2 = 7 + 2\\sqrt{10}$\n* **Denominator:**  This is a difference of squares pattern:\n    * $(\\sqrt{5} - \\sqrt{2})(\\sqrt{5} + \\sqrt{2}) = (\\sqrt{5})^2 - (\\sqrt{2})^2 = 5 - 2 = 3$\n**3. The Result:**\nNow we have:\n  $$\\frac{7 + 2\\sqrt{10}}{3}$$\n**4. Find A + B + C + D:**\n*  A = 7\n*  B = 2\n*  C = 10\n*  D = 3\nTherefore, A + B + C + D = 7 + 2 + 10 + 3 = **22** \n"
+    ],
+    "pred_answers": "22",
+    "final_pred_answer": [
+        "22",
+        "22",
+        "22",
+        "22",
+        "22"
+    ],
+    "ground_truth": "22"
+}

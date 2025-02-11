@@ -1,0 +1,41 @@
+{
+    "index_adversarial_question": 0,
+    "problem": "If $x$ is the average of $43$, $-16$, and $6$ and if $y$ is the cube root of $8$, find $x^2 + y^3$.",
+    "pcot_answer": "# Define the first number\nnum1 = 43  ### condition: 'num1': {'type': 'int', '<=': None, '>=': -1000, 'science_constant': False, 'direct_from_question': True}\n# Define the second number\nnum2 = -16  ### condition: 'num2': {'type': 'int', '<=': None, '>=': -1000, 'science_constant': False, 'direct_from_question': True}\n# Define the third number\nnum3 = 6  ### condition: 'num3': {'type': 'int', '<=': None, '>=': -1000, 'science_constant': False, 'direct_from_question': True}\n# Calculate the sum of the numbers\nsum_of_numbers = num1 + num2 + num3  ### condition: 'sum_of_numbers': {'type': 'int', '<=': None, '>=': -1000, 'science_constant': False, 'direct_from_question': False}\n# Calculate the average of the three numbers\naverage_x = sum_of_numbers / 3  ### condition: 'average_x': {'type': 'float', '<=': None, '>=': -1000, 'science_constant': False, 'direct_from_question': False}\n# Define the value for y as the cube root of 8\ny = 8 ** (1/3)  ### condition: 'y': {'type': 'float', '<=': None, '>=': 0, 'science_constant': False, 'direct_from_question': False}\n# Calculate x squared\nx_squared = average_x ** 2  ### condition: 'x_squared': {'type': 'float', '<=': None, '>=': 0, 'science_constant': False, 'direct_from_question': False}\n# Calculate y cubed\ny_cubed = y ** 3  ### condition: 'y_cubed': {'type': 'float', '<=': None, '>=': 0, 'science_constant': False, 'direct_from_question': False}\n# Calculate the final result x^2 + y^3\nfinal_result = x_squared + y_cubed  ### condition: 'final_result': {'type': 'float', '<=': None, '>=': 0, 'science_constant': False, 'direct_from_question': False}\n# Print the final result\nprint(f\"x^2 + y^3 = {final_result}\")",
+    "answer": "129",
+    "vllm_responses": [
+        "The average of $43$, $-16$, and $6$ is $(43 + (-16) + 6)/3 = 7$.\nThe cube root of $8$ is $\\sqrt[3]{8} = 2$.\nTherefore, $x^2 + y^3 = 7^2 + 2^3 = 49 + 8 = \\boxed{57}$.The answer is: 57",
+        "\nFirst, we find the average of $43$, $-16$, and $6$ by adding them up and dividing by $3$:\n$x = \\frac{43 + (-16) + 6}{3} = \\frac{27}{3} = 9$.\nNext, we find the cube root of $8$:\n$y = \\sqrt[3]{8} = \\sqrt[3]{2^3} = 2$.\nFinally, we calculate $x^2 + y^3$:\n$x^2 + y^3 = 9^2 + 2^3 = 81 + 8 = \\boxed{89}$.\nThe answer is: 89",
+        "The average of 43, -16, and 6 is $(43 + -16 + 6)/3 = 31/3 \\approx 10.33$.\nThe cube root of 8 is $\\sqrt[3]{8} = 2$.\nTherefore, $x^2 + y^3 = (10.33)^2 + 2^3 = 106.09 + 8 = \\boxed{114.09}$.\nThe answer is: 114.09",
+        "The average of $43$, $-16$, and $6$ is $\\frac{43 + (-16) + 6}{3} = \\frac{27}{3} = 9$.\nThe cube root of $8$ is $\\sqrt[3]{8} = 2$.\nTherefore, $x^2 + y^3 = 9^2 + 2^3 = 81 + 8 = \\boxed{89}$.\nThe answer is: 89",
+        "To find the average of $43$, $-16$, and $6$, we add them up and divide by 3.\nSo, $x = \\frac{43 + -16 + 6}{3} = \\frac{27}{3} = 9$.\nTo find the cube root of $8$, we find the number whose cube is $8$.\nSo, $y = \\sqrt[3]{8} = 2$.\nNow, we can calculate $x^2 + y^3$.\n$x^2 + y^3 = 9^2 + 2^3 = 81 + 8 = \\boxed{89}$.\nThe answer is: 89",
+        "The average of $43$, $-16$, and $6$ is $\\frac{43 + (-16) + 6}{3} = \\frac{27}{3} = 9$,\nso $x = 9$.\nThe cube root of $8$ is $2$,\nso $y = 2$.\nThen $x^2 + y^3 = 9^2 + 2^3 = 81 + 8 = \\boxed{89}$.\nThe answer is: 89",
+        "The average of $43$, $-16$, and $6$ is $\\frac{43 + (-16) + 6}{3} = \\frac{27}{3} = 9$.\nThe cube root of $8$ is $\\sqrt[3]{8} = 2$.\nTherefore, $x^2 + y^3 = 9^2 + 2^3 = 81 + 8 = \\boxed{89}$.The answer is: 89",
+        "The average of $43$, $-16$, and $6$ is $\\frac{43 + (-16) + 6}{3} = \\frac{27}{3} = 9$.\nSo $x = 9$.\nThe cube root of $8$ is $y = \\sqrt[3]{8} = 2$.\nTherefore, $x^2 + y^3 = 9^2 + 2^3 = 81 + 8 = \\boxed{89}$.The answer is: 89",
+        "\nFirst, let's find the average of $43$, $-16$, and $6$.\nThe average is $\\frac{43 + (-16) + 6}{3} = \\frac{23}{3}$.\nNext, let's find the cube root of $8$.\nThe cube root of $8$ is $2$, since $2^3 = 8$.\nNow, let's find $x^2 + y^3$.\n$x^2 = \\left(\\frac{23}{3}\\right)^2 = \\frac{23^2}{9} = \\frac{529}{9}$.\n$y^3 = 2^3 = 8$.\nFinally, let's add $x^2$ and $y^3$.\n$\\frac{529}{9} + 8 = \\frac{529 + 72}{9} = \\frac{581}{9} = \\boxed{64\\frac{8}{9}}$.\nThe answer is: 64\\frac{8}{9}",
+        "First, let's find the value of $x$.\nThe average of $43$, $-16$, and $6$ is $\\frac{43 + (-16) + 6}{3} = \\frac{27}{3} = 9$.\nSo, $x = 9$.\nNext, let's find the value of $y$.\nThe cube root of $8$ is $\\sqrt[3]{8} = 2$.\nSo, $y = 2$.\nNow, let's find $x^2 + y^3$.\n$x^2 = 9^2 = 81$ and $y^3 = 2^3 = 8$.\nTherefore, $x^2 + y^3 = 81 + 8 = \\boxed{89}$.The answer is: 89",
+        "$x$ is the average of $43$, $-16$, and $6$, so $x = \\frac{43 + (-16) + 6}{3} = \\frac{27}{3} = 9$.\n$y$ is the cube root of $8$, so $y = \\sqrt[3]{8} = 2$.\nNow we can find $x^2 + y^3$: $x^2 + y^3 = 9^2 + 2^3 = 81 + 8 = \\boxed{89}$.\nThe answer is: 89",
+        "The average of $43$, $-16$, and $6$ is $(43 + (-16) + 6)/3 = 31/3$.\nThe cube root of $8$ is $\\sqrt[3]{8} = 2$.\nSo, $x^2 + y^3 = (31/3)^2 + 2^3 = 961/9 + 8 = 107 + 8 = \\boxed{115}$.\nThe answer is: 115",
+        "To find the average of 43, -16, and 6, we add them up and divide by 3.\nSo, $x = \\frac{43 + (-16) + 6}{3} = \\frac{27}{3} = 9$.\nTo find $y$, we take the cube root of 8, so $y = \\sqrt[3]{8} = 2$.\nNow, we can find $x^2 + y^3$:\n$x^2 + y^3 = 9^2 + 2^3 = 81 + 8 = \\boxed{89}$.\nThe answer is: 89",
+        "The average of $43$, $-16$, and $6$ is $\\frac{43 + (-16) + 6}{3} = \\frac{27}{3} = 9$.\nThe cube root of $8$ is $\\sqrt[3]{8} = 2$.\nThus, $x^2 + y^3 = 9^2 + 2^3 = 81 + 8 = \\boxed{89}$.\nThe answer is: 89",
+        "The average of $43$, $-16$, and $6$ is $\\frac{43 + (-16) + 6}{3} = \\frac{33}{3} = 11$.\nSo, $x = 11$.\nThe cube root of $8$ is $\\sqrt[3]{8} = 2$.\nSo, $y = 2$.\nTherefore, $x^2 + y^3 = 11^2 + 2^3 = 121 + 8 = \\boxed{129}$.The answer is: 129"
+    ],
+    "vllm_answers": [
+        "57",
+        "89",
+        "1149",
+        "89",
+        "89",
+        "89",
+        "89",
+        "89",
+        "9",
+        "89",
+        "89",
+        "115",
+        "89",
+        "89",
+        "129"
+    ],
+    "vllm_pred_answer": "89"
+}

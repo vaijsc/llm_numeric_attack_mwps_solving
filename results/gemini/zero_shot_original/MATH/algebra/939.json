@@ -1,0 +1,23 @@
+{
+    "problem": "Expand $(x+3)(2x-6)$.",
+    "level": "Level 2",
+    "type": "Algebra",
+    "solution": "Factoring a $2$ out of the second term gives $2(x+3)(x-3)=2(x^2-3^2)=\\boxed{2x^2-18}$.",
+    "prompt": "### Instruction: Expand $(x+3)(2x-6)$.\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "Here's how to expand $(x+3)(2x-6)$ step-by-step:\n**1.  FOIL Method**\nThe FOIL method helps us remember to multiply each term in the first binomial by each term in the second binomial:\n* **F**irst:  Multiply the first terms of each binomial:  x * 2x = 2x\u00b2\n* **O**uter: Multiply the outer terms of the binomials: x * -6 = -6x\n* **I**nner: Multiply the inner terms of the binomials: 3 * 2x = 6x\n* **L**ast: Multiply the last terms of each binomial: 3 * -6 = -18\n**2. Combine Like Terms**\nNow we have: 2x\u00b2 - 6x + 6x - 18\nCombine the 'x' terms: 2x\u00b2 + 0x - 18\n**3. Simplify**\nThe final expanded form is: **2x\u00b2 - 18** \n",
+        "Here's how to expand $(x+3)(2x-6)$ step by step:\n**1. Distribute:**\n*  We'll distribute the 'x' from the first parenthesis to both terms in the second parenthesis:\n   *  x * 2x = 2x\u00b2\n   *  x * -6 = -6x\n* Now, distribute the '3' from the first parenthesis to both terms in the second parenthesis:\n   * 3 * 2x = 6x\n   * 3 * -6 = -18\n**2. Combine Like Terms:**\n* We'll combine the 'x' terms: -6x + 6x = 0\n**3. Write the Final Expression:**\n* The expanded form is: 2x\u00b2 + 0 - 18 \n* Simplified: **2x\u00b2 - 18** \n",
+        "We can expand this expression using the distributive property (also known as FOIL):\n1. **F**irst: Multiply the first terms of each binomial:  x * 2x = 2x\u00b2\n2. **O**uter: Multiply the outer terms of the binomials: x * -6 = -6x\n3. **I**nner: Multiply the inner terms of the binomials: 3 * 2x = 6x\n4. **L**ast: Multiply the last terms of each binomial: 3 * -6 = -18\nNow, add all the terms together: 2x\u00b2 - 6x + 6x - 18\nFinally, combine the like terms: **2x\u00b2 - 18**\nTherefore, the expanded form of (x + 3)(2x - 6) is **2x\u00b2 - 18**. \n",
+        "We can expand this expression using the distributive property (also known as FOIL):\n**1. Multiply the first terms:**\n   *  x * 2x = 2x\u00b2\n**2. Multiply the outer terms:**\n   *  x * -6 = -6x\n**3. Multiply the inner terms:**\n   *  3 * 2x = 6x\n**4. Multiply the last terms:**\n   *  3 * -6 = -18\n**5. Combine the terms:**\n   * 2x\u00b2 - 6x + 6x - 18\n**6. Simplify by combining like terms:**\n   * 2x\u00b2 - 18\n**Therefore, the expanded form of (x + 3)(2x - 6) is 2x\u00b2 - 18.** \n",
+        "Here's how to expand $(x+3)(2x-6)$ step-by-step:\n**1. Distribute the first term:**\n* Multiply the first term of the first binomial, *x*, by each term in the second binomial:\n   *  *x* * (2x) = 2x\u00b2\n   *  *x* * (-6) = -6x\n**2. Distribute the second term:**\n* Multiply the second term of the first binomial, *3*, by each term in the second binomial:\n   *  *3* * (2x) = 6x\n   *  *3* * (-6) = -18\n**3. Combine the terms:**\n* Now you have: 2x\u00b2 - 6x + 6x - 18\n* Notice the middle terms, -6x and +6x, cancel each other out.\n**4. Simplify:**\n* The final expanded form is: **2x\u00b2 - 18** \n"
+    ],
+    "pred_answers": "18",
+    "final_pred_answer": [
+        "18",
+        "18",
+        "18",
+        "18",
+        "18"
+    ],
+    "ground_truth": "-18"
+}

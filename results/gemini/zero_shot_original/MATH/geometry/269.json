@@ -1,0 +1,23 @@
+{
+    "problem": "In the diagram, what is the perimeter of the sector of the circle with radius 12?\n\n[asy]\ndraw((0,0)--(12,0),black+linewidth(1));\ndraw((0,0)--(6,10.3923),black+linewidth(1));\ndraw((12,0)..(10.3923,6)..(6,10.3923),black+linewidth(1));\nlabel(\"$O$\",(0,0),W);\nlabel(\"$A$\",(6,10.3923),N);\nlabel(\"$B$\",(12,0),E);\nlabel(\"$60^\\circ$\",(2,1));\n[/asy]",
+    "level": "Level 3",
+    "type": "Geometry",
+    "solution": "In the diagram, the radius of the sector is 12 so $OA=OB=12$.  Since the angle of the sector is $60^\\circ$, then the sector is $\\dfrac{60^\\circ}{360^\\circ}=\\dfrac{1}{6}$ of the total circle. Therefore, arc $AB$ is $\\frac{1}{6}$ of the total circumference of a circle of radius 12, so has length $\\frac{1}{6}(2\\pi(12))=4\\pi$. Therefore, the perimeter of the sector is $12+12+4\\pi=\\boxed{24+4\\pi}$.",
+    "prompt": "### Instruction: In the diagram, what is the perimeter of the sector of the circle with radius 12?\n\n[asy]\ndraw((0,0)--(12,0),black+linewidth(1));\ndraw((0,0)--(6,10.3923),black+linewidth(1));\ndraw((12,0)..(10.3923,6)..(6,10.3923),black+linewidth(1));\nlabel(\"$O$\",(0,0),W);\nlabel(\"$A$\",(6,10.3923),N);\nlabel(\"$B$\",(12,0),E);\nlabel(\"$60^\\circ$\",(2,1));\n[/asy]\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "Here's how to find the perimeter of the sector:\n**1.  Find the arc length:**\n* **Central angle:** The sector has a central angle of 60\u00b0.\n* **Circumference:** The circle has a circumference of 2\u03c0(12) = 24\u03c0.\n* **Arc length:** Since 60\u00b0 is 1/6 of 360\u00b0, the arc length is (1/6) * 24\u03c0 = 4\u03c0.\n**2. Find the perimeter:**\n* **Perimeter:** The perimeter of the sector is the sum of the two radii and the arc length: 12 + 12 + 4\u03c0 = **24 + 4\u03c0**. \n**Therefore, the perimeter of the sector is 24 + 4\u03c0.** \n",
+        "Here's how to find the perimeter of the sector:\n**1.  Find the arc length:**\n* **Central angle:** The sector has a central angle of 60 degrees.\n* **Circumference:** The whole circle has a circumference of 2\u03c0r = 2\u03c0(12) = 24\u03c0.\n* **Arc length:** The arc length is a fraction of the whole circumference. The fraction is the central angle over 360 degrees: (60/360) * 24\u03c0 = 4\u03c0.\n**2. Find the perimeter:**\n* **Perimeter:** The perimeter of the sector is the sum of the arc length and the two radii: 4\u03c0 + 12 + 12 = **4\u03c0 + 24**. \n**Therefore, the perimeter of the sector is 4\u03c0 + 24.** \n",
+        "Here's how to find the perimeter of the sector:\n**1. Understand the Diagram**\n* The diagram shows a circle with radius 12.\n* A sector of the circle is highlighted, which is a portion of the circle enclosed by two radii and an arc.\n* The angle of the sector is 60 degrees.\n**2. Calculate the Arc Length**\n* The arc length is a fraction of the circle's circumference. \n* The fraction is determined by the central angle of the sector:  (central angle / 360 degrees) \n*  Arc length = (60 degrees / 360 degrees) * 2\u03c0 * 12 = 4\u03c0\n**3. Calculate the Perimeter**\n* The perimeter of the sector is the sum of the two radii and the arc length.\n* Perimeter = radius + radius + arc length\n* Perimeter = 12 + 12 + 4\u03c0 = **24 + 4\u03c0** \n**Therefore, the perimeter of the sector of the circle is 24 + 4\u03c0.** \n",
+        "Here's how to find the perimeter of the sector:\n**1. Understand the Shape**\n* **Sector:** A sector of a circle is a portion of the circle enclosed by two radii and the arc between them.\n* **Arc Length:**  The curved part of the sector is called the arc.\n**2. Find the Arc Length**\n* **Formula:** Arc length = (central angle/360\u00b0) * (2\u03c0r) \n   * Where:\n      * Central angle = 60\u00b0\n      * Radius (r) = 12\n* **Calculate:** (60\u00b0/360\u00b0) * (2\u03c0 * 12) = 4\u03c0\n**3. Calculate the Perimeter**\n* **Perimeter:**  The perimeter of the sector is the sum of the two radii and the arc length.\n* **Perimeter:**  12 + 12 + 4\u03c0 = **24 + 4\u03c0**\n**Therefore, the perimeter of the sector is 24 + 4\u03c0.** \n",
+        "Here's how to find the perimeter of the sector:\n**1.  Find the arc length:**\n* The sector's central angle is 60 degrees, which is 1/6 of a full circle (360 degrees).\n* The circumference of the whole circle is 2\u03c0r = 2\u03c0(12) = 24\u03c0.\n* The arc length of the sector is (1/6) * 24\u03c0 = 4\u03c0.\n**2. Find the total perimeter:**\n* The perimeter of the sector is the sum of the arc length and the two radii: 4\u03c0 + 12 + 12 = **4\u03c0 + 24** \n"
+    ],
+    "pred_answers": "4",
+    "final_pred_answer": [
+        "4",
+        "24",
+        "4",
+        "4",
+        "24"
+    ],
+    "ground_truth": "4"
+}

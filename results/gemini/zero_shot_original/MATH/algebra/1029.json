@@ -1,0 +1,23 @@
+{
+    "problem": "Bob can travel $m$ miles in $h$ hours on his bicycle. At this rate, how many hours would it take him to travel $h$ miles? Express your answer in terms of $m$ and $h$.",
+    "level": "Level 5",
+    "type": "Algebra",
+    "solution": "Since Bob travels $m$ miles in $h$ hours, he travels $m/h$ miles in 1 hour.  Therefore, in order to travel $h$ miles, he must travel for $h/(m/h) = \\boxed{\\frac{h^2}{m}}$ hours.",
+    "prompt": "### Instruction: Bob can travel $m$ miles in $h$ hours on his bicycle. At this rate, how many hours would it take him to travel $h$ miles? Express your answer in terms of $m$ and $h$.\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "Here's how to solve this problem step-by-step:\n**1. Find Bob's speed:**\n* Speed is calculated as distance divided by time. \n* Bob's speed is  m miles / h hours = m/h miles per hour.\n**2. Find the time to travel h miles:**\n* Time is calculated as distance divided by speed.\n* Time to travel h miles = h miles / (m/h miles per hour) = **h^2 / m hours** \n**Therefore, it would take Bob h^2/m hours to travel h miles.** \n",
+        "Here's how to solve the problem step-by-step:\n**1. Find Bob's speed:**\n* Speed is calculated as distance divided by time:  Speed = Distance / Time\n* Bob's speed is  *m* miles / *h* hours\n**2.  Calculate the time to travel *h* miles:**\n* Time = Distance / Speed\n* Time = *h* miles / (*m* miles / *h* hours) \n* **Time = h^2 / m hours** \n**Therefore, it would take Bob h^2 / m hours to travel h miles.** \n",
+        "Here's how to solve this problem step-by-step:\n**1. Find Bob's speed:**\n* Speed is calculated as distance divided by time.\n* Bob's speed is  *m miles / h hours*\n**2.  Calculate the time to travel *h* miles:**\n* We know time = distance / speed.\n* Time = *h miles / (m miles / h hours)* \n* Simplifying, we get **time = h^2 / m hours** \n**Therefore, it would take Bob h^2 / m hours to travel h miles.** \n",
+        "Here's how to solve the problem:\n* **Find Bob's speed:** Speed is calculated as distance divided by time. So, Bob's speed is  m/h miles per hour.\n* **Calculate the time to travel h miles:**  Since we know his speed and the distance, we can use the formula: time = distance / speed.\n* **Substitute the values:** Time = h miles / (m/h) miles per hour.\n* **Simplify:** The \"miles\" units cancel out, leaving us with:  **Time = h^2 / m hours**. \nTherefore, it would take Bob **h^2 / m hours** to travel h miles. \n",
+        "Here's how to solve the problem:\n**1. Find Bob's speed:**\n* Speed is calculated as distance divided by time:  Speed = Distance / Time\n* Bob's speed is  *m miles / h hours*\n**2.  Calculate the time to travel *h* miles:**\n* We know his speed and the desired distance.\n* Time = Distance / Speed\n* Time = *h miles / (m miles/h hours)* \n* Simplifying, we get: **Time = h\u00b2/m hours** \n"
+    ],
+    "pred_answers": "2",
+    "final_pred_answer": [
+        "2",
+        "2",
+        "2",
+        "2",
+        "2"
+    ],
+    "ground_truth": "2"
+}

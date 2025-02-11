@@ -1,0 +1,23 @@
+{
+    "problem": "In right triangle $XYZ$, shown below, what is $\\sin{X}$?\n\n[asy]\ndraw((0,0)--(10,0)--(3.6,4.8)--cycle,black+linewidth(1));\ndraw(rightanglemark((0,0),(3.6,4.8),(10,0),20),black+linewidth(1));\nlabel(\"X\",(10,0),E);\nlabel(\"Y\",(3.6,4.8),N);\nlabel(\"Z\",(0,0),W);\nlabel(\"10\",(0,0)--(10,0),S);\nlabel(\"8\",(10,0)--(3.6,4.8),NE);\n[/asy]",
+    "level": "Level 2",
+    "type": "Geometry",
+    "solution": "From the Pythagorean Theorem, we have \\begin{align*}XY^2+YZ^2&=XZ^2 \\\\ \\Rightarrow\\qquad{YZ}&=\\sqrt{XZ^2-XY^2} \\\\ &=\\sqrt{10^2-8^2} \\\\ &=\\sqrt{36} \\\\ &=6.\\end{align*}Therefore, $\\sin{X}=\\frac{YZ}{XZ}={\\frac{6}{10}}=\\boxed{\\frac35}$.",
+    "prompt": "### Instruction: In right triangle $XYZ$, shown below, what is $\\sin{X}$?\n\n[asy]\ndraw((0,0)--(10,0)--(3.6,4.8)--cycle,black+linewidth(1));\ndraw(rightanglemark((0,0),(3.6,4.8),(10,0),20),black+linewidth(1));\nlabel(\"X\",(10,0),E);\nlabel(\"Y\",(3.6,4.8),N);\nlabel(\"Z\",(0,0),W);\nlabel(\"10\",(0,0)--(10,0),S);\nlabel(\"8\",(10,0)--(3.6,4.8),NE);\n[/asy]\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "Here's how to find sin(X) step-by-step:\n1. **SOH CAH TOA:** Remember the mnemonic SOH CAH TOA to help us remember the trigonometric ratios:\n   * **S**in = **O**pposite / **H**ypotenuse\n   * **C**os = **A**djacent / **H**ypotenuse\n   * **T**an = **O**pposite / **A**djacent\n2. **Identify the sides:**\n   * **Hypotenuse:** The side opposite the right angle (XZ = 10).\n   * **Opposite:** The side opposite angle X (YZ = 8).\n   * **Adjacent:** The side adjacent to angle X (XY). \n3. **Apply the formula:** Since we want sin(X), we use the SOH part of SOH CAH TOA:\n   * sin(X) = Opposite / Hypotenuse\n4. **Substitute the values:**\n   * sin(X) = 8 / 10\n5. **Simplify:**\n   * sin(X) = 4/5\n**Therefore, sin(X) = 4/5.** \n",
+        "Here's how to find  sin(X) step-by-step:\n**1. Understand Sine**\n* In a right triangle, the sine of an angle is the ratio of the length of the side **opposite** the angle to the length of the **hypotenuse**.\n**2. Identify the Opposite Side and Hypotenuse**\n* **Opposite side:** The side opposite angle X is the side with length 8.\n* **Hypotenuse:** The hypotenuse is the side opposite the right angle, which has length 10.\n**3. Calculate Sine(X)**\n*  sin(X) = (opposite side) / (hypotenuse) \n*  sin(X) = 8 / 10\n*  sin(X) = 4/5\n**Therefore, sin(X) = 4/5** \n",
+        "Here's how to find sin(X) step by step:\n1. **SOH CAH TOA:** Remember the mnemonic SOH CAH TOA to help us remember the trigonometric ratios:\n   * **S**in = **O**pposite / **H**ypotenuse\n   * **C**os = **A**djacent / **H**ypotenuse\n   * **T**an = **O**pposite / **A**djacent\n2. **Identify the sides:**\n   * **Opposite:** The side opposite angle X is side YZ, which has a length of 8.\n   * **Hypotenuse:** The hypotenuse is the side opposite the right angle, which is side XZ, and has a length of 10.\n3. **Apply the sine formula:** \n   * sin(X) = Opposite / Hypotenuse = 8 / 10\n4. **Simplify:** \n   * sin(X) = 4/5\n**Therefore, sin(X) = 4/5** \n",
+        "1. **SOH CAH TOA:** Remember the mnemonic SOH CAH TOA, which helps us remember the trigonometric ratios:\n    * **S**ine = **O**pposite / **H**ypotenuse\n    * **C**osine = **A**djacent / **H**ypotenuse\n    * **T**angent = **O**pposite / **A**djacent\n2. **Identify the sides:**\n    * **Opposite:** The side opposite angle X is side YZ, which has length 8.\n    * **Hypotenuse:** The hypotenuse is always the longest side and is opposite the right angle. Here, it's side XY, which has length 10.\n    * **Adjacent:** The side adjacent to angle X is side XZ, which has length 6.\n3. **Apply sine:** Since we need to find sin(X), we use the SOH part of SOH CAH TOA:\n    * sin(X) = Opposite / Hypotenuse = YZ / XY = 8 / 10 = **4/5**.\nTherefore, sin(X) = **4/5**. \n",
+        "Here's how to solve the problem:\n**1. Understand Sine**\nThe sine of an angle in a right triangle is defined as the ratio of the length of the side **opposite** the angle to the length of the **hypotenuse**.\n**2. Identify the Opposite Side and Hypotenuse**\n* **Opposite Side:**  The side opposite angle X is the side with length 8.\n* **Hypotenuse:** The hypotenuse is always the longest side of a right triangle, and in this case, it has length 10.\n**3. Calculate the Sine**\n*  sin(X) = (Opposite Side) / (Hypotenuse) = 8/10 = **4/5**\n**Therefore, sin(X) = 4/5** \n"
+    ],
+    "pred_answers": "5",
+    "final_pred_answer": [
+        "5",
+        "5",
+        "5",
+        "5",
+        "5"
+    ],
+    "ground_truth": "35"
+}

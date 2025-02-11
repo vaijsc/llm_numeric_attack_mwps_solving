@@ -1,0 +1,23 @@
+{
+    "problem": "The midpoint of the line segment between $(x,y)$ and $(-9,1)$ is $(3,-5)$. Find $(x,y)$.",
+    "level": "Level 3",
+    "type": "Algebra",
+    "solution": "Applying the midpoint formula gives us $$\\left(\\frac{-9+x}{2},\\frac{1+y}{2}\\right)=(3,-5).$$Solving $\\frac{-9+x}{2} =3$ for $x$ and solving $\\frac{1+y}{2}=-5$ for $y$, we find the coordinates $(x,y)$ to be $\\boxed{(15,-11)}$.",
+    "prompt": "### Instruction: The midpoint of the line segment between $(x,y)$ and $(-9,1)$ is $(3,-5)$. Find $(x,y)$.\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "Here's how to solve the problem step-by-step:\n**1. Understand the Midpoint Formula**\nThe midpoint of a line segment is found by averaging the x-coordinates and averaging the y-coordinates of the endpoints.  The formula is:\nMidpoint =  ((x\u2081 + x\u2082)/2, (y\u2081 + y\u2082)/2)\n**2. Apply the Formula**\nWe know:\n*  One endpoint is (x, y)\n*  The other endpoint is (-9, 1)\n*  The midpoint is (3, -5)\nLet's plug these values into the midpoint formula:\n(3, -5) = ((x + (-9))/2, (y + 1)/2)\n**3. Solve for x and y**\nNow we have two separate equations:\n* 3 = (x - 9)/2 \n* -5 = (y + 1)/2\nSolve for x in the first equation:\n* 6 = x - 9 \n* x = 15\nSolve for y in the second equation:\n* -10 = y + 1\n* y = -11\n**4. The Solution**\nTherefore, the coordinates of the point (x, y) are **(15, -11)**. \n",
+        "Here's how to solve the problem step-by-step:\n**1. Understand the Midpoint Formula**\nThe midpoint of a line segment is found by averaging the x-coordinates and averaging the y-coordinates of the endpoints.  The formula is:\nMidpoint =  ((x1 + x2)/2, (y1 + y2)/2)\n**2. Apply the Formula**\n* We know one endpoint is (-9, 1) and the midpoint is (3, -5).\n* Let the other endpoint be (x, y).\nNow we can set up the following equations:\n*  (x + (-9))/2 = 3  \n*  (y + 1)/2 = -5\n**3. Solve for x and y**\n* **Solve for x:**\n   *  x - 9 = 6 \n   *  x = 15\n* **Solve for y:**\n   *  y + 1 = -10\n   *  y = -11\n**4. The Answer**\nTherefore, the other endpoint of the line segment is (x, y) = **(15, -11)**. \n",
+        "Here's how to solve the problem step-by-step:\n**1. Understand the Midpoint Formula**\nThe midpoint of a line segment is found by averaging the x-coordinates and averaging the y-coordinates of the endpoints.  The formula is:\nMidpoint =  ((x\u2081 + x\u2082)/2 , (y\u2081 + y\u2082)/2) \n**2. Apply the Formula**\n* We know the midpoint is (3, -5).\n* We know one endpoint is (-9, 1).\n* We need to find the other endpoint (x, y).\nLet's plug these values into the midpoint formula:\n(3, -5) = ((x + (-9))/2 , (y + 1)/2)\n**3. Solve for x and y**\nNow we have two equations:\n* 3 = (x - 9) / 2\n* -5 = (y + 1) / 2\nSolve for x:\n* 6 = x - 9\n* x = 15\nSolve for y:\n* -10 = y + 1\n* y = -11\n**4. The Solution**\nTherefore, the other endpoint of the line segment is **(15, -11)**. \n",
+        "Here's how to solve the problem step-by-step:\n**1. Understand the Midpoint Formula**\nThe midpoint of a line segment is found by averaging the x-coordinates and averaging the y-coordinates of the endpoints.  \n**2. Apply the Formula**\nWe know:\n* Endpoint 1:  (x, y)\n* Endpoint 2: (-9, 1)\n* Midpoint: (3, -5)\nUsing the midpoint formula:\n* **x-coordinate of midpoint:** (x + (-9)) / 2 = 3 \n* **y-coordinate of midpoint:** (y + 1) / 2 = -5\n**3. Solve for x and y**\n* **Solve for x:**\n    * (x - 9) / 2 = 3\n    * x - 9 = 6\n    * x = 15\n* **Solve for y:**\n    * (y + 1) / 2 = -5\n    * y + 1 = -10\n    * y = -11\n**4. The Answer**\nTherefore, the point (x, y) is **(15, -11)**. \n",
+        "Here's how to solve the problem step-by-step:\n**1. Understand the Midpoint Formula**\nThe midpoint of a line segment is found by averaging the x-coordinates and averaging the y-coordinates of the endpoints.  \n* **Midpoint Formula:**  ((x\u2081 + x\u2082)/2, (y\u2081 + y\u2082)/2)\n**2. Apply the Formula**\nWe know:\n*  One endpoint is (x, y)\n*  The other endpoint is (-9, 1)\n*  The midpoint is (3, -5)\nLet's plug these values into the midpoint formula:\n*  (3, -5) = ((x + (-9))/2, (y + 1)/2)\n**3. Solve for x and y**\nNow we have two equations:\n*  3 = (x - 9)/2\n*  -5 = (y + 1)/2\nSolve for x:\n*  6 = x - 9\n*  x = 15\nSolve for y:\n*  -10 = y + 1\n*  y = -11\n**4. Solution**\nTherefore, the coordinates of (x, y) are **(15, -11)**. \n"
+    ],
+    "pred_answers": "-11",
+    "final_pred_answer": [
+        "-11",
+        "-11",
+        "-11",
+        "-11",
+        "-11"
+    ],
+    "ground_truth": "-11"
+}

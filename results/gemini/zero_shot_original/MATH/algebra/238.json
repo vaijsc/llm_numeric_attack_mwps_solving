@@ -1,0 +1,23 @@
+{
+    "problem": "What is the value of 123123 divided by 1001?",
+    "level": "Level 1",
+    "type": "Algebra",
+    "solution": "Notice that the first number can be written as $123\\cdot1000 + 123 = 123(1001)$. Thus, when this number is divided by 1001, the quotient is $\\boxed{123}$.",
+    "prompt": "### Instruction: What is the value of 123123 divided by 1001?\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "Here's how to solve this problem:\n**1. Understanding the Pattern:**\n* Notice that 1001 is very close to 1000, which is a power of 10.\n* This suggests a possible pattern.\n**2.  Factoring 123123:**\n*  123123 can be factored as 123 * 1001. \n**3.  Dividing:**\n*  Now, (123 * 1001) / 1001  = 123 * (1001/1001) \n*  Since 1001/1001 = 1, the answer is simply 123.\n**Therefore, the value of 123123 divided by 1001 is 123.** \n",
+        "Here's how to solve this:\n**Understanding the Problem**\nWe need to find out how many times 1001 goes into 123123.\n**Step-by-Step Solution**\n1. **Estimation:** 1001 is a little more than 1000.  Think about how many times 1000 goes into 123000. It goes in about 123 times.  So, our answer should be close to 123.\n2. **Long Division:**  We can use long division to find the exact answer:\n   ```\n      123 \n   1001|123123\n       1001\n       ----\n        2302\n        2002\n        ----\n          3003\n          3003\n          ----\n             0 \n   ```\n**Answer**\nThe value of 123123 divided by 1001 is **123**. \n",
+        "Here's how to solve this problem:\n**Understanding the Problem:**\n* **Dividing by 1001:**  Dividing by 1001 is essentially checking how many times 1001 fits into 123123.\n* **Pattern Recognition:** Notice that 123123 has a repeating pattern of \"123.\" This can help us simplify the division.\n**Solution:**\n1. **Rewrite 123123:**  We can write 123123 as 123 * 1000 + 123.\n2. **Factor out 123:**  This gives us 123 * (1000 + 1).\n3. **Simplify:**  1000 + 1 = 1001.\n4. **Divide:** Now we have  123 * 1001 / 1001.\n5. **Cancellation:** The 1001s cancel out, leaving us with just 123.\n**Therefore, 123123 divided by 1001 is equal to 123.** \n",
+        "Here's how to solve this problem:\n**Understanding the Pattern**\n* Notice that 1001 is very close to 1000, which is 10^3 (10 to the power of 3).\n* This suggests a pattern: 123123 can be written as 123 * 1000 + 123. \n**The Calculation**\n1. **Divide 123123 by 1001:**  \n   * 123123 / 1001 = (123 * 1000 + 123) / 1001\n2. **Separate the terms:**\n   * (123 * 1000 / 1001) + (123 / 1001)\n3. **Simplify:**\n   * (123 * (1000/1001)) + (123/1001)\n4. **Approximate:** Since 1000/1001 is very close to 1, we can approximate:\n   * (123 * 1) + (123/1001) \u2248 123 + 0.123\n5. **Final answer:**\n   * 123123 / 1001 \u2248 **123.123** \n**Therefore, the value of 123123 divided by 1001 is approximately 123.123.** \n",
+        "Here's how to solve this problem:\n**Understanding the Problem:**\nWe are asked to divide 123123 by 1001.  This means we want to find out how many times 1001 goes into 123123.\n**Step-by-Step Solution:**\n1. **Long Division:** The most straightforward way is to use long division.  However, this can be a bit tedious with larger numbers.\n2. **Pattern Recognition:** Notice that 123123 is made up of repeating the sequence \"123\". This is a clue that there might be a simpler approach.\n3. **Factoring:**  Let's try factoring:\n   * 123123 can be written as (123 * 1000) + 123\n   *  We can factor out 123: 123 * (1000 + 1)\n   * This simplifies to 123 * 1001\n4. **Cancellation:** Now we have: (123 * 1001) / 1001\n   * The 1001 in the numerator and denominator cancel out, leaving us with: 123\n**Answer:** 123123 divided by 1001 is **123**. \n"
+    ],
+    "pred_answers": "123",
+    "final_pred_answer": [
+        "123",
+        "123",
+        "123",
+        "123.123",
+        "123123"
+    ],
+    "ground_truth": "123"
+}

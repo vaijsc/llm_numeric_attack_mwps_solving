@@ -1,0 +1,23 @@
+{
+    "problem": "A complete cycle of a traffic light takes 60 seconds. During each cycle the light is green for 25 seconds, yellow for 5 seconds, and red for 30 seconds. At a randomly chosen time, what is the probability that the light will NOT be green?  Express your answer as a common fraction.",
+    "level": "Level 1",
+    "type": "Counting & Probability",
+    "solution": "The probability that it will be green is $\\frac{25}{60}=\\frac{5}{12}$. So the probability that it is not green is simply $1-\\frac{5}{12}=\\boxed{\\frac{7}{12}}$.",
+    "prompt": "### Instruction: A complete cycle of a traffic light takes 60 seconds. During each cycle the light is green for 25 seconds, yellow for 5 seconds, and red for 30 seconds. At a randomly chosen time, what is the probability that the light will NOT be green?  Express your answer as a common fraction.\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "Here's how to solve the problem step-by-step:\n* **Calculate the time the light is NOT green:** The light is not green for 5 seconds (yellow) + 30 seconds (red) = 35 seconds.\n* **Find the probability of the light NOT being green:**  The probability is the time the light is NOT green divided by the total cycle time: 35 seconds / 60 seconds = **7/12**. \n",
+        "Here's how to solve the problem step-by-step:\n* **Find the total time the light is NOT green:**  The light is not green for 5 seconds (yellow) + 30 seconds (red) = 35 seconds.\n* **Calculate the probability:** The probability of the light not being green is the time it's not green divided by the total cycle time: 35 seconds / 60 seconds = **7/12**. \n",
+        "Here's how to solve the problem step-by-step:\n**1. Find the total time the light is NOT green:**\n* The light is not green for 5 seconds (yellow) + 30 seconds (red) = 35 seconds.\n**2. Calculate the probability:**\n* Probability of the light NOT being green is (time NOT green) / (total cycle time) = 35 seconds / 60 seconds \n**3. Simplify the fraction:**\n* The fraction 35/60 simplifies to **7/12**.\n**Therefore, the probability that the light will NOT be green at a randomly chosen time is 7/12.** \n",
+        "Here's how to solve the problem step-by-step:\n* **Total cycle time:** The traffic light cycle takes 60 seconds.\n* **Time NOT green:**  The light is not green for 30 seconds (red) + 5 seconds (yellow) = 35 seconds.\n* **Probability:** The probability of the light not being green is the time it's not green divided by the total cycle time: 35 seconds / 60 seconds = **7/12**. \n",
+        "Here's how to solve this step-by-step:\n* **Find the total time the light is NOT green:**  The light is red for 30 seconds and yellow for 5 seconds, totaling 30 + 5 = 35 seconds.\n* **Calculate the probability:**  The probability of the light NOT being green is the time it's NOT green divided by the total cycle time.  This is 35 seconds / 60 seconds = **7/12**. \n"
+    ],
+    "pred_answers": "12",
+    "final_pred_answer": [
+        "12",
+        "12",
+        "12",
+        "12",
+        "12"
+    ],
+    "ground_truth": "12"
+}

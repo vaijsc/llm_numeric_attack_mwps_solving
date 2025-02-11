@@ -1,0 +1,23 @@
+{
+    "problem": "If $725x + 727y = 1500$ and $729x+ 731y = 1508$, what is the value of $x - y$ ?",
+    "level": "Level 5",
+    "type": "Algebra",
+    "solution": "Subtracting the two equations gives: \\begin{align*}\n(729x+731y)-(725x+727y) &= 1508-1500\\\\\n\\Rightarrow\\qquad 4x+4y &= 8\\\\\n\\Rightarrow\\qquad x+y &= 2.\n\\end{align*}Multiplying this equation by 725 and subtracting this equation from $725x+727y=1500$ gives \\begin{align*}\n(725x+727y) - 725(x+y) &= 1500-725(x+y) \\implies \\\\\n2y &= 50.\n\\end{align*}So we can write $x-y$ as $(x+y) - 2y$, which equals  $2 - 50 = \\boxed{-48}$.",
+    "prompt": "### Instruction: If $725x + 727y = 1500$ and $729x+ 731y = 1508$, what is the value of $x - y$ ?\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "Here's how to solve the problem step-by-step:\n**1. Eliminate one variable**\n   * Subtract the first equation from the second equation: \n     (729x + 731y) - (725x + 727y) = 1508 - 1500\n   * This simplifies to: 4x + 4y = 8\n**2. Simplify the equation**\n   * Divide both sides of the equation by 4: \n     x + y = 2\n**3. Isolate one variable**\n   * Solve for x:\n     x = 2 - y\n**4. Substitute to find x - y**\n   * Substitute the expression for x (2 - y) into the expression (x - y):\n     (2 - y) - y  \n   * Simplify:\n     2 - 2y\n**Therefore, the value of x - y is 2 - 2y.** \n**Important Note:** We cannot find a numerical value for x - y without additional information. We can only express it in terms of y. \n",
+        "Here's how to solve the problem step by step:\n**1. Eliminate one variable**\n   * Subtract the first equation from the second equation: \n      (729x + 731y) - (725x + 727y) = 1508 - 1500\n   * This simplifies to: 4x + 4y = 8\n**2. Solve for one variable**\n   * Divide both sides of the equation by 4: \n     x + y = 2\n**3. Isolate the desired expression**\n   * Subtract 'y' from both sides of the equation:\n     x = 2 - y\n**4. Determine the value of x - y**\n   * Substitute 'x' with (2 - y) in the expression x - y:\n     (2 - y) - y = 2 - 2y\n**Therefore, the value of x - y is 2 - 2y.** \nSince we don't have enough information to solve for the individual values of x and y, we cannot determine a numerical answer for x - y. \n",
+        "Here's how to solve this system of equations to find the value of  x - y:\n**1.  Elimination Method:**\n* **Subtract the first equation from the second equation:** \n   (729x + 731y) - (725x + 727y) = 1508 - 1500\n* **Simplify:** \n   4x + 4y = 8\n* **Divide both sides by 4:**\n   x + y = 2\n**2.  Solve for x - y:**\n* **Subtract y from both sides of the equation x + y = 2:**\n   x - y = 2 - 2y\n**3.  Conclusion:**\n* **The value of x - y is **2 - 2y**. We cannot determine a numerical value for x - y without more information about x or y. \n**Important Note:**  The system of equations has infinitely many solutions. You can find one solution by picking any value for y and then solving for x. However, the expression for x - y will always be in terms of y. \n",
+        "Here's how to solve the problem:\n**1. Eliminate one variable:**\n* Subtract the first equation from the second equation:\n   (729x + 731y) - (725x + 727y) = 1508 - 1500\n* Simplify:\n   4x + 4y = 8\n**2. Simplify the equation:**\n* Divide both sides by 4:\n   x + y = 2\n**3. Isolate one variable:**\n* Solve for x:\n   x = 2 - y\n**4. Substitute to find x - y:**\n* Substitute the value of x in the expression x - y:\n   (2 - y) - y = 2 - 2y\n**Therefore, the value of x - y is 2 - 2y.**  We can't find a numerical value for x - y without more information, as the result depends on the value of 'y'. \n",
+        "Here's how to solve the problem step-by-step:\n**1. Eliminate one variable:**\n* Subtract the first equation from the second equation:\n   (729x + 731y) - (725x + 727y) = 1508 - 1500\n* Simplify: \n   4x + 4y = 8\n**2. Solve for one variable:**\n* Divide both sides of the equation by 4:\n   x + y = 2\n**3. Isolate one variable:**\n* Subtract y from both sides:\n   x = 2 - y\n**4. Substitute to find x - y:**\n* Substitute the value of x (2 - y) into the expression x - y:\n   (2 - y) - y \n* Simplify:\n   2 - 2y\n**Therefore, the value of x - y is 2 - 2y.**  We can't get a numerical answer for x - y without knowing the value of either x or y. \n"
+    ],
+    "pred_answers": "2",
+    "final_pred_answer": [
+        "2",
+        "2",
+        "2",
+        "2",
+        "2"
+    ],
+    "ground_truth": "-48"
+}

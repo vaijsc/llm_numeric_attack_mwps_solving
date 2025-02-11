@@ -1,0 +1,23 @@
+{
+    "problem": "What is 20$\\%$ of 50$\\%$ of 80?",
+    "level": "Level 1",
+    "type": "Algebra",
+    "solution": "$20\\%$ is $\\frac{1}{5}$, and $50\\%$ is $\\frac{1}{2}$.  So we are looking for\n\n$$80\\frac{1}{2}\\frac{1}{5}=\\frac{80}{10}=\\boxed{8}$$",
+    "prompt": "### Instruction: What is 20$\\%$ of 50$\\%$ of 80?\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "To find 20% of 50% of 80, we can break it down into steps:\n1. **Calculate 50% of 80**: \n   \\[\n   50\\% \\text{ of } 80 = \\frac{50}{100} \\times 80 = 0.5 \\times 80 = 40\n   \\]\n2. **Now calculate 20% of the result from step 1 (which is 40)**:\n   \\[\n   20\\% \\text{ of } 40 = \\frac{20}{100} \\times 40 = 0.2 \\times 40 = 8\n   \\]\nThus, 20% of 50% of 80 is \\( \\boxed{8} \\).",
+        "To find 20% of 50% of 80, we will break the problem down into steps.\n1. **Calculate 50% of 80**:\n   \\[\n   50\\% \\text{ of } 80 = \\frac{50}{100} \\times 80 = 0.5 \\times 80 = 40\n   \\]\n2. **Calculate 20% of 40**:\n   \\[\n   20\\% \\text{ of } 40 = \\frac{20}{100} \\times 40 = 0.2 \\times 40 = 8\n   \\]\nThus, 20% of 50% of 80 is \\( \\boxed{8} \\).",
+        "To find 20% of 50% of 80, we can break it down into steps:\n1. **Calculate 50% of 80**:\n   \\[\n   50\\% \\text{ of } 80 = \\frac{50}{100} \\times 80 = 0.5 \\times 80 = 40\n   \\]\n2. **Calculate 20% of the result from step 1 (which is 40)**:\n   \\[\n   20\\% \\text{ of } 40 = \\frac{20}{100} \\times 40 = 0.2 \\times 40 = 8\n   \\]\nThus, 20% of 50% of 80 is **8**.",
+        "To find 20% of 50% of 80, we can break the problem down into steps.\n1. **Calculate 50% of 80**:\n   \\[\n   50\\% \\text{ of } 80 = \\frac{50}{100} \\times 80 = 0.5 \\times 80 = 40\n   \\]\n2. **Calculate 20% of the result from step 1 (which is 40)**:\n   \\[\n   20\\% \\text{ of } 40 = \\frac{20}{100} \\times 40 = 0.2 \\times 40 = 8\n   \\]\nThus, 20% of 50% of 80 is \\(\\boxed{8}\\).",
+        "To find 20% of 50% of 80, we can break the calculation into steps.\n1. **Calculate 50% of 80**:\n   \\[\n   50\\% \\text{ of } 80 = \\frac{50}{100} \\times 80 = 0.5 \\times 80 = 40\n   \\]\n2. **Calculate 20% of the result from step 1** (which is 40):\n   \\[\n   20\\% \\text{ of } 40 = \\frac{20}{100} \\times 40 = 0.2 \\times 40 = 8\n   \\]\nSo, 20% of 50% of 80 is \\(\\boxed{8}\\)."
+    ],
+    "pred_answers": "8",
+    "final_pred_answer": [
+        "8",
+        "8",
+        "8",
+        "8",
+        "8"
+    ],
+    "ground_truth": "8"
+}

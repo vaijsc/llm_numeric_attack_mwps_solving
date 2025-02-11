@@ -1,0 +1,23 @@
+{
+    "problem": "For how many values of $x$ is the function $y=\\frac{x-2}{x^2-7x+10}$ not defined?",
+    "level": "Level 2",
+    "type": "Algebra",
+    "solution": "By factoring the denominator, the equation becomes \\[y=\\frac{x-2}{(x-2)(x-5)}.\\]The function is not defined when the denominator is 0, which occurs at $x = 2$ and $x = 5$.  Therefore, there are $\\boxed{2}$ values of $x$ for which the function is not defined.",
+    "prompt": "### Instruction: For how many values of $x$ is the function $y=\\frac{x-2}{x^2-7x+10}$ not defined?\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "Here's how to solve the problem step-by-step:\n**1. Identify the Problem:**\nThe function is a rational function (a fraction where the numerator and denominator are polynomials).  Rational functions are not defined when the denominator is equal to zero.\n**2. Find the Values that Make the Denominator Zero:**\n* Set the denominator equal to zero:  x\u00b2 - 7x + 10 = 0\n* Factor the quadratic: (x - 2)(x - 5) = 0\n* Solve for x: x = 2 or x = 5\n**3. Answer:**\nThe function is not defined when x = 2 or x = 5.  Therefore, the function is not defined for **two** values of x. \n",
+        "Here's how to solve the problem step-by-step:\n**1. Understand where functions are undefined:**\nA rational function (a function that's a fraction with polynomials in the numerator and denominator) is undefined when the denominator is equal to zero. \n**2. Find the values that make the denominator zero:**\n* We need to find the values of *x* that make the denominator, *x\u00b2 - 7x + 10*, equal to zero.\n* Factor the denominator: (x - 2)(x - 5) = 0\n* Solve for *x*:  x = 2 or x = 5\n**3. The answer:**\nTherefore, the function is undefined for **two** values of *x*:  x = 2 and x = 5. \n",
+        "Here's how to solve the problem step-by-step:\n**1. Understand the problem:**\n* We're given a rational function (a fraction where the numerator and denominator are polynomials). \n* Rational functions are not defined when the denominator is zero. \n**2. Find the values that make the denominator zero:**\n* Factor the denominator:  $x^2 - 7x + 10 = (x-2)(x-5)$\n* Set the factored denominator equal to zero:  $(x-2)(x-5) = 0$\n* Solve for x: \n    *  x - 2 = 0  -->  x = 2\n    *  x - 5 = 0  -->  x = 5\n**3. The answer:**\n* The function is not defined for **two** values of x:  x = 2 and x = 5. \n",
+        "Here's how to solve the problem step-by-step:\n**1. Understand the Problem**\nA rational function (a fraction with polynomials in the numerator and denominator) is undefined when the denominator equals zero.  This is because dividing by zero is not allowed in mathematics.\n**2. Find the Values that Make the Denominator Zero**\nWe need to find the values of *x* that make the denominator of the function,  *x\u00b2 - 7x + 10*, equal to zero.  Let's factor the quadratic:\n*x\u00b2 - 7x + 10 = (x - 2)(x - 5)*\nThe denominator is zero when either (x - 2) = 0 or (x - 5) = 0. \n* Solving (x - 2) = 0 gives us x = 2\n* Solving (x - 5) = 0 gives us x = 5\n**3. The Answer**\nTherefore, the function is not defined for **two** values of *x*:  *x = 2* and *x = 5*. \n",
+        "A rational function (a fraction where the numerator and denominator are polynomials) is undefined when the denominator is equal to zero.  So, we need to find the values of $x$ that make the denominator, $x^2 - 7x + 10$, equal to zero.\nWe can factor the denominator: \n \n  $x^2 - 7x + 10 = (x-2)(x-5)$\nThis expression is equal to zero when either $(x-2) = 0$ or $(x-5) = 0$. Solving these equations, we get $x=2$ or $x=5$.\nTherefore, the function is not defined for **two** values of $x$. \n"
+    ],
+    "pred_answers": "5",
+    "final_pred_answer": [
+        "2",
+        "5",
+        "5",
+        "5",
+        "5"
+    ],
+    "ground_truth": "2"
+}

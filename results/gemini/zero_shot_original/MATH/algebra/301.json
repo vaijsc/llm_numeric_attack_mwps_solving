@@ -1,0 +1,23 @@
+{
+    "problem": "Evaluate: $102^2 - 98^2$",
+    "level": "Level 1",
+    "type": "Algebra",
+    "solution": "This factors as a difference of squares into $(102-98)(102+98)=4\\cdot200=\\boxed{800}$.",
+    "prompt": "### Instruction: Evaluate: $102^2 - 98^2$\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "Here's how to evaluate the expression step-by-step:\n**1. Recognize the Difference of Squares Pattern**\nThe expression  $102^2 - 98^2$ fits the difference of squares pattern: \n  *  a\u00b2 - b\u00b2 = (a + b)(a - b)\n**2. Apply the Pattern**\nIn our case,  a = 102 and b = 98.  Let's substitute into the pattern:\n  102\u00b2 - 98\u00b2 = (102 + 98)(102 - 98)\n**3. Simplify**\n  (102 + 98)(102 - 98) = (200)(4) = 800\n**Therefore, 102\u00b2 - 98\u00b2 = 800** \n",
+        "Here's how to evaluate  $102^2 - 98^2$ step-by-step:\n**1. Recognize the Difference of Squares Pattern**\nThe expression $102^2 - 98^2$ fits the pattern of the difference of squares: \n  *  a\u00b2 - b\u00b2 = (a + b)(a - b)\n**2. Apply the Pattern**\nIn our case, a = 102 and b = 98.  Let's substitute into the pattern:\n  *  102\u00b2 - 98\u00b2 = (102 + 98)(102 - 98)\n**3. Simplify**\n  * (102 + 98)(102 - 98) = (200)(4) \n**4. Calculate**\n  * (200)(4) = 800\n**Therefore, 102\u00b2 - 98\u00b2 = 800** \n",
+        "Here's how to evaluate the expression step-by-step:\n**1. Recognize the Difference of Squares Pattern:**\nThe expression  $102^2 - 98^2$ fits the pattern of the difference of squares: \n  *  a\u00b2 - b\u00b2 = (a + b)(a - b)\n**2. Apply the Pattern:**\n* In this case, a = 102 and b = 98\n* Substitute into the pattern: (102 + 98)(102 - 98)\n**3. Simplify:**\n* (102 + 98)(102 - 98) = (200)(4) = 800\n**Therefore, 102\u00b2 - 98\u00b2 = 800** \n",
+        "**Step 1: Recognize the difference of squares pattern**\nThe expression  $102^2 - 98^2$ fits the pattern  $a^2 - b^2$.\n**Step 2: Apply the difference of squares factorization**\nThe difference of squares pattern factors as:  $a^2 - b^2 = (a + b)(a - b)$\n**Step 3: Substitute and simplify**\n*  Let  $a = 102$ and  $b = 98$.\n*  Substitute into the factored form: $(102 + 98)(102 - 98)$\n*  Simplify: $(200)(4) = \\boxed{800}$ \n",
+        "Here's how to evaluate the expression step-by-step:\n**1. Recognize the Difference of Squares Pattern:**\nThe expression  $102^2 - 98^2$ fits the pattern of the difference of squares: \n  *  a\u00b2 - b\u00b2 = (a + b)(a - b)\n**2. Apply the Pattern:**\n* In our case, a = 102 and b = 98.\n* Substitute these values into the pattern: \n   (102 + 98)(102 - 98)\n**3. Simplify:**\n* (102 + 98) = 200\n* (102 - 98) = 4\n**4. Calculate the Final Result:**\n* 200 * 4 = **800**\nTherefore,  102\u00b2 - 98\u00b2 = 800 \n"
+    ],
+    "pred_answers": "800",
+    "final_pred_answer": [
+        "800",
+        "800",
+        "800",
+        "800",
+        "800"
+    ],
+    "ground_truth": "800"
+}

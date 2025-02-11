@@ -1,0 +1,23 @@
+{
+    "problem": "Given that $-4$ is a solution to $x^2 + bx -36 = 0$, what is the value of $b$?",
+    "level": "Level 3",
+    "type": "Algebra",
+    "solution": "The product of the roots of this quadratic is $-36/1=-36$, so the other solution must be $-36/-4=9$. That means that the sum of the solutions is $-4+9=5$. The sum of the solutions is also $-b/1=-b$. Thus, $-b=5$ and $b=\\boxed{-5}$.",
+    "prompt": "### Instruction: Given that $-4$ is a solution to $x^2 + bx -36 = 0$, what is the value of $b$?\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "To find the value of \\( b \\), given that \\(-4\\) is a solution to the quadratic equation \\(x^2 + bx - 36 = 0\\), we start by substituting \\(-4\\) into the equation:\n\\[\n(-4)^2 + b(-4) - 36 = 0\n\\]\nFirst, calculate \\((-4)^2\\):\n\\[\n(-4)^2 = 16\n\\]\nSubstitute this back into the equation:\n\\[\n16 + b(-4) - 36 = 0\n\\]\nSimplify further:\n\\[\n16 - 4b - 36 = 0\n\\]\nCombine the constant terms:\n\\[\n-20 - 4b = 0\n\\]\nTo isolate \\( b \\), add 20 to both sides of the equation:\n\\[\n-4b = 20\n\\]\nNext, divide both sides by \\(-4\\):\n\\[\nb = \\frac{20}{-4} = -5\n\\]\nThus, the value of \\( b \\) is \\(-5\\).",
+        "We know that \\(-4\\) is a solution to the quadratic equation \\(x^2 + bx - 36 = 0\\). This means that when \\(x = -4\\), the equation must hold true. Therefore, we can substitute \\(-4\\) into the equation and solve for \\(b\\).\nStart by substituting \\(-4\\) for \\(x\\):\n\\[\n(-4)^2 + b(-4) - 36 = 0\n\\]\nCalculate \\((-4)^2\\):\n\\[\n16 + b(-4) - 36 = 0\n\\]\nSimplify the equation:\n\\[\n16 - 4b - 36 = 0\n\\]\nCombine like terms \\(16\\) and \\(-36\\):\n\\[\n-4b - 20 = 0\n\\]\nTo solve for \\(b\\), add \\(20\\) to both sides of the equation:\n\\[\n-4b = 20\n\\]\nNext, divide both sides by \\(-4\\):\n\\[\nb = \\frac{20}{-4}\n\\]\nSimplify the fraction:\n\\[\nb = -5\n\\]\nThus, the value of \\(b\\) is \\(\\boxed{-5}\\).",
+        "To find the value of \\( b \\) in the quadratic equation \\( x^2 + bx - 36 = 0 \\), given that \\(-4\\) is a solution, we can use the fact that if a number is a solution (root) of the quadratic equation, it should satisfy the equation.\n1. **Plug \\(-4\\) into the equation:**\n   \\[\n   (-4)^2 + b(-4) - 36 = 0\n   \\]\n2. **Calculate \\((-4)^2\\):**\n   \\[\n   16 + b(-4) - 36 = 0\n   \\]\n3. **Simplify further:**\n   \\[\n   16 - 4b - 36 = 0\n   \\]\n4. **Combine like terms:**\n   \\[\n   -20 - 4b = 0\n   \\]\n5. **Solve for \\( b \\):**\n   Add 20 to both sides:\n   \\[\n   -4b = 20\n   \\]\n   Divide both sides by \\(-4\\):\n   \\[\n   b = -5\n   \\]\nThus, the value of \\( b \\) is \\(-5\\).",
+        "To find the value of \\( b \\) in the quadratic equation \\( x^2 + bx - 36 = 0 \\) given that \\( -4 \\) is a solution, we can substitute \\( x = -4 \\) into the equation. \n### Step 1: Substitute \\(-4\\) into the equation\nSince \\(-4\\) is a root, it should satisfy the equation:\n\\[\n(-4)^2 + b(-4) - 36 = 0\n\\]\n### Step 2: Calculate \\((-4)^2\\)\n\\[\n(-4)^2 = 16\n\\]\n### Step 3: Substitute and simplify\nSubstituting back into the equation gives:\n\\[\n16 + b(-4) - 36 = 0\n\\]\nSimplify further:\n\\[\n16 - 4b - 36 = 0\n\\]\n### Step 4: Simplify the equation\nSimplify the equation:\n\\[\n-4b = 20\n\\]\n### Step 5: Solve for \\( b \\)\nDivide both sides by \\(-4\\):\n\\[\nb = -5\n\\]\nThus, the value of \\( b \\) is \\(-5\\).",
+        "To determine the value of \\( b \\) in the quadratic equation \\( x^2 + bx - 36 = 0 \\), given that \\(-4\\) is a solution, we can substitute \\(-4\\) into the equation and solve for \\( b \\).\nThe given quadratic equation is:\n\\[\nx^2 + bx - 36 = 0\n\\]\nSince \\(-4\\) is a solution, this means:\n\\[\n(-4)^2 + b(-4) - 36 = 0\n\\]\nCalculate \\((-4)^2\\):\n\\[\n16 + b(-4) - 36 = 0\n\\]\nSimplify the equation:\n\\[\n16 - 4b - 36 = 0\n\\]\nCombine the constant terms:\n\\[\n-20 - 4b = 0\n\\]\nTo solve for \\( b \\), add 20 to both sides:\n\\[\n-4b = 20\n\\]\nNow, divide both sides by \\(-4\\):\n\\[\nb = -5\n\\]\nThus, the value of \\( b \\) is \\(-5\\)."
+    ],
+    "pred_answers": "-5",
+    "final_pred_answer": [
+        "-5",
+        "-5",
+        "-5",
+        "-5",
+        "-5"
+    ],
+    "ground_truth": "-5"
+}

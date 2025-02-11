@@ -1,0 +1,23 @@
+{
+    "problem": "Simplify $(9-4i)-(-3-4i)$.",
+    "level": "Level 2",
+    "type": "Algebra",
+    "solution": "$(9-4i)- (-3-4i) = 9-4i +3 +4i = (9+3) + (-4i+4i) = \\boxed{12}$.",
+    "prompt": "### Instruction: Simplify $(9-4i)-(-3-4i)$.\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "To simplify the expression \\((9-4i)-(-3-4i)\\), we start by dealing with the subtraction of the complex number \\(-3-4i\\).\n### Step 1: Remove the parentheses\nThe expression can be rewritten by distributing the negative sign:\n\\[\n(9 - 4i) - (-3 - 4i) = (9 - 4i) + (3 + 4i)\n\\]\nHere, we changed the subtraction of \\(-3 - 4i\\) into addition of \\(3 + 4i\\).\n### Step 2: Combine the real parts\nNow, we need to combine the real parts:\n\\[\n9 + 3 = 12\n\\]\n### Step 3: Combine the imaginary parts\nNext, we combine the imaginary parts:\n\\[\n-4i + 4i = 0\n\\]\n### Step 4: Write the final result\nPutting it all together, we have:\n\\[\n12 + 0i = 12\n\\]\nTherefore, the simplified expression is:\n\\[\n\\boxed{12}\n\\]",
+        "To simplify the expression \\((9-4i) - (-3-4i)\\), we can follow these steps:\n1. **Distribute the negative sign**: The expression involves subtracting \\(-3 - 4i\\). When we subtract a negative, we add its opposite. Thus, we rewrite the expression as:\n   \\[\n   (9 - 4i) + (3 + 4i)\n   \\]\n2. **Combine the real parts**: Now, we add the real parts together:\n   \\[\n   9 + 3 = 12\n   \\]\n3. **Combine the imaginary parts**: Next, we add the imaginary parts together:\n   \\[\n   -4i + 4i = 0\n   \\]\n4. **Combine the results**: Now, we can combine the results from the real and imaginary parts:\n   \\[\n   12 + 0i = 12\n   \\]\nThus, the simplified expression is:\n\\[\n\\boxed{12}\n\\]",
+        "To simplify the expression \\((9-4i)-(-3-4i)\\), we can follow these steps:\n1. **Distribute the negative sign**: This means we will change the signs of the components inside the parentheses \\(-(-3-4i)\\):\n   \\[\n   -(-3) = 3 \\quad \\text{and} \\quad -(-4i) = 4i\n   \\]\n   So, we can rewrite the expression as:\n   \\[\n   (9-4i) + (3 + 4i)\n   \\]\n2. **Combine like terms**: Now we will combine the real parts and the imaginary parts:\n   - The real parts are \\(9\\) and \\(3\\):\n     \\[\n     9 + 3 = 12\n     \\]\n   - The imaginary parts are \\(-4i\\) and \\(4i\\):\n     \\[\n     -4i + 4i = 0\n     \\]\n3. **Write the final result**: Combining these results gives us:\n   \\[\n   12 + 0i\n   \\]\n   Since the imaginary part is zero, we can simply write:\n   \\[\n   12\n   \\]\nTherefore, the simplified form of \\((9-4i)-(-3-4i)\\) is \\(\\boxed{12}\\).",
+        "To simplify the expression \\((9 - 4i) - (-3 - 4i)\\), we can follow these steps:\n1. **Distribute the negative sign**: The expression has a subtraction of a complex number. By distributing the negative sign, we rewrite the expression:\n   \\[\n   (9 - 4i) - (-3 - 4i) = (9 - 4i) + (3 + 4i)\n   \\]\n2. **Combine the real parts and the imaginary parts separately**: Now we will combine the real parts (the numbers without \\(i\\)) and the imaginary parts (the coefficients of \\(i\\)):\n   - Real parts: \\(9 + 3 = 12\\)\n   - Imaginary parts: \\(-4i + 4i = 0i\\)\n3. **Write the final result**: Putting it all together, we have:\n   \\[\n   12 + 0i = 12\n   \\]\nTherefore, the simplified expression is \\(\\boxed{12}\\).",
+        "To simplify the expression \\((9-4i)-(-3-4i)\\), we can follow these steps:\n1. First, we need to simplify the expression inside the parentheses:\n   \\[\n   -(-3 - 4i) = 3 + 4i\n   \\]\n2. Next, we substitute this back into the original expression:\n   \\[\n   (9 - 4i) + (3 + 4i)\n   \\]\n3. Now, we combine the real parts and the imaginary parts:\n   - The real parts are \\(9\\) and \\(3\\):\n     \\[\n     9 + 3 = 12\n     \\]\n   - The imaginary parts are \\(-4i\\) and \\(4i\\):\n     \\[\n     -4i + 4i = 0\n     \\]\n4. Now, we combine the results:\n   \\[\n   12 + 0i\n   \\]\n5. Since \\(0i\\) is simply \\(0\\), the final result simplifies to:\n   \\[\n   12\n   \\]\nThus, the simplified form of \\((9-4i)-(-3-4i)\\) is \\(\\boxed{12}\\)."
+    ],
+    "pred_answers": "12",
+    "final_pred_answer": [
+        "12",
+        "12",
+        "12",
+        "12",
+        "12"
+    ],
+    "ground_truth": "12"
+}

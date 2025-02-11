@@ -1,0 +1,23 @@
+{
+    "problem": "In right triangle $ABC$ with $\\angle A = 90^\\circ$, we have $AB = 6$ and $BC = 10$.  Find $\\cos A$.",
+    "level": "Level 4",
+    "type": "Geometry",
+    "solution": "Since $\\angle A = 90^\\circ$, we have $\\cos A = \\cos 90^\\circ= \\boxed{0}$.",
+    "prompt": "### Instruction: In right triangle $ABC$ with $\\angle A = 90^\\circ$, we have $AB = 6$ and $BC = 10$.  Find $\\cos A$.\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "### Response:\n1. **Draw a diagram:** Draw a right triangle ABC with right angle at A. Label the sides AB = 6, BC = 10, and AC (the hypotenuse) as unknown for now.\n2. **Use the Pythagorean Theorem:** Since we have a right triangle, we can use the Pythagorean Theorem to find the length of AC:  \n   *  $AB^2 + AC^2 = BC^2$\n   *  $6^2 + AC^2 = 10^2$\n   *  $36 + AC^2 = 100$\n   *  $AC^2 = 64$\n   *  $AC = 8$ \n3. **Recall the definition of cosine:**  In a right triangle, the cosine of an angle is equal to the length of the adjacent side divided by the length of the hypotenuse. \n4. **Apply the definition:**  In our triangle,  \n   *  Adjacent side to angle A = AB = 6\n   *  Hypotenuse = AC = 8\n   *  Therefore, $\\cos A = \\frac{AB}{AC} = \\frac{6}{8} = \\boxed{\\frac{3}{4}}$. \n",
+        "Here's how to solve the problem step-by-step:\n**1. Visualize the Triangle**\nDraw a right triangle ABC with right angle at A. Label the sides:\n* AB = 6 (the shorter leg)\n* BC = 10 (the hypotenuse)\n* AC =  (the longer leg - we'll find this later)\n**2. Understand Cosine**\n* **Cosine** is defined as the adjacent side divided by the hypotenuse. In a right triangle, the \"adjacent side\" is the side next to the angle we're interested in.\n**3. Apply Cosine to Angle A**\n* We want to find  cos A.\n* The adjacent side to angle A is AB = 6.\n* The hypotenuse is BC = 10.\n**4. Calculate cos A**\n* cos A = (adjacent side) / (hypotenuse) \n* cos A = 6 / 10\n* cos A = 3/5\n**Therefore, cos A = 3/5.** \n",
+        "Here's how to solve the problem step-by-step:\n1. **Draw a Diagram:** Draw a right triangle ABC with right angle at A. Label the sides AB = 6 and BC = 10.\n2. **Find AC:** Since we have a right triangle, we can use the Pythagorean theorem to find AC (the hypotenuse): \n   *  $AC^2 = AB^2 + BC^2$\n   *  $AC^2 = 6^2 + 10^2 = 136$\n   *  $AC = \\sqrt{136} = 2\\sqrt{34}$\n3. **Recall Cosine Definition:**  The cosine of an angle in a right triangle is defined as the ratio of the adjacent side to the hypotenuse: \n   *  $\\cos A = \\frac{\\text{adjacent}}{\\text{hypotenuse}}$\n4. **Apply to our Triangle:**\n   *  Adjacent side to angle A is AB = 6\n   *  Hypotenuse is AC =  $2\\sqrt{34}$\n5. **Calculate Cosine:**\n   *  $\\cos A = \\frac{6}{2\\sqrt{34}} = \\frac{3}{\\sqrt{34}}$\n**Therefore,  cos A = 3/\u221a34** \n",
+        "Here's how to solve the problem step-by-step:\n**1. Understand the problem:**\n* We have a right triangle ABC with the right angle at A.\n* We know the lengths of two sides:  AB = 6 and BC = 10.\n* We need to find the cosine of angle A.\n**2.  Recall the definition of cosine:**\n* In a right triangle, the cosine of an angle is the ratio of the length of the adjacent side to the length of the hypotenuse. \n**3. Identify the sides:**\n* **Hypotenuse:** The longest side of the right triangle, which is BC = 10.\n* **Adjacent side to angle A:** The side that's next to angle A, which is AB = 6.\n**4. Calculate the cosine:**\n* cos(A) = (Adjacent side) / (Hypotenuse) = AB / BC = 6 / 10 = 3/5\n**Answer:**  cos(A) = 3/5 \n",
+        "Here's how to solve the problem step-by-step:\n**1. Understand the Problem**\n* We have a right triangle with the right angle at A.\n* We know the lengths of the two sides adjacent to the right angle:  AB = 6 (adjacent to angle A) and BC = 10 (hypotenuse).\n* We need to find cos A.\n**2. Recall the Definition of Cosine**\n* In a right triangle, the cosine of an angle is the ratio of the length of the adjacent side to the length of the hypotenuse.\n**3. Apply the Definition**\n* In our triangle, the adjacent side to angle A is AB, and the hypotenuse is BC. \n* Therefore,  cos A = (AB) / (BC) = 6 / 10 = 3/5\n**Answer**\ncos A = **3/5** \n"
+    ],
+    "pred_answers": "5",
+    "final_pred_answer": [
+        "4",
+        "5",
+        "34",
+        "3",
+        "5"
+    ],
+    "ground_truth": "0"
+}

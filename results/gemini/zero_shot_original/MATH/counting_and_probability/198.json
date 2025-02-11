@@ -1,0 +1,23 @@
+{
+    "problem": "Determine the number of ways to arrange the letters of the word PARABOLA.",
+    "level": "Level 2",
+    "type": "Counting & Probability",
+    "solution": "There are three A's and eight total letters, so the answer is $\\dfrac{8!}{3!} = \\boxed{6720}$.",
+    "prompt": "### Instruction: Determine the number of ways to arrange the letters of the word PARABOLA.\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "Here's how to determine the number of ways to arrange the letters of the word \"PARABOLA\":\n**1. Count the letters:**\n* There are 8 letters in the word \"PARABOLA\".\n**2. Account for repetitions:**\n* The letter 'A' appears twice.\n**3. Calculate the arrangements:**\n* If all the letters were unique, there would be 8! (8 factorial) ways to arrange them: 8 * 7 * 6 * 5 * 4 * 3 * 2 * 1 = 40,320.\n* However, since 'A' appears twice, we need to divide by 2! (2 factorial) to avoid overcounting: 40,320 / (2 * 1) = 20,160.\n**Therefore, there are 20,160 ways to arrange the letters of the word \"PARABOLA\".** \n",
+        "Here's how to determine the number of ways to arrange the letters of the word PARABOLA:\n**1. Count the letters:**\n* There are 8 letters in the word PARABOLA.\n**2. Account for repetitions:**\n* The letter 'A' appears twice.\n**3. Calculate the arrangements:**\n* If all the letters were unique, there would be 8! (8 factorial) ways to arrange them. This is 8 * 7 * 6 * 5 * 4 * 3 * 2 * 1 = 40,320.\n* However, since 'A' repeats, we need to divide by 2! (2 factorial) to avoid counting arrangements as distinct when they only differ by the position of the 'A's. This is 2 * 1 = 2.\n**4. The final calculation:**\n* The total number of unique arrangements is 8! / 2! = 40,320 / 2 = 20,160.\n**Therefore, there are 20,160 ways to arrange the letters of the word PARABOLA.** \n",
+        "Here's how to determine the number of ways to arrange the letters of the word PARABOLA:\n**1. Count the letters:**\n* There are 8 letters in the word PARABOLA.\n**2. Consider repetitions:**\n* The letter 'A' appears twice.\n**3. Apply the formula:**\nThe number of ways to arrange *n* objects, where some are identical, is given by:\nn! / (n1! * n2! * ... * nk!)\nwhere:\n* n is the total number of objects\n* n1, n2, ... nk are the numbers of repetitions for each type of object.\n**4. Calculate:**\n* n = 8 (total letters)\n* n1 = 2 (number of 'A's)\nTherefore, the number of arrangements is:\n8! / (2!) = 40,320 / 2 = **20,160**\n**There are 20,160 ways to arrange the letters of the word PARABOLA.** \n",
+        "Here's how to determine the number of ways to arrange the letters of the word \"PARABOLA\":\n**1. Count the letters:**\n* There are 8 letters in the word \"PARABOLA\".\n**2. Account for repetitions:**\n* The letter 'A' appears twice.\n**3. The formula:**\n* The number of ways to arrange *n* distinct objects is *n*! (n factorial).\n* If we have *r* identical objects, we divide by *r*! to account for the repetitions.\n**4. Calculation:**\n* We have 8 letters, so initially, there are 8! ways to arrange them.\n* However, the letter 'A' appears twice, so we need to divide by 2!.\n**5. Solution:**\nThe total number of arrangements is:\n8! / 2! = (8 * 7 * 6 * 5 * 4 * 3 * 2 * 1) / (2 * 1) = **20,160**\n**Therefore, there are 20,160 ways to arrange the letters of the word \"PARABOLA\".** \n",
+        "Here's how to determine the number of ways to arrange the letters of the word PARABOLA:\n**1. Count the letters:**\n* The word PARABOLA has 8 letters.\n**2. Identify repeated letters:**\n* The letter 'A' appears twice.\n**3. Apply the formula:**\nThe number of ways to arrange *n* objects, where some are identical, is:\nn! / (n1! * n2! * ... * nk!)\nWhere:\n* n is the total number of objects\n* n1, n2, ... nk are the number of times each type of identical object appears.\n**4. Calculate:**\nIn our case:\n* n = 8 (total letters)\n* n1 = 2 (number of 'A's)\nSo, the number of arrangements is:\n8! / (2!) = 40,320 / 2 = 20,160\n**Therefore, there are 20,160 ways to arrange the letters of the word PARABOLA.** \n"
+    ],
+    "pred_answers": "20160",
+    "final_pred_answer": [
+        "20160",
+        "20160",
+        "20160",
+        "20160",
+        "20160"
+    ],
+    "ground_truth": "6720"
+}

@@ -1,0 +1,23 @@
+{
+    "problem": "Monica, who is 5 feet tall, is standing next to a pine tree that casts a shadow 34 feet long. If Monica's shadow is 2 feet long, how tall is the pine tree, in feet?",
+    "level": "Level 2",
+    "type": "Algebra",
+    "solution": "Monica's shadow is $\\dfrac{2}{5}$ times as long as she is tall, so the pine tree's shadow is also $\\dfrac{2}{5}$ times as long as the tree is tall. Since the pine tree's shadow is 34 feet long, the pine tree itself is $34\\div \\dfrac{2}{5}=(34)\\left(\\dfrac{5}{2}\\right)=\\boxed{85\\text{ feet}}$ tall.",
+    "prompt": "### Instruction: Monica, who is 5 feet tall, is standing next to a pine tree that casts a shadow 34 feet long. If Monica's shadow is 2 feet long, how tall is the pine tree, in feet?\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "Here's how to solve the problem step-by-step:\n* **Understanding Proportions:** The ratio of an object's height to its shadow length is the same for all objects in the same location at the same time. \n* **Setting up a Proportion:**  Let 'x' represent the height of the pine tree. We can set up a proportion:\n   (Monica's height) / (Monica's shadow length) = (Pine tree's height) / (Pine tree's shadow length)\n   5 feet / 2 feet = x / 34 feet\n* **Solving for x:** To solve for 'x', we can cross-multiply:\n   5 feet * 34 feet = 2 feet * x\n   170 feet\u00b2 = 2 feet * x\n* **Isolating x:** Divide both sides by 2 feet:\n   170 feet\u00b2 / 2 feet = x\n   85 feet = x\n**Answer:** The pine tree is 85 feet tall. \n",
+        "Here's how to solve this problem:\n**1. Set up a proportion:**\n* The ratio of Monica's height to her shadow length is equal to the ratio of the tree's height to its shadow length. \n* Let \"x\" represent the height of the tree.  This can be written as: \n   \n   5 feet / 2 feet = x feet / 34 feet\n**2. Solve for x (the tree's height):**\n* Cross-multiply: 5 feet * 34 feet = 2 feet * x feet\n* Simplify: 170 = 2x\n* Divide both sides by 2: x = 85 feet\n**Answer:** The pine tree is 85 feet tall. \n",
+        "Here's how to solve this problem:\n**1. Understand the Concept:**\n* This is a proportion problem. The ratio of the height of an object to the length of its shadow is the same for all objects at the same time.\n**2. Set up a Proportion:**\n* Let 'x' represent the height of the pine tree. \n* We can set up a proportion: \n   * (Monica's height) / (Monica's shadow) = (Pine tree's height) / (Pine tree's shadow)\n   * 5 feet / 2 feet = x / 34 feet\n**3. Solve for x:**\n* Cross-multiply: 5 feet * 34 feet = 2 feet * x\n* Simplify: 170 feet\u00b2 = 2 feet * x\n* Divide both sides by 2 feet: 170 feet\u00b2 / 2 feet = x\n* Calculate: 85 feet = x\n**Answer:** The pine tree is 85 feet tall. \n",
+        "Here's how to solve this problem:\n**1. Understand the Concept:**\nThis problem involves similar triangles. The sun's rays create similar triangles with Monica and the pine tree as their heights and their shadows as their bases.  Similar triangles have proportional sides.\n**2. Set up a Proportion:**\nLet 'x' represent the height of the pine tree.  We can set up a proportion:\n* (height of pine tree) / (shadow of pine tree) = (Monica's height) / (Monica's shadow)\n* x / 34 = 5 / 2\n**3. Solve for 'x':**\nTo solve for 'x', cross-multiply:\n* 2x = 34 * 5\n* 2x = 170\nNow, divide both sides by 2:\n* x = 85\n**Answer:** The pine tree is 85 feet tall. \n",
+        "Here's how to solve the problem:\n**1. Understand the Relationship:**\n* The height of an object and the length of its shadow are proportional. This means the ratio of height to shadow length is the same for Monica and the tree.\n**2. Set up a Proportion:**\n* Let 'x' represent the height of the pine tree. \n* We can set up the following proportion: \n   *  Monica's height / Monica's shadow length = Tree's height / Tree's shadow length\n   *  5 feet / 2 feet = x feet / 34 feet\n**3. Solve for 'x':**\n* Cross-multiply: 5 feet * 34 feet = 2 feet * x feet\n* Simplify: 170 = 2x\n* Divide both sides by 2: x = 85 feet\n**Answer:** The pine tree is 85 feet tall. \n"
+    ],
+    "pred_answers": "85",
+    "final_pred_answer": [
+        "85",
+        "85",
+        "85",
+        "85",
+        "85"
+    ],
+    "ground_truth": "85"
+}

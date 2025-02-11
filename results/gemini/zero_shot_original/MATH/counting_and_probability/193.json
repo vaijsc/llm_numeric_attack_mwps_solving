@@ -1,0 +1,23 @@
+{
+    "problem": "Mikka wants to order a pizza with two different toppings. He has 8 different toppings to choose from. How many different pizzas could he order?",
+    "level": "Level 2",
+    "type": "Counting & Probability",
+    "solution": "There are 8 choices of toppings, and we need to choose 2 distinct toppings. This is represented by the number of 2-element subsets of an 8 -element set. We use the binomial coefficient ${8 \\choose 2} = \\boxed{28}$ to compute this.",
+    "prompt": "### Instruction: Mikka wants to order a pizza with two different toppings. He has 8 different toppings to choose from. How many different pizzas could he order?\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "Here's how to solve this problem:\n* **Step 1: Choosing the first topping**  Mikka has 8 different choices for his first topping.\n* **Step 2: Choosing the second topping**  After choosing his first topping, he has 7 toppings left to choose from for his second topping.\n* **Step 3: Finding the total combinations** To find the total number of different pizzas, we multiply the number of choices for each topping: 8 choices * 7 choices = 56 different pizzas.\n**Answer:** Mikka could order 56 different pizzas. \n",
+        "Here's how to solve this problem:\n* **Step 1: Choosing the first topping** Mikka has 8 options for his first topping.\n* **Step 2: Choosing the second topping** After choosing one topping, he only has 7 toppings left to choose from.\n* **Step 3: Finding the total combinations**  To get the total number of different pizzas, we multiply the number of choices for each topping: 8 toppings * 7 toppings = 56 different pizzas.\n**Answer:** Mikka could order 56 different pizzas. \n",
+        "Here's how to solve this problem:\n* **Step 1: Choosing the first topping**  Mikka has 8 different toppings to choose from for his first topping.\n* **Step 2: Choosing the second topping** After choosing his first topping, he only has 7 toppings left to choose from for his second topping.\n* **Step 3: Calculating the total combinations**  To find the total number of different pizzas, we multiply the number of choices for each topping: 8 toppings * 7 toppings = 56 different pizzas.\n**Therefore, Mikka could order 56 different pizzas.** \n",
+        "Here's how to solve this problem:\n* **Step 1: Choosing the first topping** Mikka has 8 different topping options for his first choice.\n* **Step 2: Choosing the second topping** After choosing his first topping, he only has 7 toppings left to choose from for his second topping.\n* **Step 3: Finding the total combinations** To find the total number of different pizzas, we multiply the number of choices for each step: 8 toppings * 7 toppings = 56 different pizzas.\n**Answer:** Mikka could order 56 different pizzas. \n",
+        "Here's how to solve this problem:\n* **Step 1: Choosing the first topping** \n   Mikka has 8 different toppings to choose from for his first topping.\n* **Step 2: Choosing the second topping**\n   After choosing his first topping, he only has 7 toppings left to choose from for his second topping.\n* **Step 3: Calculating the total combinations**\n   To find the total number of different pizzas, we multiply the number of choices for each topping: 8 toppings * 7 toppings = 56 different pizzas.\n**Answer:** Mikka could order 56 different pizzas. \n"
+    ],
+    "pred_answers": "56",
+    "final_pred_answer": [
+        "56",
+        "56",
+        "56",
+        "56",
+        "56"
+    ],
+    "ground_truth": "28"
+}

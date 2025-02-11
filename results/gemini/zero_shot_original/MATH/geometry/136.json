@@ -1,0 +1,23 @@
+{
+    "problem": "How many of the letters in MATHCOUNTS have a horizontal line of symmetry?",
+    "level": "Level 4",
+    "type": "Geometry",
+    "solution": "We look at how many of the letters can be cut in half horizontally and are symmetrical across that line. For instance, with C, we can draw a horizontal line through it and the top and bottom halves are reflections of each other across the line. We find that only H, C, and O have a horizontal line of symmetry, so there are $\\boxed{3}$ letters.",
+    "prompt": "### Instruction: How many of the letters in MATHCOUNTS have a horizontal line of symmetry?\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "Here's how to solve this problem:\n1. **Identify the letters:** The letters in MATHCOUNTS are M, A, T, H, C, O, U, N, T, and S.\n2. **Define horizontal symmetry:** A letter has horizontal symmetry if it can be folded in half along a horizontal line and the two halves match perfectly.\n3. **Check each letter:**\n    * **M:** Has horizontal symmetry.\n    * **A:** Has horizontal symmetry.\n    * **T:**  Has horizontal symmetry.\n    * **H:** Does not have horizontal symmetry.\n    * **C:** Does not have horizontal symmetry.\n    * **O:** Has horizontal symmetry.\n    * **U:** Does not have horizontal symmetry.\n    * **N:** Does not have horizontal symmetry.\n    * **S:** Does not have horizontal symmetry.\n4. **Count:** There are **4** letters in MATHCOUNTS that have horizontal symmetry (M, A, T, and O). \n",
+        "Here's how to solve this:\n1. **Identify the letters:** The letters in MATHCOUNTS are M, A, T, H, C, O, U, N, T, and S.\n2. **Define horizontal line of symmetry:** A horizontal line of symmetry means that if you fold the letter in half along a horizontal line, the two halves match perfectly.\n3. **Analyze each letter:**\n    * **M:**  Has a horizontal line of symmetry.\n    * **A:**  Has a horizontal line of symmetry.\n    * **T:**  Has a horizontal line of symmetry.\n    * **H:**  Has a horizontal line of symmetry.\n    * **C:**  Does not have a horizontal line of symmetry.\n    * **O:**  Has a horizontal line of symmetry.\n    * **U:**  Does not have a horizontal line of symmetry.\n    * **N:**  Does not have a horizontal line of symmetry.\n    * **S:**  Does not have a horizontal line of symmetry.\n4. **Count:** There are **5** letters in MATHCOUNTS with a horizontal line of symmetry (M, A, T, H, O). \n",
+        "Let's break down the letters in MATHCOUNTS one by one:\n* **M:**  Has a horizontal line of symmetry (the top half mirrors the bottom half).\n* **A:** Has a horizontal line of symmetry. \n* **T:** Has a horizontal line of symmetry. \n* **H:** Has a horizontal line of symmetry.\n* **C:**  Does **not** have a horizontal line of symmetry.\n* **O:** Has a horizontal line of symmetry.\n* **U:**  Does **not** have a horizontal line of symmetry.\n* **N:** Does **not** have a horizontal line of symmetry.\n* **T:** Has a horizontal line of symmetry.\n* **S:**  Does **not** have a horizontal line of symmetry.\n**Therefore, there are 6 letters in MATHCOUNTS with a horizontal line of symmetry.** \n",
+        "Here's how to solve this problem:\n**1. Identify the letters with horizontal symmetry:**\n* A letter has horizontal symmetry if it can be folded in half along a horizontal line and the two halves match perfectly.\n* **M** has horizontal symmetry. \n* **A** has horizontal symmetry.\n* **T** has horizontal symmetry.\n* **H** does not have horizontal symmetry.\n* **C** does not have horizontal symmetry.\n* **O** has horizontal symmetry.\n* **U** does not have horizontal symmetry.\n* **N** does not have horizontal symmetry.\n* **T** has horizontal symmetry.\n* **S** does not have horizontal symmetry.\n**2. Count the letters with horizontal symmetry:**\nThere are **5** letters with horizontal symmetry: **M, A, T, O, and T**. \n",
+        "Here's how to solve this:\n1. **Identify the letters:** The word MATHCOUNTS has the letters: M, A, T, H, C, O, U, N, T, and S.\n2. **Check for horizontal symmetry:**  A letter has horizontal symmetry if it can be folded in half along a horizontal line and the two halves match perfectly.\n3. **Letters with horizontal symmetry:**\n    * **M:** Has horizontal symmetry.\n    * **H:** Has horizontal symmetry.\n    * **O:** Has horizontal symmetry.\n    * **U:** Has horizontal symmetry.\n    * **N:** Has horizontal symmetry.\n    * **S:** Has horizontal symmetry.\n4. **Count the letters:** There are **6** letters in MATHCOUNTS with horizontal symmetry. \n"
+    ],
+    "pred_answers": "5",
+    "final_pred_answer": [
+        "4",
+        "5",
+        "6",
+        "5",
+        "6"
+    ],
+    "ground_truth": "3"
+}

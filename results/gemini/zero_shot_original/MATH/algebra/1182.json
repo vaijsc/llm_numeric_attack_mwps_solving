@@ -1,0 +1,23 @@
+{
+    "problem": "When Frederick was born, his grandparents gave him a gift of $\\$2000$, which was invested at a simple interest rate of $5\\%$ per year.  How much money will Frederick have when he can collect the money at the age of $18$?  (Assume no money is added to the account besides the interest.)",
+    "level": "Level 4",
+    "type": "Algebra",
+    "solution": "If the interest is simple, then Frederick's money grows by $\\allowbreak .05(2000)=100$ dollars per year.  This means he gained $18\\times100=\\$1800$, so he has a total of $2000+1800=\\boxed{\\$3800}$.",
+    "prompt": "### Instruction: When Frederick was born, his grandparents gave him a gift of $\\$2000$, which was invested at a simple interest rate of $5\\%$ per year.  How much money will Frederick have when he can collect the money at the age of $18$?  (Assume no money is added to the account besides the interest.)\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "Here's how to solve this problem step-by-step:\n**1. Calculate the annual interest:**\n* Interest rate = 5% = 0.05 (as a decimal)\n* Annual interest = Principal amount * Interest rate \n* Annual interest = $2000 * 0.05 = $100\n**2. Calculate the total interest earned:**\n* Number of years = 18 years\n* Total interest = Annual interest * Number of years\n* Total interest = $100 * 18 = $1800\n**3. Calculate the total amount Frederick will have:**\n* Total amount = Principal amount + Total interest\n* Total amount = $2000 + $1800 = $3800\n**Answer:** Frederick will have $3800 when he turns 18. \n",
+        "Here's how to solve the problem step-by-step:\n**1. Calculate the annual interest:**\n* Interest rate: 5% \n* Principal (initial amount): $2000\n* Annual interest = (Interest rate/100) * Principal = (5/100) * $2000 = $100\n**2. Calculate the total interest earned:**\n* Time period: 18 years\n* Total interest = Annual interest * Time period = $100 * 18 = $1800\n**3. Calculate the total amount Frederick will have:**\n* Total amount = Principal + Total interest = $2000 + $1800 = $3800\n**Therefore, Frederick will have $3800 when he turns 18.** \n",
+        "Here's how to solve the problem step-by-step:\n**1. Calculate the annual interest:**\n* Interest rate = 5% = 0.05 (as a decimal)\n* Principal (initial amount) = $2000\n* Annual interest = Principal * Interest rate = $2000 * 0.05 = $100\n**2. Calculate the total interest earned:**\n* Number of years = 18 years\n* Total interest = Annual interest * Number of years = $100 * 18 = $1800\n**3. Calculate the total amount Frederick will have:**\n* Total amount = Principal + Total interest = $2000 + $1800 = $3800\n**Therefore, Frederick will have $3800 when he turns 18.** \n",
+        "Here's how to solve the problem step-by-step:\n**1. Calculate the annual interest:**\n* Interest rate = 5% \n* Principal amount = $2000\n* Annual interest = (5/100) * $2000 = $100\n**2. Calculate the total interest earned over 18 years:**\n* Annual interest = $100\n* Number of years = 18\n* Total interest = $100 * 18 = $1800\n**3. Calculate the total amount Frederick will have:**\n* Principal amount = $2000\n* Total interest = $1800\n* Total amount = $2000 + $1800 = $3800\n**Answer:** Frederick will have $3800 when he turns 18. \n",
+        "Here's how to solve this problem step-by-step:\n**1. Calculate the annual interest:**\n* Interest rate: 5% \n* Principal (initial investment): $2000\n* Annual interest = (5/100) * $2000 = $100\n**2. Calculate the total interest earned:**\n* Number of years: 18\n* Total interest = Annual interest * Number of years = $100 * 18 = $1800\n**3. Calculate the total amount:**\n* Total amount = Principal + Total interest = $2000 + $1800 = $3800\n**Therefore, Frederick will have $3800 when he turns 18.** \n"
+    ],
+    "pred_answers": "18",
+    "final_pred_answer": [
+        "3800",
+        "18",
+        "18",
+        "3800",
+        "18"
+    ],
+    "ground_truth": "3800"
+}

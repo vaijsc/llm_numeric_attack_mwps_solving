@@ -1,0 +1,23 @@
+{
+    "problem": "Rationalize the denominator: $\\frac{1}{\\sqrt{8}+\\sqrt{50}+\\sqrt{18}}$.",
+    "level": "Level 4",
+    "type": "Algebra",
+    "solution": "Notice that $8 = 2 \\cdot 2^2$, $50 = 2 \\cdot 5^2$, and $18 = 2\\cdot 3^2$. Thus, $\\sqrt{8}+\\sqrt{50}+\\sqrt{18}$ simplifies to $2\\sqrt{2} + 5\\sqrt{2} + 3\\sqrt{2} = 10\\sqrt{2}$. To rationalize the denominator of $\\frac{1}{10\\sqrt{2}}$, simply multiply top and bottom by $\\sqrt{2}$ to get $\\frac{\\sqrt{2}}{10\\cdot2}= \\boxed{\\frac{\\sqrt{2}}{20}}$.",
+    "prompt": "### Instruction: Rationalize the denominator: $\\frac{1}{\\sqrt{8}+\\sqrt{50}+\\sqrt{18}}$.\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "Here's how to rationalize the denominator step-by-step:\n1. **Simplify the radicals:** \n   * $\\sqrt{8} = \\sqrt{4 \\cdot 2} = 2\\sqrt{2}$\n   * $\\sqrt{50} = \\sqrt{25 \\cdot 2} = 5\\sqrt{2}$\n   * $\\sqrt{18} = \\sqrt{9 \\cdot 2} = 3\\sqrt{2}$\n2. **Rewrite the expression:**\n   Our expression now becomes:  \n   $\\frac{1}{2\\sqrt{2} + 5\\sqrt{2} + 3\\sqrt{2}}$\n3. **Combine terms in the denominator:**\n   $\\frac{1}{10\\sqrt{2}}$\n4. **Rationalize the denominator:** \n   To rationalize, we multiply both the numerator and denominator by $\\sqrt{2}$:\n   $\\frac{1}{10\\sqrt{2}} \\cdot \\frac{\\sqrt{2}}{\\sqrt{2}} = \\frac{\\sqrt{2}}{10 \\cdot 2}$\n5. **Simplify:**\n   $\\frac{\\sqrt{2}}{20}$\n**Therefore, the rationalized form of the expression is  $\\frac{\\sqrt{2}}{20}$.** \n",
+        "Here's how to rationalize the denominator step-by-step:\n1. **Simplify the radicals:** \n   * $\\sqrt{8} = \\sqrt{4 \\cdot 2} = 2\\sqrt{2}$\n   * $\\sqrt{50} = \\sqrt{25 \\cdot 2} = 5\\sqrt{2}$\n   * $\\sqrt{18} = \\sqrt{9 \\cdot 2} = 3\\sqrt{2}$\n2. **Substitute the simplified radicals back into the expression:**\n   *  $\\frac{1}{\\sqrt{8}+\\sqrt{50}+\\sqrt{18}} = \\frac{1}{2\\sqrt{2} + 5\\sqrt{2} + 3\\sqrt{2}}$\n3. **Combine the terms in the denominator:**\n   * $\\frac{1}{2\\sqrt{2} + 5\\sqrt{2} + 3\\sqrt{2}} = \\frac{1}{10\\sqrt{2}}$\n4. **Rationalize the denominator by multiplying both the numerator and denominator by $\\sqrt{2}$:**\n   * $\\frac{1}{10\\sqrt{2}} \\cdot \\frac{\\sqrt{2}}{\\sqrt{2}} = \\frac{\\sqrt{2}}{10 \\cdot 2}$\n5. **Simplify the expression:**\n   * $\\frac{\\sqrt{2}}{10 \\cdot 2} = \\boxed{\\frac{\\sqrt{2}}{20}}$ \n",
+        "Here's how to rationalize the denominator:\n**1. Simplify the Radicals**\n*  $\\sqrt{8} = \\sqrt{4 \\cdot 2} = 2\\sqrt{2}$\n*  $\\sqrt{50} = \\sqrt{25 \\cdot 2} = 5\\sqrt{2}$\n*  $\\sqrt{18} = \\sqrt{9 \\cdot 2} = 3\\sqrt{2}$\n**2. Substitute and Combine**\nThe expression becomes: $\\frac{1}{2\\sqrt{2} + 5\\sqrt{2} + 3\\sqrt{2}} = \\frac{1}{10\\sqrt{2}}$\n**3. Rationalize the Denominator**\n* Multiply the numerator and denominator by $\\sqrt{2}$:\n  \n   $\\frac{1}{10\\sqrt{2}} \\cdot \\frac{\\sqrt{2}}{\\sqrt{2}} = \\frac{\\sqrt{2}}{10 \\cdot 2}$\n**4. Simplify**\nThe final answer is: $\\boxed{\\frac{\\sqrt{2}}{20}}$ \n",
+        "Here's how to rationalize the denominator step-by-step:\n1. **Simplify the radicals:**\n   * $\\sqrt{8} = \\sqrt{4 \\cdot 2} = 2\\sqrt{2}$\n   * $\\sqrt{50} = \\sqrt{25 \\cdot 2} = 5\\sqrt{2}$\n   * $\\sqrt{18} = \\sqrt{9 \\cdot 2} = 3\\sqrt{2}$\n2. **Substitute the simplified radicals into the expression:**\n   *  $\\frac{1}{\\sqrt{8}+\\sqrt{50}+\\sqrt{18}} = \\frac{1}{2\\sqrt{2} + 5\\sqrt{2} + 3\\sqrt{2}}$\n3. **Combine like terms in the denominator:**\n   *  $\\frac{1}{2\\sqrt{2} + 5\\sqrt{2} + 3\\sqrt{2}} = \\frac{1}{10\\sqrt{2}}$\n4. **Multiply the numerator and denominator by the radical in the denominator:**\n   *  $\\frac{1}{10\\sqrt{2}} \\cdot \\frac{\\sqrt{2}}{\\sqrt{2}} = \\frac{\\sqrt{2}}{10 \\cdot 2}$\n5. **Simplify:**\n   *  $\\frac{\\sqrt{2}}{10 \\cdot 2} = \\boxed{\\frac{\\sqrt{2}}{20}}$ \n",
+        "Here's how to rationalize the denominator:\n1. **Simplify the radicals:**\n   * $\\sqrt{8} = \\sqrt{4\\cdot2} = 2\\sqrt{2}$\n   * $\\sqrt{50} = \\sqrt{25\\cdot2} = 5\\sqrt{2}$\n   * $\\sqrt{18} = \\sqrt{9\\cdot2} = 3\\sqrt{2}$\n2. **Substitute the simplified radicals:**\n   The expression becomes: $\\frac{1}{2\\sqrt{2} + 5\\sqrt{2} + 3\\sqrt{2}}$\n3. **Combine like terms:**\n   $\\frac{1}{10\\sqrt{2}}$\n4. **Rationalize the denominator:**\n   * Multiply the numerator and denominator by $\\sqrt{2}$: \n      $\\frac{1}{10\\sqrt{2}} \\cdot \\frac{\\sqrt{2}}{\\sqrt{2}}$\n5. **Simplify:**\n   $\\frac{\\sqrt{2}}{10 \\cdot 2}$\n6. **Final answer:**\n   $\\boxed{\\frac{\\sqrt{2}}{20}}$ \n"
+    ],
+    "pred_answers": "20",
+    "final_pred_answer": [
+        "20",
+        "20",
+        "20",
+        "20",
+        "20"
+    ],
+    "ground_truth": "20"
+}

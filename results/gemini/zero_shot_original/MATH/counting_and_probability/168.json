@@ -1,0 +1,23 @@
+{
+    "problem": "Compute $\\dbinom{22}{19}$.",
+    "level": "Level 1",
+    "type": "Counting & Probability",
+    "solution": "\\begin{align*}\n\\dbinom{22}{19} &= \\dbinom{22}{3} \\\\\n&= \\dfrac{22!}{19!3!} \\\\\n&= \\dfrac{22\\times 21\\times 20}{3\\times 2\\times 1} \\\\\n&= 22 \\times \\dfrac{21}{3} \\times \\dfrac{20}{2} \\\\\n&= 22 \\times 7 \\times 10 \\\\\n&= \\boxed{1540}.\n\\end{align*}",
+    "prompt": "### Instruction: Compute $\\dbinom{22}{19}$.\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "**Step 1: Understand the binomial coefficient**\nThe binomial coefficient $\\binom{n}{k}$ represents the number of ways to choose $k$ items from a set of $n$ items, without regard to order. It's calculated as:\n$$\\binom{n}{k} = \\frac{n!}{k!(n-k)!}$$\n**Step 2: Apply the formula**\nIn our case, we want to find $\\binom{22}{19}$.  Let's plug in the values:\n$$\\binom{22}{19} = \\frac{22!}{19!(22-19)!}$$\n**Step 3: Simplify**\n$$\\binom{22}{19} = \\frac{22!}{19!3!}$$\n$$\\binom{22}{19} = \\frac{22 \\times 21 \\times 20 \\times 19!}{19! \\times 3 \\times 2 \\times 1}$$\n**Step 4: Cancel and calculate**\n$$\\binom{22}{19} = \\frac{22 \\times 21 \\times 20}{3 \\times 2 \\times 1}$$\n$$\\binom{22}{19} = 11 \\times 7 \\times 20$$\n$$\\binom{22}{19} = \\boxed{1540}$$ \n",
+        "**Understanding the Binomial Coefficient**\nThe binomial coefficient $\\binom{n}{k}$ represents the number of ways to choose *k* items from a set of *n* distinct items, without regard to order. It's calculated as follows:\n$$\\binom{n}{k} = \\frac{n!}{k!(n-k)!}$$\n**Applying the Formula**\nIn our case, we have:\n*  *n* = 22\n*  *k* = 19\nTherefore:\n$$\\binom{22}{19} = \\frac{22!}{19!(22-19)!} = \\frac{22!}{19!3!}$$\n**Simplifying the Calculation**\nTo simplify, we can expand the factorials:\n$$\\frac{22!}{19!3!} = \\frac{22 \\times 21 \\times 20 \\times 19!}{19! \\times 3 \\times 2 \\times 1}$$\nCanceling out the 19!:\n$$\\frac{22 \\times 21 \\times 20}{3 \\times 2 \\times 1}$$\n**Final Calculation**\nNow we can calculate the result:\n$$\\frac{22 \\times 21 \\times 20}{3 \\times 2 \\times 1} = \\frac{9240}{6} = \\boxed{1540}$$\nTherefore, $\\binom{22}{19} = 1540$. \n",
+        "We can compute $\\binom{22}{19}$ using the following formula:\n$$\\binom{n}{k} = \\frac{n!}{k!(n-k)!}$$\nIn this case, we have $n = 22$ and $k = 19$. Substituting these values into the formula, we get:\n$$\\binom{22}{19} = \\frac{22!}{19!(22-19)!} = \\frac{22!}{19!3!}$$\nLet's simplify this expression:\n$$\\frac{22!}{19!3!} = \\frac{22 \\times 21 \\times 20 \\times 19!}{19! \\times 3 \\times 2 \\times 1}$$\nWe can now cancel out the $19!$ terms:\n$$\\frac{22 \\times 21 \\times 20 \\times 19!}{19! \\times 3 \\times 2 \\times 1} = \\frac{22 \\times 21 \\times 20}{3 \\times 2 \\times 1}$$\nFinally, we can compute the remaining multiplication:\n$$\\frac{22 \\times 21 \\times 20}{3 \\times 2 \\times 1} = \\boxed{1540}$$\nTherefore, $\\binom{22}{19} = 1540$. \n",
+        "We have that \n\\[\\binom{22}{19} = \\frac{22!}{19!3!} = \\frac{22 \\times 21 \\times 20}{3 \\times 2 \\times 1} = \\boxed{1540}.\\]",
+        "We have that\n\\[\\binom{22}{19} = \\frac{22!}{19!3!} = \\frac{22 \\times 21 \\times 20}{3 \\times 2 \\times 1} = \\boxed{1540}.\\]"
+    ],
+    "pred_answers": "1540",
+    "final_pred_answer": [
+        "1540",
+        "1540",
+        "1540",
+        "1540",
+        "1540"
+    ],
+    "ground_truth": "1540"
+}

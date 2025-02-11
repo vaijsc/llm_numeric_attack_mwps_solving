@@ -1,0 +1,23 @@
+{
+    "problem": "One ticket to a show costs $\\$20$ at full price. Susan buys $4$ tickets using a coupon that gives her a $25\\%$ discount. Pam buys $5$ tickets using a coupon that gives her a $30\\%$ discount. How many more dollars does Pam pay than Susan?",
+    "level": "Level 1",
+    "type": "Algebra",
+    "solution": "We need to calculate the total purchase price that Susan paid and that Pam paid.\n\nSusan bought $4$ tickets with $25\\%$ discount: $$4 \\times \\$20 = \\$80.$$With a $25$ percent discount, she paid $\\$80 * .75 = \\$60.$\n\nPam bought $5$ tickets with a $30\\%$ discount: $$5 \\times \\$20 = \\$100$$With a $30$ percent discount, she paid $\\$100 * .70 = \\$70.$\n\nThus Pam paid $\\$70 - \\$60 = \\$\\boxed{10}$ more than Susan.",
+    "prompt": "### Instruction: One ticket to a show costs $\\$20$ at full price. Susan buys $4$ tickets using a coupon that gives her a $25\\%$ discount. Pam buys $5$ tickets using a coupon that gives her a $30\\%$ discount. How many more dollars does Pam pay than Susan?\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "Here's how to solve this problem step-by-step:\n**1. Calculate Susan's discount:**\n* Discount amount: $20 * 0.25 = $5 \n**2. Calculate Susan's ticket price after the discount:**\n* Discounted price per ticket: $20 - $5 = $15\n**3. Calculate Susan's total cost:**\n* Total cost for Susan: $15 * 4 = $60\n**4. Calculate Pam's discount:**\n* Discount amount: $20 * 0.30 = $6\n**5. Calculate Pam's ticket price after the discount:**\n* Discounted price per ticket: $20 - $6 = $14\n**6. Calculate Pam's total cost:**\n* Total cost for Pam: $14 * 5 = $70\n**7. Find the difference in cost:**\n* Pam's cost - Susan's cost: $70 - $60 = $10\n**Answer:** Pam pays $10 more than Susan. \n",
+        "Here's how to solve the problem step-by-step:\n**1. Calculate the discount for Susan's tickets:**\n* Discount per ticket: $20 * 0.25 = $5\n* Total discount: $5 * 4 = $20\n**2. Calculate the price Susan pays:**\n* Total price before discount: $20 * 4 = $80\n* Total price after discount: $80 - $20 = $60\n**3. Calculate the discount for Pam's tickets:**\n* Discount per ticket: $20 * 0.30 = $6\n* Total discount: $6 * 5 = $30\n**4. Calculate the price Pam pays:**\n* Total price before discount: $20 * 5 = $100\n* Total price after discount: $100 - $30 = $70\n**5. Find the difference in price:**\n* Pam's price - Susan's price = $70 - $60 = $10\n**Answer:** Pam pays $10 more than Susan. \n",
+        "Here's how to solve the problem step-by-step:\n**1. Calculate Susan's discount:**\n* Discount amount: $20 * 0.25 = $5 \n* Price per ticket after discount: $20 - $5 = $15\n**2. Calculate Susan's total cost:**\n* Total cost: $15 * 4 = $60\n**3. Calculate Pam's discount:**\n* Discount amount: $20 * 0.30 = $6\n* Price per ticket after discount: $20 - $6 = $14\n**4. Calculate Pam's total cost:**\n* Total cost: $14 * 5 = $70\n**5. Find the difference in cost:**\n* Difference: $70 - $60 = $10\n**Answer:** Pam pays $10 more than Susan. \n",
+        "Here's how to solve the problem step-by-step:\n**1. Calculate Susan's discount:**\n* Discount per ticket: $20 * 0.25 = $5\n* Total discount: $5 * 4 = $20\n**2. Calculate Susan's total cost:**\n* Full price: $20 * 4 = $80\n* Total cost: $80 - $20 = $60\n**3. Calculate Pam's discount:**\n* Discount per ticket: $20 * 0.30 = $6\n* Total discount: $6 * 5 = $30\n**4. Calculate Pam's total cost:**\n* Full price: $20 * 5 = $100\n* Total cost: $100 - $30 = $70\n**5. Find the difference in cost:**\n* Pam's cost - Susan's cost: $70 - $60 = $10\n**Answer:** Pam pays $10 more than Susan. \n",
+        "Here's how to solve the problem step-by-step:\n**1. Calculate Susan's discount:**\n* Susan's discount per ticket: $20 * 0.25 = $5\n**2. Calculate Susan's price per ticket:**\n* Susan's price per ticket: $20 - $5 = $15\n**3. Calculate Susan's total cost:**\n* Susan's total cost: $15 * 4 = $60\n**4. Calculate Pam's discount:**\n* Pam's discount per ticket: $20 * 0.30 = $6\n**5. Calculate Pam's price per ticket:**\n* Pam's price per ticket: $20 - $6 = $14\n**6. Calculate Pam's total cost:**\n* Pam's total cost: $14 * 5 = $70\n**7. Calculate the difference in cost:**\n* Pam's cost - Susan's cost: $70 - $60 = $10\n**Answer:** Pam pays $10 more than Susan. \n"
+    ],
+    "pred_answers": "10",
+    "final_pred_answer": [
+        "10",
+        "10",
+        "10",
+        "10",
+        "10"
+    ],
+    "ground_truth": "10"
+}

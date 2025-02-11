@@ -1,0 +1,41 @@
+{
+    "index_adversarial_question": 8,
+    "problem": "Evaluate $\\left\\lfloor\\left|-\\frac{23}{7}\\right|\\right\\rfloor$.",
+    "pcot_answer": "# Define the numerator of the fraction\nnumerator = -23  ### condition: 'numerator': {'type': 'int', '<=': None, '>=': None, 'science_constant': False, 'direct_from_question': True}\n# Define the denominator of the fraction\ndenominator = 9  ### condition: 'denominator': {'type': 'int', '<=': None, '>=': 0, 'science_constant': False, 'direct_from_question': True}\n# Calculate the absolute value of the fraction\nabsolute_value = abs(numerator / denominator)  ### condition: 'absolute_value': {'type': 'float', '<=': None, '>=': 0, 'science_constant': False, 'direct_from_question': False}\n# Calculate the floor of the absolute value\nfloor_value = int(absolute_value) / 1  ### condition: 'floor_value': {'type': 'int', '<=': None, '>=': 0, 'science_constant': False, 'direct_from_question': False}\n# Print the final calculated floor value\nprint(f\"The evaluated expression is: {floor_value}\")",
+    "answer": "2",
+    "vllm_responses": [
+        "First, we find the absolute value of $-\\frac{23}{7}$, which is $\\frac{23}{7}$.\nThen, we take the floor of $\\frac{23}{7}$.\nSince $\\frac{23}{7}$ is between $3$ and $4$, the floor of $\\frac{23}{7}$ is $\\boxed{3}$.\nThe answer is: 3",
+        "The absolute value of $-\\frac{23}{7}$ is $\\frac{23}{7}$.\nThe greatest integer less than or equal to $\\frac{23}{7}$ is $\\boxed{3}$.The answer is: 3",
+        "First, we evaluate $\\left|-\\frac{23}{7}\\right|=\\frac{23}{7}$.\nThen, we evaluate $\\left\\lfloor\\frac{23}{7}\\right\\rfloor=3$.\nTherefore, $\\left\\lfloor\\left|-\\frac{23}{7}\\right|\\right\\rfloor=\\boxed{3}$.\nThe answer is: 3",
+        "First, we evaluate the absolute value of $-\\frac{23}{7}$.\nSince the numerator is negative, the absolute value is $\\frac{23}{7}$.\nNext, we evaluate the floor value of $\\frac{23}{7}$.\nSince $\\frac{23}{7}$ is approximately $3.2857$, the greatest integer less than or equal to $\\frac{23}{7}$ is $3$.\nTherefore, the value of the expression is $\\boxed{3}$.The answer is: 3",
+        "First, we evaluate $|-\\frac{23}{7}|$, which is equal to $\\frac{23}{7}$.\nThen, we take the floor of $\\frac{23}{7}$, which is equal to $\\boxed{3}$.\nThe answer is: 3",
+        "First, we evaluate $\\left|-\\frac{23}{7}\\right|$.\nSince the absolute value of a negative number is positive, we have $\\left|-\\frac{23}{7}\\right| = \\frac{23}{7}$.\nNext, we take the floor function of $\\frac{23}{7}$.\nThe largest integer less than or equal to $\\frac{23}{7}$ is 3.\nTherefore, the value of the expression is $\\boxed{3}$.\nThe answer is: 3",
+        "First, we evaluate the absolute value of $-\\frac{23}{7}$, which is $\\frac{23}{7}$.\nNext, we take the floor of $\\frac{23}{7}$, which is $\\boxed{3}$.\nThe answer is: 3",
+        "The absolute value of $-\\frac{23}{7}$ is $\\frac{23}{7}$.\nThe greatest integer less than or equal to $\\frac{23}{7}$ is 3.\nTherefore, the value of $\\left\\lfloor\\left|-\\frac{23}{7}\\right|\\right\\rfloor$ is $\\boxed{3}$.The answer is: 3",
+        "First, we evaluate the inner absolute value: $|-\\frac{23}{7}| = \\frac{23}{7}$.\nNext, we evaluate the floor function of $\\frac{23}{7}$, which is $\\left\\lfloor\\frac{23}{7}\\right\\rfloor = 3$.\nTherefore, the final answer is $\\boxed{3}$.The answer is: 3",
+        "1st step: $\\left|-\\frac{23}{7}\\right|=\\frac{23}{7}$.\n2nd step: $\\left\\lfloor\\frac{23}{7}\\right\\rfloor=3$.\nTherefore, the answer is $\\boxed{3}$.The answer is: 3",
+        "\nFirst, we find the absolute value of $-\\frac{23}{7}$.\nSince $-\\frac{23}{7}$ is negative, the absolute value is $\\frac{23}{7}$.\nNext, we find the floor of $\\frac{23}{7}$.\nThe largest integer less than or equal to $\\frac{23}{7}$ is 3.\nTherefore, the value of the given expression is $\\boxed{3}$.The answer is: 3",
+        "We start from the innermost absolute value: $\\left|-\\frac{23}{7}\\right|=\\frac{23}{7}$.\nThen we take the floor of this value, which gives us $\\left\\lfloor\\frac{23}{7}\\right\\rfloor=3$.\nTherefore, the value of the expression is $\\boxed{3}$.The answer is: 3",
+        "First, we take the absolute value of $-\\frac{23}{7}$, which is $\\frac{23}{7}$.\nNext, we find the greatest integer less than or equal to $\\frac{23}{7}$, which is $3$.\nTherefore, the value of the expression is $\\boxed{3}$.\nThe answer is: 3",
+        "First, we evaluate the absolute value of $-\\frac{23}{7}$, which is $\\frac{23}{7}$.\nNext, we evaluate the floor of $\\frac{23}{7}$, which is $\\boxed{3}$.\nThe answer is: 3",
+        "The absolute value of $-\\frac{23}{7}$ is $\\frac{23}{7}$, which is greater than or equal to 3.\nThe greatest integer less than or equal to 3 is 3, so the final answer is $\\boxed{3}$.The answer is: 3"
+    ],
+    "vllm_answers": [
+        "3",
+        "3",
+        "3",
+        "3",
+        "3",
+        "3",
+        "3",
+        "3",
+        "3",
+        "3",
+        "3",
+        "3",
+        "3",
+        "3",
+        "3"
+    ],
+    "vllm_pred_answer": "3"
+}

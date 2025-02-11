@@ -1,0 +1,23 @@
+{
+    "problem": "Factor the following expression: $28z^{97}+7z^{96}$.",
+    "level": "Level 2",
+    "type": "Algebra",
+    "solution": "The greatest common factor of $28z^{97}$ and $7z^{96}$ is $7z^{96}$. We factor $7z^{96}$ out of both terms to get\\begin{align*}\n28z^{97}+7z^{96} &= 7z^{96}\\cdot 4z +7z^{96}\\cdot 1\\\\\n&= \\boxed{7z^{96}(4z+1)}.\n\\end{align*}",
+    "prompt": "### Instruction: Factor the following expression: $28z^{97}+7z^{96}$.\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "**1. Identify the Greatest Common Factor (GCD):**\n* The GCD of 28 and 7 is 7.\n* The GCD of  $z^{97}$ and $z^{96}$ is $z^{96}$. \n**2. Factor out the GCD:**\n*  Therefore, the GCD of the entire expression is $7z^{96}$.\n**3. Rewrite the expression:**\n*  $28z^{97}+7z^{96} = 7z^{96} (4z) + 7z^{96}(1)$\n**4. Final Factorization:**\n*  $7z^{96} (4z) + 7z^{96}(1) = \\boxed{7z^{96}(4z+1)}$ \n",
+        "**1. Identify the Greatest Common Factor (GCF):**\n* The GCF of 28 and 7 is 7.\n* The GCF of  $z^{97}$ and $z^{96}$ is $z^{96}$.\n**2. Factor out the GCF:**\n*  $28z^{97} + 7z^{96} = 7z^{96} (4z) + 7z^{96} (1)$\n**3. Simplify:**\n*  $7z^{96} (4z) + 7z^{96} (1) = \\boxed{7z^{96}(4z + 1)}$ \n",
+        "1. **Find the greatest common factor (GCD):** The GCD of 28 and 7 is 7, and the GCD of  $z^{97}$ and $z^{96}$ is $z^{96}$. Therefore, the GCD of the entire expression is $7z^{96}$.\n2. **Factor out the GCD:**  \n   * Divide each term in the expression by the GCD:\n     *  $28z^{97} / 7z^{96} = 4z$\n     *  $7z^{96} / 7z^{96} = 1$\n3. **Write the factored expression:**  \n   *  $(7z^{96})(4z + 1)$\n**Therefore, the factored expression is  $7z^{96}(4z + 1)$.** \n",
+        "1. **Identify the greatest common factor (GCF):** The GCF of 28 and 7 is 7, and the GCF of  $z^{97}$ and $z^{96}$ is $z^{96}$. \n2. **Factor out the GCF:**  \n    *  $28z^{97} = 7z^{96} \\cdot 4z$\n    *  $7z^{96} = 7z^{96} \\cdot 1$\n3. **Combine the factored terms:**\n    *  $28z^{97} + 7z^{96} = 7z^{96} \\cdot 4z + 7z^{96} \\cdot 1$\n    *  $= 7z^{96}(4z + 1)$\nTherefore, the factored expression is $\\boxed{7z^{96}(4z + 1)}$. \n",
+        "**1. Identify the Greatest Common Factor (GCF):**\n* The largest number that divides both 28 and 7 is 7.\n* The smallest power of *z* that appears in both terms is *z*<sup>96</sup>.\nTherefore, the GCF is **7z<sup>96</sup>**.\n**2. Factor out the GCF:**\n* Divide each term in the original expression by the GCF:\n    * (28z<sup>97</sup>) / (7z<sup>96</sup>) = 4z\n    * (7z<sup>96</sup>) / (7z<sup>96</sup>) = 1\n**3. Write the factored expression:**\n*  The factored expression is the GCF multiplied by the result of the divisions:\n    * **7z<sup>96</sup> (4z + 1)** \n**Therefore, the factored expression is 7z<sup>96</sup>(4z + 1).** \n"
+    ],
+    "pred_answers": "1",
+    "final_pred_answer": [
+        "1",
+        "1",
+        "1",
+        "1",
+        "1"
+    ],
+    "ground_truth": "1"
+}

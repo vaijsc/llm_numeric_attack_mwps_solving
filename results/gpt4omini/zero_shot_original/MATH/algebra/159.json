@@ -1,0 +1,23 @@
+{
+    "problem": "The function $f (n) = n^2 + n + 17$ for $0 \\leq n \\leq 15$ generates prime numbers. What is the value of $f (10)-f (9)$?",
+    "level": "Level 2",
+    "type": "Algebra",
+    "solution": "We have $f(10)-f(9) = (10^2+10+17)-(9^2+9+17) = 10^2-9^2+10-9 = 100-81+1 = \\boxed{20}$.",
+    "prompt": "### Instruction: The function $f (n) = n^2 + n + 17$ for $0 \\leq n \\leq 15$ generates prime numbers. What is the value of $f (10)-f (9)$?\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "To solve for \\( f(10) - f(9) \\), we first need to calculate the values of \\( f(10) \\) and \\( f(9) \\) using the given function \\( f(n) = n^2 + n + 17 \\).\n1. **Calculate \\( f(10) \\)**:\n   \\[\n   f(10) = 10^2 + 10 + 17\n   \\]\n   \\[\n   = 100 + 10 + 17\n   \\]\n   \\[\n   = 127\n   \\]\n2. **Calculate \\( f(9) \\)**:\n   \\[\n   f(9) = 9^2 + 9 + 17\n   \\]\n   \\[\n   = 81 + 9 + 17\n   \\]\n   \\[\n   = 107\n   \\]\n3. **Calculate \\( f(10) - f(9) \\)**:\n   \\[\n   f(10) - f(9) = 127 - 107\n   \\]\n   \\[\n   = 20\n   \\]\nThus, the value of \\( f(10) - f(9) \\) is \\( \\boxed{20} \\).",
+        "To find the value of \\( f(10) - f(9) \\), we first need to evaluate \\( f(10) \\) and \\( f(9) \\) using the function \\( f(n) = n^2 + n + 17 \\).\nLet's start with calculating \\( f(10) \\):\n\\[\nf(10) = 10^2 + 10 + 17\n\\]\n\\[\n= 100 + 10 + 17\n\\]\n\\[\n= 127\n\\]\nNow, we calculate \\( f(9) \\):\n\\[\nf(9) = 9^2 + 9 + 17\n\\]\n\\[\n= 81 + 9 + 17\n\\]\n\\[\n= 107\n\\]\nNow that we have both \\( f(10) \\) and \\( f(9) \\), we can find the difference:\n\\[\nf(10) - f(9) = 127 - 107\n\\]\n\\[\n= 20\n\\]\nThus, the value of \\( f(10) - f(9) \\) is \n\\[\n\\boxed{20}\n\\]",
+        "To find the value of \\( f(10) - f(9) \\) for the function \\( f(n) = n^2 + n + 17 \\), we need to first compute \\( f(10) \\) and \\( f(9) \\).\n1. **Calculate \\( f(10) \\)**:\n   \\[\n   f(10) = 10^2 + 10 + 17\n   \\]\n   Calculating \\( 10^2 \\):\n   \\[\n   10^2 = 100\n   \\]\n   Now adding the other terms:\n   \\[\n   f(10) = 100 + 10 + 17 = 127\n   \\]\n2. **Calculate \\( f(9) \\)**:\n   \\[\n   f(9) = 9^2 + 9 + 17\n   \\]\n   Calculating \\( 9^2 \\):\n   \\[\n   9^2 = 81\n   \\]\n   Now adding the other terms:\n   \\[\n   f(9) = 81 + 9 + 17 = 107\n   \\]\n3. **Calculate \\( f(10) - f(9) \\)**:\n   \\[\n   f(10) - f(9) = 127 - 107\n   \\]\n   Performing the subtraction:\n   \\[\n   f(10) - f(9) = 20\n   \\]\nThus, the value of \\( f(10) - f(9) \\) is \\(\\boxed{20}\\).",
+        "To find the value of \\( f(10) - f(9) \\) where \\( f(n) = n^2 + n + 17 \\), we will first compute \\( f(10) \\) and \\( f(9) \\) separately.\n1. Calculate \\( f(10) \\):\n   \\[\n   f(10) = 10^2 + 10 + 17\n   \\]\n   \\[\n   = 100 + 10 + 17\n   \\]\n   \\[\n   = 127\n   \\]\n2. Calculate \\( f(9) \\):\n   \\[\n   f(9) = 9^2 + 9 + 17\n   \\]\n   \\[\n   = 81 + 9 + 17\n   \\]\n   \\[\n   = 107\n   \\]\n3. Now, we compute the difference \\( f(10) - f(9) \\):\n   \\[\n   f(10) - f(9) = 127 - 107\n   \\]\n   \\[\n   = 20\n   \\]\nThus, the value of \\( f(10) - f(9) \\) is \\(\\boxed{20}\\).",
+        "To find the value of \\( f(10) - f(9) \\) for the given function \\( f(n) = n^2 + n + 17 \\), we first need to calculate \\( f(10) \\) and \\( f(9) \\).\n1. **Calculate \\( f(10) \\)**:\n   \\[\n   f(10) = 10^2 + 10 + 17\n   \\]\n   \\[\n   = 100 + 10 + 17\n   \\]\n   \\[\n   = 127\n   \\]\n2. **Calculate \\( f(9) \\)**:\n   \\[\n   f(9) = 9^2 + 9 + 17\n   \\]\n   \\[\n   = 81 + 9 + 17\n   \\]\n   \\[\n   = 107\n   \\]\n3. **Now calculate \\( f(10) - f(9) \\)**:\n   \\[\n   f(10) - f(9) = 127 - 107\n   \\]\n   \\[\n   = 20\n   \\]\nThus, the value of \\( f(10) - f(9) \\) is \\(\\boxed{20}\\)."
+    ],
+    "pred_answers": "20",
+    "final_pred_answer": [
+        "20",
+        "20",
+        "20",
+        "20",
+        "20"
+    ],
+    "ground_truth": "20"
+}

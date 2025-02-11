@@ -1,0 +1,23 @@
+{
+    "problem": "Factor $9z^3 - 27z^2 + 27z$.",
+    "level": "Level 2",
+    "type": "Algebra",
+    "solution": "Both 9 and $z$ are factors of each term, so we can factor out $9z$: \\[9z^3 -27z^2 + 27z = (9z)\\cdot(z^2) - (9z)\\cdot (3z) + (9z)\\cdot 3 = \\boxed{9z(z^2 - 3z + 3)}.\\]",
+    "prompt": "### Instruction: Factor $9z^3 - 27z^2 + 27z$.\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "Here's how to factor the expression step-by-step:\n**1. Find the Greatest Common Factor (GCF):**\n* The GCF of 9, 27, and 27 is 9.\n* The GCF of  z\u00b3, z\u00b2, and z is z.\n* Therefore, the GCF of the entire expression is 9z.\n**2. Factor out the GCF:**\n*  Divide each term in the expression by 9z:\n    * (9z\u00b3 / 9z) = z\u00b2\n    * (27z\u00b2 / 9z) = 3z\n    * (27z / 9z) = 3\n**3. Write the factored expression:**\n*  The factored expression is: **9z(z\u00b2 - 3z + 3)** \n",
+        "**1. Find the Greatest Common Factor (GCF):**\n* The GCF of 9, 27, and 27 is 9.\n* The GCF of  $z^3$, $z^2$, and $z$ is $z$. \n* Therefore, the GCF of the entire expression is $9z$.\n**2. Factor out the GCF:**\n* Divide each term in the expression by $9z$:\n   *  $9z^3 / 9z = z^2$\n   *  $27z^2 / 9z = 3z$\n   *  $27z / 9z = 3$\n**3. Write the factored expression:**\n* The factored expression is the GCF multiplied by the result of the division:\n   *  $9z(z^2 - 3z + 3)$\n**Therefore, the factored form of the expression $9z^3 - 27z^2 + 27z$ is  $9z(z^2 - 3z + 3)$.** \n",
+        "1. **Find the Greatest Common Factor (GCF):**  The GCF of 9, 27, and 27 is 9.  The GCF of  $z^3$, $z^2$, and $z$ is $z$.  Therefore, the GCF of the entire expression is $9z$.\n2. **Factor out the GCF:**\n   \n   ```\n   9z^3 - 27z^2 + 27z  = 9z(z^2 - 3z + 3) \n   ```\n3. **Check if the trinomial inside the parentheses can be factored further:** The trinomial $z^2 - 3z + 3$ does not factor into two binomials with integer coefficients.\n**Therefore, the factored form of the expression is  9z(z^2 - 3z + 3).** \n",
+        "**1. Find the Greatest Common Factor (GCF):**\n* The GCF of 9, 27, and 27 is 9.\n* The GCF of $z^3$, $z^2$, and $z$ is $z$.\n* Therefore, the GCF of the entire expression is $9z$.\n**2. Factor out the GCF:**\n* Divide each term in the expression by $9z$:\n    * $9z^3 / 9z = z^2$\n    * $-27z^2 / 9z = -3z$\n    * $27z / 9z = 3$\n**3. Write the factored expression:**\n* The factored expression is:  **9z(z^2 - 3z + 3)** \n**Therefore, the factored form of 9z\u00b3 - 27z\u00b2 + 27z is 9z(z\u00b2 - 3z + 3).** \n",
+        "1. **Find the Greatest Common Factor (GCF):**  The greatest common factor of 9, 27, and 27 is 9.  The greatest common factor of  $z^3$, $z^2$, and $z$ is $z$.  Therefore, the GCF of the entire expression is $9z$.\n2. **Factor out the GCF:** \n   * Divide each term in the expression by $9z$:\n      *  $9z^3 / 9z = z^2$\n      *  $27z^2 / 9z = 3z$\n      *  $27z / 9z = 3$\n3. **Rewrite the expression:**\n   * The factored expression is: $9z(z^2 - 3z + 3)$\n**Therefore, the factored form of  $9z^3 - 27z^2 + 27z$ is  $9z(z^2 - 3z + 3)$.** \n"
+    ],
+    "pred_answers": "3",
+    "final_pred_answer": [
+        "3",
+        "3",
+        "3",
+        "3",
+        "3"
+    ],
+    "ground_truth": "3"
+}

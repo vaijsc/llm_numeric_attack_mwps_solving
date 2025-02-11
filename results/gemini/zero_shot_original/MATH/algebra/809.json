@@ -1,0 +1,23 @@
+{
+    "problem": "Expand $(x+5)^2$",
+    "level": "Level 2",
+    "type": "Algebra",
+    "solution": "$(x+5)^2 = x^2 + 2(x)(5) + 5^2 = \\boxed{x^2 + 10x + 25}$.",
+    "prompt": "### Instruction: Expand $(x+5)^2$\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "Here's how to expand $(x + 5)^2$ step-by-step:\n**1. Understand the meaning of squaring:**\n   Squaring a term means multiplying it by itself. So, $(x + 5)^2$ is the same as $(x + 5)(x + 5)$.\n**2. Apply the distributive property (FOIL):**\n   * **F**irst:  x * x = x\u00b2\n   * **O**uter: x * 5 = 5x\n   * **I**nner: 5 * x = 5x\n   * **L**ast: 5 * 5 = 25\n**3. Combine like terms:**\n   x\u00b2 + 5x + 5x + 25  =  x\u00b2 + 10x + 25\n**Therefore, the expanded form of (x + 5)\u00b2 is x\u00b2 + 10x + 25.** \n",
+        "**Step 1: Understand the meaning of squaring**\nSquaring a term means multiplying it by itself. So, $(x+5)^2$ is the same as $(x+5)(x+5)$.\n**Step 2: Apply the distributive property (FOIL)**\n* **F**irst:  Multiply the first terms of each binomial: $x \\cdot x = x^2$\n* **O**uter: Multiply the outer terms of the binomials: $x \\cdot 5 = 5x$\n* **I**nner: Multiply the inner terms of the binomials: $5 \\cdot x = 5x$\n* **L**ast: Multiply the last terms of each binomial: $5 \\cdot 5 = 25$\n**Step 3: Combine like terms**\nThe expanded form is: $x^2 + 5x + 5x + 25$\nCombining the middle terms: $x^2 + 10x + 25$\n**Therefore, the expanded form of $(x+5)^2$ is $x^2 + 10x + 25$.** \n",
+        "$(x+5)^2$ means $(x+5)$ multiplied by itself:\n$(x+5)^2 = (x+5)(x+5)$\nNow we use the distributive property (also known as FOIL):\n* **F**irst:  x * x = x\u00b2\n* **O**uter: x * 5 = 5x\n* **I**nner: 5 * x = 5x\n* **L**ast: 5 * 5 = 25\nAdding all the terms together:\nx\u00b2 + 5x + 5x + 25 \nCombining like terms:\n**x\u00b2 + 10x + 25** \n",
+        "Here's how to expand $(x+5)^2$ step-by-step:\n**Understanding the Problem**\n* **Squaring:**  The notation $(x+5)^2$ means we're multiplying the entire expression  (x + 5) by itself.\n**Expansion**\n1. **Write it out:**  (x + 5)(x + 5)\n2. **FOIL:**  We use the FOIL method (First, Outer, Inner, Last) to multiply the terms:\n   * **First:** x * x = x\u00b2\n   * **Outer:** x * 5 = 5x\n   * **Inner:** 5 * x = 5x\n   * **Last:** 5 * 5 = 25\n3. **Combine Like Terms:**  x\u00b2 + 5x + 5x + 25 = x\u00b2 + 10x + 25\n**Therefore, the expanded form of (x + 5)\u00b2 is x\u00b2 + 10x + 25** \n",
+        "Here's how to expand $(x+5)^2$ step-by-step:\n**1. Understand the meaning of the exponent:**\n* $(x+5)^2$ means we're multiplying the entire expression (x + 5) by itself: (x + 5) * (x + 5)\n**2. Apply the distributive property (FOIL):**\n*  **F**irst: x * x = x\u00b2\n*  **O**uter: x * 5 = 5x\n*  **I**nner: 5 * x = 5x\n*  **L**ast: 5 * 5 = 25\n**3. Combine like terms:**\n* x\u00b2 + 5x + 5x + 25 \n* x\u00b2 + 10x + 25\n**Therefore, the expanded form of (x+5)\u00b2 is x\u00b2 + 10x + 25** \n"
+    ],
+    "pred_answers": "25",
+    "final_pred_answer": [
+        "25",
+        "25",
+        "25",
+        "25",
+        "25"
+    ],
+    "ground_truth": "25"
+}

@@ -1,0 +1,23 @@
+{
+    "problem": "If $f(x)=4x^3+1$, find $f^{-1}(33)$.",
+    "level": "Level 3",
+    "type": "Algebra",
+    "solution": "If we substitute $f^{-1}(x)$ into our expression for $f$ we get  \\[f(f^{-1}(x))=4(f^{-1}(x))^3+1.\\]This reduces to  \\[x=4(f^{-1}(x))^3+1.\\]If we solve for $f^{-1}(x)$, we find that $f^{-1}(x)=\\sqrt[3]{\\frac{x-1}{4}}$. Therefore, $f^{-1}(33)=\\sqrt[3]{\\frac{33-1}{4}}=\\sqrt[3]8=\\boxed{2}$.",
+    "prompt": "### Instruction: If $f(x)=4x^3+1$, find $f^{-1}(33)$.\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "Here's how to solve this problem step-by-step:\n**1. Find the inverse function, f\u207b\u00b9(x)**\n* **Replace f(x) with y:**  \n   y = 4x\u00b3 + 1\n* **Swap x and y:** \n   x = 4y\u00b3 + 1\n* **Solve for y:**\n    * x - 1 = 4y\u00b3\n    * (x - 1)/4 = y\u00b3\n    * \u00b3\u221a((x - 1)/4) = y\n* **Replace y with f\u207b\u00b9(x):**\n    f\u207b\u00b9(x) = \u00b3\u221a((x - 1)/4)\n**2. Calculate f\u207b\u00b9(33)**\n* **Substitute x = 33 into the inverse function:**\n    f\u207b\u00b9(33) = \u00b3\u221a((33 - 1)/4) \n* **Simplify:**\n    f\u207b\u00b9(33) = \u00b3\u221a(32/4)\n    f\u207b\u00b9(33) = \u00b3\u221a8\n    f\u207b\u00b9(33) = 2\n**Therefore, f\u207b\u00b9(33) = 2** \n",
+        "Here's how to solve the problem step-by-step:\n**1. Find the inverse function, f\u207b\u00b9(x):**\n* **Replace f(x) with y:**  \n   y = 4x\u00b3 + 1\n* **Swap x and y:**\n   x = 4y\u00b3 + 1\n* **Solve for y:**\n    * x - 1 = 4y\u00b3\n    * (x - 1)/4 = y\u00b3\n    * \u00b3\u221a((x - 1)/4) = y \n* **Replace y with f\u207b\u00b9(x):**\n    f\u207b\u00b9(x) = \u00b3\u221a((x - 1)/4)\n**2. Evaluate f\u207b\u00b9(33):**\n* Substitute x = 33 into the inverse function:\n    f\u207b\u00b9(33) = \u00b3\u221a((33 - 1)/4)\n* Simplify:\n    f\u207b\u00b9(33) = \u00b3\u221a(32/4)\n    f\u207b\u00b9(33) = \u00b3\u221a8\n    f\u207b\u00b9(33) = 2\n**Therefore, f\u207b\u00b9(33) = 2** \n",
+        "Here's how to solve the problem step-by-step:\n**1. Find the inverse function, f\u207b\u00b9(x):**\n* **Replace f(x) with y:**  \n   y = 4x\u00b3 + 1\n* **Swap x and y:**\n   x = 4y\u00b3 + 1\n* **Solve for y:**\n    * x - 1 = 4y\u00b3\n    * (x - 1) / 4 = y\u00b3\n    * \u00b3\u221a((x - 1) / 4) = y\n* **Replace y with f\u207b\u00b9(x):**\n   f\u207b\u00b9(x) = \u00b3\u221a((x - 1) / 4)\n**2. Evaluate f\u207b\u00b9(33):**\n* Substitute x = 33 into the inverse function:\n   f\u207b\u00b9(33) = \u00b3\u221a((33 - 1) / 4) \n* Simplify:\n   f\u207b\u00b9(33) = \u00b3\u221a(32 / 4)\n   f\u207b\u00b9(33) = \u00b3\u221a8\n   f\u207b\u00b9(33) = 2\n**Therefore, f\u207b\u00b9(33) = 2** \n",
+        "Here's how to solve this problem step-by-step:\n**1. Find the inverse function,  f\u207b\u00b9(x):**\n* **Replace f(x) with y:**   y = 4x\u00b3 + 1\n* **Swap x and y:**  x = 4y\u00b3 + 1\n* **Solve for y:**\n    * x - 1 = 4y\u00b3\n    * (x - 1)/4 = y\u00b3\n    * \u00b3\u221a((x - 1)/4) = y\n* **Replace y with f\u207b\u00b9(x):**  f\u207b\u00b9(x) = \u00b3\u221a((x - 1)/4)\n**2. Evaluate f\u207b\u00b9(33):**\n* **Substitute x = 33 into the inverse function:**\n   f\u207b\u00b9(33) = \u00b3\u221a((33 - 1)/4)\n* **Simplify:**\n   f\u207b\u00b9(33) = \u00b3\u221a(32/4) = \u00b3\u221a8 = 2\n**Therefore, f\u207b\u00b9(33) = 2** \n",
+        "Here's how to find  $f^{-1}(33)$ step-by-step:\n1. **Understand the Inverse:** The inverse of a function, denoted by $f^{-1}(x)$, \"undoes\" the original function.  In other words, if  $f(a) = b$, then $f^{-1}(b) = a$.\n2. **Find the Value 'a' that Makes f(a) = 33:** \n   * We need to solve the equation $f(x) = 33$ for *x*.\n   * Substitute the function:  $4x^3 + 1 = 33$\n   * Solve for *x*:\n      * Subtract 1 from both sides:  $4x^3 = 32$\n      * Divide both sides by 4:  $x^3 = 8$\n      * Take the cube root of both sides:  $x = 2$\n3. **Therefore,  f\u207b\u00b9(33) = 2:**  Since we found that  *f*(2) = 33,  the inverse function must return 2 when given the input 33. \n"
+    ],
+    "pred_answers": "2",
+    "final_pred_answer": [
+        "2",
+        "2",
+        "2",
+        "2",
+        "33"
+    ],
+    "ground_truth": "2"
+}

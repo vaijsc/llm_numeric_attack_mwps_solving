@@ -1,0 +1,23 @@
+{
+    "problem": "Let $f(x) = 2x-3$ and $g(x) = x+1$. What is the value of $g(f(5)-1)$?",
+    "level": "Level 2",
+    "type": "Algebra",
+    "solution": "We have $f(5) = 2(5) -3 = 7$, so $g(f(5)-1) = g(7-1) = g(6) = 6+1 = \\boxed{7}$.",
+    "prompt": "### Instruction: Let $f(x) = 2x-3$ and $g(x) = x+1$. What is the value of $g(f(5)-1)$?\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "Here's how to solve the problem step-by-step:\n1. **Find f(5):** \n   * Substitute 5 for *x* in the function *f(x)*:\n     * f(5) = (2 * 5) - 3 = 10 - 3 = 7\n2. **Calculate f(5) - 1:**\n   * Subtract 1 from the result of f(5):\n     * f(5) - 1 = 7 - 1 = 6\n3. **Find g(6):**\n   * Substitute 6 for *x* in the function *g(x)*:\n     * g(6) = 6 + 1 = 7\n**Therefore, the value of g(f(5)-1) is 7.** \n",
+        "Here's how to solve the problem step-by-step:\n1. **Find f(5):** \n   * Substitute 5 for *x* in the function *f(x)*:\n     *  f(5) = (2 * 5) - 3 = 10 - 3 = 7\n2. **Calculate f(5) - 1:**\n   * Subtract 1 from the value of *f(5)*:\n     * f(5) - 1 = 7 - 1 = 6\n3. **Find g(6):**\n   * Substitute 6 for *x* in the function *g(x)*:\n     * g(6) = 6 + 1 = 7\n**Therefore, the value of g(f(5) - 1) is 7.** \n",
+        "Here's how to solve the problem step-by-step:\n1. **Find f(5):** \n   * Substitute  *x = 5* into the function *f(x)*:\n     *  f(5) = (2 * 5) - 3 = 10 - 3 = 7\n2. **Calculate f(5) - 1:**\n   *  f(5) - 1 = 7 - 1 = 6\n3. **Find g(6):**\n   * Substitute *x = 6* into the function *g(x)*:\n     * g(6) = 6 + 1 = 7\n**Therefore, the value of g(f(5) - 1) is 7.** \n",
+        "Here's how to solve the problem step-by-step:\n1. **Find f(5):** \n   Substitute 5 for *x* in the function *f(x)*:\n   *f(5) = (2 * 5) - 3 = 10 - 3 = 7*\n2. **Calculate f(5) - 1:**\n   *f(5) - 1 = 7 - 1 = 6*\n3. **Find g(6):**\n   Substitute 6 for *x* in the function *g(x)*:\n   *g(6) = 6 + 1 = 7*\n**Therefore, g(f(5) - 1) = 7** \n",
+        "Here's how to solve the problem step-by-step:\n1. **Find f(5):** \n   * Substitute  *x = 5* into the function *f(x)*:\n   *  f(5) = (2 * 5) - 3 = 10 - 3 = 7\n2. **Calculate f(5) - 1:**\n   *  f(5) - 1 = 7 - 1 = 6\n3. **Find g(6):**\n   * Substitute *x = 6* into the function *g(x)*:\n   * g(6) = 6 + 1 = 7\n**Therefore, g(f(5) - 1) = 7** \n"
+    ],
+    "pred_answers": "7",
+    "final_pred_answer": [
+        "7",
+        "7",
+        "7",
+        "7",
+        "7"
+    ],
+    "ground_truth": "7"
+}

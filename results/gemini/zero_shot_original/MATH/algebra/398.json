@@ -1,0 +1,23 @@
+{
+    "problem": "The sum of seven consecutive integers is 49. What is the smallest of the seven integers?",
+    "level": "Level 2",
+    "type": "Algebra",
+    "solution": "Let the smallest of these consecutive integers be $a-3$, and thus the largest will be $a+3$. The sum of all seven  integers is equal to the average of the first and last term, multiplied by the number of terms, which is $7a = 49$. Thus, $a=7$. The smallest of the seven integers is $a-3=7-3=\\boxed{4}$.",
+    "prompt": "### Instruction: The sum of seven consecutive integers is 49. What is the smallest of the seven integers?\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "Here's how to solve this problem step-by-step:\n**1. Represent the integers:**\n* Let the smallest integer be represented by the variable \"x\".\n* The next six consecutive integers would be: x + 1, x + 2, x + 3, x + 4, x + 5, and x + 6\n**2. Set up the equation:**\n* The sum of these seven integers is 49, so we can write the equation: \n   x + (x + 1) + (x + 2) + (x + 3) + (x + 4) + (x + 5) + (x + 6) = 49\n**3. Simplify the equation:**\n* Combine like terms: 7x + 21 = 49\n**4. Solve for x:**\n* Subtract 21 from both sides: 7x = 28\n* Divide both sides by 7: x = 4\n**Answer:** The smallest of the seven integers is **4**. \n",
+        "Here's how to solve this problem step-by-step:\n**1. Understand Consecutive Integers**\nConsecutive integers are numbers that follow each other in order.  They differ by 1.  Examples:\n* 2, 3, 4\n* -5, -4, -3\n**2. Set up the Equation**\nLet's represent the smallest integer as \"x\".  The seven consecutive integers can then be written as:\n* x\n* x + 1\n* x + 2\n* x + 3\n* x + 4\n* x + 5\n* x + 6\nThe sum of these integers is 49, so we can write the equation:\nx + (x + 1) + (x + 2) + (x + 3) + (x + 4) + (x + 5) + (x + 6) = 49\n**3. Solve for x**\n* Combine like terms: 7x + 21 = 49\n* Subtract 21 from both sides: 7x = 28\n* Divide both sides by 7: x = 4\n**4. Answer**\nThe smallest of the seven integers is **4**. \n",
+        "Here's how to solve this problem step-by-step:\n**1. Represent the integers:**\n* Let the smallest integer be represented by the variable 'x'.\n* The next six consecutive integers would be: x + 1, x + 2, x + 3, x + 4, x + 5, and x + 6.\n**2. Set up the equation:**\n* The sum of these seven consecutive integers is 49, so we can write the equation:\n   x + (x + 1) + (x + 2) + (x + 3) + (x + 4) + (x + 5) + (x + 6) = 49\n**3. Simplify the equation:**\n* Combine like terms: 7x + 21 = 49\n**4. Solve for x:**\n* Subtract 21 from both sides: 7x = 28\n* Divide both sides by 7: x = 4\n**Answer:** The smallest of the seven integers is **4**. \n",
+        "Here's how to solve this problem step-by-step:\n**1. Understand Consecutive Integers**\nConsecutive integers are numbers that follow each other in order. They differ by 1.  \n**2. Represent the Integers**\nLet's represent the smallest integer as \"x\".  The next six consecutive integers would be:\n* x + 1\n* x + 2\n* x + 3\n* x + 4\n* x + 5\n* x + 6\n**3. Set Up the Equation**\nThe problem states that the sum of these seven integers is 49.  We can write this as an equation:\nx + (x + 1) + (x + 2) + (x + 3) + (x + 4) + (x + 5) + (x + 6) = 49\n**4. Solve for x**\n* Combine like terms: 7x + 21 = 49\n* Subtract 21 from both sides: 7x = 28\n* Divide both sides by 7: x = 4\n**5. Answer**\nThe smallest of the seven integers is **4**. \n",
+        "Here's how to solve this problem step-by-step:\n**1. Understand Consecutive Integers**\nConsecutive integers are numbers that follow each other in order.  They differ by 1.  For example: 5, 6, 7, 8 are consecutive integers.\n**2. Represent the Integers**\nLet's use variables to represent the integers:\n*  Let  'x' be the smallest integer.\n*  The next integer is 'x + 1'.\n*  The next is 'x + 2', and so on.\n**3. Set Up the Equation**\nThe sum of the seven consecutive integers is 49. We can write this as an equation:\nx + (x + 1) + (x + 2) + (x + 3) + (x + 4) + (x + 5) + (x + 6) = 49\n**4. Simplify and Solve**\nCombine the 'x' terms and the constant terms:\n7x + 21 = 49\nSubtract 21 from both sides:\n7x = 28\nDivide both sides by 7:\nx = 4\n**5. Answer**\nThe smallest of the seven integers is **4**. \n"
+    ],
+    "pred_answers": "4",
+    "final_pred_answer": [
+        "4",
+        "4",
+        "4",
+        "4",
+        "4"
+    ],
+    "ground_truth": "4"
+}

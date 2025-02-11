@@ -1,0 +1,23 @@
+{
+    "problem": "Simplify $(3-i)(6+2i)$.",
+    "level": "Level 3",
+    "type": "Algebra",
+    "solution": "$(3-i)(6+2i) = 3(6) + 3(2i) -i(6) -i(2i) = 18+6i-6i +2 = \\boxed{20}$.",
+    "prompt": "### Instruction: Simplify $(3-i)(6+2i)$.\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "**1. Distribute:**\nWe can use the distributive property (or FOIL method) to expand the product:\n \n (3 - i)(6 + 2i) = (3 * 6) + (3 * 2i) + (-i * 6) + (-i * 2i)\n**2. Simplify:**\n* 3 * 6 = 18\n* 3 * 2i = 6i\n* -i * 6 = -6i\n* -i * 2i = -2i\u00b2 \n**3. Remember i\u00b2 = -1:**\nSubstitute -1 for i\u00b2 in the expression:\n18 + 6i - 6i - 2(-1)\n**4. Combine Like Terms:**\n18 + 2 = 20\n**Therefore, (3 - i)(6 + 2i) = 20** \n",
+        "**Step 1: Distribute**\nWe can simplify this expression by using the distributive property (or FOIL method):\n(3 - i)(6 + 2i) = 3(6 + 2i) - i(6 + 2i)\n**Step 2: Expand**\nNow, multiply each term inside the parentheses:\n= 18 + 6i - 6i - 2i\u00b2\n**Step 3: Simplify**\nRemember that  i\u00b2 = -1. Substitute this in:\n= 18 + 6i - 6i + 2\n**Step 4: Combine like terms**\n= (18 + 2) + (6i - 6i)\n**Step 5: Final Answer**\n= 20 \nTherefore, the simplified form of (3 - i)(6 + 2i) is **20**. \n",
+        "We can simplify this expression by using the distributive property (or FOIL method):\n1. **Distribute the first term:**\n   (3 - i)(6 + 2i) = 3(6 + 2i) - i(6 + 2i)\n2. **Distribute further:**\n   = 18 + 6i - 6i - 2i\u00b2\n3. **Simplify by remembering that i\u00b2 = -1:**\n   = 18 + 6i - 6i + 2\n4. **Combine like terms:**\n   = **20** \nTherefore, the simplified form of (3 - i)(6 + 2i) is **20**. \n",
+        "1. **Expand the product:**\n    * $(3 - i)(6 + 2i) = (3 \\cdot 6) + (3 \\cdot 2i) + (-i \\cdot 6) + (-i \\cdot 2i)$\n2. **Simplify:**\n    *  $18 + 6i - 6i - 2i^2$\n3. **Remember that  i\u00b2 = -1:**\n    *  $18 - 2(-1)$\n4. **Calculate:**\n    *  $18 + 2 = 20$\nTherefore, $(3 - i)(6 + 2i) = \\boxed{20}$. \n",
+        "We can simplify this expression by using the distributive property (often called FOIL):\n1. **Expand:**\n   (3 - i)(6 + 2i) = (3 * 6) + (3 * 2i) + (-i * 6) + (-i * 2i)\n2. **Simplify:**\n   = 18 + 6i - 6i - 2i\u00b2\n3. **Remember that i\u00b2 = -1:**\n   = 18 + 6i - 6i - 2(-1)\n4. **Combine like terms:**\n   = 18 + 2 \n5. **Final result:**\n   = **20** \nTherefore, $(3-i)(6+2i) = 20$. \n"
+    ],
+    "pred_answers": "20",
+    "final_pred_answer": [
+        "20",
+        "20",
+        "20",
+        "20",
+        "20"
+    ],
+    "ground_truth": "20"
+}

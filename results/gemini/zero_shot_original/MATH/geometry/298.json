@@ -1,0 +1,23 @@
+{
+    "problem": "Compute $\\cos 330^\\circ$.",
+    "level": "Level 3",
+    "type": "Geometry",
+    "solution": "Let $P$ be the point on the unit circle that is $330^\\circ$ counterclockwise from $(1,0)$, and let $D$ be the foot of the altitude from $P$ to the $x$-axis, as shown below.\n\n[asy]\npair A,C,P,O,D;\ndraw((0,-1.2)--(0,1.2),p=black+1.2bp,Arrows(0.15cm));\ndraw((-1.2,0)--(1.2,0),p=black+1.2bp,Arrows(0.15cm));\nA = (1,0);\nO= (0,0);\nlabel(\"$x$\",(1.2,0),SE);\nlabel(\"$y$\",(0,1.2),NE);\n\nP = rotate(330)*A;\nD = foot(P,A,-A);\ndraw(O--P--D);\ndraw(rightanglemark(O,D,P,2));\ndraw(Circle(O,1));\nlabel(\"$O$\",O,NW);\nlabel(\"$P$\",P,SE);\n//label(\"$A$\",A,SE);\nlabel(\"$D$\",D,N);\n[/asy]\n\nTriangle $POD$ is a 30-60-90 triangle, so $DO = \\frac{\\sqrt{3}}{2}$ and $DP = \\frac{1}{2}$.  Therefore, the coordinates of $P$ are $\\left(\\frac{\\sqrt{3}}{2},-\\frac{1}{2}\\right)$, so $\\cos 330^\\circ = \\boxed{\\frac{\\sqrt{3}}{2}}$.",
+    "prompt": "### Instruction: Compute $\\cos 330^\\circ$.\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "**1. Find the Reference Angle:**\n*  Since 330\u00b0 is in the fourth quadrant, subtract it from 360\u00b0 to find the reference angle: 360\u00b0 - 330\u00b0 = 30\u00b0\n**2. Determine the Quadrant:**\n*  330\u00b0 lies in the fourth quadrant.\n**3. Apply the Quadrant Rule:**\n*  In the fourth quadrant, cosine is positive.\n**4. Evaluate the Cosine of the Reference Angle:**\n*  cos 30\u00b0 = \u221a3/2\n**5. Combine the Quadrant Rule and Reference Angle:**\n*  Since cos 330\u00b0 is positive in the fourth quadrant, cos 330\u00b0 = cos 30\u00b0 = **\u221a3/2** \n",
+        "Here's how to compute $\\cos 330^\\circ$:\n**1. Find the Reference Angle:**\n*  The reference angle is the acute angle formed between the terminal side of the angle and the x-axis.\n* Since 330\u00b0 is in the fourth quadrant, the reference angle is  360\u00b0 - 330\u00b0 = 30\u00b0.\n**2. Determine the Sign of Cosine in the Fourth Quadrant:**\n* Cosine is positive in the fourth quadrant.\n**3. Use the Cosine Value of the Reference Angle:**\n* We know that cos 30\u00b0 = \u221a3/2 \n**4. Combine the Sign and Cosine Value:**\n* Since cosine is positive in the fourth quadrant, cos 330\u00b0 = **\u221a3/2**. \n",
+        "1. **Find the reference angle:** The reference angle is the acute angle formed between the terminal side of the angle and the x-axis.  Since 330\u00b0 is in the fourth quadrant, the reference angle is $360^\\circ - 330^\\circ = 30^\\circ$.\n2. **Determine the sign:** Cosine is positive in the fourth quadrant.\n3. **Find the cosine of the reference angle:**  We know that $\\cos 30^\\circ = \\frac{\\sqrt{3}}{2}$.\n4. **Apply the sign:** Since cosine is positive in the fourth quadrant, $\\cos 330^\\circ = \\cos 30^\\circ = \\boxed{\\frac{\\sqrt{3}}{2}}$. \n",
+        "**1. Find the Reference Angle:**\n*  The reference angle is the acute angle formed between the terminal side of the angle and the x-axis. \n*  Since 330\u00b0 is in the fourth quadrant, we subtract it from 360\u00b0: 360\u00b0 - 330\u00b0 = 30\u00b0\n**2. Determine the Quadrant:**\n* 330\u00b0 lies in the fourth quadrant, where cosine is positive.\n**3. Apply the Cosine Function to the Reference Angle:**\n* cos 30\u00b0 = \u221a3 / 2\n**4.  Consider the Quadrant:**\n* Since cosine is positive in the fourth quadrant, the value remains the same.\n**Therefore, cos 330\u00b0 = \u221a3 / 2** \n",
+        "**1. Find the Reference Angle:**\n*  The reference angle is the acute angle formed between the terminal side of the angle and the x-axis. \n*  Since 330\u00b0 is in the fourth quadrant, the reference angle is 360\u00b0 - 330\u00b0 = 30\u00b0.\n**2. Determine the Cosine of the Reference Angle:**\n*  We know that cos 30\u00b0 = \u221a3/2.\n**3. Apply the Quadrant Rule:**\n* Cosine is positive in the fourth quadrant.\n**4. Final Answer:**\n* Since cos 330\u00b0 is in the fourth quadrant and has a reference angle of 30\u00b0,  \n*  Therefore, cos 330\u00b0 = **\u221a3/2**. \n"
+    ],
+    "pred_answers": "2",
+    "final_pred_answer": [
+        "2",
+        "2",
+        "2",
+        "2",
+        "330"
+    ],
+    "ground_truth": "2"
+}

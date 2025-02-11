@@ -1,0 +1,23 @@
+{
+    "problem": "Eleven pencils cost as much as three pens. If seven pens cost $\\$ 9.24$, what is the cost, in cents, of one pencil?",
+    "level": "Level 2",
+    "type": "Algebra",
+    "solution": "If seven pens costs $\\$9.24$, then each pen costs $\\frac{924}{7}=132$ cents. Now we can multiply ratios to find the cost of one pencil. $$\\frac{11\\text{ pencils}}{3 \\text{ pens}}\\times\\frac{1\\text{ pen}}{132\\text{ cents}}=\\frac{11}{132\\times3}=\\frac{1}{12\\times3}=\\frac{1 \\text{ pencil}}{36 \\text{ cents}}$$ The ratio is $1$ pencil to $36$ cents, so a pencil costs $\\boxed{36}$ cents.",
+    "prompt": "### Instruction: Eleven pencils cost as much as three pens. If seven pens cost $\\$ 9.24$, what is the cost, in cents, of one pencil?\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "Here's how to solve the problem step-by-step:\n**1. Find the cost of one pen:**\n* If 7 pens cost $9.24, then one pen costs $9.24 / 7 = $1.32.\n**2. Find the cost of three pens:**\n* Since one pen costs $1.32, three pens cost $1.32 * 3 = $3.96.\n**3. Find the cost of one pencil:**\n* Eleven pencils cost the same as three pens, which is $3.96.\n* Therefore, one pencil costs $3.96 / 11 = $0.36.\n**4. Convert to cents:**\n* Since $1 is equal to 100 cents, $0.36 is equal to 0.36 * 100 = **36 cents**.\n**Answer:** One pencil costs **36 cents**. \n",
+        "Here's how to solve this problem step-by-step:\n1. **Find the cost of one pen:** Since seven pens cost $9.24, one pen costs $9.24 / 7 = $1.32.\n2. **Find the cost of three pens:** Three pens cost 3 * $1.32 = $3.96.\n3. **Find the cost of eleven pencils:** Since eleven pencils cost the same as three pens, they also cost $3.96.\n4. **Find the cost of one pencil:** One pencil costs $3.96 / 11 = $0.36.\n5. **Convert to cents:**  Since there are 100 cents in a dollar, one pencil costs 0.36 * 100 = **36 cents**. \n",
+        "Here's how to solve the problem step-by-step:\n**1. Find the cost of one pen:**\n* Since seven pens cost $9.24, one pen costs $9.24 / 7 = $1.32.\n**2. Find the cost of three pens:**\n* Three pens cost $1.32 x 3 = $3.96.\n**3. Find the cost of eleven pencils:**\n* We know eleven pencils cost the same as three pens, so eleven pencils cost $3.96.\n**4. Find the cost of one pencil:**\n* One pencil costs $3.96 / 11 = $0.36.\n**5. Convert to cents:**\n* Since there are 100 cents in a dollar, one pencil costs 0.36 x 100 = **36 cents**. \n",
+        "Here's how to solve the problem step-by-step:\n**1. Find the cost of one pen:**\n* If 7 pens cost $9.24, then one pen costs $9.24 / 7 = $1.32.\n**2. Find the cost of three pens:**\n* Since one pen costs $1.32, then three pens cost $1.32 * 3 = $3.96.\n**3. Find the cost of one pencil:**\n* We know that eleven pencils cost the same as three pens, which is $3.96.\n* Therefore, one pencil costs $3.96 / 11 = $0.36.\n**4. Convert the cost to cents:**\n* Since there are 100 cents in a dollar, one pencil costs $0.36 * 100 = **36 cents**. \n",
+        "Here's how to solve the problem step-by-step:\n**1. Find the cost of one pen:**\n* If seven pens cost $9.24, then one pen costs $9.24 / 7 = $1.32.\n**2. Find the cost of three pens:**\n* Since one pen costs $1.32, three pens cost $1.32 * 3 = $3.96.\n**3. Find the cost of eleven pencils:**\n* We know that eleven pencils cost the same as three pens, so eleven pencils cost $3.96.\n**4. Find the cost of one pencil:**\n* The cost of one pencil is $3.96 / 11 = $0.36.\n**5. Convert the cost to cents:**\n* Since there are 100 cents in a dollar, one pencil costs 0.36 * 100 = **36 cents**. \n"
+    ],
+    "pred_answers": "36",
+    "final_pred_answer": [
+        "36",
+        "36",
+        "36",
+        "36",
+        "36"
+    ],
+    "ground_truth": "36"
+}

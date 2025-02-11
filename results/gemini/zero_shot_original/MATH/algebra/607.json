@@ -1,0 +1,23 @@
+{
+    "problem": "If $\\sqrt{3x-5}=2$, find all possible values of $x$.",
+    "level": "Level 2",
+    "type": "Algebra",
+    "solution": "First, we start by squaring both sides of the equation \\begin{align*} (\\sqrt{3x-5})^2& =(2)^2\n\\\\ \\Rightarrow\\qquad 3x-5& =4\n\\\\\\Rightarrow\\qquad 3x& =9\n\\\\\\Rightarrow\\qquad x& =\\boxed{3}.\n\\end{align*}Testing, we find that this value of $x$ does indeed satisfy the equation.",
+    "prompt": "### Instruction: If $\\sqrt{3x-5}=2$, find all possible values of $x$.\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "Here's how to solve the problem step-by-step:\n1. **Square both sides:** To get rid of the square root, square both sides of the equation:\n   \n   ```\n   (\u221a(3x - 5))^2 = 2^2\n   ```\n2. **Simplify:** This simplifies to:\n   ```\n   3x - 5 = 4\n   ```\n3. **Isolate x:** Add 5 to both sides:\n   ```\n   3x = 9\n   ```\n4. **Solve for x:** Divide both sides by 3:\n   ```\n   x = 3 \n   ```\n**Therefore, the only possible value of x is 3.** \n",
+        "Here's how to solve the problem step by step:\n1. **Square both sides:** To get rid of the square root, square both sides of the equation: \n   \n   (\u221a(3x - 5))^2 = 2^2\n2. **Simplify:** This gives us:\n   3x - 5 = 4\n3. **Isolate x:**  Add 5 to both sides:\n   3x = 9\n4. **Solve for x:** Divide both sides by 3:\n   x = 3\n**Therefore, the only possible value of x is 3.** \n",
+        "Here's how to solve for *x*:\n1. **Square both sides:** To get rid of the square root, square both sides of the equation:\n   \n   (\u221a(3x - 5))^2 = 2^2\n2. **Simplify:** This gives us:\n   \n   3x - 5 = 4\n3. **Isolate x:** Add 5 to both sides:\n   \n   3x = 9\n4. **Solve for x:** Divide both sides by 3:\n   \n   x = 3\n**Therefore, the only possible value of x is 3.** \n",
+        "Here's how to solve for the possible values of *x*:\n1. **Square both sides:**  To get rid of the square root, square both sides of the equation:\n   \n   (\u221a(3x - 5))^2 = 2^2\n2. **Simplify:** This gives us:\n   \n   3x - 5 = 4\n3. **Solve for x:**  Add 5 to both sides:\n   \n   3x = 9\n4. **Isolate x:** Divide both sides by 3:\n   \n   x = 3\n**Therefore, the only possible value of x is 3.** \n",
+        "Here's how to solve the problem step-by-step:\n1. **Square both sides:** To get rid of the square root, square both sides of the equation:\n   \n   ```\n   (\\sqrt{3x-5})^2 = 2^2\n   ```\n2. **Simplify:**  This simplifies to:\n   ```\n   3x - 5 = 4\n   ```\n3. **Isolate x:** Add 5 to both sides:\n   ```\n   3x = 9\n   ```\n4. **Solve for x:** Divide both sides by 3:\n   ```\n   x = 3\n   ```\n**Therefore, the only possible value of x is 3.** \n"
+    ],
+    "pred_answers": "3",
+    "final_pred_answer": [
+        "3",
+        "3",
+        "3",
+        "3",
+        "3"
+    ],
+    "ground_truth": "3"
+}

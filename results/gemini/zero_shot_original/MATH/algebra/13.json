@@ -1,0 +1,23 @@
+{
+    "problem": "The two endpoints of a segment are at $(1,4)$ and $(1,10)$. What is the sum of the coordinates of the midpoint of the segment?",
+    "level": "Level 1",
+    "type": "Algebra",
+    "solution": "The midpoint of the segment is at $\\left(\\frac{1+1}{2},\\frac{4+10}{2}\\right)=(1,7)$, so the sum of the coordinates is $1+7=\\boxed{8}$.",
+    "prompt": "### Instruction: The two endpoints of a segment are at $(1,4)$ and $(1,10)$. What is the sum of the coordinates of the midpoint of the segment?\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "Here's how to solve the problem step-by-step:\n1. **Find the midpoint formula:** The midpoint of a segment with endpoints  (x1, y1) and (x2, y2) is:\n   ((x1 + x2)/2, (y1 + y2)/2)\n2. **Apply the formula:**\n   * Our endpoints are (1, 4) and (1, 10).\n   *  Midpoint = ((1 + 1)/2, (4 + 10)/2)\n3. **Simplify:**\n   * Midpoint = (2/2, 14/2) = (1, 7)\n4. **Calculate the sum:**\n   * The sum of the coordinates of the midpoint (1, 7) is 1 + 7 = 8\n**Therefore, the sum of the coordinates of the midpoint of the segment is 8.** \n",
+        "Here's how to solve the problem step-by-step:\n**1. Find the midpoint formula:**\nThe midpoint of a segment with endpoints (x1, y1) and (x2, y2) is:\n[(x1 + x2)/2, (y1 + y2)/2]\n**2. Apply the formula:**\n* Our endpoints are (1, 4) and (1, 10).\n*  Let (1, 4) be (x1, y1) and (1, 10) be (x2, y2)\n* The midpoint is: [(1 + 1)/2, (4 + 10)/2] = (1, 7)\n**3. Calculate the sum of the coordinates:**\nThe sum of the coordinates of the midpoint (1, 7) is 1 + 7 = 8.\n**Therefore, the sum of the coordinates of the midpoint of the segment is 8.** \n",
+        "Here's how to solve the problem step-by-step:\n**1. Find the midpoint's x-coordinate:**\n* Since the x-coordinates of the endpoints are both 1, the midpoint will also have an x-coordinate of 1.\n**2. Find the midpoint's y-coordinate:**\n* The y-coordinate of the midpoint is the average of the y-coordinates of the endpoints: (4 + 10) / 2 = 7\n**3. Calculate the sum of the coordinates:**\n* The midpoint is at (1, 7). \n* The sum of its coordinates is 1 + 7 = 8\n**Therefore, the sum of the coordinates of the midpoint is 8.** \n",
+        "Here's how to solve this problem step-by-step:\n1. **Find the midpoint:** The midpoint of a segment is the average of the x-coordinates and the average of the y-coordinates. \n   * Average of x-coordinates: (1 + 1) / 2 = 1\n   * Average of y-coordinates: (4 + 10) / 2 = 7\n2. **The midpoint is (1, 7).**\n3. **Sum the coordinates:** 1 + 7 = 8\n**Therefore, the sum of the coordinates of the midpoint is 8.** \n",
+        "Here's how to solve the problem step-by-step:\n**1. Find the midpoint's coordinates:**\n* The midpoint of a segment is found by averaging the x-coordinates and averaging the y-coordinates of the endpoints.\n*  x-coordinate of midpoint = (1 + 1)/2 = 1\n*  y-coordinate of midpoint = (4 + 10)/2 = 7\n**2. Find the sum of the midpoint's coordinates:**\n* Sum = x-coordinate + y-coordinate = 1 + 7 = 8\n**Therefore, the sum of the coordinates of the midpoint of the segment is 8.** \n"
+    ],
+    "pred_answers": "8",
+    "final_pred_answer": [
+        "8",
+        "8",
+        "8",
+        "8",
+        "8"
+    ],
+    "ground_truth": "8"
+}

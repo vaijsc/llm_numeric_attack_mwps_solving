@@ -1,0 +1,23 @@
+{
+    "problem": "If $(ax+b)(2x+3)=20x^2+44x+21$, where $a$ and $b$ are two distinct integers, what is the value of the sum $a+b$?",
+    "level": "Level 3",
+    "type": "Algebra",
+    "solution": "We expand the left side and get $2ax^2+(3a+2b)x+3b=20x^2+44x+21$. The coefficients of like terms must be equal, so that means $2a=20$ and $3b=21$. So, we get $a=10$, $b=7$, and $a+b=\\boxed{17}$. To check, we should make sure that $3a+2b=44$, which holds since $30+14=44$.",
+    "prompt": "### Instruction: If $(ax+b)(2x+3)=20x^2+44x+21$, where $a$ and $b$ are two distinct integers, what is the value of the sum $a+b$?\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "Here's how to solve the problem step-by-step:\n**1. Expand the left side of the equation:**\n   (ax + b)(2x + 3) = 2ax\u00b2 + 3ax + 2bx + 3b \n**2. Combine like terms:**\n   2ax\u00b2 + (3a + 2b)x + 3b\n**3.  Match coefficients with the right side of the equation:**\n   We now have: \n   * 2ax\u00b2 = 20x\u00b2 \n   * (3a + 2b)x = 44x\n   * 3b = 21\n**4. Solve the system of equations:**\n   * From 2ax\u00b2 = 20x\u00b2, we get a = 10.\n   * From 3b = 21, we get b = 7.\n**5. Calculate a + b:**\n   a + b = 10 + 7 = **17** \n**Therefore, the value of a + b is 17.** \n",
+        "Here's how to solve the problem step-by-step:\n**1. Expand the left side of the equation:**\n(ax + b)(2x + 3) = 2ax\u00b2 + 3ax + 2bx + 3b \n**2. Simplify the expression:**\n2ax\u00b2 + (3a + 2b)x + 3b\n**3.  Match coefficients with the right side of the equation:**\nWe know this expression must equal 20x\u00b2 + 44x + 21.  This means:\n* **Coefficient of x\u00b2:** 2a = 20 \n* **Coefficient of x:** 3a + 2b = 44\n* **Constant term:** 3b = 21\n**4. Solve for a and b:**\n* From the x\u00b2 coefficient: a = 10\n* From the constant term: b = 7\n**5. Calculate a + b:**\na + b = 10 + 7 = **17** \n",
+        "Here's how to solve the problem step-by-step:\n**1. Expand the left side of the equation:**\n   (ax + b)(2x + 3) = 2ax\u00b2 + 3ax + 2bx + 3b \n**2. Simplify the expression:**\n   2ax\u00b2 + (3a + 2b)x + 3b\n**3.  Match coefficients with the right side of the equation:**\n   We now have:\n   * 2ax\u00b2 = 20x\u00b2 \n   * (3a + 2b)x = 44x\n   * 3b = 21\n**4. Solve the system of equations:**\n   * From 2ax\u00b2 = 20x\u00b2, we get a = 10.\n   * From 3b = 21, we get b = 7.\n**5. Find the sum a + b:**\n   a + b = 10 + 7 = **17** \n**Therefore, the value of the sum a + b is 17.** \n",
+        "Here's how to solve the problem step-by-step:\n**1. Expand the left side of the equation:**\n   (ax + b)(2x + 3) = 2ax\u00b2 + 3ax + 2bx + 3b\n**2. Combine like terms:**\n   2ax\u00b2 + (3a + 2b)x + 3b\n**3.  Match coefficients with the right side of the equation:**\n   We have: \n   * 2ax\u00b2 = 20x\u00b2  \n   * (3a + 2b)x = 44x\n   * 3b = 21\n**4. Solve the system of equations:**\n   * From 2ax\u00b2 = 20x\u00b2, we get a = 10.\n   * From 3b = 21, we get b = 7. \n**5. Calculate a + b:**\n   a + b = 10 + 7 = 17\n**Therefore, the value of a + b is 17.** \n",
+        "Here's how to solve the problem step-by-step:\n**1. Expand the left side of the equation:**\n   (ax + b)(2x + 3) = 2ax\u00b2 + 3ax + 2bx + 3b \n**2.  Simplify the expanded expression:**\n   2ax\u00b2 + (3a + 2b)x + 3b\n**3.  Match the coefficients with the given quadratic:**\n   We now have:\n   * 2ax\u00b2 = 20x\u00b2 \n   * (3a + 2b)x = 44x\n   * 3b = 21\n**4. Solve the system of equations:**\n   * From 2ax\u00b2 = 20x\u00b2, we get a = 10.\n   * From 3b = 21, we get b = 7.\n**5. Calculate a + b:**\n   a + b = 10 + 7 = **17** \n**Therefore, the value of a + b is 17.** \n"
+    ],
+    "pred_answers": "17",
+    "final_pred_answer": [
+        "17",
+        "17",
+        "17",
+        "17",
+        "17"
+    ],
+    "ground_truth": "44"
+}

@@ -1,0 +1,23 @@
+{
+    "problem": "Evaluate $\\left\\lceil {-\\!\\sqrt{23}}\\right\\rceil$.",
+    "level": "Level 3",
+    "type": "Algebra",
+    "solution": "Since $\\!\\sqrt{23}$ is between $\\!\\sqrt{16}=4$ and $\\!\\sqrt{25}=5$, we know that $-5<-\\sqrt{23} <-4$.  Therefore, the smallest integer greater than $-\\sqrt{23}$ is $-4$.  So, we have $\\left\\lceil -\\sqrt{23}\\right\\rceil = \\boxed{-4}$.",
+    "prompt": "### Instruction: Evaluate $\\left\\lceil {-\\!\\sqrt{23}}\\right\\rceil$.\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "Here's how to evaluate the expression:\n**1. Find the approximate value of the square root:**\n*  \u221a23 is a little more than \u221a25, which is 5. \n*  So, -\u221a23 is a little less than -5.\n**2. Understand the ceiling function:**\n* The ceiling function, denoted by  \u2308  \u2309, gives the smallest integer greater than or equal to the input.\n**3. Apply the ceiling function:**\n* Since -\u221a23 is a little less than -5, the smallest integer greater than or equal to it is **-5**. \n**Therefore,  \u2308-\u221a23\u2309 = -5** \n",
+        "Here's how to evaluate the expression step-by-step:\n1. **Find the approximate value of the square root:**  Since 23 is between 16 (4 squared) and 25 (5 squared), we know $\\sqrt{23}$ is between 4 and 5. \n2. **Negate the square root:**  Since we're working with $-\\sqrt{23}$, we're dealing with a negative number between -4 and -5.\n3. **Apply the ceiling function:** The ceiling function, denoted by $\\lceil x \\rceil$, gives the smallest integer greater than or equal to *x*.  Since  $-\\sqrt{23}$ is between -4 and -5, the smallest integer greater than or equal to it is **-4**.\nTherefore, $\\left\\lceil {-\\!\\sqrt{23}}\\right\\rceil = \\boxed{-4}$. \n",
+        "Here's how to evaluate the expression:\n**1. Approximate the square root:**\n*  Since 23 is between 16 and 25, we know  \u221a23 is between 4 and 5. \n*  Therefore,  -\u221a23 is between -5 and -4.\n**2. Understand the ceiling function:**\n*  The ceiling function, denoted by  \u2308x\u2309, rounds a number *up* to the nearest integer.\n**3. Apply the ceiling function:**\n* Since -\u221a23 is between -5 and -4, the smallest integer greater than or equal to -\u221a23 is **-4**.\n**Therefore,  \u2308-\u221a23\u2309 = -4** \n",
+        "Here's how to evaluate the expression step-by-step:\n1. **Find the approximate value of the square root:**  Since 23 is between 16 (4 squared) and 25 (5 squared), we know $\\sqrt{23}$ is between 4 and 5.  Let's say it's approximately 4.8.\n2. **Negate the square root:**  $-\\sqrt{23}$ is approximately -4.8.\n3. **Apply the ceiling function:** The ceiling function, denoted by $\\lceil x \\rceil$, rounds a number *up* to the nearest integer. Since -4.8 is between -5 and -4, rounding it up gives us -4.\n**Therefore, $\\left\\lceil {-\\!\\sqrt{23}}\\right\\rceil = -4$.** \n",
+        "Here's how to evaluate  $\\left\\lceil {-\\!\\sqrt{23}}\\right\\rceil$:\n* **Understanding the Ceiling Function:** The ceiling function, denoted by $\\lceil x \\rceil$, gives the smallest integer greater than or equal to $x$. \n* **Estimating the Value:**  We know that  $4^2 = 16$ and $5^2 = 25$, so $\\sqrt{23}$ is between 4 and 5. Since it's negative, $-\\!\\sqrt{23}$ is between -5 and -4.\n* **Applying the Ceiling Function:** The smallest integer greater than or equal to $-\\!\\sqrt{23}$ is **-4**.\n**Therefore,  $\\left\\lceil {-\\!\\sqrt{23}}\\right\\rceil = -4$.** \n"
+    ],
+    "pred_answers": "-4",
+    "final_pred_answer": [
+        "-5",
+        "-4",
+        "-4",
+        "-4",
+        "-4"
+    ],
+    "ground_truth": "-4"
+}

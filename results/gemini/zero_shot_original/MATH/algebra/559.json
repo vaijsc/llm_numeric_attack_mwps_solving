@@ -1,0 +1,23 @@
+{
+    "problem": "If the system of equations  \\begin{align*}\n4x-3y&=2a,\\\\\n2x+y&=3a,\n\\end{align*}has a solution $(x,y)$ when $x=3$, compute $a$.",
+    "level": "Level 3",
+    "type": "Algebra",
+    "solution": "Substituting in $x=3$, we obtain the equations \\begin{align*}\n12-3y&=2a,\\\\\n6+y&=3a.\n\\end{align*}Multiplying the second equation by $3$ and adding it to the first equation, we find $$30=11a\\Rightarrow a=\\boxed{\\frac{30}{11}}.$$",
+    "prompt": "### Instruction: If the system of equations  \\begin{align*}\n4x-3y&=2a,\\\\\n2x+y&=3a,\n\\end{align*}has a solution $(x,y)$ when $x=3$, compute $a$.\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "1. **Substitute x = 3 into the equations:**\n   Since we know x = 3, we can substitute it into both equations:\n   \n   *  4(3) - 3y = 2a  =>  12 - 3y = 2a\n   *  2(3) + y = 3a   =>  6 + y = 3a\n2. **Solve for y in one of the equations:**\n   Let's solve the second equation for y:\n   *  6 + y = 3a\n   *  y = 3a - 6\n3. **Substitute the expression for y into the first equation:**\n   Now we can substitute the expression for y (3a - 6) into the first equation:\n   * 12 - 3(3a - 6) = 2a\n4. **Solve for a:**\n   Simplify and solve the equation for a:\n   * 12 - 9a + 18 = 2a\n   * 30 = 11a\n   * a = 30/11\nTherefore, the value of a is **a = 30/11**. \n",
+        "**1. Substitute x = 3 into the equations:**\nSince we're given that  x = 3, we can substitute this value into both equations:\n* Equation 1:  4(3) - 3y = 2a  => 12 - 3y = 2a\n* Equation 2: 2(3) + y = 3a  => 6 + y = 3a\n**2. Solve for y in terms of a:**\n* From Equation 2, we get: y = 3a - 6\n**3. Substitute the value of y into Equation 1:**\n* 12 - 3(3a - 6) = 2a \n**4. Simplify and solve for a:**\n* 12 - 9a + 18 = 2a\n* 30 = 11a\n* a = 30/11\n**Therefore, the value of a is 30/11.** \n",
+        "1. **Substitute x = 3 into the equations:** \n   Since we are given that x = 3, we can substitute this value into both equations:\n   *  4(3) - 3y = 2a  =>  12 - 3y = 2a\n   *  2(3) + y = 3a  =>  6 + y = 3a\n2. **Solve for y in terms of a:**\n   Let's solve the second equation for y:\n   *  y = 3a - 6\n3. **Substitute the expression for y into the first equation:**\n   Now we can substitute the value of y we just found into the first equation:\n   * 12 - 3(3a - 6) = 2a\n4. **Solve for a:**\n   Simplify and solve for a:\n   * 12 - 9a + 18 = 2a\n   * 30 = 11a\n   * a = 30/11\nTherefore, the value of **a = 30/11**. \n",
+        "1. **Substitute x = 3 into the equations:** \n   - The first equation becomes:  4(3) - 3y = 2a  \n   - The second equation becomes: 2(3) + y = 3a\n2. **Simplify the equations:**\n   - The first equation becomes: 12 - 3y = 2a\n   - The second equation becomes: 6 + y = 3a\n3. **Solve for y in the second equation:**\n   - y = 3a - 6\n4. **Substitute the expression for y into the first equation:**\n   - 12 - 3(3a - 6) = 2a\n5. **Simplify and solve for a:**\n   - 12 - 9a + 18 = 2a\n   - 30 = 11a\n   - a = 30/11\nTherefore, the value of a is **30/11**. \n",
+        "**1. Substitute the value of x into the equations:**\nSince we know x = 3, we can substitute this value into both equations:\n*  Equation 1:  4(3) - 3y = 2a  =>  12 - 3y = 2a\n*  Equation 2:  2(3) + y = 3a  =>  6 + y = 3a\n**2. Solve for y in one of the equations:**\nLet's solve Equation 2 for y:\n* 6 + y = 3a\n* y = 3a - 6\n**3. Substitute the expression for y into the other equation:**\nNow, substitute the expression for y (3a - 6) into Equation 1:\n* 12 - 3(3a - 6) = 2a\n**4. Simplify and solve for a:**\n* 12 - 9a + 18 = 2a\n* 30 = 11a\n* a = **30/11**\nTherefore, the value of **a = 30/11**. \n"
+    ],
+    "pred_answers": "11",
+    "final_pred_answer": [
+        "11",
+        "11",
+        "11",
+        "11",
+        "11"
+    ],
+    "ground_truth": "11"
+}

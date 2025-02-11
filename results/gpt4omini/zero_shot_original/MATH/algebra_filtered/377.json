@@ -1,0 +1,23 @@
+{
+    "problem": "If $\\displaystyle\\frac{n+5}{n-3} = 2$ what is the value of $n$?",
+    "level": "Level 1",
+    "type": "Algebra",
+    "solution": "Multiplying both sides by $n-3$, we have $n+5 = 2(n-3)$.  Expanding gives $n+5 = 2n - 6$, and solving this equation gives $n=\\boxed{11}$.",
+    "prompt": "### Instruction: If $\\displaystyle\\frac{n+5}{n-3} = 2$ what is the value of $n$?\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "To solve the equation \\(\\frac{n+5}{n-3} = 2\\), we can follow these steps:\n1. **Cross-Multiply**: To eliminate the fraction, we multiply both sides of the equation by \\(n - 3\\):\n   \\[\n   n + 5 = 2(n - 3)\n   \\]\n2. **Distribute on the Right Side**: We distribute \\(2\\) on the right side:\n   \\[\n   n + 5 = 2n - 6\n   \\]\n3. **Rearrange the Equation**: We want to isolate \\(n\\). To do this, we will move the \\(n\\) terms to one side and the constant terms to the other side. We can subtract \\(n\\) from both sides:\n   \\[\n   5 = 2n - n - 6\n   \\]\n   Simplifying the right side gives:\n   \\[\n   5 = n - 6\n   \\]\n4. **Solve for \\(n\\)**: Next, we add \\(6\\) to both sides:\n   \\[\n   5 + 6 = n\n   \\]\n   Therefore:\n   \\[\n   n = 11\n   \\]\n5. **Check the Solution**: To ensure our solution is correct, we can substitute \\(n = 11\\) back into the original equation:\n   \\[\n   \\frac{11 + 5}{11 - 3} = \\frac{16}{8} = 2\n   \\]\n   Since both sides are equal, our solution is verified.\nThus, the value of \\(n\\) is \\(\\boxed{11}\\).",
+        "To solve the equation \\(\\frac{n+5}{n-3} = 2\\), we will follow these steps:\n1. **Clear the fraction by multiplying both sides by \\(n - 3\\)** (assuming \\(n - 3 \\neq 0\\)):\n   \\[\n   n + 5 = 2(n - 3)\n   \\]\n2. **Distribute the \\(2\\) on the right-hand side**:\n   \\[\n   n + 5 = 2n - 6\n   \\]\n3. **Rearrange the equation to isolate \\(n\\)**:\n   Subtract \\(n\\) from both sides:\n   \\[\n   5 = 2n - n - 6\n   \\]\n   This simplifies to:\n   \\[\n   5 = n - 6\n   \\]\n4. **Add \\(6\\) to both sides**:\n   \\[\n   5 + 6 = n\n   \\]\n   \\[\n   n = 11\n   \\]\nThus, the value of \\(n\\) is \\(\\boxed{11}\\).",
+        "To solve the equation \\(\\frac{n+5}{n-3} = 2\\), we start by eliminating the fraction. We can do this by cross-multiplying:\n\\[\nn + 5 = 2(n - 3)\n\\]\nNext, we distribute the 2 on the right side:\n\\[\nn + 5 = 2n - 6\n\\]\nNow, we need to isolate \\(n\\). First, we can subtract \\(n\\) from both sides:\n\\[\n5 = 2n - n - 6\n\\]\nThis simplifies to:\n\\[\n5 = n - 6\n\\]\nNext, we add 6 to both sides to solve for \\(n\\):\n\\[\n5 + 6 = n\n\\]\nThis gives us:\n\\[\nn = 11\n\\]\nFinally, let's verify our solution by substituting \\(n = 11\\) back into the original equation:\n\\[\n\\frac{11 + 5}{11 - 3} = \\frac{16}{8} = 2\n\\]\nSince the left-hand side matches the right-hand side, our solution is confirmed. Thus, the value of \\(n\\) is:\n\\[\n\\boxed{11}\n\\]",
+        "To solve the equation \\(\\frac{n+5}{n-3} = 2\\), we start by eliminating the fraction by cross-multiplying. \n1. Cross-multiply:\n   \\[\n   n + 5 = 2(n - 3)\n   \\]\n2. Distribute the 2 on the right side:\n   \\[\n   n + 5 = 2n - 6\n   \\]\n3. Next, we'll isolate \\(n\\) by moving \\(n\\) from the left to the right side. Subtract \\(n\\) from both sides:\n   \\[\n   5 = 2n - n - 6\n   \\]\n   This simplifies to:\n   \\[\n   5 = n - 6\n   \\]\n4. Now, add 6 to both sides to solve for \\(n\\):\n   \\[\n   5 + 6 = n\n   \\]\n   So:\n   \\[\n   n = 11\n   \\]\n5. Finally, let's verify the solution by substituting \\(n = 11\\) back into the original equation:\n   \\[\n   \\frac{11 + 5}{11 - 3} = \\frac{16}{8} = 2\n   \\]\n   The left-hand side equals the right-hand side, confirming our solution is correct.\nTherefore, the value of \\(n\\) is \\(\\boxed{11}\\).",
+        "To solve the equation \\(\\frac{n+5}{n-3} = 2\\), we can start by eliminating the fraction by cross-multiplying. This gives us:\n\\[\nn + 5 = 2(n - 3)\n\\]\nNext, we distribute the \\(2\\) on the right-hand side:\n\\[\nn + 5 = 2n - 6\n\\]\nNow, we want to isolate \\(n\\). Let's subtract \\(n\\) from both sides:\n\\[\n5 = 2n - n - 6\n\\]\n\\[\n5 = n - 6\n\\]\nNext, we add \\(6\\) to both sides to solve for \\(n\\):\n\\[\n5 + 6 = n\n\\]\n\\[\nn = 11\n\\]\nThus, the value of \\(n\\) is \\(\\boxed{11}\\)."
+    ],
+    "pred_answers": "11",
+    "final_pred_answer": [
+        "11",
+        "11",
+        "11",
+        "11",
+        "11"
+    ],
+    "ground_truth": "11"
+}

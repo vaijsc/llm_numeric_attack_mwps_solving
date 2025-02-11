@@ -1,0 +1,23 @@
+{
+    "problem": "If $A\\ \\spadesuit\\ B$ is defined as $A\\ \\spadesuit\\ B = A + B + 4$, what is the value of $A$ for which $A\\ \\spadesuit\\ 2 = 19$?",
+    "level": "Level 1",
+    "type": "Algebra",
+    "solution": "From the definition of $A\\; \\spadesuit \\;B$, we can rewrite $A\\;\\spadesuit \\;2$ as $A\\;\\spadesuit \\;2 = A + 2+ 4$. So, now the equation $A\\;\\spadesuit \\;2=19$ becomes $A+2+4=19$, from which we find $A=\\boxed{13}$.",
+    "prompt": "### Instruction: If $A\\ \\spadesuit\\ B$ is defined as $A\\ \\spadesuit\\ B = A + B + 4$, what is the value of $A$ for which $A\\ \\spadesuit\\ 2 = 19$?\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "1. **Write out the equation:** We are given that $A \\spadesuit 2 = 19$, and we know that $A \\spadesuit B = A + B + 4$.  Substituting, we get:  \n   \n   $A + 2 + 4 = 19$\n2. **Simplify the equation:** Combine the constants on the left side:\n   $A + 6 = 19$\n3. **Solve for A:** Subtract 6 from both sides of the equation:\n   $A = 19 - 6$\n4. **Calculate the result:**\n   $A = 13$\n**Therefore, the value of A is 13.** \n",
+        "1. **Write out the equation:**  We are given that $A \\spadesuit 2 = 19$ and that $A \\spadesuit B = A + B + 4$.  Substituting the second equation into the first, we get: \n   \n   $A + 2 + 4 = 19$\n2. **Simplify the equation:** Combine the constants on the left side:\n   $A + 6 = 19$\n3. **Solve for A:** Subtract 6 from both sides of the equation:\n   $A = 13$\n**Therefore, the value of A is 13.** \n",
+        "Here's how to solve the problem step-by-step:\n1. **Write the equation:** We are given that  $A\\ \\spadesuit\\ B = A + B + 4$ and we need to find the value of  $A$ when $A\\ \\spadesuit\\ 2 = 19$.  Substituting the value of $B$ into the equation, we get:\n   \n   $A \\spadesuit 2 = A + 2 + 4$\n2. **Simplify the equation:** Combine the constants on the right side:\n   $A \\spadesuit 2 = A + 6$\n3. **Set the equation equal to 19:** We know that $A\\ \\spadesuit\\ 2 = 19$, so we can set the simplified equation equal to 19:\n   $A + 6 = 19$\n4. **Solve for A:** Subtract 6 from both sides of the equation:\n   $A = 19 - 6$\n   $A = 13$\n**Therefore, the value of A is 13.** \n",
+        "Here's how to solve the problem step-by-step:\n1. **Substitute the given values:** We know that  $A \\spadesuit 2 = A + 2 + 4$.  \n2. **Set up the equation:** We are given that $A \\spadesuit 2 = 19$. So, we can write the equation:  $A + 2 + 4 = 19$.\n3. **Simplify the equation:** Combine the constants on the left side: $A + 6 = 19$.\n4. **Solve for A:** Subtract 6 from both sides: $A = 13$.\n**Therefore, the value of A is 13.** \n",
+        "1. **Substitute the values:** We know that $A \\spadesuit B = A + B + 4$.  We're given that $A \\spadesuit 2 = 19$.  Let's substitute these values into the equation: \n   \n   *  $A + 2 + 4 = 19$\n2. **Simplify:** Combine the constants on the left side of the equation:\n   * $A + 6 = 19$\n3. **Solve for A:**  Subtract 6 from both sides of the equation to isolate A:\n   * $A = 19 - 6$\n4. **Calculate:**  \n   * $A = 13$\n**Therefore, the value of A for which $A \\spadesuit 2 = 19$ is 13.** \n"
+    ],
+    "pred_answers": "13",
+    "final_pred_answer": [
+        "13",
+        "13",
+        "13",
+        "13",
+        "13"
+    ],
+    "ground_truth": "13"
+}

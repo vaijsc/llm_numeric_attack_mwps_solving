@@ -1,0 +1,23 @@
+{
+    "problem": "What is the sum of the coordinates of the midpoint of the line segment connecting points $(5,4)$ and $(-9,8)$?",
+    "level": "Level 2",
+    "type": "Algebra",
+    "solution": "The midpoint is $\\left(\\frac{5-9}{2},\\frac{4+8}{2}\\right)$. Therefore, the sum of its coordinates is $\\frac{5-9+4+8}{2} = \\frac{8}{2} = \\boxed{4}$.",
+    "prompt": "### Instruction: What is the sum of the coordinates of the midpoint of the line segment connecting points $(5,4)$ and $(-9,8)$?\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "Here's how to solve this problem step-by-step:\n**1. Find the midpoint formula:**\nThe midpoint of a line segment with endpoints $(x_1, y_1)$ and $(x_2, y_2)$ is given by:\n  ((x_1 + x_2)/2, (y_1 + y_2)/2)\n**2. Apply the formula:**\n* Our endpoints are (5, 4) and (-9, 8).\n*  Let (5, 4) be (x_1, y_1) and (-9, 8) be (x_2, y_2).\nSubstitute these values into the midpoint formula:\n  ((5 + (-9))/2, (4 + 8)/2) \n**3. Simplify:**\n  ((-4)/2, (12)/2) = (-2, 6)\n**4. Find the sum of the coordinates:**\nThe sum of the coordinates of the midpoint (-2, 6) is -2 + 6 = **4**. \n",
+        "Here's how to solve this problem step by step:\n**1. Find the midpoint formula:**\nThe midpoint of a line segment with endpoints (x1, y1) and (x2, y2) is:\n((x1 + x2)/2, (y1 + y2)/2)\n**2. Apply the formula:**\n*  (x1, y1) = (5, 4)\n*  (x2, y2) = (-9, 8)\nMidpoint = ((5 + (-9))/2, (4 + 8)/2) = (-4/2, 12/2) = (-2, 6)\n**3. Calculate the sum of the coordinates:**\nThe sum of the coordinates of the midpoint (-2, 6) is -2 + 6 = **4**. \n",
+        "Here's how to solve the problem step-by-step:\n**1. Find the midpoint formula:**\nThe midpoint of a line segment with endpoints  (x\u2081, y\u2081) and (x\u2082, y\u2082) is:\n  ((x\u2081 + x\u2082)/2, (y\u2081 + y\u2082)/2)\n**2. Apply the formula:**\n*  Our endpoints are (5, 4) and (-9, 8).\n*  Let (x\u2081, y\u2081) = (5, 4) and (x\u2082, y\u2082) = (-9, 8)\nSubstitute the values into the midpoint formula:\n  ((5 + (-9))/2, (4 + 8)/2) = (-4/2, 12/2) = (-2, 6)\n**3. Find the sum of the coordinates:**\nThe sum of the coordinates of the midpoint (-2, 6) is -2 + 6 = **4**. \n",
+        "Here's how to find the sum of the coordinates of the midpoint:\n**1. Find the midpoint:**\n* **Midpoint formula:** The midpoint of a line segment with endpoints (x1, y1) and (x2, y2) is:\n   ((x1 + x2) / 2, (y1 + y2) / 2)\n* **Apply the formula:**\n   * (5 + (-9)) / 2 = -2\n   * (4 + 8) / 2 = 6\n* **Midpoint:** The midpoint is (-2, 6)\n**2. Sum the coordinates:**\n* -2 + 6 = **4**\n**Therefore, the sum of the coordinates of the midpoint is 4.** \n",
+        "Here's how to solve the problem step-by-step:\n**1. Find the midpoint formula:**\nThe midpoint of a line segment with endpoints $(x_1, y_1)$ and $(x_2, y_2)$ is given by:\n   [(x\u2081 + x\u2082)/2, (y\u2081 + y\u2082)/2]\n**2.  Apply the formula to our points:**\n*  (x\u2081, y\u2081) = (5, 4)\n*  (x\u2082, y\u2082) = (-9, 8)\n   Midpoint = [(5 + (-9))/2, (4 + 8)/2]\n**3. Simplify the coordinates:**\n   Midpoint = [-4/2, 12/2] = (-2, 6)\n**4. Calculate the sum of the coordinates:**\n   -2 + 6 = **4** \n**Therefore, the sum of the coordinates of the midpoint is 4.** \n"
+    ],
+    "pred_answers": "4",
+    "final_pred_answer": [
+        "4",
+        "4",
+        "4",
+        "4",
+        "4"
+    ],
+    "ground_truth": "4"
+}

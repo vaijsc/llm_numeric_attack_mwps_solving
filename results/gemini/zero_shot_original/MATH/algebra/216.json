@@ -1,0 +1,23 @@
+{
+    "problem": "The expression $6y^2-y-51$ can be rewritten as $(3Ay+B)(y-C)$, where $A$, $B$, and $C$ are positive integers. Find $(AC)^2-B$.",
+    "level": "Level 3",
+    "type": "Algebra",
+    "solution": "The expression $6y^2-y-51$ can be rewritten as $(6y+17)(y-3)$. Therefore, $A=2$, $B=17$, and $C=3$. Thus, $(AC)^2-B=(2\\times3)^2-17=\\boxed{19}$.",
+    "prompt": "### Instruction: The expression $6y^2-y-51$ can be rewritten as $(3Ay+B)(y-C)$, where $A$, $B$, and $C$ are positive integers. Find $(AC)^2-B$.\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "Here's how to solve the problem:\n**1. Factor the Expression**\nWe need to find two numbers that multiply to give -51 and add up to -1 (the coefficient of the y term).  The numbers 17 and -3 satisfy these conditions:\n* 17 * -3 = -51\n* 17 - 3 = 14\nNow we can factor the expression:\n6y\u00b2 - y - 51 = (3y + 17)(2y - 3)\n**2. Identify A, B, and C**\nComparing this to the form (3Ay + B)(y - C), we see:\n* A = 2\n* B = 17\n* C = 3\n**3. Calculate the Expression**\nNow we can calculate (AC)\u00b2 - B:\n(AC)\u00b2 - B = (2 * 3)\u00b2 - 17 = 6\u00b2 - 17 = 36 - 17 = **19** \n",
+        "Here's how to solve the problem:\n**1. Factor the Quadratic**\nWe need to find two numbers that multiply to  (6)(-51) = -306 and add up to -1 (the coefficient of the middle term).  After some trial and error, we find that 17 and -18 satisfy these conditions:\n* 17 * (-18) = -306\n* 17 + (-18) = -1\nNow we can rewrite the expression:\n6y\u00b2 - y - 51 = 6y\u00b2 + 17y - 18y - 51\nNext, we factor by grouping:\n= (6y\u00b2 + 17y) + (-18y - 51)\n= y(6y + 17) - 3(6y + 17)\n= (6y + 17)(y - 3)\n**2. Identify A, B, and C**\nComparing this to the given form (3Ay + B)(y - C), we see:\n* A = 2 \n* B = 17\n* C = 3\n**3. Calculate (AC)\u00b2 - B**\nNow we can substitute these values:\n(AC)\u00b2 - B = (2 * 3)\u00b2 - 17 \n             = 36 - 17\n             = **19**\nTherefore, (AC)\u00b2 - B = **19**. \n",
+        "Here's how to solve the problem step-by-step:\n**1. Factor the quadratic expression**\nWe need to find two numbers that multiply to  -153 (the product of 6 and -51) and add up to -1 (the coefficient of the middle term).  These numbers are -17 and 9.\nWe can rewrite the expression as: \n  6y\u00b2 - y - 51 = 6y\u00b2 - 17y + 9y - 51\nNow we can factor by grouping:\n  = (6y\u00b2 - 17y) + (9y - 51)\n  = y(6y - 17) + 3(3y - 17)\n  = (3y - 17)(2y + 3)\n**2. Identify A, B, and C**\nComparing this to the form (3Ay + B)(y - C), we have:\n* A = 1\n* B = 3\n* C = 17\n**3. Calculate (AC)\u00b2 - B**\n(AC)\u00b2 - B = (1 * 17)\u00b2 - 3 = 289 - 3 = **286** \n",
+        "Here's how to solve the problem step-by-step:\n**1. Factor the quadratic expression:**\n* We need to find two numbers that multiply to give  -51 * 6 = -306 and add up to -1 (the coefficient of the  'y' term).\n* After some trial and error, we find that -19 and 16 satisfy these conditions. \n* We can now rewrite the expression as: 6y\u00b2 - 19y + 16y - 51\n* Factor by grouping: \n    * (6y\u00b2 - 19y) + (16y - 51) \n    * y(6y - 19) + 3(6y - 19)\n    * (6y - 19)(y + 3)\n**2. Identify A, B, and C:**\n* Comparing (6y - 19)(y + 3) with (3Ay + B)(y - C), we see:\n    * A = 2 \n    * B = -19\n    * C = 3\n**3. Calculate (AC)\u00b2 - B:**\n* (AC)\u00b2 - B = (2 * 3)\u00b2 - (-19)\n* = 36 + 19\n* = 55\n**Therefore, (AC)\u00b2 - B = 55** \n",
+        "Here's how to solve the problem step-by-step:\n**1. Factor the quadratic:**\n* We need to find two numbers that multiply to  -153 (6 * -51) and add up to -1 (the coefficient of the y term).\n* These numbers are -17 and 9.\n* We can rewrite the quadratic as: 6y\u00b2 - 17y + 9y - 51\n* Now we factor by grouping:\n    *  (6y\u00b2 - 17y) + (9y - 51) \n    *  y(6y - 17) + 3(3y - 17)\n    *  (3y - 17)(2y + 3)\n**2. Identify the values:**\n* Comparing this to the given form (3Ay + B)(y - C), we see:\n    * A = 1\n    * B = 3\n    * C = 17\n**3. Calculate the expression:**\n* (AC)\u00b2 - B = (1 * 17)\u00b2 - 3 \n* = 289 - 3 \n* = 286\n**Therefore, (AC)\u00b2 - B = 286** \n"
+    ],
+    "pred_answers": "19",
+    "final_pred_answer": [
+        "19",
+        "19",
+        "286",
+        "55",
+        "286"
+    ],
+    "ground_truth": "19"
+}

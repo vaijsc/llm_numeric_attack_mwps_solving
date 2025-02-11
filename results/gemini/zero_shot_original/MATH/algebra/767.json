@@ -1,0 +1,23 @@
+{
+    "problem": "Find the value of    $ : 8[6^2-3(11)]\\div8 + 3$.",
+    "level": "Level 1",
+    "type": "Algebra",
+    "solution": "We follow order of operations and get $$8[6^2-3(11)]\\div8 + 3=8(36-33)\\div8+3=\\frac{8(3)}{8}+3=3+3=\\boxed{6}.$$",
+    "prompt": "### Instruction: Find the value of    $ : 8[6^2-3(11)]\\div8 + 3$.\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "Here's how to solve the problem step-by-step:\n1. **Simplify inside the parentheses:** \n   - 11 - 3 = 8\n2. **Calculate the exponent:**\n   - 6\u00b2 = 36\n3. **Multiply inside the brackets:**\n   - 3 * 8 = 24\n4. **Subtract inside the brackets:**\n   - 36 - 24 = 12\n5. **Multiply outside the brackets:**\n   - 8 * 12 = 96\n6. **Divide:**\n   - 96 \u00f7 8 = 12\n7. **Add:**\n   - 12 + 3 = 15\n**Therefore, the value of the expression is 15.** \n",
+        "Here's how to solve the problem step-by-step:\n1. **Simplify inside the parentheses:** \n   * 11 - 3 = 8\n2. **Simplify the exponent:**\n   * 6\u00b2 = 36\n3. **Simplify inside the brackets:**\n   * 36 - 8 = 28\n4. **Multiply:**\n   * 8 * 28 = 224\n5. **Divide:**\n   * 224 \u00f7 8 = 28\n6. **Add:**\n   * 28 + 3 = 31\n**Therefore, the value of the expression is 31.** \n",
+        "Here's how to solve the problem step-by-step, following the order of operations (PEMDAS/BODMAS):\n1. **Parentheses/Brackets:**\n   *  Inside the brackets: 6\u00b2 = 36 and 3(11) = 33. \n   *  So, we have: 8[36 - 33] \u00f7 8 + 3 \n   *  Simplifying further: 8[3] \u00f7 8 + 3\n2. **Exponents:** (Already done in step 1)\n3. **Multiplication and Division** (from left to right):\n   *  8[3] = 24\n   *  24 \u00f7 8 = 3\n4. **Addition and Subtraction** (from left to right):\n   *  3 + 3 = 6\n**Therefore, the value of 8[6\u00b2 - 3(11)] \u00f7 8 + 3 is 6.** \n",
+        "Here's how to solve the problem step-by-step:\n1. **Simplify inside the parentheses:** \n   * 6\u00b2 = 36\n   * 3(11) = 33\n   * So,  6\u00b2 - 3(11) = 36 - 33 = 3\n2. **Simplify inside the brackets:**\n   * 8[3] = 24\n3. **Perform the division:**\n   * 24 \u00f7 8 = 3\n4. **Add 3:**\n   * 3 + 3 = 6\n**Therefore, the value of the expression is 6.** \n",
+        "Here's how to solve the problem step-by-step:\n1. **Simplify inside the parentheses:** \n   -  6\u00b2 = 6 * 6 = 36\n   -  3(11) = 33\n   -  So, 6\u00b2 - 3(11) = 36 - 33 = 3\n2. **Simplify inside the brackets:**\n   - 8[3] = 24\n3. **Divide by 8:**\n   - 24 \u00f7 8 = 3\n4. **Add 3:**\n   - 3 + 3 = 6\n**Therefore, the value of the expression is 6.** \n"
+    ],
+    "pred_answers": "6",
+    "final_pred_answer": [
+        "15",
+        "31",
+        "6",
+        "6",
+        "6"
+    ],
+    "ground_truth": "6"
+}

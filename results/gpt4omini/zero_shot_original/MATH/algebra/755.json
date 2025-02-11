@@ -1,0 +1,23 @@
+{
+    "problem": "Expand $(q-5)(3r+6)$.",
+    "level": "Level 1",
+    "type": "Algebra",
+    "solution": "We apply the distributive property repeatedly: \\begin{align*}\n(q-5)(3r+6) &= q(3r+6) - 5(3r+6)\\\\\n&= q\\cdot 3r + q\\cdot 6 - 5\\cdot 3r - 5\\cdot 6\\\\\n&= \\boxed{3qr + 6q - 15r -30}.\n\\end{align*}",
+    "prompt": "### Instruction: Expand $(q-5)(3r+6)$.\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "To expand the expression \\((q-5)(3r+6)\\), we will use the distributive property (also known as the FOIL method for binomials). \n1. **Distribute** \\(q\\) to both terms in the second binomial:\n   \\[\n   q \\cdot 3r + q \\cdot 6 = 3qr + 6q\n   \\]\n2. **Distribute** \\(-5\\) to both terms in the second binomial:\n   \\[\n   -5 \\cdot 3r + (-5) \\cdot 6 = -15r - 30\n   \\]\n3. **Combine** all the terms together:\n   \\[\n   3qr + 6q - 15r - 30\n   \\]\nSo, the expanded form of \\((q-5)(3r+6)\\) is:\n\\[\n\\boxed{3qr + 6q - 15r - 30}\n\\]",
+        "To expand the expression \\((q - 5)(3r + 6)\\), we will use the distributive property. This means we will distribute each term in the first expression \\((q - 5)\\) to each term in the second expression \\((3r + 6)\\).\n1. Start by distributing \\(q\\) to each term in \\((3r + 6)\\):\n   \\[\n   q \\cdot 3r + q \\cdot 6 = 3qr + 6q\n   \\]\n2. Next, distribute \\(-5\\) to each term in \\((3r + 6)\\):\n   \\[\n   -5 \\cdot 3r + -5 \\cdot 6 = -15r - 30\n   \\]\n3. Now, combine all the results from steps 1 and 2:\n   \\[\n   3qr + 6q - 15r - 30\n   \\]\nPutting it all together, the fully expanded expression is:\n\\[\n\\boxed{3qr + 6q - 15r - 30}\n\\]",
+        "To expand the expression \\((q-5)(3r+6)\\), we will use the distributive property, also known as the FOIL method for binomials. We'll multiply each term in the first binomial by each term in the second binomial.\n1. **Distribute \\(q\\)** (the first term of the first binomial) to both terms in the second binomial:\n   \\[\n   q \\cdot 3r + q \\cdot 6 = 3qr + 6q\n   \\]\n2. **Distribute \\(-5\\)** (the second term of the first binomial) to both terms in the second binomial:\n   \\[\n   -5 \\cdot 3r + -5 \\cdot 6 = -15r - 30\n   \\]\n3. **Combine all the terms** we obtained from the distribution:\n   \\[\n   3qr + 6q - 15r - 30\n   \\]\nThus, the expanded form of \\((q-5)(3r+6)\\) is:\n\\[\n\\boxed{3qr + 6q - 15r - 30}\n\\]",
+        "To expand the expression \\((q-5)(3r+6)\\), we can use the distributive property (also known as the FOIL method for binomials). Here\u2019s how we can proceed step by step:\n1. **Distribute \\(q\\) over \\((3r + 6)\\)**:\n   - \\(q \\cdot 3r = 3qr\\)\n   - \\(q \\cdot 6 = 6q\\)\n   So, distributing \\(q\\), we get:\n   \\[\n   3qr + 6q\n   \\]\n2. **Distribute \\(-5\\) over \\((3r + 6)\\)**:\n   - \\(-5 \\cdot 3r = -15r\\)\n   - \\(-5 \\cdot 6 = -30\\)\n   So, distributing \\(-5\\), we get:\n   \\[\n   -15r - 30\n   \\]\n3. **Combine all the distributed terms**:\n   Now, we combine the results from both distributions:\n   \\[\n   3qr + 6q - 15r - 30\n   \\]\n4. **Final expression**:\n   The fully expanded expression is:\n   \\[\n   3qr + 6q - 15r - 30\n   \\]\nTherefore, the expanded form of \\((q-5)(3r+6)\\) is \\(\\boxed{3qr + 6q - 15r - 30}\\).",
+        "To expand the expression \\((q-5)(3r+6)\\), we can use the distributive property, also known as the FOIL method for binomials. \nHere\u2019s a step-by-step breakdown:\n1. **Identify the terms to distribute:**\n   The expression consists of two parts: \\(q-5\\) and \\(3r+6\\).\n2. **Distribute each term in the first binomial by each term in the second binomial:**\n   - First, distribute \\(q\\):\n     - \\(q \\cdot 3r = 3qr\\)\n     - \\(q \\cdot 6 = 6q\\)\n   - Next, distribute \\(-5\\):\n     - \\(-5 \\cdot 3r = -15r\\)\n     - \\(-5 \\cdot 6 = -30\\)\n3. **Combine all the distributed terms:**\n   Putting it all together, we have:\n   \\[\n   3qr + 6q - 15r - 30\n   \\]\n4. **Result:**\n   The expanded form of \\((q-5)(3r+6)\\) is:\n   \\[\n   3qr + 6q - 15r - 30\n   \\] \nSo, the final answer is:\n\\[\n3qr + 6q - 15r - 30\n\\]"
+    ],
+    "pred_answers": "30",
+    "final_pred_answer": [
+        "30",
+        "30",
+        "30",
+        "30",
+        "30"
+    ],
+    "ground_truth": "-30"
+}

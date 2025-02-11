@@ -1,0 +1,23 @@
+{
+    "problem": "There are nine unit triangles in the three rows of this triangle. If you add three more rows to the bottom of this triangle so that each row has 2 more unit triangles than the previous row, how many unit triangles will there be?\n\n[asy]\ndraw((0,0)--(15,26)--(30,0)--cycle);\ndraw((5,8.7)--(10,0)--(20,17.3));\ndraw((20,0)--(25,8.7)--(5,8.7));\ndraw((20,0)--(10,17.3)--(20,17.3));\n[/asy]",
+    "level": "Level 2",
+    "type": "Counting & Probability",
+    "solution": "There are 7 triangles in the next row after the third, 9 in the next row after that, and 11 in the row after that. After adding three rows, there are $9+7+9+11=\\boxed{36}$ triangles total.",
+    "prompt": "### Instruction: There are nine unit triangles in the three rows of this triangle. If you add three more rows to the bottom of this triangle so that each row has 2 more unit triangles than the previous row, how many unit triangles will there be?\n\n[asy]\ndraw((0,0)--(15,26)--(30,0)--cycle);\ndraw((5,8.7)--(10,0)--(20,17.3));\ndraw((20,0)--(25,8.7)--(5,8.7));\ndraw((20,0)--(10,17.3)--(20,17.3));\n[/asy]\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "Here's how to solve this problem:\n* **Current Rows:** The triangle starts with 3 rows.\n* **Adding Rows:** We're adding 3 more rows to the bottom.\n* **Triangle Pattern:** Each row has 2 more unit triangles than the previous row.\n**Let's figure out the number of triangles in each row:**\n* **Row 1:** 3 triangles\n* **Row 2:** 5 triangles \n* **Row 3:** 7 triangles\n* **Row 4:** 9 triangles (3 + 2)\n* **Row 5:** 11 triangles (9 + 2)\n* **Row 6:** 13 triangles (11 + 2)\n**Now, let's add up all the triangles:**\n3 + 5 + 7 + 9 + 11 + 13 = **48 unit triangles**\n**Therefore, there will be a total of 48 unit triangles after adding the three extra rows.** \n",
+        "Here's how to solve the problem step-by-step:\n**1. Find the pattern:**\n* The first row has 1 unit triangle.\n* The second row has 3 unit triangles (1 + 2).\n* The third row has 5 unit triangles (3 + 2).\nNotice that each row has 2 more unit triangles than the previous row.\n**2. Calculate the next three rows:**\n* Row 4: 5 + 2 = 7 unit triangles\n* Row 5: 7 + 2 = 9 unit triangles\n* Row 6: 9 + 2 = 11 unit triangles\n**3. Add up all the unit triangles:**\n* Total unit triangles: 1 + 3 + 5 + 7 + 9 + 11 = **36**\n**Therefore, there will be 36 unit triangles in the completed triangle.** \n",
+        "Here's how we can solve this problem:\n* **Current rows:**  We start with 3 rows, with 3, 4, and 5 unit triangles respectively.\n* **Adding rows:** We'll add 3 more rows, each with 2 more unit triangles than the previous row.\n* **New rows:** This means the new rows will have 7, 9, and 11 unit triangles.\n* **Total triangles:** To find the total, we add the triangles in each row: 3 + 4 + 5 + 7 + 9 + 11 = **49 unit triangles**. \n",
+        "Here's how to solve the problem:\n* **Rows and Unit Triangles:** The current triangle has 3 rows.  We'll add 3 more rows, bringing the total to 6.\n* **Unit Triangles per Row:** The pattern is that each row has 2 more unit triangles than the previous row. Since the top row has 3, the rows will have: \n    * Row 1: 3 unit triangles\n    * Row 2: 5 unit triangles\n    * Row 3: 7 unit triangles\n    * Row 4: 9 unit triangles\n    * Row 5: 11 unit triangles\n    * Row 6: 13 unit triangles\n* **Total Unit Triangles:** To find the total, we add the number of unit triangles in each row: 3 + 5 + 7 + 9 + 11 + 13 = **48 unit triangles**.\n**Therefore, there will be 48 unit triangles in the larger triangle.** \n",
+        "Here's how we can solve this problem:\n**1. Figure out the pattern:**\n* Row 1: 1 triangle\n* Row 2: 3 triangles \n* Row 3: 5 triangles\nNotice that each row has 2 more triangles than the previous row.\n**2. Calculate the triangles in the new rows:**\n* Row 4: 5 + 2 = 7 triangles\n* Row 5: 7 + 2 = 9 triangles\n* Row 6: 9 + 2 = 11 triangles\n**3. Add up all the triangles:**\nTotal triangles = 1 + 3 + 5 + 7 + 9 + 11 = **36**\n**Therefore, there will be a total of 36 unit triangles in the triangle after adding three more rows.** \n"
+    ],
+    "pred_answers": "48",
+    "final_pred_answer": [
+        "48",
+        "36",
+        "49",
+        "48",
+        "36"
+    ],
+    "ground_truth": "36"
+}

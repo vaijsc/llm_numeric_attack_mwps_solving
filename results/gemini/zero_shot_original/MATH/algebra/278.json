@@ -1,0 +1,23 @@
+{
+    "problem": "Let $f(x)=3x^4-7x^3+2x^2-bx+1$. For what value of $b$ is $f(1)=1$?",
+    "level": "Level 3",
+    "type": "Algebra",
+    "solution": "Evaluating, we get $f(1) = 3-7+2-b+1 = -b-1 = 1.$ Solving for $b,$ we find that $b = \\boxed{-2}.$",
+    "prompt": "### Instruction: Let $f(x)=3x^4-7x^3+2x^2-bx+1$. For what value of $b$ is $f(1)=1$?\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "Here's how to solve the problem step-by-step:\n1. **Substitute x = 1 into the function:**\n   Since we want to find the value of *b* that makes *f(1) = 1*, let's substitute *x = 1* into the function:\n   *f(1) = 3(1)^4 - 7(1)^3 + 2(1)^2 - b(1) + 1*\n2. **Simplify the equation:**\n   Simplify the expression:\n   *f(1) = 3 - 7 + 2 - b + 1*\n   *f(1) = -1 - b*\n3. **Set the expression equal to 1:**\n   We know that *f(1) = 1*.  Let's set the simplified expression equal to 1:\n   *-1 - b = 1*\n4. **Solve for b:**\n   Solve for *b* by adding 1 to both sides and then multiplying by -1:\n   *-b = 2*\n   *b = -2*\n**Therefore, the value of *b* that makes *f(1) = 1* is -2.** \n",
+        "Here's how to solve the problem step-by-step:\n1. **Substitute x = 1 into the function:** \n   Since we want to find the value of *b* that makes *f(1) = 1*, we'll substitute *x = 1* into the equation for *f(x)*:\n   *f(1) = 3(1)^4 - 7(1)^3 + 2(1)^2 - b(1) + 1*\n2. **Simplify the equation:**\n   *f(1) = 3 - 7 + 2 - b + 1*\n3. **Set the result equal to 1:**\n   *f(1) = 1 = -1 - b*\n4. **Solve for b:**\n   *1 = -1 - b*\n   *2 = -b*\n   *b = -2*\n**Therefore, the value of *b* that makes *f(1) = 1* is *b = -2*.** \n",
+        "Here's how to solve the problem step-by-step:\n1. **Understand the problem:** We're given a polynomial function  *f(x)* and asked to find the value of *b* that makes *f(1) = 1*. \n2. **Substitute x = 1:**  Since we want to find *f(1)*, we substitute *x = 1* into the function:\n   *f(1) = 3(1)^4 - 7(1)^3 + 2(1)^2 - b(1) + 1*\n3. **Simplify:** Simplify the equation:\n   *f(1) = 3 - 7 + 2 - b + 1*\n   *f(1) = -1 - b*\n4. **Set f(1) equal to 1:**  We are given that *f(1) = 1*.  Let's set the simplified expression equal to 1:\n   *-1 - b = 1*\n5. **Solve for b:**  Solve the equation for *b*:\n   *-b = 2*\n   *b = -2*\n**Therefore, the value of *b* that makes *f(1) = 1* is  *b = -2*.** \n",
+        "Here's how to solve the problem step-by-step:\n**1. Understand the problem:**\nWe're given a polynomial function  *f(x)* and asked to find the value of *b* that makes *f(1) = 1*.  This means we need to substitute *x = 1* into the function and solve for *b*.\n**2. Substitute x = 1:**\n*  *f(1) = 3(1)^4 - 7(1)^3 + 2(1)^2 - b(1) + 1*\n**3. Simplify:**\n*  *f(1) = 3 - 7 + 2 - b + 1*\n*  *f(1) = -1 - b*\n**4. Set f(1) equal to 1 and solve for b:**\n*  -1 - b = 1\n*  -b = 2\n*  b = -2\n**Answer:**  The value of *b* that makes *f(1) = 1* is **b = -2**. \n",
+        "Here's how to solve the problem step-by-step:\n1. **Substitute x = 1 into the function:** \n   We know that f(1) = 1, so let's substitute x = 1 into the equation:\n   ```\n   f(1) = 3(1)^4 - 7(1)^3 + 2(1)^2 - b(1) + 1 = 1\n   ```\n2. **Simplify the equation:**\n   Simplify the equation by performing the calculations:\n   ```\n   3 - 7 + 2 - b + 1 = 1\n   ```\n3. **Combine like terms:**\n   Combine the constant terms on the left side:\n   ```\n   -1 - b = 1\n   ```\n4. **Solve for b:**\n   Isolate b by adding 1 to both sides of the equation:\n   ```\n   -b = 2\n   ```\n   Then multiply both sides by -1:\n   ```\n   b = -2\n   ```\n**Therefore, the value of b for which f(1) = 1 is b = -2.** \n"
+    ],
+    "pred_answers": "-2",
+    "final_pred_answer": [
+        "-2",
+        "-2",
+        "-2",
+        "1",
+        "-2"
+    ],
+    "ground_truth": "-2"
+}

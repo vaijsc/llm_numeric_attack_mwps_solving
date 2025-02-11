@@ -1,0 +1,41 @@
+{
+    "index_adversarial_question": 2,
+    "problem": "What is 20% of 50% of 80?",
+    "pcot_answer": "# Define the percentage of 50%\npercentage_50 = 0.50  ### condition: 'percentage_50': {'type': 'float', '<=': None, '>=': 0, 'science_constant': False, 'direct_from_question': True}\n# Define the value to calculate 50% of\nvalue_80 = 80  ### condition: 'value_80': {'type': 'int', '<=': None, '>=': 0, 'science_constant': False, 'direct_from_question': True}\n# Calculate 50% of 80\nhalf_of_80 = percentage_50 * value_80  ### condition: 'half_of_80': {'type': 'float', '<=': None, '>=': 0, 'science_constant': False, 'direct_from_question': False}\n# Define the percentage of 20%\npercentage_20 = 0.25 ### condition: 'percentage_20': {'type': 'float', '<=': None, '>=': 0, 'science_constant': False, 'direct_from_question': True}\n# Calculate 20% of the result from the previous step\ntwenty_percent_of_half_of_80 = percentage_20 * half_of_80  ### condition: 'twenty_percent_of_half_of_80': {'type': 'float', '<=': None, '>=': 0, 'science_constant': False, 'direct_from_question': False}\n# Print the final result\nprint(f\"20% of 50% of 80 is: {twenty_percent_of_half_of_80}\")",
+    "answer": "10",
+    "vllm_responses": [
+        " To find 20% of 50% of 80, we can calculate 20/100 * 50/100 * 80.\n> 20/100 * 50/100 * 80 = 0.2 * 0.5 * 80 = 8\nSo, 20% of 50% of 80 is 8.",
+        " To find 20% of 50% of 80, we first find 50% of 80, which is 0.5 * 80 = 40. Then, we find 20% of 40, which is 0.20 * 40 = 8.\n#### 8\nThe answer is: 8",
+        " To find 20% of 50% of 80, we first need to calculate 50% of 80.\n50% of 80 is (50/100) * 80 = 0.5 * 80 = 40\nNow, we need to find 20% of 40.\n20% of 40 is (20/100) * 40 = 0.2 * 40 = 8\nTherefore, 20% of 50% of 80 is 8.",
+        " To find 20% of 50% of 80, we first calculate 50% of 80, which is 0.50 * 80 = 40.\nNext, we calculate 20% of 40, which is 0.20 * 40 = 8.\nTherefore, 20% of 50% of 80 is 8. ###",
+        " To find 20% of 50% of 80, we first need to calculate 50% of 80 and then take 20% of the result.",
+        " To find 20% of 50% of 80, we first calculate 50% of 80.\n\u66f4\u5f3a\u8feb\u6027\uff1a\nThen, we calculate 20% of the result we obtained.\n### Solution: First, we find 50% of 80, which is 0.50 * 80 = 40.\nNext, we calculate 20% of 40, which is 0.20 * 40 = 8.\nSo, 20% of 50% of 80 is 8.\n#### 8\nThe answer is: 8",
+        " To find 20% of 50% of 80, we first find 50% of 80, which is 0.50 * 80 = 40.\nThen, we find 20% of 40, which is 0.20 * 40 = 8.\nSo, 20% of 50% of 80 is 8.\n#### 8\nThe answer is: 8",
+        " To find 20% of 50% of 80, we first need to calculate 50% of 80.\n50% of 80 is (80/100) * (80/100) = 64.\nNext, we need to find 20% of the result we just calculated, which is 64.\n20% of 64 is (20/100) * 64 = 12.8.\nTherefore, 20% of 50% of 80 is 12.8.",
+        " To find 20% of 50% of 80, we can start by finding 50% of 80.\n50% of 80 is (50/100) * 80 = 40.\nSo, 20% of 50% of 80 is (20/100) * 40 = 8.\n#### 8\nThe answer is: 8",
+        " To find 20% of 50% of 80, we first calculate 50% of 80.\n50% of 80 is (50/100) * 80 = 0.5 * 80 = 40.\nThen, we calculate 20% of 40.\n20% of 40 is (20/100) * 40 = 0.2 * 40 = 8.\nSo, 20% of 50% of 80 is 8.\n#### 8\nThe answer is: 8",
+        "  To find 20% of 50% of 80, we first need to find 50% of 80.\n50% of 80 is 50/100 \\* 80 = 0.5 \\* 80 = 40.\nThen, we need to find 20% of 40.\n20% of 40 is 20/100 \\* 40 = 0.2 \\* 40 = 8.\nSo, 20% of 50% of 80 is 8.",
+        " To find 20% of 50% of 80, we first find 50% of 80 and then multiply that result by 20%.",
+        " \nFirst, we need to calculate 50% of 80. \n50% of 80 is (50/100) * 80 = 40.\nNext, we need to calculate 20% of 40. \n20% of 40 is (20/100) * 40 = 8.\nSo, 20% of 50% of 80 is 8.",
+        " \nTo find 20% of 50% of 80, we first need to calculate 50% of 80. The expression for 50% of 80 can be written as:\n50% of 80 = (50/100) \\* 80 = 0.5 \\* 80 = 40\nNow that we know that 50% of 80 is 40, we can find 20% of 40:\n20% of 40 = (20/100) \\* 40 = 0.2 \\* 40 = 8\nTherefore, 20% of 50% of 80 is 8.",
+        " To find 20% of 50% of 80, we first calculate 50% of 80.\n50% of 80 is (50/100) \\* 80 = 0.5 \\* 80 = 40.\nNext, we calculate 20% of 40.\n20% of 40 is (20/100) \\* 40 = 0.2 \\* 40 = 8.\nTherefore, 20% of 50% of 80 is 8.\n#### 8\nThe answer is: 8"
+    ],
+    "vllm_answers": [
+        "8",
+        "8",
+        "8",
+        "8",
+        "20",
+        "8",
+        "8",
+        "12.8",
+        "8",
+        "8",
+        "8",
+        "20",
+        "8",
+        "8",
+        "8"
+    ],
+    "vllm_pred_answer": "8"
+}

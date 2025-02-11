@@ -1,0 +1,23 @@
+{
+    "problem": "The operation $\\&$ is defined for positive integers $a$ and $b$ as $a \\& b = \\displaystyle\\frac{\\sqrt{a b + a}}{\\sqrt{a b - b}}$. What is the value of $9 \\& 2$? Express your answer as a common fraction in simplest radical form.",
+    "level": "Level 4",
+    "type": "Algebra",
+    "solution": "We have $9\\&2 = \\frac{\\sqrt{(9)(2)+9}}{\\sqrt{(9)(2)-2}} = \\frac{\\sqrt{27}}{\\sqrt{16}} = \\boxed{\\frac{3\\sqrt{3}}{4}}.$",
+    "prompt": "### Instruction: The operation $\\&$ is defined for positive integers $a$ and $b$ as $a \\& b = \\displaystyle\\frac{\\sqrt{a b + a}}{\\sqrt{a b - b}}$. What is the value of $9 \\& 2$? Express your answer as a common fraction in simplest radical form.\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "We have: \n$$9 \\& 2 = \\frac{\\sqrt{9\\cdot 2 + 9}}{\\sqrt{9\\cdot 2 - 2}} = \\frac{\\sqrt{27}}{\\sqrt{16}} = \\boxed{\\frac{3\\sqrt{3}}{4}}.$$",
+        "We have: \n $$9 \\& 2 = \\frac{\\sqrt{9 \\cdot 2 + 9}}{\\sqrt{9 \\cdot 2 - 2}}$$\n $$= \\frac{\\sqrt{27}}{\\sqrt{16}}$$\n $$= \\frac{3\\sqrt{3}}{4}$$\n \n Therefore, $9 \\& 2 = \\boxed{\\frac{3\\sqrt{3}}{4}}$. \n",
+        "We have $9 \\& 2 = \\frac{\\sqrt{9\\cdot2+9}}{\\sqrt{9\\cdot2-2}} = \\frac{\\sqrt{27}}{\\sqrt{16}} = \\boxed{\\frac{3\\sqrt{3}}{4}}$. \n",
+        "We have that $9 \\& 2 = \\frac{\\sqrt{9 \\cdot 2 + 9}}{\\sqrt{9 \\cdot 2 - 2}} = \\frac{\\sqrt{27}}{\\sqrt{16}} = \\boxed{\\frac{3\\sqrt{3}}{4}}$.",
+        "We have $9 \\& 2 = \\frac{\\sqrt{9 \\cdot 2 + 9}}{\\sqrt{9 \\cdot 2 - 2}} = \\frac{\\sqrt{27}}{\\sqrt{16}} = \\boxed{\\frac{3\\sqrt{3}}{4}}$. \n"
+    ],
+    "pred_answers": "4",
+    "final_pred_answer": [
+        "4",
+        "4",
+        "4",
+        "4",
+        "4"
+    ],
+    "ground_truth": "4"
+}

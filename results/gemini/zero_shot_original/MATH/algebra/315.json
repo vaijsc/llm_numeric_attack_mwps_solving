@@ -1,0 +1,23 @@
+{
+    "problem": "Which of the following has the least value? $$A=\\sqrt{2}, \\quad\nB=\\sqrt[4]{4}, \\quad\nC=\\sqrt[8]{8}.$$ Enter your answer as $A$, $B$, or $C$.",
+    "level": "Level 1",
+    "type": "Algebra",
+    "solution": "If we simplify all of the quantities and make them have a base of 2, it will be easier to compare the values.\n$$\\sqrt{2}=2^{\\frac{1}{2}}$$ $$\\sqrt[4]{4}=4^{\\frac{1}{4}}=(2^2)^{\\frac{1}{4}}=2^{2\\cdot{\\frac{1}{4}}}=2^{\\frac{1}{2}}$$ $$\\sqrt[8]{8}=(2^3)^{\\frac{1}{8}}=2^{3\\cdot{\\frac{1}{8}}}=2^{\\frac{3}{8}}$$\n\nThe first two quantities are equal, while the third quantity is less than the first two. So, our answer is $\\sqrt[8]{8},$ or $\\boxed{C}.$",
+    "prompt": "### Instruction: Which of the following has the least value? $$A=\\sqrt{2}, \\quad\nB=\\sqrt[4]{4}, \\quad\nC=\\sqrt[8]{8}.$$ Enter your answer as $A$, $B$, or $C$.\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "Here's how to determine which value is the least:\n* **Simplify:**\n    *  B = \u221a[4]{4} = 4^(1/4) = 2^(1/2) = \u221a2\n    *  C = \u221a[8]{8} = 8^(1/8) = 2^(3/8)\n* **Compare:**\n    *  A = \u221a2 = 2^(1/2)\n    *  B = \u221a2 = 2^(1/2)\n    *  C = 2^(3/8)\nSince the base is the same (2) in all cases, the value depends on the exponent.  The smaller the exponent, the smaller the value.\n* 3/8 is the largest exponent.\n* 1/2 is the smallest exponent.\n**Therefore, C has the least value.** \n",
+        "Here's how to determine which has the least value:\n* **Simplify:**\n    *  B = \u221a\u2074(4) = 4^(1/4) = 2^(1/2) = \u221a2 \n    *  C = \u221a\u2078(8) = 8^(1/8) = 2^(3/8) \n* **Compare:**\n    * A = \u221a2\n    * B = \u221a2\n    * C = 2^(3/8) \n* **Understanding Exponents:**  Since 3/8 is less than 1/2,  2^(3/8) will be less than 2^(1/2).\n* **Answer:** Therefore, **C** has the least value. \n",
+        "Here's how to determine which value is the least:\n* **Simplify the expressions:**\n   *  A = \u221a2  (This is already simplified)\n   *  B = \u221a[4]{4} = 4^(1/4) = 2^(1/2) = \u221a2 \n   *  C = \u221a[8]{8} = 8^(1/8) = 2^(3/8) \n* **Compare the exponents:**\n   * A and B both have an exponent of 1/2.\n   * C has an exponent of 3/8, which is less than 1/2.\n* **Conclusion:** Since C has the smallest exponent when all the bases are the same (2), it will have the smallest value. \n**Answer:**  **C** \n",
+        "Here's how to break down the problem:\n* **Understanding Roots:**  The notation $\\sqrt[n]{x}$ represents the *nth root* of *x*. For example,  $\\sqrt[4]{4}$ is the fourth root of 4 (the number that, when multiplied by itself four times, equals 4).\n* **Simplifying:**\n    *  **A:** $\\sqrt{2}$ is already in its simplest form.\n    *  **B:** $\\sqrt[4]{4} = 4^{1/4} = (2^2)^{1/4} = 2^{1/2} = \\sqrt{2}$ \n    *  **C:**  $\\sqrt[8]{8} = 8^{1/8} = (2^3)^{1/8} = 2^{3/8}$\n* **Comparing:** We need to compare $\\sqrt{2}$, $\\sqrt{2}$, and $2^{3/8}$.  Since $2^{3/8}$ is a smaller power of 2 than $2^{1/2}$, it has the least value.\n**Answer:**  **C** \n",
+        "Here's how to determine the smallest value:\n* **Simplify the radicals:**\n    *  \u221a2  cannot be simplified further.\n    *  \u221a[4]{4} = 4^(1/4) = (2^2)^(1/4) = 2^(2/4) = 2^(1/2) = \u221a2\n    *  \u221a[8]{8} = 8^(1/8) = (2^3)^(1/8) = 2^(3/8)\n* **Compare the exponents:**\n    * A: \u221a2 = 2^(1/2)\n    * B: \u221a2 = 2^(1/2)\n    * C: 2^(3/8)\n* **Consider the size of the exponents:** 1/2 is greater than 3/8.  Since the base (2) is the same, the smaller exponent results in a smaller value.\n**Answer:**  C has the least value. \n"
+    ],
+    "pred_answers": "2",
+    "final_pred_answer": [
+        "2",
+        "2",
+        "2",
+        "2",
+        "2"
+    ],
+    "ground_truth": "8"
+}

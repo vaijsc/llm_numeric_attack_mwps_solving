@@ -1,0 +1,23 @@
+{
+    "problem": "A sequence starts with the term 2222. Each succeeding term is found by adding 1010 to the previous term. What is the sum of the sixth and seventh terms?",
+    "level": "Level 2",
+    "type": "Algebra",
+    "solution": "The $n$th term of the sequence is $2222+1010(n-1)$.  Therefore, the sum of the sixth and seventh terms is $2222+1010(5)+2222+1010(6)=4444+1010(11)=4444+11110=\\boxed{15554}$.",
+    "prompt": "### Instruction: A sequence starts with the term 2222. Each succeeding term is found by adding 1010 to the previous term. What is the sum of the sixth and seventh terms?\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "Here's how to solve the problem step-by-step:\n**1. Find the sixth term:**\n* The first term is 2222.\n* To find the second term, add 1010: 2222 + 1010 = 3232\n* To find the third term, add 1010: 3232 + 1010 = 4242\n* Continue this pattern to find the sixth term: 4242 + 1010 = 5252 + 1010 = 6262 + 1010 = 7272\n**2. Find the seventh term:**\n*  The sixth term is 7272.\n*  Add 1010 to find the seventh term: 7272 + 1010 = 8282\n**3. Calculate the sum:**\n* Add the sixth and seventh terms: 7272 + 8282 = 15554\n**Therefore, the sum of the sixth and seventh terms is 15554.** \n",
+        "Here's how to solve the problem step-by-step:\n**1. Find the sixth term:**\n*  The second term is 2222 + 1010 = 3232\n*  The third term is 3232 + 1010 = 4242\n*  The fourth term is 4242 + 1010 = 5252\n*  The fifth term is 5252 + 1010 = 6262\n*  The sixth term is 6262 + 1010 = 7272\n**2. Find the seventh term:**\n*  The seventh term is 7272 + 1010 = 8282\n**3. Calculate the sum:**\n*  The sum of the sixth and seventh terms is 7272 + 8282 = 15554\n**Therefore, the sum of the sixth and seventh terms is 15554.** \n",
+        "Here's how to solve the problem step-by-step:\n**1. Find the sixth term:**\n* The second term is 2222 + 1010 = 3232\n* The third term is 3232 + 1010 = 4242\n* The fourth term is 4242 + 1010 = 5252\n* The fifth term is 5252 + 1010 = 6262\n* The sixth term is 6262 + 1010 = 7272\n**2. Find the seventh term:**\n* The seventh term is 7272 + 1010 = 8282\n**3. Calculate the sum:**\n* The sum of the sixth and seventh terms is 7272 + 8282 = 15554\n**Therefore, the sum of the sixth and seventh terms is 15554.** \n",
+        "Here's how to solve the problem step-by-step:\n**1. Find the sixth term:**\n*  The second term is 2222 + 1010 = 3232\n*  The third term is 3232 + 1010 = 4242\n*  The fourth term is 4242 + 1010 = 5252\n*  The fifth term is 5252 + 1010 = 6262\n*  The sixth term is 6262 + 1010 = 7272\n**2. Find the seventh term:**\n* The seventh term is 7272 + 1010 = 8282\n**3. Calculate the sum:**\n* The sum of the sixth and seventh terms is 7272 + 8282 = 15554\n**Therefore, the sum of the sixth and seventh terms is 15554.** \n",
+        "Here's how to solve the problem step-by-step:\n**1. Find the sixth term:**\n* The second term is 2222 + 1010 = 3232\n* The third term is 3232 + 1010 = 4242\n* The fourth term is 4242 + 1010 = 5252\n* The fifth term is 5252 + 1010 = 6262\n* **The sixth term is 6262 + 1010 = 7272**\n**2. Find the seventh term:**\n* **The seventh term is 7272 + 1010 = 8282**\n**3. Calculate the sum:**\n* The sum of the sixth and seventh terms is 7272 + 8282 = **15554**\n**Therefore, the sum of the sixth and seventh terms is 15554.** \n"
+    ],
+    "pred_answers": "15554",
+    "final_pred_answer": [
+        "15554",
+        "15554",
+        "15554",
+        "15554",
+        "15554"
+    ],
+    "ground_truth": "15554"
+}

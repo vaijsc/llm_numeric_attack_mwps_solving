@@ -1,0 +1,23 @@
+{
+    "problem": "Compute $\\tan 315^\\circ$.",
+    "level": "Level 2",
+    "type": "Geometry",
+    "solution": "Let $P$ be the point on the unit circle that is $315^\\circ$ counterclockwise from $(1,0)$, and let $D$ be the foot of the altitude from $P$ to the $x$-axis, as shown below.\n\n[asy]\n\npair A,C,P,O,D;\n\ndraw((0,-1.2)--(0,1.2),p=black+1.2bp,Arrows(0.15cm));\n\ndraw((-1.2,0)--(1.2,0),p=black+1.2bp,Arrows(0.15cm));\n\nA = (1,0);\n\nO= (0,0);\n\nlabel(\"$x$\",(1.2,0),SE);\n\nlabel(\"$y$\",(0,1.2),NE);\n\nP = rotate(315)*A;\n\nD = foot(P,A,-A);\n\ndraw(O--P--D);\n\ndraw(rightanglemark(O,D,P,2));\n\ndraw(Circle(O,1));\n\nlabel(\"$O$\",O,NW);\n\nlabel(\"$P$\",P,SE);\n\n//label(\"$A$\",A,SE);\n\nlabel(\"$D$\",D,N);\n\n[/asy]\n\nTriangle $POD$ is a 45-45-90 triangle, so $DO = DP = \\frac{\\sqrt{2}}{2}$.  Therefore, the coordinates of $P$ are $\\left(\\frac{\\sqrt{2}}{2}, -\\frac{\\sqrt{2}}{2}\\right)$, so $\\tan 315^\\circ = \\frac{\\sin 315^\\circ}{\\cos 315^\\circ} = \\frac{-\\sqrt{2}/2}{\\sqrt{2}/2} = \\boxed{-1}$.",
+    "prompt": "### Instruction: Compute $\\tan 315^\\circ$.\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "### Step 1:  Find the reference angle.\n* The reference angle is the acute angle formed between the terminal side of the angle and the x-axis. \n* Since 315\u00b0 is in the fourth quadrant, the reference angle is 360\u00b0 - 315\u00b0 = 45\u00b0.\n### Step 2: Determine the sign of the tangent.\n* Tangent is negative in the fourth quadrant.\n### Step 3:  Calculate the tangent of the reference angle.\n* We know that tan 45\u00b0 = 1.\n### Step 4: Combine the sign and the value.\n* Since tangent is negative in the fourth quadrant, tan 315\u00b0 = **-1**. \n",
+        "Here's how to compute tan 315\u00b0:\n**1. Finding the Reference Angle:**\n*  315\u00b0 lies in the fourth quadrant. \n*  To find the reference angle, subtract 315\u00b0 from 360\u00b0:  360\u00b0 - 315\u00b0 = 45\u00b0\n**2. Tangent in the Fourth Quadrant:**\n* Tangent is negative in the fourth quadrant.\n**3.  Finding tan 45\u00b0:**\n*  We know tan 45\u00b0 = 1 (from the unit circle or special right triangles)\n**4. Putting it Together:**\n* Since tan 315\u00b0 is negative and has the same magnitude as tan 45\u00b0,  we have: \n   tan 315\u00b0 = -1\n**Therefore, tan 315\u00b0 = -1** \n",
+        "### Response:\n1. **Find the reference angle:** The reference angle for 315\u00b0 is 45\u00b0 (360\u00b0 - 315\u00b0 = 45\u00b0). \n2. **Determine the quadrant:** 315\u00b0 lies in the fourth quadrant.\n3. **Apply the quadrant rule:** In the fourth quadrant, tangent is negative. \n4. **Calculate the tangent:**  We know that tan 45\u00b0 = 1. \n5. **Combine the information:** Since tangent is negative in the fourth quadrant, tan 315\u00b0 = - tan 45\u00b0 = **-1**. \n",
+        "**1.  Find the Reference Angle:**\n   * The reference angle is the acute angle formed between the terminal side of the angle and the x-axis.\n   *  Since 315\u00b0 is in the fourth quadrant, the reference angle is 360\u00b0 - 315\u00b0 = 45\u00b0.\n**2. Determine the Quadrant:**\n   * 315\u00b0 is in the fourth quadrant, where tangent is negative.\n**3. Calculate the Tangent of the Reference Angle:**\n   * tan 45\u00b0 = 1 (This is a standard trigonometric value)\n**4. Apply the Quadrant Sign:**\n   * Since tangent is negative in the fourth quadrant, tan 315\u00b0 = -1.\n**Therefore, tan 315\u00b0 = -1** \n",
+        "### Step 1:  Find the reference angle.\n* The reference angle is the acute angle formed between the terminal side of the angle and the x-axis. \n* Since 315\u00b0 is in the fourth quadrant, the reference angle is 360\u00b0 - 315\u00b0 = 45\u00b0.\n### Step 2: Determine the sign of the tangent.\n* In the fourth quadrant, tangent is negative.\n### Step 3: Calculate the tangent of the reference angle.\n*  We know that tan 45\u00b0 = 1.\n### Step 4: Combine the sign and the tangent value.\n* Since tangent is negative in the fourth quadrant,  tan 315\u00b0 = **-1**. \n"
+    ],
+    "pred_answers": "-1",
+    "final_pred_answer": [
+        "-1",
+        "-1",
+        "-1",
+        "-1",
+        "-1"
+    ],
+    "ground_truth": "-1"
+}

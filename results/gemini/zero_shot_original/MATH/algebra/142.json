@@ -1,0 +1,23 @@
+{
+    "problem": "Solve for $a$: $\\dfrac{8^{-1}}{4^{-1}}-a^{-1}=1$.",
+    "level": "Level 2",
+    "type": "Algebra",
+    "solution": "First, we simplify the left side, using the exponent rule $x^{-1} = \\frac1x$.  We have  \\[\n\\frac{8^{-1}}{4^{-1}} - a^{-1} = \\frac{1/8}{1/4} - \\frac1a = \\frac18\\cdot \\frac41 -\\frac{1}{a}= \\frac{1}{2} - \\frac1a,\n\\] so we can write the original equation as $\\frac12 - \\frac1a = 1$.  Subtracting $\\frac12$ from both sides gives $-\\frac1a = \\frac12$, and taking the reciprocal of both sides gives $-a = 2$.  Therefore, we have $a = \\boxed{-2}$.",
+    "prompt": "### Instruction: Solve for $a$: $\\dfrac{8^{-1}}{4^{-1}}-a^{-1}=1$.\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "Here's how to solve for 'a' step-by-step:\n1. **Simplify the exponents:**\n   *  Remember that a negative exponent means taking the reciprocal: \n      *  8\u207b\u00b9 = 1/8\n      *  4\u207b\u00b9 = 1/4\n      *  a\u207b\u00b9 = 1/a\n2. **Substitute the simplified values into the equation:**\n   *  (1/8) / (1/4) - (1/a) = 1\n3. **Simplify the division of fractions:** \n   *  Dividing by a fraction is the same as multiplying by its reciprocal. \n      *  (1/8) * (4/1) - (1/a) = 1\n      *  4/8 - 1/a = 1\n      *  1/2 - 1/a = 1\n4. **Isolate the term with 'a':**\n   *  Subtract 1/2 from both sides:\n      *  -1/a = 1/2\n5. **Multiply both sides by -a:**\n   *  1 = -a/2\n6. **Multiply both sides by -2:**\n   *  -2 = a\n**Therefore, a = -2** \n",
+        "1. **Simplify the exponents:**  Remember that a negative exponent means taking the reciprocal. \n   *  $8^{-1} = \\frac{1}{8}$\n   *  $4^{-1} = \\frac{1}{4}$\n2. **Substitute the simplified values:** \n   *  $\\frac{1/8}{1/4} - a^{-1} = 1$\n3. **Divide fractions:** Dividing by a fraction is the same as multiplying by its reciprocal.\n   *  $\\frac{1}{8} \\times \\frac{4}{1} - a^{-1} = 1$\n   *  $\\frac{1}{2} - a^{-1} = 1$\n4. **Isolate the term with 'a':** Subtract $\\frac{1}{2}$ from both sides.\n   *  $-a^{-1} = \\frac{1}{2}$\n5. **Multiply both sides by -1:** \n   *  $a^{-1} = -\\frac{1}{2}$\n6. **Solve for 'a':**  Since $a^{-1} = \\frac{1}{a}$, we can rewrite the equation as:\n   *  $\\frac{1}{a} = -\\frac{1}{2}$\n   *  Therefore, $a = \\boxed{-2}$. \n",
+        "Here's how to solve for *a* step-by-step:\n1. **Simplify the exponents:**\n   *  Remember that a negative exponent means taking the reciprocal. So, 8\u207b\u00b9 = 1/8 and 4\u207b\u00b9 = 1/4.\n2. **Rewrite the equation:**\n   * The equation becomes: (1/8) / (1/4) - a\u207b\u00b9 = 1\n3. **Simplify the division:**\n   * Dividing by a fraction is the same as multiplying by its reciprocal. So, (1/8) / (1/4) = (1/8) * (4/1) = 1/2.\n4. **The equation now looks like this:** \n   * 1/2 - a\u207b\u00b9 = 1\n5. **Isolate the term with *a*:**\n   * Subtract 1/2 from both sides: -a\u207b\u00b9 = 1 - 1/2 = 1/2\n6. **Multiply both sides by -1:**\n   * a\u207b\u00b9 = -1/2\n7. **Take the reciprocal of both sides:**\n   * a = -2\n**Therefore, the solution is a = -2.** \n",
+        "Here's how to solve for 'a':\n1. **Simplify the exponents:**\n   *  8\u207b\u00b9 = 1/8\n   *  4\u207b\u00b9 = 1/4\n2. **Substitute the simplified values:**\n   * (1/8) / (1/4) - a\u207b\u00b9 = 1\n3. **Divide fractions:**\n   * (1/8) * (4/1) - a\u207b\u00b9 = 1\n   * 1/2 - a\u207b\u00b9 = 1\n4. **Isolate the 'a' term:**\n   * -a\u207b\u00b9 = 1 - 1/2\n   * -a\u207b\u00b9 = 1/2\n5. **Multiply both sides by -1:**\n   * a\u207b\u00b9 = -1/2\n6. **Take the reciprocal of both sides:**\n   * a = -2\n**Therefore, the solution is a = -2.** \n",
+        "Here's how to solve for 'a':\n1. **Simplify the exponents:** Remember that a negative exponent means taking the reciprocal. \n   *  8\u207b\u00b9 = 1/8\n   *  4\u207b\u00b9 = 1/4\n2. **Substitute the simplified values:**\n   * (1/8) / (1/4) - a\u207b\u00b9 = 1\n3. **Divide fractions:** Dividing by a fraction is the same as multiplying by its reciprocal.\n   * (1/8) * (4/1) - a\u207b\u00b9 = 1\n   * (1 * 4) / (8 * 1) - a\u207b\u00b9 = 1\n   * 4/8 - a\u207b\u00b9 = 1\n4. **Simplify the fraction:**\n   * 1/2 - a\u207b\u00b9 = 1\n5. **Isolate the term with 'a':**\n   * -a\u207b\u00b9 = 1 - 1/2\n   * -a\u207b\u00b9 = 1/2\n6. **Multiply both sides by -1:**\n   * a\u207b\u00b9 = -1/2\n7. **Take the reciprocal of both sides:** \n   * a = -2\n**Therefore, a = -2** \n"
+    ],
+    "pred_answers": "-2",
+    "final_pred_answer": [
+        "-2",
+        "-2",
+        "-2",
+        "-2",
+        "-2"
+    ],
+    "ground_truth": "-2"
+}

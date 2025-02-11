@@ -1,0 +1,23 @@
+{
+    "problem": "The volume of the cylinder shown is $45\\pi$ cubic cm. What is the height in centimeters of the cylinder? [asy]\nsize(120);\ndraw(shift(2.2,0)*yscale(0.3)*Circle((0,0), 1.2));\n\ndraw((1,0)--(1,-2));\ndraw((3.4,0)--(3.4,-2));\n\ndraw((1,-2)..(2.2,-2.36)..(3.4,-2));\n\nlabel(\"$h$\",midpoint((3.4,0)--(3.4,-2)),E);\n\ndraw (((2.2,0)--(3.4,0)));\n\nlabel(\"$r=3$\",midpoint((2.2,0)--(3.4,0)),N);\n\n[/asy]",
+    "level": "Level 2",
+    "type": "Geometry",
+    "solution": "The volume of the cylinder is $bh=\\pi r^2h$. The radius of the base is $3$ cm, so we have $9\\pi h=45\\pi\\qquad\\Rightarrow h=5$. The height of the cylinder is $\\boxed{5}$ cm.",
+    "prompt": "### Instruction: The volume of the cylinder shown is $45\\pi$ cubic cm. What is the height in centimeters of the cylinder? [asy]\nsize(120);\ndraw(shift(2.2,0)*yscale(0.3)*Circle((0,0), 1.2));\n\ndraw((1,0)--(1,-2));\ndraw((3.4,0)--(3.4,-2));\n\ndraw((1,-2)..(2.2,-2.36)..(3.4,-2));\n\nlabel(\"$h$\",midpoint((3.4,0)--(3.4,-2)),E);\n\ndraw (((2.2,0)--(3.4,0)));\n\nlabel(\"$r=3$\",midpoint((2.2,0)--(3.4,0)),N);\n\n[/asy]\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "Here's how to solve the problem step-by-step:\n**1. Recall the formula for the volume of a cylinder:**\n   The volume (V) of a cylinder is given by:  V = \u03c0r\u00b2h \n   where:\n   * r = radius of the base\n   * h = height of the cylinder\n**2. Identify the given information:**\n   * V = 45\u03c0 cubic cm\n   * r = 3 cm\n**3. Substitute the known values into the volume formula:**\n   45\u03c0 = \u03c0(3)\u00b2h\n**4. Simplify the equation:**\n   45\u03c0 = 9\u03c0h\n**5. Solve for the height (h):**\n   Divide both sides by 9\u03c0:\n   h = 45\u03c0 / 9\u03c0 \n   h = 5 cm\n**Therefore, the height of the cylinder is 5 centimeters.** \n",
+        "Here's how to solve the problem:\n**1. Recall the formula for the volume of a cylinder:**\n   The volume (V) of a cylinder is given by: V = \u03c0r\u00b2h \n   where:\n    * r is the radius of the base\n    * h is the height of the cylinder\n**2. Identify the given information:**\n   * We know the volume (V) is 45\u03c0 cubic cm.\n   * We know the radius (r) is 3 cm.\n**3. Substitute the values into the formula and solve for the height (h):**\n   45\u03c0 = \u03c0(3)\u00b2h\n   45\u03c0 = 9\u03c0h\n**4. Divide both sides by 9\u03c0 to isolate h:**\n   h = (45\u03c0) / (9\u03c0) = 5\n**Therefore, the height of the cylinder is 5 centimeters.** \n",
+        "Here's how to solve the problem step-by-step:\n**1. Recall the formula for the volume of a cylinder:**\n   The volume (V) of a cylinder is given by:  V = \u03c0r\u00b2h \n   where:\n     * r is the radius of the base\n     * h is the height of the cylinder\n**2. Identify the given information:**\n   * V = 45\u03c0 cubic cm\n   * r = 3 cm (from the diagram)\n**3. Substitute the known values into the volume formula:**\n   45\u03c0 = \u03c0(3\u00b2)*h\n**4. Simplify and solve for h:**\n   45\u03c0 = 9\u03c0h\n   h = 45\u03c0 / 9\u03c0\n   h = 5 cm\n**Therefore, the height of the cylinder is 5 centimeters.** \n",
+        "Here's how to solve the problem step-by-step:\n**1. Recall the formula for the volume of a cylinder:**\n   The volume (V) of a cylinder is given by:  V = \u03c0r\u00b2h \n   where:\n    * r is the radius of the base\n    * h is the height of the cylinder\n**2. Identify the given information:**\n   * We know the volume (V) is 45\u03c0 cubic cm.\n   * We know the radius (r) is 3 cm (given in the diagram).\n**3. Substitute the known values into the formula and solve for the height (h):**\n   45\u03c0 = \u03c0(3\u00b2)*h \n   45\u03c0 = 9\u03c0h\n   h = 45\u03c0 / 9\u03c0\n   h = 5 cm\n**Therefore, the height of the cylinder is 5 centimeters.** \n",
+        "Here's how to solve the problem step-by-step:\n**1. Recall the formula for the volume of a cylinder:**\n   The volume (V) of a cylinder is given by: V = \u03c0r\u00b2h \n   where:\n    * r is the radius of the base\n    * h is the height of the cylinder\n**2. Identify the given information:**\n   * V = 45\u03c0 cubic cm\n   * r = 3 cm (from the diagram)\n**3. Substitute the known values into the formula and solve for h:**\n   45\u03c0 = \u03c0 (3)\u00b2 h \n   45\u03c0 = 9\u03c0h\n   h = 45\u03c0 / 9\u03c0\n   h = 5 cm\n**Therefore, the height of the cylinder is 5 centimeters.** \n"
+    ],
+    "pred_answers": "5",
+    "final_pred_answer": [
+        "5",
+        "5",
+        "5",
+        "5",
+        "5"
+    ],
+    "ground_truth": "5"
+}

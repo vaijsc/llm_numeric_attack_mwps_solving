@@ -1,0 +1,23 @@
+{
+    "problem": "Kite $ABCD$ (a quadrilateral with two pairs of adjacent equal sides) has coordinates $A\\ (0,7),\\ B\\ (1,0),\\ C\\ (12,-2),$ and $D\\ (7,8).$ What is the area of $ABCD,$ given that the area of a kite is equal to half the product of its diagonals?\n\n[asy]\nstring sp(pair P, string P2){return \"$\" + P2 + \"\\,(\" + string(P.x) + \",\" + string(P.y) + \")$\";}\nsize(150); defaultpen(fontsize(10)); draw((-5,0)--(15,0),Arrows(4)); draw((0,-5)--(0,10),Arrows(4)); pair A=(0,7),B=(1,0),C=(12,-2),D=(7,8); draw(A--B--C--D--cycle, linewidth(0.7)); draw(A--C, dashed); draw(B--D, dashed); label(sp(A,\"A\"),A,W); label(sp(B,\"B\"),B,S); label(sp(C,\"C\"),C,E); label(sp(D,\"D\"),D,N);\n[/asy]",
+    "level": "Level 3",
+    "type": "Algebra",
+    "solution": "As the problem suggests, we need to compute the lengths of the diagonals $\\overline{AC}$ and $\\overline{BD}$. By the distance formula,\n\n\\begin{align*}\nAC &= \\sqrt{(12 -0)^2 + (-2-7)^2} = \\sqrt{12^2 + 9^2} = 15\\\\\nBD &= \\sqrt{(7-1)^2 + (8-0)^2} = \\sqrt{6^2 + 8^2} = 10\\\\\n\\end{align*}Thus, the answer is $\\frac 12 \\cdot 10 \\cdot 15 = \\boxed{75}$.\n\nAs an extra challenge, can you figure out why the area of a kite equals half the product of the lengths of its diagonals?",
+    "prompt": "### Instruction: Kite $ABCD$ (a quadrilateral with two pairs of adjacent equal sides) has coordinates $A\\ (0,7),\\ B\\ (1,0),\\ C\\ (12,-2),$ and $D\\ (7,8).$ What is the area of $ABCD,$ given that the area of a kite is equal to half the product of its diagonals?\n\n[asy]\nstring sp(pair P, string P2){return \"$\" + P2 + \"\\,(\" + string(P.x) + \",\" + string(P.y) + \")$\";}\nsize(150); defaultpen(fontsize(10)); draw((-5,0)--(15,0),Arrows(4)); draw((0,-5)--(0,10),Arrows(4)); pair A=(0,7),B=(1,0),C=(12,-2),D=(7,8); draw(A--B--C--D--cycle, linewidth(0.7)); draw(A--C, dashed); draw(B--D, dashed); label(sp(A,\"A\"),A,W); label(sp(B,\"B\"),B,S); label(sp(C,\"C\"),C,E); label(sp(D,\"D\"),D,N);\n[/asy]\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "1. **Find the lengths of the diagonals.** \n   * Diagonal AC:  Use the distance formula:  \n     \u221a[(12-0)\u00b2 + (-2-7)\u00b2] = \u221a(12\u00b2 + 9\u00b2) = \u221a225 = 15\n   * Diagonal BD:  Use the distance formula:\n     \u221a[(7-1)\u00b2 + (8-0)\u00b2] = \u221a(6\u00b2 + 8\u00b2) = \u221a100 = 10\n2. **Apply the area formula for a kite.**\n   * Area = (1/2) * (AC) * (BD) \n   * Area = (1/2) * 15 * 10\n   * Area = **75**\nTherefore, the area of kite ABCD is **75 square units**. \n",
+        "1. **Find the lengths of the diagonals:**\n   - Diagonal AC:  Use the distance formula:  \n      \u221a((12-0)\u00b2 + (-2-7)\u00b2) = \u221a(12\u00b2 + 9\u00b2) = \u221a225 = 15\n   - Diagonal BD: Use the distance formula: \n      \u221a((7-1)\u00b2 + (8-0)\u00b2) = \u221a(6\u00b2 + 8\u00b2) = \u221a100 = 10\n2. **Apply the kite area formula:**\n   - Area of kite ABCD = (1/2) * AC * BD = (1/2) * 15 * 10 = 75\n**Therefore, the area of kite ABCD is 75 square units.** \n",
+        "1. **Find the length of the diagonals:**\n   * **AC:**  Use the distance formula: \n      \u221a[(12 - 0)^2 + (-2 - 7)^2] = \u221a(144 + 81) = \u221a225 = 15\n   * **BD:** Use the distance formula:\n      \u221a[(7 - 1)^2 + (8 - 0)^2] = \u221a(36 + 64) = \u221a100 = 10\n2. **Calculate the area:**\n   * Area of kite = (1/2) * (diagonal 1) * (diagonal 2)\n   * Area of kite = (1/2) * 15 * 10 = 75\n**Therefore, the area of kite ABCD is 75 square units.** \n",
+        "1. **Find the lengths of the diagonals:**\n   - Diagonal AC:  Use the distance formula:  \n     \u221a((12-0)\u00b2 + (-2-7)\u00b2) = \u221a(12\u00b2 + 9\u00b2) = \u221a225 = 15\n   - Diagonal BD:  Use the distance formula:\n     \u221a((7-1)\u00b2 + (8-0)\u00b2) = \u221a(6\u00b2 + 8\u00b2) = \u221a100 = 10\n2. **Calculate the area:**\n   - Area of kite = (1/2) * (AC) * (BD) = (1/2) * 15 * 10 = **75**\nTherefore, the area of kite ABCD is **75 square units**. \n",
+        "1. **Find the lengths of the diagonals:**\n   - Diagonal AC:  Using the distance formula,  AC =  \u221a[(12-0)\u00b2 + (-2-7)\u00b2] = \u221a(144 + 81) = \u221a225 = 15.\n   - Diagonal BD:  Using the distance formula, BD = \u221a[(7-1)\u00b2 + (8-0)\u00b2] = \u221a(36 + 64) = \u221a100 = 10.\n2. **Calculate the area:**\n   - Area of kite = (1/2) * AC * BD = (1/2) * 15 * 10 = 75.\nTherefore, the area of kite ABCD is **75 square units**. \n"
+    ],
+    "pred_answers": "75",
+    "final_pred_answer": [
+        "75",
+        "75",
+        "75",
+        "75",
+        "75"
+    ],
+    "ground_truth": "75"
+}

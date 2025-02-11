@@ -1,0 +1,23 @@
+{
+    "problem": "If $60$ miles per hour is $88$ feet per second, how many feet per second is $66$ miles per hour? Express your answer as a decimal to the nearest tenth.",
+    "level": "Level 2",
+    "type": "Algebra",
+    "solution": "We have $60 \\text{ miles per hour} = 88 \\text{ feet per second}$. Multiplying both sides by $66/60$, we have $66 \\text{ miles per hour} = \\frac{66}{60} \\cdot 88 \\text{ feet per second} = \\boxed{96.8} \\text{ feet per second}$.",
+    "prompt": "### Instruction: If $60$ miles per hour is $88$ feet per second, how many feet per second is $66$ miles per hour? Express your answer as a decimal to the nearest tenth.\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "Here's how to solve the problem step-by-step:\n* **Find the conversion factor:**  We know 60 miles per hour is equivalent to 88 feet per second. This means that every 1 mile per hour is equal to 88/60 feet per second.\n* **Simplify the conversion factor:**  Divide both the numerator and denominator of 88/60 by their greatest common factor, 4. This gives us a conversion factor of 22/15 feet per second per mile per hour.\n* **Multiply to find the new speed:**  Multiply the conversion factor by the new speed (66 miles per hour):  (22/15 feet per second per mile per hour) * (66 miles per hour) = 96.8 feet per second.\n**Therefore, 66 miles per hour is approximately 96.8 feet per second.** \n",
+        "Here's how to solve the problem step-by-step:\n**1. Find the conversion factor:**\n* We know 60 miles per hour is equal to 88 feet per second.  This gives us a conversion factor: \n   * 60 miles/hour = 88 feet/second\n**2. Set up a proportion:**\n* We want to find the speed in feet per second for 66 miles per hour. Let 'x' represent the unknown speed.  We can set up a proportion:\n   * 60 miles/hour / 88 feet/second = 66 miles/hour / x feet/second\n**3. Solve for x:**\n* Cross-multiply: \n   * 60 * x = 66 * 88\n* Simplify: \n   * 60x = 5808\n* Divide both sides by 60:\n   * x = 96.8 \n**Answer:** 66 miles per hour is approximately **96.8** feet per second. \n",
+        "Here's how to solve the problem step-by-step:\n**1.  Find the conversion factor:**\n* We know 60 miles per hour is equal to 88 feet per second.  This means there's a conversion factor between miles per hour and feet per second.\n**2.  Set up a proportion:**\n* Let 'x' represent the number of feet per second that corresponds to 66 miles per hour. \n* We can set up a proportion:  \n   ```\n   60 miles/hour / 88 feet/second = 66 miles/hour / x feet/second \n   ```\n**3. Solve for x:**\n* Cross-multiply: 60x = 66 * 88\n* Simplify: 60x = 5808\n* Divide both sides by 60: x = 96.8\n**Answer:** 66 miles per hour is approximately **96.8** feet per second. \n",
+        "Here's how to solve this problem:\n**1. Find the conversion factor:**\n* We know 60 miles per hour is equal to 88 feet per second.  This means that for every 60 miles per hour, there are 88 feet per second.\n**2. Set up a proportion:**\n* Let 'x' represent the number of feet per second equivalent to 66 miles per hour.  Our proportion is:\n   ```\n   60 miles/hour  :  88 feet/second  =  66 miles/hour : x feet/second\n   ```\n**3. Solve for 'x':**\n* Cross-multiply: 60 * x = 66 * 88\n* Simplify: 60x = 5808\n* Divide both sides by 60: x = 96.8\n**Answer:** 66 miles per hour is approximately **96.8** feet per second. \n",
+        "Here's how to solve the problem:\n**1. Find the conversion factor:**\n* We know 60 miles per hour is equivalent to 88 feet per second. This means there's a conversion factor between miles per hour and feet per second. \n**2. Determine the relationship:**\n* Since 66 miles per hour is slightly more than 60 miles per hour, we know the speed in feet per second will also be slightly more than 88 feet per second.\n**3. Set up a proportion:**\n*  Let 'x' represent the speed in feet per second for 66 miles per hour. We can set up a proportion:\n   ```\n   60 miles/hour  :  88 feet/second  =  66 miles/hour : x feet/second\n   ```\n**4. Solve for x:**\n* Cross-multiply: \n   60 * x = 88 * 66\n* Simplify: \n   60x = 5808\n* Divide both sides by 60:\n   x = 96.8 \n**Answer:** 66 miles per hour is approximately **96.8** feet per second. \n"
+    ],
+    "pred_answers": "66",
+    "final_pred_answer": [
+        "96.8",
+        "66",
+        "66",
+        "66",
+        "66"
+    ],
+    "ground_truth": "96.8"
+}

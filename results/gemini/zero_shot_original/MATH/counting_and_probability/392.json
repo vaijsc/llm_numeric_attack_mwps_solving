@@ -1,0 +1,23 @@
+{
+    "problem": "How many distinct six-letter rearrangements of the word ``Hawaii\" can I form?",
+    "level": "Level 2",
+    "type": "Counting & Probability",
+    "solution": "If every letter of ``Hawaii\" were different, there would be $6! = 6\\cdot 5 \\cdots 2 \\cdot 1$ distinct six-letter rearrangements, since for the first letter of the rearrangement there would be six letters to choose from, for the second there would be five, etc. However, ``Hawaii\" contains two copies of the letter $a$ and two copies of the letter $i$. Thus, we must divide by $2$ to eliminate the overcounting we get from two indistinguishable $a$'s, and we must divide by $2$ again to eliminate the overcounting we get from two indistinguishable $i$'s. Our final count is therefore $\\frac{6!}{2\\cdot 2}$. Canceling the $4$ top and bottom gives $6\\cdot 5 \\cdot 3 \\cdot 2 = 30 \\cdot 6 = \\boxed{180}$.",
+    "prompt": "### Instruction: How many distinct six-letter rearrangements of the word ``Hawaii\" can I form?\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "Here's how to solve this problem:\n**1. Count the letters:**\n* The word \"Hawaii\" has 6 letters.\n**2. Identify repeated letters:**\n* The letter 'a' appears twice.\n**3. Calculate the factorial:**\n* If all letters were unique, we would have 6! (6 factorial) ways to arrange them, which is 6 * 5 * 4 * 3 * 2 * 1 = 720.\n**4. Account for repetitions:**\n* Since the letter 'a' appears twice, we've overcounted the arrangements. We need to divide our initial result by 2! (2 factorial) to correct this. 2! = 2 * 1 = 2.\n**5. Calculate the final answer:**\n* The number of distinct six-letter rearrangements of \"Hawaii\" is 720 / 2 = **360**. \n",
+        "Here's how to solve this problem:\n**1. Count the letters:**\n* The word \"Hawaii\" has 6 letters.\n**2. Identify repeated letters:**\n* The letter 'a' appears twice.\n**3. Calculate the total possible arrangements:**\n* If all letters were unique, there would be 6! (6 factorial) ways to arrange them: 6 * 5 * 4 * 3 * 2 * 1 = 720.\n**4. Adjust for repetitions:**\n* Since 'a' appears twice, we've overcounted the arrangements. We need to divide the initial count by 2! (2 factorial) to correct for this: 720 / (2 * 1) = 360.\n**Therefore, there are 360 distinct six-letter rearrangements of the word \"Hawaii\".** \n",
+        "Here's how to figure out the number of distinct rearrangements of \"Hawaii\":\n**1. Count the letters:**\n* There are 6 letters in the word \"Hawaii\".\n**2. Consider repetitions:**\n* The letter 'a' appears twice.\n**3. Formula:**\n* The number of distinct rearrangements of *n* objects, where *k* of them are identical, is given by  n! / (k!). \n**4. Apply the formula:**\n* In our case, we have 6 letters (n = 6) and 2 'a's (k = 2).  \n* So, the number of rearrangements is 6! / (2!) = 720 / 2 = 360.\n**Therefore, there are 360 distinct six-letter rearrangements of the word \"Hawaii\".** \n",
+        "Here's how to solve this problem:\n**1. Count the Letters:**\n* We have 6 letters in the word \"Hawaii\".\n**2.  Identify Repeated Letters:**\n* The letter \"a\" appears twice.\n**3.  The Formula:**\n* The number of distinct rearrangements of *n* objects, where some objects are identical, is calculated as: \n   n! / (n1! * n2! * ... * nk!) \n   Where:\n      * n is the total number of objects\n      * n1, n2, ... nk are the counts of each type of identical object\n**4.  Apply the Formula:**\n*  n = 6 (total letters)\n*  n1 = 2 (number of \"a\"s)\n*  Therefore, the number of distinct rearrangements is:  6! / (2!) = 720 / 2 = **360**\n**Answer:** You can form 360 distinct six-letter rearrangements of the word \"Hawaii\". \n",
+        "Here's how to solve this:\n* **Count the letters:** The word \"Hawaii\" has 6 letters.\n* **Identify repetitions:**  The letter \"a\" appears twice.\n* **Formula:** The number of distinct rearrangements of *n* objects, where some are identical, is given by:  n! / (n1! * n2! * ... * nk!) \n    *  n is the total number of objects.\n    *  n1, n2, ... nk are the counts of each type of identical object.\n**Applying the formula:**\n* n = 6 (total letters)\n* n1 = 2 (number of \"a\"s)\nSo, the number of distinct rearrangements is: 6! / (2!) = 720 / 2 = **360**\n**Therefore, there are 360 distinct six-letter rearrangements of the word \"Hawaii\".** \n"
+    ],
+    "pred_answers": "360",
+    "final_pred_answer": [
+        "360",
+        "360",
+        "360",
+        "360",
+        "360"
+    ],
+    "ground_truth": "180"
+}

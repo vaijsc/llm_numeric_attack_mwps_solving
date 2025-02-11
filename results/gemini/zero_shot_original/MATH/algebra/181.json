@@ -1,0 +1,23 @@
+{
+    "problem": "A tree is now 12 feet tall and grows 18 inches a year. In how many years will the tree be 36 feet tall?",
+    "level": "Level 2",
+    "type": "Algebra",
+    "solution": "From 12 feet to 36 feet, the tree will grow 24 feet.  If it grows at a rate of 1.5 feet per year, then it will take the tree $\\frac{24}{1.5}=\\boxed{16}$ years to reach a height of 36 feet.",
+    "prompt": "### Instruction: A tree is now 12 feet tall and grows 18 inches a year. In how many years will the tree be 36 feet tall?\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "Here's how to solve this problem step-by-step:\n1. **Find the difference in height:** The tree needs to grow 36 feet - 12 feet = 24 feet taller.\n2. **Convert inches to feet:** Since the growth rate is in inches, convert 18 inches to feet: 18 inches / 12 inches/foot = 1.5 feet per year.\n3. **Calculate the number of years:** Divide the total height difference by the yearly growth: 24 feet / 1.5 feet/year = 16 years.\n**Answer:** It will take the tree 16 years to reach 36 feet tall. \n",
+        "Here's how to solve this problem step-by-step:\n**1. Figure out how much the tree needs to grow:**\n* The tree needs to grow from 12 feet to 36 feet, so it needs to grow 36 - 12 = 24 feet.\n**2. Convert the growth rate to feet:**\n* The tree grows 18 inches a year. There are 12 inches in a foot, so the tree grows 18 / 12 = 1.5 feet per year.\n**3. Calculate the number of years:**\n* Divide the total growth needed by the growth rate per year: 24 feet / 1.5 feet/year = 16 years.\n**Answer:** It will take the tree **16 years** to reach a height of 36 feet. \n",
+        "Here's how to solve this problem step-by-step:\n**1. Determine the growth needed:**\n* The tree needs to grow from 12 feet to 36 feet, a difference of 36 - 12 = 24 feet.\n**2. Convert growth to inches:**\n* Since the growth rate is in inches, convert the needed growth to inches: 24 feet * 12 inches/foot = 288 inches.\n**3. Calculate the number of years:**\n* Divide the total growth needed by the annual growth rate: 288 inches / 18 inches/year = 16 years.\n**Answer:** It will take **16 years** for the tree to reach 36 feet tall. \n",
+        "Here's how to solve the problem step-by-step:\n**1. Figure out how much the tree needs to grow:**\n* The tree needs to grow from 12 feet to 36 feet, so it needs to grow 36 - 12 = 24 feet.\n**2. Convert the growth rate to feet:**\n* The tree grows 18 inches per year, and there are 12 inches in a foot. So, the tree grows 18 inches / 12 inches/foot = 1.5 feet per year.\n**3. Calculate the number of years:**\n* To grow 24 feet at a rate of 1.5 feet per year, it will take 24 feet / 1.5 feet/year = 16 years.\n**Answer:** It will take the tree **16 years** to reach 36 feet tall. \n",
+        "Here's how to solve this problem step-by-step:\n1. **Find the difference in height:** The tree needs to grow 36 feet - 12 feet = 24 feet taller.\n2. **Convert feet to inches:** Since the growth rate is in inches, convert 24 feet to inches: 24 feet * 12 inches/foot = 288 inches.\n3. **Calculate the number of years:** Divide the total growth needed by the annual growth rate: 288 inches / 18 inches/year = 16 years.\n**Answer:** It will take the tree **16 years** to reach 36 feet tall. \n"
+    ],
+    "pred_answers": "16",
+    "final_pred_answer": [
+        "16",
+        "16",
+        "16",
+        "16",
+        "16"
+    ],
+    "ground_truth": "36"
+}

@@ -1,0 +1,23 @@
+{
+    "problem": "Evaluate: $102^2 - 98^2$",
+    "level": "Level 1",
+    "type": "Algebra",
+    "solution": "This factors as a difference of squares into $(102-98)(102+98)=4\\cdot200=\\boxed{800}$.",
+    "prompt": "### Instruction: Evaluate: $102^2 - 98^2$\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "To evaluate \\( 102^2 - 98^2 \\), we can use the difference of squares formula, which states:\n\\[\na^2 - b^2 = (a - b)(a + b)\n\\]\nIn this case, we can set \\( a = 102 \\) and \\( b = 98 \\).\nNow we calculate \\( a - b \\) and \\( a + b \\):\n\\[\na - b = 102 - 98 = 4\n\\]\n\\[\na + b = 102 + 98 = 200\n\\]\nSubstituting these values into the difference of squares formula gives us:\n\\[\n102^2 - 98^2 = (102 - 98)(102 + 98) = 4 \\times 200\n\\]\nNow, we calculate \\( 4 \\times 200 \\):\n\\[\n4 \\times 200 = 800\n\\]\nThus, the value of \\( 102^2 - 98^2 \\) is:\n\\[\n\\boxed{800}\n\\]",
+        "To evaluate \\( 102^2 - 98^2 \\), we can use the difference of squares formula, which states that:\n\\[\na^2 - b^2 = (a - b)(a + b)\n\\]\nIn our case, let \\( a = 102 \\) and \\( b = 98 \\). Now we can substitute these values into the formula:\n\\[\n102^2 - 98^2 = (102 - 98)(102 + 98)\n\\]\nNext, we calculate \\( 102 - 98 \\) and \\( 102 + 98 \\):\n\\[\n102 - 98 = 4\n\\]\n\\[\n102 + 98 = 200\n\\]\nNow we can substitute back into the difference of squares expression:\n\\[\n102^2 - 98^2 = 4 \\times 200\n\\]\nNow, perform the multiplication:\n\\[\n4 \\times 200 = 800\n\\]\nThus, the final result for \\( 102^2 - 98^2 \\) is:\n\\[\n\\boxed{800}\n\\]",
+        "To evaluate \\( 102^2 - 98^2 \\), we can apply the difference of squares formula, which states:\n\\[\na^2 - b^2 = (a-b)(a+b)\n\\]\nIn our case, let \\( a = 102 \\) and \\( b = 98 \\). Plugging these values into the formula, we have:\n\\[\n102^2 - 98^2 = (102 - 98)(102 + 98)\n\\]\nNow, let's calculate \\( 102 - 98 \\) and \\( 102 + 98 \\):\n\\[\n102 - 98 = 4\n\\]\n\\[\n102 + 98 = 200\n\\]\nNow substituting these results back into our expression gives:\n\\[\n102^2 - 98^2 = 4 \\times 200\n\\]\nCalculating \\( 4 \\times 200 \\):\n\\[\n4 \\times 200 = 800\n\\]\nThus, the value of \\( 102^2 - 98^2 \\) is \n\\[\n\\boxed{800}\n\\]",
+        "To evaluate \\(102^2 - 98^2\\), we can use the difference of squares formula, which states that:\n\\[\na^2 - b^2 = (a - b)(a + b)\n\\]\nHere, let \\(a = 102\\) and \\(b = 98\\). Thus, we can calculate:\n1. **Calculate \\(a - b\\) and \\(a + b\\)**:\n   \\[\n   a - b = 102 - 98 = 4\n   \\]\n   \\[\n   a + b = 102 + 98 = 200\n   \\]\n2. **Apply the difference of squares formula**:\n   \\[\n   102^2 - 98^2 = (102 - 98)(102 + 98) = 4 \\times 200\n   \\]\n3. **Final multiplication**:\n   \\[\n   4 \\times 200 = 800\n   \\]\nTherefore, the value of \\(102^2 - 98^2\\) is \\( \\boxed{800} \\).",
+        "To evaluate \\( 102^2 - 98^2 \\), we can use the difference of squares formula, which states that for any two numbers \\( a \\) and \\( b \\):\n\\[\na^2 - b^2 = (a-b)(a+b)\n\\]\nIn our case, let \\( a = 102 \\) and \\( b = 98 \\). Therefore, we can find \\( a-b \\) and \\( a+b \\):\n\\[\na - b = 102 - 98 = 4\n\\]\n\\[\na + b = 102 + 98 = 200\n\\]\nNow we can substitute these values into the difference of squares formula:\n\\[\n102^2 - 98^2 = (102 - 98)(102 + 98) = 4 \\times 200\n\\]\nCalculating that gives:\n\\[\n4 \\times 200 = 800\n\\]\nThus, the value of \\( 102^2 - 98^2 \\) is \n\\[\n\\boxed{800}\n\\]"
+    ],
+    "pred_answers": "800",
+    "final_pred_answer": [
+        "800",
+        "800",
+        "800",
+        "800",
+        "800"
+    ],
+    "ground_truth": "800"
+}

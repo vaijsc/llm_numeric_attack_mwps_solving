@@ -1,0 +1,23 @@
+{
+    "problem": "If a drip of water is equivalent to $\\frac{1}{4}$ of a milliliter, how many drips are in a liter of water? Note: 1 liter = 1000 milliliters.",
+    "level": "Level 1",
+    "type": "Algebra",
+    "solution": "If a drip of water is equivalent to $\\frac{1}{4}$ of a milliliter, then $4$ drips of water must be equivalent to $1$ milliliter of water. Since there are $1000$ milliliters in a liter, it follows that there are $4 \\times 1000 = \\boxed{4000}$ drips in a liter of water.",
+    "prompt": "### Instruction: If a drip of water is equivalent to $\\frac{1}{4}$ of a milliliter, how many drips are in a liter of water? Note: 1 liter = 1000 milliliters.\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "Here's how to solve this problem step-by-step:\n1. **Find out how many milliliters are in a liter:** We know 1 liter = 1000 milliliters.\n2. **Determine how many drips make up 1 milliliter:** Since 1 drip = 1/4 milliliter, then 1 milliliter = 4 drips.\n3. **Calculate the total number of drips in a liter:** Multiply the number of drips per milliliter by the number of milliliters in a liter: 4 drips/milliliter * 1000 milliliters = 4000 drips.\n**Answer:** There are **4000** drips in a liter of water. \n",
+        "Here's how to solve the problem step-by-step:\n* **1 liter is equal to 1000 milliliters:**  We know this from the given information.\n* **Each drip is 1/4 of a milliliter:**  This is also given in the problem.\n* **Find how many 1/4 milliliters are in 1000 milliliters:** To do this, we divide the total milliliters by the size of each drip: 1000 milliliters / (1/4 milliliter/drip) = 4000 drips.\n**Therefore, there are 4000 drips in a liter of water.** \n",
+        "Here's how to solve the problem step-by-step:\n1. **Find out how many milliliters are in one drip:** Since one drip is equal to 1/4 of a milliliter, we can write this as 0.25 milliliters per drip.\n2. **Divide the total volume (1 liter) by the volume per drip:** We know 1 liter is equal to 1000 milliliters. To find the number of drips in 1 liter, we divide the total volume by the volume per drip:\n   1000 milliliters / 0.25 milliliters/drip = **4000 drips**\n**Therefore, there are 4000 drips in a liter of water.** \n",
+        "Here's how to solve the problem:\n**1.  Find the number of milliliters in one drip:**\n* We know one drip is equal to 1/4 of a milliliter.\n**2. Divide the total milliliters by the milliliters per drip:**\n* Since 1 liter is equal to 1000 milliliters, divide 1000 milliliters by (1/4) milliliter/drip:\n   * 1000 milliliters / (1/4) milliliter/drip = 4000 drips\n**Therefore, there are 4000 drips in a liter of water.** \n",
+        "Here's how to solve this problem:\n**1.  Find out how many milliliters are in one drip:**\n* Since one drip is equal to 1/4 of a milliliter, we can write this as: 1 drip = 0.25 milliliters\n**2.  Divide the total milliliters by the milliliters per drip:**\n* We have 1 liter of water, which is equal to 1000 milliliters.\n* To find the number of drips, divide the total milliliters (1000) by the milliliters per drip (0.25): 1000 milliliters / 0.25 milliliters/drip = 4000 drips\n**Answer:** There are **4000** drips in a liter of water. \n"
+    ],
+    "pred_answers": "4000",
+    "final_pred_answer": [
+        "4000",
+        "4000",
+        "4000",
+        "4000",
+        "4000"
+    ],
+    "ground_truth": "4000"
+}

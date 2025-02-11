@@ -1,0 +1,23 @@
+{
+    "problem": "Let $P(x) = 4x^3 - 2x^2 + 7x - 1$, and let $Q(x) = P(x)^2$. What is the y-intercept of $Q(x)$?",
+    "level": "Level 4",
+    "type": "Algebra",
+    "solution": "The y-intercept of a function is the value of the function when $x = 0$. Thus, we want to find the value of $Q(0) = P(0)^2$. Now, $P(0) = 4(0)^3-2(0)^2+7(0)-1=-1$, so it follows that $Q(0) = (-1)^2 = \\boxed{1}$.",
+    "prompt": "### Instruction: Let $P(x) = 4x^3 - 2x^2 + 7x - 1$, and let $Q(x) = P(x)^2$. What is the y-intercept of $Q(x)$?\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "Here's how to solve the problem step by step:\n**1. Understand the Problem**\nWe are given a polynomial, P(x), and asked to find the y-intercept of a new polynomial, Q(x), which is defined as the square of P(x).\n**2. Recall the Definition of a y-intercept**\nThe y-intercept of a function is the point where the graph of the function crosses the y-axis. This happens when the x-value is 0.\n**3. Find P(0)**\nLet's find the value of P(x) when x = 0:\n* P(0) = 4(0)^3 - 2(0)^2 + 7(0) - 1 = -1\n**4. Find Q(0)**\nSince Q(x) = P(x)^2, we can find Q(0) by squaring P(0):\n* Q(0) = P(0)^2 = (-1)^2 = 1\n**5. Answer**\nTherefore, the y-intercept of Q(x) is **(0, 1)**. \n",
+        "Here's how to find the y-intercept of Q(x):\n**1. Understanding Y-Intercepts:**\n* The y-intercept of any function is the point where the graph crosses the y-axis. This happens when *x* = 0.\n**2. Finding Q(0):**\n* To find the y-intercept of Q(x), we need to evaluate Q(x) when *x* = 0.\n*  Q(x) = P(x)\u00b2 \n*  Q(0) = P(0)\u00b2\n**3. Evaluating P(0):**\n*  P(x) = 4x\u00b3 - 2x\u00b2 + 7x - 1\n*  P(0) = 4(0)\u00b3 - 2(0)\u00b2 + 7(0) - 1 = -1\n**4. Calculating Q(0):**\n* Q(0) = P(0)\u00b2 = (-1)\u00b2 = 1\n**Answer:** The y-intercept of Q(x) is (0, 1). \n",
+        "Here's how to solve the problem step-by-step:\n1. **Find the y-intercept of P(x):** The y-intercept of any function is the point where the graph crosses the y-axis. This happens when x = 0. So, let's substitute x = 0 into P(x):\n   P(0) = 4(0)^3 - 2(0)^2 + 7(0) - 1 = -1\n   Therefore, the y-intercept of P(x) is -1.\n2. **Find Q(0):**  Q(x) is defined as P(x)^2.  To find the y-intercept of Q(x), we need to find Q(0):\n   Q(0) = P(0)^2 = (-1)^2 = 1\n**Therefore, the y-intercept of Q(x) is 1.** \n",
+        "Here's how to find the y-intercept of Q(x):\n**1. Understand the y-intercept:**\n* The y-intercept of a function is the point where the graph crosses the y-axis. This happens when the x-value is 0.\n**2. Find P(0):**\n* Substitute x = 0 into the expression for P(x):\n   * P(0) = 4(0)^3 - 2(0)^2 + 7(0) - 1 = -1\n**3. Find Q(0):**\n* Since Q(x) = P(x)^2, we can find Q(0) by squaring P(0):\n   * Q(0) = P(0)^2 = (-1)^2 = 1\n**4. The y-intercept:**\n* Therefore, the y-intercept of Q(x) is **(0, 1)**. \n",
+        "Here's how to find the y-intercept of Q(x):\n**1. Understand the y-intercept**\nThe y-intercept of a function is the point where the graph crosses the y-axis. This happens when the x-value is 0.\n**2. Find P(0)**\nTo find the y-intercept of Q(x), we first need to find the y-intercept of P(x).  Substitute x = 0 into the expression for P(x):\nP(0) = 4(0)^3 - 2(0)^2 + 7(0) - 1 = -1\n**3. Calculate Q(0)**\nSince Q(x) = P(x)^2, the y-intercept of Q(x) is found by squaring the y-intercept of P(x):\nQ(0) = [P(0)]^2 = (-1)^2 = 1\n**Answer:** The y-intercept of Q(x) is **(0, 1)**. \n"
+    ],
+    "pred_answers": "1",
+    "final_pred_answer": [
+        "1",
+        "0",
+        "1",
+        "1",
+        "0"
+    ],
+    "ground_truth": "1"
+}

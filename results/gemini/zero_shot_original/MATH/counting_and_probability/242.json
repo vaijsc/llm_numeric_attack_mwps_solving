@@ -1,0 +1,23 @@
+{
+    "problem": "Compute $\\dbinom{85}{82}$.",
+    "level": "Level 2",
+    "type": "Counting & Probability",
+    "solution": "$\\dbinom{85}{82}=\\dbinom{85}{3}=\\dfrac{85\\times 84\\times 83}{3\\times 2\\times 1}=\\boxed{98,\\!770}.$",
+    "prompt": "### Instruction: Compute $\\dbinom{85}{82}$.\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "Here's how to compute $\\binom{85}{82}$ step-by-step:\n**Understanding the Binomial Coefficient**\nThe binomial coefficient $\\binom{n}{k}$ represents the number of ways to choose $k$ objects from a set of $n$ objects, without regard to order. It's calculated as:\n$$\\binom{n}{k} = \\frac{n!}{k!(n-k)!}$$\nwhere \"!\" denotes the factorial (e.g., 5! = 5 * 4 * 3 * 2 * 1).\n**Calculation**\n1. **Substitute:** In our case, we have $n = 85$ and $k = 82$.  Let's substitute these values into the formula:\n   $$\\binom{85}{82} = \\frac{85!}{82!(85-82)!}$$\n2. **Simplify:** \n   $$\\binom{85}{82} = \\frac{85!}{82!3!}$$\n3. **Expand the Factorials:** Remember,  $85! = 85 * 84 * 83 * 82 * 81 * ... * 2 * 1$.  We can cancel out most of the terms:\n   $$\\binom{85}{82} = \\frac{85 * 84 * 83 * \\cancel{82!} }{\\cancel{82!} * 3 * 2 * 1}$$\n4. **Calculate:**\n   $$\\binom{85}{82} = \\frac{85 * 84 * 83}{6} = 95580$$\n**Therefore, $\\binom{85}{82} = 95580$.** \n",
+        "We have that  \n$$\\binom{85}{82} = \\frac{85!}{82!3!} = \\frac{85\\times 84\\times 83}{3\\times 2\\times 1} = \\boxed{102,\\!210}.$$ \n",
+        "We know that:\n$$\\binom{n}{k} = \\frac{n!}{k!(n-k)!}$$\nLet's apply this to our problem:\n$$\\binom{85}{82} = \\frac{85!}{82!(85-82)!}$$\n$$\\binom{85}{82} = \\frac{85!}{82!3!}$$\nWe can simplify the factorial terms:\n$$\\binom{85}{82} = \\frac{85 \\times 84 \\times 83 \\times 82!}{82! \\times 3 \\times 2 \\times 1}$$\nCanceling out the 82! terms:\n$$\\binom{85}{82} = \\frac{85 \\times 84 \\times 83}{3 \\times 2 \\times 1}$$\nFinally, compute the result:\n$$\\binom{85}{82} = 95540$$\nTherefore, $\\dbinom{85}{82} = \\boxed{95540}$. \n",
+        "We have that $\\binom{85}{82} = \\frac{85!}{82!3!} = \\frac{85\\times 84\\times 83}{3\\times 2\\times 1} = \\boxed{102,280}$. \n",
+        "We know that $\\binom{n}{k} = \\frac{n!}{k!(n-k)!}$. \nTherefore, $\\binom{85}{82} = \\frac{85!}{82!(85-82)!} = \\frac{85!}{82!3!}$.\nNow, let's simplify:\n* $85! = 85 \\times 84 \\times 83 \\times 82!$\n* $3! = 3 \\times 2 \\times 1 = 6$\nSubstituting these back into our expression:\n$\\binom{85}{82} = \\frac{85 \\times 84 \\times 83 \\times 82!}{82! \\times 6} = \\frac{85 \\times 84 \\times 83}{6} = \\boxed{95550}$. \n"
+    ],
+    "pred_answers": "95580",
+    "final_pred_answer": [
+        "95580",
+        "210",
+        "95540",
+        "102280",
+        "95550"
+    ],
+    "ground_truth": "770"
+}

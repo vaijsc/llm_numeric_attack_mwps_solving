@@ -1,0 +1,23 @@
+{
+    "problem": "Shooting hoops for 30 minutes burns 150 calories. How many calories would Kendra burn shooting hoops if she shot hoops 30 minutes every day for one week?",
+    "level": "Level 1",
+    "type": "Algebra",
+    "solution": "Since Kendra burns 150 calories every time she shoots hoops for 30 minutes, and she does this activity 7 times during the week, the total calories burned are $150 \\times 7 = \\boxed{1050}$ calories.",
+    "prompt": "### Instruction: Shooting hoops for 30 minutes burns 150 calories. How many calories would Kendra burn shooting hoops if she shot hoops 30 minutes every day for one week?\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "Here's how to solve the problem step-by-step:\n* **Calculate daily calories burned:** Kendra burns 150 calories per 30-minute session.\n* **Calculate weekly calories burned:** There are 7 days in a week, so she'd burn 150 calories/day * 7 days/week = 1050 calories.\n**Answer:** Kendra would burn 1050 calories shooting hoops for 30 minutes each day for one week. \n",
+        "Here's how to solve this:\n* **Days in a week:** There are 7 days in a week.\n* **Calories per day:** Kendra burns 150 calories per 30-minute session.\n* **Total calories:**  To find the total calories burned in a week, multiply the calories per day by the number of days: 150 calories/day * 7 days/week = 1050 calories.\n**Answer:** Kendra would burn 1050 calories shooting hoops for 30 minutes every day for one week. \n",
+        "Here's how to solve the problem:\n* **Days in a week:** There are 7 days in a week.\n* **Calories burned per day:** Kendra burns 150 calories per 30-minute session.\n* **Total calories burned:** 150 calories/day * 7 days/week = 1050 calories\n**Answer:** Kendra would burn 1050 calories shooting hoops for 30 minutes every day for one week. \n",
+        "Here's how to solve the problem step-by-step:\n* **Calories burned per day:** Kendra burns 150 calories per 30-minute session.\n* **Days in a week:** There are 7 days in a week.\n* **Total calories burned:**  150 calories/day * 7 days/week = 1050 calories\n**Answer:** Kendra would burn 1050 calories shooting hoops for 30 minutes every day for one week. \n",
+        "Here's how to solve this:\n* **Days in a week:** There are 7 days in a week.\n* **Calories per day:** Kendra burns 150 calories per 30 minutes of shooting hoops.\n* **Total calories:** To find the total calories burned in a week, multiply the calories burned per day by the number of days in a week: 150 calories/day * 7 days/week = 1050 calories.\n**Answer:** Kendra would burn 1050 calories shooting hoops for 30 minutes every day for one week. \n"
+    ],
+    "pred_answers": "1050",
+    "final_pred_answer": [
+        "1050",
+        "1050",
+        "1050",
+        "1050",
+        "1050"
+    ],
+    "ground_truth": "1050"
+}

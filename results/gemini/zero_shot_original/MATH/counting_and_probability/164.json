@@ -1,0 +1,23 @@
+{
+    "problem": "A team averages 7 losses for every 13 games it wins. If ties are not permitted, what is the probability that the team will win its next game? Express your answer as a percent.",
+    "level": "Level 3",
+    "type": "Counting & Probability",
+    "solution": "If a team averages 7 losses for 13 wins, that means the team wins 13 out of 20 games, and $\\frac{13}{20} = .65$, or $\\boxed{65\\%}$.",
+    "prompt": "### Instruction: A team averages 7 losses for every 13 games it wins. If ties are not permitted, what is the probability that the team will win its next game? Express your answer as a percent.\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "Here's how to solve the problem step-by-step:\n**1. Understand the Ratio:**\n* The ratio of losses to wins is 7:13.  This means for every 7 losses, the team has 13 wins.\n**2. Total Games:**\n*  The total number of games represented in the ratio is 7 (losses) + 13 (wins) = 20 games.\n**3. Probability of Winning:**\n* The probability of winning is the number of wins divided by the total number of games: 13 wins / 20 games = 0.65\n**4. Convert to Percentage:**\n* Multiply the probability by 100%: 0.65 * 100% = 65%\n**Answer:** The probability that the team will win its next game is **65%**. \n",
+        "Here's how to solve the problem:\n**1. Understand the Ratio:**\n* The ratio 7 losses : 13 wins means for every 20 games played, the team loses 7 and wins 13.\n**2. Calculate the Probability of Winning:**\n* The probability of winning is the number of wins divided by the total number of games: 13 wins / 20 games = 0.65\n**3. Convert to Percentage:**\n* Multiply the probability by 100%: 0.65 * 100% = 65%\n**Answer:** The probability that the team will win its next game is **65%**. \n",
+        "Here's how to solve this problem step-by-step:\n**1.  Total Games:**\n* The team plays 7 losses + 13 wins = 20 games in every cycle of wins and losses.\n**2. Probability of Winning:**\n* The team wins 13 games out of every 20 games.\n* The probability of winning a game is (wins / total games) = 13/20\n**3. Convert to Percentage:**\n* (13/20) * 100% = 65%\n**Therefore, the probability that the team will win its next game is 65%.** \n",
+        "Here's how to solve the problem step-by-step:\n* **Total Games:** The team plays 7 losses + 13 wins = 20 games for every 13 wins.\n* **Probability of Winning:** The probability of winning is the number of wins divided by the total number of games: 13 wins / 20 games = 0.65\n* **Percent:** Convert the decimal to a percentage by multiplying by 100: 0.65 * 100 = 65%\n**Therefore, the probability that the team will win its next game is 65%.** \n",
+        "Here's how to solve the problem step-by-step:\n**1. Understand the Ratio:**\n* The ratio of losses to wins is 7:13. This means for every 7 losses, the team wins 13 games.\n**2. Total Games:**\n* The total number of games represented in the ratio is 7 (losses) + 13 (wins) = 20 games.\n**3. Probability of Winning:**\n* The probability of winning is the number of wins divided by the total number of games: 13 wins / 20 games = 0.65\n**4. Convert to Percentage:**\n* Multiply the probability by 100% to express it as a percentage: 0.65 * 100% = 65%\n**Answer:** The probability that the team will win its next game is **65%**. \n"
+    ],
+    "pred_answers": "65",
+    "final_pred_answer": [
+        "65",
+        "65",
+        "65",
+        "65",
+        "65"
+    ],
+    "ground_truth": "65"
+}

@@ -1,0 +1,23 @@
+{
+    "problem": "Find the sum of the coefficients in the polynomial $3(x^{10} - x^7 + 2x^3 - x + 7) + 4(x^3 - 2x^2 - 5)$ when it is simplified.",
+    "level": "Level 4",
+    "type": "Algebra",
+    "solution": "The sum of the coefficients in $3(x^{10} - x^7 + 2x^3 - x + 7) + 4(x^3 - 2x^2 - 5)$ is $3 (1 - 1 + 2 - 1 + 7) + 4(1 - 2 - 5) = 3 \\cdot 8 + 4 \\cdot (-6) = \\boxed{0}$.  (The sum of the coefficients in a polynomial can be found by setting the variable to 1.)",
+    "prompt": "### Instruction: Find the sum of the coefficients in the polynomial $3(x^{10} - x^7 + 2x^3 - x + 7) + 4(x^3 - 2x^2 - 5)$ when it is simplified.\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "Here's how to find the sum of the coefficients:\n**1. Expand the polynomial:**\n* Distribute the 3 and the 4: \n   *  $3x^{10} - 3x^7 + 6x^3 - 3x + 21 + 4x^3 - 8x^2 - 20$\n**2. Combine like terms:**\n* $3x^{10} - 3x^7 + 10x^3 - 8x^2 - 3x + 1$\n**3. Find the sum of the coefficients:**\n* The sum of the coefficients is 3 - 3 + 10 - 8 - 3 + 1 = **0**\n**Therefore, the sum of the coefficients in the simplified polynomial is 0.**\n**Important Note:**  A helpful shortcut for this type of problem is that the sum of the coefficients of a polynomial is equal to the value of the polynomial when *x* = 1.  You could have found the answer quickly by plugging in *x* = 1 into the original expression. \n",
+        "Here's how to solve the problem step-by-step:\n1. **Distribute:**\n   Begin by distributing the constants outside the parentheses:\n   ```\n   3(x^{10} - x^7 + 2x^3 - x + 7) + 4(x^3 - 2x^2 - 5) = \n   3x^{10} - 3x^7 + 6x^3 - 3x + 21 + 4x^3 - 8x^2 - 20 \n   ```\n2. **Combine like terms:**\n   Combine the terms with the same powers of *x*:\n   ```\n   3x^{10} - 3x^7 + (6x^3 + 4x^3) - 8x^2 - 3x + (21 - 20) =\n   3x^{10} - 3x^7 + 10x^3 - 8x^2 - 3x + 1\n   ```\n3. **Sum of coefficients:**\n   The sum of the coefficients is found by adding the numerical values in front of each term:\n   ```\n   3 - 3 + 10 - 8 - 3 + 1 = **9**\n   ```\nTherefore, the sum of the coefficients in the simplified polynomial is **9**. \n",
+        "Here's how to solve the problem step-by-step:\n**1. Distribute the constants:**\n*  3(x\u00b9\u2070 - x\u2077 + 2x\u00b3 - x + 7)  = 3x\u00b9\u2070 - 3x\u2077 + 6x\u00b3 - 3x + 21\n*  4(x\u00b3 - 2x\u00b2 - 5) = 4x\u00b3 - 8x\u00b2 - 20\n**2. Combine like terms:**\nThe simplified polynomial is:\n3x\u00b9\u2070 - 3x\u2077 + 6x\u00b3 + 4x\u00b3 - 8x\u00b2 - 3x + 21 - 20  = 3x\u00b9\u2070 - 3x\u2077 - 8x\u00b2 + 10x\u00b3 - 3x + 1\n**3. Find the sum of the coefficients:**\nThe coefficients are: 3, -3, -8, 10, -3, and 1.\nTheir sum is 3 - 3 - 8 + 10 - 3 + 1 = **0**\n**Therefore, the sum of the coefficients in the simplified polynomial is 0.** \n",
+        "Here's how to solve the problem step-by-step:\n1. **Distribute:** First, distribute the constants outside the parentheses: \n   \n   ```\n   3(x^{10} - x^7 + 2x^3 - x + 7) + 4(x^3 - 2x^2 - 5) \n   = 3x^{10} - 3x^7 + 6x^3 - 3x + 21 + 4x^3 - 8x^2 - 20 \n   ```\n2. **Combine like terms:** Combine the terms with the same powers of *x*:\n   ```\n   3x^{10} - 3x^7 + (6x^3 + 4x^3) - 8x^2 - 3x + (21 - 20)\n   = 3x^{10} - 3x^7 + 10x^3 - 8x^2 - 3x + 1 \n   ```\n3. **Sum of coefficients:** The sum of the coefficients is found by adding all the numbers in front of the *x* terms:\n   ```\n   3 - 3 + 10 - 8 - 3 + 1 = **9** \n   ```\n**Therefore, the sum of the coefficients in the simplified polynomial is 9.** \n",
+        "Here's how to solve the problem step-by-step:\n**1. Distribute:**\nFirst, distribute the constants outside the parentheses:\n```\n3(x^{10} - x^7 + 2x^3 - x + 7) + 4(x^3 - 2x^2 - 5)  = \n3x^{10} - 3x^7 + 6x^3 - 3x + 21 + 4x^3 - 8x^2 - 20 \n```\n**2. Combine Like Terms:**\nNow, combine the terms with the same powers of  'x':\n```\n3x^{10} - 3x^7 + (6x^3 + 4x^3) - 8x^2 - 3x + (21 - 20)  = \n3x^{10} - 3x^7 + 10x^3 - 8x^2 - 3x + 1\n```\n**3. Find the Sum of the Coefficients:**\nThe sum of the coefficients is simply the sum of all the numbers in front of the 'x' terms:\n```\n3 - 3 + 10 - 8 - 3 + 1 = **9**\n```\n**Therefore, the sum of the coefficients in the simplified polynomial is 9.** \n"
+    ],
+    "pred_answers": "9",
+    "final_pred_answer": [
+        "1",
+        "9",
+        "0",
+        "9",
+        "9"
+    ],
+    "ground_truth": "1"
+}

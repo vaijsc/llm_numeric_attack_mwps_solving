@@ -1,0 +1,23 @@
+{
+    "problem": "Let $a$ and $b$ satisfy $ab=7$ and $a+b=5$. What is the value of $a^2 + b^2$?",
+    "level": "Level 2",
+    "type": "Algebra",
+    "solution": "We have two equations and two variables, so it's possible to solve for $a$ and $b$ directly and then calculate $a^2$ and $b^2$ separately to get our answer. However, doing so involves a fair amount of computation with complex numbers and square roots, so we look for an alternative approach. We square the second equation to get $(a+b)^2 = a^2 + 2ab + b^2 = 25$, which is close to what we want but has the extra $2ab$ term. Since we know that $ab=7$, we can substitute to get $$a^2 + 2(7) +b^2 = 25 \\Longrightarrow a^2+b^2 = \\boxed{11}.$$",
+    "prompt": "### Instruction: Let $a$ and $b$ satisfy $ab=7$ and $a+b=5$. What is the value of $a^2 + b^2$?\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "Here's how to solve the problem step-by-step:\n**1. Square the equation  a + b = 5**\n   (a + b)\u00b2 = 5\u00b2\n   a\u00b2 + 2ab + b\u00b2 = 25\n**2. Substitute ab = 7 into the equation**\n   a\u00b2 + 2(7) + b\u00b2 = 25\n   a\u00b2 + b\u00b2 + 14 = 25\n**3. Solve for a\u00b2 + b\u00b2**\n   a\u00b2 + b\u00b2 = 25 - 14\n   a\u00b2 + b\u00b2 = 11\n**Therefore, the value of a\u00b2 + b\u00b2 is 11.** \n",
+        "Here's how to solve the problem step-by-step:\n**1. Square the equation (a + b) = 5**\n   (a + b)\u00b2 = 5\u00b2\n   a\u00b2 + 2ab + b\u00b2 = 25\n**2. Substitute the value of ab = 7**\n   a\u00b2 + 2(7) + b\u00b2 = 25\n   a\u00b2 + 14 + b\u00b2 = 25\n**3. Isolate a\u00b2 + b\u00b2**\n   a\u00b2 + b\u00b2 = 25 - 14\n   a\u00b2 + b\u00b2 = 11\n**Therefore, the value of a\u00b2 + b\u00b2 is 11.** \n",
+        "Here's how to solve this problem step-by-step:\n**1. Square the equation (a + b) = 5:**\n   (a + b)\u00b2 = 5\u00b2\n   a\u00b2 + 2ab + b\u00b2 = 25\n**2. Substitute the value of ab = 7:**\n   a\u00b2 + 2(7) + b\u00b2 = 25\n**3. Simplify:**\n   a\u00b2 + b\u00b2 + 14 = 25\n**4. Isolate a\u00b2 + b\u00b2:**\n   a\u00b2 + b\u00b2 = 25 - 14\n**5. Calculate the final result:**\n   a\u00b2 + b\u00b2 = 11\n**Therefore, the value of a\u00b2 + b\u00b2 is 11.** \n",
+        "Here's how to solve the problem step-by-step:\n**1. Square the equation  a + b = 5:**\n   (a + b)\u00b2 = 5\u00b2 \n   a\u00b2 + 2ab + b\u00b2 = 25\n**2. Substitute the value of ab:**\n   a\u00b2 + 2(7) + b\u00b2 = 25\n**3. Simplify:**\n   a\u00b2 + b\u00b2 + 14 = 25\n**4. Isolate a\u00b2 + b\u00b2:**\n   a\u00b2 + b\u00b2 = 25 - 14\n**5. Calculate the final answer:**\n   a\u00b2 + b\u00b2 = 11\n**Therefore, the value of a\u00b2 + b\u00b2 is 11.** \n",
+        "Here's how to solve the problem step-by-step:\n**1. Square the equation  (a + b) = 5:**\n   (a + b)\u00b2 = 5\u00b2 \n   a\u00b2 + 2ab + b\u00b2 = 25\n**2. Substitute the value of ab = 7:**\n   a\u00b2 + 2(7) + b\u00b2 = 25\n**3. Simplify the equation:**\n   a\u00b2 + b\u00b2 + 14 = 25\n**4. Isolate a\u00b2 + b\u00b2:**\n   a\u00b2 + b\u00b2 = 25 - 14\n**5. Calculate the final answer:**\n   a\u00b2 + b\u00b2 = 11\n**Therefore, the value of a\u00b2 + b\u00b2 is 11.** \n"
+    ],
+    "pred_answers": "11",
+    "final_pred_answer": [
+        "11",
+        "11",
+        "11",
+        "11",
+        "11"
+    ],
+    "ground_truth": "11"
+}

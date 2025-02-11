@@ -1,0 +1,41 @@
+{
+    "index_adversarial_question": 2,
+    "problem": "If $y = 8 - 5x +4x^2$, what is the value of $y$ when $x=3$?",
+    "pcot_answer": "# Define the value of x\nx = 5  ### condition: 'x': {'type': 'int', '<=': None, '>=': None, 'science_constant': False, 'direct_from_question': True}\n# Calculate the value of y using the given equation\ny = 8 - 5 * x + 4 * x**2  ### condition: 'y': {'type': 'float', '<=': None, '>=': None, 'science_constant': False, 'direct_from_question': False}\n# Print the value of y\nprint(f\"The value of y when x = {x} is: {y}\")",
+    "answer": "83",
+    "vllm_responses": [
+        "First, we substitute $x=3$ into the expression for $y$:\n\\[y = 8 - 5(3) + 4(3)^2.\\]\nNext, we simplify the expression:\n\\[y = 8 - 15 + 36.\\]\n\\[y = -7 + 36.\\]\n\\[y = 29.\\]\nTherefore, the value of $y$ when $x=3$ is $\\boxed{29}$.The answer is: 29",
+        "We substitute $x=3$ into the equation $y=8-5x+4x^2$ to find the value of $y$ when $x=3$:\n$y=8-5(3)+4(3)^2$\n$y=8-15+4(9)$\n$y=8-15+36$\n$y=33-15$\n$y=18$\nTherefore, the value of $y$ when $x=3$ is $\\boxed{18}$.The answer is: 18",
+        "To find the value of $y$ when $x=3$, we substitute $x=3$ into the expression for $y$:\n$y=8-5(3)+4(3)^2=8-15+36=8-15+36=\\boxed{17}$.\nThe answer is: 17",
+        "To find the value of $y$ when $x=3$, we substitute $x=3$ into the expression for $y$.\n\\[y = 8 - 5x + 4x^2\\]\n\\[y = 8 - 5(3) + 4(3)^2\\]\n\\[y = 8 - 15 + 36\\]\n\\[y = -7 + 36\\]\n\\[y = \\boxed{29}\\]\nThe answer is: 29",
+        "We substitute $x=3$ into the expression for $y$:\n\\[y = 8 - 5(3) + 4(3^2) = 8 - 15 + 36 = \\boxed{17}.\\]\nThe answer is: 17",
+        "We substitute $x=3$ into the expression for $y$:\n$y = 8 - 5(3) + 4(3)^2$\nSimplifying the expression inside the parentheses:\n$y = 8 - 15 + 4(9)$\n$y = 8 - 15 + 36$\n$y = -7 + 36$\n$y = \\boxed{29}$\nThe answer is: 29",
+        "We substitute $x=3$ into the equation $y=8-5x+4x^2$ to find the value of $y$ when $x=3$.\n$y=8-5(3)+4(3)^2$\n$y=8-15+36$\n$y=37$\nTherefore, the value of $y$ when $x=3$ is $\\boxed{37}$.The answer is: 37",
+        "To find the value of $y$ when $x=3$, we substitute $x=3$ into the equation $y=8-5x+4x^2$.\nWe get $y=8-5(3)+4(3)^2$.\nSimplifying, we have $y=8-15+36$.\nCombining like terms, we get $y=23$.\nTherefore, the value of $y$ when $x=3$ is $\\boxed{23}$.The answer is: 23",
+        "We substitute $x=3$ into the expression for $y$ to find\n$y = 8 - 5(3) + 4(3^2) = 8 - 15 + 36 = \\boxed{17}$.\nThe answer is: 17",
+        "We substitute $x = 3$ into the equation $y = 8 - 5x + 4x^2$:\n$y = 8 - 5(3) + 4(3^2)$.\nSimplifying, we get:\n$y = 8 - 15 + 36$,\n$y = -7 + 36$,\n$y = \\boxed{29}$.\nThe answer is: 29",
+        "We substitute $x=3$ into the equation $y = 8 - 5x + 4x^2$:\n$y = 8 - 5(3) + 4(3^2)$.\nSimplifying, we get:\n$y = 8 - 15 + 36$.\n$y = 23$.\nSo, when $x=3$, $y$ is equal to $\\boxed{23}$.The answer is: 23",
+        "We substitute $x=3$ into the equation $y=8-5x+4x^2$ to find the value of $y$.\n$y=8-5(3)+4(3^2)$\n$y=8-15+36$\n$y=-7+36$\n$y=29$\nTherefore, the value of $y$ when $x=3$ is $\\boxed{29}$.The answer is: 29",
+        "We substitute $x=3$ into the expression for $y$ to find the value of $y$:\n$$y=8-5(3)+4(3)^2=8-15+36=23.$$\nTherefore, the value of $y$ when $x=3$ is $\\boxed{23}$.The answer is: 23",
+        "y$ when $x=3$.\nSubstituting $x=3$ into the equation, we get $y=8-5(3)+4(3)^2$.\nSimplifying, we have $y=8-15+36$.\nFurther simplifying, we get $y=-7+36$.\nFinally, we have $y=\\boxed{29}$.The answer is: 29",
+        "To find the value of $y$ when $x=3$, we substitute $x=3$ into the equation $y=8-5x+4x^2$.\n$y=8-5(3)+4(3)^2$\n$y=8-15+4(9)$\n$y=8-15+36$\n$y=11$\nTherefore, when $x=3$, the value of $y$ is $\\boxed{11}$.The answer is: 11"
+    ],
+    "vllm_answers": [
+        "29",
+        "18",
+        "17",
+        "29",
+        "17",
+        "29",
+        "37",
+        "23",
+        "17",
+        "29",
+        "23",
+        "29",
+        "23",
+        "29",
+        "11"
+    ],
+    "vllm_pred_answer": "29"
+}

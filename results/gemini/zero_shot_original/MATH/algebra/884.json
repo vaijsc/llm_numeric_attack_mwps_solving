@@ -1,0 +1,23 @@
+{
+    "problem": "A $3491$ by $3491$ square has its length decreased by $60$ and its width increased by $60$.  By how much does its area change?",
+    "level": "Level 3",
+    "type": "Algebra",
+    "solution": "The new length is $3491-60$, and the new width is $3491+60$.  Thus, the new area is\n\n$$(3491-60)(3491+60)=3491^2-60^2$$$3491^2$ is the area of the original square.  So the change in area is $60^2=\\boxed{3600}$.",
+    "prompt": "### Instruction: A $3491$ by $3491$ square has its length decreased by $60$ and its width increased by $60$.  By how much does its area change?\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "Here's how to solve the problem step-by-step:\n**1. Calculate the original area:**\n* The original area of the square is side * side = 3491 * 3491 = 12,201,881 square units.\n**2. Calculate the new dimensions:**\n* The new length is 3491 - 60 = 3431 units.\n* The new width is 3491 + 60 = 3551 units.\n**3. Calculate the new area:**\n* The new area is length * width = 3431 * 3551 = 12,201,881 square units.\n**4. Calculate the change in area:**\n* The change in area is new area - original area = 12,201,881 - 12,201,881 = 0 square units.\n**Answer:** The area of the square does not change. \n",
+        "Here's how to solve the problem step-by-step:\n**1. Find the original area:**\n* The original area of the square is side length * side length = 3491 * 3491 = 12,201,881 square units.\n**2. Find the new dimensions:**\n* The new length is 3491 - 60 = 3431 units.\n* The new width is 3491 + 60 = 3551 units.\n**3. Find the new area:**\n* The new area is length * width = 3431 * 3551 = 12,201,881 square units.\n**4. Find the change in area:**\n* The change in area is new area - original area = 12,201,881 - 12,201,881 = 0 square units.\n**Answer:** The area of the square does not change. \n",
+        "Here's how to solve the problem step-by-step:\n**1. Original Area:**\n* The original area of the square is side * side = 3491 * 3491 = 12,200,881 square units.\n**2. New Dimensions:**\n* The new length is 3491 - 60 = 3431 units.\n* The new width is 3491 + 60 = 3551 units.\n**3. New Area:**\n* The new area is length * width = 3431 * 3551 = 12,200,881 square units.\n**4. Change in Area:**\n* The change in area is new area - original area = 12,200,881 - 12,200,881 = 0 square units.\n**Answer:** The area of the square does not change. \n",
+        "Here's how to solve this problem step-by-step:\n**1. Find the original area:**\n* The original area of the square is side * side = 3491 * 3491 = 12,201,881 square units.\n**2. Find the new dimensions:**\n* The new length is 3491 - 60 = 3431 units.\n* The new width is 3491 + 60 = 3551 units.\n**3. Find the new area:**\n* The new area is length * width = 3431 * 3551 = 12,201,881 square units.\n**4. Calculate the change in area:**\n* The change in area is new area - original area = 12,201,881 - 12,201,881 = **0 square units**.\n**Conclusion:**  The area of the square does not change. \n",
+        "Here's how to solve the problem step-by-step:\n**1. Calculate the original area:**\n* The original area of the square is side length * side length = 3491 * 3491 = 12,201,881 square units.\n**2. Calculate the new dimensions:**\n* The new length is 3491 - 60 = 3431 units.\n* The new width is 3491 + 60 = 3551 units.\n**3. Calculate the new area:**\n* The new area is length * width = 3431 * 3551 = 12,201,881 square units.\n**4. Calculate the change in area:**\n* The change in area is new area - original area = 12,201,881 - 12,201,881 = 0 square units.\n**Answer:** The area of the square does not change. \n"
+    ],
+    "pred_answers": "0",
+    "final_pred_answer": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+    ],
+    "ground_truth": "3600"
+}

@@ -1,0 +1,23 @@
+{
+    "problem": "A pyramid has 6 vertices and 6 faces. How many edges does it have?",
+    "level": "Level 2",
+    "type": "Geometry",
+    "solution": "A pyramid with $6$ faces would have a pentagon on the bottom and five triangles on the sides. There are thus $5$ edges on the bottom along the pentagon and an additional $5$ edges from the triangles on the sides, for a total of $5+5 = \\boxed{10\\;\\text{edges}}$.",
+    "prompt": "### Instruction: A pyramid has 6 vertices and 6 faces. How many edges does it have?\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "Here's how to figure out the number of edges in a pyramid:\n**Understanding the Structure**\n* **Vertices:** The points where the edges meet (6 in this case).\n* **Faces:** The flat surfaces of the pyramid (6 in this case, including the base).\n* **Edges:** The lines where the faces meet.\n**Thinking Step-by-Step**\n1. **Base:**  A pyramid has a base that is a polygon. Since it has 6 vertices, the base must be a pentagon (5 sides). This gives us **5 edges**.\n2. **Lateral Faces:** Each vertex of the base connects to the pyramid's apex (the top point) forming a triangular face. Since we have 5 vertices on the base, there are **5 lateral faces**. \n3. **Connecting Edges:** Each lateral face has an edge connecting the apex to a vertex on the base. This means we add **5 more edges**.\n**Total Edges**\n* 5 edges from the base + 5 edges from the lateral faces = **10 edges**\n**Therefore, a pyramid with 6 vertices and 6 faces has 10 edges.** \n",
+        "Here's how to figure out the number of edges in a pyramid:\n* **Think of the base:** A pyramid has a base that is a polygon.  Since a pyramid has 6 vertices, its base must be a pentagon (5 sides).\n* **Connect the base to the apex:**  Each vertex of the pentagonal base connects to the apex (the top point of the pyramid) forming 5 edges.\n* **Total edges:**  The base has 5 edges, and there are 5 more edges connecting the base to the apex, for a total of **10 edges**. \n",
+        "Here's how to figure out the number of edges in a pyramid:\n* **Visualize:** Imagine a pyramid. It has a base that is a polygon (like a square or triangle), and triangular faces that meet at a point called the apex. \n* **Edges of the Base:** The base has the same number of edges as its sides. For example, a square base has 4 edges.\n* **Edges Connecting the Apex:** Each vertex of the base is connected to the apex by an edge. This means there are the same number of edges connecting the apex to the base as there are vertices in the base.\n* **Total Edges:**  The total number of edges is the edges of the base plus the edges connecting the apex to the base.\n**Example:**\n* A square pyramid has a square base (4 edges) and 4 edges connecting the apex to the base.  Therefore, it has 4 + 4 = 8 edges.\n**General Rule:**\nA pyramid with *n* sides on its base will have *n* edges on the base and *n* edges connecting the apex to the base.  Therefore, it will have a total of **2*n** edges. \n",
+        "Here's how to figure out the number of edges in a pyramid:\n* **Visualize:** Imagine a pyramid with a square base. \n* **Base Edges:** The base of the pyramid has 4 edges.\n* **Lateral Edges:**  Each corner of the base connects to the apex (top point) of the pyramid, forming 4 more edges.\n**Total:** 4 base edges + 4 lateral edges = **8 edges** \n",
+        "Here's how to figure out the number of edges in a pyramid:\n**Understanding the Shape**\n* **Vertices:**  The points where the edges meet (6 in this case).\n* **Faces:** The flat surfaces of the pyramid (6 in this case).\n* **Edges:**  The lines where the faces meet.\n**Reasoning**\n1. **Base:** A pyramid has a base that is a polygon.  The number of sides of this polygon is the same as the number of edges that connect the base to the apex (the top point of the pyramid).\n2. **Apex Connections:** Since there are 6 vertices, and one is the apex, there are 5 vertices on the base. This means there are 5 edges connecting the base to the apex.\n3. **Base Edges:** The base of the pyramid also has edges. Since it has 5 vertices, it has 5 edges.\n**Calculation**\n* 5 edges connecting the base to the apex + 5 edges forming the base = **10 edges**\n**Therefore, a pyramid with 6 vertices and 6 faces has 10 edges.** \n"
+    ],
+    "pred_answers": "10",
+    "final_pred_answer": [
+        "10",
+        "10",
+        "2",
+        "8",
+        "10"
+    ],
+    "ground_truth": "10"
+}

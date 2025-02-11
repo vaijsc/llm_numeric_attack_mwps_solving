@@ -1,0 +1,23 @@
+{
+    "problem": "Segment $s_1$ has endpoints at $(1,2)$ and $(7,10)$.  Segment $s_2$ is obtained by translating $s_1$ by $3$ units to the right and $2$ units down. Find the midpoint of segment $s_2$.  Express your answer as $(a,b)$ with $a$ and $b$ integers.",
+    "level": "Level 2",
+    "type": "Geometry",
+    "solution": "The midpoint of segment $s_1$ can be found using the midpoint formula: $\\left(\\frac{1+7}2,\\frac{2+10}2\\right)=(4,6).$  The midpoint of $s_2$ is the translation of the midpoint of $s_1$ be $3$ units to the right and $2$ units down.  Thus its coordinates are $(4+3,6-2)=\\boxed{(7,4)}.$",
+    "prompt": "### Instruction: Segment $s_1$ has endpoints at $(1,2)$ and $(7,10)$.  Segment $s_2$ is obtained by translating $s_1$ by $3$ units to the right and $2$ units down. Find the midpoint of segment $s_2$.  Express your answer as $(a,b)$ with $a$ and $b$ integers.\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "Here's how to solve the problem step-by-step:\n**1. Find the midpoint of  segment  $s_1$:**\n* The midpoint of a segment is found by averaging the x-coordinates and averaging the y-coordinates of the endpoints.\n* Midpoint of $s_1$:  \n    * x-coordinate:  (1 + 7)/2 = 4\n    * y-coordinate:  (2 + 10)/2 = 6\n* Midpoint of $s_1$ is (4, 6)\n**2. Apply the translation to the midpoint:**\n* Translation of 3 units to the right means adding 3 to the x-coordinate.\n* Translation of 2 units down means subtracting 2 from the y-coordinate.\n* New midpoint after translation: (4 + 3, 6 - 2) = (7, 4)\n**Therefore, the midpoint of segment $s_2$ is (7, 4).** \n",
+        "Here's how to solve the problem step-by-step:\n**1. Find the midpoint of s1:**\n* The midpoint of a segment with endpoints (x1, y1) and (x2, y2) is  ((x1 + x2)/2, (y1 + y2)/2).\n* For s1, the midpoint is ((1 + 7)/2, (2 + 10)/2) = (4, 6).\n**2. Apply the translation:**\n* Translating 3 units to the right means adding 3 to the x-coordinate.\n* Translating 2 units down means subtracting 2 from the y-coordinate.\n* Applying this to the midpoint of s1, we get (4 + 3, 6 - 2) = (7, 4).\n**Therefore, the midpoint of segment s2 is (7, 4).** \n",
+        "Here's how to solve the problem step-by-step:\n**1. Find the midpoint of segment s1:**\n* The midpoint of a segment is the average of the x-coordinates and the average of the y-coordinates.\n* Midpoint of s1:  ((1 + 7)/2, (2 + 10)/2) = (4, 6)\n**2. Apply the translation to the midpoint:**\n* Translating 3 units to the right means adding 3 to the x-coordinate.\n* Translating 2 units down means subtracting 2 from the y-coordinate.\n* Translated midpoint: (4 + 3, 6 - 2) = (7, 4)\n**Therefore, the midpoint of segment s2 is (7, 4).** \n",
+        "Here's how to solve the problem step-by-step:\n**1. Find the midpoint of s1:**\n* The midpoint of a segment with endpoints $(x_1, y_1)$ and $(x_2, y_2)$ is  \n   ((x_1 + x_2)/2, (y_1 + y_2)/2).\n* Applying this to segment $s_1$, the midpoint is ((1 + 7)/2, (2 + 10)/2) = (4, 6).\n**2. Apply the translation to the midpoint:**\n* Translating 3 units to the right means adding 3 to the x-coordinate.\n* Translating 2 units down means subtracting 2 from the y-coordinate.\n* So, the midpoint of $s_2$ is (4 + 3, 6 - 2) = (7, 4).\n**Answer:** The midpoint of segment $s_2$ is **(7, 4)**. \n",
+        "Here's how to solve the problem step-by-step:\n**1. Find the midpoint of s1**\n* The midpoint of a segment is found by averaging the x-coordinates and averaging the y-coordinates of the endpoints.\n* Midpoint of s1:  ((1+7)/2, (2+10)/2) = (4, 6)\n**2. Apply the translation to the midpoint**\n* The translation shifts the midpoint 3 units to the right and 2 units down.\n* New midpoint: (4+3, 6-2) = (7, 4)\n**Answer:** The midpoint of segment $s_2$ is **(7, 4)**. \n"
+    ],
+    "pred_answers": "4",
+    "final_pred_answer": [
+        "4",
+        "4",
+        "4",
+        "2",
+        "2"
+    ],
+    "ground_truth": "74"
+}

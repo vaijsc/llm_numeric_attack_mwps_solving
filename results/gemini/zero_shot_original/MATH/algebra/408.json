@@ -1,0 +1,23 @@
+{
+    "problem": "Expand $((2x^2+3x+3)-(x^2+6x-6))(x+3)$.",
+    "level": "Level 4",
+    "type": "Algebra",
+    "solution": "We have that\n\\begin{align*} &((2x^2+3x+3)-(x^2+6x-6))(x+3)\\\\ &\\qquad= (x^2-3x+9)(x+3) \\\\ &\\qquad= x(x^2-3x+9) + 3(x^2-3x+9) \\\\ &\\qquad= x^3 -3x^2 +9x +3x^2 -9x +27 \\\\ &\\qquad= \\boxed{x^3+27}. \\end{align*}",
+    "prompt": "### Instruction: Expand $((2x^2+3x+3)-(x^2+6x-6))(x+3)$.\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "Here's how to expand the expression step-by-step:\n1. **Simplify the expression inside the parentheses:**\n   \n   (2x\u00b2 + 3x + 3) - (x\u00b2 + 6x - 6) = 2x\u00b2 + 3x + 3 - x\u00b2 - 6x + 6 \n   \n   Combining like terms:\n   \n   = x\u00b2 - 3x + 9\n2. **Now we have:** (x\u00b2 - 3x + 9)(x + 3)\n3. **Distribute (x\u00b2 - 3x + 9) over (x + 3):**\n   \n   x\u00b2(x + 3) - 3x(x + 3) + 9(x + 3)\n4. **Expand each term:**\n   x\u00b3 + 3x\u00b2 - 3x\u00b2 - 9x + 9x + 27\n5. **Combine like terms:**\n   x\u00b3 + 27\n**Therefore, the expanded form of the expression is x\u00b3 + 27.** \n",
+        "1. **Simplify the expression inside the parentheses:** \n   \n   (2x\u00b2 + 3x + 3) - (x\u00b2 + 6x - 6) = 2x\u00b2 + 3x + 3 - x\u00b2 - 6x + 6 = x\u00b2 - 3x + 9\n2. **Now we have:** \n   \n   (x\u00b2 - 3x + 9)(x + 3)\n3. **Distribute the first expression over the second expression:**\n   x\u00b2(x + 3) - 3x(x + 3) + 9(x + 3)\n4. **Expand each term:**\n   x\u00b3 + 3x\u00b2 - 3x\u00b2 - 9x + 9x + 27\n5. **Combine like terms:**\n   x\u00b3 + 27\nTherefore, the expanded expression is **x\u00b3 + 27**. \n",
+        "Here's how to expand the expression step-by-step:\n**1. Simplify the expression inside the parentheses:**\n*  (2x\u00b2 + 3x + 3) - (x\u00b2 + 6x - 6)  \n*  = 2x\u00b2 + 3x + 3 - x\u00b2 - 6x + 6 \n*  = x\u00b2 - 3x + 9\n**2. Now we have:**\n* (x\u00b2 - 3x + 9)(x + 3)\n**3. Expand using the distributive property (or FOIL method):**\n* x\u00b2(x + 3) - 3x(x + 3) + 9(x + 3)\n**4. Distribute:**\n* x\u00b3 + 3x\u00b2 - 3x\u00b2 - 9x + 9x + 27\n**5. Combine like terms:**\n* x\u00b3 + 27\n**Therefore, the expanded form of the expression is x\u00b3 + 27.** \n",
+        "**1. Simplify the expression inside the parentheses:**\n*  (2x\u00b2 + 3x + 3) - (x\u00b2 + 6x - 6) = 2x\u00b2 + 3x + 3 - x\u00b2 - 6x + 6 \n* Combine like terms: x\u00b2 - 3x + 9\n**2. Now we have:**\n* (x\u00b2 - 3x + 9)(x + 3)\n**3. Use the distributive property (FOIL method):**\n* x\u00b2 * (x + 3) - 3x * (x + 3) + 9 * (x + 3)\n**4. Expand:**\n* x\u00b3 + 3x\u00b2 - 3x\u00b2 - 9x + 9x + 27\n**5. Combine like terms:**\n* x\u00b3 + 27\n**Therefore, the expanded form of the expression is x\u00b3 + 27.** \n",
+        "1. **Simplify the expression inside the parentheses:**\n   * Combine like terms: \n      (2x\u00b2 + 3x + 3) - (x\u00b2 + 6x - 6) = 2x\u00b2 + 3x + 3 - x\u00b2 - 6x + 6 \n      = x\u00b2 - 3x + 9\n2. **Now we have:**\n   * (x\u00b2 - 3x + 9)(x + 3)\n3. **Distribute (x\u00b2 - 3x + 9) over (x + 3):**\n   * x\u00b2(x + 3) - 3x(x + 3) + 9(x + 3)\n4. **Distribute again:**\n   * x\u00b3 + 3x\u00b2 - 3x\u00b2 - 9x + 9x + 27\n5. **Combine like terms:**\n   * x\u00b3 + 27\n**Therefore, the expanded form of the expression is x\u00b3 + 27.** \n"
+    ],
+    "pred_answers": "27",
+    "final_pred_answer": [
+        "27",
+        "27",
+        "27",
+        "27",
+        "27"
+    ],
+    "ground_truth": "27"
+}

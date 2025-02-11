@@ -1,0 +1,23 @@
+{
+    "problem": "Find all solutions to $x(x+10) = 10(-10-x)$.",
+    "level": "Level 3",
+    "type": "Algebra",
+    "solution": "Expanding both sides gives $x^2 + 10x = -100-10x$, rearranging gives  $x^2 +20x +100 =0$, and factoring gives $(x+10)(x+10)=0$. So, our only solution is $\\boxed{x=-10}$.",
+    "prompt": "### Instruction: Find all solutions to $x(x+10) = 10(-10-x)$.\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "Here's how we can solve the equation step-by-step:\n1. **Expand both sides:**\n   *  The left side becomes:  $x^2 + 10x$\n   *  The right side becomes: $-100 - 10x$\n2. **Bring all terms to one side:**\n   *  Subtract $-100 - 10x$ from both sides:  $x^2 + 10x + 100 + 10x = 0$\n3. **Simplify:**\n   *  Combine like terms: $x^2 + 20x + 100 = 0$\n4. **Factor the quadratic:**\n   *  This equation factors nicely: $(x + 10)(x + 10) = 0$\n5. **Solve for x:**\n   *  Set each factor equal to zero:\n      *  $x + 10 = 0$  \n      *  $x + 10 = 0$\n   *  Solve for x in both cases:\n      *  $x = -10$\n**Therefore, the only solution to the equation is x = -10.** \n",
+        "Here's how to solve the equation step-by-step:\n1. **Expand both sides:**\n   *  The left side expands to:  x\u00b2 + 10x\n   *  The right side expands to: -100 - 10x\n2. **Combine like terms:**\n   * Move all terms to one side to get a quadratic equation:  x\u00b2 + 20x + 100 = 0\n3. **Factor the quadratic:**\n   * This equation factors nicely: (x + 10)(x + 10) = 0 \n4. **Solve for x:**\n   * Set each factor equal to zero: \n      * x + 10 = 0  =>  x = -10 \n**Therefore, the only solution to the equation is x = -10.** \n",
+        "Here's how to solve the equation step-by-step:\n1. **Expand both sides:**\n   -  The left side becomes:  $x^2 + 10x$\n   -  The right side becomes: $-100 - 10x$\n2. **Move all terms to one side:**\n   - Subtract $-100 - 10x$ from both sides: \n     $x^2 + 10x + 100 + 10x = 0$\n3. **Simplify:**\n   - Combine like terms:  $x^2 + 20x + 100 = 0$\n4. **Factor the quadratic:**\n   - This equation factors nicely: $(x + 10)(x + 10) = 0$\n5. **Solve for x:**\n   - For the product of two factors to equal zero, at least one of them must be zero.  Therefore:\n     - $x + 10 = 0$\n     - Solving for *x*, we get:  $x = -10$\n**Solution:** The only solution to the equation is  **x = -10**. \n",
+        "### Step 1: Simplify both sides of the equation.\n* **Left side:**  $x(x+10) = x^2 + 10x$\n* **Right side:** $10(-10-x) = -100 - 10x$\nNow the equation is:  $x^2 + 10x = -100 - 10x$\n### Step 2: Move all terms to one side of the equation.\nAdd $100$ and $10x$ to both sides:\n$x^2 + 10x + 100 + 10x = 0$\nThis simplifies to:  $x^2 + 20x + 100 = 0$\n### Step 3: Factor the quadratic equation.\nThe equation is now in the form of a perfect square trinomial: $(x + 10)^2 = 0$\n### Step 4: Solve for x.\nTake the square root of both sides: $x + 10 = 0$\nSubtract 10 from both sides: $x = -10$\n### Solution:\nThe only solution to the equation $x(x+10) = 10(-10-x)$ is **x = -10**. \n",
+        "Here's how to solve the equation step-by-step:\n1. **Expand both sides:**\n   *  The left side becomes:  x\u00b2 + 10x\n   * The right side becomes: -100 + 10x\n2. **Set the equation to zero:**\n   * Subtract 10x from both sides: x\u00b2 = -100\n3. **Isolate x\u00b2:**\n   * This equation has no real solutions. The square of any real number is always non-negative.  \n**Therefore, there are no real solutions to the equation x(x+10) = 10(-10-x).** \n"
+    ],
+    "pred_answers": "-10",
+    "final_pred_answer": [
+        "-10",
+        "-10",
+        "-10",
+        "-10",
+        "-10"
+    ],
+    "ground_truth": "-10"
+}

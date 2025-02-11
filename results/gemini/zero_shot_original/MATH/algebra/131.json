@@ -1,0 +1,23 @@
+{
+    "problem": "Given that $2x - 3y = 8$ and $4x + 3y = -2$, what is the product of $x$ and $y$?",
+    "level": "Level 2",
+    "type": "Algebra",
+    "solution": "Adding the two equations gives $6x = 6$, so $x=1$.  Substituting this into the first equation gives $2 - 3y = 8$.  Solving for $y$ gives $y=-2$, so $xy = \\boxed{-2}$.",
+    "prompt": "### Instruction: Given that $2x - 3y = 8$ and $4x + 3y = -2$, what is the product of $x$ and $y$?\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "Here's how to solve the problem step-by-step:\n**1. Elimination Method**\n* Notice that the 'y' terms have opposite signs.  This makes them ideal for elimination. \n* Add the two equations together:\n   (2x - 3y) + (4x + 3y) = 8 + (-2)\n   6x = 6\n**2. Solve for x**\n* Divide both sides by 6:\n   x = 1\n**3. Substitute to find y**\n* Substitute the value of x (1) into either of the original equations. Let's use the first one:\n   2(1) - 3y = 8\n   2 - 3y = 8\n* Subtract 2 from both sides:\n   -3y = 6\n* Divide both sides by -3:\n   y = -2\n**4. Calculate the product**\n* Now that you know x = 1 and y = -2, multiply them:\n   x * y = 1 * (-2) = -2\n**Therefore, the product of x and y is -2.** \n",
+        "Here's how to solve the problem step-by-step:\n**1. Elimination Method:**\n* Notice that the coefficients of 'y' in the two equations are opposites (+3y and -3y). This makes it easy to eliminate 'y' by adding the equations together.\n**2. Add the Equations:**\n* (2x - 3y) + (4x + 3y) = 8 + (-2)\n* 6x = 6\n**3. Solve for x:**\n* Divide both sides by 6: \n* x = 1\n**4. Substitute x to find y:**\n* Choose either of the original equations. Let's use 2x - 3y = 8.\n* Substitute x = 1: 2(1) - 3y = 8\n* Simplify: 2 - 3y = 8\n* Subtract 2 from both sides: -3y = 6\n* Divide both sides by -3: y = -2\n**5. Calculate the Product:**\n* The product of x and y is x * y = 1 * (-2) = -2\n**Therefore, the product of x and y is -2.** \n",
+        "Here's how to solve the problem step-by-step:\n**1. Elimination Method:**\n* Notice that the 'y' terms have opposite signs. This makes them ideal for elimination.\n* Add the two equations together: \n   (2x - 3y) + (4x + 3y) = 8 + (-2)\n   6x = 6\n* Solve for 'x':\n   x = 1\n**2. Substitute to Find 'y':**\n* Substitute the value of 'x' (1) into either of the original equations. Let's use the first one:\n   2(1) - 3y = 8\n   2 - 3y = 8\n* Solve for 'y':\n   -3y = 6\n   y = -2\n**3. Calculate the Product:**\n* Now that we know x = 1 and y = -2, find their product:\n   x * y = 1 * (-2) = -2\n**Therefore, the product of x and y is -2.** \n",
+        "Here's how to solve the problem step-by-step:\n**1. Elimination Method:**\n* Notice that the 'y' terms have opposite coefficients. This makes them perfect for elimination.\n* Add the two equations together:\n   (2x - 3y) + (4x + 3y) = 8 + (-2)\n   6x = 6\n**2. Solve for x:**\n* Divide both sides by 6:\n   x = 1\n**3. Substitute to find y:**\n* Substitute the value of x (1) into either of the original equations. Let's use the first equation:\n   2(1) - 3y = 8\n   2 - 3y = 8\n   -3y = 6\n   y = -2\n**4. Calculate the product:**\n* Now that we have x = 1 and y = -2, calculate their product:\n   x * y = 1 * (-2) = -2\n**Therefore, the product of x and y is -2.** \n",
+        "Here's how to solve the problem step-by-step:\n**1. Elimination Method**\n* Notice that the 'y' terms have opposite signs.  This makes them easy to eliminate.\n* Add the two equations together:\n   (2x - 3y) + (4x + 3y) = 8 + (-2)\n   6x = 6\n**2. Solve for x**\n* Divide both sides by 6:\n   x = 1\n**3. Substitute to find y**\n* Substitute x = 1 into either of the original equations. Let's use the first one:\n   2(1) - 3y = 8\n   2 - 3y = 8\n   -3y = 6\n   y = -2\n**4. Calculate the product**\n* Now that we know x = 1 and y = -2, multiply them together:\n   x * y = 1 * (-2) = -2\n**Therefore, the product of x and y is -2.** \n"
+    ],
+    "pred_answers": "-2",
+    "final_pred_answer": [
+        "-2",
+        "-2",
+        "-2",
+        "-2",
+        "-2"
+    ],
+    "ground_truth": "-2"
+}

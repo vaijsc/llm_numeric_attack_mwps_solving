@@ -1,0 +1,23 @@
+{
+    "problem": "Rewrite the expression $g^4 + 12g^2 + 9$ in the form $c(g^2 + p)^2 + q$. What is $q$?",
+    "level": "Level 4",
+    "type": "Algebra",
+    "solution": "We complete the square:  \\begin{align*}\ng^4 + 12g^2 + 9 &= (g^4 + 12g^2 + 36) + 9 - 36\\\\\n&= (g^2 + 6)^2 -27\n\\end{align*}Then $q$ is $\\boxed{-27}$.",
+    "prompt": "### Instruction: Rewrite the expression $g^4 + 12g^2 + 9$ in the form $c(g^2 + p)^2 + q$. What is $q$?\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "Here's how to rewrite the expression and find the value of q:\n**1. Recognize the pattern:**\nThe expression $g^4 + 12g^2 + 9$ looks like a perfect square trinomial.  Specifically, it resembles the expansion of $(a^2 + b)^2 = a^4 + 2a^2b + b^2$.\n**2.  Match the terms:**\n*  We see that $a^2 = g^2$ \n*  We need to find 'b' such that $2a^2b = 12g^2$.  Solving for 'b', we get  $b = 6$.\n**3. Rewrite the expression:**\nNow, we can rewrite the original expression:\n  $g^4 + 12g^2 + 9 = (g^2)^2 + 2(g^2)(6) + 6^2 = (g^2 + 6)^2$\n**4.  Identify 'q':**\nSince we have $(g^2 + 6)^2$, the expression is already in the form  $c(g^2 + p)^2 + q$.  Here:\n* $c = 1$\n* $p = 6$\n* **$q = 0$**\n**Therefore, the value of q is 0.** \n",
+        "Here's how to rewrite the expression and find the value of 'q':\n**1. Recognize the pattern:**\nThe given expression,  $g^4 + 12g^2 + 9$, resembles the expansion of a perfect square trinomial: $(a + b)^2 = a^2 + 2ab + b^2$.\n**2.  Factor the expression:**\n* Notice that the first and last terms are perfect squares:  $g^4 = (g^2)^2$ and $9 = (3)^2$.\n* The middle term, $12g^2$, is twice the product of the square roots of the first and last terms:  2 * (g^2) * (3) = 6g^2. \n* Therefore, we can factor the expression as follows:\n   \n   $g^4 + 12g^2 + 9 = (g^2 + 3)^2$\n**3. Rewrite in the desired form:**\n* The factored expression is already in the form we want:  $c(g^2 + p)^2 + q$, where:\n    *  $c = 1$\n    *  $p = 3$\n    *  $q = 0$ \n**Answer:**\nThe value of  $q$ is $\\boxed{0}$. \n",
+        "Here's how to rewrite the expression and find the value of q:\n**1. Recognize the pattern:**\nThe expression  $g^4 + 12g^2 + 9$ resembles a perfect square trinomial.  A perfect square trinomial has the form: $(a^2 + 2ab + b^2)$ \n**2. Factor the expression:**\n* Notice that  $g^4 = (g^2)^2$ and $9 = 3^2$.\n* Also, $12g^2 = 2(g^2)(3)$. \nTherefore, we can rewrite the expression as:\n$(g^2)^2 + 2(g^2)(3) + 3^2 = (g^2 + 3)^2$\n**3.  Rewrite in the desired form:**\nNow, we can express the expression in the form $c(g^2 + p)^2 + q$:\n*  $c = 1$ (the coefficient of the squared term)\n*  $p = 3$ (the constant term inside the square)\n*  $q = 0$ (since there is no constant term added outside the square)\n**Therefore, the expression $g^4 + 12g^2 + 9$ can be rewritten as $(g^2 + 3)^2$, and the value of q is 0.** \n",
+        "Here's how to rewrite the expression and find the value of q:\n**1. Recognize the pattern:**\nThe given expression  $g^4 + 12g^2 + 9$ resembles a perfect square trinomial.  A perfect square trinomial is a trinomial that can be factored into the square of a binomial. \n**2. Factor the expression:**\nNotice that:\n*  The first term ($g^4$) is the square of $g^2$.\n* The last term (9) is the square of 3.\n* The middle term ($12g^2$) is twice the product of $g^2$ and 3.\nTherefore, we can factor the expression as:\n  \n  $(g^2 + 3)^2$\n**3. Rewrite in the desired form:**\nThe expression is now in the form  $c(g^2 + p)^2 + q$ where:\n*  $c = 1$ \n*  $p = 3$\n*  $q = 0$ (since there's no constant term added after the squared binomial)\n**Answer:**\nTherefore, $q = \\boxed{0}$. \n",
+        "Here's how to rewrite the expression and find the value of q:\n**1. Recognize the pattern:**\nThe expression  $g^4 + 12g^2 + 9$ resembles the expansion of a squared term:  $(a + b)^2 = a^2 + 2ab + b^2$\n**2. Apply the pattern:**\n* Notice that $g^4$ is the square of $g^2$.\n* Notice that 9 is the square of 3.\n*  The middle term, 12g\u00b2, is twice the product of  $g^2$ and 3.\n**3. Rewrite the expression:**\nWe can rewrite the expression as:\n  \n  $g^4 + 12g^2 + 9 = (g^2)^2 + 2(g^2)(3) + 3^2 = (g^2 + 3)^2$\n**4. Find the value of q:**\nNow we have it in the form $c(g^2 + p)^2 + q$, where:\n*  c = 1\n*  p = 3\n*  **q = 0** (since there's no constant term outside the squared expression)\n**Therefore, q = 0.** \n"
+    ],
+    "pred_answers": "0",
+    "final_pred_answer": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+    ],
+    "ground_truth": "-27"
+}

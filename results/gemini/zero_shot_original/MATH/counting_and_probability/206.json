@@ -1,0 +1,23 @@
+{
+    "problem": "Each row of the Misty Moon Amphitheater has 33 seats.  Rows 12 through 22 are reserved for a youth club.  How many seats are reserved for this club?",
+    "level": "Level 1",
+    "type": "Counting & Probability",
+    "solution": "There are $22 - 12 + 1 = 11$ reserved rows. Because there are 33 seats in each row, there are $(33)(11) = \\boxed{363}$ reserved seats.",
+    "prompt": "### Instruction: Each row of the Misty Moon Amphitheater has 33 seats.  Rows 12 through 22 are reserved for a youth club.  How many seats are reserved for this club?\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "Here's how to solve the problem step-by-step:\n1. **Find the number of rows reserved:** Rows 12 through 22 include 22 - 12 + 1 = 11 rows. \n2. **Multiply rows by seats per row:** 11 rows * 33 seats/row = 363 seats.\n**Answer:** 363 seats are reserved for the youth club. \n",
+        "Here's how to solve the problem:\n* **Find the number of rows reserved:** Rows 12 through 22 include 22 - 12 + 1 = 11 rows. \n* **Calculate the total seats:**  Since each row has 33 seats, the total reserved seats are 11 rows * 33 seats/row = 363 seats.\n**Answer:** 363 seats are reserved for the youth club. \n",
+        "1. **Find the number of rows reserved:** Rows 12 through 22 include 22 - 12 + 1 = 11 rows.\n2. **Calculate the total number of seats:** Each row has 33 seats, and there are 11 rows, so the total number of reserved seats is 33 * 11 = **363 seats**. \n",
+        "Here's how to solve the problem step-by-step:\n* **Find the number of rows:** Rows 12 through 22 include 22 - 12 + 1 = 11 rows.\n* **Calculate the total seats:**  Since each row has 33 seats, 11 rows have 11 * 33 = 363 seats.\n**Answer:** There are 363 seats reserved for the youth club. \n",
+        "Here's how to solve the problem step-by-step:\n* **Find the number of rows:** The youth club has rows 12 through 22, which is a total of 22 - 12 + 1 = 11 rows.\n* **Calculate the total seats:** Each row has 33 seats, and there are 11 rows, so the total number of seats is 33 * 11 = 363 seats.\n**Answer:** There are 363 seats reserved for the youth club. \n"
+    ],
+    "pred_answers": "363",
+    "final_pred_answer": [
+        "363",
+        "363",
+        "363",
+        "363",
+        "363"
+    ],
+    "ground_truth": "363"
+}

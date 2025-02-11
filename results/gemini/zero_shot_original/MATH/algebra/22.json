@@ -1,0 +1,23 @@
+{
+    "problem": "What is the value of $x$ in the equation $(17^6-17^5)\\div16=17^x$?",
+    "level": "Level 2",
+    "type": "Algebra",
+    "solution": "Factoring a $17^5$ from the two terms in the parenthesis, we get $17^5(17-1)\\div16=17^5$. Thus, $x=\\boxed{5}$.",
+    "prompt": "### Instruction: What is the value of $x$ in the equation $(17^6-17^5)\\div16=17^x$?\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "Here's how to solve the equation step-by-step:\n1. **Factor out a common term:** Notice that both terms in the numerator have a common factor of  $17^5$.  We can factor this out:\n   (17^6 - 17^5) / 16 = (17^5 * (17 - 1)) / 16\n2. **Simplify:** \n   (17^5 * 16) / 16 = 17^5\n3. **Match the exponents:** Now we see that the left side of the equation is equal to 17^5. Since the right side is 17^x, we know that:\n   x = 5\n**Therefore, the value of x is 5.** \n",
+        "Here's how to solve the equation step-by-step:\n1. **Factor out a common term:**  Notice that both terms in the numerator have $17^5$ in common.  \n   \n   (17\u2076 - 17\u2075) / 16 = (17\u2075 * 17 - 17\u2075 * 1) / 16\n2. **Simplify:** \n   \n   (17\u2075 * 17 - 17\u2075 * 1) / 16 = (17\u2075 * (17 - 1)) / 16\n3. **Continue simplifying:**\n   \n   (17\u2075 * (17 - 1)) / 16 = (17\u2075 * 16) / 16\n4. **Cancel out the common factor:**\n   \n   (17\u2075 * 16) / 16 = 17\u2075\n5. **Compare to the right side of the equation:**\n   We now have 17\u2075 = 17\u02e3\n6. **Solve for x:**\n   Since the bases are the same, the exponents must be equal. Therefore, x = **5**. \n",
+        "Here's how to solve the equation step-by-step:\n1. **Factor out a common term:**  Notice that both terms in the numerator have $17^5$ as a common factor:\n   \n   $(17^6 - 17^5) = 17^5 (17 - 1)$\n2. **Simplify:**\n   $17^5 (17 - 1) = 17^5 (16)$\n3. **Substitute back into the original equation:**\n   $(17^5 \\cdot 16) \\div 16 = 17^x$\n4. **Cancel the 16:**\n   $17^5 = 17^x$\n5. **Solve for x:**\n   Since the bases are the same, the exponents must be equal. Therefore: \n   **x = 5** \n",
+        "Here's how to solve the equation step-by-step:\n**1. Factor out a common term:**\n* Notice that both terms in the numerator have $17^5$ as a factor.  \n* We can rewrite the equation as:  \n   (17\u2075 * 17 - 17\u2075 * 1) \u00f7 16 = 17\u02e3\n**2. Simplify the numerator:**\n*  (17\u2075 * (17 - 1)) \u00f7 16 = 17\u02e3\n* (17\u2075 * 16) \u00f7 16 = 17\u02e3\n**3. Cancel the common factor:**\n*  17\u2075 = 17\u02e3\n**4.  Solve for x:**\n* Since the bases are the same, the exponents must be equal.\n* Therefore, x = **5** \n",
+        "Here's how to solve the equation step-by-step:\n**1. Factor out a common term:**\n* Notice that both terms in the numerator have  $17^5$ as a common factor.\n* Factor out $17^5$:  (17^6 - 17^5) = 17^5(17 - 1)\n**2. Simplify:**\n*  17^5 (17 - 1) = 17^5 * 16\n**3. Substitute back into the original equation:**\n* (17^5 * 16) / 16 = 17^x\n**4. Cancel the common factor:**\n* 17^5 = 17^x\n**5. Solve for x:**\n* Since the bases are the same, the exponents must be equal.\n* Therefore,  x = 5\n**The answer:** The value of x is **5**. \n"
+    ],
+    "pred_answers": "5",
+    "final_pred_answer": [
+        "5",
+        "5",
+        "5",
+        "5",
+        "5"
+    ],
+    "ground_truth": "5"
+}

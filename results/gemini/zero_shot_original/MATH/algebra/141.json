@@ -1,0 +1,23 @@
+{
+    "problem": "For how many positive integers $n$ is $n^2-3n+2$ a prime number?",
+    "level": "Level 3",
+    "type": "Algebra",
+    "solution": "If $n \\ge 4$, then $$\nn^2-3n+2=(n-1)(n-2)\n$$is the product of two integers greater than 1, and thus is not prime. For $n=1$, $2$, and $3$ we have, respectively, $$\n(1-1)(1-2) = 0,\\quad (2-1)(2-2) = 0,\\quad\\text{and}\\quad (3-1)(3-2) = 2.\n$$Therefore, $n^2-3n+2$ is prime only when $n=3$, for a total of $\\boxed{1}$ positive integer $n$.",
+    "prompt": "### Instruction: For how many positive integers $n$ is $n^2-3n+2$ a prime number?\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "Here's how to solve the problem step-by-step:\n**1. Factor the quadratic:**\nThe expression $n^2 - 3n + 2$ factors nicely:\n  \n  *  $n^2 - 3n + 2 = (n - 1)(n - 2)$\n**2. Analyze the factors:**\n* For the product of two integers to be prime, one factor must be 1 and the other must be the prime number itself.\n**3. Find the possible values of n:**\n* **Case 1:** If  n - 1 = 1, then n = 2. \n* **Case 2:** If n - 2 = 1, then n = 3.\n**4. Check if the values produce prime numbers:**\n* When n = 2, the expression becomes (2 - 1)(2 - 2) = 0, which is not prime.\n* When n = 3, the expression becomes (3 - 1)(3 - 2) = 2, which is prime.\n**Conclusion:**\nThere is only **one** positive integer value of *n* for which the expression $n^2 - 3n + 2$ is a prime number. \n",
+        "Here's how to solve the problem:\n**1. Factor the expression:**\nThe expression $n^2 - 3n + 2$ factors nicely: \n  *  $n^2 - 3n + 2 = (n - 1)(n - 2)$\n**2. Analyze the factors:**\n*  For the expression to be prime, one factor must equal 1 and the other must be a prime number. \n**3. Find the possible values of n:**\n* If  (n - 1) = 1, then n = 2.  In this case, (n - 2) = 0, which is not prime.\n* If (n - 2) = 1, then n = 3.  In this case, (n - 1) = 2, which is prime.\n**4. Conclusion:**\nThe only value of *n* that makes the expression prime is *n = 3*.  Therefore, there is only **one** positive integer *n* that satisfies the condition. \n",
+        "**1. Factor the quadratic:**\nThe quadratic expression factors as  (n - 1)(n - 2).\n**2. Analyze the factors:**\n* For the expression to be prime, one of the factors must be 1 and the other must be a prime number.\n**3. Find the possible values of 'n':**\n* If (n - 1) = 1, then n = 2.  This gives us (2 - 1)(2 - 2) = 0, which is not prime.\n* If (n - 2) = 1, then n = 3. This gives us (3 - 1)(3 - 2) = 2, which is prime.\n**4. Conclusion:**\nTherefore, there is only **one** positive integer, n = 3, for which n\u00b2 - 3n + 2 is a prime number. \n",
+        "Here's how to solve the problem step-by-step:\n**1. Factor the quadratic:**\nThe expression  $n^2 - 3n + 2$ factors nicely:\n  *  $n^2 - 3n + 2 = (n - 1)(n - 2)$\n**2. Consider the factors:**\n* For the expression to be prime, one of the factors must be 1, and the other must be a prime number. \n**3. Find the possible values of *n*:**\n* If  $n - 1 = 1$, then $n = 2$.  This gives us the prime number 1. \n* If $n - 2 = 1$, then $n = 3$. This gives us the prime number 2.\n**4. Conclusion:**\nThere are **two** positive integers, *n = 2* and *n = 3*, for which  $n^2 - 3n + 2$ is a prime number. \n",
+        "Here's how to solve the problem step-by-step:\n**1. Factor the quadratic:**\nThe expression $n^2 - 3n + 2$ factors as $(n-1)(n-2)$.\n**2. Analyze the factors:**\n* **Case 1:** If either  (n-1) or (n-2) is equal to 1, then the product will be a prime number. This occurs when:\n    *  n = 2  (giving the prime number 1)\n    *  n = 3  (giving the prime number 2)\n* **Case 2:** If either (n-1) or (n-2) is greater than 1, then the product will not be a prime number, since it will have more than two factors.\n**3. Conclusion:**\nThere are only **two** positive integers (n = 2 and n = 3) for which  $n^2 - 3n + 2$ is a prime number. \n"
+    ],
+    "pred_answers": "2",
+    "final_pred_answer": [
+        "2",
+        "3",
+        "2",
+        "2",
+        "2"
+    ],
+    "ground_truth": "1"
+}

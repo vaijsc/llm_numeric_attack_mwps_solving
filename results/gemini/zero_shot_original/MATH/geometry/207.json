@@ -1,0 +1,23 @@
+{
+    "problem": "Compute $\\cos 300^\\circ$.",
+    "level": "Level 3",
+    "type": "Geometry",
+    "solution": "Let $P$ be the point on the unit circle that is $300^\\circ$ counterclockwise from $(1,0)$, and let $D$ be the foot of the altitude from $P$ to the $x$-axis, as shown below.\n\n[asy]\npair A,C,P,O,D;\ndraw((0,-1.2)--(0,1.2),p=black+1.2bp,Arrows(0.15cm));\ndraw((-1.2,0)--(1.2,0),p=black+1.2bp,Arrows(0.15cm));\nA = (1,0);\nO= (0,0);\nlabel(\"$x$\",(1.2,0),SE);\nlabel(\"$y$\",(0,1.2),NE);\n\nP = rotate(300)*A;\nD = foot(P,A,-A);\ndraw(O--P--D);\ndraw(rightanglemark(O,D,P,2));\ndraw(Circle(O,1));\nlabel(\"$O$\",O,NW);\nlabel(\"$P$\",P,SE);\n//label(\"$A$\",A,SE);\nlabel(\"$D$\",D,N);\n[/asy]\n\nTriangle $POD$ is a 30-60-90 triangle, so $DO = \\frac{1}{2}$ and $DP = \\frac{\\sqrt{3}}{2}$.  Therefore, the coordinates of $P$ are $\\left(\\frac12,-\\frac{\\sqrt{3}}{2}\\right)$, so $\\cos 300^\\circ = \\boxed{\\frac{1}{2}}$.",
+    "prompt": "### Instruction: Compute $\\cos 300^\\circ$.\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "**1. Find the reference angle:**\n*  The reference angle is the acute angle formed between the terminal side of the angle and the x-axis. \n*  Since 300\u00b0 is in the fourth quadrant, we subtract it from 360\u00b0:  360\u00b0 - 300\u00b0 = 60\u00b0\n**2. Determine the cosine of the reference angle:**\n* We know that cos 60\u00b0 = 1/2\n**3. Consider the quadrant:**\n* In the fourth quadrant, cosine is positive.\n**Therefore, cos 300\u00b0 = cos 60\u00b0 = 1/2** \n",
+        "Here's how to compute cos 300\u00b0 step by step:\n1. **Find the reference angle:** The reference angle is the acute angle formed between the terminal side of the angle and the x-axis.  Since 300\u00b0 is in the fourth quadrant, the reference angle is 360\u00b0 - 300\u00b0 = 60\u00b0.\n2. **Determine the sign:**  Cosine is positive in the fourth quadrant.\n3. **Use the unit circle or trigonometric values:** We know that cos 60\u00b0 = 1/2.\n4. **Combine the sign and value:** Since cosine is positive in the fourth quadrant, cos 300\u00b0 = cos 60\u00b0 = **1/2**. \n",
+        "**1. Find the Reference Angle:**\n*  Since 300\u00b0 is in the fourth quadrant, we find the reference angle by subtracting it from 360\u00b0:  360\u00b0 - 300\u00b0 = 60\u00b0.\n**2. Determine the Sign:**\n* Cosine is positive in the fourth quadrant.\n**3.  Use the Unit Circle (or Trig Values):**\n* We know that cos 60\u00b0 = 1/2.\n**4. Combine the Information:**\n* Since cosine is positive in the fourth quadrant and cos 60\u00b0 = 1/2, then cos 300\u00b0 = 1/2.\n**Therefore, cos 300\u00b0 = 1/2** \n",
+        "Here's how to compute cos 300\u00b0:\n1. **Find the reference angle:**  The reference angle is the acute angle formed between the terminal side of the angle and the x-axis. Since 300\u00b0 is in the fourth quadrant, its reference angle is 360\u00b0 - 300\u00b0 = 60\u00b0.\n2. **Determine the sign:** Cosine is positive in the fourth quadrant.\n3. **Use the cosine of the reference angle:**  cos 60\u00b0 = 1/2\n4. **Apply the sign:** Since cosine is positive in the fourth quadrant, cos 300\u00b0 = **1/2**. \n",
+        "1. **Find the reference angle:**  The reference angle is the acute angle formed between the terminal side of the angle and the x-axis. Since $300^\\circ$ is in the fourth quadrant, its reference angle is $360^\\circ - 300^\\circ = 60^\\circ$.\n2. **Determine the cosine of the reference angle:**  We know that $\\cos 60^\\circ = \\frac{1}{2}$.\n3. **Consider the quadrant:** Since $300^\\circ$ is in the fourth quadrant, where cosine is positive, the cosine of $300^\\circ$ will also be positive.\nTherefore, $\\cos 300^\\circ = \\boxed{\\frac{1}{2}}$. \n"
+    ],
+    "pred_answers": "2",
+    "final_pred_answer": [
+        "2",
+        "2",
+        "2",
+        "2",
+        "2"
+    ],
+    "ground_truth": "2"
+}

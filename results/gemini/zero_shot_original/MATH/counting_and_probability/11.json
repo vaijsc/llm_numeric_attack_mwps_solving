@@ -1,0 +1,23 @@
+{
+    "problem": "How many prime numbers less than 100 have a units digit of 3?",
+    "level": "Level 2",
+    "type": "Counting & Probability",
+    "solution": "We list out all the positive integers less than 100 with a units digit of 3:  3, 13, 23, 33, 43, 53, 63, 73, 83, 93.  Of these, only 33, 63, and 93 are not prime.  Thus our answer is $\\boxed{7}$.",
+    "prompt": "### Instruction: How many prime numbers less than 100 have a units digit of 3?\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "Here's how to solve this:\n**Understanding Prime Numbers**\n* Prime numbers are whole numbers greater than 1 that are only divisible by 1 and themselves.  \n* Examples: 2, 3, 5, 7, 11, 13, 17...\n**Units Digit of 3**\n* We're looking for prime numbers that end in the digit '3'.\n**Finding the Primes**\n* **Start listing prime numbers:** 2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37, 41, 43, 47, 53, 59, 61, 67, 71, 73, 79, 83, 89, 97\n* **Identify those ending in 3:**  3, 13, 23, 43, 53, 73, 83\n**Answer**\nThere are **7** prime numbers less than 100 with a units digit of 3. \n",
+        "Here's how to solve this problem:\n**Understanding Prime Numbers**\n* A prime number is a whole number greater than 1 that has only two divisors: 1 and itself. \n* Examples: 2, 3, 5, 7, 11, 13, 17...\n**Units Digit and Divisibility**\n* The units digit of a number is the digit in the ones place.\n* A number is divisible by 3 if the sum of its digits is divisible by 3.\n**Finding the Prime Numbers**\n1. **List the numbers less than 100 with a units digit of 3:** 3, 13, 23, 33, 43, 53, 63, 73, 83, 93\n2. **Check for divisibility by 3:** \n   * 33 is divisible by 3 (3 + 3 = 6)\n   * 63 is divisible by 3 (6 + 3 = 9)\n   * 93 is divisible by 3 (9 + 3 = 12)\n3. **Eliminate the numbers divisible by 3:** This leaves us with 3, 13, 23, 43, 53, 73, and 83.\n4. **Check for other factors:**  All of the remaining numbers are prime since they have no other factors besides 1 and themselves.\n**Answer:** There are **7** prime numbers less than 100 with a units digit of 3. \n",
+        "Here's how to solve this problem step-by-step:\n**1. Understand Prime Numbers:**\n* Prime numbers are whole numbers greater than 1 that are only divisible by 1 and themselves.  \n* Examples: 2, 3, 5, 7, 11, 13...\n**2. Focus on Units Digit of 3:**\n* We need to find prime numbers less than 100 that end in the digit 3.\n**3. List the Possibilities:**\n*  3, 13, 23, 33, 43, 53, 63, 73, 83, 93\n**4. Eliminate Non-Primes:**\n*  33, 63, and 93 are divisible by 3, so they are not prime.\n**5.  The Prime Numbers:**\n* The prime numbers less than 100 with a units digit of 3 are: 3, 13, 23, 43, 53, 73, 83.\n**Answer:** There are **7** prime numbers less than 100 that have a units digit of 3. \n",
+        "Here's how we can solve this:\n**1. Understanding Prime Numbers**\n* Prime numbers are whole numbers greater than 1 that are only divisible by 1 and themselves. \n* Examples: 2, 3, 5, 7, 11, 13...\n**2.  Units Digit of 3**\n* We're looking for prime numbers that end in the digit 3.\n**3. Listing Prime Numbers Less Than 100**\nLet's list the prime numbers less than 100:\n2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37, 41, 43, 47, 53, 59, 61, 67, 71, 73, 79, 83, 89, 97\n**4. Identifying Prime Numbers with Units Digit of 3**\nFrom the list, the prime numbers with a units digit of 3 are:\n3, 13, 23, 43, 53, 73, 83\n**5. Counting**\nThere are **7** prime numbers less than 100 that have a units digit of 3. \n",
+        "Here's how to figure out the prime numbers less than 100 with a units digit of 3:\n**1. Understand Prime Numbers:**\n* Prime numbers are whole numbers greater than 1 that are only divisible by 1 and themselves. \n**2.  Focus on Units Digit:**\n* We're looking for prime numbers ending in 3.\n**3.  List the Candidates:**\n* The numbers less than 100 ending in 3 are: 3, 13, 23, 33, 43, 53, 63, 73, 83, 93.\n**4.  Check for Divisibility:**\n* **3:** Prime\n* **13:** Prime\n* **23:** Prime\n* **33:** Divisible by 3, not prime\n* **43:** Prime\n* **53:** Prime\n* **63:** Divisible by 3, not prime\n* **73:** Prime\n* **83:** Prime\n* **93:** Divisible by 3, not prime\n**Answer:**  There are **6** prime numbers less than 100 with a units digit of 3: 3, 13, 23, 43, 53, and 73. \n"
+    ],
+    "pred_answers": "3",
+    "final_pred_answer": [
+        "3",
+        "7",
+        "7",
+        "3",
+        "6"
+    ],
+    "ground_truth": "7"
+}

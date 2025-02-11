@@ -1,0 +1,23 @@
+{
+    "problem": "Compute $\\dbinom{16}{4}-\\dbinom{16}{12}$.",
+    "level": "Level 1",
+    "type": "Counting & Probability",
+    "solution": "Both $\\dbinom{16}{4}$ and $\\dbinom{16}{12}$ are equal to $\\dfrac{16!}{4!12!}$, so without further computation, we see that their difference is equal to $\\boxed{0}$.",
+    "prompt": "### Instruction: Compute $\\dbinom{16}{4}-\\dbinom{16}{12}$.\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "We know that $\\binom{n}{k} = \\binom{n}{n-k}$. Therefore, \n$$\\binom{16}{12} = \\binom{16}{16-12} = \\binom{16}{4}.$$\nThis means $\\binom{16}{4} - \\binom{16}{12} = \\binom{16}{4} - \\binom{16}{4} = \\boxed{0}$. \n",
+        "**Step 1: Understand the Binomial Coefficient**\nThe binomial coefficient, denoted as $\\binom{n}{k}$, represents the number of ways to choose *k* items from a set of *n* items. It is calculated as:\n$$\\binom{n}{k} = \\frac{n!}{k!(n-k)!}$$\n**Step 2: Calculate the Individual Binomial Coefficients**\n*  $\\binom{16}{4} = \\frac{16!}{4!12!} = \\frac{16 \\times 15 \\times 14 \\times 13}{4 \\times 3 \\times 2 \\times 1} = 1820$\n*  $\\binom{16}{12} = \\frac{16!}{12!4!} = \\frac{16 \\times 15 \\times 14 \\times 13}{4 \\times 3 \\times 2 \\times 1} = 1820$ \n**Step 3: Subtract the Results**\n$$\\binom{16}{4} - \\binom{16}{12} = 1820 - 1820 = \\boxed{0}$$\n**Therefore,  $\\binom{16}{4}-\\binom{16}{12} = 0$.** \n",
+        "We can use the following property of binomial coefficients: \n**Symmetry Property:**  For any non-negative integers *n* and *k*, \n  \n$$\\binom{n}{k} = \\binom{n}{n-k}$$\nTherefore, \n$$\\binom{16}{12} = \\binom{16}{16-12} = \\binom{16}{4}$$\nThis means:\n$$\\binom{16}{4} - \\binom{16}{12} = \\binom{16}{4} - \\binom{16}{4} = \\boxed{0}$$ \n",
+        "**Step 1: Understand the binomial coefficient**\nThe binomial coefficient $\\binom{n}{k}$ represents the number of ways to choose $k$ objects from a set of $n$ objects. It's calculated as:\n$$\\binom{n}{k} = \\frac{n!}{k!(n-k)!}$$\n**Step 2: Apply the formula**\nLet's calculate the two terms:\n*  $\\binom{16}{4} = \\frac{16!}{4!12!} = \\frac{16\\times15\\times14\\times13}{4\\times3\\times2\\times1} = 1820$\n*  $\\binom{16}{12} = \\frac{16!}{12!4!} = \\frac{16\\times15\\times14\\times13}{4\\times3\\times2\\times1} = 1820$\n**Step 3: Subtract the terms**\nFinally, subtract the two terms:\n$$\\binom{16}{4} - \\binom{16}{12} = 1820 - 1820 = \\boxed{0}$$ \n",
+        "Here's how to compute the expression step-by-step:\n**Understanding Binomial Coefficients**\n* **Definition:** The binomial coefficient  $\\binom{n}{k}$ represents the number of ways to choose a group of *k* items from a set of *n* distinct items. \n* **Symmetry:**  There's a useful symmetry property: $\\binom{n}{k} = \\binom{n}{n-k}$.\n**Applying the Symmetry Property**\nNotice that  $\\binom{16}{12} = \\binom{16}{4}$  because of the symmetry property.\n**Simplifying the Expression**\nTherefore, the expression becomes:\n$\\binom{16}{4} - \\binom{16}{12} = \\binom{16}{4} - \\binom{16}{4} = \\boxed{0}$ \n"
+    ],
+    "pred_answers": "0",
+    "final_pred_answer": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+    ],
+    "ground_truth": "0"
+}

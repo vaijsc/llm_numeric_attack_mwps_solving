@@ -1,0 +1,23 @@
+{
+    "problem": "Find the positive difference between $2(6) + 4(3)$ and $8(3+3)$.",
+    "level": "Level 1",
+    "type": "Algebra",
+    "solution": "Tweak the first expression a bit to get it in the form $4(3)+4(3)$. This is clearly twice $4(3)$, so it's $8(3)$. The difference between $8(3)$ and $8(3+3)$ is $8(3) = \\boxed{24}$.",
+    "prompt": "### Instruction: Find the positive difference between $2(6) + 4(3)$ and $8(3+3)$.\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "Here's how to solve the problem step-by-step:\n**1. Calculate the first expression:**\n*  2(6) + 4(3) = 12 + 12 = 24\n**2. Calculate the second expression:**\n* 8(3 + 3) = 8(6) = 48\n**3. Find the difference:**\n* 48 - 24 = 24\n**4.  Since we want the positive difference, the answer is 24.** \n",
+        "Here's how to solve the problem step-by-step:\n1. **Calculate the first expression:** \n   *  2(6) + 4(3) = 12 + 12 = 24\n2. **Calculate the second expression:**\n   * 8(3 + 3) = 8(6) = 48\n3. **Find the difference:**\n   * 48 - 24 = 24\n4. **The positive difference:**\n   * The positive difference is **24**. \n",
+        "Here's how to solve the problem step-by-step:\n**1. Simplify the expressions inside the parentheses:**\n*  2(6) + 4(3) = 12 + 12\n*  8(3+3) = 8(6)\n**2. Perform the multiplications:**\n* 12 + 12 = 24\n* 8(6) = 48\n**3. Find the difference:**\n* 48 - 24 = 24\n**4.  Find the positive difference:**\n* Since the difference is already positive, the positive difference is **24**. \n",
+        "Here's how to solve the problem step-by-step:\n**1. Calculate the first expression:**\n*  2(6) + 4(3) = 12 + 12 = 24\n**2. Calculate the second expression:**\n* 8(3 + 3) = 8(6) = 48\n**3. Find the positive difference:**\n* 48 - 24 = 24\n**Therefore, the positive difference between the two expressions is 24.** \n",
+        "Here's how to solve the problem step-by-step:\n**1. Simplify the expressions inside the parentheses:**\n*  2(6) + 4(3) = 12 + 12\n*  8(3 + 3) = 8(6)\n**2. Perform the multiplications:**\n* 12 + 12 = 24\n* 8(6) = 48\n**3. Find the difference:**\n* 48 - 24 = 24\n**4. Determine the positive difference:**\n* Since 24 is already positive, the positive difference is **24**. \n"
+    ],
+    "pred_answers": "24",
+    "final_pred_answer": [
+        "24",
+        "24",
+        "24",
+        "24",
+        "24"
+    ],
+    "ground_truth": "24"
+}

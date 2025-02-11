@@ -1,0 +1,23 @@
+{
+    "problem": "Simplify $(5a)^3 \\cdot (2a^2)^2$.",
+    "level": "Level 2",
+    "type": "Algebra",
+    "solution": "$(5a)^3 \\cdot (2a^2)^2 = 125a^3 \\cdot 4a^4 = \\boxed{500a^7}$.",
+    "prompt": "### Instruction: Simplify $(5a)^3 \\cdot (2a^2)^2$.\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "To simplify the expression \\((5a)^3 \\cdot (2a^2)^2\\), we will break it down into manageable parts.\n**Step 1: Simplify \\((5a)^3\\)**\nUsing the power of a product rule \\((xy)^n = x^n y^n\\):\n\\[\n(5a)^3 = 5^3 \\cdot a^3\n\\]\nCalculating \\(5^3\\):\n\\[\n5^3 = 125\n\\]\nThus, \n\\[\n(5a)^3 = 125a^3\n\\]\n**Step 2: Simplify \\((2a^2)^2\\)**\nAgain using the power of a product rule:\n\\[\n(2a^2)^2 = 2^2 \\cdot (a^2)^2\n\\]\nCalculating \\(2^2\\):\n\\[\n2^2 = 4\n\\]\nAnd since \\((a^2)^2 = a^{2 \\cdot 2} = a^4\\):\n\\[\n(2a^2)^2 = 4a^4\n\\]\n**Step 3: Combine both parts**\nNow we can combine the results from Step 1 and Step 2:\n\\[\n(5a)^3 \\cdot (2a^2)^2 = 125a^3 \\cdot 4a^4\n\\]\n**Step 4: Multiply the coefficients and the variables**\nCalculating the coefficient:\n\\[\n125 \\cdot 4 = 500\n\\]\nFor the variables, we use the property of exponents:\n\\[\na^3 \\cdot a^4 = a^{3+4} = a^7\n\\]\n**Final Result**\nPutting it all together, we have:\n\\[\n(5a)^3 \\cdot (2a^2)^2 = 500a^7\n\\]\nThus, the simplified expression is:\n\\[\n\\boxed{500a^7}\n\\]",
+        "To simplify \\((5a)^3 \\cdot (2a^2)^2\\), we can break it down into smaller steps.\nFirst, we need to simplify each part of the expression:\n1. **Simplify \\((5a)^3\\)**:\n   \\[\n   (5a)^3 = 5^3 \\cdot a^3 = 125 \\cdot a^3\n   \\]\n2. **Simplify \\((2a^2)^2\\)**:\n   \\[\n   (2a^2)^2 = 2^2 \\cdot (a^2)^2 = 4 \\cdot a^{2 \\cdot 2} = 4 \\cdot a^4\n   \\]\nNow we can combine these results:\n\\[\n(5a)^3 \\cdot (2a^2)^2 = (125a^3) \\cdot (4a^4)\n\\]\nNext, we multiply the coefficients (the numbers) and the powers of \\(a\\):\n\\[\n125 \\cdot 4 = 500\n\\]\nFor the powers of \\(a\\):\n\\[\na^3 \\cdot a^4 = a^{3+4} = a^7\n\\]\nSo, we combine these two results:\n\\[\n500a^7\n\\]\nThus, the simplified form of \\((5a)^3 \\cdot (2a^2)^2\\) is \\(\\boxed{500a^7}\\).",
+        "To simplify the expression \\((5a)^3 \\cdot (2a^2)^2\\), we can break it down into steps.\n1. **Simplify \\((5a)^3\\)**:\n   \\[\n   (5a)^3 = 5^3 \\cdot a^3 = 125a^3\n   \\]\n2. **Simplify \\((2a^2)^2\\)**:\n   \\[\n   (2a^2)^2 = 2^2 \\cdot (a^2)^2 = 4a^{2 \\cdot 2} = 4a^4\n   \\]\n3. **Combine the results**:\n   Now we can multiply the results from the two simplifications:\n   \\[\n   125a^3 \\cdot 4a^4\n   \\]\n4. **Multiply the coefficients**:\n   \\[\n   125 \\cdot 4 = 500\n   \\]\n5. **Combine the powers of \\(a\\)**:\n   When multiplying \\(a^3\\) and \\(a^4\\), we add the exponents:\n   \\[\n   a^3 \\cdot a^4 = a^{3+4} = a^7\n   \\]\n6. **Final result**:\n   Putting it all together, we have:\n   \\[\n   500a^7\n   \\]\nThus, the simplified expression is \\(\\boxed{500a^7}\\).",
+        "To simplify the expression \\((5a)^3 \\cdot (2a^2)^2\\), we will handle each part step by step.\n1. **Simplify \\((5a)^3\\)**:\n   \\[\n   (5a)^3 = 5^3 \\cdot a^3 = 125a^3\n   \\]\n2. **Simplify \\((2a^2)^2\\)**:\n   \\[\n   (2a^2)^2 = 2^2 \\cdot (a^2)^2 = 4a^{2 \\cdot 2} = 4a^4\n   \\]\n3. **Combine the results**:\n   Now, we multiply the two results from the previous steps:\n   \\[\n   125a^3 \\cdot 4a^4\n   \\]\n4. **Multiply the coefficients and combine the variables**:\n   \\[\n   125 \\cdot 4 = 500\n   \\]\n   \\[\n   a^3 \\cdot a^4 = a^{3 + 4} = a^7\n   \\]\n5. **Final result**:\n   Therefore, the simplified expression is:\n   \\[\n   500a^7\n   \\]\nThus, the final simplified expression is \\(\\boxed{500a^7}\\).",
+        "To simplify the expression \\((5a)^3 \\cdot (2a^2)^2\\), we can break it down step by step.\n1. **Simplify each part of the expression separately**:\n    - For \\((5a)^3\\):\n      \\[\n      (5a)^3 = 5^3 \\cdot a^3 = 125a^3\n      \\]\n    - For \\((2a^2)^2\\):\n      \\[\n      (2a^2)^2 = 2^2 \\cdot (a^2)^2 = 4 \\cdot a^{2 \\cdot 2} = 4a^4\n      \\]\n2. **Now, multiply the two results together**:\n   We now have:\n   \\[\n   125a^3 \\cdot 4a^4\n   \\]\n   When we multiply the coefficients and the variables, we get:\n   - Coefficients: \\(125 \\cdot 4 = 500\\)\n   - Variables: \\(a^3 \\cdot a^4 = a^{3+4} = a^7\\)\n3. **Combine the results**:\n   Thus, the combined result is:\n   \\[\n   500a^7\n   \\]\nTherefore, the simplified expression is \\(\\boxed{500a^7}\\)."
+    ],
+    "pred_answers": "7",
+    "final_pred_answer": [
+        "7",
+        "7",
+        "7",
+        "7",
+        "7"
+    ],
+    "ground_truth": "7"
+}

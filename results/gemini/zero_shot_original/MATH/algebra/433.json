@@ -1,0 +1,23 @@
+{
+    "problem": "Evaluate $\\left\\lceil\\left(\\frac{7}{4}\\right)^2\\right\\rceil$.",
+    "level": "Level 3",
+    "type": "Algebra",
+    "solution": "The expression inside the ceiling function evaluates to $$\\left(\\frac{7}{4}\\right)^2=\\frac{49}{16}=3+\\frac{1}{16} $$Because $0\\le\\frac1{16}<1$, we have $$ \\left\\lceil\\left(\\frac{7}{4}\\right)^2\\right\\rceil = \\left\\lceil 3 + \\frac1{16} \\right\\rceil = \\boxed{4}.$$",
+    "prompt": "### Instruction: Evaluate $\\left\\lceil\\left(\\frac{7}{4}\\right)^2\\right\\rceil$.\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "Here's how to evaluate the expression step-by-step:\n1. **Calculate the square:**  (7/4)^2 = 49/16\n2. **Approximate the fraction:** 49/16 is slightly larger than 3 (since 3 = 48/16).\n3. **Apply the ceiling function:** The ceiling function, denoted by  \u2308  \u2309 , rounds a number up to the nearest integer. Since 49/16 is slightly larger than 3,  \u230849/16\u2309 = **4**. \nTherefore, $\\left\\lceil\\left(\\frac{7}{4}\\right)^2\\right\\rceil = \\boxed{4}$. \n",
+        "Here's how to evaluate the expression step-by-step:\n1. **Calculate the square:**  \n   (7/4)\u00b2 = (7/4) * (7/4) = 49/16\n2. **Convert to a mixed number (optional):** \n   49/16 = 3 1/16\n3. **Apply the ceiling function:** \n   The ceiling function, denoted by  \u2308  \u2309, rounds a number up to the nearest integer.  Since 3 1/16 is greater than 3 but less than 4,  \u23083 1/16\u2309 = **4**. \nTherefore,  $\\left\\lceil\\left(\\frac{7}{4}\\right)^2\\right\\rceil = \\boxed{4}$. \n",
+        "Here's how to evaluate the expression step-by-step:\n1. **Calculate the square:**  \n   (7/4)\u00b2 = 49/16\n2. **Find the ceiling:** The ceiling function, denoted by  \u2308  \u2309, rounds a number *up* to the nearest integer. \n   Since 49/16 is between 3 and 4,  \u230849/16\u2309 = **4**.\n**Therefore,  $\\left\\lceil\\left(\\frac{7}{4}\\right)^2\\right\\rceil = 4$.** \n",
+        "Here's how to evaluate the expression step-by-step:\n1. **Calculate the square:**  (7/4)^2 = 49/16\n2. **Approximate the fraction:** 49/16 is a little more than 3 (since 3 * 16 = 48).\n3. **Apply the ceiling function:** The ceiling function, denoted by  \u2308  \u2309, rounds a number up to the nearest integer. Since 49/16 is slightly larger than 3,  \u230849/16\u2309 = **4**. \nTherefore,  $\\left\\lceil\\left(\\frac{7}{4}\\right)^2\\right\\rceil = \\boxed{4}$. \n",
+        "Here's how to evaluate the expression step-by-step:\n1. **Calculate the square:**  (7/4)^2 = 49/16\n2. **Approximate the fraction:** 49/16 is a little more than 3 (since 48/16 = 3)\n3. **Apply the ceiling function:** The ceiling function, denoted by $\\lceil x \\rceil$, gives the smallest integer greater than or equal to *x*. Since 49/16 is slightly more than 3,  $\\left\\lceil \\frac{49}{16} \\right\\rceil = \\boxed{4}$. \n"
+    ],
+    "pred_answers": "4",
+    "final_pred_answer": [
+        "4",
+        "4",
+        "4",
+        "4",
+        "4"
+    ],
+    "ground_truth": "4"
+}

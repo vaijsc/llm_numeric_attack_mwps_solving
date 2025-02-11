@@ -1,0 +1,23 @@
+{
+    "problem": "Parallelogram $ABCD$ has $A(0, 1)$, $B(2, 1)$ and $C(4, 0)$ as three of its vertices. What is the sum of the coordinates of point $D$?",
+    "level": "Level 3",
+    "type": "Geometry",
+    "solution": "Side $AB$ is horizontal and of length $2$, so side $CD$ must also be, oriented oppositely.  So $D$ is at $(4-2,0)=(2,0)$ and the sum is $\\boxed{2}$.",
+    "prompt": "### Instruction: Parallelogram $ABCD$ has $A(0, 1)$, $B(2, 1)$ and $C(4, 0)$ as three of its vertices. What is the sum of the coordinates of point $D$?\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "Here's how to solve the problem step-by-step:\n**1. Visualize the Parallelogram**\nImagine parallelogram ABCD.  Since AB is horizontal, and BC is a diagonal, CD must also be horizontal.  This means point D will have the same y-coordinate as point C.\n**2.  Find the Vector Representing AB**\nThe vector representing side AB is  (2 - 0, 1 - 1) = (2, 0).  \n**3.  Use Vector Addition**\nSince opposite sides of a parallelogram are parallel and equal in length, vector CD will also be (2, 0).  \n**4.  Find Point D**\n* Start at point C (4, 0)\n* Add the components of vector CD: (4 + 2, 0 + 0) = (6, 0)\n**5.  Calculate the Sum of Coordinates**\nThe sum of the coordinates of point D (6, 0) is 6 + 0 = **6**. \n",
+        "Here's how to solve the problem step-by-step:\n**1. Understand Parallelograms**\n* **Opposite sides are parallel and equal in length.**\n* **Diagonals bisect each other.**\n**2. Find the Missing Vertex**\n* **Use the midpoint property:** The midpoint of diagonal AC must be the same as the midpoint of diagonal BD.\n* **Find the midpoint of AC:**  [(0+4)/2, (1+0)/2] = (2, 1/2)\n* **Since B is (2, 1), the midpoint is already the y-coordinate of D.  So, D must have a y-coordinate of 1/2.**\n* **Since D is opposite A,  the x-coordinate of D must be the same as the x-coordinate of C plus the difference between the x-coordinates of B and A (2 - 0 = 2).**  So, the x-coordinate of D is 4 + 2 = 6.\n**3. The Solution**\n* **The coordinates of D are (6, 1/2).**\n* **The sum of the coordinates is 6 + 1/2 = 13/2.** \n**Therefore, the sum of the coordinates of point D is 13/2.** \n",
+        "Here's how to solve the problem step-by-step:\n**1. Visualize the Parallelogram**\nSketch a quick diagram of the parallelogram. You'll see that side AB is parallel to side CD, and side BC is parallel to side AD.\n**2. Find the Vector for Side AB**\nThe vector representing side AB is found by subtracting the coordinates of A from the coordinates of B:  (2, 1) - (0, 1) = (2, 0).\n**3. Find the Coordinates of Point D**\nSince AB and CD are parallel, the vector representing side CD will also be (2, 0).  Start at point C (4, 0) and add the vector (2, 0) to find the coordinates of D: (4, 0) + (2, 0) = (6, 0).\n**4. Calculate the Sum of the Coordinates of Point D**\nThe sum of the coordinates of point D is 6 + 0 = **6**. \n",
+        "Here's how to find the coordinates of point D and the sum of its coordinates:\n**1. Understanding Parallelograms**\n* **Opposite sides are parallel and equal in length.**\n* **Diagonals bisect each other.**\n**2. Finding Point D**\n* **Think about vectors:**  Since AB and CD are parallel and equal in length, the vector from B to C is the same as the vector from A to D. \n* **Vector BC:**  The vector from B(2,1) to C(4,0) is (4-2, 0-1) = (2, -1).\n* **Point D:**  Add the vector (2, -1) to the coordinates of A(0, 1) to find the coordinates of D: (0+2, 1-1) = (2, 0).\n**3. Sum of Coordinates of D**\nThe sum of the coordinates of point D (2, 0) is 2 + 0 = **2**. \n",
+        "Here's how to solve this problem:\n**1. Visualize the Parallelogram**\nSketch a parallelogram with the given vertices. This will help you understand the relationships between the points.\n[asy]\nunitsize(1 cm);\npair A, B, C, D;\nA = (0,1);\nB = (2,1);\nC = (4,0);\nD = (2,0);\ndraw(A--B--C--D--cycle);\nlabel(\"$A$\", A, NW);\nlabel(\"$B$\", B, NE);\nlabel(\"$C$\", C, SE);\nlabel(\"$D$\", D, SW);\n[/asy]\n**2.  Find the Vector for Adjacent Sides**\n*  The vector from  *A* to *B* is  <2, 0>. \n*  The vector from *B* to *C* is  <2, -1>.\n**3.  Find the Fourth Vertex**\nSince opposite sides of a parallelogram are parallel and have the same length, to find *D* we can add the vector <2, -1> to the coordinates of point *C*:\n*   *D* = (4, 0) + <2, -1> = (6, -1)\n**4. Calculate the Sum of Coordinates**\nThe sum of the coordinates of *D* is 6 + (-1) = **5**. \n"
+    ],
+    "pred_answers": "6",
+    "final_pred_answer": [
+        "6",
+        "2",
+        "6",
+        "2",
+        "5"
+    ],
+    "ground_truth": "2"
+}

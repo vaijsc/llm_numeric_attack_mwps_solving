@@ -1,0 +1,23 @@
+{
+    "problem": "Simplify $(2n-2)(n+3) + (n+2)(n-6)$.",
+    "level": "Level 3",
+    "type": "Algebra",
+    "solution": "The first two terms multiply to $2n^2 + 4n - 6$, and the last two multiply to $n^2 -4n -12$. Thus, both the $4n$ cancels, leaving an answer of $\\boxed{3n^2-18}$.",
+    "prompt": "### Instruction: Simplify $(2n-2)(n+3) + (n+2)(n-6)$.\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "1. **Expand the products:**\n   *  (2n - 2)(n + 3) = 2n\u00b2 + 6n - 2n - 6 = 2n\u00b2 + 4n - 6\n   *  (n + 2)(n - 6) = n\u00b2 - 6n + 2n - 12 = n\u00b2 - 4n - 12\n2. **Combine the expanded expressions:**\n   *  2n\u00b2 + 4n - 6 + n\u00b2 - 4n - 12\n3. **Combine like terms:**\n   *  (2n\u00b2 + n\u00b2) + (4n - 4n) + (-6 - 12)\n4. **Simplify:**\n   *  3n\u00b2 - 18\n**Therefore, the simplified expression is 3n\u00b2 - 18.** \n",
+        "1. **Expand the products:** \n   - $(2n-2)(n+3) = 2n^2 + 6n - 2n - 6 = 2n^2 + 4n - 6$\n   - $(n+2)(n-6) = n^2 - 6n + 2n - 12 = n^2 - 4n - 12$\n2. **Combine the expanded expressions:**\n   - $(2n^2 + 4n - 6) + (n^2 - 4n - 12)$\n3. **Combine like terms:**\n   - $2n^2 + n^2 + 4n - 4n - 6 - 12$\n4. **Simplify:**\n   - $\\boxed{3n^2 - 18}$ \n",
+        "1. **Expand the products:**\n   *  $(2n-2)(n+3) = 2n^2 + 6n - 2n - 6 = 2n^2 + 4n - 6$\n   *  $(n+2)(n-6) = n^2 - 6n + 2n - 12 = n^2 - 4n - 12$\n2. **Combine the expanded terms:**\n   *  $2n^2 + 4n - 6 + n^2 - 4n - 12$\n3. **Combine like terms:**\n   *  $(2n^2 + n^2) + (4n - 4n) + (-6 - 12)$\n4. **Simplify:**\n   *  $3n^2 - 18$\nTherefore, the simplified expression is $\\boxed{3n^2 - 18}$. \n",
+        "1. **Expand the first product:**\n   (2n - 2)(n + 3) = 2n\u00b2 + 6n - 2n - 6 = 2n\u00b2 + 4n - 6\n2. **Expand the second product:**\n   (n + 2)(n - 6) = n\u00b2 - 6n + 2n - 12 = n\u00b2 - 4n - 12\n3. **Combine the expanded expressions:**\n   2n\u00b2 + 4n - 6 + n\u00b2 - 4n - 12\n4. **Combine like terms:**\n   (2n\u00b2 + n\u00b2) + (4n - 4n) + (-6 - 12) = 3n\u00b2 - 18\n**Therefore, the simplified expression is 3n\u00b2 - 18.** \n",
+        "1. **Expand the products:**\n   *  (2n - 2)(n + 3) = 2n\u00b2 + 6n - 2n - 6 = 2n\u00b2 + 4n - 6\n   *  (n + 2)(n - 6) = n\u00b2 - 6n + 2n - 12 = n\u00b2 - 4n - 12\n2. **Combine the expanded terms:**\n    *  2n\u00b2 + 4n - 6 + n\u00b2 - 4n - 12 \n3. **Combine like terms:**\n    * (2n\u00b2 + n\u00b2) + (4n - 4n) + (-6 - 12) \n4. **Simplify:**\n    * 3n\u00b2 - 18\nTherefore, the simplified expression is **3n\u00b2 - 18**. \n"
+    ],
+    "pred_answers": "18",
+    "final_pred_answer": [
+        "18",
+        "18",
+        "18",
+        "18",
+        "18"
+    ],
+    "ground_truth": "-18"
+}

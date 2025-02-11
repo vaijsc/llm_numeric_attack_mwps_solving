@@ -1,0 +1,23 @@
+{
+    "problem": "If $h(x) = \\sqrt{\\frac{x+3}{2}}$, what is the value of $h(-1)$?",
+    "level": "Level 1",
+    "type": "Algebra",
+    "solution": "We have $h(-1) = \\sqrt{\\frac{-1+3}{2}} = \\sqrt{\\frac{2}{2}} = \\sqrt{1} = \\boxed{1}$.",
+    "prompt": "### Instruction: If $h(x) = \\sqrt{\\frac{x+3}{2}}$, what is the value of $h(-1)$?\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "Here's how to solve the problem step-by-step:\n1. **Substitute:**  Replace 'x' in the function with -1: \n   \n   h(-1) = \u221a((-1) + 3) / 2 \n2. **Simplify inside the radical:**\n   h(-1) = \u221a(2 / 2)\n3. **Further simplify:**\n   h(-1) = \u221a1\n4. **Calculate the square root:**\n   h(-1) = 1\n**Therefore, the value of h(-1) is 1.** \n",
+        "1. **Substitute:** We need to find the value of  $h(-1)$.  This means we replace every 'x' in the function with '-1': \n   \n   $h(-1) = \\sqrt{\\frac{(-1)+3}{2}}$\n2. **Simplify:** Now we just need to simplify the expression inside the square root:\n   $h(-1) = \\sqrt{\\frac{2}{2}}$\n   $h(-1) = \\sqrt{1}$\n3. **Final Step:** The square root of 1 is 1:\n   $h(-1) = 1$\n**Therefore, the value of h(-1) is 1.** \n",
+        "1. **Substitute:**  Replace the 'x' in the function with -1: \n   \n   h(-1) = \u221a((-1) + 3) / 2\n2. **Simplify inside the square root:**\n   h(-1) = \u221a(2 / 2)\n3. **Simplify further:**\n   h(-1) = \u221a1\n4. **Calculate the square root:**\n   h(-1) = 1\n**Therefore, the value of h(-1) is 1.** \n",
+        "Here's how to find the value of  $h(-1)$:\n1. **Substitute:** Replace the 'x' in the function with -1: \n   *  $h(-1) = \\sqrt{\\frac{(-1) + 3}{2}}$\n2. **Simplify:**  \n   * $h(-1) = \\sqrt{\\frac{2}{2}}$\n   * $h(-1) = \\sqrt{1}$\n3. **Calculate:**\n   * $h(-1) = 1$\n**Therefore, the value of  $h(-1)$ is 1.** \n",
+        "1. **Substitute:** We need to find the value of h(-1), so we substitute -1 for *x* in the function:\n   *  h(-1) = \u221a((-1) + 3) / 2\n2. **Simplify inside the square root:** \n   * h(-1) = \u221a(2 / 2)\n3. **Simplify further:**\n   * h(-1) = \u221a1\n4. **Calculate the square root:**\n   * h(-1) = 1\n**Therefore, the value of h(-1) is 1.** \n"
+    ],
+    "pred_answers": "1",
+    "final_pred_answer": [
+        "1",
+        "1",
+        "1",
+        "1",
+        "1"
+    ],
+    "ground_truth": "1"
+}

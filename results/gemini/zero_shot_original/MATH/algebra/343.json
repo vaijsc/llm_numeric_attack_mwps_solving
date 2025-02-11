@@ -1,0 +1,23 @@
+{
+    "problem": "Simplify $\\frac{\\sqrt{72}}{\\sqrt{10}}$. Your answer should have an integer denominator.",
+    "level": "Level 3",
+    "type": "Algebra",
+    "solution": "$\\frac{\\sqrt{72}}{\\sqrt{10}} = \\frac{\\sqrt{72}\\cdot\\sqrt{10}}{\\sqrt{10}\\cdot\\sqrt{10}} = \\frac{\\sqrt{720}}{10} = \\frac{12\\sqrt{5}}{10} = \\boxed{\\frac{6\\sqrt{5}}{5}}$.",
+    "prompt": "### Instruction: Simplify $\\frac{\\sqrt{72}}{\\sqrt{10}}$. Your answer should have an integer denominator.\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "Here's how to simplify the expression:\n1. **Simplify the radicals:**\n   *  \u221a72 = \u221a(36 * 2) = 6\u221a2\n   *  \u221a10 = \u221a(2 * 5) = \u221a2 \u221a5 \n2. **Substitute the simplified radicals into the fraction:**\n   (6\u221a2) / (\u221a2 \u221a5)\n3. **Cancel out common factors:**\n   6 / \u221a5\n4. **Rationalize the denominator:**\n   (6 / \u221a5) * (\u221a5 / \u221a5) = (6\u221a5) / 5\n**Therefore, the simplified expression is (6\u221a5) / 5.** \n",
+        "1. **Simplify the radicals:** \n   *  \u221a72 = \u221a(36 * 2) = 6\u221a2\n   *  \u221a10 = \u221a(2 * 5) = \u221a2 * \u221a5\n2. **Substitute the simplified radicals back into the fraction:**\n   * (6\u221a2) / (\u221a2 * \u221a5)\n3. **Cancel out the common factor of \u221a2:**\n   * 6 / \u221a5\n4. **Rationalize the denominator:**\n   * (6 / \u221a5) * (\u221a5 / \u221a5) = 6\u221a5 / 5\n**Therefore, the simplified expression is 6\u221a5 / 5.** \n",
+        "Here's how to simplify the expression:\n1. **Simplify the radicals:**\n   *  \u221a72 = \u221a(36 * 2) = 6\u221a2\n   *  \u221a10 = \u221a(2 * 5) = \u221a2 * \u221a5\n2. **Substitute the simplified radicals back into the original expression:**\n   * (6\u221a2) / (\u221a2 * \u221a5)\n3. **Cancel out the common factor of \u221a2:**\n   * 6 / \u221a5\n4. **Rationalize the denominator:**\n   * (6 / \u221a5) * (\u221a5 / \u221a5) = 6\u221a5 / 5\n**Therefore, the simplified expression with an integer denominator is 6\u221a5 / 5.** \n",
+        "Here's how to simplify the expression:\n**1. Simplify the radicals:**\n* Find the largest perfect square that divides 72:  $72 = 36 \\cdot 2$.  \n* Find the largest perfect square that divides 10:  $10 = 5 \\cdot 2$.\nNow we can rewrite the expression:\n  \n  $$\\frac{\\sqrt{72}}{\\sqrt{10}} = \\frac{\\sqrt{36 \\cdot 2}}{\\sqrt{5 \\cdot 2}} = \\frac{\\sqrt{36} \\cdot \\sqrt{2}}{\\sqrt{5} \\cdot \\sqrt{2}} = \\frac{6\\sqrt{2}}{\\sqrt{5}\\sqrt{2}}$$\n**2. Rationalize the denominator:**\n* To get rid of the radical in the denominator, multiply both the numerator and denominator by $\\sqrt{5}$:\n  $$\\frac{6\\sqrt{2}}{\\sqrt{5}\\sqrt{2}} \\cdot \\frac{\\sqrt{5}}{\\sqrt{5}} = \\frac{6\\sqrt{10}}{5}$$\n**Therefore, the simplified expression with an integer denominator is $\\frac{6\\sqrt{10}}{5}$.** \n",
+        "Here's how to simplify the expression:\n1. **Simplify the radicals:**\n   *  \u221a72 = \u221a(36 * 2) = 6\u221a2\n   *  \u221a10 = \u221a(2 * 5) = \u221a2 * \u221a5\n2. **Substitute the simplified radicals back into the expression:**\n   *  (6\u221a2) / (\u221a2 * \u221a5)\n3. **Cancel the common factor of \u221a2:**\n   *  6 / \u221a5\n4. **Rationalize the denominator:**\n   *  (6 / \u221a5) * (\u221a5 / \u221a5) = 6\u221a5 / 5\nTherefore, the simplified expression is **(6\u221a5) / 5**. \n"
+    ],
+    "pred_answers": "5",
+    "final_pred_answer": [
+        "5",
+        "5",
+        "5",
+        "5",
+        "5"
+    ],
+    "ground_truth": "5"
+}

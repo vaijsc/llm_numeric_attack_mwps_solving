@@ -1,0 +1,23 @@
+{
+    "problem": "For two real values of $n$, the equation $9x^2+nx+36=0$ has exactly one solution in $x$. What is the positive value of $n$?",
+    "level": "Level 4",
+    "type": "Algebra",
+    "solution": "If the quadratic expression on the LHS has exactly one root in $x$, then it must be a perfect square. Dividing 9 from both sides, we have $x^2+\\frac{n}{9}x+4=0$. In order for the LHS to be a perfect square, it must factor to either $(x+2)^2=x^2+4x+4$ or $(x-2)^2=x^2-4x+4$ (since the leading coefficient and the constant term are already defined). Only the first case gives a positive value of $n$, which is $n=4\\cdot9=\\boxed{36}$.",
+    "prompt": "### Instruction: For two real values of $n$, the equation $9x^2+nx+36=0$ has exactly one solution in $x$. What is the positive value of $n$?\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "Here's how to solve the problem step-by-step:\n**Understanding the Concept**\n* A quadratic equation has exactly one solution when its discriminant is equal to zero. \n* The discriminant of a quadratic equation of the form *ax\u00b2 + bx + c = 0* is given by *b\u00b2 - 4ac*.\n**Applying the Concept**\n1. **Identify the coefficients:** In the given equation, *a = 9*, *b = n*, and *c = 36*.\n2. **Set the discriminant to zero:** We want the equation to have one solution, so we set the discriminant equal to zero:\n   *  n\u00b2 - 4(9)(36) = 0\n3. **Solve for n:**\n   * n\u00b2 - 1296 = 0\n   * n\u00b2 = 1296\n   * n = \u00b1\u221a1296 \n   * n = \u00b136\n**Answer**\nThe positive value of *n* is **36**. \n",
+        "Here's how to solve the problem step-by-step:\n**1. Understanding the Concept**\n* A quadratic equation has exactly one solution when its discriminant is equal to zero. The discriminant is the part of the quadratic formula under the radical sign:  $b^2 - 4ac$.\n**2. Applying the Concept**\n* In the given equation, $9x^2 + nx + 36 = 0$:\n    *  $a = 9$\n    *  $b = n$\n    *  $c = 36$\n* Set the discriminant to zero: \n    * $b^2 - 4ac = 0$\n    * $n^2 - 4(9)(36) = 0$\n**3. Solving for n**\n* Simplify the equation:\n    * $n^2 - 1296 = 0$\n* Factor the equation:\n    * $(n - 36)(n + 36) = 0$\n* Solve for n:\n    *  $n = 36$ or $n = -36$\n**4. The Answer**\n* The positive value of *n* is **36**. \n",
+        "Here's how to solve the problem:\n**Understanding the Concept**\n* A quadratic equation has exactly one solution when its discriminant is equal to zero. \n* The discriminant of a quadratic equation in the form  *ax\u00b2 + bx + c = 0* is given by:  *b\u00b2 - 4ac*\n**Applying the Concept**\n1. **Identify the coefficients:** In the equation *9x\u00b2 + nx + 36 = 0*, we have:\n   * a = 9\n   * b = n\n   * c = 36\n2. **Set the discriminant to zero:**\n   * n\u00b2 - 4(9)(36) = 0\n3. **Solve for n:**\n   * n\u00b2 - 1296 = 0\n   * n\u00b2 = 1296\n   * n = \u00b1\u221a1296\n   * n = \u00b136\n**Answer**\nThe positive value of *n* is **36**. \n",
+        "Here's how to solve the problem step-by-step:\n**Understanding the Concept**\n* A quadratic equation has exactly one solution (a double root) when its discriminant is equal to zero. \n* The discriminant of a quadratic equation in the form  *ax\u00b2 + bx + c = 0* is given by  *b\u00b2 - 4ac*.\n**Applying the Concept**\n1. **Identify the coefficients:** In our equation,  *a = 9, b = n, c = 36*.\n2. **Set the discriminant to zero:**  *n\u00b2 - 4(9)(36) = 0*\n3. **Solve for n:**\n   *  *n\u00b2 - 1296 = 0*\n   *  *n\u00b2 = 1296*\n   *  *n = \u00b1\u221a1296*\n   *  *n = \u00b136*\n**Answer**\nThe positive value of *n* is **36**. \n",
+        "Here's how to solve the problem step-by-step:\n**Understanding the Concept**\nA quadratic equation has exactly one solution (a double root) when its discriminant is equal to zero. The discriminant is the part of the quadratic formula under the square root:\n* **Discriminant:**  $b^2 - 4ac$ \n**Applying the Concept**\n1. **Identify coefficients:** In the equation  $9x^2 + nx + 36 = 0$, we have:\n   *  a = 9\n   *  b = n\n   *  c = 36\n2. **Set the discriminant to zero:** \n   *  $n^2 - 4(9)(36) = 0$\n3. **Simplify and solve for n:**\n   *  $n^2 - 1296 = 0$\n   *  $n^2 = 1296$\n   *  $n = \\pm \\sqrt{1296}$\n   *  $n = \\pm 36$\n**The Answer**\nThe positive value of *n* is **36**. \n"
+    ],
+    "pred_answers": "36",
+    "final_pred_answer": [
+        "36",
+        "36",
+        "36",
+        "36",
+        "36"
+    ],
+    "ground_truth": "36"
+}

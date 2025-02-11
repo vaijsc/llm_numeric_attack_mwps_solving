@@ -1,0 +1,23 @@
+{
+    "problem": "Solve  \\[\\frac{x-9}{x+1}=2\\]for $x$.",
+    "level": "Level 2",
+    "type": "Algebra",
+    "solution": "Cross-multiplication gives  \\[x-9=2x+2.\\]Simplifying this expression tells us  \\[x=\\boxed{-11}.\\]",
+    "prompt": "### Instruction: Solve  \\[\\frac{x-9}{x+1}=2\\]for $x$.\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "1. **Multiply both sides by (x+1):** \n   This gets rid of the fraction on the left side. \n   \\[(x+1) \\cdot \\frac{x-9}{x+1} = 2 \\cdot (x+1)\\]\n2. **Simplify:**\n   The (x+1) terms cancel on the left side.\n   \\[x-9 = 2x + 2\\]\n3. **Combine like terms:** \n   Subtract x from both sides and subtract 2 from both sides.\n   \\[-9 - 2 = 2x - x\\]\n4. **Simplify:**\n   \\[-11 = x\\]\nTherefore, the solution is **x = -11**. \n",
+        "Here's how to solve the equation step-by-step:\n1. **Multiply both sides by (x+1):** \n   This eliminates the fraction on the left side.\n   ```\n   (x+1) * (x-9)/(x+1) = 2 * (x+1)\n   ```\n   This simplifies to:\n   ```\n   x - 9 = 2x + 2\n   ```\n2. **Subtract x from both sides:**\n   This gets all the x terms on one side.\n   ```\n   -9 = x + 2\n   ```\n3. **Subtract 2 from both sides:**\n   This isolates x.\n   ```\n   -11 = x \n   ```\n**Therefore, the solution to the equation is x = -11.** \n",
+        "Here's how to solve the equation step by step:\n1. **Multiply both sides by (x+1):** \n   This gets rid of the fraction on the left side:\n   ```\n   (x+1) * (x-9)/(x+1) = 2 * (x+1)\n   ```\n   This simplifies to:\n   ```\n   x - 9 = 2x + 2\n   ```\n2. **Subtract x from both sides:**\n   ```\n   -9 = x + 2\n   ```\n3. **Subtract 2 from both sides:**\n   ```\n   -11 = x\n   ```\n**Therefore, the solution is x = -11.** \n",
+        "1. **Multiply both sides by (x+1):** \n   This gets rid of the fraction on the left side. \n   \n   ```\n   (x+1) * (x-9)/(x+1) = 2 * (x+1)\n   ```\n2. **Simplify:** \n   The (x+1) terms cancel on the left side.\n   ```\n   x - 9 = 2x + 2\n   ```\n3. **Solve for x:**\n   * Subtract 'x' from both sides:\n     ```\n     -9 = x + 2\n     ```\n   * Subtract '2' from both sides:\n     ```\n     -11 = x\n     ```\n**Therefore, the solution is x = -11** \n",
+        "1. **Multiply both sides by (x+1):** \n   This eliminates the denominator on the left side:\n   \n   (x-9) = 2(x+1)\n2. **Distribute on the right side:**\n   \n   x - 9 = 2x + 2\n3. **Subtract x from both sides:**\n   \n   -9 = x + 2\n4. **Subtract 2 from both sides:**\n   \n   -11 = x\n**Therefore, the solution is x = -11.** \n"
+    ],
+    "pred_answers": "-11",
+    "final_pred_answer": [
+        "-11",
+        "-11",
+        "-11",
+        "-11",
+        "-11"
+    ],
+    "ground_truth": "-11"
+}

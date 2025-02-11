@@ -1,0 +1,23 @@
+{
+    "problem": "If $3^{x+8}=9^{x+3}$, what is $x$?",
+    "level": "Level 2",
+    "type": "Algebra",
+    "solution": "We write $9$ as a power of $3$, and we have $9^{x+3}=(3^2)^{x+3}=3^{2(x+3)} = 3^{2x+6}$.  Therefore, the original equation is $3^{x+8} = 3^{2x+6}$. Equating the two exponents, we get $x+8=2x+6$. Solving, we get that $x=\\boxed{2}$.",
+    "prompt": "### Instruction: If $3^{x+8}=9^{x+3}$, what is $x$?\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "Here's how to solve for *x*:\n1. **Express both sides with the same base:**  Since 9 is the same as 3\u00b2, we can rewrite the equation as: \n   3^(x+8) = (3\u00b2)^(x+3)\n2. **Simplify the right side:** Using the rule (a^m)^n = a^(m*n), we get:\n   3^(x+8) = 3^(2x+6)\n3. **Equate the exponents:**  Now that both sides have the same base, we can set the exponents equal to each other:\n   x + 8 = 2x + 6\n4. **Solve for x:**\n   - Subtract *x* from both sides: 8 = x + 6\n   - Subtract 6 from both sides: 2 = x\n**Therefore, x = 2** \n",
+        "Here's how to solve the equation step-by-step:\n1. **Express both sides with the same base:** Notice that 9 is the same as 3 squared (3\u00b2 = 9).  So we can rewrite the equation as: \n   \n   3^(x+8) = (3\u00b2)^(x+3)\n2. **Simplify the right side:** Use the rule of exponents that says (a^m)^n = a^(m*n):\n   3^(x+8) = 3^(2*(x+3))\n3. **Set the exponents equal:** Now that both sides have the same base, we can equate the exponents:\n   x + 8 = 2(x + 3)\n4. **Solve for x:** \n   * Distribute the 2 on the right side:  x + 8 = 2x + 6\n   * Subtract x from both sides: 8 = x + 6\n   * Subtract 6 from both sides: 2 = x\n**Therefore, x = 2** \n",
+        "Here's how to solve for *x* step-by-step:\n1. **Express both sides with the same base:**  Notice that 9 is the same as 3 squared (3\u00b2 = 9). So we can rewrite the equation as: \n   3^(x+8) = (3\u00b2)^(x+3)\n2. **Simplify the right side:**  Using the rule of exponents that says (a^m)^n = a^(m*n), we get:\n   3^(x+8) = 3^(2x+6)\n3. **Equate the exponents:** Since the bases are now the same, we can equate the exponents:\n   x + 8 = 2x + 6\n4. **Solve for x:**\n   - Subtract x from both sides: 8 = x + 6\n   - Subtract 6 from both sides: 2 = x\n**Therefore, x = 2** \n",
+        "Here's how to solve the equation step-by-step:\n1. **Express both sides with the same base:**  Notice that 9 can be written as 3 squared (9 = 3\u00b2). \n   \n   So we can rewrite the equation as: \n   3^(x+8) = (3\u00b2)^(x+3)\n2. **Simplify the right side:** Using the rule of exponents that says (a^m)^n = a^(m*n), we get:\n   3^(x+8) = 3^(2x+6)\n3. **Equate the exponents:** Since the bases are now the same, we can equate the exponents:\n   x + 8 = 2x + 6\n4. **Solve for x:**\n   * Subtract x from both sides: 8 = x + 6\n   * Subtract 6 from both sides: 2 = x\n**Therefore, x = 2** \n",
+        "Here's how to solve for *x*:\n**1. Express both sides with the same base:**\n*  Since 9 is the same as 3 squared (9 = 3\u00b2), we can rewrite the equation as: \n   3^(x+8) = (3\u00b2)^(x+3)\n**2. Simplify using exponent rules:**\n*  When raising a power to another power, multiply the exponents:\n   3^(x+8) = 3^(2(x+3))\n**3. Equate the exponents:**\n*  Now that both sides have the same base, we can equate the exponents:\n   x + 8 = 2(x + 3)\n**4. Solve for x:**\n*  Distribute the 2 on the right side:\n   x + 8 = 2x + 6\n*  Subtract x from both sides:\n   8 = x + 6\n*  Subtract 6 from both sides:\n   2 = x\n**Therefore, x = 2** \n"
+    ],
+    "pred_answers": "2",
+    "final_pred_answer": [
+        "2",
+        "2",
+        "2",
+        "2",
+        "2"
+    ],
+    "ground_truth": "2"
+}

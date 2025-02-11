@@ -1,0 +1,7 @@
+"\nLet  \\[f(x) =\n\\begin{cases}\nk(x) &\\text{if }x>2, \\\\\n2+(x-2)^2&\\text{if }x\\leq2.\n\\]Find the function $k(x)$ such that $f$ is its own inverse.\n"
+"\nLet  \\[f(x) =\n\\begin{cases}\nk(x) &\\text{if }x>2, \\\\\n2+(x-2)^2&\\text{if }x\\leq2.\n\\]Find the function $k(x)$ such that $f$ is its own inverse.\n"
+"Let  \\[f(x) =\n\\begin{cases}\nk(x) &\\text{if }x>3, \\\\\n2+(x-3)^2&\\text{if }x\\leq3.\n\\end{cases}\n\\]Find the function $k(x)$ such that $f$ is its own inverse."
+"Let  \\[f(x) =\n\\begin{cases}\nk(x) &\\text{if }x>4, \\\\\n2+(x-2)^2&\\text{if }x\\leq4.\n\\end{cases}\n\\]Find the function $k(x)$ such that $f$ is its own inverse."
+"\nLet  \\[f(x) =\n\\begin{cases}\nk(x) &\\text{if }x>5, \\\\\n2+(x-5)^2&\\text{if }x\\leq5.\n\\end{cases}\n\\]Find the function $k(x)$ such that $f$ is its own inverse.\n"
+"\nLet  \\[f(x) =\n\\begin{cases}\nk(x) &\\text{if }x>4, \\\\\n2+(x-4)^2&\\text{if }x\\leq4.\n\\end{cases}\n\\]Find the function $k(x)$ such that $f$ is its own inverse.\n"
+"Let  \\[f(x) =\n\\begin{cases}\nk(x) &\\text{if }x>5, \\\\\n2+(x-5)^2&\\text{if }x\\leq5.\n\\end{cases}\n\\]Find the function $k(x)$ such that $f$ is its own inverse."

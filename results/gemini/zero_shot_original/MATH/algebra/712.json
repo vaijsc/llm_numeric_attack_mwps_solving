@@ -1,0 +1,23 @@
+{
+    "problem": "What is the slope of the line containing the midpoint of the segment with endpoints at (0, 0) and (2, 2) and the midpoint of the segment with endpoints at (5, 0) and (6, 2)? Express your answer in simplest form.",
+    "level": "Level 4",
+    "type": "Algebra",
+    "solution": "The midpoint of a line segment with endpoints $(x_1, y_1), (x_2, y_2)$ is $\\left(\\frac{x_1 + x_2}{2}, \\frac{y_1 + y_2}{2}\\right)$.\n\nThe midpoint of the first segment is $\\left(\\frac{0+2}{2}, \\frac{0+2}{2}\\right) = (1,1)$ and the midpoint of the second segment is $\\left(\\frac{5+6}{2}, \\frac{0+2}{2}\\right) = (5.5,1)$.\n\nSince the $y$-coordinates are the same, the line is horizontal. All horizontal lines have a slope of $\\boxed{0}$.",
+    "prompt": "### Instruction: What is the slope of the line containing the midpoint of the segment with endpoints at (0, 0) and (2, 2) and the midpoint of the segment with endpoints at (5, 0) and (6, 2)? Express your answer in simplest form.\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "Here's how to solve the problem step-by-step:\n**1. Find the midpoints:**\n* **Midpoint of (0, 0) and (2, 2):** \n   The midpoint formula is  ((x1 + x2)/2, (y1 + y2)/2)\n   So, the midpoint is ((0 + 2)/2, (0 + 2)/2) = (1, 1)\n* **Midpoint of (5, 0) and (6, 2):**\n   The midpoint is ((5 + 6)/2, (0 + 2)/2) = (5.5, 1)\n**2. Find the slope:**\n* **Slope formula:**  (y2 - y1) / (x2 - x1)\n* Using the midpoints we found: (1 - 1) / (5.5 - 1) = 0 / 4.5 = **0**\n**Therefore, the slope of the line containing the two midpoints is 0.** \n",
+        "Here's how to solve the problem step-by-step:\n**1. Find the midpoints:**\n* **Midpoint of (0, 0) and (2, 2):** \n   The midpoint formula is:  ((x1 + x2)/2, (y1 + y2)/2)\n   So, the midpoint is ((0 + 2)/2, (0 + 2)/2) = (1, 1)\n* **Midpoint of (5, 0) and (6, 2):**\n   The midpoint is ((5 + 6)/2, (0 + 2)/2) = (5.5, 1)\n**2. Calculate the slope:**\n* **Slope Formula:**  (y2 - y1) / (x2 - x1)\n* Using the two midpoints we found: (1, 1) and (5.5, 1)\n* Slope = (1 - 1) / (5.5 - 1) = 0 / 4.5 = 0\n**Answer:** The slope of the line containing the two midpoints is **0**. \n",
+        "Here's how to solve the problem step-by-step:\n**1. Find the midpoints:**\n* **Midpoint of (0, 0) and (2, 2):**  \n   The midpoint formula is  ((x1 + x2)/2, (y1 + y2)/2) \n   So, the midpoint is ((0 + 2)/2, (0 + 2)/2) = (1, 1)\n* **Midpoint of (5, 0) and (6, 2):**\n   The midpoint is ((5 + 6)/2, (0 + 2)/2) = (5.5, 1)\n**2. Calculate the slope:**\n* **Slope formula:**  (y2 - y1) / (x2 - x1)\n* **Using the midpoints:** (1 - 1) / (5.5 - 1) = 0 / 4.5 = **0**\n**Answer:** The slope of the line containing the two midpoints is **0**. \n",
+        "Here's how to solve the problem step-by-step:\n**1. Find the midpoints:**\n* **Midpoint of (0, 0) and (2, 2):** \n   The midpoint formula is  ((x1 + x2)/2, (y1 + y2)/2).\n   Applying this, we get ((0 + 2)/2, (0 + 2)/2) = (1, 1).\n* **Midpoint of (5, 0) and (6, 2):**\n   Using the midpoint formula again, we get ((5 + 6)/2, (0 + 2)/2) = (5.5, 1).\n**2. Calculate the slope:**\n* The slope of a line passing through two points (x1, y1) and (x2, y2) is given by: (y2 - y1) / (x2 - x1)\n* Using our midpoints (1, 1) and (5.5, 1), we get:\n   (1 - 1) / (5.5 - 1) = 0 / 4.5 = **0**\n**Therefore, the slope of the line containing the two midpoints is 0.** \n",
+        "Here's how to solve the problem step-by-step:\n**1. Find the midpoints:**\n* **Midpoint of (0, 0) and (2, 2):**\n   *  x-coordinate: (0 + 2)/2 = 1\n   *  y-coordinate: (0 + 2)/2 = 1\n   *  Midpoint: (1, 1)\n* **Midpoint of (5, 0) and (6, 2):**\n   *  x-coordinate: (5 + 6)/2 = 5.5\n   *  y-coordinate: (0 + 2)/2 = 1\n   *  Midpoint: (5.5, 1)\n**2. Calculate the slope:**\n* **Slope formula:** (y2 - y1) / (x2 - x1)\n* **Using our midpoints (1, 1) and (5.5, 1):**\n   *  (1 - 1) / (5.5 - 1) = 0 / 4.5 = 0\n**Answer:** The slope of the line containing the two midpoints is **0**. \n"
+    ],
+    "pred_answers": "0",
+    "final_pred_answer": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+    ],
+    "ground_truth": "0"
+}

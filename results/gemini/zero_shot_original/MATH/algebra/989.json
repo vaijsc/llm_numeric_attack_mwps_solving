@@ -1,0 +1,23 @@
+{
+    "problem": "Rationalize the denominator: $\\frac{5}{\\sqrt{3}}$ .",
+    "level": "Level 2",
+    "type": "Algebra",
+    "solution": "Multiplying both the numerator and the denominator of the fraction by $\\sqrt{3}$, we get: $$\\frac{5}{\\sqrt{3}} = \\frac{5}{\\sqrt{3}} \\cdot \\frac{\\sqrt{3}}{\\sqrt{3}} = \\boxed{\\frac{5\\sqrt{3}}{3}}.$$",
+    "prompt": "### Instruction: Rationalize the denominator: $\\frac{5}{\\sqrt{3}}$ .\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "Here's how to rationalize the denominator of $\\frac{5}{\\sqrt{3}}$:\n**1. Multiply by 1 (in a clever way):**\nWe want to get rid of the radical in the denominator. To do this, we'll multiply both the numerator and denominator by $\\sqrt{3}$ (which is essentially multiplying by 1):\n$$\\frac{5}{\\sqrt{3}} \\cdot \\frac{\\sqrt{3}}{\\sqrt{3}}$$\n**2. Simplify:**\n* The numerator becomes $5\\sqrt{3}$.\n* The denominator becomes $(\\sqrt{3})(\\sqrt{3}) = 3$.\n**3. The Result:**\nThis gives us the simplified expression:\n$$\\frac{5\\sqrt{3}}{3}$$ \n",
+        "Here's how to rationalize the denominator of $\\frac{5}{\\sqrt{3}}$:\n**1. Multiply by 1 (in a clever way):**\n   Since we want to get rid of the radical in the denominator, we'll multiply the fraction by 1 in the form of $\\frac{\\sqrt{3}}{\\sqrt{3}}$:\n   $$\\frac{5}{\\sqrt{3}} \\cdot \\frac{\\sqrt{3}}{\\sqrt{3}}$$\n**2. Simplify:**\n   * Multiply the numerators:  5 * \u221a3 = 5\u221a3\n   * Multiply the denominators: \u221a3 * \u221a3 = 3\n**3. The result:**\n   This gives us:  \n   $$\\frac{5\\sqrt{3}}{3}$$\n**Therefore, the rationalized form of  $\\frac{5}{\\sqrt{3}}$ is $\\frac{5\\sqrt{3}}{3}$.** \n",
+        "1. **Multiply by 1:**  The key is to multiply the fraction by a clever form of 1.  We'll multiply by $\\frac{\\sqrt{3}}{\\sqrt{3}}$:\n   \n   $$\\frac{5}{\\sqrt{3}} \\cdot \\frac{\\sqrt{3}}{\\sqrt{3}}$$\n2. **Simplify:**  \n   \n   $$\\frac{5 \\sqrt{3}}{(\\sqrt{3})^2}$$\n3. **Final Result:** \n   \n   $$\\frac{5 \\sqrt{3}}{3}$$ \n",
+        "Here's how to rationalize the denominator of $\\frac{5}{\\sqrt{3}}$:\n**1. Multiply by 1 (in a clever way):**\nSince $\\frac{\\sqrt{3}}{\\sqrt{3}} = 1$, we can multiply the fraction by this:\n   $$\\frac{5}{\\sqrt{3}} \\cdot \\frac{\\sqrt{3}}{\\sqrt{3}}$$\n**2. Simplify:**\n   $$\\frac{5 \\sqrt{3}}{\\sqrt{3} \\cdot \\sqrt{3}} = \\frac{5\\sqrt{3}}{3}$$\n**Therefore, the rationalized form of $\\frac{5}{\\sqrt{3}}$ is $\\frac{5\\sqrt{3}}{3}$.** \n",
+        "Here's how to rationalize the denominator:\n1. **Multiply by 1:** We can multiply any number by 1 without changing its value. In this case, we'll multiply by $\\frac{\\sqrt{3}}{\\sqrt{3}}$, which is equivalent to 1.\n2. **Simplify:**\n   \n   * $\\frac{5}{\\sqrt{3}} \\cdot \\frac{\\sqrt{3}}{\\sqrt{3}} = \\frac{5\\sqrt{3}}{\\sqrt{3}\\sqrt{3}}$\n   * $\\frac{5\\sqrt{3}}{\\sqrt{3}\\sqrt{3}} = \\frac{5\\sqrt{3}}{3}$\n**Therefore, the rationalized form of  $\\frac{5}{\\sqrt{3}}$ is $\\frac{5\\sqrt{3}}{3}$.** \n"
+    ],
+    "pred_answers": "3",
+    "final_pred_answer": [
+        "3",
+        "3",
+        "3",
+        "3",
+        "3"
+    ],
+    "ground_truth": "3"
+}

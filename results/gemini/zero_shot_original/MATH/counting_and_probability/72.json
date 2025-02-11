@@ -1,0 +1,23 @@
+{
+    "problem": "In a three-digit number, the hundreds digit is greater than 5, the tens digit is greater than 4 but less than 8, and the units digit is the smallest prime number. How many three-digit numbers satisfy all of these conditions?",
+    "level": "Level 2",
+    "type": "Counting & Probability",
+    "solution": "We have four choices for the hundreds digit, three choices for the tens digit, and only one choice for the units digit.  Thus we have a total of $4\\cdot 3\\cdot 1 = \\boxed{12}$ possible numbers.",
+    "prompt": "### Instruction: In a three-digit number, the hundreds digit is greater than 5, the tens digit is greater than 4 but less than 8, and the units digit is the smallest prime number. How many three-digit numbers satisfy all of these conditions?\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "Here's how to solve the problem step-by-step:\n* **Units digit:** The smallest prime number is 2. So, the units digit must be 2.\n* **Hundreds digit:** The hundreds digit must be greater than 5. This means it can be 6, 7, 8, or 9.\n* **Tens digit:** The tens digit must be greater than 4 but less than 8. This means it can be 5, 6, or 7.\nNow, to find the total number of possibilities, we need to multiply the number of choices for each digit:\n* Hundreds digit: 4 choices\n* Tens digit: 3 choices\n* Units digit: 1 choice\nTherefore, there are 4 * 3 * 1 = **12** three-digit numbers that satisfy all the conditions. \n",
+        "Here's how to solve this problem step-by-step:\n* **Units Digit:** The smallest prime number is 2.  So, the units digit is fixed at 2.\n* **Hundreds Digit:** The hundreds digit must be greater than 5. This means it can be 6, 7, 8, or 9.\n* **Tens Digit:** The tens digit must be greater than 4 but less than 8. This means it can be 5, 6, or 7.\nNow, let's figure out how many combinations we can make:\n* **Hundreds Digit Choices:** 4 options (6, 7, 8, 9)\n* **Tens Digit Choices:** 3 options (5, 6, 7)\nTo find the total number of combinations, we multiply the number of choices for each digit:\n4 choices * 3 choices = **12**\nTherefore, there are **12** three-digit numbers that satisfy all the given conditions. \n",
+        "Here's how we can solve this problem step by step:\n* **Units Digit:** The smallest prime number is 2. So, the units digit is fixed as 2.\n* **Hundreds Digit:** The hundreds digit must be greater than 5.  This means it can be 6, 7, 8, or 9. \n* **Tens Digit:** The tens digit must be greater than 4 but less than 8. This means it can be 5, 6, or 7.\nNow, to find the total number of possibilities, we multiply the number of choices for each digit:\n* Hundreds digit choices: 4 \n* Tens digit choices: 3\n* Units digit choices: 1 (fixed as 2)\nTotal possibilities: 4 * 3 * 1 = **12**\nTherefore, there are **12** three-digit numbers that satisfy all the given conditions. \n",
+        "Here's how to solve the problem step-by-step:\n1. **Units digit:** The smallest prime number is 2. So, the units digit is 2.\n2. **Hundreds digit:** The hundreds digit must be greater than 5. This gives us the possibilities 6, 7, 8, or 9.\n3. **Tens digit:** The tens digit must be greater than 4 but less than 8. This gives us the possibilities 5, 6, or 7.\n4. **Counting the possibilities:** We have 4 choices for the hundreds digit and 3 choices for the tens digit.  To find the total number of possibilities, we multiply: 4 * 3 = 12.\n**Therefore, there are 12 three-digit numbers that satisfy all the given conditions.** \n",
+        "Here's how we can solve this problem step-by-step:\n**1. Units Digit:**\n* The smallest prime number is 2. So, the units digit must be 2.\n**2. Hundreds Digit:**\n* The hundreds digit is greater than 5.  This means it could be 6, 7, 8, or 9.\n**3. Tens Digit:**\n* The tens digit is greater than 4 but less than 8. This means it could be 5, 6, or 7.\n**4. Combinations:**\nNow, let's figure out how many different three-digit numbers we can make:\n* **Hundreds Digit:** 4 choices (6, 7, 8, 9)\n* **Tens Digit:** 3 choices (5, 6, 7)\n* **Units Digit:** 1 choice (2)\nTo find the total number of combinations, we multiply the number of choices for each digit: 4 * 3 * 1 = 12\n**Therefore, there are 12 three-digit numbers that satisfy all the given conditions.** \n"
+    ],
+    "pred_answers": "12",
+    "final_pred_answer": [
+        "12",
+        "12",
+        "12",
+        "12",
+        "12"
+    ],
+    "ground_truth": "12"
+}

@@ -1,0 +1,23 @@
+{
+    "problem": "Paula invests $\\$10,\\!000$ for 5 years at an interest rate of $10\\%$ per year. If the interest is simple interest, how much is her investment worth at the end of those five years?",
+    "level": "Level 3",
+    "type": "Algebra",
+    "solution": "If the interest is simple interest, then she earns $0.1(\\$10,\\!000) = \\$1,\\!000$ each year.  Therefore, at the end of 5 years, she has earned $5(\\$1,\\!000) = \\$5,\\!000$.  So, her investment is now worth $\\$10,\\!000 + \\$5,\\!000 = \\boxed{\\$15,\\!000}$.",
+    "prompt": "### Instruction: Paula invests $\\$10,\\!000$ for 5 years at an interest rate of $10\\%$ per year. If the interest is simple interest, how much is her investment worth at the end of those five years?\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "Here's how to solve the problem step-by-step:\n**1. Calculate the annual interest:**\n* Multiply the principal amount by the interest rate: $10,000 * 0.10 = $1,000\n**2. Calculate the total interest earned:**\n* Multiply the annual interest by the number of years: $1,000 * 5 = $5,000\n**3. Calculate the total value of the investment:**\n* Add the total interest earned to the original principal: $10,000 + $5,000 = $15,000\n**Answer:** Paula's investment will be worth $15,000 at the end of five years. \n",
+        "Here's how to solve this problem step-by-step:\n**1. Calculate the annual interest:**\n* Interest rate = 10% = 0.10 (as a decimal)\n* Principal amount = $10,000\n* Annual interest = Principal * Interest rate = $10,000 * 0.10 = $1,000\n**2. Calculate the total interest earned over 5 years:**\n* Total interest = Annual interest * Number of years = $1,000 * 5 = $5,000\n**3. Calculate the total value of the investment:**\n* Total value = Principal + Total interest = $10,000 + $5,000 = $15,000\n**Therefore, Paula's investment will be worth $15,000 at the end of five years.** \n",
+        "Here's how to solve this problem step-by-step:\n**1. Calculate the annual interest:**\n* Interest rate = 10% = 0.10 (as a decimal)\n* Annual interest = Principal * Interest rate = $10,000 * 0.10 = $1,000\n**2. Calculate the total interest earned over 5 years:**\n* Total interest = Annual interest * Number of years = $1,000 * 5 = $5,000\n**3. Calculate the total value of the investment:**\n* Total value = Principal + Total interest = $10,000 + $5,000 = $15,000\n**Therefore, Paula's investment will be worth $15,000 at the end of five years.** \n",
+        "Here's how to solve the problem step-by-step:\n**1. Calculate the annual interest:**\n* Multiply the principal amount by the interest rate: $10,000 * 0.10 = $1,000\n**2. Calculate the total interest earned:**\n* Multiply the annual interest by the number of years: $1,000 * 5 = $5,000\n**3. Calculate the total value of the investment:**\n* Add the total interest earned to the original principal: $10,000 + $5,000 = $15,000\n**Therefore, Paula's investment will be worth $15,000 at the end of five years.** \n",
+        "Here's how to solve the problem step-by-step:\n**1. Calculate the annual interest:**\n* Interest rate = 10% \n* Principal amount = $10,000\n* Annual interest = (10/100) * $10,000 = $1,000\n**2. Calculate the total interest earned over 5 years:**\n* Annual interest = $1,000\n* Number of years = 5\n* Total interest = $1,000 * 5 = $5,000\n**3. Calculate the final investment value:**\n* Principal amount = $10,000\n* Total interest earned = $5,000\n* Final investment value = $10,000 + $5,000 = $15,000\n**Therefore, Paula's investment will be worth $15,000 at the end of five years.** \n"
+    ],
+    "pred_answers": "15000",
+    "final_pred_answer": [
+        "15000",
+        "15000",
+        "15000",
+        "15000",
+        "15000"
+    ],
+    "ground_truth": "000"
+}

@@ -1,0 +1,23 @@
+{
+    "problem": "If you flip a fair coin four times, what is the probability of flipping at least three heads in a row? Express your answer as a common fraction.",
+    "level": "Level 4",
+    "type": "Counting & Probability",
+    "solution": "The quickest way to solve this problem is to count the number of outomes that have three heads in a row, as we already know very clearly that there are $2^4$ outcomes total. So, HHHH, HHHT, THHH are the only 3 outcomes that have three consecutive heads. So, our answer is $\\boxed{\\frac{3}{16}}$.",
+    "prompt": "### Instruction: If you flip a fair coin four times, what is the probability of flipping at least three heads in a row? Express your answer as a common fraction.\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "Here's how to solve this problem:\n**1. List the Possible Outcomes**\nThere are 2 possibilities for each flip (heads or tails), and we're flipping 4 times, so there are 2 x 2 x 2 x 2 = 16 total possible outcomes.  Here's a way to list them systematically:\n* HHHH\n* HHHT\n* HHTH\n* HHTT\n* HTHH\n* HTHT\n* HTTH\n* HTTT\n* THHH\n* THHT\n* THTH\n* THTT\n* TTHH\n* TTHT\n* TTTH\n* TTTT\n**2. Identify Favorable Outcomes**\nWe want at least three heads in a row.  The favorable outcomes are:\n* **HHHH**\n* **HHHT**\n* **HHTH**\n* **THHH**\n**3. Calculate the Probability**\n* There are 4 favorable outcomes.\n* There are 16 total possible outcomes.\nThe probability of flipping at least three heads in a row is 4/16, which simplifies to **1/4**. \n",
+        "Here's how to solve this problem:\n**1. List the Possible Outcomes**\nThere are 2 possible outcomes for each coin flip (heads or tails), and we're flipping the coin 4 times.  This means there are a total of 2 * 2 * 2 * 2 = 16 possible outcomes. Here's a list:\n* HHHH\n* HHHT\n* HHTH\n* HTHH\n* THHH\n* HHTT\n* HTHT\n* HTTH\n* THHT\n* THTH\n* TTHH\n* HTTT\n* THTT\n* TTHT\n* TTTH\n* TTTT\n**2. Identify Favorable Outcomes**\nWe want at least three heads in a row.  The favorable outcomes are:\n* **HHHH**\n* **HHHT**\n* **HHTH**\n* **HTHH**\n* **THHH**\n**3. Calculate the Probability**\n* We have 5 favorable outcomes.\n* We have 16 total possible outcomes.\nTherefore, the probability of flipping at least three heads in a row is **5/16**. \n",
+        "Here's how to solve this problem:\n**1. List the Possible Outcomes**\nThere are 2 possible outcomes for each coin flip (heads or tails), and we're flipping the coin 4 times.  So, there are a total of 2 * 2 * 2 * 2 = 16 possible outcomes.  Here they are:\n* HHHH\n* HHHT\n* HHTH\n* HTHH\n* THHH\n* HHTT\n* HTHT\n* HTTH\n* THHT\n* THTH\n* TTHH\n* HTTT\n* THTT\n* TTHT\n* TTTH\n* TTTT\n**2. Identify Outcomes with at Least Three Heads in a Row**\nThe outcomes that meet our condition are:\n* **HHHH**\n* **HHHT**\n* **HHTH** \n* **HTHH**\n* **THHH**\n**3. Calculate the Probability**\n* We have 5 favorable outcomes.\n* We have 16 total possible outcomes.\nThe probability of flipping at least three heads in a row is  **5/16**. \n",
+        "Here's how to solve the problem:\n**1. List the Possible Outcomes**\nThere are 2 possibilities for each coin flip (Heads or Tails), and we're flipping four times.  So, there are 2 * 2 * 2 * 2 = 16 possible outcomes.  Let's list them:\n* HHHH\n* HHHT\n* HHTH\n* HHTT\n* HTHH\n* HTHT\n* HTTH\n* HTTT\n* THHH\n* THHT\n* THTH\n* THTT\n* TTHH\n* TTHT\n* TTTH\n* TTTT\n**2. Identify Successful Outcomes**\nWe want at least three heads in a row. The successful outcomes are:\n* **HHHH**\n* **HHHT**\n* **HHTH**\n* **THHH**\n**3. Calculate the Probability**\nThere are 4 successful outcomes out of 16 total possible outcomes.  Therefore, the probability of flipping at least three heads in a row is **4/16**, which simplifies to **1/4**. \n",
+        "Here's how to solve this problem:\n**1. List the Possible Outcomes:**\nSince we're flipping a coin four times, there are 2 possibilities for each flip (heads or tails).  Therefore, there are a total of 2 x 2 x 2 x 2 = 16 possible outcomes.  Here's a way to list them systematically:\n* HHHH\n* HHHT\n* HHTH\n* HHTT\n* HTHH\n* HTHT\n* HTTH\n* HTTT\n* THHH\n* THHT\n* THTH\n* THTT\n* TTHH\n* TTHT\n* TTTH\n* TTTT\n**2. Identify Favorable Outcomes:**\nWe want at least three heads in a row.  The favorable outcomes are:\n* **HHHH**\n* **HHHT**\n* **THHH**\n**3. Calculate the Probability:**\n* There are 3 favorable outcomes.\n* There are 16 total possible outcomes.\nTherefore, the probability of flipping at least three heads in a row is **3/16**. \n"
+    ],
+    "pred_answers": "16",
+    "final_pred_answer": [
+        "4",
+        "16",
+        "16",
+        "4",
+        "16"
+    ],
+    "ground_truth": "16"
+}

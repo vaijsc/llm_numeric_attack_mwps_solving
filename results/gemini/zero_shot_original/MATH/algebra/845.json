@@ -1,0 +1,23 @@
+{
+    "problem": "If $\\sqrt{5x}\\cdot\\sqrt{10x}\\cdot\\sqrt{18x}=30$, find $x$.",
+    "level": "Level 2",
+    "type": "Algebra",
+    "solution": "We begin by combining the radical expressions on the LHS of the equation, and expressing everything in terms of prime factors \\begin{align*} \\sqrt{5x}\\cdot{\\sqrt{10x}}\\cdot{\\sqrt{18x}}& =30\n\\\\\\Rightarrow \\qquad \\sqrt{5\\cdot{x}\\cdot{5}\\cdot{2}\\cdot{x}\\cdot{2}\\cdot{3^2}\\cdot{x}}& =30\n\\\\\\Rightarrow \\qquad \\sqrt{5^2\\cdot{2^2}\\cdot{3^2}\\cdot{x^3}}& =30\n\\\\\\Rightarrow \\qquad (5\\cdot{2}\\cdot{3})\\sqrt{x^3}& =30\n\\\\\\Rightarrow \\qquad 30{x^{\\frac32}}&=30\n\\\\\\Rightarrow\\qquad x^{\\frac32}&=1\n\\\\\\Rightarrow \\qquad x&=\\boxed{1}\n\\end{align*}",
+    "prompt": "### Instruction: If $\\sqrt{5x}\\cdot\\sqrt{10x}\\cdot\\sqrt{18x}=30$, find $x$.\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "Here's how to solve the problem step-by-step:\n1. **Combine the radicals:** Since the radicals have the same index (square root), we can combine them under a single radical:\n   \u221a(5x * 10x * 18x) = 30\n2. **Simplify the expression inside the radical:**\n   \u221a(900x\u00b3) = 30\n3. **Rewrite the expression:**\n   \u221a(900) * \u221a(x\u00b3) = 30\n4. **Evaluate the square root of 900:**\n   30 * \u221a(x\u00b3) = 30\n5. **Divide both sides by 30:**\n   \u221a(x\u00b3) = 1\n6. **Square both sides:**\n   x\u00b3 = 1\n7. **Solve for x:**\n   x = 1 \n**Therefore, x = 1.** \n",
+        "Here's how to solve the problem step by step:\n1. **Simplify the radicals:**\n   *  \u221a(5x) * \u221a(10x) * \u221a(18x) = \u221a(5x * 10x * 18x) \n   *  \u221a(5x * 10x * 18x) = \u221a(900x\u00b3) \n2. **Simplify the square root:**\n   * \u221a(900x\u00b3) = \u221a(900) * \u221a(x\u00b3) = 30\u221a(x\u00b3)\n3. **Rewrite the cube root:**\n   * 30\u221a(x\u00b3) = 30 * x\u221ax\n4. **Set up the equation:**\n   *  30 * x\u221ax = 30\n5. **Solve for x:**\n   * Divide both sides by 30: x\u221ax = 1\n   * Square both sides: (x\u221ax)\u00b2 = 1\u00b2\n   * x\u00b2 * x = 1\n   * x\u00b3 = 1\n   * Take the cube root of both sides: x = 1\n**Therefore, x = 1** \n",
+        "Here's how to solve the problem step by step:\n**1. Simplify the radicals:**\n*  Recall that $\\sqrt{a} \\cdot \\sqrt{b} = \\sqrt{a \\cdot b}$.  \n*  We can simplify the product of the radicals:\n    *  \u221a(5x) \u22c5 \u221a(10x) \u22c5 \u221a(18x) = \u221a(5x \u22c5 10x \u22c5 18x) = \u221a(900x\u00b3)\n**2.  Rewrite the radical with perfect squares:**\n*  900x\u00b3 can be factored as 900 \u22c5 x\u00b2 \u22c5 x\n*  \u221a(900x\u00b3) = \u221a(900 \u22c5 x\u00b2 \u22c5 x) = \u221a(900) \u22c5 \u221a(x\u00b2) \u22c5 \u221a(x) = 30x\u221ax\n**3. Solve the equation:**\n*  Now our equation is 30x\u221ax = 30.\n*  Divide both sides by 30: x\u221ax = 1\n*  Square both sides: (x\u221ax)\u00b2 = 1\u00b2\n*  Simplify: x\u00b2 \u22c5 x = 1\n*  Combine terms: x\u00b3 = 1\n**4. Find the solution:**\n*  The only real solution to x\u00b3 = 1 is x = 1.\n**Therefore, x = 1** \n",
+        "Here's how to solve the problem step-by-step:\n1. **Simplify the radicals:**\n   *  \u221a(5x) * \u221a(10x) * \u221a(18x) = \u221a(5x * 10x * 18x) = \u221a(900x\u00b3)\n2. **Factor out perfect squares:**\n   * \u221a(900x\u00b3) = \u221a(900 * x\u00b2 * x) = \u221a(900) * \u221a(x\u00b2) * \u221a(x) = 30x\u221ax\n3. **Set up the equation:**\n   * 30x\u221ax = 30\n4. **Solve for x:**\n   * Divide both sides by 30: x\u221ax = 1\n   * Square both sides: x\u00b2 * x = 1\n   * Simplify: x\u00b3 = 1\n   * Take the cube root of both sides: x = 1\n**Therefore, x = 1** \n",
+        "Here's how to solve the problem step-by-step:\n1. **Simplify the radicals:**\n   *  \u221a(5x) * \u221a(10x) * \u221a(18x) = \u221a(5x * 10x * 18x) = \u221a(900x\u00b3)\n   *  \u221a(900x\u00b3) = \u221a(900) * \u221a(x\u00b3) = 30\u221a(x\u00b3)\n2. **Rewrite the radical:**\n   *  \u221a(x\u00b3) = \u221a(x\u00b2 * x) = x\u221ax\n3. **Substitute and solve the equation:**\n   *  30 * x\u221ax = 30\n   *  x\u221ax = 1\n   *  Since x\u221ax = 1, and both x and \u221ax must be positive (because they're under a radical), the only solution is **x = 1**. \n**Therefore, x = 1** \n"
+    ],
+    "pred_answers": "1",
+    "final_pred_answer": [
+        "1",
+        "1",
+        "1",
+        "1",
+        "1"
+    ],
+    "ground_truth": "1"
+}

@@ -1,0 +1,23 @@
+{
+    "problem": "The probability that a randomly thrown dart will land on a target is $\\frac{3}{8}$. What is the probability that the dart will not land on the target? Express your answer as a common fraction.",
+    "level": "Level 1",
+    "type": "Counting & Probability",
+    "solution": "By the notion of complementary probability, if the probability of a dart landing on the target is only $\\frac{3}{8}$, then the probability of it not landing there is $1 - \\frac{3}{8} = \\boxed{\\frac{5}{8}}$.",
+    "prompt": "### Instruction: The probability that a randomly thrown dart will land on a target is $\\frac{3}{8}$. What is the probability that the dart will not land on the target? Express your answer as a common fraction.\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "Here's how to solve the problem:\n* **Understanding the Problem:**  The probability of an event happening and the probability of it not happening must always add up to 1 (or 100%).\n* **Setting up the Equation:** Let 'x' represent the probability of the dart *not* landing on the target.  We know:\n   Probability (dart landing on target) + Probability (dart not landing on target) = 1 \n   \n   This translates to:  (3/8) + x = 1\n* **Solving for x:**\n   1. Subtract (3/8) from both sides of the equation: x = 1 - (3/8)\n   2. Find a common denominator for 1 and 3/8: x = (8/8) - (3/8)\n   3. Subtract the numerators: x = 5/8\n* **Answer:** The probability that the dart will not land on the target is **5/8**. \n",
+        "Here's how to solve the problem step-by-step:\n* **Understand the concept:** The probability of an event happening and the probability of it not happening always add up to 1 (or 100%). This is because these are the only two possibilities.\n* **Set up the equation:** Let 'x' represent the probability of the dart *not* landing on the target. We know:\n   * Probability of landing on target + Probability of not landing on target = 1\n   *  (3/8) + x = 1\n* **Solve for x:**\n   * Subtract (3/8) from both sides: x = 1 - (3/8)\n   * Find a common denominator: x = (8/8) - (3/8)\n   * Simplify: x = 5/8\n**Answer:** The probability of the dart not landing on the target is **5/8**. \n",
+        "Here's how to solve the problem:\n* **Understanding Complementary Events:** The probability of an event happening and the probability of that event *not* happening always add up to 1 (or 100%). These are called complementary events.\n* **Applying the Concept:** \n   * We know the probability of the dart landing on the target is 3/8.\n   * The probability of the dart *not* landing on the target is the complement of this. \n* **Calculation:**\n   *  1 (representing the entire probability space) - 3/8 = 5/8\n**Answer:** The probability that the dart will not land on the target is **5/8**. \n",
+        "Here's how to solve the problem step-by-step:\n* **Understand the Concept:**  The probability of an event happening and the probability of it *not* happening always add up to 1 (or 100%).\n* **Apply the Concept:**  \n    * The probability of the dart landing on the target is 3/8.\n    * The probability of the dart *not* landing on the target is 1 - (3/8).\n* **Calculate:** \n    * 1 - (3/8) = 5/8\n**Answer:** The probability that the dart will not land on the target is **5/8**. \n",
+        "Here's how to solve the problem:\n* **Understanding the Concept:** The probability of an event happening and the probability of it not happening always add up to 1 (or 100%).\n* **Setting up the Equation:** Let 'x' represent the probability of the dart not landing on the target. We know:\n    * Probability of landing on the target + Probability of not landing on the target = 1\n    *  (3/8) + x = 1\n* **Solving for x:**\n    * Subtract (3/8) from both sides: x = 1 - (3/8)\n    * Find a common denominator: x = (8/8) - (3/8)\n    * Simplify: x = 5/8\n**Answer:** The probability that the dart will not land on the target is **5/8**. \n"
+    ],
+    "pred_answers": "5",
+    "final_pred_answer": [
+        "5",
+        "5",
+        "5",
+        "5",
+        "5"
+    ],
+    "ground_truth": "8"
+}

@@ -1,0 +1,23 @@
+{
+    "problem": "How many edges does a hexagonal prism have?",
+    "level": "Level 1",
+    "type": "Geometry",
+    "solution": "There are two bases on the prism, each with six edges, for a total of 12 base edges. Each vertex on a base is connected to a corresponding vertex on the other base, and since each base has six vertices, there are 6 vertical edges. In total, there are $12+6=\\boxed{18}$ edges.",
+    "prompt": "### Instruction: How many edges does a hexagonal prism have?\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "Here's how to figure out the number of edges in a hexagonal prism:\n**1. Understand the Shape:**\n* **Hexagon:** A hexagon has 6 sides.\n* **Prism:**  A prism is a 3D shape with two identical bases connected by rectangular faces.\n**2.  Count the Edges:**\n* **Base Edges:**  Each hexagonal base has 6 edges, giving us a total of 6 * 2 = 12 edges.\n* **Connecting Edges:**  There are 6 rectangular faces connecting the bases, each with 2 edges. This gives us 6 * 2 = 12 connecting edges.\n**3. Total Edges:**\n* Add the base edges and connecting edges: 12 + 12 = **24 edges**\n**Therefore, a hexagonal prism has 24 edges.** \n",
+        "Here's how to figure out the number of edges of a hexagonal prism:\n* **Hexagonal Bases:** A hexagonal prism has two hexagonal bases. Each hexagon has 6 sides, so the bases contribute 6 * 2 = 12 edges.\n* **Connecting Edges:**  The top and bottom bases are connected by 6 vertical edges.\n**Total:** 12 edges from the bases + 6 connecting edges = **18 edges** \n",
+        "Here's how to figure out the number of edges in a hexagonal prism:\n* **Hexagon:** A hexagon has 6 sides.\n* **Prism:** A prism has two identical bases connected by rectangular faces.\n* **Edges:** An edge is where two faces meet.\n**Steps:**\n1. **Base Edges:**  The two hexagonal bases each have 6 edges (6 x 2 = 12 edges).\n2. **Connecting Edges:** Each vertex of the hexagon is connected to a corresponding vertex on the other base, creating 6 more edges.\n3. **Total Edges:** Adding the base edges and connecting edges: 12 + 6 = 18 edges.\n**Therefore, a hexagonal prism has 18 edges.** \n",
+        "Here's how to figure out the number of edges in a hexagonal prism:\n* **A hexagon has 6 sides.**  Imagine a hexagonal base of the prism.\n* **A prism has two identical bases.** So our prism has two hexagons.\n* **Each vertex of the hexagon connects to a vertex on the other base.** This creates 6 more edges connecting the two bases.\n**Therefore, a hexagonal prism has a total of 18 edges:** \n* 6 edges per hexagon x 2 hexagons = 12 edges\n* 6 connecting edges = 6 edges\n* 12 + 6 = 18 edges \n",
+        "Here's how to figure out the number of edges in a hexagonal prism:\n* **A hexagon has 6 sides.**  \n* **A prism has two identical bases.** So our hexagonal prism has two hexagons, each with 6 sides.\n* **A prism also has rectangular faces connecting the bases.**  Since our base is a hexagon, it has 6 sides, and therefore, the prism has 6 rectangular faces.\n* **Each rectangular face has two edges that are shared with the hexagonal bases.** \nTherefore, the total number of edges is:\n* 6 edges per hexagon * 2 hexagons = 12 edges\n* 2 edges per rectangular face * 6 rectangular faces = 12 edges\n* 12 edges (hexagons) + 12 edges (rectangles) = **24 edges**\n**A hexagonal prism has 24 edges.** \n"
+    ],
+    "pred_answers": "18",
+    "final_pred_answer": [
+        "24",
+        "18",
+        "18",
+        "18",
+        "24"
+    ],
+    "ground_truth": "18"
+}

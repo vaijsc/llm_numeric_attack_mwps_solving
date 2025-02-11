@@ -1,0 +1,23 @@
+{
+    "problem": "Assuming $x\\ne0$, simplify $\\frac{12}{x \\cdot x} \\cdot \\frac{x^4}{14x}\\cdot \\frac{35}{3x}$.",
+    "level": "Level 2",
+    "type": "Algebra",
+    "solution": "We have  \\begin{align*}\n\\frac{12}{x \\cdot x} \\cdot \\frac{x^4}{14x}\\cdot \\frac{35}{3x} &=\n\\frac{12 \\cdot x^4 \\cdot 35}{x^2\\cdot 14x \\cdot 3x}\\\\& = \\frac{(4 \\cdot 3) \\cdot (5 \\cdot 7) \\cdot x^4}{(3 \\cdot 2 \\cdot 7)(x^2 \\cdot x \\cdot x)}\\\\\n&= \\frac{2\\cdot 2 \\cdot 3 \\cdot 5 \\cdot 7}{2 \\cdot 3 \\cdot 7}\\cdot\\frac{x^4}{x^{4}}\\\\\n&= 2 \\cdot 5 = \\boxed{10}.\n\\end{align*}",
+    "prompt": "### Instruction: Assuming $x\\ne0$, simplify $\\frac{12}{x \\cdot x} \\cdot \\frac{x^4}{14x}\\cdot \\frac{35}{3x}$.\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "**1. Combine the numerators and denominators:**\n  The problem becomes: \n  \n  $$\\frac{12 \\cdot x^4 \\cdot 35}{x \\cdot x \\cdot 14x \\cdot 3x}$$\n**2. Simplify the numerators and denominators:**\n  *  12, 14, and 35 share a common factor of 7.\n  *  $x^4$ and $x$ share a common factor of $x$.\n  This simplifies to:\n  $$\\frac{2 \\cdot x^3 \\cdot 5}{x^3}$$\n**3. Cancel out common factors:**\n  *  Both numerator and denominator have $x^3$\n  The final simplified expression is:\n  $$\\boxed{10}$$ \n",
+        "Here's how to simplify the expression step-by-step:\n**1. Combine the numerators and denominators:**\n   ```\n   (12 * x^4 * 35) / (x * x * 14x * 3x)\n   ```\n**2. Simplify the multiplication:**\n   ```\n   420x^4 / 42x^4 \n   ```\n**3. Cancel out common factors:**\n   Since both the numerator and denominator have a common factor of 42x^4, they cancel out:\n   ```\n   420x^4 / 42x^4 = 1\n   ```\n**Therefore, the simplified expression is 1.** \n",
+        "Here's how we can simplify the expression step-by-step:\n1. **Combine the numerators and denominators:**\n   ```\n   (12 * x^4 * 35) / (x * x * 14x * 3x)\n   ```\n2. **Factor out common factors:**\n   ```\n   (2 * 2 * 3 * x^4 * 5 * 7) / (x * x * 2 * 7 * x * 3 * x)\n   ```\n3. **Cancel out common factors:**\n   ```\n   (2 * \\cancel{2} * \\cancel{3} * x^4 * 5 * \\cancel{7}) / (x * x * \\cancel{2} * \\cancel{7} * x * \\cancel{3} * x)\n   ```\n4. **Simplify:**\n   ```\n   (10x^4) / (x^4)\n   ```\n5. **Final simplification:**\n   ```\n   10\n   ```\nTherefore, the simplified expression is **10**. \n",
+        "Here's how to simplify the expression step-by-step:\n**1. Combine the numerators and denominators:**\n   ```\n   (12 * x^4 * 35) / (x * x * 14x * 3x)\n   ```\n**2. Simplify by factoring out common factors:**\n   ```\n   (2 * 2 * 3 * x^4 * 5 * 7) / (x * x * 2 * 7 * x * 3 * x) \n   ```\n**3. Cancel out common factors:**\n   ```\n   (2 * \\cancel{2} * \\cancel{3} * x^4 * 5 * \\cancel{7}) / (\\cancel{x} * \\cancel{x} * \\cancel{2} * \\cancel{7} * \\cancel{x} * \\cancel{3} * x)\n   ```\n**4. The simplified expression:**\n   ```\n   (5x^3) / x \n   ```\n**5. Further simplification (using the rule x^m / x^n = x^(m-n))**\n   ```\n   5x^(3-1) = 5x^2\n   ```\nTherefore, the simplified expression is **5x\u00b2**. \n",
+        "Here's how to simplify the expression step-by-step:\n1. **Combine the numerators and denominators:**\n   \n   ```\n   (12 * x^4 * 35) / (x * x * 14x * 3x)\n   ```\n2. **Simplify by canceling common factors:**\n   * 12 and 14 share a common factor of 2: 12/2 = 6 and 14/2 = 7\n   * 35 and 3 share a common factor of 7: 35/7 = 5 and 3/7 = 1\n   * x^4 and x^3 share a common factor of x^3: x^4/x^3 = x\n   ```\n   (6 * x * 5) / (x * x * 7 * 1)\n   ```\n3. **Multiply the remaining terms:**\n   ```\n   (30x) / (7x^2)\n   ```\n4. **Simplify by canceling a common factor of 'x':**\n   ```\n   30 / (7x) \n   ```\n**Therefore, the simplified expression is 30/(7x).** \n"
+    ],
+    "pred_answers": "10",
+    "final_pred_answer": [
+        "10",
+        "1",
+        "10",
+        "5",
+        "7"
+    ],
+    "ground_truth": "10"
+}

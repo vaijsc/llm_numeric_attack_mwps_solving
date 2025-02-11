@@ -1,0 +1,23 @@
+{
+    "problem": "The sum of the $x$-coordinates of the vertices of a triangle in the Cartesian plane equals $\\sqrt{13}$.  Let $S$ equal the sum of the $x$-coordinates of the midpoints of the sides of the triangle. Find $S^2$.",
+    "level": "Level 4",
+    "type": "Algebra",
+    "solution": "Let the $x$-coordinates of the vertices be $a,b,c$.  Then the $x$-coordinates of the midpoints of the sides are $\\frac{a+b}2,\\frac{a+c}2,\\frac{b+c}2$.  The sum of these equals $\\frac{2a+2b+2c}2=a+b+c$.  Thus the desired answer is $\\left(\\sqrt{13}\\right)^2=\\boxed{13}$.",
+    "prompt": "### Instruction: The sum of the $x$-coordinates of the vertices of a triangle in the Cartesian plane equals $\\sqrt{13}$.  Let $S$ equal the sum of the $x$-coordinates of the midpoints of the sides of the triangle. Find $S^2$.\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "Let the vertices of the triangle be $(a,b)$, $(c,d)$, and $(e,f)$.  Then the sum of the $x$-coordinates is $a+c+e=\\sqrt{13}$.\nThe midpoints of the sides are  \n\\[\\left( \\frac{a+c}{2}, \\frac{b+d}{2} \\right), \\quad \\left( \\frac{a+e}{2}, \\frac{b+f}{2} \\right), \\quad \\left( \\frac{c+e}{2}, \\frac{d+f}{2} \\right).\\]The sum of the $x$-coordinates of these midpoints is\n\\[\\frac{a+c}{2} + \\frac{a+e}{2} + \\frac{c+e}{2} = a+c+e = \\sqrt{13},\\]so $S = \\sqrt{13}$ and $S^2 = \\boxed{13}$.",
+        "Let the vertices of the triangle be $(x_1, y_1)$, $(x_2, y_2)$, and $(x_3, y_3)$.  Then we are given that $x_1 + x_2 + x_3 = \\sqrt{13}$.\nThe midpoint of the side connecting $(x_1, y_1)$ and $(x_2, y_2)$ is $\\left( \\frac{x_1 + x_2}{2}, \\frac{y_1 + y_2}{2} \\right)$.  Similarly, the midpoints of the other two sides are $\\left( \\frac{x_2 + x_3}{2}, \\frac{y_2 + y_3}{2} \\right)$ and $\\left( \\frac{x_1 + x_3}{2}, \\frac{y_1 + y_3}{2} \\right)$.  Therefore,\n\\[S = \\frac{x_1 + x_2}{2} + \\frac{x_2 + x_3}{2} + \\frac{x_1 + x_3}{2} = x_1 + x_2 + x_3 = \\sqrt{13},\\]so $S^2 = \\boxed{13}$.",
+        "Let the vertices of the triangle be $(a,b)$, $(c,d)$, and $(e,f)$.  Then the sum of the $x$-coordinates of the vertices is $a+c+e = \\sqrt{13}$.\nThe midpoints of the sides are $\\left(\\frac{a+c}{2},\\frac{b+d}{2}\\right)$, $\\left(\\frac{a+e}{2},\\frac{b+f}{2}\\right)$, and $\\left(\\frac{c+e}{2},\\frac{d+f}{2}\\right)$.  The sum of the $x$-coordinates of these midpoints is \n\\[\\frac{a+c}{2} + \\frac{a+e}{2} + \\frac{c+e}{2} = a + c + e = \\sqrt{13}.\\]Therefore, $S^2 = (\\sqrt{13})^2 = \\boxed{13}$. \n",
+        "Let the vertices of the triangle be $(a,b)$, $(c,d)$, and $(e,f)$.  Then the sum of the $x$-coordinates of the vertices is $a+c+e=\\sqrt{13}$.  The midpoints of the sides are $\\left(\\frac{a+c}{2},\\frac{b+d}{2}\\right)$, $\\left(\\frac{a+e}{2},\\frac{b+f}{2}\\right)$, and $\\left(\\frac{c+e}{2},\\frac{d+f}{2}\\right)$.  The sum of the $x$-coordinates of these midpoints is\n\\[\\frac{a+c}{2}+\\frac{a+e}{2}+\\frac{c+e}{2}=a+c+e=\\sqrt{13}.\\]Therefore, $S^2=(\\sqrt{13})^2=\\boxed{13}$.",
+        "Let the vertices of the triangle be $(a,b)$, $(c,d)$, and $(e,f)$.  Then the sum of the $x$-coordinates of the vertices is $a + c + e = \\sqrt{13}$.\nThe midpoints of the sides are $\\left(\\frac{a+c}{2},\\frac{b+d}{2}\\right)$, $\\left(\\frac{a+e}{2},\\frac{b+f}{2}\\right)$, and $\\left(\\frac{c+e}{2},\\frac{d+f}{2}\\right)$.  The sum of the $x$-coordinates of these midpoints is\n\\[\\frac{a+c}{2} + \\frac{a+e}{2} + \\frac{c+e}{2} = a + c + e = \\sqrt{13}.\\]Therefore, $S^2 = (\\sqrt{13})^2 = \\boxed{13}$."
+    ],
+    "pred_answers": "13",
+    "final_pred_answer": [
+        "13",
+        "13",
+        "13",
+        "13",
+        "13"
+    ],
+    "ground_truth": "13"
+}

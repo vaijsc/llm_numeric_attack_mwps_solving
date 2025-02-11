@@ -1,0 +1,23 @@
+{
+    "problem": "The points $A(2,5), B(6,5), C(5,2)$ and $D(1,2)$ are the vertices of a parallelogram. If the parallelogram is translated down 2 units and right three units, what will be the coordinates of the final image of point $B$?",
+    "level": "Level 2",
+    "type": "Geometry",
+    "solution": "When an image is translated to the right we just add the number of units it is being translated to the original $x$-coordinate. When an image is translated down we just subtract that number of units from the $y$-coordinate. In this case we'll subtract 2 from the $y$-coordinates and add 3 to the   $x$-coordinates. This will make point $B(6, 5)$ move to $B'(6 + 3, 5 - 2) = \\boxed{(9, 3)}$.",
+    "prompt": "### Instruction: The points $A(2,5), B(6,5), C(5,2)$ and $D(1,2)$ are the vertices of a parallelogram. If the parallelogram is translated down 2 units and right three units, what will be the coordinates of the final image of point $B$?\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "Here's how to solve the problem step-by-step:\n1. **Translation down 2 units:**  This means we subtract 2 from the y-coordinate of point B. So, the new y-coordinate is 5 - 2 = 3.\n2. **Translation right 3 units:** This means we add 3 to the x-coordinate of point B. So, the new x-coordinate is 6 + 3 = 9.\n3. **Final coordinates:**  Therefore, the final image of point B will have coordinates **(9, 3)**. \n",
+        "Here's how to solve the problem step-by-step:\n1. **Translation:**  A translation shifts every point of a figure the same distance and direction.  We're translating down 2 units, meaning we subtract 2 from the y-coordinate of each point.  We're also translating right 3 units, meaning we add 3 to the x-coordinate of each point.\n2. **Apply the Translation:** Since we want the final image of point B (6, 5), let's apply the translation to its coordinates:\n   -  **x-coordinate:** 6 + 3 = 9\n   -  **y-coordinate:** 5 - 2 = 3\n3. **Final Image:**  Therefore, the final image of point B after the translation will be at the point **(9, 3)**. \n",
+        "Here's how to solve the problem step-by-step:\n**1. Understand the Translation**\n* **Down 2 units:** This means we subtract 2 from the y-coordinate.\n* **Right 3 units:** This means we add 3 to the x-coordinate.\n**2. Apply the Translation to Point B**\n* **Original coordinates of B:** (6, 5)\n* **Translate down 2 units:** (6, 5 - 2) = (6, 3)\n* **Translate right 3 units:** (6 + 3, 3) = (9, 3)\n**Answer:** The final image of point B after the translation will be at **(9, 3)**. \n",
+        "Here's how to solve this problem step-by-step:\n**1. Understand the Translation**\n* **Down 2 units:** This means we subtract 2 from the y-coordinate.\n* **Right 3 units:** This means we add 3 to the x-coordinate.\n**2. Apply the Translation to Point B**\n* Original coordinates of B: (6, 5)\n* Translate down 2 units: (6, 5 - 2) = (6, 3)\n* Translate right 3 units: (6 + 3, 3) = (9, 3)\n**Answer:** The final image of point B after the translation will be **(9, 3)**. \n",
+        "Here's how to solve the problem step-by-step:\n**1. Understand the Translation:**\n* **Down 2 units:** This means we subtract 2 from the y-coordinate of each point.\n* **Right 3 units:** This means we add 3 to the x-coordinate of each point.\n**2. Apply the Translation to Point B:**\n* Original coordinates of B: (6, 5)\n* Translate down 2 units: (6, 5 - 2) = (6, 3)\n* Translate right 3 units: (6 + 3, 3) = (9, 3)\n**Answer:** The final image of point B after the translation will be at **(9, 3)**. \n"
+    ],
+    "pred_answers": "9",
+    "final_pred_answer": [
+        "3",
+        "3",
+        "9",
+        "9",
+        "9"
+    ],
+    "ground_truth": "3"
+}

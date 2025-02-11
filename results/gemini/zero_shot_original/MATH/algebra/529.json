@@ -1,0 +1,23 @@
+{
+    "problem": "What is the sum of all values of $x$ for which the expression $\\frac{x-3}{x^2-10x+16}$ is undefined?",
+    "level": "Level 3",
+    "type": "Algebra",
+    "solution": "The given expression is undefined when the denominator equals zero. This occurs when $x^2-10x+16=0$. We use the fact that the sum of the roots of a quadratic equation $ax^2+bx+c = 0$ is given by $-b/a$, so we see that the sum of the solutions to this equation must be $-(-10)/1=\\boxed{10}$.",
+    "prompt": "### Instruction: What is the sum of all values of $x$ for which the expression $\\frac{x-3}{x^2-10x+16}$ is undefined?\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "Here's how to solve the problem step-by-step:\n**1. Identify the problem:**\nThe expression is undefined when the denominator is zero.  This is because division by zero is undefined.\n**2. Factor the denominator:**\nThe denominator,  $x^2 - 10x + 16$, factors as $(x - 2)(x - 8)$.\n**3. Find the values that make the denominator zero:**\nSet each factor equal to zero and solve:\n*  $x - 2 = 0  \\Rightarrow x = 2$\n*  $x - 8 = 0  \\Rightarrow x = 8$\n**4. Calculate the sum:**\nThe sum of the values of $x$ that make the expression undefined is $2 + 8 = \\boxed{10}$. \n",
+        "Here's how to solve the problem step-by-step:\n**1. Identify the source of undefined expressions:**\n   A rational expression (a fraction with polynomials) becomes undefined when the denominator is equal to zero.\n**2. Factor the denominator:**\n   The denominator,  $x^2 - 10x + 16$, factors into $(x-2)(x-8)$.\n**3. Find the values that make the denominator zero:**\n   Set each factor equal to zero and solve:\n   *  x - 2 = 0  =>  x = 2\n   *  x - 8 = 0  =>  x = 8\n**4.  Calculate the sum of the values:**\n   The sum of the values of x that make the expression undefined is 2 + 8 = **10**. \n",
+        "A rational expression (a fraction with polynomials in the numerator and denominator) is undefined when the denominator is equal to zero. \n1. **Factor the denominator:**  The denominator, $x^2 - 10x + 16$, factors into $(x-2)(x-8)$.\n2. **Set the denominator to zero:** We want to find the values of *x* that make the denominator zero:\n   (x - 2)(x - 8) = 0\n3. **Solve for x:**  This equation is true when either (x - 2) = 0 or (x - 8) = 0.  Solving, we find x = 2 or x = 8.\n4. **Find the sum:** The sum of the values of *x* that make the expression undefined is 2 + 8 = **10**. \n",
+        "Here's how to solve the problem step-by-step:\n**1. Understand When an Expression is Undefined**\nAn expression is undefined when the denominator is equal to zero.  This is because division by zero is undefined in mathematics.\n**2. Find the Values that Make the Denominator Zero**\n*  We need to find the values of  'x' that make the denominator  $x^2 - 10x + 16$ equal to zero.\n*  Factor the quadratic expression:  $(x - 8)(x - 2) = 0$\n*  This gives us two solutions:  x = 8 and x = 2\n**3. Determine the Sum of the Values**\nThe values of 'x' that make the expression undefined are 8 and 2.  Their sum is 8 + 2 = **10**.\n**Therefore, the sum of all values of 'x' for which the expression is undefined is 10.** \n",
+        "Here's how to solve the problem step-by-step:\n**1. Identify the source of undefined values:**\nA fraction is undefined when its denominator is equal to zero.\n**2. Set the denominator equal to zero:**\nSo, we need to solve the equation:  \n  \n  x\u00b2 - 10x + 16 = 0\n**3. Factor the quadratic:**\nThis equation factors nicely:\n  \n  (x - 2)(x - 8) = 0\n**4. Solve for x:**\nThis gives us two solutions:\n* x - 2 = 0  =>  x = 2\n* x - 8 = 0  =>  x = 8\n**5. Calculate the sum:**\nThe sum of the values of x that make the expression undefined is 2 + 8 = **10**. \n"
+    ],
+    "pred_answers": "10",
+    "final_pred_answer": [
+        "10",
+        "10",
+        "10",
+        "10",
+        "10"
+    ],
+    "ground_truth": "10"
+}

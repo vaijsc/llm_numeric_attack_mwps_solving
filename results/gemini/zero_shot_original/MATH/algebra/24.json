@@ -1,0 +1,23 @@
+{
+    "problem": "Evaluate the expression $a^3\\cdot a^2$ if $a= 5$.",
+    "level": "Level 1",
+    "type": "Algebra",
+    "solution": "The given expression equals $a^{3+2}=a^5$. Plugging in the value of $a$, the expression equals $5^5=\\boxed{3125}$.",
+    "prompt": "### Instruction: Evaluate the expression $a^3\\cdot a^2$ if $a= 5$.\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "Here's how to solve the problem step-by-step:\n1. **Simplify the expression:** Using the rule of exponents that states  *a^m * a^n = a^(m+n)*, we can simplify the expression: \n   *  a\u00b3 * a\u00b2 = a^(3+2) = a\u2075\n2. **Substitute the value of 'a':** Since we are given that a = 5, we substitute it into the simplified expression:\n   * a\u2075 = 5\u2075\n3. **Calculate the result:** Finally, we calculate 5\u2075:\n   * 5\u2075 = 5 * 5 * 5 * 5 * 5 = **3125**\nTherefore, the value of the expression a\u00b3 * a\u00b2 when a = 5 is **3125**. \n",
+        "**Step 1:** Substitute the value of  a = 5 into the expression.\nThis gives us:  5\u00b3 * 5\u00b2\n**Step 2:**  Calculate the exponents.\n5\u00b3 = 5 * 5 * 5 = 125\n5\u00b2 = 5 * 5 = 25\n**Step 3:** Multiply the results.\n125 * 25 = **3125**\nTherefore, the expression a\u00b3 * a\u00b2 equals 3125 when a = 5. \n",
+        "Here's how to solve the problem step-by-step:\n1. **Simplify the expression:** Using the rule of exponents that states  a^m * a^n = a^(m+n), we can simplify the expression to a^(3+2) = a^5.\n2. **Substitute the value of a:**  We are given that a = 5, so we substitute to get 5^5.\n3. **Calculate:** 5^5 = 5 * 5 * 5 * 5 * 5 = **3125**.\nTherefore, the value of the expression a^3 * a^2 when a = 5 is **3125**. \n",
+        "Here's how to evaluate the expression step-by-step:\n1. **Apply the rule of exponents:**  When multiplying exponents with the same base, you add the powers. So,  $a^3 \\cdot a^2 = a^{3+2} = a^5$.\n2. **Substitute the value of 'a':**  We are given that  $a = 5$.  Substitute this into the expression: $a^5 = 5^5$.\n3. **Calculate:**  $5^5 = 5 \\times 5 \\times 5 \\times 5 \\times 5 = \\boxed{3125}$. \n",
+        "Here's how to solve the problem step-by-step:\n1. **Simplify the expression:** Using the rule of exponents that states  *a^m * a^n = a^(m+n)*, we can simplify the expression: \n   *  a\u00b3 * a\u00b2 = a^(3+2) = a\u2075\n2. **Substitute the value of a:** We are given that a = 5. Substitute this value into the simplified expression:\n   * a\u2075 = 5\u2075\n3. **Calculate the result:**  5\u2075 = 5 * 5 * 5 * 5 * 5 = 3125\n**Therefore, the value of the expression a\u00b3 * a\u00b2 when a = 5 is 3125.** \n"
+    ],
+    "pred_answers": "3125",
+    "final_pred_answer": [
+        "3125",
+        "5",
+        "3125",
+        "3125",
+        "3125"
+    ],
+    "ground_truth": "3125"
+}

@@ -1,0 +1,23 @@
+{
+    "problem": "The vertex of the parabola described by the equation $y=2x^2-4x+4$ is $(m,n)$. What is $m$?",
+    "level": "Level 3",
+    "type": "Algebra",
+    "solution": "We will complete the square on the given quadratic expression to find the vertex. Factoring 2 from the first two terms, we have \\[y=2(x^2-2x)+4\\]We complete the square inside the parentheses by adding $+1-1$ inside the parentheses to get \\[y = 2(x^2-2x+1-1)+4 =2(x-1)^2+2\\]The graph of an equation of the form $y=a(x-h)^2+k$ is a parabola with vertex at $(h,k)$, so the vertex of our parabola is at $(1,2)$. Thus, $m=\\boxed{1}$.",
+    "prompt": "### Instruction: The vertex of the parabola described by the equation $y=2x^2-4x+4$ is $(m,n)$. What is $m$?\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "To find the vertex of the parabola described by the equation \\( y = 2x^2 - 4x + 4 \\), we can use the vertex formula for a quadratic function in the standard form \\( y = ax^2 + bx + c \\). The x-coordinate of the vertex \\( m \\) is given by:\n\\[\nm = -\\frac{b}{2a}\n\\]\nIn our equation, we identify the coefficients:\n- \\( a = 2 \\)\n- \\( b = -4 \\)\n- \\( c = 4 \\)\nNow, substituting \\( a \\) and \\( b \\) into the formula:\n\\[\nm = -\\frac{-4}{2 \\times 2} = \\frac{4}{4} = 1\n\\]\nThus, the x-coordinate of the vertex is:\n\\[\nm = 1\n\\]\nNext, we can also find the y-coordinate \\( n \\) of the vertex (though we are only asked for \\( m \\)). We can substitute \\( m \\) back into the equation to find \\( n \\):\n\\[\nn = 2(1)^2 - 4(1) + 4\n\\]\n\\[\nn = 2 \\cdot 1 - 4 + 4 = 2 - 4 + 4 = 2\n\\]\nTherefore, the vertex of the parabola is \\( (1, 2) \\). However, since we are only asked for \\( m \\), the final answer is:\n\\[\n\\boxed{1}\n\\]",
+        "To find the vertex of the parabola given by the equation \\( y = 2x^2 - 4x + 4 \\), we can use the vertex formula for a parabola in the form \\( y = ax^2 + bx + c \\). The vertex's \\( x \\)-coordinate is given by \n\\[\nm = -\\frac{b}{2a}\n\\]\nwhere \\( a \\) is the coefficient of \\( x^2 \\) and \\( b \\) is the coefficient of \\( x \\).\nIn our case, we have:\n- \\( a = 2 \\)\n- \\( b = -4 \\)\nPlugging these values into the formula for \\( m \\), we get:\n\\[\nm = -\\frac{-4}{2 \\times 2} = \\frac{4}{4} = 1\n\\]\nThus, the \\( x \\)-coordinate of the vertex, \\( m \\), is \n\\[\n\\boxed{1}\n\\]",
+        "To find the vertex of the parabola described by the equation \\( y = 2x^2 - 4x + 4 \\), we can use the vertex formula for a parabola given by the standard form \\( y = ax^2 + bx + c \\).\nThe vertex \\( (m, n) \\) can be found using the formula for the x-coordinate of the vertex:\n\\[\nm = -\\frac{b}{2a}\n\\]\nIn our equation, we identify the coefficients as follows:\n- \\( a = 2 \\)\n- \\( b = -4 \\)\n- \\( c = 4 \\)\nNow we substitute the values of \\( a \\) and \\( b \\) into the vertex formula:\n\\[\nm = -\\frac{-4}{2 \\cdot 2} = \\frac{4}{4} = 1\n\\]\nThus, the x-coordinate of the vertex \\( m \\) is:\n\\[\n\\boxed{1}\n\\]",
+        "To find the vertex of the parabola given by the equation \\( y = 2x^2 - 4x + 4 \\), we can use the vertex formula for a parabola in standard form \\( y = ax^2 + bx + c \\).\n1. Identifying coefficients:\n   - Here, \\( a = 2 \\), \\( b = -4 \\), and \\( c = 4 \\).\n2. Using the vertex formula:\n   The x-coordinate of the vertex \\( m \\) is given by the formula:\n   \\[\n   m = -\\frac{b}{2a}\n   \\]\n   Substituting the values of \\( a \\) and \\( b \\):\n   \\[\n   m = -\\frac{-4}{2 \\cdot 2} = \\frac{4}{4} = 1\n   \\]\nSo, the x-coordinate of the vertex \\( m \\) is:\n\\[\n\\boxed{1}\n\\]",
+        "To find the vertex of the parabola given by the equation \\( y = 2x^2 - 4x + 4 \\), we can use the formula for the vertex of a parabola in the standard form \\( y = ax^2 + bx + c \\). The x-coordinate of the vertex \\( m \\) can be found using the formula:\n\\[\nm = -\\frac{b}{2a}\n\\]\nIn our equation, we have:\n- \\( a = 2 \\)\n- \\( b = -4 \\)\n- \\( c = 4 \\)\nNow, plug in the values for \\( a \\) and \\( b \\) into the vertex formula:\n\\[\nm = -\\frac{-4}{2 \\cdot 2}\n\\]\nCalculating the denominator:\n\\[\n2 \\cdot 2 = 4\n\\]\nNow substituting this back into the formula gives us:\n\\[\nm = \\frac{4}{4} = 1\n\\]\nThus, the x-coordinate of the vertex, \\( m \\), is \n\\[\n\\boxed{1}\n\\]"
+    ],
+    "pred_answers": "1",
+    "final_pred_answer": [
+        "1",
+        "1",
+        "1",
+        "1",
+        "1"
+    ],
+    "ground_truth": "1"
+}

@@ -1,0 +1,23 @@
+{
+    "problem": "If the sum of the squares of nonnegative real numbers $a,b,$ and $c$ is $13$, and $ab + bc + ca = 6$, then what is the sum of $a,b,$ and $c$?",
+    "level": "Level 4",
+    "type": "Algebra",
+    "solution": "Since $$(a+b+c)^2 = a^2 + b^2 + c^2 + 2ab + 2bc + 2ca = (13) + 2(6) = 25,$$ it follows that $a+b+c = \\pm 5$. Since $a,b,c \\ge 0$ we find $a+b+c=\\boxed{5}$.",
+    "prompt": "### Instruction: If the sum of the squares of nonnegative real numbers $a,b,$ and $c$ is $13$, and $ab + bc + ca = 6$, then what is the sum of $a,b,$ and $c$?\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "Here's how to solve the problem step-by-step:\n**1. Recognize the pattern:**\nThe given information resembles the expansion of the square of a sum:\n* $(a + b + c)^2 = a^2 + b^2 + c^2 + 2(ab + bc + ca)$\n**2. Substitute the given values:**\nWe know that  $a^2 + b^2 + c^2 = 13$ and $ab + bc + ca = 6$. Substitute these values into the equation above:\n* $(a + b + c)^2 = 13 + 2(6)$\n* $(a + b + c)^2 = 25$\n**3. Solve for the sum:**\nTake the square root of both sides to find the sum of $a$, $b$, and $c$:\n* $a + b + c = \\sqrt{25}$\n* $a + b + c = 5$\n**Therefore, the sum of $a$, $b$, and $c$ is 5.** \n",
+        "Here's how to solve this problem:\n**1.  Recognize the connection to a familiar identity:**\nNotice that the given information resembles the expansion of the square of a sum:\n* $(a + b + c)^2 = a^2 + b^2 + c^2 + 2(ab + bc + ca)$\n**2.  Use the given information to substitute:**\nWe are given:\n*  $a^2 + b^2 + c^2 = 13$\n*  $ab + bc + ca = 6$\nSubstitute these values into the expanded identity:\n* $(a + b + c)^2 = 13 + 2(6)$\n* $(a + b + c)^2 = 25$\n**3.  Solve for the sum:**\nTake the square root of both sides:\n* $a + b + c = \\pm 5$\nSince we're told that *a*, *b*, and *c* are nonnegative, the sum must be positive:\n*  $a + b + c = \\boxed{5}$ \n",
+        "Here's how to solve this problem step-by-step:\n**1.  Recognize the connection to a squared expression:**\nNotice that the given information resembles the expansion of a squared term:\n* $(a + b + c)^2 = a^2 + b^2 + c^2 + 2(ab + bc + ca)$\n**2. Substitute the known values:**\nWe are given:\n*  $a^2 + b^2 + c^2 = 13$\n*  $ab + bc + ca = 6$\nSubstitute these values into the expanded equation:\n* $(a + b + c)^2 = 13 + 2(6) = 25$\n**3. Solve for the sum:**\nTake the square root of both sides:\n* $a + b + c = \\sqrt{25} = 5$\n**Therefore, the sum of a, b, and c is 5.** \n",
+        "Here's how to solve the problem:\n**1. Recognize the connection to a familiar formula**\nThe given information looks similar to the expansion of the square of a sum:\n*  (a + b + c)\u00b2 = a\u00b2 + b\u00b2 + c\u00b2 + 2(ab + bc + ca)\n**2. Use the given information**\nWe know:\n* a\u00b2 + b\u00b2 + c\u00b2 = 13\n* ab + bc + ca = 6\n**3. Substitute and solve**\nSubstitute the given values into the expanded formula:\n(a + b + c)\u00b2 = 13 + 2(6) \n(a + b + c)\u00b2 = 25\nTake the square root of both sides:\na + b + c = \u00b15\n**4. Consider the non-negative constraint**\nSince the problem states that a, b, and c are non-negative real numbers, the sum must be positive.\n**Therefore, the sum of a, b, and c is 5.** \n",
+        "Here's how to solve the problem:\n**1.  Recognize the connection to a squared expression:**\nNotice that the expression $(a + b + c)^2$ expands as:\n$(a + b + c)^2 = a^2 + b^2 + c^2 + 2(ab + bc + ca)$\n**2.  Substitute given values:**\nWe are given that  $a^2 + b^2 + c^2 = 13$ and $ab + bc + ca = 6$.  Substitute these values into the expanded expression:\n$(a + b + c)^2 = 13 + 2(6) = 25$\n**3.  Solve for the sum:**\nTake the square root of both sides:\n$a + b + c = \\pm 5$\nSince $a$, $b$, and $c$ are nonnegative real numbers, their sum must be positive.  Therefore:\n$a + b + c = \\boxed{5}$ \n"
+    ],
+    "pred_answers": "5",
+    "final_pred_answer": [
+        "5",
+        "5",
+        "5",
+        "5",
+        "5"
+    ],
+    "ground_truth": "5"
+}

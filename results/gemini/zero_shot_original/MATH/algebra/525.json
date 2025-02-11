@@ -1,0 +1,23 @@
+{
+    "problem": "Suppose that $h(x)=f^{-1}(x)$. If $h(2)=10$, $h(10)=1$ and $h(1)=2$, what is $f(f(10))$?",
+    "level": "Level 4",
+    "type": "Algebra",
+    "solution": "Since $f$ and $h$ are inverse functions and $h(2) = 10$, $f(10) = 2$, so $f(f(10)) = f(2)$.  And since $h(1) = 2$, $f(2) = \\boxed{1}$.",
+    "prompt": "### Instruction: Suppose that $h(x)=f^{-1}(x)$. If $h(2)=10$, $h(10)=1$ and $h(1)=2$, what is $f(f(10))$?\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "Here's how to solve this problem step-by-step:\n**Understanding Inverse Functions**\n* **Definition:** If  *h(x)* is the inverse of *f(x)*, then  *h(f(x)) = x* and *f(h(x)) = x* for all values of *x* within the domains of the functions.\n**Using the Given Information**\n1. **h(2) = 10:** This means *f(10) = 2* (because *h* and *f* are inverses).\n2. **h(10) = 1:** This means *f(1) = 10* (because *h* and *f* are inverses).\n3. **h(1) = 2:** This means *f(2) = 1* (because *h* and *f* are inverses).\n**Finding f(f(10))**\n1. **f(10) = 2:** We found this from step 1 above.\n2. **f(f(10)) = f(2):** Substituting the value of f(10).\n3. **f(2) = 1:** We found this from step 3 above.\n**Therefore, f(f(10)) = 1** \n",
+        "Here's how to solve this problem step-by-step:\n**Understanding Inverse Functions**\n* **Definition:**  If  *h(x)* is the inverse of *f(x)*, then: \n    *  *f(h(x)) = x* for all *x* in the domain of *h(x)*.\n    *  *h(f(x)) = x* for all *x* in the domain of *f(x)*.\n**Using the Given Information**\n1. **h(2) = 10:** This means *f(10) = 2* (because *h* is the inverse of *f*).\n2. **h(10) = 1:** This means *f(1) = 10* (because *h* is the inverse of *f*).\n3. **h(1) = 2:** This means *f(2) = 1* (because *h* is the inverse of *f*).\n**Finding f(f(10))**\n1. **Find f(10):** We know from step 1 that *f(10) = 2*.\n2. **Find f(f(10)) = f(2):** We know from step 3 that *f(2) = 1*.\n**Therefore, f(f(10)) = 1** \n",
+        "Here's how to solve this problem step-by-step:\n**1. Understand the Inverse Function Relationship**\nSince  *h(x)* is the inverse of *f(x)*, this means:\n* **f(h(x)) = x**  for all values of x in the domain of *h(x)*.\n* **h(f(x)) = x** for all values of x in the domain of *f(x)*.\n**2. Use the Given Information**\nWe are given:\n* *h(2) = 10* \n* *h(10) = 1*\n* *h(1) = 2*\n**3.  Find f(10)**\nWe know  *h(10) = 1*.  Using the inverse function relationship, we can rewrite this as:\n* *f(h(10)) = 10*\n* *f(1) = 10*  (since *h(10) = 1*)\n**4. Find f(f(10))**\nWe just found that *f(10) = 1*.  Therefore:\n* *f(f(10)) = f(1)*\n* *f(f(10)) = 10* (since *f(1) = 10*)\n**Answer:** \n*f(f(10)) = 10* \n",
+        "Here's how to solve the problem step-by-step:\n**1. Understand the Relationship**\n*  We know that  *h(x)* is the inverse function of *f(x)*. This means:\n    *  If *h(a) = b*, then *f(b) = a*.\n**2. Apply the Relationship**\n*  We're given *h(2) = 10*. Using the relationship above, this means *f(10) = 2*.\n**3. Use the Information to Find f(f(10))**\n*  We know *f(10) = 2*.  \n*  We also know *h(1) = 2*, which means *f(2) = 1*.\n**4. Combine the Pieces**\n*  Therefore, *f(f(10)) = f(2) = 1*.\n**Answer:**  *f(f(10)) = 1* \n",
+        "Here's how to solve this problem step-by-step:\n* **Understanding Inverse Functions:**  Remember that if  *h(x) = f<sup>-1</sup>(x)*, then  *f(h(x)) = x* and *h(f(x)) = x*. This is the fundamental property of inverse functions.\n* **Using the Given Information:**\n    *  We know  *h(2) = 10*.  This means *f(10) = 2* (using the property *f(h(x)) = x*).\n    *  We know  *h(10) = 1*. This means *f(1) = 10* (using the property *f(h(x)) = x*).\n* **Finding f(f(10))**:\n    1. We know *f(10) = 2* (from the first step).\n    2. Therefore, *f(f(10)) = f(2)*.\n    3. We don't have *f(2)* directly, but we know *h(2) = 10*, which means *f(10) = 2*. \n    4. So, *f(f(10)) = f(2) = f(f(10)) = **10** \n**Therefore, f(f(10)) = 10** \n"
+    ],
+    "pred_answers": "10",
+    "final_pred_answer": [
+        "1",
+        "1",
+        "10",
+        "10",
+        "10"
+    ],
+    "ground_truth": "1"
+}

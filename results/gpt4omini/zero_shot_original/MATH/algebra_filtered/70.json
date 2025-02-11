@@ -1,0 +1,23 @@
+{
+    "problem": "If $(x,y) = (3,9)$, what is $y^2 - 3xy + 8$?",
+    "level": "Level 1",
+    "type": "Algebra",
+    "solution": "We have $y^2 -3xy + 8 = 9^2 - 3(3)(9) + 8 = 81 - 81 + 8 = \\boxed{8}$.",
+    "prompt": "### Instruction: If $(x,y) = (3,9)$, what is $y^2 - 3xy + 8$?\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "Given the values \\(x = 3\\) and \\(y = 9\\), we need to compute the expression \\(y^2 - 3xy + 8\\).\n1. **Calculate \\(y^2\\)**:\n   \\[\n   y^2 = 9^2 = 81\n   \\]\n2. **Calculate \\(3xy\\)**:\n   \\[\n   3xy = 3 \\times 3 \\times 9\n   \\]\n   First calculate \\(3 \\times 3 = 9\\), then multiply by \\(9\\):\n   \\[\n   9 \\times 9 = 81\n   \\]\n   Thus, \\(3xy = 81\\).\n3. **Substitute into the expression**:\n   Now substitute \\(y^2\\) and \\(3xy\\) into the expression \\(y^2 - 3xy + 8\\):\n   \\[\n   y^2 - 3xy + 8 = 81 - 81 + 8\n   \\]\n   Simplifying this gives:\n   \\[\n   81 - 81 = 0,\n   \\]\n   so,\n   \\[\n   0 + 8 = 8.\n   \\]\n4. **Final result**:\n   Therefore, the value of the expression \\(y^2 - 3xy + 8\\) is \n   \\[\n   \\boxed{8}.\n   \\]",
+        "To find the value of the expression \\( y^2 - 3xy + 8 \\) where \\( (x,y) = (3,9) \\), we will substitute \\( x = 3 \\) and \\( y = 9 \\).\n1. **Calculate \\( y^2 \\)**:\n   \\[\n   y^2 = 9^2 = 81\n   \\]\n2. **Calculate \\( 3xy \\)**:\n   \\[\n   3xy = 3 \\cdot 3 \\cdot 9 = 81\n   \\]\n3. **Substitute \\( y^2 \\) and \\( 3xy \\) into the expression**:\n   \\[\n   y^2 - 3xy + 8 = 81 - 81 + 8\n   \\]\n4. **Perform the calculation**:\n   \\[\n   81 - 81 = 0\n   \\]\n   \\[\n   0 + 8 = 8\n   \\]\nThus, the value of \\( y^2 - 3xy + 8 \\) is \\(\\boxed{8}\\).",
+        "To find the value of the expression \\( y^2 - 3xy + 8 \\) when \\( (x,y) = (3,9) \\), we will substitute the values of \\( x \\) and \\( y \\) into the expression step by step.\n1. **Substituting the values**:\n   \\[\n   x = 3, \\quad y = 9\n   \\]\n2. **Calculate \\( y^2 \\)**:\n   \\[\n   y^2 = 9^2 = 81\n   \\]\n3. **Calculate \\( 3xy \\)**:\n   \\[\n   3xy = 3 \\cdot 3 \\cdot 9 = 81\n   \\]\n4. **Now plug these values into the expression**:\n   \\[\n   y^2 - 3xy + 8 = 81 - 81 + 8\n   \\]\n5. **Simplifying the expression**:\n   \\[\n   81 - 81 = 0\n   \\]\n   \\[\n   0 + 8 = 8\n   \\]\nThus, the value of \\( y^2 - 3xy + 8 \\) is \\(\\boxed{8}\\).",
+        "To find the value of \\( y^2 - 3xy + 8 \\) given \\( (x,y) = (3,9) \\), we will substitute \\( x = 3 \\) and \\( y = 9 \\) into the expression.\n1. First, find \\( y^2 \\):\n   \\[\n   y^2 = 9^2 = 81\n   \\]\n2. Next, calculate \\( 3xy \\):\n   \\[\n   3xy = 3 \\cdot 3 \\cdot 9 = 81\n   \\]\n3. Now substitute the values into the expression \\( y^2 - 3xy + 8 \\):\n   \\[\n   y^2 - 3xy + 8 = 81 - 81 + 8\n   \\]\n4. Simplify the expression:\n   \\[\n   81 - 81 = 0\n   \\]\n   \\[\n   0 + 8 = 8\n   \\]\nTherefore, the value of \\( y^2 - 3xy + 8 \\) is \\(\\boxed{8}\\).",
+        "To solve for \\( y^2 - 3xy + 8 \\) given \\( (x,y) = (3,9) \\), we will substitute \\( x = 3 \\) and \\( y = 9 \\) into the expression.\n1. First, calculate \\( y^2 \\):\n   \\[\n   y^2 = 9^2 = 81\n   \\]\n2. Next, calculate \\( 3xy \\):\n   \\[\n   3xy = 3 \\cdot 3 \\cdot 9\n   \\]\n   First, calculate \\( 3 \\cdot 3 = 9 \\) and then:\n   \\[\n   9 \\cdot 9 = 81\n   \\]\n3. Now substitute these values into the expression \\( y^2 - 3xy + 8 \\):\n   \\[\n   y^2 - 3xy + 8 = 81 - 81 + 8\n   \\]\n4. Simplify the expression:\n   \\[\n   81 - 81 = 0\n   \\]\n   Therefore,\n   \\[\n   0 + 8 = 8\n   \\]\nThus, the final result is:\n\\[\n\\boxed{8}\n\\]"
+    ],
+    "pred_answers": "8",
+    "final_pred_answer": [
+        "8",
+        "8",
+        "8",
+        "8",
+        "8"
+    ],
+    "ground_truth": "8"
+}

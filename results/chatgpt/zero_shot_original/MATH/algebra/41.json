@@ -1,0 +1,23 @@
+{
+    "problem": "The point $(a, b)$ lies on the line with the equation $3x + 2y = 12.$ When $a = 4$, what is the value of $b$?",
+    "level": "Level 2",
+    "type": "Algebra",
+    "solution": "We plug in $x = 4$: \\begin{align*}\n3(4) + 2y &= 12\\\\\n12 + 2y &= 12\\\\\ny &= 0.\n\\end{align*}\n\nTherefore, $b = \\boxed{0}$.",
+    "prompt": "### Instruction: The point $(a, b)$ lies on the line with the equation $3x + 2y = 12.$ When $a = 4$, what is the value of $b$?\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "To find the value of \\( b \\) when \\( a = 4 \\) on the line given by the equation \\( 3x + 2y = 12 \\), we can substitute \\( x = a = 4 \\) into the equation and solve for \\( y = b \\).\nStart with the equation:\n\\[\n3x + 2y = 12\n\\]\nReplace \\( x \\) with 4:\n\\[\n3(4) + 2y = 12\n\\]\nCalculate \\( 3(4) \\):\n\\[\n12 + 2y = 12\n\\]\nSubtract 12 from both sides:\n\\[\n2y = 0\n\\]\nDivide both sides by 2 to solve for \\( y \\):\n\\[\ny = 0\n\\]\nTherefore, when \\( a = 4 \\), the value of \\( b \\) is \\( \\boxed{0} \\).",
+        "To find the value of \\( b \\), given that the point \\( (a, b) \\) lies on the line described by the equation \\( 3x + 2y = 12 \\), and assuming \\( a = 4 \\), we start by substituting \\( a = 4 \\) into the equation as the \\( x \\)-value.\nThe equation is:\n\\[ 3x + 2y = 12. \\]\nSubstituting \\( x = 4 \\) into the equation:\n\\[ 3(4) + 2y = 12. \\]\nCalculate \\( 3(4) \\):\n\\[ 12 + 2y = 12. \\]\nNext, subtract 12 from both sides of the equation to solve for \\( 2y \\):\n\\[ 2y = 12 - 12, \\]\n\\[ 2y = 0. \\]\nFinally, divide both sides by 2 to find \\( y \\):\n\\[ y = \\frac{0}{2}, \\]\n\\[ y = 0. \\]\nThus, the value of \\( b \\) is \\( \\boxed{0} \\).",
+        "To find the value of \\( b \\) when \\( a = 4 \\) for the line given by the equation \\( 3x + 2y = 12 \\), we can follow these steps:\n1. **Substitute \\( a = 4 \\) into the equation:**\n   \\[\n   3(4) + 2y = 12\n   \\]\n2. **Simplify by calculating \\( 3 \\times 4 \\):**\n   \\[\n   12 + 2y = 12\n   \\]\n3. **Isolate \\( 2y \\) by subtracting 12 from both sides:**\n   \\[\n   2y = 12 - 12\n   \\]\n   \\[\n   2y = 0\n   \\]\n4. **Solve for \\( y \\) by dividing both sides by 2:**\n   \\[\n   y = \\frac{0}{2}\n   \\]\n   \\[\n   y = 0\n   \\]\nThus, when \\( a = 4 \\), the value of \\( b \\) is \\( b = 0 \\). Therefore, the point \\((4, 0)\\) lies on the line.",
+        "To find the value of \\( b \\) when \\( a = 4 \\) on the line given by the equation \\( 3x + 2y = 12 \\), we follow these steps:\n1. **Substitute \\( a = 4 \\) into the equation:**\n   The line equation is \\( 3x + 2y = 12 \\). We substitute \\( x = 4 \\) for \\( a \\):\n   \\[\n   3(4) + 2y = 12\n   \\]\n2. **Simplify the equation:**\n   Calculate \\( 3 \\times 4 \\):\n   \\[\n   12 + 2y = 12\n   \\]\n3. **Solve for \\( y \\):**\n   Subtract 12 from both sides of the equation to isolate terms with \\( y \\):\n   \\[\n   2y = 0\n   \\]\n   Divide each side by 2 to solve for \\( y \\):\n   \\[\n   y = 0\n   \\]\n4. **Conclusion:**\n   When \\( a = 4 \\) (or \\( x = 4 \\)), \\( b = 0 \\) (or \\( y = 0 \\)).\nThus, the value of \\( b \\) when \\( a = 4 \\) is \\(\\boxed{0}\\).",
+        "To find the value of \\( b \\) when \\( a = 4 \\) for the equation \\( 3x + 2y = 12 \\), we substitute \\( x = a = 4 \\) into the equation.\nThe equation is:\n\\[\n3x + 2y = 12\n\\]\nSubstituting \\( x = 4 \\) gives:\n\\[\n3(4) + 2y = 12\n\\]\nCalculate \\( 3 \\times 4 \\):\n\\[\n12 + 2y = 12\n\\]\nSubtract 12 from both sides:\n\\[\n2y = 0\n\\]\nDivide both sides by 2:\n\\[\ny = 0\n\\]\nThus, when \\( a = 4 \\), the value of \\( b \\) is \\( 0 \\). So, the point \\((4, 0)\\) lies on the line. Hence, the value of \\( b \\) is \\(\\boxed{0}\\)."
+    ],
+    "pred_answers": "0",
+    "final_pred_answer": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+    ],
+    "ground_truth": "0"
+}

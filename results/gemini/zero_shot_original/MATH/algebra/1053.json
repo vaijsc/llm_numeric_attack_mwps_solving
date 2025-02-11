@@ -1,0 +1,23 @@
+{
+    "problem": "Solve the following system of equations for $c$:\n\\begin{align*}\na - b &= 2 (c+d)\\\\\nb &= a-2 \\\\\nd &= c+5\n\\end{align*}",
+    "level": "Level 4",
+    "type": "Algebra",
+    "solution": "Substituting for $b$ and $d$ in the first equation gives $a - (a - 2) = 2(c+c+5)$. This simplifies to $2 = 4c + 10$, so $c = \\boxed{-2}$.",
+    "prompt": "### Instruction: Solve the following system of equations for $c$:\n\\begin{align*}\na - b &= 2 (c+d)\\\\\nb &= a-2 \\\\\nd &= c+5\n\\end{align*}\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "Here's how to solve for 'c' step-by-step:\n1. **Substitute 'b' and 'd' into the first equation:** \n   Since we know  b = a - 2 and d = c + 5, we can substitute these values into the first equation:\n   a - (a - 2) = 2(c + (c + 5))\n2. **Simplify the equation:**\n   Simplify both sides of the equation:\n   2 = 2(2c + 5)\n   2 = 4c + 10\n3. **Solve for 'c':**\n   Subtract 10 from both sides:\n   -8 = 4c\n   Divide both sides by 4:\n   c = **-2**\nTherefore, the solution for 'c' is **-2**. \n",
+        "1. **Substitute the values of b and d into the first equation:**\n   \n   We have: \n   *  b = a - 2\n   *  d = c + 5\n   Substituting these into the first equation:\n   a - (a - 2) = 2(c + (c + 5))\n2. **Simplify the equation:**\n   The 'a' terms cancel out:\n   2 = 2(2c + 5)\n3. **Continue simplifying:**\n   Distribute the 2 on the right side:\n   2 = 4c + 10\n4. **Solve for c:**\n   Subtract 10 from both sides:\n   -8 = 4c\n   Divide both sides by 4:\n   c = -2\nTherefore, the solution for **c is -2**. \n",
+        "1. **Substitute the value of b from the second equation into the first equation:**\n   This gives us:  \n   ```\n   a - (a-2) = 2(c+d) \n   ```\n   Simplifying, we get:\n   ```\n   2 = 2(c+d)\n   ```\n2. **Substitute the value of d from the third equation into the simplified equation from step 1:**\n   This gives us:\n   ```\n   2 = 2(c + (c+5))\n   ```\n3. **Solve for c:**\n   ```\n   2 = 2(2c + 5)\n   2 = 4c + 10\n   -8 = 4c\n   c = -2\n   ```\nTherefore, the solution for **c** is **-2**. \n",
+        "1. **Substitute the values of b and d into the first equation:**\n   Since  $b = a - 2$ and $d = c + 5$, we can substitute these into the first equation: \n   \n   $a - (a - 2) = 2(c + (c + 5))$\n2. **Simplify the equation:**\n   Simplifying both sides of the equation gives us:\n   $2 = 2(2c + 5)$\n3. **Continue simplifying:**\n   Expanding the right side of the equation gives us:\n   $2 = 4c + 10$\n4. **Isolate the term with 'c':**\n   Subtracting 10 from both sides gives us:\n   $-8 = 4c$\n5. **Solve for 'c':**\n   Dividing both sides by 4 gives us the solution:\n   $c = \\boxed{-2}$ \n",
+        "1. **Substitute** the value of *b* from the second equation into the first equation:\n   ```\n   a - (a - 2) = 2(c + d)\n   ```\n2. **Simplify** the first equation:\n   ```\n   2 = 2(c + d)\n   ```\n3. **Substitute** the value of *d* from the third equation into the simplified first equation:\n   ```\n   2 = 2(c + (c + 5))\n   ```\n4. **Simplify** the equation:\n   ```\n   2 = 2(2c + 5)\n   2 = 4c + 10\n   ```\n5. **Solve for *c***:\n   ```\n   -8 = 4c\n   c = -2 \n   ```\nTherefore, the solution for *c* is **-2**. \n"
+    ],
+    "pred_answers": "-2",
+    "final_pred_answer": [
+        "-2",
+        "-2",
+        "-2",
+        "-2",
+        "-2"
+    ],
+    "ground_truth": "-2"
+}

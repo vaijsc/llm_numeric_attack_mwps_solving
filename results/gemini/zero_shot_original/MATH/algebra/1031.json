@@ -1,0 +1,23 @@
+{
+    "problem": "If $t(x) = |{-3+2x}|$, then what is $t(t(-4))$?",
+    "level": "Level 3",
+    "type": "Algebra",
+    "solution": "We have $t(-4) = |{-3 + 2(-4)}| = |{-11}| = 11$, so  \\[t(t(-4))= t(11) = |{-3 + 2(11)}| = |{-3+22}| = \\boxed{19}.\\]",
+    "prompt": "### Instruction: If $t(x) = |{-3+2x}|$, then what is $t(t(-4))$?\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "Here's how to solve the problem step-by-step:\n**1. Find  *t*(-4):**\n* Substitute -4 for *x* in the function: \n   *  *t*(-4) = |-3 + 2(-4)| \n   *  *t*(-4) = |-3 - 8|\n   *  *t*(-4) = |-11|\n   *  *t*(-4) = 11\n**2. Find  *t*(11):**\n* Now that you know *t*(-4) = 11, substitute 11 for *x* in the function:\n   *  *t*(11) = |-3 + 2(11)|\n   *  *t*(11) = |-3 + 22|\n   *  *t*(11) = |19|\n   *  *t*(11) = 19\n**Therefore, *t*(t(-4)) = 19** \n",
+        "Here's how to solve this problem step-by-step:\n**1. Find t(-4):**\n* Substitute -4 for *x* in the function *t(x)*:\n   *  t(-4) = |-3 + 2(-4)|\n   *  t(-4) = |-3 - 8|\n   *  t(-4) = |-11|\n   *  t(-4) = 11 \n**2. Find t(t(-4)), which is t(11):**\n* Now we know t(-4) = 11. Substitute 11 for *x* in the function *t(x)*:\n   *  t(11) = |-3 + 2(11)|\n   *  t(11) = |-3 + 22|\n   *  t(11) = |19|\n   *  t(11) = 19\n**Therefore, t(t(-4)) = 19** \n",
+        "Here's how to solve the problem step-by-step:\n1. **Find t(-4):**\n   * Substitute -4 for *x* in the expression for *t(x)*:\n     *  t(-4) = |-3 + 2(-4)| \n     *  t(-4) = |-3 - 8|\n     *  t(-4) = |-11|\n     *  t(-4) = 11 \n2. **Find t(t(-4)), which is t(11):** \n   * Now, substitute 11 for *x* in the expression for *t(x)*:\n     *  t(11) = |-3 + 2(11)|\n     *  t(11) = |-3 + 22|\n     *  t(11) = |19|\n     *  t(11) = 19\n**Therefore, t(t(-4)) = 19** \n",
+        "Here's how to solve this step-by-step:\n**1. Find t(-4):**\n* Substitute -4 for *x* in the function *t(x)*:\n   *  t(-4) = |-3 + 2(-4)| \n   *  t(-4) = |-3 - 8|\n   *  t(-4) = |-11|\n   *  t(-4) = 11\n**2. Find t(t(-4)), which is t(11):**\n* Now, substitute 11 for *x* in the function *t(x)*:\n   * t(11) = |-3 + 2(11)|\n   * t(11) = |-3 + 22|\n   * t(11) = |19|\n   * t(11) = 19\n**Therefore, t(t(-4)) = 19** \n",
+        "Here's how to solve this step-by-step:\n1. **Find t(-4):** \n   - Substitute -4 for *x* in the function: \n     * t(-4) = |(-3) + 2(-4)| \n     * t(-4) = |-3 - 8|\n     * t(-4) = |-11|\n     * t(-4) = 11 \n2. **Find t(t(-4)), which is t(11):**\n   - Now substitute 11 for *x* in the function:\n     * t(11) = |(-3) + 2(11)|\n     * t(11) = |-3 + 22|\n     * t(11) = |19|\n     * t(11) = 19\n**Therefore, t(t(-4)) = 19** \n"
+    ],
+    "pred_answers": "19",
+    "final_pred_answer": [
+        "19",
+        "19",
+        "19",
+        "19",
+        "19"
+    ],
+    "ground_truth": "19"
+}

@@ -1,0 +1,23 @@
+{
+    "problem": "Simplify this expression: $$\\left(2x+\\frac{3}{2} (4x-6)\\right)-4\\left( -(2-x)+\\frac{x}{2}\\right)$$",
+    "level": "Level 3",
+    "type": "Algebra",
+    "solution": "Begin by distributing in the innermost parentheses: \\begin{align*}\n\\left(2x+\\frac{3}{2} (4x-6)\\right)-&4\\left( -(2-x)+\\frac{x}{2}\\right)\\\\\n&=(2x+6x-9)-4\\left(-2+x+\\frac{x}{2}\\right)\\\\\n&=(8x-9)-4\\left (-2+\\frac{3x}{2}\\right)\n\\end{align*} Now, distribute again, and combine like terms: \\begin{align*}\n(8x-9)-4\\left (-2+\\frac{3x}{2}\\right)&=8x-9+8-6x\\\\\n&=\\boxed{2x-1}\n\\end{align*}",
+    "prompt": "### Instruction: Simplify this expression: $$\\left(2x+\\frac{3}{2} (4x-6)\\right)-4\\left( -(2-x)+\\frac{x}{2}\\right)$$\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "1. **Distribute:** Start by distributing the constants inside the parentheses:\n   \n   ```\n   (2x + 6x - 9) - 4(-2 + x + x/2)\n   ```\n2. **Combine like terms:** Combine the terms inside the parentheses:\n   \n   ```\n   (8x - 9) - 4(-2 + 3x/2)\n   ```\n3. **Distribute again:** Distribute the -4:\n   \n   ```\n   8x - 9 + 8 - 6x \n   ```\n4. **Combine like terms again:** Combine the remaining terms:\n   \n   ```\n   2x - 1\n   ```\nTherefore, the simplified expression is **2x - 1**. \n",
+        "Here's how to simplify the expression step-by-step:\n1. **Distribute:**\n   *  Distribute the $\\frac{3}{2}$ inside the first set of parentheses: \n      ```\n      (2x + 6x - 9) - 4(-(2-x) + x/2)\n      ```\n   * Distribute the -4 inside the second set of parentheses:\n      ```\n      (2x + 6x - 9) + 8 - 4x + 2x \n      ```\n2. **Combine like terms:**\n   * Combine the 'x' terms: \n      ```\n      (2x + 6x - 4x + 2x) + (-9 + 8)\n      ```\n   * Combine the constant terms: \n      ```\n      6x - 1\n      ```\n**Therefore, the simplified expression is 6x - 1.** \n",
+        "Here's how to simplify the expression step-by-step:\n1. **Distribute inside the parentheses:**\n   \n   *  $\\left(2x+\\frac{3}{2} (4x-6)\\right)-4\\left( -(2-x)+\\frac{x}{2}\\right)$\n   *  $= (2x + 6x - 9) - 4(-2 + x + \\frac{x}{2})$ \n2. **Combine like terms inside the parentheses:**\n   *  $= (8x - 9) - 4(-2 + \\frac{3x}{2})$\n3. **Distribute the -4:**\n   *  $= 8x - 9 + 8 - 6x$\n4. **Combine like terms:**\n   *  $= (8x - 6x) + (-9 + 8)$\n   *  $= \\boxed{2x - 1}$ \n",
+        "Here's how we can simplify the expression step-by-step:\n1. **Distribute:**\n   *  Distribute the $\\frac{3}{2}$ inside the first set of parentheses:\n      ```\n      (2x + 6x - 9) - 4( -(2-x) + \\frac{x}{2} )\n      ```\n   * Distribute the $-4$ inside the second set of parentheses:\n      ```\n      (2x + 6x - 9) + 8 + 4x - 2x \n      ```\n2. **Combine like terms:**\n   * Combine the 'x' terms:\n      ```\n      (2x + 6x + 4x - 2x) - 9 + 8\n      ```\n   * Combine the constant terms:\n      ```\n      10x - 1 \n      ```\n**Therefore, the simplified expression is 10x - 1** \n",
+        "Here's how to simplify the expression step-by-step:\n1. **Distribute inside the parentheses:**\n   *  $(2x + \\frac{3}{2}(4x-6)) - 4(-(2-x) + \\frac{x}{2})$\n   *  $(2x + 6x - 9) - 4(-2 + x + \\frac{x}{2})$\n2. **Combine like terms inside the parentheses:**\n   *  $(8x - 9) - 4(-2 + \\frac{3x}{2})$\n3. **Distribute the -4:**\n   *  $(8x - 9) + 8 - 6x$\n4. **Combine like terms:**\n   *  $(8x - 6x) + (-9 + 8)$\n5. **Simplify:**\n   *  $2x - 1$\n**Therefore, the simplified expression is 2x - 1.** \n"
+    ],
+    "pred_answers": "1",
+    "final_pred_answer": [
+        "1",
+        "1",
+        "1",
+        "1",
+        "1"
+    ],
+    "ground_truth": "-1"
+}

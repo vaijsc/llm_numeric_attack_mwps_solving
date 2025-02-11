@@ -1,0 +1,23 @@
+{
+    "problem": "The graphs of $y = x^2 - 7x + 7$ and the line $y = -3$ intersect at two points. What is the sum of the $x$-coordinates of these two points?",
+    "level": "Level 3",
+    "type": "Algebra",
+    "solution": "The intersection points have $x$-coordinates when $x^2-7x+7=-3$, or when $x^2-7x+10=0$. We can factor this into $(x-2)(x-5) = 0$; the intersections have $x$-coordinates 2 and 5, and the sum follows as $2+5 = \\boxed{7}$.",
+    "prompt": "### Instruction: The graphs of $y = x^2 - 7x + 7$ and the line $y = -3$ intersect at two points. What is the sum of the $x$-coordinates of these two points?\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "Here's how to solve the problem step-by-step:\n**1. Set the equations equal to each other:**\nSince the graphs intersect, the y-values are the same at the points of intersection.  Therefore, we can set the equations equal to each other:\n  x\u00b2 - 7x + 7 = -3\n**2. Solve for x:**\n* Move the constant term to the left side:\n   x\u00b2 - 7x + 10 = 0\n* Factor the quadratic:\n   (x - 2)(x - 5) = 0\n* Solve for x:\n   x = 2  or  x = 5\n**3. Find the sum of the x-coordinates:**\nThe x-coordinates of the intersection points are 2 and 5.  Their sum is 2 + 5 = **7**. \n",
+        "Here's how to solve the problem step-by-step:\n**1. Set the equations equal to each other:**\nSince the graphs intersect, the y-values are the same at the points of intersection.  Therefore:\n  x\u00b2 - 7x + 7 = -3\n**2. Solve for x:**\n* Move all terms to one side: x\u00b2 - 7x + 10 = 0\n* Factor the quadratic: (x - 2)(x - 5) = 0\n* Solve for x: x = 2 or x = 5\n**3. Find the sum of the x-coordinates:**\nThe sum of the x-coordinates is 2 + 5 = **7**. \n",
+        "Here's how to solve the problem step-by-step:\n**1. Set the equations equal to each other:**\nSince the graphs intersect, the y-values are equal at those points.  Therefore: \n  \n  x\u00b2 - 7x + 7 = -3\n**2.  Solve the quadratic equation:**\n* Move all terms to one side: x\u00b2 - 7x + 10 = 0\n* Factor the quadratic: (x - 2)(x - 5) = 0\n* Solve for x: x = 2 or x = 5\n**3. Find the sum of the x-coordinates:**\nThe x-coordinates of the intersection points are 2 and 5. Their sum is 2 + 5 = **7**. \n",
+        "Here's how to solve the problem step-by-step:\n**1. Set the equations equal to each other:**\nSince the graphs intersect, the y-values are equal at those points.  So, we set the equations equal to each other: \n \n  x\u00b2 - 7x + 7 = -3\n**2. Solve for x:**\n* Move the constant term to the left side:\n   x\u00b2 - 7x + 10 = 0\n* Factor the quadratic:\n   (x - 2)(x - 5) = 0\n* Set each factor equal to zero and solve:\n   x - 2 = 0  or  x - 5 = 0\n   x = 2  or  x = 5\n**3. Find the sum of the x-coordinates:**\nThe x-coordinates of the intersection points are 2 and 5.  Their sum is 2 + 5 = **7**. \n",
+        "Here's how to solve the problem step-by-step:\n**1. Set the equations equal to each other:**\nSince the graphs intersect, the y-values are the same at the points of intersection.  Therefore, we can set the two equations equal to each other:\n  x\u00b2 - 7x + 7 = -3\n**2. Solve for x:**\n* Move the constant term to the left side:\n   x\u00b2 - 7x + 10 = 0\n* Factor the quadratic equation:\n   (x - 2)(x - 5) = 0\n* Solve for the possible values of x:\n   x = 2 or x = 5\n**3. Find the sum of the x-coordinates:**\nThe x-coordinates of the two points of intersection are 2 and 5.  Their sum is:\n2 + 5 = **7** \n"
+    ],
+    "pred_answers": "7",
+    "final_pred_answer": [
+        "7",
+        "7",
+        "7",
+        "7",
+        "7"
+    ],
+    "ground_truth": "7"
+}

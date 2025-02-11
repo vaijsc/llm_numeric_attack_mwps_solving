@@ -1,0 +1,23 @@
+{
+    "problem": "Compute $(34-10)+(20-9)+(55-10)$ in your head.",
+    "level": "Level 1",
+    "type": "Algebra",
+    "solution": "Rearranging the terms, we get $(34+55-9)+(20-10-10)=80+0=\\boxed{80}$.",
+    "prompt": "### Instruction: Compute $(34-10)+(20-9)+(55-10)$ in your head.\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "Here's how we can solve this in our head:\n* **Step 1: Simplify the first part:** (34 - 10) = 24\n* **Step 2: Simplify the second part:** (20 - 9) = 11\n* **Step 3: Simplify the third part:** (55 - 10) = 45\n* **Step 4: Add the results:** 24 + 11 + 45 = 80\n**Therefore, (34-10)+(20-9)+(55-10) = 80** \n",
+        "Here's how we can solve this step-by-step:\n1. **(34 - 10):**  Start with the first part. 34 minus 10 is 24.\n2. **(20 - 9):** Next,  20 minus 9 is 11.\n3. **(55 - 10):** Finally, 55 minus 10 is 45. \n4. **Add the results:** Now add the results from each step: 24 + 11 + 45 = 80\n**Therefore, (34 - 10) + (20 - 9) + (55 - 10) = 80** \n",
+        "Here's how to solve it step-by-step:\n1. **Simplify the first part:**  (34 - 10) = 24\n2. **Simplify the second part:** (20 - 9) = 11\n3. **Simplify the third part:** (55 - 10) = 45\n4. **Add the results together:** 24 + 11 + 45 = **80** \n",
+        "Here's how to solve it step-by-step in your head:\n1. **Simplify within the parentheses:**\n   * (34 - 10) = 24\n   * (20 - 9) = 11\n   * (55 - 10) = 45\n2. **Add the results:** \n   * 24 + 11 + 45 = 80\n**Therefore, (34 - 10) + (20 - 9) + (55 - 10) = 80** \n",
+        "Here's how to solve it step-by-step:\n1. **(34 - 10):**  This is 24. \n2. **(20 - 9):** This is 11.\n3. **(55 - 10):** This is 45.\n4. **Add the results:** 24 + 11 + 45 = 80\nSo, $(34-10)+(20-9)+(55-10) = \\boxed{80}$ \n"
+    ],
+    "pred_answers": "80",
+    "final_pred_answer": [
+        "80",
+        "80",
+        "80",
+        "80",
+        "80"
+    ],
+    "ground_truth": "80"
+}

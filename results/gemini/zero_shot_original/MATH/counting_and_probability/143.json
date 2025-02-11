@@ -1,0 +1,23 @@
+{
+    "problem": "Suppose that we win $\\$3$ if we flip a heads on a coin toss, but lose $\\$2$ if we flip tails.  What is the expected value, in dollars, of our winnings after one flip?",
+    "level": "Level 2",
+    "type": "Counting & Probability",
+    "solution": "In one flip, we have a $1/2$ chance of getting heads and winning 3 dollars, and a $1/2$ chance of getting tails and losing two dollars.  So the expected value of one flip is $E = \\frac{1}{2}(\\$3) + \\frac{1}{2}(-\\$2) = \\boxed{\\$0.50}$.",
+    "prompt": "### Instruction: Suppose that we win $\\$3$ if we flip a heads on a coin toss, but lose $\\$2$ if we flip tails.  What is the expected value, in dollars, of our winnings after one flip?\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "Here's how to calculate the expected value:\n**1. Probabilities:**\n* **Heads:** The probability of flipping heads is 1/2 (or 50%).\n* **Tails:** The probability of flipping tails is also 1/2 (or 50%).\n**2. Payoffs:**\n* **Heads:** We win $3.\n* **Tails:** We lose $2 (which is the same as winning -$2).\n**3. Expected Value Calculation:**\nThe expected value is calculated as the sum of the products of each outcome's probability and its payoff. \n* **Expected Value = (Probability of Heads * Payoff of Heads) + (Probability of Tails * Payoff of Tails)**\n* **Expected Value = (1/2 * $3) + (1/2 * -$2)**\n* **Expected Value = $1.50 - $1.00**\n* **Expected Value = $0.50**\n**Therefore, the expected value of our winnings after one flip is $0.50.** \n",
+        "Here's how to calculate the expected value:\n**1. Probabilities:**\n* **Heads:** The probability of flipping heads is 1/2 (or 50%).\n* **Tails:** The probability of flipping tails is also 1/2 (or 50%).\n**2. Payoffs:**\n* **Heads:**  You win $3.\n* **Tails:** You lose $2 (which is the same as winning -$2).\n**3. Expected Value Formula:**\nExpected Value = (Probability of Outcome 1 * Payoff of Outcome 1) + (Probability of Outcome 2 * Payoff of Outcome 2)\n**4. Calculation:**\nExpected Value = (1/2 * $3) + (1/2 * -$2)\nExpected Value = $1.50 - $1.00\nExpected Value = $0.50\n**Therefore, the expected value of your winnings after one flip is $0.50.** \n",
+        "Here's how to calculate the expected value:\n**1. Probabilities:**\n* The probability of flipping heads (and winning $3) is 1/2.\n* The probability of flipping tails (and losing $2) is also 1/2.\n**2. Expected Value Calculation:**\nExpected value is calculated as:  (Probability of Outcome 1 * Value of Outcome 1) + (Probability of Outcome 2 * Value of Outcome 2) \n* **Outcome 1:** Winning $3 (probability = 1/2)\n* **Outcome 2:** Losing $2 (probability = 1/2)\nSo, the expected value is: \n(1/2 * $3) + (1/2 * -$2) = $1.50 - $1.00 = $0.50\n**Answer:** The expected value of our winnings after one flip is **$0.50**. \n",
+        "Here's how to calculate the expected value:\n**1. Probabilities:**\n* **Heads:** The probability of flipping heads is 1/2 (50%).\n* **Tails:** The probability of flipping tails is also 1/2 (50%).\n**2. Payoffs:**\n* **Heads:** You win $3.\n* **Tails:** You lose $2 (which is the same as winning -$2).\n**3. Expected Value Calculation:**\nThe expected value is calculated by multiplying the payoff of each outcome by its probability and then summing the results. \n* **Expected Value = (Probability of Heads * Payoff of Heads) + (Probability of Tails * Payoff of Tails)**\n* **Expected Value = (1/2 * $3) + (1/2 * -$2)**\n* **Expected Value = $1.50 - $1.00**\n* **Expected Value = $0.50**\n**Therefore, the expected value of your winnings after one flip is $0.50.** \n",
+        "Here's how to calculate the expected value:\n**1. Probabilities:**\n*  Probability of getting heads (and winning $3): 1/2\n*  Probability of getting tails (and losing $2): 1/2\n**2. Expected Value Calculation:**\n* **Expected value = (Probability of winning * Amount won) + (Probability of losing * Amount lost)**\n* Expected value = (1/2 * $3) + (1/2 * -$2) \n* Expected value = $1.50 - $1.00\n* Expected value = $0.50\n**Therefore, the expected value of our winnings after one flip is $0.50.** \n"
+    ],
+    "pred_answers": "0.50",
+    "final_pred_answer": [
+        "0.50",
+        "0.50",
+        "0.50",
+        "0.50",
+        "0.50"
+    ],
+    "ground_truth": "0.50"
+}

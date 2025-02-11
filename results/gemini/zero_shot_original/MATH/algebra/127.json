@@ -1,0 +1,23 @@
+{
+    "problem": "What power of 4 is equal to 8? Express your answer as a common fraction.",
+    "level": "Level 2",
+    "type": "Algebra",
+    "solution": "We are asked to solve $4^x=8$ for $x$.  Writing $4$ as $2^2$ and $8$ as $2^3$, the equation becomes $(2^2)^x=2^3$.  The left-hand side simplifies to $2^{2x}$, so we may set exponents equal to find $2x=3$, which implies $x=\\boxed{\\frac{3}{2}}$.",
+    "prompt": "### Instruction: What power of 4 is equal to 8? Express your answer as a common fraction.\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "Here's how to solve this:\n* **Understanding the Problem:** We need to find a fraction 'x' where 4 raised to the power of 'x' equals 8.  This can be written as: 4^x = 8.\n* **Finding the Solution:**\n    *  Since 8 is not a direct power of 4, we need to express both sides of the equation with the same base.  We know that 8 is the same as 2 cubed (2^3). \n    * We also know that 4 is the same as 2 squared (2^2).\n    * Substituting these into our equation: (2^2)^x = 2^3\n    * Using the rule of exponents that says (a^m)^n = a^(m*n), we get: 2^(2x) = 2^3\n    * For the bases to be equal, the exponents must be equal. Therefore, 2x = 3\n    * Solving for x: x = 3/2\n**Answer:** The power of 4 that is equal to 8 is **3/2**. \n",
+        "We want to find the exponent *x* that satisfies the equation:\n4^x = 8\nNotice that 8 is the same as 2^3.  We can rewrite 4 as 2^2.  Substituting these into our equation gives:\n(2^2)^x = 2^3\nUsing the rule of exponents that says (a^m)^n = a^(m*n), we simplify the left side:\n2^(2*x) = 2^3\nFor the two sides to be equal, the exponents must be equal:\n2*x = 3\nSolving for x, we get:\nx = 3/2\nTherefore, the power of 4 that is equal to 8 is **3/2**. \n",
+        "We need to find the exponent *x* such that 4^x = 8.  \nSince 8 is not a perfect power of 4, we know *x* will be a fraction. \nLet's rewrite 8 as a power of 2: 8 = 2^3.\nNow, we can rewrite 4 as 2^2.  Therefore, we have: \n(2^2)^x = 2^3\nUsing the rule of exponents that says (a^m)^n = a^(m*n), we get:\n2^(2x) = 2^3\nSince the bases are the same, we can equate the exponents:\n2x = 3\nSolving for x, we get:\nx = 3/2\nTherefore, the power of 4 that equals 8 is **3/2**. \n",
+        "Here's how to solve this:\n* **Understanding the problem:** We need to find an exponent 'x' such that 4 raised to that power equals 8.  In other words, we're looking for the solution to the equation: 4^x = 8\n* **Expressing 8 as a power of 4:**  We know that 8 is the same as 2 cubed (2 x 2 x 2 = 8).  We also know that 4 is the same as 2 squared (2 x 2 = 4).\n* **Combining the powers:**  We can rewrite 8 as 2\u00b3 = (2\u00b2)^(3/2) = 4^(3/2). \n* **Solution:** Therefore, 4^(3/2) = 8. \n**Answer:** The power of 4 that is equal to 8 is **3/2**. \n",
+        "Here's how to solve this:\n* **Understanding the problem:** We need to find a fraction 'x' such that 4 raised to the power of 'x' equals 8. In mathematical terms, we want to solve the equation: 4^x = 8.\n* **Expressing both sides with the same base:** Notice that both 4 and 8 can be expressed as powers of 2:\n    * 4 = 2\u00b2\n    * 8 = 2\u00b3\n* **Substituting and solving:**  Substitute these values back into the equation:\n    * (2\u00b2) ^ x = 2\u00b3\n    * 2^(2x) = 2\u00b3 \n    Since the bases are now the same, we can equate the exponents:\n    * 2x = 3\n    * x = 3/2\n**Therefore, the power of 4 that is equal to 8 is 3/2.** \n"
+    ],
+    "pred_answers": "2",
+    "final_pred_answer": [
+        "4",
+        "2",
+        "2",
+        "4",
+        "2"
+    ],
+    "ground_truth": "2"
+}

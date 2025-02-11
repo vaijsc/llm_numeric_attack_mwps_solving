@@ -1,0 +1,23 @@
+{
+    "problem": "Given that $x+y = 7$ and $3x+y = 45,$ evaluate $x^2-y^2.$",
+    "level": "Level 2",
+    "type": "Algebra",
+    "solution": "From the first equation, we can see that $y = 7 - x.$ Substituting for $y$ in the second equation, we obtain $3x + (7 - x) = 45,$ so $x = 19.$ We can then find that $y = -12.$ Thus, $$x^2 - y^2 = 19^2 - (-12)^2 = \\boxed{217}.$$- OR -\n\nNote that $$x^2 - y^2 = (x + y)(x - y).$$If we subtract two times the first equation from the second equation, we obtain $x - y = 31.$ We can then substitute for $x + y$ and $x - y$ to obtain $7\\cdot 31 = \\boxed{217}.$",
+    "prompt": "### Instruction: Given that $x+y = 7$ and $3x+y = 45,$ evaluate $x^2-y^2.$\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "Here's how to solve the problem step-by-step:\n**1. Solve for x and y:**\n* **Elimination Method:**  Subtract the first equation from the second equation:\n   (3x + y) - (x + y) = 45 - 7\n   2x = 38\n   x = 19\n* **Substitute to find y:**\n   Substitute x = 19 into either of the original equations. Let's use x + y = 7:\n   19 + y = 7\n   y = -12\n**2. Evaluate x\u00b2 - y\u00b2:**\n* Now that we know x = 19 and y = -12, substitute these values into the expression:\n   x\u00b2 - y\u00b2 = (19)\u00b2 - (-12)\u00b2\n   = 361 - 144\n   = 217\n**Therefore, x\u00b2 - y\u00b2 = 217** \n",
+        "Here's how to solve the problem step-by-step:\n**1. Solve for x and y:**\n* We have two equations:\n    *  x + y = 7 \n    *  3x + y = 45\n* Subtract the first equation from the second equation to eliminate y:\n    (3x + y) - (x + y) = 45 - 7\n    2x = 38\n    x = 19\n* Substitute the value of x (19) back into either of the original equations to solve for y:\n    19 + y = 7\n    y = -12\n**2. Evaluate x\u00b2 - y\u00b2:**\n* Now that we know x = 19 and y = -12, we can substitute these values into the expression:\n    x\u00b2 - y\u00b2 = (19)\u00b2 - (-12)\u00b2 \n    = 361 - 144\n    = 217\n**Therefore, x\u00b2 - y\u00b2 = 217** \n",
+        "Here's how to solve the problem step-by-step:\n**1. Solve for x and y**\n* We have two equations and two unknowns, so we can solve for *x* and *y*. \n* Subtract the first equation from the second equation: \n   (3x + y) - (x + y) = 45 - 7\n* This simplifies to: 2x = 38\n* Divide both sides by 2 to get: x = 19\n* Substitute the value of *x* (19) back into either of the original equations to solve for *y*. Let's use the first equation:\n   19 + y = 7\n* Subtract 19 from both sides: y = -12\n**2. Evaluate x\u00b2 - y\u00b2**\n* Now that we know *x* = 19 and *y* = -12, we can plug these values into the expression:\n   x\u00b2 - y\u00b2 = (19)\u00b2 - (-12)\u00b2\n* Calculate the squares: 361 - 144\n* Subtract to find the final answer: 217\n**Therefore, x\u00b2 - y\u00b2 = 217** \n",
+        "Here's how to solve the problem step-by-step:\n**1. Solve for x and y**\n* **Elimination Method:** Subtract the first equation from the second equation:\n   (3x + y) - (x + y) = 45 - 7 \n   2x = 38\n   x = 19\n* **Substitute to find y:** Substitute the value of x (19) into either of the original equations. Let's use the first equation:\n   19 + y = 7\n   y = -12\n**2. Evaluate x\u00b2 - y\u00b2**\n* Now that we know x = 19 and y = -12, substitute these values into the expression:\n   x\u00b2 - y\u00b2 = (19)\u00b2 - (-12)\u00b2 \n   = 361 - 144 \n   = 217\n**Therefore, x\u00b2 - y\u00b2 = 217** \n",
+        "Here's how to solve the problem step-by-step:\n**1. Solve for x and y**\n* We have two equations:\n    *  x + y = 7\n    *  3x + y = 45\n* Subtract the first equation from the second equation:\n    (3x + y) - (x + y) = 45 - 7\n    2x = 38\n* Solve for x:\n    x = 19\n* Substitute the value of x back into either of the original equations to solve for y.  Let's use x + y = 7:\n    19 + y = 7\n    y = -12\n**2. Evaluate x\u00b2 - y\u00b2**\n* Now that we know x = 19 and y = -12, we can substitute these values into the expression:\n    x\u00b2 - y\u00b2 = (19)\u00b2 - (-12)\u00b2\n              = 361 - 144\n              = 217\n**Therefore, x\u00b2 - y\u00b2 = 217** \n"
+    ],
+    "pred_answers": "217",
+    "final_pred_answer": [
+        "217",
+        "217",
+        "217",
+        "217",
+        "217"
+    ],
+    "ground_truth": "217"
+}

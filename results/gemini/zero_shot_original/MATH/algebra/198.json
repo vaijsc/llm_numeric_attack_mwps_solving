@@ -1,0 +1,23 @@
+{
+    "problem": "A line $\\ell$ passes through the points $B(7,-1)$ and $C(-1,7)$.  The equation of this line can be written in the form $y=mx+b$; compute $m+b$.",
+    "level": "Level 3",
+    "type": "Algebra",
+    "solution": "The line through points $B$ and $C$ has slope $\\dfrac{-1-7}{7-(-1)}=-1$.  Since $(7,-1)$ lies on the line, the line has equation $$y-(-1)=-1(x-7),$$or $y = -x + 6$.  Thus $m=-1$, $b=6$, and $m+b=-1+6=\\boxed{5}$.",
+    "prompt": "### Instruction: A line $\\ell$ passes through the points $B(7,-1)$ and $C(-1,7)$.  The equation of this line can be written in the form $y=mx+b$; compute $m+b$.\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "1. **Find the slope (m):**  The slope of a line passing through points $(x_1, y_1)$ and $(x_2, y_2)$ is given by:\n   \n   ```\n   m = (y_2 - y_1) / (x_2 - x_1)\n   ```\n   In our case,  (x_1, y_1) = (7, -1) and (x_2, y_2) = (-1, 7). Plugging in, we get:\n   ```\n   m = (7 - (-1)) / (-1 - 7) = 8 / -8 = -1 \n   ```\n2. **Find the y-intercept (b):** We can use the point-slope form of a linear equation:\n   ```\n   y - y_1 = m(x - x_1) \n   ```\n   Let's use the point B(7, -1) and the slope we found (m = -1):\n   ```\n   y - (-1) = -1(x - 7)\n   ```\n   Simplifying, we get:\n   ```\n   y + 1 = -x + 7\n   ```\n   Solving for y to get the slope-intercept form (y = mx + b):\n   ```\n   y = -x + 6 \n   ```\n   Therefore, the y-intercept is b = 6.\n3. **Compute m + b:** \n   ```\n   m + b = -1 + 6 = 5\n   ```\n**Answer:** m + b = **5** \n",
+        "Here's how to solve the problem step-by-step:\n**1. Find the slope (m):**\nThe slope of a line passing through points $(x_1, y_1)$ and $(x_2, y_2)$ is given by:\n  *  m = (y_2 - y_1) / (x_2 - x_1)\nLet's use B(7, -1) as (x_1, y_1) and C(-1, 7) as (x_2, y_2):\n  * m = (7 - (-1)) / (-1 - 7) = 8 / -8 = -1\n**2. Find the y-intercept (b):**\nWe can use the point-slope form of a linear equation:\n  * y - y_1 = m(x - x_1)\nLet's use point B(7, -1) and the slope we just calculated (m = -1):\n  * y - (-1) = -1(x - 7)\n  * y + 1 = -x + 7\n  * y = -x + 6\nNow the equation is in the form y = mx + b, where b = 6.\n**3. Calculate m + b:**\n* m + b = -1 + 6 = **5**\n**Therefore, m + b = 5** \n",
+        "Here's how to solve the problem step-by-step:\n**1. Find the slope (m):**\n* The slope of a line passing through points $(x_1, y_1)$ and $(x_2, y_2)$ is given by: \n   \n   *  m = (y\u2082 - y\u2081) / (x\u2082 - x\u2081)\n* In this case, we have:\n   *  m = (7 - (-1)) / (-1 - 7) = 8 / -8 = -1\n**2. Find the y-intercept (b):**\n* We can use the point-slope form of a linear equation: y - y\u2081 = m(x - x\u2081)\n* We know m = -1, and we can use either point B or C. Let's use point B (7, -1):\n   * y - (-1) = -1(x - 7)\n   * y + 1 = -x + 7\n   * y = -x + 6\n*  This is now in the form y = mx + b, so b = 6.\n**3. Calculate m + b:**\n* m + b = -1 + 6 = 5\n**Therefore, m + b = 5** \n",
+        "Here's how to find the equation of the line and then calculate m + b:\n**1. Find the slope (m):**\n* The slope of a line passing through points $(x_1, y_1)$ and $(x_2, y_2)$ is given by:  \n   *  m = (y\u2082 - y\u2081) / (x\u2082 - x\u2081)\n* Substitute the coordinates of points B and C:\n   * m = (7 - (-1)) / (-1 - 7) = 8 / -8 = -1\n**2. Find the y-intercept (b):**\n* We can use the point-slope form of a linear equation: y - y\u2081 = m(x - x\u2081)\n* Let's use point B (7, -1) and the slope m = -1:\n   * y - (-1) = -1(x - 7)\n   * y + 1 = -x + 7\n   * y = -x + 6  \n* Now the equation is in the form y = mx + b, so b = 6\n**3. Calculate m + b:**\n* m + b = -1 + 6 = **5** \n",
+        "Here's how to find the equation of the line and solve the problem:\n**1. Find the slope (m):**\nThe slope of a line passing through points $(x_1, y_1)$ and $(x_2, y_2)$ is given by:\n```\nm = (y_2 - y_1) / (x_2 - x_1) \n```\nLet's use our points B(7, -1) and C(-1, 7):\n```\nm = (7 - (-1)) / (-1 - 7) = 8 / -8 = -1\n```\n**2. Find the y-intercept (b):**\nWe can use the point-slope form of a linear equation:\n```\ny - y_1 = m(x - x_1) \n```\nLet's plug in the slope (m = -1) and one of the points, say B(7, -1):\n```\ny - (-1) = -1(x - 7)\n```\nSimplify to find the slope-intercept form (y = mx + b):\n```\ny + 1 = -x + 7\ny = -x + 6 \n```\nTherefore, the y-intercept is b = 6.\n**3. Calculate m + b:**\n```\nm + b = -1 + 6 = 5\n```\n**Answer:**  m + b = **5** \n"
+    ],
+    "pred_answers": "5",
+    "final_pred_answer": [
+        "5",
+        "5",
+        "5",
+        "5",
+        "5"
+    ],
+    "ground_truth": "5"
+}

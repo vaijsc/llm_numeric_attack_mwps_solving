@@ -1,0 +1,23 @@
+{
+    "problem": "How much greater than $27^2$ is $43^2$ ?",
+    "level": "Level 1",
+    "type": "Algebra",
+    "solution": "We factor this as a difference of squares: $43^2 - 27^2 = (43 + 27)(43 - 27) = (70)(16) = \\boxed{1120}$.",
+    "prompt": "### Instruction: How much greater than $27^2$ is $43^2$ ?\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "To determine how much greater \\( 43^2 \\) is than \\( 27^2 \\), we can follow these steps:\n1. **Calculate \\( 27^2 \\)**:\n   \\[\n   27^2 = 27 \\times 27 = 729\n   \\]\n   \n2. **Calculate \\( 43^2 \\)**:\n   \\[\n   43^2 = 43 \\times 43 = 1849\n   \\]\n3. **Find the difference between \\( 43^2 \\) and \\( 27^2 \\)**:\n   \\[\n   \\text{Difference} = 43^2 - 27^2\n   \\]\n   \\[\n   \\text{Difference} = 1849 - 729\n   \\]\n4. **Perform the subtraction**:\n   \\[\n   1849 - 729 = 1120\n   \\]\nThus, \\( 43^2 \\) is \\( 1120 \\) greater than \\( 27^2 \\).\nIn conclusion, the answer is:\n\\[\n\\boxed{1120}\n\\]",
+        "To find out how much greater \\( 43^2 \\) is than \\( 27^2 \\), we can follow these steps:\n1. **Calculate \\( 43^2 \\)**:\n   \\[\n   43^2 = 43 \\times 43 = 1849\n   \\]\n2. **Calculate \\( 27^2 \\)**:\n   \\[\n   27^2 = 27 \\times 27 = 729\n   \\]\n3. **Subtract \\( 27^2 \\) from \\( 43^2 \\)** to find the difference:\n   \\[\n   43^2 - 27^2 = 1849 - 729\n   \\]\n4. **Perform the subtraction**:\n   \\[\n   1849 - 729 = 1120\n   \\]\nThus, \\( 43^2 \\) is \\( 1120 \\) greater than \\( 27^2 \\).\nTherefore, the final answer is:\n\\[\n\\boxed{1120}\n\\]",
+        "To determine how much greater \\(43^2\\) is than \\(27^2\\), we can calculate the squares of both numbers and then find the difference.\n1. **Calculate \\(27^2\\)**:\n   \\[\n   27^2 = 27 \\times 27 = 729\n   \\]\n2. **Calculate \\(43^2\\)**:\n   \\[\n   43^2 = 43 \\times 43 = 1849\n   \\]\n3. **Find the difference between \\(43^2\\) and \\(27^2\\)**:\n   \\[\n   43^2 - 27^2 = 1849 - 729\n   \\]\n   To perform the subtraction:\n   \\[\n   1849 - 729 = 1120\n   \\]\nSo, \\(43^2\\) is \\(1120\\) greater than \\(27^2\\).\nThus, the final answer is:\n\\[\n\\boxed{1120}\n\\]",
+        "To find how much greater \\( 43^2 \\) is than \\( 27^2 \\), we can follow these steps:\n1. **Calculate \\( 27^2 \\)**:\n   \\[\n   27^2 = 27 \\times 27 = 729\n   \\]\n2. **Calculate \\( 43^2 \\)**:\n   \\[\n   43^2 = 43 \\times 43 = 1849\n   \\]\n3. **Find the difference \\( 43^2 - 27^2 \\)**:\n   \\[\n   43^2 - 27^2 = 1849 - 729\n   \\]\n4. **Perform the subtraction**:\n   \\[\n   1849 - 729 = 1120\n   \\]\nTherefore, \\( 43^2 \\) is \\( 1120 \\) greater than \\( 27^2 \\). \nThe final answer is:\n\\[\n\\boxed{1120}\n\\]",
+        "To find out how much greater \\( 43^2 \\) is than \\( 27^2 \\), we will first calculate the squares of both 43 and 27.\n1. **Calculate \\( 27^2 \\)**:\n   \\[\n   27^2 = 27 \\times 27 = 729\n   \\]\n2. **Calculate \\( 43^2 \\)**:\n   \\[\n   43^2 = 43 \\times 43 = 1849\n   \\]\n3. **Find the difference \\( 43^2 - 27^2 \\)**:\n   \\[\n   43^2 - 27^2 = 1849 - 729\n   \\]\n4. **Perform the subtraction**:\n   \\[\n   1849 - 729 = 1120\n   \\]\nThus, \\( 43^2 \\) is \\( 1120 \\) greater than \\( 27^2 \\).\nThe final answer is:\n\\[\n\\boxed{1120}\n\\]"
+    ],
+    "pred_answers": "1120",
+    "final_pred_answer": [
+        "1120",
+        "1120",
+        "1120",
+        "1120",
+        "1120"
+    ],
+    "ground_truth": "1120"
+}

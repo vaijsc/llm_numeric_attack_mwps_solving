@@ -1,0 +1,23 @@
+{
+    "problem": "In the row of Pascal's triangle that starts with 1 and then 10, what is the next number?",
+    "level": "Level 2",
+    "type": "Counting & Probability",
+    "solution": "The row that starts 1, 10 is the row $\\binom{10}{0}, \\binom{10}{1}, \\binom{10}{2},\\ldots$, so the next number is $\\binom{10}{2} = \\frac{10\\cdot 9}{2\\cdot 1} = \\boxed{45}$.",
+    "prompt": "### Instruction: In the row of Pascal's triangle that starts with 1 and then 10, what is the next number?\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "Here's how to find the next number in the row of Pascal's Triangle that starts with 1 and then 10:\n**Understanding Pascal's Triangle**\n* **Each number is the sum of the two numbers directly above it.** \n* **The outer edges of the triangle are always 1.**\n**Finding the Next Number**\n1. **The row starts with 1 and then 10.**  This means the two numbers above the 10 must have been 1 and 9 (since 1 + 9 = 10).\n2. **To find the number after the 10, we look at the two numbers above it.**  We know one is 9, and the other is the number to the left of the 1, which is also 1.\n3. **The sum of 9 and 1 is 10.**\n**Therefore, the next number in the row is 10.** \n",
+        "Here's how to find the next number:\n**Understanding Pascal's Triangle**\n* Each number in Pascal's Triangle is the sum of the two numbers directly above it.\n* The first and last numbers in each row are always 1.\n**Finding the Next Number**\n1. **Identify the numbers above:** The row starts with 1 and 10.  To find the next number, we need the two numbers above the 10.\n2. **Think about the previous row:** The numbers above the 10 are the last two numbers in the previous row. Since the first number in a row is always 1, the previous row ends with 1.\n3. **Calculate the sum:** The two numbers above the 10 are 1 and 10.  Their sum is 1 + 10 = 11.\n**Therefore, the next number in the row is 11.** \n",
+        "Here's how to solve this:\n* **Understanding Pascal's Triangle:**  Each number in Pascal's Triangle is the sum of the two numbers directly above it. \n* **Finding the Next Number:** \n   - Since the row starts with 1 and then 10, the next number is found by adding those two together: 1 + 10 = 11.\n**Therefore, the next number in the row is 11.** \n",
+        "Here's how to solve this:\n* **Understanding Pascal's Triangle:** Each number in Pascal's Triangle is the sum of the two numbers directly above it. \n* **The Row:**  The row you're describing starts with 1, then 10. This means the number before the 10 was also a 1.\n* **The Next Number:** To find the next number, we add the two numbers above it (1 and 10). \n* **Calculation:** 1 + 10 = 11\n**Therefore, the next number in the row is 11.** \n",
+        "Here's how to find the next number:\n**Understanding Pascal's Triangle**\nPascal's Triangle is built by adding the two numbers directly above a position to get the value below. \n**Applying the Rule**\n* The row starts with 1 and then 10. \n* To find the next number, we need to add the two numbers above it: 1 + 10 = 11.\n**Therefore, the next number in the row is 11.** \n"
+    ],
+    "pred_answers": "11",
+    "final_pred_answer": [
+        "10",
+        "11",
+        "11",
+        "11",
+        "11"
+    ],
+    "ground_truth": "45"
+}

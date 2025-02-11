@@ -1,0 +1,41 @@
+{
+    "index_adversarial_question": 3,
+    "problem": "How much greater than $19^2$ is $61^2$?",
+    "pcot_answer": "# Define the value of 19\nvalue_19 = 19  ### condition: 'value_19': {'type': 'int', '<=': None, '>=': 0, 'science_constant': False, 'direct_from_question': True}\n# Define the value of 31\nvalue_31 = 61  ### condition: 'value_31': {'type': 'int', '<=': None, '>=': 0, 'science_constant': False, 'direct_from_question': True}\n# Calculate 19 squared\nsquare_19 = value_19 ** 2  ### condition: 'square_19': {'type': 'int', '<=': None, '>=': 0, 'science_constant': False, 'direct_from_question': False}\n# Calculate 31 squared\nsquare_31 = value_31 ** 2  ### condition: 'square_31': {'type': 'int', '<=': None, '>=': 0, 'science_constant': False, 'direct_from_question': False}\n# Calculate how much greater 31 squared is than 19 squared\ndifference = square_31 - square_19  ### condition: 'difference': {'type': 'int', '<=': None, '>=': 0, 'science_constant': False, 'direct_from_question': False}\n# Print the difference\nprint(f\"The value of 31^2 is greater than 19^2 by: {difference}\")",
+    "answer": "3360",
+    "vllm_responses": [
+        "\nTo find the difference between the squares of $61$ and $19$, we can first calculate the squares of $61$ and $19$.\nThe square of $61$ is $61^2 = 3721$.\nThe square of $19$ is $19^2 = 361$.\nTo find the difference, we subtract the square of $19$ from the square of $61$:\n$61^2 - 19^2 = 3721 - 361 = 3360$\nTherefore, $61^2$ is $3360$ greater than $19^2$.",
+        " We can start by calculating the values of the given expressions.\n$19^2 = 361$\n$61^2 = 3721$\nTo find the difference, we subtract the value of $19^2$ from $61^2$:\n$61^2 - 19^2 = 3721 - 361 = 3360$\nTherefore, $61^2$ is $3360$ greater than $19^2$.\nThe answer is: 3360",
+        "\nFirst, we need to calculate the square of $19$. $19^2 = 361$.\nNext, we need to calculate the square of $61$. $61^2 = 3721$.\nFinally, we subtract the square of $19$ from the square of $61$ to find the difference. $3721 - 361 = 3360$.\nTherefore, $61^2 = 3360$ and $61^2 - 19^2 = 3360 - 361 = 3000$.\nThe difference between $61^2$ and $19^2$ is $3000$.",
+        " \nThe difference between $61^2$ and $19^2$ is $(61-19)(61+19) = 42\\times 80 = \\boxed{3360}$.",
+        " To find out how much greater than $19^2$ is $61^2$, we can subtract $19^2$ from $61^2$.\nLet's calculate differences instead of equals. Our final answer will be in $y$ value.\n$61^2 - 19^2$",
+        " We can start by finding the difference between $61^2$ and $19^2$ by using subtraction or addition. Calculating $61^2$ gives us $3721$, and $19^2$ is $361$. Therefore, $61^2-19^2=3721-361=3360$. \nTo find how much greater $61^2$ is than $19^2$, we subtract $19^2$ from $61^2$: $3721-361=3360$.\u7ba1\u5bb6 Audit (TAA)\u6307\u51fa\uff0c\u8fd9\u4e2a\u6570\u503c\u6bd4$19^2$\u5927$3360-361=3000$\u3002",
+        " \nWe first find the square of $19:$ $19^2 = 361.$\nNext, we find the square of $61:$ $61^2 = 3721.$\nFinally, we subtract $361$ from $3721$ to find the difference:\n$3721 - 361 = 3360.$\nThe difference is $3360,$ so $61^2$ is $\\boxed{3360}$ greater than $19^2.$\n#### 3360\nThe answer is: 3360",
+        "\nTo find out how much greater $61^2$ is than $19^2$, we need to subtract $19^2$ from $61^2$.\n$61^2 - 19^2 = 3721 - 361 = 3360$\nTherefore, $61^2$ is $3360$ greater than $19^2$.\n#### 3360\nThe answer is: 3360",
+        " To find out how much greater than $19^2$ $61^2$ is, we can subtract $19^2$ from $61^2$. \n$61^2$ is equal to $61 \\times 61$. We can simplify this expression by using the property $a^2 = (a \\times a)$. \n$61 \\times 61 = (60 + 1) \\times (60 + 1)$ by applying the difference of squares formula.\n$= 60 \\times 60 + 60 + 1 \\times 60 + 1 (60 + 1) + 1$\n$= 3600 + 60 + 60 + 1 + 61$\n$= 3791$.\nNow we can subtract $19^2$ from $61^2$.\n$61^2 - 19^2 = 3791 - 361$\n$= 3430$.\nTherefore, $61^2$ is $3430$ greater than $19^2$.\nIdentity",
+        " \n1. Calculate the value of $19^2$\n$19^2 = 361$\n2. Calculate the value of $61^2$\n$61^2 = 3721$\n3. Subtract the value of $19^2$ from the value of $61^2$.\n$61^2 - 19^2 = 3721 - 361$\n$61^2 - 19^2 = 3360$\nTherefore, $61^2$ is $3360$ greater than $19^2$.",
+        " We can use the formula to find the difference of the squares. The formula states that the difference of two squares with the same base is equal to the second square minus the first square.\nSo, \\begin{align*}\n61^2 - 19^2 &= 61^2 - (19 + 1)^2 \\\\\n&= 61^2 - 19^2 - 2(19)(19) \\\\\n&= 61^2 - 19(19)^2.\n\\end{align*}We can now simplify further: \\begin{align*}\n61^2 - 19(19)^2 &= 61^2 - 19(361) \\\\\n&= 61(61 - 19) \\\\\n&= 61(42) \\\\\n&= \\boxed{2532}.\n\\end{align*}Therefore, $61^2$ is 2532 greater than $19^2$.",
+        " We know that $19^2=361$ and $61^2=3721$. So we need to find the difference between $3721$ and $361$. Compute: \n$3721-361=\\boxed{3360}$.",
+        " To find out how much greater $61^2$ is than $19^2$, we need to calculate the difference between the two squares.\n$61^2 = 3721$\n$19^2 = 361$\nTo find the difference, we subtract $19^2$ from $61^2$:\n$61^2 - 19^2 = 3721 - 361 = 3360$\nTherefore, $61^2$ is $3360$ greater than $19^2$.\nThe answer is: 3360",
+        " We can calculate $19^2$ first and then find the difference between $61^2$ and $19^2$.  $19^2 = 361$ and $61^2 = 3781$.  So the difference is $3781 - 361 = \\boxed{3420}$.",
+        "\nWe can calculate the difference by subtracting:\n$61^2 - 19^2$\n$= 3721 - 361$\n$= 3360$\nTherefore, $61^2$ is $3360$ greater than $19^2$."
+    ],
+    "vllm_answers": [
+        "2",
+        "3360",
+        "3000",
+        "3360",
+        "2",
+        "3000",
+        "3360",
+        "3360",
+        "2",
+        "2",
+        "2",
+        "3360",
+        "3360",
+        "3420",
+        "2"
+    ],
+    "vllm_pred_answer": "2"
+}

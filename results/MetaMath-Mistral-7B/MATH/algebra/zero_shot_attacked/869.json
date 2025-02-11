@@ -1,0 +1,41 @@
+{
+    "index_adversarial_question": 9,
+    "problem": "Given x = 5 find the value of 2x^2+3x+4.",
+    "pcot_answer": "# Define the value of x\nx = -2  ### condition: 'x': {'type': 'int', '<=': None, '>=': None, 'science_constant': False, 'direct_from_question': True}\n# Calculate 2 * x^2\nterm1 = 2 * (x ** 2)  ### condition: 'term1': {'type': 'int', '<=': None, '>=': 0, 'science_constant': False, 'direct_from_question': False}\n# Calculate 3 * x\nterm2 = 3 * x  ### condition: 'term2': {'type': 'int', '<=': None, '>=': None, 'science_constant': False, 'direct_from_question': False}\n# Define the constant term\nconstant_term = 4  ### condition: 'constant_term': {'type': 'int', '<=': None, '>=': 0, 'science_constant': False, 'direct_from_question': True}\n# Calculate the final value\nfinal_value = term1 + term2 + constant_term  ### condition: 'final_value': {'type': 'int', '<=': None, '>=': None, 'science_constant': False, 'direct_from_question': False}\n# Print the final value\nprint(f\"The value of 2x^2 + 3x + 4 is: {final_value}\")",
+    "answer": "6",
+    "vllm_responses": [
+        " We substitute x=5 into the expression 2x^2+3x+4.\nWe get 2(5)^2+3(5)+4 = 2(25) + 15 + 4 = 50 + 15 + 4 = 69.\nSo, the value of 2x^2+3x+4 when x=5 is 69.\nThe answer is: 69",
+        "Substituting x = 5 into the expression 2x^2+3x+4, we get\n2(5)^2+3(5)+4 = 2(25)+15+4 = 50+15+4 = 69.\nSo, when x = 5, the value of 2x^2+3x+4 is 69.The answer is: 69",
+        "To find the value of the expression, we substitute x = 5 into the expression.\n2x^2 + 3x + 4 = 2(5)^2 + 3(5) + 4 = 2(25) + 15 + 4 = 50 + 15 + 4 = 69.\nTherefore, the value of 2x^2 + 3x + 4 when x = 5 is 69.The answer is: 69",
+        "Substitute x = 5 into the expression 2x^2+3x+4.\nWe get 2(5^2) + 3(5) + 4 = 2(25) + 15 + 4 = 50 + 15 + 4 = 69.\nSo, the value of 2x^2+3x+4 when x = 5 is 69.The answer is: 69",
+        "We substitute x = 5 into the expression 2x^2+3x+4:\n2(5)^2+3(5)+4 = 2(25)+15+4 = 50+15+4 = 69.\nSo the value of the expression is \\boxed{69}.The answer is: 69",
+        "To find the value of $2x^2+3x+4$, we substitute $x = 5$ into the expression.\n$2(5^2) + 3(5) + 4 = 2(25) + 15 + 4 = 50 + 15 + 4 = \\boxed{69}$.\nThe answer is: 69",
+        "To find the value of 2x^2+3x+4 when x = 5, we substitute x = 5 into the expression:\n2(5^2)+3(5)+4 = 2(25)+15+4 = 50+15+4 = 69.\nTherefore, the value of 2x^2+3x+4 when x = 5 is 69.The answer is: 69",
+        "We substitute $x=5$ into the equation $2x^2+3x+4$.\n$2(5^2)+3(5)+4=2(25)+15+4=50+15+4=69$.\nTherefore, when $x=5$, the value of $2x^2+3x+4$ is $\\boxed{69}$.The answer is: 69",
+        " Substitute x = 5 into the expression 2x^2 + 3x + 4.\n(2)(5)^2 + (3)(5) + 4 = 2(25) + 15 + 4 = 50 + 15 + 4 = 69.\nTherefore, the value of 2x^2 + 3x + 4 is 69.The answer is: 69",
+        "We are given that x = 5.\nSubstituting this value into the expression 2x^2+3x+4, we get:\n2(5)^2+3(5)+4 = 2(25)+15+4 = 50+15+4 = 69.\nTherefore, the value of 2x^2+3x+4 when x = 5 is 69.\nThe answer is: 69",
+        "To find the value of $2x^2+3x+4$, we substitute $x=5$ into the expression.\n$2(5^2)+3(5)+4$\n$=2(25)+15+4$\n$=50+15+4$\n$=69$\nSo, the value of $2x^2+3x+4$ when $x=5$ is $\\boxed{69}$.\nThe answer is: 69",
+        "We are given that x = 5.\nTo find the value of 2x^2+3x+4, we substitute x = 5 into the expression:\n2(5)^2 + 3(5) + 4 = 2(25) + 15 + 4 = 50 + 15 + 4 = 69.\nTherefore, the value of 2x^2+3x+4 when x = 5 is 69.The answer is: 69",
+        "We substitute x = 5 into the expression 2x^2+3x+4.\nWe get 2(5^2)+3(5)+4 = 2(25)+15+4 = 50+15+4 = 69.\nSo the value is 69.The answer is: 69",
+        "We substitute the value of $x$ (which is 5) into the expression $2x^2+3x+4$.\nSo, $2(5)^2+3(5)+4 = 2(25)+15+4 = 50+15+4 = \\boxed{69}$.\nThe answer is: 69",
+        "\nSubstitute the given value of x into the expression:\n2x^2+3x+4 = 2(5^2)+3(5)+4\n= 2(25)+15+4\n= 50+15+4\n= 69\nThe answer is: 69"
+    ],
+    "vllm_answers": [
+        "69",
+        "69",
+        "69",
+        "69",
+        "69",
+        "69",
+        "69",
+        "69",
+        "69",
+        "69",
+        "69",
+        "69",
+        "69",
+        "69",
+        "69"
+    ],
+    "vllm_pred_answer": "69"
+}

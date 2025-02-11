@@ -1,0 +1,23 @@
+{
+    "problem": "Compute: $113+276-13-26$.",
+    "level": "Level 1",
+    "type": "Algebra",
+    "solution": "First notice that $113-13=100$ and $276-26=250$.  By the commutative property, we can rewrite our expression as: $$113+276-13-26=113-13+276-26=100+250=\\boxed{350}$$",
+    "prompt": "### Instruction: Compute: $113+276-13-26$.\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "Let's break down the expression step by step.\n1. Start with the initial numbers: \n   \\[\n   113 + 276\n   \\]\n2. Calculate \\(113 + 276\\):\n   \\[\n   113 + 276 = 389\n   \\]\n3. Now take the result \\(389\\) and subtract \\(13\\):\n   \\[\n   389 - 13 = 376\n   \\]\n4. Next, take \\(376\\) and subtract \\(26\\):\n   \\[\n   376 - 26 = 350\n   \\]\nFinally, the result of the calculation \\(113 + 276 - 13 - 26\\) is:\n\\[\n\\boxed{350}\n\\]",
+        "To solve \\(113 + 276 - 13 - 26\\), we can break it down into steps.\n1. First, add \\(113\\) and \\(276\\):\n   \\[\n   113 + 276 = 389\n   \\]\n2. Next, subtract \\(13\\) from \\(389\\):\n   \\[\n   389 - 13 = 376\n   \\]\n3. Finally, subtract \\(26\\) from \\(376\\):\n   \\[\n   376 - 26 = 350\n   \\]\nSo, the final answer is:\n\\[\n\\boxed{350}\n\\]",
+        "To compute \\( 113 + 276 - 13 - 26 \\), we can break it down step by step.\n1. First, add \\( 113 \\) and \\( 276 \\):\n   \\[\n   113 + 276 = 389\n   \\]\n2. Next, subtract \\( 13 \\) from \\( 389 \\):\n   \\[\n   389 - 13 = 376\n   \\]\n3. Finally, subtract \\( 26 \\) from \\( 376 \\):\n   \\[\n   376 - 26 = 350\n   \\]\nPutting it all together, we have:\n\\[\n113 + 276 - 13 - 26 = 350\n\\]\nThus, the result is \\( \\boxed{350} \\).",
+        "Let's compute \\( 113 + 276 - 13 - 26 \\) step by step.\n1. Start with the addition: \n   \\[\n   113 + 276 = 389\n   \\]\n2. Next, subtract \\( 13 \\):\n   \\[\n   389 - 13 = 376\n   \\]\n3. Finally, subtract \\( 26 \\):\n   \\[\n   376 - 26 = 350\n   \\]\nPutting it all together, the result is:\n\\[\n\\boxed{350}\n\\]",
+        "To solve the expression \\( 113 + 276 - 13 - 26 \\), we can break it down step by step.\n1. **Start with the addition:**\n   \\[\n   113 + 276\n   \\]\n   Adding these two numbers:\n   \\[\n   113 + 276 = 389\n   \\]\n2. **Next, subtract 13:**\n   \\[\n   389 - 13\n   \\]\n   Perform the subtraction:\n   \\[\n   389 - 13 = 376\n   \\]\n3. **Finally, subtract 26:**\n   \\[\n   376 - 26\n   \\]\n   Performing this final subtraction gives:\n   \\[\n   376 - 26 = 350\n   \\]\nPutting it all together, we get:\n\\[\n113 + 276 - 13 - 26 = 350\n\\]\nThus, the final answer is:\n\\[\n\\boxed{350}\n\\]"
+    ],
+    "pred_answers": "350",
+    "final_pred_answer": [
+        "350",
+        "350",
+        "350",
+        "350",
+        "350"
+    ],
+    "ground_truth": "350"
+}

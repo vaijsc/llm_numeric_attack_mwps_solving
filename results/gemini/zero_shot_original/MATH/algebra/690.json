@@ -1,0 +1,23 @@
+{
+    "problem": "Find the ordered pair $(x,y)$ if\n\n\\begin{align*}\nx+y&=(3-x)+(3-y),\\\\\nx-y &=(x-2)+(y-2).\n\\end{align*}",
+    "level": "Level 3",
+    "type": "Algebra",
+    "solution": "Adding the equations, we get  $$2x=2\\Rightarrow x=1.$$ Substituting this into the first equation, we get $$1+y=5-y\\Rightarrow y=2.$$ Thus the ordered pair is $\\boxed{(1,2)}$.",
+    "prompt": "### Instruction: Find the ordered pair $(x,y)$ if\n\n\\begin{align*}\nx+y&=(3-x)+(3-y),\\\\\nx-y &=(x-2)+(y-2).\n\\end{align*}\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "**Step 1: Simplify the equations.**\nThe first equation simplifies to:\n```\nx + y = 6 - x - y \n```\nThe second equation simplifies to:\n```\nx - y = x + y - 4\n```\n**Step 2: Solve for x and y.**\n* **From the first equation:**\n   Add `x + y` to both sides: \n   ```\n   2x + 2y = 6\n   ```\n   Divide both sides by 2:\n   ```\n   x + y = 3  \n   ```\n* **From the second equation:**\n   Subtract `x` from both sides:\n   ```\n   -y = y - 4\n   ```\n   Add `y` to both sides:\n   ```\n   0 = 2y - 4\n   ```\n   Add 4 to both sides:\n   ```\n   4 = 2y \n   ```\n   Divide both sides by 2:\n   ```\n   y = 2\n   ```\n* **Substitute y = 2 into the equation x + y = 3:**\n   ```\n   x + 2 = 3 \n   ```\n   Subtract 2 from both sides:\n   ```\n   x = 1\n   ```\n**Step 3: Solution**\nTherefore, the ordered pair (x, y) is **(1, 2)**. \n",
+        "1. **Simplify the equations:**\n   *  The first equation simplifies to: \n      ```\n      x + y = 6 - x - y\n      ```\n   *  The second equation simplifies to:\n      ```\n      x - y = x + y - 4 \n      ```\n2. **Solve for x in the first equation:**\n   * Add `x + y` to both sides:\n      ```\n      2x + 2y = 6\n      ```\n   * Divide both sides by 2:\n      ```\n      x + y = 3\n      ```\n3. **Solve for y in the second equation:**\n   * Subtract `x` from both sides:\n      ```\n      -y = y - 4 \n      ```\n   * Subtract `y` from both sides:\n      ```\n      -2y = -4\n      ```\n   * Divide both sides by -2:\n      ```\n      y = 2\n      ```\n4. **Substitute the value of y into the equation `x + y = 3`:**\n   * We know `y = 2`, so:\n      ```\n      x + 2 = 3\n      ```\n5. **Solve for x:**\n   * Subtract 2 from both sides:\n      ```\n      x = 1\n      ```\nTherefore, the ordered pair $(x, y)$ is **(1, 2)**. \n",
+        "**Step 1: Simplify the equations**\n* **Equation 1:**  \n  \n  x + y = 3 - x + 3 - y\n  2x + 2y = 6\n  x + y = 3 \n* **Equation 2:**\n  x - y = x - 2 + y - 2\n  -2y = -4\n  y = 2\n**Step 2: Substitute to solve for x**\nSince we know y = 2, we can substitute it into the simplified Equation 1:\nx + 2 = 3\nx = 1\n**Step 3: The Solution**\nTherefore, the ordered pair (x, y) is **(1, 2)**. \n",
+        "Here's how to solve the system of equations step-by-step:\n**1. Simplify the equations:**\n*  **Equation 1:**  \n   *  $x + y = 3 - x + 3 - y$\n   *  $2x + 2y = 6$\n   *  $x + y = 3$  \n*  **Equation 2:** \n   *  $x - y = x - 2 + y - 2$\n   *  $-2y = -4$\n   *  $y = 2$\n**2. Solve for x:**\n* Substitute the value of y (y=2) into the simplified Equation 1:\n   *  $x + 2 = 3$\n   *  $x = 1$\n**Solution:**\nTherefore, the ordered pair $(x,y)$ is **(1, 2)**. \n",
+        "Let's solve the system of equations step-by-step:\n**1. Simplify the equations:**\n* **Equation 1:**  \n   \n   ```\n   x + y = (3 - x) + (3 - y) \n   x + y = 6 - x - y\n   2x + 2y = 6\n   x + y = 3 \n   ```\n* **Equation 2:**\n   ```\n   x - y = (x - 2) + (y - 2)\n   x - y = x + y - 4\n   -2y = -4\n   y = 2\n   ```\n**2. Substitute the value of y into either of the simplified equations to find x:**\n* Let's use the simplified Equation 1:\n   ```\n   x + y = 3\n   x + 2 = 3\n   x = 1\n   ```\n**Therefore, the ordered pair (x, y) is (1, 2).** \n"
+    ],
+    "pred_answers": "2",
+    "final_pred_answer": [
+        "2",
+        "2",
+        "2",
+        "2",
+        "2"
+    ],
+    "ground_truth": "12"
+}

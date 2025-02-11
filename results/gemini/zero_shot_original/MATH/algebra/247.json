@@ -1,0 +1,23 @@
+{
+    "problem": "If $t(x) = 3-g(x)$ and $g(x) = \\sqrt{x}$, then what is $t(g(16))$?",
+    "level": "Level 3",
+    "type": "Algebra",
+    "solution": "We have $g(16) = 4$, so $t(g(16)) = t(4) = 3- g(4) = 3-\\sqrt{4} = 3-2 = \\boxed{1}$.",
+    "prompt": "### Instruction: If $t(x) = 3-g(x)$ and $g(x) = \\sqrt{x}$, then what is $t(g(16))$?\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "Here's how to solve this problem step-by-step:\n1. **Find g(16):**  Since  g(x) = \u221ax, we have g(16) = \u221a16 = 4.\n2. **Find t(g(16)), which is t(4):** Now we know that t(x) = 3 - g(x). Substitute x = 4: \n   t(4) = 3 - g(4) \n3. **Find g(4):** We know g(x) = \u221ax, so g(4) = \u221a4 = 2.\n4. **Calculate t(4):** Substitute g(4) = 2 into the equation for t(4):\n   t(4) = 3 - 2 = 1\n**Therefore, t(g(16)) = 1** \n",
+        "Here's how to solve this problem step-by-step:\n1. **Find g(16):** \n   Since  g(x) = \u221ax,  we have g(16) = \u221a16 = 4.\n2. **Substitute g(16) into t(x):**\n   We know t(x) = 3 - g(x), so t(g(16)) becomes t(4).\n3. **Calculate t(4):**\n   Now we have t(4) = 3 - g(4). Since g(x) = \u221ax, then g(4) = \u221a4 = 2.\n4. **Final Calculation:**\n   Therefore, t(4) = 3 - 2 = 1.\n**Answer:**  t(g(16)) = 1 \n",
+        "Here's how to solve the problem step-by-step:\n1. **Find g(16):**  Since  g(x) = \u221ax, then g(16) = \u221a16 = 4.\n2. **Substitute g(16) into t(x):** We know that t(x) = 3 - g(x).  Since we found g(16) = 4, we can substitute to get:\n   t(g(16)) = t(4) = 3 - g(4)\n3. **Find g(4):**  Again, using g(x) = \u221ax, we have g(4) = \u221a4 = 2.\n4. **Calculate t(4):** Now we can substitute g(4) back into the expression for t(4): \n   t(4) = 3 - g(4) = 3 - 2 = 1.\n**Therefore, t(g(16)) = 1.** \n",
+        "Here's how to solve the problem step-by-step:\n1. **Find g(16):** \n   Since g(x) = \u221ax,  g(16) = \u221a16 = 4\n2. **Find t(g(16)) which is t(4):**\n   We know t(x) = 3 - g(x).  Substitute x = 4:\n   t(4) = 3 - g(4) \n3. **Find g(4):**\n   g(x) = \u221ax, so g(4) = \u221a4 = 2\n4. **Calculate t(4):**\n   t(4) = 3 - g(4) = 3 - 2 = 1\n**Therefore, t(g(16)) = 1** \n",
+        "Here's how to solve the problem step-by-step:\n1. **Find g(16):** \n   * We know  g(x) = \u221ax.\n   * Substitute x = 16:  g(16) = \u221a16 = 4\n2. **Find t(g(16)), which is t(4):**\n   * We know t(x) = 3 - g(x)\n   * Substitute x = 4: t(4) = 3 - g(4) \n   * We know g(4) = \u221a4 = 2\n   * So, t(4) = 3 - 2 = 1\n**Therefore, t(g(16)) = 1** \n"
+    ],
+    "pred_answers": "1",
+    "final_pred_answer": [
+        "1",
+        "16",
+        "1",
+        "1",
+        "1"
+    ],
+    "ground_truth": "1"
+}

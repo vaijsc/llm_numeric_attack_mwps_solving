@@ -1,0 +1,23 @@
+{
+    "problem": "What is 50$\\%$ of $\\frac{1}{3}$ of 36?",
+    "level": "Level 1",
+    "type": "Algebra",
+    "solution": "$\\frac13$ of 36 is 12, and fifty percent of 12 is $\\boxed{6}$.",
+    "prompt": "### Instruction: What is 50$\\%$ of $\\frac{1}{3}$ of 36?\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "To find 50% of \\(\\frac{1}{3}\\) of 36, we can break it down into steps.\n1. **Calculate \\(\\frac{1}{3}\\) of 36:**  \n   \\[\n   \\frac{1}{3} \\times 36 = \\frac{36}{3} = 12\n   \\]\n2. **Calculate 50% of 12:**  \n   \\[\n   50\\% \\text{ of } 12 = \\frac{50}{100} \\times 12 = \\frac{1}{2} \\times 12 = 6\n   \\]\nNow we can combine our results:\nThus, 50% of \\(\\frac{1}{3}\\) of 36 is \\(\\boxed{6}\\).",
+        "We want to find \\( 50\\% \\) of \\( \\frac{1}{3} \\) of \\( 36 \\).\n1. **Calculate \\( \\frac{1}{3} \\) of \\( 36 \\)**:\n   \\[\n   \\frac{1}{3} \\times 36 = \\frac{36}{3} = 12\n   \\]\n2. **Calculate \\( 50\\% \\) of \\( 12 \\)**:\n   \\[\n   50\\% = \\frac{50}{100} = \\frac{1}{2}\n   \\]\n   So,\n   \\[\n   \\frac{1}{2} \\times 12 = \\frac{12}{2} = 6\n   \\]\nPutting it all together, \\( 50\\% \\) of \\( \\frac{1}{3} \\) of \\( 36 \\) is \\( 6 \\). \nThus, the final answer is:\n\\[\n\\boxed{6}\n\\]",
+        "To find 50% of \\(\\frac{1}{3}\\) of 36, we can follow these steps:\n1. **Calculate \\(\\frac{1}{3}\\) of 36:**\n   \\[\n   \\frac{1}{3} \\times 36 = \\frac{36}{3} = 12\n   \\]\n2. **Calculate 50% of the result we just found (which is 12):**\n   \\[\n   50\\% \\text{ of } 12 = \\frac{50}{100} \\times 12 = \\frac{1}{2} \\times 12 = 6\n   \\]\nSo, 50% of \\(\\frac{1}{3}\\) of 36 is \\(\\boxed{6}\\).",
+        "To find 50% of \\(\\frac{1}{3}\\) of 36, we can break the problem down into steps.\n1. **Calculate \\(\\frac{1}{3}\\) of 36**:\n   \\[\n   \\frac{1}{3} \\times 36 = \\frac{36}{3} = 12\n   \\]\n2. **Calculate 50% of the result from step 1**:\n   \\[\n   50\\% \\text{ of } 12 = \\frac{50}{100} \\times 12 = \\frac{1}{2} \\times 12 = 6\n   \\]\nSo, 50% of \\(\\frac{1}{3}\\) of 36 is \\(\\boxed{6}\\).",
+        "To find 50% of \\(\\frac{1}{3}\\) of 36, we can follow these steps:\n1. **Calculate \\(\\frac{1}{3}\\) of 36**:\n   \\[\n   \\frac{1}{3} \\times 36 = \\frac{36}{3} = 12\n   \\]\n2. **Calculate 50% of 12**:\n   \\[\n   50\\% \\text{ of } 12 = \\frac{50}{100} \\times 12 = \\frac{1}{2} \\times 12 = 6\n   \\]\nThus, the final answer is:\n\\[\n\\boxed{6}\n\\]"
+    ],
+    "pred_answers": "6",
+    "final_pred_answer": [
+        "6",
+        "6",
+        "6",
+        "6",
+        "6"
+    ],
+    "ground_truth": "6"
+}

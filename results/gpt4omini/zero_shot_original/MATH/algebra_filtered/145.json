@@ -1,0 +1,23 @@
+{
+    "problem": "Consider the function $g(x) = 3$.  Find $g(2)$.",
+    "level": "Level 3",
+    "type": "Algebra",
+    "solution": "Because $g(x) = 3$, no matter what we input to $g$, the output is 3.  So, $g(2) = \\boxed{3}$.",
+    "prompt": "### Instruction: Consider the function $g(x) = 3$.  Find $g(2)$.\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "The function \\( g(x) = 3 \\) is a constant function, meaning that it always outputs the value \\( 3 \\) regardless of the input \\( x \\).\nTo find \\( g(2) \\), we simply substitute \\( 2 \\) into the function:\n\\[\ng(2) = 3\n\\]\nSo, the result is \\( g(2) = 3 \\).",
+        "The function \\( g(x) = 3 \\) is a constant function, which means that it returns the same value no matter what input \\( x \\) you provide. \nStep 1: Identify the function. Here, \\( g(x) \\) is defined as \\( 3 \\).\nStep 2: Plug in the value for \\( x \\). We need to compute \\( g(2) \\).\nStep 3: Since \\( g(x) \\) always equals \\( 3 \\) for any \\( x \\), we have:\n\\[\ng(2) = 3\n\\]\nThus, the value of \\( g(2) \\) is \\( \\boxed{3} \\).",
+        "To find \\( g(2) \\), we start by looking at the function defined as \\( g(x) = 3 \\).\nThis means that regardless of the input value \\( x \\), the output of the function \\( g(x) \\) is always \\( 3 \\).\nNow, we need to specifically find \\( g(2) \\):\n1. Substitute \\( x \\) with \\( 2 \\) in the function definition:\n   \\[\n   g(2) = 3\n   \\]\nThus, the value of \\( g(2) \\) is \\( \\boxed{3} \\).",
+        "To evaluate the function \\( g(x) = 3 \\) at \\( x = 2 \\), we can follow these steps:\n1. Identify the function: The function \\( g(x) \\) is defined as a constant function, meaning that no matter what input \\( x \\) you provide, the output is always the same. In this case, it is always 3.\n2. Substitute \\( x = 2 \\): Now we need to find \\( g(2) \\). Since \\( g(x) = 3 \\) for any \\( x \\), substituting \\( x = 2 \\) does not change the output.\n3. Determine the value: Therefore, \\( g(2) = 3 \\).\nIn summary, the value of \\( g(2) \\) is \\( \\boxed{3} \\).",
+        "To find \\( g(2) \\), we start by referencing the function \\( g(x) = 3 \\).\n1. The function \\( g(x) \\) is defined to be constant, meaning that for any input \\( x \\), the output will always be 3.\n2. Therefore, when we substitute \\( x = 2 \\) into the function, we get:\n\\[\ng(2) = 3\n\\]\nThus, the value of \\( g(2) \\) is \\( \\boxed{3} \\)."
+    ],
+    "pred_answers": "3",
+    "final_pred_answer": [
+        "3",
+        "3",
+        "3",
+        "3",
+        "3"
+    ],
+    "ground_truth": "3"
+}

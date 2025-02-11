@@ -1,0 +1,23 @@
+{
+    "problem": "If $\\frac{\\sqrt{2x}}{\\sqrt{3x-1}}=\\frac32$, solve for $x$. Express your answer in simplest fractional form.",
+    "level": "Level 4",
+    "type": "Algebra",
+    "solution": "We can start by cross-multiplying: \\begin{align*} 3\\sqrt{3x-1}&=2\\sqrt{2x}\n\\\\\\Rightarrow \\qquad (3\\sqrt{3x-1})^2 &=(2\\sqrt{2x})^2\n\\\\\\Rightarrow \\qquad 9(3x-1)& =4(2x)\n\\\\\\Rightarrow \\qquad 27x-9& =8x\n\\\\ \\Rightarrow \\qquad19x&=9\n\\\\ \\Rightarrow \\qquad x&=\\boxed{\\frac9{19}}.\n\\end{align*}Checking, we see that this value of $x$ does indeed work, so it is not an extraneous solution.",
+    "prompt": "### Instruction: If $\\frac{\\sqrt{2x}}{\\sqrt{3x-1}}=\\frac32$, solve for $x$. Express your answer in simplest fractional form.\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "1. **Cross-multiply:**  Multiply both sides of the equation by the denominators to get rid of the fractions: \n   \n   2 * \u221a(2x) = 3 * \u221a(3x - 1)\n2. **Square both sides:** Square both sides of the equation to eliminate the square roots:\n   4 * 2x = 9 * (3x - 1)\n3. **Simplify and solve for x:**  Expand and simplify the equation:\n   8x = 27x - 9\n   -19x = -9\n   x = 9/19\nTherefore, the solution is  **x = 9/19**. \n",
+        "Here's how to solve for *x*:\n1. **Cross-multiply:**  \n   (\u221a2x) * 2 = 3 * (\u221a3x-1)\n2. **Simplify:**\n   2\u221a2x = 3\u221a3x - 3\n3. **Isolate the radical terms:**\n   2\u221a2x - 3\u221a3x = -3\n4. **Square both sides:**\n   (2\u221a2x - 3\u221a3x)\u00b2 = (-3)\u00b2 \n   4(2x) - 12\u221a6x + 9(3x) = 9\n5. **Simplify and combine like terms:**\n   8x - 12\u221a6x + 27x = 9\n   35x - 12\u221a6x = 9\n6. **Isolate the radical term:**\n   -12\u221a6x = 9 - 35x\n7. **Square both sides again:**\n   144(6x) = (9 - 35x)\u00b2\n   864x = 81 - 630x + 1225x\u00b2\n8. **Rearrange into a quadratic equation:**\n   1225x\u00b2 - 1494x + 81 = 0\n9. **Solve the quadratic equation.  You can use the quadratic formula:**\n   x = (-b \u00b1 \u221a(b\u00b2 - 4ac)) / 2a\n   where a = 1225, b = -1494, and c = 81\n10. **Simplify the solution:**\n   You'll get two solutions.  One will be extraneous (not a valid solution to the original equation). The other will be the correct answer, which is  **x = 1/9**. \n",
+        "Here's how to solve the equation step-by-step:\n1. **Cross-multiply:**  Multiply both sides of the equation by $\\sqrt{3x-1}$ and by 2:\n   \n   ```\n   2 * \u221a(2x) = 3 * \u221a(3x-1)\n   ```\n2. **Square both sides:** Squaring both sides eliminates the square roots:\n   ```\n   4 * 2x = 9 * (3x - 1)\n   ```\n3. **Simplify and solve for x:** Expand and combine like terms:\n   ```\n   8x = 27x - 9\n   19x = 9\n   x = 9/19\n   ```\n**Therefore, the solution is x = 9/19.** \n",
+        "1. **Cross-multiply:**  Multiply both sides of the equation by $\\sqrt{3x-1}$ and by 2: \n   \n   ```\n   2 * \u221a(2x) = 3 * \u221a(3x - 1) \n   ```\n2. **Square both sides:** To eliminate the square roots, square both sides of the equation:\n   ```\n   (2 * \u221a(2x))^2 = (3 * \u221a(3x - 1))^2\n   4 * 2x = 9 * (3x - 1)\n   ```\n3. **Simplify and solve for x:** Expand and solve the equation:\n   ```\n   8x = 27x - 9\n   9 = 19x\n   x = 9/19\n   ```\nTherefore, the solution is  **x = 9/19**. \n",
+        "Here's how to solve for *x*:\n1. **Cross-multiply:** \n   Multiply both sides of the equation by the denominators to get rid of the fractions:\n   \n   ```\n   2 * \u221a(2x) = 3 * \u221a(3x - 1)\n   ```\n2. **Square both sides:**\n   Square both sides of the equation to eliminate the square roots:\n   ```\n   4 * 2x = 9 * (3x - 1)\n   ```\n3. **Simplify and solve for x:**\n   Expand and simplify the equation:\n   ```\n   8x = 27x - 9\n   19x = 9\n   x = 9/19\n   ```\nTherefore, the solution is  **x = 9/19**. \n"
+    ],
+    "pred_answers": "19",
+    "final_pred_answer": [
+        "19",
+        "9",
+        "19",
+        "19",
+        "19"
+    ],
+    "ground_truth": "19"
+}

@@ -1,0 +1,23 @@
+{
+    "problem": "What is the positive difference between $120\\%$ of 30 and $130\\%$ of 20?",
+    "level": "Level 1",
+    "type": "Algebra",
+    "solution": "One hundred twenty percent of 30 is $120\\cdot30\\cdot\\frac{1}{100}=36$, and $130\\%$ of 20 is $ 130\\cdot 20\\cdot\\frac{1}{100}=26$.  The difference between 36 and 26 is $\\boxed{10}$.",
+    "prompt": "### Instruction: What is the positive difference between $120\\%$ of 30 and $130\\%$ of 20?\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "Here's how to solve the problem step-by-step:\n**1. Calculate 120% of 30:**\n* Convert the percentage to a decimal: 120% = 1.20\n* Multiply the decimal by 30: 1.20 * 30 = 36\n**2. Calculate 130% of 20:**\n* Convert the percentage to a decimal: 130% = 1.30\n* Multiply the decimal by 20: 1.30 * 20 = 26\n**3. Find the difference:**\n* Subtract the smaller value from the larger value: 36 - 26 = 10\n**4. The positive difference:**\n* Since the difference is already positive, the answer is **10**. \n",
+        "Here's how to solve the problem step-by-step:\n**1. Calculate 120% of 30:**\n* 120% is equivalent to 1.20 (divide by 100)\n* 1.20 * 30 = 36\n**2. Calculate 130% of 20:**\n* 130% is equivalent to 1.30\n* 1.30 * 20 = 26\n**3. Find the difference:**\n* 36 - 26 = 10\n**4. Since the problem asks for the positive difference, the answer is 10.** \n",
+        "Here's how to solve the problem step-by-step:\n**1. Calculate 120% of 30:**\n*  120% is equivalent to 1.20 (since a percentage is out of 100).\n*  1.20 * 30 = 36\n**2. Calculate 130% of 20:**\n*  130% is equivalent to 1.30.\n*  1.30 * 20 = 26\n**3. Find the difference:**\n* 36 - 26 = 10\n**4.  The positive difference:**\n* Since we are looking for the positive difference, the answer is **10**. \n",
+        "Here's how to solve this problem step-by-step:\n**1. Calculate 120% of 30:**\n* Convert 120% to a decimal: 120/100 = 1.2\n* Multiply the decimal by 30: 1.2 * 30 = 36\n**2. Calculate 130% of 20:**\n* Convert 130% to a decimal: 130/100 = 1.3\n* Multiply the decimal by 20: 1.3 * 20 = 26\n**3. Find the difference:**\n* Subtract the smaller value from the larger value: 36 - 26 = 10\n**4. Determine the positive difference:**\n* Since we are looking for the positive difference, the answer is **10**. \n",
+        "Here's how to solve the problem step-by-step:\n**1. Calculate 120% of 30:**\n* Convert 120% to a decimal: 120/100 = 1.2\n* Multiply the decimal by 30: 1.2 * 30 = 36\n**2. Calculate 130% of 20:**\n* Convert 130% to a decimal: 130/100 = 1.3\n* Multiply the decimal by 20: 1.3 * 20 = 26\n**3. Find the difference:**\n* Subtract the smaller value from the larger value: 36 - 26 = 10\n**4.  The positive difference:**\n* Since we want the positive difference, the answer is **10**. \n"
+    ],
+    "pred_answers": "10",
+    "final_pred_answer": [
+        "10",
+        "10",
+        "10",
+        "10",
+        "10"
+    ],
+    "ground_truth": "10"
+}

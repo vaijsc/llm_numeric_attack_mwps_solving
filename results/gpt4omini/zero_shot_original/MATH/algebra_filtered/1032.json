@@ -1,0 +1,23 @@
+{
+    "problem": "Kelly and Avril chose complex numbers to represent their songs' popularities. Kelly chose $508+1749i$. Avril chose $-1322+1949i$. What is the sum of their numbers?",
+    "level": "Level 3",
+    "type": "Algebra",
+    "solution": "Adding the real and imaginary parts separately, we have $(508-1322)+(1949+1749)i$, which is $\\boxed{-814+3698i}$.",
+    "prompt": "### Instruction: Kelly and Avril chose complex numbers to represent their songs' popularities. Kelly chose $508+1749i$. Avril chose $-1322+1949i$. What is the sum of their numbers?\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "To find the sum of the two complex numbers chosen by Kelly and Avril, we can follow these steps:\n1. **Identify the Complex Numbers**:\n   - Kelly's complex number is \\(508 + 1749i\\).\n   - Avril's complex number is \\(-1322 + 1949i\\).\n2. **Add the Real Parts**:\n   - The real part of Kelly's number is \\(508\\).\n   - The real part of Avril's number is \\(-1322\\).\n   - Calculating the sum of the real parts:\n     \\[\n     508 + (-1322) = 508 - 1322 = -814\n     \\]\n3. **Add the Imaginary Parts**:\n   - The imaginary part of Kelly's number is \\(1749i\\).\n   - The imaginary part of Avril's number is \\(1949i\\).\n   - Calculating the sum of the imaginary parts:\n     \\[\n     1749 + 1949 = 3698\n     \\]\n4. **Combine the Results**:\n   - The sum of the complex numbers is obtained by combining the results from the previous steps:\n     \\[\n     -814 + 3698i\n     \\]\nThus, the sum of Kelly's and Avril's complex numbers is \\(\\boxed{-814 + 3698i}\\).",
+        "To find the sum of Kelly's and Avril's complex numbers, we add the real parts and the imaginary parts separately. \n1. **Identify Kelly's complex number:**\n   \\[\n   K = 508 + 1749i\n   \\]\n2. **Identify Avril's complex number:**\n   \\[\n   A = -1322 + 1949i\n   \\]\n3. **Calculate the sum of the real parts:**\n   \\[\n   508 + (-1322) = 508 - 1322 = -814\n   \\]\n4. **Calculate the sum of the imaginary parts:**\n   \\[\n   1749 + 1949 = 3698\n   \\]\n5. **Combine the results to get the total sum:**\n   \\[\n   S = (-814) + 3698i\n   \\]\nThus, the sum of Kelly's and Avril's numbers is:\n\\[\n\\boxed{-814 + 3698i}\n\\]",
+        "To find the sum of the complex numbers chosen by Kelly and Avril, we will add their real parts and their imaginary parts separately.\nKelly's complex number is:\n\\[ 508 + 1749i \\]\nAvril's complex number is:\n\\[ -1322 + 1949i \\]\nNow, we will break it down:\n1. **Add the real parts:**\n   \\[\n   508 + (-1322) = 508 - 1322 = -814\n   \\]\n2. **Add the imaginary parts:**\n   \\[\n   1749 + 1949 = 3698\n   \\]\nNow we combine the results from the real and imaginary parts. The sum of the complex numbers is:\n\\[\n-814 + 3698i\n\\]\nThus, the final result, which represents the sum of Kelly's and Avril's popularities, is:\n\\[\n\\boxed{-814 + 3698i}\n\\]",
+        "To find the sum of the complex numbers \\( 508 + 1749i \\) (Kelly's number) and \\( -1322 + 1949i \\) (Avril's number), we can add the real parts and the imaginary parts separately.\n1. **Add the Real Parts:**\n   \\[\n   508 + (-1322) = 508 - 1322 = -814\n   \\]\n2. **Add the Imaginary Parts:**\n   \\[\n   1749 + 1949 = 3698\n   \\]\nNow, we can combine these results to get the sum of the two complex numbers:\n\\[\n\\text{Sum} = (-814) + (3698i)\n\\]\nThus, the final result for the sum of Kelly's and Avril's numbers is:\n\\[\n\\boxed{-814 + 3698i}\n\\]",
+        "To find the sum of Kelly's and Avril's complex numbers, we'll follow these steps:\n1. **Identify the complex numbers**: \n   - Kelly's complex number is \\( 508 + 1749i \\)\n   - Avril's complex number is \\( -1322 + 1949i \\)\n2. **Add the real parts**: \n   The real part of Kelly's number is \\( 508 \\) and the real part of Avril's number is \\( -1322 \\).\n   \\[\n   508 + (-1322) = 508 - 1322 = -814\n   \\]\n3. **Add the imaginary parts**: \n   The imaginary part of Kelly's number is \\( 1749 \\) and the imaginary part of Avril's number is \\( 1949 \\).\n   \\[\n   1749 + 1949 = 3698\n   \\]\n4. **Combine the results**: \n   The sum of the two complex numbers is obtained by combining the results of the real and imaginary parts:\n   \\[\n   -814 + 3698i\n   \\]\nTherefore, the sum of Kelly's and Avril's complex numbers is \n\\[\n\\boxed{-814 + 3698i}.\n\\]"
+    ],
+    "pred_answers": "3698",
+    "final_pred_answer": [
+        "3698",
+        "3698",
+        "3698",
+        "3698",
+        "3698"
+    ],
+    "ground_truth": "3698"
+}

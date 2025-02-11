@@ -1,0 +1,23 @@
+{
+    "problem": "Expand the following expression: $7(3y+2)$",
+    "level": "Level 1",
+    "type": "Algebra",
+    "solution": "We apply the distributive property to get\\begin{align*}\n7(3y+2) &= 7\\cdot 3y+7\\cdot 2\\\\\n&= \\boxed{21y+14}.\n\\end{align*}",
+    "prompt": "### Instruction: Expand the following expression: $7(3y+2)$\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "**Step 1: Identify the distributive property.**\nThe distributive property states that  a(b + c) = ab + ac.  \n**Step 2: Apply the distributive property to the expression.**\nIn our expression, 7 is multiplied by the entire expression (3y + 2).  \nSo, 7(3y + 2) = (7 * 3y) + (7 * 2)\n**Step 3: Simplify the multiplication.**\n(7 * 3y) + (7 * 2) = 21y + 14\n**Therefore, the expanded expression is 21y + 14.** \n",
+        "Here's how to expand the expression step-by-step:\n**1. Distributive Property:**\nThe distributive property tells us that we multiply the number outside the parentheses by each term inside the parentheses.\n* We have 7 outside the parentheses and two terms inside: 3y and 2.\n**2. Multiplication:**\n* Multiply 7 by 3y:  7 * 3y = 21y\n* Multiply 7 by 2:  7 * 2 = 14\n**3. Combine the results:**\nThe expanded expression is the sum of the two products:\n*  21y + 14\n**Therefore, the expanded expression is 21y + 14.** \n",
+        "Here's how to expand the expression:\n**Step 1: Understand the distributive property.**\nThe distributive property states that multiplying a sum by a number is the same as multiplying each addend in the sum by the number. In symbols: \n  a(b + c) = ab + ac\n**Step 2: Apply the distributive property.**\nIn our expression, 7 is the number outside the parentheses, and (3y + 2) is the sum inside the parentheses.  So:\n7(3y + 2) = (7 * 3y) + (7 * 2)\n**Step 3: Simplify.**\n7 * 3y = 21y\n7 * 2 = 14\n**Step 4: Combine the terms.**\n21y + 14\n**Therefore, the expanded form of 7(3y + 2) is 21y + 14.** \n",
+        "We can expand the expression by distributing the 7 to each term inside the parentheses:\n1. **Distribute the 7:** \n   *  7 * 3y = 21y\n   *  7 * 2 = 14\n2. **Combine the terms:**\n   * 21y + 14\nTherefore, the expanded expression is **21y + 14**. \n",
+        "Here's how to expand the expression:\n**Step 1: Understand the Distributive Property**\nThe distributive property states that multiplying a sum by a number is the same as multiplying each addend in the sum by that number and then adding the products. In other words:\na(b + c) = ab + ac\n**Step 2: Apply the Distributive Property**\nIn our expression, 7 is the number we are multiplying by the sum (3y + 2).\n* Multiply 7 by the first term inside the parentheses: 7 * 3y = 21y\n* Multiply 7 by the second term inside the parentheses: 7 * 2 = 14\n**Step 3: Combine the results**\nNow we have: 21y + 14\n**Therefore, the expanded form of 7(3y + 2) is 21y + 14** \n"
+    ],
+    "pred_answers": "14",
+    "final_pred_answer": [
+        "14",
+        "14",
+        "14",
+        "14",
+        "14"
+    ],
+    "ground_truth": "14"
+}

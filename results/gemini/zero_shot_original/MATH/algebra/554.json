@@ -1,0 +1,23 @@
+{
+    "problem": "Evaluate $\\left\\lfloor\\left|-\\frac{23}{9}\\right|\\right\\rfloor$.",
+    "level": "Level 3",
+    "type": "Algebra",
+    "solution": "First evaluating the absolute value, $\\left|-\\frac{23}{9}\\right|=\\frac{23}{9}$. The largest integer less than $\\frac{23}{9}$ is then $\\boxed{2}$.",
+    "prompt": "### Instruction: Evaluate $\\left\\lfloor\\left|-\\frac{23}{9}\\right|\\right\\rfloor$.\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "Here's how to evaluate the expression step-by-step:\n1. **Absolute Value:**  The absolute value of a number is its distance from zero, always positive.  Therefore,  \n   \n   ```\n   | -23/9 | = 23/9 \n   ```\n2. **Floor Function:** The floor function, denoted by  \u230a \u230b, gives the greatest integer less than or equal to the input. Since 23/9 is between 2 and 3,  \n   \n   ```\n   \u230a 23/9 \u230b = 2 \n   ```\n**Therefore,  $\\left\\lfloor\\left|-\\frac{23}{9}\\right|\\right\\rfloor = 2$.** \n",
+        "Here's how to solve the problem step-by-step:\n1. **Absolute Value:**  The absolute value of a number is its distance from zero, always a positive value. So,  \n   \n   ```\n   | -23/9 | = 23/9 \n   ```\n2. **Floor Function:** The floor function, denoted by  \u230a  \u230b, gives the greatest integer less than or equal to the input. Since 23/9 is between 2 and 3, \n   \n   ```\n   \u230a 23/9 \u230b = 2 \n   ```\nTherefore, $\\left\\lfloor\\left|-\\frac{23}{9}\\right|\\right\\rfloor = \\boxed{2}$. \n",
+        "Here's how to evaluate the expression step-by-step:\n1. **Absolute Value:**  The absolute value of a number is its distance from zero, always positive. So,  \n   \n   ```\n   | -23/9 | = 23/9 \n   ```\n2. **Floor Function:** The floor function, denoted by $\\lfloor x \\rfloor$, gives the greatest integer less than or equal to *x*.  Since 23/9 is between 2 and 3, the floor function gives us:\n   ```\n   \u230a 23/9 \u230b = 2\n   ```\n**Therefore,  $\\left\\lfloor\\left|-\\frac{23}{9}\\right|\\right\\rfloor = 2$.** \n",
+        "Here's how to evaluate the expression step-by-step:\n1. **Absolute Value:**  The absolute value of a number is its distance from zero, always positive.  So,  \n   \n   ```\n   | -23/9 | = 23/9 \n   ```\n2. **Floor Function:** The floor function of a number rounds it down to the nearest integer. Since 23/9 is between 2 and 3, \n   ```\n   \u230a 23/9 \u230b = 2\n   ```\n**Therefore,  $\\left\\lfloor\\left|-\\frac{23}{9}\\right|\\right\\rfloor = 2$.** \n",
+        "Here's how to evaluate the expression step-by-step:\n1. **Absolute Value:**  \n   *  The absolute value of a number is its distance from zero, always positive. \n   *  Therefore,  | -23/9 | = 23/9\n2. **Floor Function:**\n   * The floor function, denoted by  \u230ax\u230b, gives the greatest integer less than or equal to x.\n   * Since 23/9 is between 2 and 3,  \u230a23/9\u230b = 2.\n**Therefore,  \u230a| -23/9 |\u230b = 2.** \n"
+    ],
+    "pred_answers": "2",
+    "final_pred_answer": [
+        "2",
+        "2",
+        "2",
+        "2",
+        "2"
+    ],
+    "ground_truth": "2"
+}

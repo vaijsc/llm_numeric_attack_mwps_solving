@@ -1,0 +1,41 @@
+{
+    "index_adversarial_question": 2,
+    "problem": "If $y = 8 - 5x +4x^2$, what is the value of $y$ when $x=3$?",
+    "pcot_answer": "# Define the value of x\nx = 5  ### condition: 'x': {'type': 'int', '<=': None, '>=': None, 'science_constant': False, 'direct_from_question': True}\n# Calculate the value of y using the given equation\ny = 8 - 5 * x + 4 * x**2  ### condition: 'y': {'type': 'float', '<=': None, '>=': None, 'science_constant': False, 'direct_from_question': False}\n# Print the value of y\nprint(f\"The value of y when x = {x} is: {y}\")",
+    "answer": "83",
+    "vllm_responses": [
+        " To find the value of $y$ when $x = 3$, we plug in $x = 3$ into the expression for $y$.\nSo, $y = 8 - 5(3) + 4(3)^2$.\nLet\u2019s simplify this expression.\n$y = 8 - 15 + 4(9)$.\nNow, let\u2019s evaluate $4(9)$.\n$y = 8 - 15 + 36$.\nFinally, let\u2019s simplify this expression.\n$y = -15 + 36$.\nNow we can determine the value of $y$.\n$y = 21$.\nSo, when $x = 3$, the value of $y$ is $21$.\n#### 21\nThe answer is: 21",
+        " To find the value of $y$, we need to substitute $x=3$ into the expression $8 - 5x +4x^2$. \nThe given expression can be rewritten as $y=8-5(3)+4(3)^2$. \nLet's simplify this expression:\n$y=8-15+36$\nSince $-15+36=21$, the simplified expression is $y=21$.\nSo when $x=3$, the value of $y$ is $21$.",
+        " To find the value of $y$ when $x=3$, we substitute $x=3$ into the expression for $y$.  Since $3^2 = 9$, the expression becomes \\[y = 8 - 5(3) +4(3)^2 = 8 - 15 +4(9) = 8 -15 + 36 = \\boxed{29}.\\]",
+        "\nFirst, substitute $x=3$ into the equation $y = 8 - 5x +4x^2$.\n$$y = 8 - 5(3) + 4(3)^2$$\n$$y = 8 - 15 + 36$$\nNext, simplify the expression.\n$$y = 8 - 15 + 36$$\n$$y = 3$$\nSo when $x=3$, the value of $y$ is $\\boxed{3}$.",
+        "\nFirst, we substitute $x=3$ into the expression for $y$: $$y=8-5\\cdot 3 +4\\cdot 3^2.$$\n#### Step 2:\nNow, we perform the calculations: $$y=8-15+36=2.$$\nSo, when $x=3$, the value of $y$ is $\\boxed{2}$.",
+        " \nTo find the value of $y$, we need to substitute $x = 3$ into the expression for $y$.\nSo we have $y = 8 - 5(3) + 4(3)^2$.\nSimplifying further, we get $y = 8 - 15 + 4(9)$.\nAgain simplifying, we have $y = 8 - 15 + 36$.\nEvaluating the expression, we find that $y = 29$.\nSo the value of $y$ when $x = 3$ is $29$.",
+        " \nTo find the value of $y$ when $x=3$, we substitute $x=3$ into the equation $y=8-5x+4x^2$.\nSo, \n$y=8-5(3)+4(3^2)$\n$y=8-15+36$\n$y=59$\nTherefore, when $x=3$, the value of $y$ is $59$.",
+        "\nWe can substitute $x=3$ into the equation $y = 8 - 5x + 4x^2$ as follows:\n\\[y = 8 - 5(3) + 4(3)^2\\]\nLet's simplify the expression:\n$y = 8 - 15 + 36$\nNow, let's calculate:\n```\ny = 5 + 36\n```\nTherefore, when $x = 3$, the value of $y$ is $y = \\boxed{41}$.",
+        "\nFirst, we need to substitute $x=3$ into the expression $y = 8 - 5x + 4x^2$.\nWe have $y = 8 - 5(3) + 4(3)^2$.\nNow, let's simplify the expression.\n$y = 8 - 15 + 36$.\nCombining like terms, we get $y = -7 + 36$.\nFinally, adding like terms, we find $y = \\boxed{29}$.\nTherefore, the value of $y$ when $x = 3$ is 29.",
+        "\nFirst, let's substitute the value of x into the equation y = 8 - 5x + 4x^2.\nSince x = 3, the equation becomes y = 8 - 5(3) + 4(3)^2.\nSimplifying the expression, we have y = 8 - 15 + 4(9).\nFurther simplifying, we have y = 8 - 15 + 36.\nFinally, adding up the values, we find that y = 29.",
+        " To solve this problem, we need to substitute the value of $x$ into the expression $y = 8 - 5x + 4x^2$.\nWhen $x = 3$, the expression becomes $y = 8 - 5(3) + 4(3)^2$.\nLet's calculate this step by step.\n$y = 8 - 5(3) + 4(3)^2$\n$y = 8 - 15 + 4(9)$\nMultiplying $4$ by $9$, we get:\n$y = 8 - 15 + 36$\nCombining like terms, we get:\n$y = 3 + 36$\nFinally, we get the value of $y$:\n$y = 39$.\nTherefore, when $x=3$, the value of $y$ is $39$.\nThe answer is: 39",
+        " To find the value of $y$ when $x=3$, we can substitute $x=3$ into the expression for $y$:\n$y = 8 - 5(3) + 4(3)^2$\n$y = 8 - 15 + 4(9)$\nNow let's proceed with the calculation:\n$y = 8 - 15 + 36$\n$y = -3 + 36$\nFinally, we can simplify the expression:\n$y = 33$\nSo when $x=3$, the value of $y$ is $\\boxed{33}$.",
+        " To find the value of $y$ when $x=3$, we can substitute $x=3$ into the expression for $y$ and then simplify.\nThe expression for $y$ is $y=8-5x+4x^2$. Substituting $x=3$, we get $y=8-5(3)+4(3)^2$.\nSimplifying, we have $y=8-15+36$. Combining like terms, we get $y=29$.\nTherefore, the value of $y$ when $x=3$ is $\\boxed{29}$.The answer is: 29",
+        " Substitute the value of $x=3$ into the expression for $y$ and simplify.\n$y = 8 - 5(3) +4(3)^2$\n$y = 8 - 15 +4(9)$\n$y = 8 - 15 +36$\n$y = -1 + 36$\n$y = \\boxed{35}$",
+        "\nFirst, we substitute the given value of $x$ into the expression for $y$.  $8-5x+4x^2$ becomes $8-5(3)+4(3^2)$.  Next, we perform the multiplication and addition in the parentheses to get $8-15+36$.  Finally, we perform the addition and subtraction from left to right to get $8+21=\\boxed{29}$."
+    ],
+    "vllm_answers": [
+        "21",
+        "21",
+        "29",
+        "3",
+        "2",
+        "29",
+        "59",
+        "41",
+        "29",
+        "29",
+        "39",
+        "33",
+        "29",
+        "35",
+        "29"
+    ],
+    "vllm_pred_answer": "29"
+}

@@ -1,0 +1,23 @@
+{
+    "problem": "Define $A\\& B$ as $A\\& B = \\frac{(A+B)}{2}$. What is the value of $(3\\& 5) \\& 8$?",
+    "level": "Level 2",
+    "type": "Algebra",
+    "solution": "We have $3 \\& 5 = \\frac{3+5}{2} = \\frac{8}{2} = 4$. Then $4 \\& 8 = \\frac{4+8}{2} = \\frac{12}{2} = \\boxed{6}$.",
+    "prompt": "### Instruction: Define $A\\& B$ as $A\\& B = \\frac{(A+B)}{2}$. What is the value of $(3\\& 5) \\& 8$?\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "Here's how to solve this problem step-by-step:\n**1. Calculate (3 & 5):**\n*  (3 & 5) = (3 + 5) / 2 = 8 / 2 = 4\n**2. Calculate (4 & 8):**\n* (4 & 8) = (4 + 8) / 2 = 12 / 2 = 6\n**Therefore, (3 & 5) & 8 = 6** \n",
+        "Here's how to solve the problem step-by-step:\n1. **Calculate (3 & 5):**\n   *  (3 & 5) = (3 + 5) / 2 = 8 / 2 = 4\n2. **Calculate (4 & 8):**\n   * (4 & 8) = (4 + 8) / 2 = 12 / 2 = 6\n**Therefore, (3 & 5) & 8 = 6** \n",
+        "Here's how to solve the problem step-by-step:\n**1. Calculate (3 & 5)**\n*  Using the definition,  (3 & 5) = (3 + 5) / 2 = 8 / 2 = 4\n**2. Calculate (4 & 8)**\n*  Now we have (4 & 8) = (4 + 8) / 2 = 12 / 2 = 6\n**Therefore, (3 & 5) & 8 = 6** \n",
+        "Here's how to solve the problem step-by-step:\n1. **Calculate 3 & 5:**\n   *  (3 + 5) / 2 = 8 / 2 = 4\n2. **Calculate 4 & 8:**\n   * (4 + 8) / 2 = 12 / 2 = 6\nTherefore,  **(3 & 5) & 8 = 6** \n",
+        "Here's how to solve the problem step-by-step:\n1. **Calculate 3 & 5:**\n   *  3 & 5 = (3 + 5) / 2 = 8/2 = 4\n2. **Calculate 4 & 8:**\n   * 4 & 8 = (4 + 8) / 2 = 12/2 = 6\n**Therefore, (3 & 5) & 8 = 6** \n"
+    ],
+    "pred_answers": "6",
+    "final_pred_answer": [
+        "6",
+        "6",
+        "6",
+        "6",
+        "6"
+    ],
+    "ground_truth": "6"
+}

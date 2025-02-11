@@ -1,0 +1,23 @@
+{
+    "problem": "Expand the following expression: $7(3y+2)$",
+    "level": "Level 1",
+    "type": "Algebra",
+    "solution": "We apply the distributive property to get\\begin{align*}\n7(3y+2) &= 7\\cdot 3y+7\\cdot 2\\\\\n&= \\boxed{21y+14}.\n\\end{align*}",
+    "prompt": "### Instruction: Expand the following expression: $7(3y+2)$\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "To expand the expression \\( 7(3y + 2) \\), we will apply the distributive property, which states that \\( a(b + c) = ab + ac \\).\n1. Distribute \\( 7 \\) to the first term \\( 3y \\):\n   \\[\n   7 \\cdot 3y = 21y\n   \\]\n2. Distribute \\( 7 \\) to the second term \\( 2 \\):\n   \\[\n   7 \\cdot 2 = 14\n   \\]\n3. Now, combine the results from both distributions:\n   \\[\n   21y + 14\n   \\]\nThus, the expanded form of the expression \\( 7(3y + 2) \\) is:\n\\[\n\\boxed{21y + 14}\n\\]",
+        "To expand the expression \\(7(3y + 2)\\), we will use the distributive property, which states that \\(a(b + c) = ab + ac\\). In this case, \\(a = 7\\), \\(b = 3y\\), and \\(c = 2\\).\nNow, we will multiply \\(7\\) by each term inside the parentheses:\n1. Multiply \\(7\\) by \\(3y\\):\n   \\[\n   7 \\cdot 3y = 21y\n   \\]\n2. Multiply \\(7\\) by \\(2\\):\n   \\[\n   7 \\cdot 2 = 14\n   \\]\nNow, we combine these two results:\n\\[\n21y + 14\n\\]\nThus, the expanded expression is:\n\\[\n\\boxed{21y + 14}\n\\]",
+        "To expand the expression \\( 7(3y + 2) \\), we can use the distributive property which states that \\( a(b + c) = ab + ac \\).\n1. **Distribute the 7 to each term inside the parentheses:**\n   - First, multiply \\( 7 \\) by \\( 3y \\):\n     \\[\n     7 \\cdot 3y = 21y\n     \\]\n   - Next, multiply \\( 7 \\) by \\( 2 \\):\n     \\[\n     7 \\cdot 2 = 14\n     \\]\n2. **Combine the results:**\n   \\[\n   21y + 14\n   \\]\nTherefore, the expanded expression is:\n\\[\n\\boxed{21y + 14}\n\\]",
+        "To expand the expression \\( 7(3y + 2) \\), we use the distributive property, which states that \\( a(b + c) = ab + ac \\).\n1. Start by distributing \\( 7 \\) to each term inside the parentheses:\n   \\[\n   7(3y) + 7(2)\n   \\]\n2. Now calculate each term:\n   - For the first term: \n     \\[\n     7(3y) = 21y\n     \\]\n   \n   - For the second term:\n     \\[\n     7(2) = 14\n     \\]\n3. Now combine the results:\n   \\[\n   21y + 14\n   \\]\nThus, the expanded expression is \n\\[\n\\boxed{21y + 14}\n\\]",
+        "To expand the expression \\( 7(3y + 2) \\), we will apply the distributive property, which states that \\( a(b + c) = ab + ac \\).\nHere, \\( a = 7 \\), \\( b = 3y \\), and \\( c = 2 \\). \nWe can proceed as follows:\n1. Distribute \\( 7 \\) to \\( 3y \\):\n   \\[\n   7 \\times 3y = 21y\n   \\]\n2. Distribute \\( 7 \\) to \\( 2 \\):\n   \\[\n   7 \\times 2 = 14\n   \\]\n3. Now, combine the results from steps 1 and 2:\n   \\[\n   21y + 14\n   \\]\nThus, the expanded expression is:\n\\[\n\\boxed{21y + 14}\n\\]"
+    ],
+    "pred_answers": "14",
+    "final_pred_answer": [
+        "14",
+        "14",
+        "14",
+        "14",
+        "14"
+    ],
+    "ground_truth": "14"
+}

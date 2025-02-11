@@ -1,0 +1,23 @@
+{
+    "problem": "You connect the points (0, 0) and (9, 6) with a line segment. Starting at (0, 0), you move $\\frac{1}{3}$ of the way along the segment. What is the sum of the coordinates of the point you land upon?",
+    "level": "Level 3",
+    "type": "Algebra",
+    "solution": "Since we move $\\frac{1}{3}$ of the way along the segment, we will move $\\frac{1}{3}(9-0) = 3$ units in the $x$-direction and $\\frac{1}{3}(6-0)= 2$ units in the $y$-direction. This means that we will end up at the point $(0 + 3, 0 + 2) = (3, 2)$. Adding the sum of the coordinates of this point, we find that the answer is $3 + 2 = \\boxed{5}$.",
+    "prompt": "### Instruction: You connect the points (0, 0) and (9, 6) with a line segment. Starting at (0, 0), you move $\\frac{1}{3}$ of the way along the segment. What is the sum of the coordinates of the point you land upon?\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "Here's how to solve the problem step-by-step:\n**1. Find the change in x and y:**\n* The change in x is 9 - 0 = 9.\n* The change in y is 6 - 0 = 6.\n**2. Calculate 1/3 of the change:**\n* (1/3) * 9 = 3\n* (1/3) * 6 = 2\n**3. Determine the new coordinates:**\n* Since you're starting at (0, 0), add the changes you calculated in step 2:\n    * x-coordinate: 0 + 3 = 3\n    * y-coordinate: 0 + 2 = 2\n**4. Find the sum of the coordinates:**\n* The sum of the coordinates of the point you land on is 3 + 2 = **5**. \n",
+        "Here's how to solve the problem step-by-step:\n**1. Find the change in x and y:**\n* The change in x (horizontal) is 9 - 0 = 9\n* The change in y (vertical) is 6 - 0 = 6\n**2. Calculate 1/3 of the change:**\n* 1/3 of the change in x is (1/3) * 9 = 3\n* 1/3 of the change in y is (1/3) * 6 = 2\n**3. Find the new coordinates:**\n* Starting at (0, 0), move 3 units to the right (along the x-axis) and 2 units up (along the y-axis).\n* This brings you to the point (0 + 3, 0 + 2) = (3, 2)\n**4. Calculate the sum of the coordinates:**\n* The sum of the coordinates of the point (3, 2) is 3 + 2 = 5\n**Therefore, the sum of the coordinates of the point you land upon is 5.** \n",
+        "Here's how to solve the problem step-by-step:\n**1. Find the change in x and y:**\n* The change in x (horizontal) is 9 - 0 = 9\n* The change in y (vertical) is 6 - 0 = 6\n**2. Calculate the change for 1/3 of the distance:**\n* Change in x for 1/3 the distance: (1/3) * 9 = 3\n* Change in y for 1/3 the distance: (1/3) * 6 = 2\n**3. Determine the new coordinates:**\n* Starting at (0, 0), we move 3 units to the right (x-direction) and 2 units up (y-direction).\n* This brings us to the point (0 + 3, 0 + 2) = (3, 2)\n**4. Sum the coordinates:**\n* The sum of the coordinates of the point (3, 2) is 3 + 2 = **5** \n",
+        "Here's how to solve this problem step-by-step:\n**1. Find the change in x and y:**\n* The change in x (horizontal) is 9 - 0 = 9.\n* The change in y (vertical) is 6 - 0 = 6.\n**2. Calculate the distance of the whole segment:**\n* We can use the Pythagorean theorem to find the length of the segment. \n*  Distance = \u221a(9\u00b2 + 6\u00b2) = \u221a(81 + 36) = \u221a117\n**3. Calculate the distance of one-third of the segment:**\n* (1/3) * \u221a117 = \u221a(117/9) = \u221a13\n**4. Determine the change in x and y for one-third of the segment:**\n* Since we move one-third of the way along the segment, the change in x and y will also be one-third of the total change.\n* Change in x = (1/3) * 9 = 3\n* Change in y = (1/3) * 6 = 2\n**5. Calculate the coordinates of the point:**\n* Starting at (0, 0), we move 3 units to the right and 2 units up.\n* Therefore, the point we land upon is (0 + 3, 0 + 2) = (3, 2)\n**6. Find the sum of the coordinates:**\n* The sum of the coordinates is 3 + 2 = **5**. \n",
+        "Here's how to solve this problem step-by-step:\n**1. Find the change in x and y:**\n* The change in x (horizontal) is 9 - 0 = 9\n* The change in y (vertical) is 6 - 0 = 6\n**2. Calculate 1/3 of the changes:**\n* (1/3) * 9 = 3\n* (1/3) * 6 = 2\n**3. Determine the new coordinates:**\n* Starting at (0, 0), move 3 units to the right (along the x-axis) and 2 units up (along the y-axis). \n* This gives you the point (0 + 3, 0 + 2) = (3, 2).\n**4. Find the sum of the coordinates:**\n* 3 + 2 = 5\n**Answer:** The sum of the coordinates of the point you land upon is **5**. \n"
+    ],
+    "pred_answers": "5",
+    "final_pred_answer": [
+        "5",
+        "5",
+        "5",
+        "5",
+        "5"
+    ],
+    "ground_truth": "5"
+}

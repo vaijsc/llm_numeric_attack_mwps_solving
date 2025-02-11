@@ -1,0 +1,41 @@
+{
+    "index_adversarial_question": 5,
+    "problem": "\nLet $f(x)=2x-4$ and $g(x)=x^2+3$. What is $f(g(8))$?\n",
+    "pcot_answer": "# Define the input value for g(x)\ninput_value = 8  ### condition: 'input_value': {'type': 'int', '<=': None, '>=': 0, 'science_constant': False, 'direct_from_question': True}\n# Calculate g(2)\ng_x = input_value**2 + 3  ### condition: 'g_x': {'type': 'int', '<=': None, '>=': 0, 'science_constant': False, 'direct_from_question': False}\n# Calculate f(g(2))\nf_g_x = 2 * g_x - 4  ### condition: 'f_g_x': {'type': 'int', '<=': None, '>=': 0, 'science_constant': False, 'direct_from_question': False}\n# Print the result of f(g(2))\nprint(f\"f(g(2)) = {f_g_x}\")",
+    "answer": "130",
+    "vllm_responses": [
+        "\nWe are given $f(x)=2x-4$ and $g(x)=x^2+3$. \nFirst, we need to find $g(8)$. \nPlugging in $x=8$ into the function $g(x)$, we get:\n$g(8)=8^2+3=64+3=67$.\nNow that we know that $g(8)=67$, we can plug it into the function $f(x)$. \nPlugging in $x=67$ into the function $f(x)$, we get:\n$f(g(8))=f(67)=2(67)-4=\\boxed{132}$.\nThe answer is: 132",
+        "\nFirst, we need to find the value of $g(8)$.\nWe substitute $x = 8$ into the function $g(x)$.\nWe have $g(8) = 8^2 + 3 = 64 + 3 = 67$.\nNext, we need to find the value of $f(g(8))$.\nWe substitute $g(8) = 67$ into the function $f(x)$.\nWe have $f(g(8)) = f(67) = 2(67) - 4 = 134 - 4 = \\boxed{130}$.",
+        "\nFirst, we need to find the value of $g(8)$. Plugging in $x=8$ into the function $g(x)$ gives us $g(8) = 8^2 + 3 = 64 + 3 = 67$.\nNext, we need to find the value of $f(g(8))$. Plugging in $x=67$ into the function $f(x)$ gives us $f(g(8)) = 2(67) - 4 = 134 - 4 = \\boxed{130}$.\nTherefore, $f(g(8))=\\boxed{130}$.",
+        "\nWe are given the functions $f(x)=2x-4$ and $g(x)=x^2+3$. To find $f(g(8))$, we need to follow these steps:\n1. Substitute $g(8)$ value into $f(x)$: ${f(g(8))}=f(8^2+3)$\n0\n2. Substitute $8^2$ value into $f(x)$: ${f(g(8))}=f(64)=2(64)-4$\n128\n3. Substitute $2(64)$ value into $f(x)$: ${f(g(8))}=2(64)-4=128-4$\n124\nSo $f(g(8))=124$.\n#### 124\nThe answer is: 124",
+        "\nStep 1: Find $g(8)$. \nWe substitute $8$ into the function $g(x)$:\n$$g(8)=8^2+3=64+3=67.$$\nStep 2: Find $f(g(8))$. \nWe substitute $67$ into the function $f(x)$:\n$$f(g(8))=f(67)=2(67)-4=\\boxed{132}.$$",
+        "\nWe need to find $f(g(8))$. According to the definition of functional notation, $f(g(8))$ means plug in 8 into the function $g$ and then plug the result into the function $f$. \nFirst, let's find $g(8)$. We substitute $x=8$ into the function $g(x)=8^2+3$: \n$$g(8)=8^2+3=64+3=67.$$\nNow, we plug in the result $g(8)=67$ into the function $f(x)=2x-4$: \n$$f(g(8))=f(67)=2(67)-4=134-4=\\boxed{130}.$$\nSo, $f(g(8))=\\boxed{130}$.",
+        "\nFirst, we need to find the value of $g(8)$. Plugging in $x=8$ into the expression for $g(x)$, we get  $g(8)=8^2+3=64+3=67$.\nNext, we need to find the value of $f(g(8))$. Plugging in $x=67$ into the expression for $f(x)$, we get  $f(g(8))=2(67)-4=\\boxed{132}$\nSo, $f(g(8))=132$.The answer is: 132",
+        " \nWe start by evaluating $g(8)$. We substitute $x=8$ into the function $g(x)=x^2+3$ and get $g(8)=8^2+3=64+3=67$.\nNow we substitute $x=67$ into the function $f(x)=2x-4$ and get $f(g(8))=2(67)-4=134-4=\\boxed{130}$.\nThe answer is: 130",
+        " \nFirst, we need to find the value of $g(8)$.\n$g(8) = 8^2 + 3 = 64 + 3 = 67$.\nNow, we can find $f(g(8))$.\n$f(g(8)) = 2(g(8)) - 4$.\n$f(g(8)) = 2(67) - 4$.\n$f(g(8)) = 134 - 4$.\n$f(g(8)) = \\boxed{130}$.",
+        "\nTo find $f(g(8))$, we need to first find $g(8)$ and then substitute that value into $f(x)$.\nFirst, we find $g(8)$ by substituting $x = 8$ into the expression for $g(x)$: \\[g(8) = 8^2 + 3 = 64 + 3 = 67.\\]\nNext, we substitute $g(8)$ into the expression for $f(x)$ to find $f(g(8))$: \\[f(g(8)) = f(67) = 2(67) - 4 = 134 - 4 = \\boxed{130}.\\]\nSo, $f(g(8)) = 130$.",
+        "\nFirst, we need to find the value of $g(8)$. We substitute $8$ into the function $g$ to get $g(8)=8^2+3=64+3=67$.\nNext, we need to find the value of $f(g(8))$. We substitute $g(8) = 67$ into the function $f$ to get $f(g(8))=f(67)=2(67)-4=\\boxed{132}$.",
+        " \nSince $g(8)=8^2+3=69$, we have $f(g(8))=f(69)=2(69)-4=\\boxed{132}$.",
+        " \nFirst, we need to find $g(8)$. Plugging in $x=8$ into $g(x)=x^2+3$, we get $g(8)=8^2+3=64+3=67$. Then, we can find $f(g(8))$ by plugging in $x=67$ into $f(x)=2x-4$. We get $f(g(8))=2(67)-4=\\boxed{132}$.",
+        "\nFirst, we find $g(8)$ by substituting $x=8$ into the expression for $g(x)$: \\[g(8)=8^2+3=64+3=67.\\]\nNext, we substitute this value into the expression for $f(x)$ to find $f(g(8))$: \\[f(g(8))=f(67)=2(67)-4=\\boxed{132}.\\]",
+        " \nFirst, we need to find the value of $g(8)$. Plugging in $x=8$ into the expression $g(x) = x^2 + 3$, we get $g(8) = 8^2 + 3 = 64 + 3 = 67$.\nNext, we need to find the value of $f(g(8))$. Plugging in $g(8) = 67$ into the expression $f(x) = 2x - 4$, we get $f(g(8)) = 2(67) - 4 = 134 - 4 = \\boxed{130}$.\nThe answer is: 130"
+    ],
+    "vllm_answers": [
+        "132",
+        "130",
+        "130",
+        "124",
+        "132",
+        "130",
+        "132",
+        "130",
+        "130",
+        "130",
+        "132",
+        "132",
+        "132",
+        "132",
+        "130"
+    ],
+    "vllm_pred_answer": "132"
+}

@@ -1,0 +1,23 @@
+{
+    "problem": "Compute $(34-10)+(20-9)+(55-10)$ in your head.",
+    "level": "Level 1",
+    "type": "Algebra",
+    "solution": "Rearranging the terms, we get $(34+55-9)+(20-10-10)=80+0=\\boxed{80}$.",
+    "prompt": "### Instruction: Compute $(34-10)+(20-9)+(55-10)$ in your head.\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "Let's break down the expression step by step.\n1. First, compute each individual subtraction:\n   - \\( 34 - 10 = 24 \\)\n   - \\( 20 - 9 = 11 \\)\n   - \\( 55 - 10 = 45 \\)\n2. Now we add the results of these subtractions together:\n   - \\( 24 + 11 = 35 \\)\n   - Then we add \\( 45 \\):\n   - \\( 35 + 45 = 80 \\)\nSo, the final result is \\( \\boxed{80} \\).",
+        "Let's solve the expression \\((34 - 10) + (20 - 9) + (55 - 10)\\) step by step.\n1. First, we compute each subtraction:\n   - \\(34 - 10 = 24\\)\n   - \\(20 - 9 = 11\\)\n   - \\(55 - 10 = 45\\)\n2. Now we can add these results together:\n   - First, add the first two results: \n     \\(24 + 11 = 35\\)\n   - Then, add this result to the third result:\n     \\(35 + 45 = 80\\)\nSo, the value of \\((34-10)+(20-9)+(55-10)\\) is \\(\\boxed{80}\\).",
+        "Let's break down the expression step by step:\n1. **Calculate \\(34 - 10\\):**\n   \\[\n   34 - 10 = 24\n   \\]\n2. **Calculate \\(20 - 9\\):**\n   \\[\n   20 - 9 = 11\n   \\]\n3. **Calculate \\(55 - 10\\):**\n   \\[\n   55 - 10 = 45\n   \\]\nNow, we can add these results together:\n4. **Add the results:**\n   \\[\n   (34 - 10) + (20 - 9) + (55 - 10) = 24 + 11 + 45\n   \\]\n5. **Add \\(24 + 11\\):**\n   \\[\n   24 + 11 = 35\n   \\]\n6. **Now add \\(35 + 45\\):**\n   \\[\n   35 + 45 = 80\n   \\]\nThus, the final result is:\n\\[\n\\boxed{80}\n\\]",
+        "Let's break this down step by step.\n1. Calculate each expression inside the parentheses:\n   - \\(34 - 10 = 24\\)\n   - \\(20 - 9 = 11\\)\n   - \\(55 - 10 = 45\\)\n2. Now, we can add the results together:\n   - First, add \\(24 + 11\\):\n     \\[\n     24 + 11 = 35\n     \\]\n   - Then, add \\(35 + 45\\):\n     \\[\n     35 + 45 = 80\n     \\]\nThus, the final result of \\((34-10)+(20-9)+(55-10)\\) is \\(\\boxed{80}\\).",
+        "Let's break it down step by step:\n1. **Calculate each expression**:\n   - First, compute \\(34 - 10\\):\n     \\[\n     34 - 10 = 24\n     \\]\n   - Next, compute \\(20 - 9\\):\n     \\[\n     20 - 9 = 11\n     \\]\n   - Finally, compute \\(55 - 10\\):\n     \\[\n     55 - 10 = 45\n     \\]\n2. **Add the results together**:\n   Now we add these results:\n   - Start with \\(24 + 11\\):\n     \\[\n     24 + 11 = 35\n     \\]\n   - Then add \\(45\\) to the result:\n     \\[\n     35 + 45 = 80\n     \\]\nThus, the final result of \\((34-10)+(20-9)+(55-10)\\) is \\(\\boxed{80}\\)."
+    ],
+    "pred_answers": "80",
+    "final_pred_answer": [
+        "80",
+        "80",
+        "80",
+        "80",
+        "80"
+    ],
+    "ground_truth": "80"
+}

@@ -1,0 +1,23 @@
+{
+    "problem": "The point $(a, b)$ lies on the line with the equation $3x + 2y = 12.$ When $a = 4$, what is the value of $b$?",
+    "level": "Level 2",
+    "type": "Algebra",
+    "solution": "We plug in $x = 4$: \\begin{align*}\n3(4) + 2y &= 12\\\\\n12 + 2y &= 12\\\\\ny &= 0.\n\\end{align*}\n\nTherefore, $b = \\boxed{0}$.",
+    "prompt": "### Instruction: The point $(a, b)$ lies on the line with the equation $3x + 2y = 12.$ When $a = 4$, what is the value of $b$?\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "To find the value of \\( b \\) when \\( a = 4 \\) in the equation of the line \\( 3x + 2y = 12 \\), we will substitute \\( a \\) into the equation.\n1. Start with the equation of the line:\n   \\[\n   3x + 2y = 12\n   \\]\n2. Substitute \\( a = 4 \\) for \\( x \\):\n   \\[\n   3(4) + 2y = 12\n   \\]\n3. Calculate \\( 3(4) \\):\n   \\[\n   12 + 2y = 12\n   \\]\n4. Next, isolate \\( 2y \\) by subtracting 12 from both sides:\n   \\[\n   2y = 12 - 12\n   \\]\n   \\[\n   2y = 0\n   \\]\n5. Now, divide both sides by 2 to solve for \\( y \\):\n   \\[\n   y = \\frac{0}{2} = 0\n   \\]\nThus, when \\( a = 4 \\), the value of \\( b \\) is \n\\[\n\\boxed{0}\n\\]",
+        "To find the value of \\( b \\) when \\( a = 4 \\) on the line defined by the equation \\( 3x + 2y = 12 \\), we can follow these steps:\n1. **Substitute \\( a \\) into the equation**: We need to replace \\( x \\) in the equation with \\( 4 \\) (since \\( a = 4 \\)).\n   \\[\n   3(4) + 2y = 12\n   \\]\n2. **Calculate \\( 3 \\times 4 \\)**:\n   \\[\n   12 + 2y = 12\n   \\]\n3. **Isolate the term with \\( y \\)**: Subtract \\( 12 \\) from both sides of the equation.\n   \\[\n   2y = 12 - 12\n   \\]\n   \\[\n   2y = 0\n   \\]\n4. **Solve for \\( y \\)**: Divide both sides by \\( 2 \\).\n   \\[\n   y = \\frac{0}{2} = 0\n   \\]\nThus, when \\( a = 4 \\), the value of \\( b \\) is \\( \\boxed{0} \\).",
+        "To find the value of \\( b \\) when \\( a = 4 \\) for the line given by the equation \\( 3x + 2y = 12 \\), we can follow these steps:\n1. Substitute \\( a = 4 \\) into the line equation in place of \\( x \\):\n   \\[\n   3(4) + 2y = 12\n   \\]\n2. Calculate \\( 3(4) \\):\n   \\[\n   12 + 2y = 12\n   \\]\n3. To isolate \\( 2y \\), subtract 12 from both sides:\n   \\[\n   2y = 12 - 12\n   \\]\n   \\[\n   2y = 0\n   \\]\n4. Now, divide both sides by 2 to solve for \\( y \\):\n   \\[\n   y = \\frac{0}{2} = 0\n   \\]\nThus, when \\( a = 4 \\), the value of \\( b \\) is \\( \\boxed{0} \\).",
+        "To find the value of \\( b \\) when \\( a = 4 \\) on the line defined by the equation \\( 3x + 2y = 12 \\), we can follow these steps:\n1. **Substitute the value of \\( a \\)**: We are given that \\( a = 4 \\), which means we need to substitute \\( x = 4 \\) into the line's equation.\n   The equation is:\n   \\[\n   3x + 2y = 12\n   \\]\n   Substituting \\( x = 4 \\):\n   \\[\n   3(4) + 2y = 12\n   \\]\n2. **Calculate \\( 3(4) \\)**:\n   \\[\n   3 \\cdot 4 = 12\n   \\]\n   Now, we update the equation with this value:\n   \\[\n   12 + 2y = 12\n   \\]\n3. **Isolate \\( 2y \\)**:\n   To isolate \\( 2y \\), we subtract 12 from both sides:\n   \\[\n   2y = 12 - 12\n   \\]\n   \\[\n   2y = 0\n   \\]\n4. **Solve for \\( y \\)**:\n   Now, divide both sides by 2 to solve for \\( y \\):\n   \\[\n   y = \\frac{0}{2} = 0\n   \\]\n5. **Conclude the value of \\( b \\)**:\n   Since \\( b \\) represents the \\( y \\) value when \\( a = 4 \\), we find that:\n   \\[\n   b = 0\n   \\]\nTherefore, the value of \\( b \\) when \\( a = 4 \\) is \\(\\boxed{0}\\).",
+        "To find the value of \\(b\\) when \\(a = 4\\) on the line defined by the equation \\(3x + 2y = 12\\), we will substitute \\(a\\) (which is 4) into the equation.\n1. Start with the equation of the line:\n   \\[\n   3x + 2y = 12\n   \\]\n2. Substitute \\(x = a = 4\\) into the equation:\n   \\[\n   3(4) + 2y = 12\n   \\]\n3. Calculate \\(3(4)\\):\n   \\[\n   12 + 2y = 12\n   \\]\n4. Now isolate \\(2y\\) by subtracting 12 from both sides:\n   \\[\n   2y = 12 - 12\n   \\]\n   \\[\n   2y = 0\n   \\]\n5. Next, divide both sides by 2 to solve for \\(y\\):\n   \\[\n   y = \\frac{0}{2}\n   \\]\n   \\[\n   y = 0\n   \\]\nThus, the value of \\(b\\) when \\(a = 4\\) is:\n\\[\n\\boxed{0}\n\\]"
+    ],
+    "pred_answers": "0",
+    "final_pred_answer": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+    ],
+    "ground_truth": "0"
+}

@@ -1,0 +1,41 @@
+{
+    "index_adversarial_question": 0,
+    "problem": "Simplify $(u+5)(u-2) - (u-4)(u+7)$.",
+    "pcot_answer": "# Define the variable u\nu = 1  ### condition: 'u': {'type': 'int', '<=': None, '>=': None, 'science_constant': False, 'direct_from_question': True}\n# Define the first expression (u + 4)(u - 1)\nfirst_expression = (u + 4) * (u - 1)  ### condition: 'first_expression': {'type': 'int', '<=': None, '>=': None, 'science_constant': False, 'direct_from_question': False}\n# Define the second expression (u - 3)(u + 6)\nsecond_expression = (u - 3) * (u + 6)  ### condition: 'second_expression': {'type': 'int', '<=': None, '>=': None, 'science_constant': False, 'direct_from_question': False}\n# Calculate the result of the entire expression\nresult = first_expression - second_expression  ### condition: 'result': {'type': 'int', '<=': None, '>=': None, 'science_constant': False, 'direct_from_question': False}\n# Print the result of the simplified expression\nprint(f\"Simplified result: {result}\")",
+    "answer": "14",
+    "vllm_responses": [
+        "Using the distributive property, we can expand each term inside the parentheses:\n$(u+5)(u-2) = u(u-2) + 5(u-2) = u^2-2u+5u-10$.\nSimilarly, $(u-4)(u+7) = u(u+7) - 4(u+7) = u^2+7u-4u-28$.\nNow we can simplify the expression:\n$(u+5)(u-2) - (u-4)(u+7) = (u^2-2u+5u-10) - (u^2+7u-4u-28)$.\nCombining like terms, we get:\n$(u+5)(u-2) - (u-4)(u+7) = (u^2-2u+5u-10) - (u^2+7u-4u-28) = u^2-2u+5u-10-u^2-7u+4u-28$.\nSimplifying further, we have:\n$(u+5)(u-2) - (u-4)(u+7) = -2u-7u+5u-4u-10-28 = \\boxed{-u-38}$.\nThe answer is: -u-38",
+        "First, distribute to get \\[(u+5)(u-2) - (u-4)(u+7) = u^2 - 2u + 5u - 10 - (u^2 - 4u + 7u - 28).\\]\nSimplifying further, we have \\[u^2 - 2u + 5u - 10 - u^2 + 4u - 7u + 28 = (u^2 - u^2) + (-2u + 5u + 4u - 7u) + (-10 + 28).\\]\nThe $u^2$ terms cancel, and we are left with \\[-2u + 5u + 4u - 7u = -2u + 5u + 4u - 7u = -2u + 0u + 4u - 7u = -2u + 4u - 7u = \\boxed{-5u}.\\]\nThe answer is: -5u",
+        "First, let's distribute and simplify each term within the parentheses:\n$(u+5)(u-2) = u^2 - 2u + 5u - 10 = u^2 + 3u - 10$\n$(u-4)(u+7) = u^2 + 7u - 4u - 28 = u^2 + 3u - 28$\nNext, let's subtract the second expression from the first expression:\n$(u^2 + 3u - 10) - (u^2 + 3u - 28) = u^2 + 3u - 10 - u^2 - 3u + 28 = \\boxed{18}$\nThe answer is: 18",
+        "First, we distribute:\n$(u+5)(u-2) = u^2 - 2u + 5u - 10 = u^2 + 3u - 10$\n$(u-4)(u+7) = u^2 + 7u - 4u - 28 = u^2 + 3u - 28$\nThen, we combine like terms:\n$(u^2 + 3u - 10) - (u^2 + 3u - 28) = u^2 + 3u - 10 - u^2 - 3u + 28 = u^2 - u^2 + 3u - 3u - 10 + 28 = \\boxed{18}$\nThe answer is: 18",
+        "First, we distribute to simplify each term within the parentheses: $(u+5)(u-2) - (u-4)(u+7) = u(u-2) + 5(u-2) - u(u+7) - 4(u+7)$.\nNext, we combine like terms: $u^2 - 2u + 5u - 10 - u^2 - 7u - 4u - 28$.\nNow, we simplify further: $u^2 - 2u + 5u - u^2 - 7u - 4u - 10 - 28$.\nFinally, we combine like terms again: $-6u - 38$.\nTherefore, $(u+5)(u-2) - (u-4)(u+7) = \\boxed{-6u - 38}$.The answer is: -6u-38",
+        "\n$(u+5)(u-2) - (u-4)(u+7) = u^2 - 2u + 5u - 10 - u^2 + 4u + 7u - 28$\nCombining like terms,\n$= (u^2 - u^2) + (-2u + 5u + 4u + 7u) + (-10 + 28)$\n$= 0 + 16u + 18$\n$= \\boxed{16u + 18}$The answer is: 16u+18",
+        "First, we distribute and simplify each individual term in each parentheses:\n$(u+5)(u-2) = u^2 - 2u + 5u - 10 = u^2 + 3u - 10$.\n$(u-4)(u+7) = u^2 + 7u - 4u - 28 = u^2 + 3u - 28$.\nThen, we subtract the second expression from the first expression:\n$(u^2 + 3u - 10) - (u^2 + 3u - 28)$\nExpanding the parentheses, we get:\n$u^2 + 3u - 10 - u^2 - 3u + 28$\nSimplifying, we have:\n$u^2 - u^2 + 3u - 3u - 10 + 28$\nCancelling out the like terms, we get:\n$2u + 18$\nSo, the simplified expression is $\\boxed{2u + 18}$.The answer is: 2u+18",
+        "$(u+5)(u-2) = u(u-2) + 5(u-2) = u^2-2u+5u-10 = u^2 + 3u - 10$.\n$(u-4)(u+7) = u(u+7) - 4(u+7) = u^2 + 7u - 4u - 28 = u^2 + 3u - 28$.\n$(u+5)(u-2) - (u-4)(u+7) = u^2 + 3u - 10 - (u^2 + 3u - 28)$.\nSimplifying the expression, we get $u^2 + 3u - 10 - u^2 - 3u + 28 = \\boxed{18}$.\nThe answer is: 18",
+        "Using the distributive property, we can expand each term in the given expression:\n$(u+5)(u-2) = u^2 - 2u + 5u - 10 = u^2 + 3u - 10$\n$(u-4)(u+7) = u^2 + 7u - 4u - 28 = u^2 + 3u - 28$\nNow, we can simplify the expression by subtracting the second term from the first term:\n$(u^2 + 3u - 10) - (u^2 + 3u - 28) = u^2 + 3u - 10 - u^2 - 3u + 28 = 28 - 10 = \\boxed{18}$\nThe answer is: 18",
+        "Using the distributive property, we expand both terms inside the parentheses:\n$(u+5)(u-2) = u^2 - 2u + 5u - 10 = u^2 + 3u - 10$\n$(u-4)(u+7) = u^2 + 7u - 4u - 28 = u^2 + 3u - 28$\nNow, we subtract the second expression from the first expression:\n$(u^2 + 3u - 10) - (u^2 + 3u - 28) = u^2 + 3u - 10 - u^2 - 3u + 28 = \\boxed{18}$\nThe answer is: 18",
+        "We can distribute and simplify each term within the parentheses first.\n$(u+5)(u-2) = u^2 - 2u + 5u - 10 = u^2 + 3u - 10$\n$(u-4)(u+7) = u^2 + 7u - 4u - 28 = u^2 + 3u - 28$\nNow, let\u2019s subtract the second expression from the first expression.\n$(u^2 + 3u - 10) - (u^2 + 3u - 28) = u^2 + 3u - 10 - u^2 - 3u + 28 = \\boxed{18}$\nThe answer is: 18",
+        "Using the distributive property, we can expand each term:\n$(u+5)(u-2) = u^2 - 2u + 5u - 10$\n$(u-4)(u+7) = u^2 - 4u + 7u - 28$\nSimplifying each expression, we get:\n$u^2 - 2u + 5u - 10 = u^2 + 3u - 10$\n$u^2 - 4u + 7u - 28 = u^2 + 3u - 28$\nNow, subtracting the second expression from the first, we get:\n$(u^2 + 3u - 10) - (u^2 + 3u - 28) = u^2 + 3u - 10 - u^2 - 3u + 28 = \\boxed{18}$\nThe answer is: 18",
+        "Using the distributive property, we can expand each term inside the parentheses.\n$(u+5)(u-2) = u(u)+u(-2)+5(u)+5(-2) = u^2-2u+5u-10 = u^2+3u-10$.\n$(u-4)(u+7) = u(u)+u(7)+(-4)(u)+(-4)(7) = u^2+7u-4u-28 = u^2+3u-28$.\nNow, we can subtract the second expression from the first expression.\n$(u^2+3u-10) - (u^2+3u-28) = u^2+3u-10 - u^2-3u+28 = 0$.\nTherefore, $(u+5)(u-2) - (u-4)(u+7) = \\boxed{0}$.The answer is: 0",
+        "Using the distributive property, we can expand each term in the expression:\n$(u+5)(u-2) = u^2 - 2u + 5u - 10) = u^2 + 3u - 10)$.\n$(u-4)(u+7) = u^2 + 7u - 4u - 28) = u^2 + 3u - 28)$.\nNow, we can subtract the second expression from the first:\n$(u^2 + 3u - 10) - (u^2 + 3u - 28) = u^2 - u^2 + 3u - 3u - 10 + 28 = \\boxed{18})$.\nThe answer is: 18",
+        "First, distribute to get rid of the parentheses:\n$(u+5)(u-2) - (u-4)(u+7) = u^2 - 2u + 5u - 10 - (u^2 - 4u + 7u - 28)$.\nSimplify both parts of the expression:\n$u^2 - 2u + 5u - 10 - u^2 + 4u - 7u + 28$.\nCombine like terms:\n$(u^2 - u^2) + (-2u + 5u - 7u) + (4u - 28 + 10)$.\nSimplify further:\n$0 + (-4u) + 4u - 18$.\nSimplify finally:\n$-4u + 4u - 18 = \\boxed{-18}$.The answer is: -18"
+    ],
+    "vllm_answers": [
+        "-38",
+        "-5",
+        "18",
+        "18",
+        "-38",
+        "18",
+        "18",
+        "18",
+        "18",
+        "18",
+        "18",
+        "18",
+        "0",
+        "18",
+        "-18"
+    ],
+    "vllm_pred_answer": "18"
+}

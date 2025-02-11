@@ -1,0 +1,23 @@
+{
+    "problem": "What is the simplified value of $\\frac{10! + 11! + 12!}{10! + 11!}$?",
+    "level": "Level 2",
+    "type": "Counting & Probability",
+    "solution": "We do a little factoring, taking advantage of the properties of factorials:\n\\[\\frac{10! + 11! + 12!}{10! + 11!} = \\frac{10!(1+11+11\\cdot 12)}{10!(1+11)} = \\frac{1+11+11\\cdot 12}{12} = \\frac{12 + 11 \\cdot 12}{12} = \\frac{12\\cdot 12}{12} = \\boxed{12}.\\]",
+    "prompt": "### Instruction: What is the simplified value of $\\frac{10! + 11! + 12!}{10! + 11!}$?\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "Here's how to simplify the expression step-by-step:\n1. **Factor out a common factor:**  Notice that both the numerator and denominator share a common factor of 10!:\n   \n   *  Numerator:  10! + 11! + 12! = 10!(1 + 11 + 11*12)\n   *  Denominator: 10! + 11! = 10!(1 + 11)\n2. **Simplify:** \n   * Numerator: 10!(1 + 11 + 132) = 10!(144)\n   * Denominator: 10!(1 + 11) = 10!(12)\n3. **Cancel the common factor:** The 10! terms cancel out, leaving:\n   *  144/12\n4. **Final Result:**  \n   *  144/12 = **12** \n",
+        "Here's how to simplify the expression:\n**1. Factor out a common factor:**\nNotice that both the numerator and denominator have a common factor of 10!:\n* **Numerator:** 10! + 11! + 12! = 10!(1 + 11 + 11*12) \n* **Denominator:** 10! + 11! = 10!(1 + 11)\n**2. Simplify:**\n* **Numerator:** 10!(1 + 11 + 132) = 10!(144)\n* **Denominator:** 10!(12)\n**3. Cancel the common factor:**\nThe 10! in the numerator and denominator cancel each other out:\n* **Simplified Expression:** (144) / (12)\n**4. Final Calculation:**\n* (144) / (12) = 12\n**Therefore, the simplified value of the expression is 12.** \n",
+        "Here's how to simplify the expression:\n**1. Factor out the common factor:**\nNotice that both the numerator and denominator share the terms 10! and 11!. Let's factor these out:\n* **Numerator:**  10! + 11! + 12!  = 10!(1 + 11 + 11*12) \n* **Denominator:** 10! + 11! = 10!(1 + 11)\n**2. Simplify:**\nNow we have:\n(10!(1 + 11 + 11*12)) / (10!(1 + 11))\nSince 10! is a common factor in both the numerator and denominator, it cancels out.  We're left with:\n(1 + 11 + 11*12) / (1 + 11)\n**3. Calculate:**\nSimplify further:\n(1 + 11 + 132) / (12) = 144/12 = **12**\n**Therefore, the simplified value of the expression is 12.** \n",
+        "Here's how to simplify the expression:\n**1. Factor out a common term:**\nNotice that both the numerator and denominator share a common factor of 10!.  Let's factor that out:\n* **Numerator:**  10! + 11! + 12!  = 10!(1 + 11 + 12) \n* **Denominator:** 10! + 11! = 10!(1 + 11)\n**2. Simplify:**\nNow we have:\n(10!(1 + 11 + 12)) / (10!(1 + 11))\nThe 10! terms cancel out, leaving:\n(1 + 11 + 12) / (1 + 11)\n**3. Calculate:**\nFinally, we can simplify further:\n24 / 12 = **2**\n**Therefore, the simplified value of the expression is 2.** \n",
+        "Here's how to simplify the expression step by step:\n**1. Factor out a common factor:**\nNotice that both the numerator and denominator have a common factor of 10!:\n*  10! + 11! + 12! = 10!(1 + 11 + 12)\n*  10! + 11! = 10!(1 + 11)\n**2. Simplify:**\nNow we can simplify:\n  (10!(1 + 11 + 12)) / (10!(1 + 11)) = (1 + 11 + 12) / (1 + 11) = 24/12\n**3. Final Answer:**\nTherefore, the simplified value of the expression is **2**. \n"
+    ],
+    "pred_answers": "12",
+    "final_pred_answer": [
+        "12",
+        "12",
+        "12",
+        "2",
+        "2"
+    ],
+    "ground_truth": "12"
+}

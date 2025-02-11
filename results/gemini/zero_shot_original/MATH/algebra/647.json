@@ -1,0 +1,23 @@
+{
+    "problem": "Express $\\left(\\frac{16}{625}\\right)^{\\frac14}$ a common fraction.",
+    "level": "Level 1",
+    "type": "Algebra",
+    "solution": "First, we recognize that $16 = 2^4$ and $625 = 25^2 = (5^2)^2 = 5^4$, so we have \\[\\left(\\frac{16}{625}\\right)^{\\frac14} = \\left(\\frac{2^4}{5^4}\\right)^{\\frac14} = \\frac{(2^4)^{\\frac14}}{(5^4)^{\\frac14}} = \\frac{2^{4\\cdot \\frac14}}{5^{4\\cdot \\frac14}} = \\frac{2^1}{5^1} = \\boxed{\\frac{2}{5}}.\\]",
+    "prompt": "### Instruction: Express $\\left(\\frac{16}{625}\\right)^{\\frac14}$ a common fraction.\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "Here's how to solve the problem step-by-step:\n* **Understanding the exponent:** The exponent 1/4 represents a fourth root. This means we're looking for a number that, when multiplied by itself four times, equals 16/625. \n* **Finding the fourth root of the numerator:** The fourth root of 16 is 2, since 2 * 2 * 2 * 2 = 16.\n* **Finding the fourth root of the denominator:** The fourth root of 625 is 5, since 5 * 5 * 5 * 5 = 625.\nTherefore,  \n \n $\\left(\\frac{16}{625}\\right)^{\\frac14} = \\boxed{\\frac{2}{5}}$ \n",
+        "Here's how to express the given expression as a common fraction:\n**Understanding the Exponent**\n* The exponent 1/4 represents the fourth root.  In other words, we're looking for a number that, when multiplied by itself four times, equals 16/625.\n**Finding the Roots**\n* **Numerator:** The fourth root of 16 is 2 (since 2 * 2 * 2 * 2 = 16).\n* **Denominator:** The fourth root of 625 is 5 (since 5 * 5 * 5 * 5 = 625).\n**The Solution**\nTherefore,  $\\left(\\frac{16}{625}\\right)^{\\frac14} = \\boxed{\\frac{2}{5}}$. \n",
+        "Here's how to solve this problem:\n* **Understanding the exponent:**  The exponent 1/4 represents taking the fourth root.  This is the same as finding a number that, when multiplied by itself four times, equals the original number.\n* **Simplifying the base:**  The fraction 16/625 can be expressed as (2/5) raised to the power of 4: \n   * 16 = 2 * 2 * 2 * 2 = 2\u2074\n   * 625 = 5 * 5 * 5 * 5 = 5\u2074\n   * Therefore, 16/625 = (2\u2074)/(5\u2074) = (2/5)\u2074\n* **Applying the exponent:** Now we have:  ((2/5)\u2074)^(1/4)\n    * When raising a power to another power, we multiply the exponents:  (2/5)\u2074 * (1/4) = (2/5)\u00b9\n* **Result:** (2/5)\u00b9 = **2/5** \nTherefore,  (16/625)^(1/4) = **2/5** \n",
+        "**1. Understand the exponent:**  The exponent 1/4 represents taking the fourth root.\n**2. Find the fourth roots:** \n* The fourth root of 16 is 2 (since 2 * 2 * 2 * 2 = 16).\n* The fourth root of 625 is 5 (since 5 * 5 * 5 * 5 = 625).\n**3. Combine the roots:**\n* Therefore, $\\left(\\frac{16}{625}\\right)^{\\frac14} = \\frac{2}{5}$.\n**Answer:**  $\\left(\\frac{16}{625}\\right)^{\\frac14} = \\boxed{\\frac{2}{5}}$ \n",
+        "**1. Simplify the base:**\n*  The base of the expression is $\\frac{16}{625}$.  Both 16 and 625 are perfect fourth powers:\n    * $16 = 2^4$\n    * $625 = 5^4$\n* So, we can rewrite the base as:  $\\frac{16}{625} = \\frac{2^4}{5^4}$\n**2. Apply the exponent:**\n* Now we have:  $\\left(\\frac{2^4}{5^4}\\right)^{\\frac{1}{4}}$\n* Using the rule of exponents that says $(a^m)^n = a^{m \\cdot n}$, we get:  $\\frac{2^{4 \\cdot \\frac{1}{4}}}{5^{4 \\cdot \\frac{1}{4}}}$\n* This simplifies to:  $\\frac{2^1}{5^1}$\n**3. Final Answer:**\n* $\\frac{2^1}{5^1} = \\boxed{\\frac{2}{5}}$ \n"
+    ],
+    "pred_answers": "5",
+    "final_pred_answer": [
+        "5",
+        "5",
+        "5",
+        "16",
+        "2"
+    ],
+    "ground_truth": "5"
+}

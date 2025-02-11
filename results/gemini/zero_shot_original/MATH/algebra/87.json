@@ -1,0 +1,23 @@
+{
+    "problem": "Given that $-4$ is a solution to $x^2 + bx -36 = 0$, what is the value of $b$?",
+    "level": "Level 3",
+    "type": "Algebra",
+    "solution": "The product of the roots of this quadratic is $-36/1=-36$, so the other solution must be $-36/-4=9$. That means that the sum of the solutions is $-4+9=5$. The sum of the solutions is also $-b/1=-b$. Thus, $-b=5$ and $b=\\boxed{-5}$.",
+    "prompt": "### Instruction: Given that $-4$ is a solution to $x^2 + bx -36 = 0$, what is the value of $b$?\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "Here's how to solve the problem step-by-step:\n**1. Substitute the solution into the equation:**\nSince -4 is a solution, it means that the equation is true when x = -4.  Let's substitute:\n(-4)\u00b2 + b(-4) - 36 = 0\n**2. Simplify the equation:**\n16 - 4b - 36 = 0\n**3. Solve for b:**\n-20 - 4b = 0\n-4b = 20\nb = -5\n**Therefore, the value of b is -5.** \n",
+        "Here's how to solve the problem step-by-step:\n1. **Substitute:** Since -4 is a solution, we know that plugging in -4 for *x* will make the equation true. Let's do that:\n   (-4)\u00b2 + b(-4) - 36 = 0\n2. **Simplify:**  \n   16 - 4b - 36 = 0\n3. **Combine terms:**\n   -4b - 20 = 0\n4. **Isolate b:** \n   -4b = 20\n5. **Solve for b:**\n   b = 20 / -4 = -5\n**Therefore, the value of b is -5.** \n",
+        "Here's how to solve the problem step-by-step:\n1. **Substitute the solution:** Since -4 is a solution to the equation, we can substitute it for *x* in the equation: \n   (-4)^2 + b(-4) - 36 = 0\n2. **Simplify:**  \n   16 - 4b - 36 = 0\n3. **Combine like terms:**\n   -4b - 20 = 0\n4. **Solve for *b*:** \n   -4b = 20\n   b = 20 / -4\n   b = -5\n**Therefore, the value of *b* is -5.** \n",
+        "Here's how to solve the problem step-by-step:\n**1. Substitute the solution:**\nSince -4 is a solution to the equation, it means that plugging in  x = -4 will make the equation true. Let's do that:\n(-4)^2 + b(-4) - 36 = 0\n**2. Simplify the equation:**\n16 - 4b - 36 = 0\n**3. Combine like terms:**\n-4b - 20 = 0\n**4. Isolate the variable 'b':**\n-4b = 20\n**5. Solve for 'b':**\nb = 20 / -4\n**6. Calculate the final value:**\nb = -5\n**Therefore, the value of b is -5.** \n",
+        "Here's how to solve the problem step-by-step:\n1. **Substitute the solution:** Since -4 is a solution, it means that when we substitute x = -4 into the equation, the equation will be true.  Let's do that:\n   (-4)^2 + b(-4) - 36 = 0\n2. **Simplify the equation:**\n   16 - 4b - 36 = 0\n3. **Combine like terms:**\n   -4b - 20 = 0\n4. **Solve for b:**\n   -4b = 20\n   b = -5\n**Therefore, the value of b is -5.** \n"
+    ],
+    "pred_answers": "-5",
+    "final_pred_answer": [
+        "-5",
+        "-5",
+        "-5",
+        "-5",
+        "-5"
+    ],
+    "ground_truth": "-5"
+}

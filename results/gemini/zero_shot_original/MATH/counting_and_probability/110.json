@@ -1,0 +1,23 @@
+{
+    "problem": "The fair spinner shown is spun once. What is the probability of spinning an odd number? Express your answer as a common fraction.\n\n[asy]\ndot((0,0));\n\ndraw((3,0)--(3,3)--(0,3));\nimport graph;\ndraw(Circle((0,0),25));\ndraw((0,-25)--(0,25));\ndraw((0,0)--(25,0));\ndraw((0,0)--(-15,9),Arrow);\nlabel(\"15\",(-10,0),W);\nlabel(\"23\",(10,10),NE);\nlabel(\"14\",(10,-10),SE);\n[/asy]",
+    "level": "Level 2",
+    "type": "Counting & Probability",
+    "solution": "The central angles of the two regions corresponding to odd numbers are 180 degrees and 90 degrees.  Therefore, the probability of spinning an odd number is $\\frac{180+90}{360}=\\boxed{\\frac{3}{4}}$.",
+    "prompt": "### Instruction: The fair spinner shown is spun once. What is the probability of spinning an odd number? Express your answer as a common fraction.\n\n[asy]\ndot((0,0));\n\ndraw((3,0)--(3,3)--(0,3));\nimport graph;\ndraw(Circle((0,0),25));\ndraw((0,-25)--(0,25));\ndraw((0,0)--(25,0));\ndraw((0,0)--(-15,9),Arrow);\nlabel(\"15\",(-10,0),W);\nlabel(\"23\",(10,10),NE);\nlabel(\"14\",(10,-10),SE);\n[/asy]\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "Here's how to solve the problem:\n* **Identify the favorable outcomes:** The odd numbers on the spinner are 15 and 23.\n* **Identify all possible outcomes:**  There are three numbers on the spinner: 14, 15, and 23.\n* **Calculate the probability:** The probability of spinning an odd number is the number of favorable outcomes divided by the total number of possible outcomes: 2/3.\n**Therefore, the probability of spinning an odd number is 2/3.** \n",
+        "1. **Identify the odd numbers:**  The spinner has the numbers 15, 23, and 14.  The odd numbers are 15 and 23.\n2. **Count the total outcomes:** There are three possible outcomes (15, 23, and 14).\n3. **Calculate the probability:**  The probability of spinning an odd number is the number of favorable outcomes (spinning an odd number) divided by the total number of outcomes.  This gives us 2/3.\n**Therefore, the probability of spinning an odd number is 2/3.** \n",
+        "Here's how to solve the problem:\n* **Identify the possible outcomes:** The spinner has three possible outcomes: 15, 23, and 14.\n* **Identify the favorable outcomes:**  We want an odd number, so the favorable outcome is 15.\n* **Calculate the probability:** Probability is calculated as (number of favorable outcomes) / (total number of possible outcomes).  In this case, the probability of spinning an odd number is 1/3.\n**Therefore, the probability of spinning an odd number is 1/3.** \n",
+        "Here's how to solve the problem:\n* **Identify the favorable outcomes:**  The favorable outcomes are the odd numbers on the spinner, which are 15 and 23.\n* **Identify the total possible outcomes:** The total possible outcomes are all the numbers on the spinner: 15, 23, and 14. \n* **Calculate the probability:** The probability of spinning an odd number is the number of favorable outcomes divided by the total number of possible outcomes: 2/3.\n**Therefore, the probability of spinning an odd number is 2/3.** \n",
+        "Here's how to solve the problem:\n* **Identify the possible outcomes:** The spinner has three possible outcomes: 15, 23, and 14.\n* **Identify the favorable outcomes:** The odd numbers are 15 and 23.\n* **Calculate the probability:** The probability of spinning an odd number is the number of favorable outcomes divided by the total number of outcomes. This is 2/3.\n**Therefore, the probability of spinning an odd number is 2/3.** \n"
+    ],
+    "pred_answers": "3",
+    "final_pred_answer": [
+        "3",
+        "3",
+        "3",
+        "3",
+        "3"
+    ],
+    "ground_truth": "4"
+}

@@ -1,0 +1,23 @@
+{
+    "problem": "When rolling two fair, standard six-faced dice, what is the probability of rolling the same number on both dice? Express your answer as a common fraction.",
+    "level": "Level 2",
+    "type": "Counting & Probability",
+    "solution": "No matter what the result of the first roll is, there are 6 equally likely possibilities for the second roll, only one of which is the same as the first roll.  Therefore, the probability that the dice show the same number is $\\boxed{\\frac{1}{6}}$.",
+    "prompt": "### Instruction: When rolling two fair, standard six-faced dice, what is the probability of rolling the same number on both dice? Express your answer as a common fraction.\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "Here's how to solve the problem step-by-step:\n* **Possible Outcomes:**  When rolling two dice, there are 6 possible outcomes for the first die and 6 possible outcomes for the second die. This gives us a total of 6 * 6 = 36 possible combinations.\n* **Favorable Outcomes:** We want to find the combinations where both dice show the same number. These are: (1,1), (2,2), (3,3), (4,4), (5,5), and (6,6).  That's 6 favorable outcomes.\n* **Probability:** The probability of an event is the number of favorable outcomes divided by the total number of possible outcomes.\nTherefore, the probability of rolling the same number on both dice is 6/36, which simplifies to **1/6**. \n",
+        "Here's how to solve this problem:\n**1.  Possible Outcomes:**\n* Each die has 6 possible outcomes (1, 2, 3, 4, 5, 6).\n* With two dice, there are 6 * 6 = 36 possible combinations.\n**2.  Favorable Outcomes:**\n* To get the same number on both dice, we have these possibilities: (1,1), (2,2), (3,3), (4,4), (5,5), (6,6) \n* There are 6 favorable outcomes.\n**3.  Probability:**\n* Probability is calculated as: (Favorable Outcomes) / (Total Possible Outcomes)\n* Therefore, the probability of rolling the same number on both dice is 6/36.\n**4.  Simplify:**\n* The fraction 6/36 can be simplified to **1/6**. \n**Answer:** The probability of rolling the same number on both dice is **1/6**. \n",
+        "Here's how to solve this step-by-step:\n* **Possible Outcomes:** When rolling two dice, there are 6 possible outcomes for the first die and 6 possible outcomes for the second die. This gives us a total of 6 * 6 = 36 possible combinations.\n* **Favorable Outcomes:**  We want to find the combinations where both dice show the same number.  These are: (1, 1), (2, 2), (3, 3), (4, 4), (5, 5), and (6, 6).  There are 6 favorable outcomes.\n* **Probability:** The probability of an event is the number of favorable outcomes divided by the total number of possible outcomes. \nTherefore, the probability of rolling the same number on both dice is 6/36, which simplifies to **1/6**. \n",
+        "Here's how to solve this problem:\n**1.  Possible Outcomes**\n* Each die has 6 sides, so there are 6 possible outcomes for each die.\n* When rolling two dice, there are 6 * 6 = 36 possible combinations.\n**2. Favorable Outcomes**\n* We want to know the probability of rolling the same number on both dice.  These are the favorable outcomes:\n    * (1, 1), (2, 2), (3, 3), (4, 4), (5, 5), (6, 6)\n**3. Calculate the Probability**\n* There are 6 favorable outcomes.\n* The probability of an event is calculated as: (Number of favorable outcomes) / (Total number of possible outcomes)\nTherefore, the probability of rolling the same number on both dice is  **6/36**, which simplifies to **1/6**. \n",
+        "Here's how to solve this step-by-step:\n1. **Possible Outcomes:**  There are 6 possible outcomes for each die, and since we're rolling two dice, there are 6 * 6 = 36 total possible combinations.\n2. **Favorable Outcomes:** To roll the same number on both dice, we have these possibilities: (1, 1), (2, 2), (3, 3), (4, 4), (5, 5), and (6, 6).  That's 6 favorable outcomes.\n3. **Probability:** The probability of an event is the number of favorable outcomes divided by the total number of possible outcomes. \n   Therefore, the probability of rolling the same number on both dice is 6/36, which simplifies to **1/6**. \n"
+    ],
+    "pred_answers": "6",
+    "final_pred_answer": [
+        "6",
+        "1",
+        "6",
+        "6",
+        "6"
+    ],
+    "ground_truth": "6"
+}

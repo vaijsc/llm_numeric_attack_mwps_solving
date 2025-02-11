@@ -1,0 +1,23 @@
+{
+    "problem": "If $Q = 11-5i$, $E = 11+5i$, and $D = 2i$, find $Q\\cdot E \\cdot D$.",
+    "level": "Level 4",
+    "type": "Algebra",
+    "solution": "\\begin{align*}\nQED &= (11-5i)(11+5i)2i\\\\\n&=2i(121-(5i)^2)\\\\\n&=2i(121+25)\\\\\n&=\\boxed{292i}.\n\\end{align*}",
+    "prompt": "### Instruction: If $Q = 11-5i$, $E = 11+5i$, and $D = 2i$, find $Q\\cdot E \\cdot D$.\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "Here's how to solve the problem step-by-step:\n**1. Multiply Q and E:**\n*  We have Q = 11 - 5i and E = 11 + 5i. This is a special case where we have complex conjugates. \n*  The product of complex conjugates is always a real number: (a + bi)(a - bi) = a\u00b2 + b\u00b2\n*  Therefore, Q * E = (11 - 5i)(11 + 5i) = 11\u00b2 + 5\u00b2 = 121 + 25 = 146\n**2. Multiply the result by D:**\n* Now we have Q * E = 146 and D = 2i\n*  Multiplying 146 by 2i gives us: 146 * 2i = 292i\n**Therefore, Q * E * D = 292i** \n",
+        "Here's how to solve this problem step-by-step:\n**1. Multiply Q and E:**\n*  We have complex numbers in the form a + bi.  To multiply them, we use the distributive property (or FOIL method): \n   (a + bi)(c + di) = ac + adi + bci + bdi\u00b2\n* Remember that i\u00b2 = -1\n* Applying this to Q and E:\n   (11 - 5i)(11 + 5i) = (11 * 11) + (11 * 5i) + (-5i * 11) + (-5i * 5i) \n                      = 121 + 55i - 55i - 25i\u00b2 \n                      = 121 - 25(-1)  \n                      = 121 + 25 \n                      = 146\n**2. Multiply the result by D:**\n* Now we have (146) * (2i) = 292i\n**Therefore, Q * E * D = 292i** \n",
+        "Here's how to solve the problem step-by-step:\n**1. Multiply Q and E:**\n*  Recall that when multiplying complex numbers, we distribute just like with binomials.\n*  (11 - 5i) * (11 + 5i) = (11 * 11) + (11 * 5i) + (-5i * 11) + (-5i * 5i)\n*  Simplify: 121 + 55i - 55i - 25i\u00b2 \n*  Remember that i\u00b2 = -1. Substitute: 121 - 25(-1) = 121 + 25 = 146\n**2. Multiply the result by D:**\n*  146 * 2i = 292i\n**Therefore, Q * E * D = 292i** \n",
+        "Here's how to solve this problem step-by-step:\n**1. Multiply Q and E:**\n* Recall that multiplying complex numbers involves the distributive property (like FOIL for binomials) and the fact that  i\u00b2 = -1.\n*  Q * E = (11 - 5i) * (11 + 5i)\n*  = 11(11) + 11(5i) - 5i(11) - 5i(5i)\n*  = 121 + 55i - 55i - 25i\u00b2\n*  = 121 - 25(-1)  (since i\u00b2 = -1)\n*  = 121 + 25\n*  = 146\n**2. Multiply the result by D:**\n* Now we have 146 * 2i\n*  = 292i\n**Therefore, Q * E * D = 292i** \n",
+        "Here's how to find the product $Q \\cdot E \\cdot D$ step-by-step:\n**1. Multiply Q and E:**\n*  We'll use the distributive property (FOIL) to multiply complex numbers:\n   *  (a + bi)(c + di) = ac + adi + bci + bdi\u00b2\n   *  Remember that i\u00b2 = -1\n*  Applying this to Q and E:\n   *  (11 - 5i)(11 + 5i) = 11(11) + 11(5i) - 5i(11) - 5i(5i)\n   *  = 121 + 55i - 55i - 25i\u00b2 \n   *  = 121 - 25(-1)  \n   *  = 121 + 25 \n   *  = 146\n**2. Multiply the result by D:**\n*  Now we multiply 146 by 2i:\n   *  146 * 2i = 292i\n**Therefore, Q * E * D = 292i** \n"
+    ],
+    "pred_answers": "292",
+    "final_pred_answer": [
+        "292",
+        "292",
+        "292",
+        "292",
+        "292"
+    ],
+    "ground_truth": "292"
+}

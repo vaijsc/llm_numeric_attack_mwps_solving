@@ -1,0 +1,23 @@
+{
+    "problem": "Evaluate $\\lfloor 11.1 \\rfloor + 2 \\cdot \\lfloor 0.5 \\cdot 11.1 \\rfloor .$",
+    "level": "Level 3",
+    "type": "Algebra",
+    "solution": "Since $11 < 11.1 < 12$ we have $\\lfloor 11.1 \\rfloor = 11.$  Next we have that  $2 \\cdot \\lfloor 0.5 \\cdot 11.1 \\rfloor = 2 \\lfloor 5.55 \\rfloor = 2 \\cdot 5 = 10.$ Therefore, $\\lfloor 11.1 \\rfloor + 2 \\cdot \\lfloor 0.5 \\cdot 11.1 \\rfloor = \\boxed{21}.$",
+    "prompt": "### Instruction: Evaluate $\\lfloor 11.1 \\rfloor + 2 \\cdot \\lfloor 0.5 \\cdot 11.1 \\rfloor .$\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "Here's how to solve the problem step-by-step:\n* **Understanding the Floor Function:** The floor function, denoted by $\\lfloor x \\rfloor$, gives the greatest integer less than or equal to *x*. \n1. **Calculate  $\\lfloor 11.1 \\rfloor$:**  The greatest integer less than or equal to 11.1 is 11. So, $\\lfloor 11.1 \\rfloor = 11$.\n2. **Calculate  $0.5 \\cdot 11.1$:**  This equals 5.55.\n3. **Calculate $\\lfloor 0.5 \\cdot 11.1 \\rfloor$:**  The greatest integer less than or equal to 5.55 is 5. So, $\\lfloor 0.5 \\cdot 11.1 \\rfloor = 5$.\n4. **Substitute and Simplify:** Now we have: \n   $\\lfloor 11.1 \\rfloor + 2 \\cdot \\lfloor 0.5 \\cdot 11.1 \\rfloor = 11 + 2 \\cdot 5 = 11 + 10 = 21$\n**Therefore,  $\\lfloor 11.1 \\rfloor + 2 \\cdot \\lfloor 0.5 \\cdot 11.1 \\rfloor = 21$.** \n",
+        "Here's how to solve the problem step by step:\n* **Understanding the floor function:** The floor function, denoted by $\\lfloor x \\rfloor$, gives the greatest integer less than or equal to *x*.\n* **Step 1: Evaluate  $\\lfloor 11.1 \\rfloor$**\n   The greatest integer less than or equal to 11.1 is 11. So, $\\lfloor 11.1 \\rfloor = 11$.\n* **Step 2: Evaluate  $0.5 \\cdot 11.1$**\n   This is equal to 5.55.\n* **Step 3: Evaluate $\\lfloor 0.5 \\cdot 11.1 \\rfloor$** \n   The greatest integer less than or equal to 5.55 is 5. So, $\\lfloor 0.5 \\cdot 11.1 \\rfloor = 5$.\n* **Step 4: Calculate the final expression**\n   Substitute the values we found: \n   $\\lfloor 11.1 \\rfloor + 2 \\cdot \\lfloor 0.5 \\cdot 11.1 \\rfloor = 11 + 2 \\cdot 5 = 11 + 10 = \\boxed{21}$. \n",
+        "Here's how to evaluate the expression step by step:\n* **Understanding Floor Function:** The floor function, denoted by $\\lfloor x \\rfloor$, gives the greatest integer less than or equal to *x*. \n1. **Evaluate the first floor function:**\n   *  $\\lfloor 11.1 \\rfloor = 11$  (The greatest integer less than or equal to 11.1 is 11)\n2. **Evaluate the second floor function:**\n   *  $0.5 \\cdot 11.1 = 5.55$\n   *  $\\lfloor 5.55 \\rfloor = 5$ (The greatest integer less than or equal to 5.55 is 5)\n3. **Substitute and calculate:**\n   *  $\\lfloor 11.1 \\rfloor + 2 \\cdot \\lfloor 0.5 \\cdot 11.1 \\rfloor = 11 + 2 \\cdot 5 = 11 + 10 = \\boxed{21}$ \n",
+        "Here's how to evaluate the expression step-by-step:\n* **Understanding the floor function:** The floor function, denoted by $\\lfloor x \\rfloor$, gives the greatest integer less than or equal to $x$. \n1. **Evaluate $\\lfloor 11.1 \\rfloor$:** The greatest integer less than or equal to 11.1 is 11.  So, $\\lfloor 11.1 \\rfloor = 11$.\n2. **Evaluate  $0.5 \\cdot 11.1$:**  This equals 5.55.\n3. **Evaluate $\\lfloor 0.5 \\cdot 11.1 \\rfloor$:** The greatest integer less than or equal to 5.55 is 5. So, $\\lfloor 0.5 \\cdot 11.1 \\rfloor = 5$.\n4. **Substitute and calculate:** Now we have:\n   $\\lfloor 11.1 \\rfloor + 2 \\cdot \\lfloor 0.5 \\cdot 11.1 \\rfloor = 11 + 2 \\cdot 5 = 11 + 10 = 21$\n**Therefore, $\\lfloor 11.1 \\rfloor + 2 \\cdot \\lfloor 0.5 \\cdot 11.1 \\rfloor = 21$.** \n",
+        "Here's how to evaluate the expression step-by-step:\n1. **Floor of 11.1:** The floor function, denoted by $\\lfloor x \\rfloor$, gives the greatest integer less than or equal to  *x*. So, $\\lfloor 11.1 \\rfloor = 11$.\n2. **0.5 times 11.1:**  0.5 times 11.1 equals 5.55.\n3. **Floor of 5.55:** The greatest integer less than or equal to 5.55 is 5, so $\\lfloor 5.55 \\rfloor = 5$.\n4. **Double the floor of 5.55:**  2 times 5 equals 10.\n5. **Add the results:**  11 + 10 = 21.\nTherefore, $\\lfloor 11.1 \\rfloor + 2 \\cdot \\lfloor 0.5 \\cdot 11.1 \\rfloor = \\boxed{21}$. \n"
+    ],
+    "pred_answers": "21",
+    "final_pred_answer": [
+        "21",
+        "21",
+        "21",
+        "21",
+        "21"
+    ],
+    "ground_truth": "21"
+}

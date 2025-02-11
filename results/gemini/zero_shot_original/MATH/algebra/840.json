@@ -1,0 +1,23 @@
+{
+    "problem": "Three pencils and a jumbo eraser cost $\\$1.24$. Five pencils and a jumbo eraser cost $\\$1.82$. No prices include tax. In cents, what is the cost of a pencil?",
+    "level": "Level 2",
+    "type": "Algebra",
+    "solution": "Call the price of a pencil $p$ and the price of a jumbo eraser $e$, in terms of cents. We can use the following system of equations to represent the information given: \\begin{align*}\n3p + e &= 124 \\\\\n5p + e &= 182 \\\\\n\\end{align*} Subtracting the first equation from the second gives $2p = 58$, or $p = 29$. Thus, the cost of a pencil is $\\boxed{29}$ cents.",
+    "prompt": "### Instruction: Three pencils and a jumbo eraser cost $\\$1.24$. Five pencils and a jumbo eraser cost $\\$1.82$. No prices include tax. In cents, what is the cost of a pencil?\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "Here's how to solve this problem step-by-step:\n**1. Set up equations:**\n* Let 'x' represent the cost of a pencil in cents.\n* Let 'y' represent the cost of a jumbo eraser in cents.\nWe can set up two equations based on the given information:\n* Equation 1: 3x + y = 124  (Since $1.24 is equal to 124 cents)\n* Equation 2: 5x + y = 182  (Since $1.82 is equal to 182 cents)\n**2. Solve for 'y' in terms of 'x':**\n*  Subtract Equation 1 from Equation 2: \n   (5x + y) - (3x + y) = 182 - 124\n*  Simplify: 2x = 58\n*  Solve for 'x': x = 29\n**Answer:** The cost of a pencil is **29 cents**. \n",
+        "Here's how to solve this problem step-by-step:\n**1. Set up equations:**\n* Let  'x' represent the cost of a pencil in cents.\n* Let 'y' represent the cost of a jumbo eraser in cents.\nWe can write two equations based on the given information:\n* Equation 1: 3x + y = 124  (Since $1.24 is equal to 124 cents)\n* Equation 2: 5x + y = 182  (Since $1.82 is equal to 182 cents)\n**2. Eliminate 'y':**\n* Subtract Equation 1 from Equation 2:\n   (5x + y) - (3x + y) = 182 - 124\n* This simplifies to: 2x = 58\n**3. Solve for 'x':**\n* Divide both sides of the equation by 2:\n   x = 29\n**Answer:** The cost of a pencil is **29 cents**. \n",
+        "Here's how to solve this problem step-by-step:\n**1. Set up a system of equations:**\n* Let  'x' represent the cost of a pencil in cents.\n* Let 'y' represent the cost of a jumbo eraser in cents.\nWe can translate the given information into two equations:\n* Equation 1: 3x + y = 124 (Since $1.24 is equal to 124 cents)\n* Equation 2: 5x + y = 182 \n**2. Solve for 'y' in one of the equations:**\nLet's solve Equation 1 for 'y':\n* y = 124 - 3x\n**3. Substitute the value of 'y' into the other equation:**\nSubstitute (124 - 3x) for 'y' in Equation 2:\n* 5x + (124 - 3x) = 182\n**4. Simplify and solve for 'x':**\n* 2x + 124 = 182\n* 2x = 58\n* x = 29\n**Answer:**  The cost of a pencil is **29 cents**. \n",
+        "Here's how to solve this problem step-by-step:\n**1. Set up equations:**\n* Let 'x' represent the cost of a pencil in cents.\n* Let 'y' represent the cost of a jumbo eraser in cents.\nWe can translate the given information into equations:\n*  Equation 1: 3x + y = 124 (Three pencils and an eraser cost $1.24, which is 124 cents)\n*  Equation 2: 5x + y = 182 (Five pencils and an eraser cost $1.82, which is 182 cents)\n**2. Solve for 'x' (the cost of a pencil):**\n* **Eliminate 'y':** Notice that both equations have 'y' with a coefficient of 1.  Subtract Equation 1 from Equation 2 to eliminate 'y':\n   (5x + y) - (3x + y) = 182 - 124\n   2x = 58\n* **Solve for 'x':** Divide both sides by 2:\n   x = 29\n**Answer:** The cost of a pencil is **29 cents**. \n",
+        "Let's break this problem down:\n* **Let 'x' represent the cost of a pencil in cents.**\n* **Let 'y' represent the cost of a jumbo eraser in cents.**\nWe can set up two equations based on the given information:\n* **Equation 1:** 3x + y = 124 (Three pencils and an eraser cost $1.24, or 124 cents)\n* **Equation 2:** 5x + y = 182 (Five pencils and an eraser cost $1.82, or 182 cents)\nNow we can solve for 'x' (the cost of a pencil):\n1. **Subtract Equation 1 from Equation 2:** \n   (5x + y) - (3x + y) = 182 - 124\n   This simplifies to: 2x = 58\n2. **Solve for 'x':** \n   Divide both sides by 2: x = 29\n**Therefore, the cost of a pencil is 29 cents.** \n"
+    ],
+    "pred_answers": "29",
+    "final_pred_answer": [
+        "29",
+        "29",
+        "29",
+        "29",
+        "29"
+    ],
+    "ground_truth": "29"
+}

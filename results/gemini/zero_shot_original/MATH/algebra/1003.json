@@ -1,0 +1,23 @@
+{
+    "problem": "What is the domain of the function $$f(x) = \\frac{(2x-3)(2x+5)}{(3x-9)(3x+6)}~?$$ Express your answer as an interval or as a union of intervals.",
+    "level": "Level 5",
+    "type": "Algebra",
+    "solution": "We have $x$ in the domain of $f(x)$ as long as the denominator, $(3x-9)(3x+6)$, is nonzero. This is true for all $x$ except the solutions to the equations $3x-9=0$ and $3x+6=0$. These solutions are $x=3$ and $x=-2$, respectively.\n\nTherefore, the domain of $f(x)$ is all real numbers except $3$ and $-2$. Expressed as a union of intervals, the domain is $\\boxed{(-\\infty,-2)\\cup (-2,3)\\cup (3,\\infty)}$.",
+    "prompt": "### Instruction: What is the domain of the function $$f(x) = \\frac{(2x-3)(2x+5)}{(3x-9)(3x+6)}~?$$ Express your answer as an interval or as a union of intervals.\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "The domain of a rational function (a function that is a fraction with polynomials in the numerator and denominator) is all real numbers except for the values that make the denominator zero.  \n1. **Find the values that make the denominator zero:**\n   We need to solve the equation:\n   (3x - 9)(3x + 6) = 0\n   This factors as:\n   3(x - 3) * 3(x + 2) = 0\n   Therefore, the denominator is zero when x = 3 or x = -2.\n2. **Exclude these values from the domain:**\n   The domain of the function is all real numbers except for x = 3 and x = -2.  We can express this in interval notation as:\n   **(-\u221e, -2) U (-2, 3) U (3, \u221e)** \n",
+        "The domain of a function is the set of all possible input values (x-values) for which the function is defined.  A rational function (a function that is a fraction with polynomials in the numerator and denominator) is undefined when the denominator is zero.  \nLet's find the values of $x$ that make the denominator zero:\n* $(3x - 9)(3x + 6) = 0$\n* This factors into  $3(x-3) \\cdot 3(x+2) = 0$\n* This gives us $x = 3$ and $x = -2$\nTherefore, the function is undefined at $x = 3$ and $x = -2$. The domain is all real numbers except for these two values.  We can express this in interval notation as:\n**Domain:  $(-\\infty, -2) \\cup (-2, 3) \\cup (3, \\infty)$** \n",
+        "The domain of a rational function is all real numbers except for the values that make the denominator zero. So, we need to find the values of $x$ that make the denominator, $(3x-9)(3x+6)$, equal to zero.\n**Step 1: Factor the denominator.**\nThe denominator factors as $(3x-9)(3x+6) = 3(x-3)(3)(x+2) = 9(x-3)(x+2)$.\n**Step 2: Find the values that make the denominator zero.**\nThe denominator is zero when either $x-3=0$ or $x+2=0$. Solving these equations, we find $x=3$ and $x=-2$.\n**Step 3: Exclude those values from the domain.**\nTherefore, the domain of the function is all real numbers except for $x=3$ and $x=-2$.  We can express this in interval notation as:\n**Domain:  $(-\\infty, -2) \\cup (-2, 3) \\cup (3, \\infty)$** \n",
+        "The domain of a function is the set of all possible input values (x-values) for which the function is defined.  A rational function (a function that is a fraction with polynomials in the numerator and denominator) is undefined when the denominator is zero.\n1. **Find the values of x that make the denominator zero:** \n   * We need to solve the equation (3x-9)(3x+6) = 0.\n   * This equation is true when 3x - 9 = 0 or 3x + 6 = 0.\n   * Solving these equations, we find x = 3 or x = -2.\n2. **Exclude these values from the domain:**\n   * The function is undefined at x = 3 and x = -2.\n3. **Express the domain in interval notation:**\n   * The domain is all real numbers except for x = 3 and x = -2. This can be expressed as:\n     **(-\u221e, -2) U (-2, 3) U (3, \u221e)** \n",
+        "The domain of a rational function is all real numbers except for the values of *x* that make the denominator equal to zero. \n1. **Find the values of *x* that make the denominator zero:**\n   *  Set the denominator equal to zero: (3x - 9)(3x + 6) = 0\n   *  Solve for *x*: \n      * 3x - 9 = 0  =>  x = 3\n      * 3x + 6 = 0  => x = -2\n2. **Exclude these values from the domain:**  The function is undefined at x = 3 and x = -2.\n3. **Express the domain in interval notation:**\n   * The domain is all real numbers except for x = 3 and x = -2. \n   * We can express this as a union of intervals:  **(-\u221e, -2) \u222a (-2, 3) \u222a (3, \u221e)** \n"
+    ],
+    "pred_answers": "3",
+    "final_pred_answer": [
+        "3",
+        "3",
+        "3",
+        "3",
+        "3"
+    ],
+    "ground_truth": "3"
+}

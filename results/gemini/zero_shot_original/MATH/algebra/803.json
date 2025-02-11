@@ -1,0 +1,23 @@
+{
+    "problem": "The product of two consecutive odd whole numbers is 255. What is the greater number?",
+    "level": "Level 2",
+    "type": "Algebra",
+    "solution": "Let $2n-1, 2n+1$ be two consecutive odd whole numbers. We know $(2n-1)(2n+1)=4n^2-1=255\\Leftrightarrow n^2=64$. $n$ is a whole number, so $n=8$. The greater number is $2n+1=2\\cdot8+1=\\boxed{17}$.",
+    "prompt": "### Instruction: The product of two consecutive odd whole numbers is 255. What is the greater number?\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "Here's how to solve the problem step-by-step:\n**1. Set up the equation:**\n* Let 'x' represent the smaller odd number.\n* The next consecutive odd number is 'x + 2'.\n* The product of these numbers is 255, so we have the equation: x(x + 2) = 255\n**2. Expand and solve the equation:**\n* x\u00b2 + 2x = 255\n* x\u00b2 + 2x - 255 = 0\n* Factor the quadratic equation: (x + 17)(x - 15) = 0\n* This gives us two possible solutions: x = -17 or x = 15\n**3. Determine the correct solution:**\n* Since we are looking for whole numbers, we discard the negative solution. \n* Therefore, the smaller odd number (x) is 15.\n**4. Find the greater number:**\n* The greater odd number is x + 2, which is 15 + 2 = 17\n**Answer:** The greater number is **17**. \n",
+        "Here's how to solve the problem:\n**1. Set up the equation:**\n* Let 'x' represent the smaller odd number.\n* The next consecutive odd number is 'x + 2'.\n* The product of these numbers is 255, so we have the equation: x(x + 2) = 255\n**2. Solve the equation:**\n* Expand the equation: x\u00b2 + 2x = 255\n* Move all terms to one side: x\u00b2 + 2x - 255 = 0\n* Factor the quadratic equation: (x + 17)(x - 15) = 0\n* Solve for x:  x = -17 or x = 15\n**3. Determine the greater number:**\n* We are looking for whole numbers, so x = 15 is the valid solution.\n* The greater consecutive odd number is x + 2 = 15 + 2 = 17\n**Answer:** The greater number is **17**. \n",
+        "Here's how to solve this problem:\n**1. Set up the equation:**\n* Let the smaller odd number be represented by  'x'.\n* The next consecutive odd number would be 'x + 2'.\n* The product of these two numbers is 255, so we can write the equation:  x(x + 2) = 255\n**2. Solve the equation:**\n* Expand the equation: x\u00b2 + 2x = 255\n* Move all terms to one side: x\u00b2 + 2x - 255 = 0\n* Factor the quadratic equation: (x + 17)(x - 15) = 0\n* Solve for x: \n    * x + 17 = 0  =>  x = -17\n    * x - 15 = 0  =>  x = 15\n**3. Find the greater number:**\n* We are looking for whole numbers, so we discard the negative solution (-17).\n* The smaller number is 15.\n* The greater number is 15 + 2 = **17** \n",
+        "Here's how to solve the problem step-by-step:\n**1. Define the variables:**\n* Let 'x' be the smaller odd whole number.\n* The next consecutive odd number is 'x + 2'.\n**2. Set up the equation:**\n* The product of the two numbers is 255, so we have the equation: x(x + 2) = 255\n**3. Solve the equation:**\n* Expand the equation: x\u00b2 + 2x = 255\n* Move all terms to one side: x\u00b2 + 2x - 255 = 0\n* Factor the quadratic equation: (x + 17)(x - 15) = 0\n* Solve for x: x = -17 or x = 15 \n**4. Determine the greater number:**\n* Since we're looking for whole numbers, we discard the negative solution. \n* The smaller number (x) is 15.\n* The greater number (x + 2) is 15 + 2 = 17.\n**Answer:** The greater number is **17**. \n",
+        "Here's how to solve this problem:\n**1. Understand Consecutive Odd Numbers**\nConsecutive odd numbers follow a pattern: they increase by 2 each time.  Examples:\n* 1 and 3\n* 5 and 7\n* 11 and 13\n**2. Set Up the Equation**\nLet...\n*  'x' represent the smaller odd number\n* 'x + 2' represent the larger odd number\nThe problem states that their product is 255, so we can write the equation:\nx * (x + 2) = 255\n**3. Solve the Equation**\n* Expand the equation: x\u00b2 + 2x = 255\n* Move all terms to one side: x\u00b2 + 2x - 255 = 0\n* Factor the quadratic equation: (x + 17)(x - 15) = 0\n* Solve for x: \n    * x + 17 = 0  =>  x = -17 \n    * x - 15 = 0  =>  x = 15 \nSince we're looking for whole numbers, we discard the negative solution.\n**4. Find the Greater Number**\nWe know the smaller number (x) is 15. The larger number is:\nx + 2 = 15 + 2 = 17\n**Answer:** The greater number is **17**. \n"
+    ],
+    "pred_answers": "17",
+    "final_pred_answer": [
+        "17",
+        "17",
+        "17",
+        "17",
+        "17"
+    ],
+    "ground_truth": "17"
+}

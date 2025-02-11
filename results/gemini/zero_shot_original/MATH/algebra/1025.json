@@ -1,0 +1,23 @@
+{
+    "problem": "Expand the product ${6(x+2)(x+3)}$.",
+    "level": "Level 2",
+    "type": "Algebra",
+    "solution": "First, we use the distributive property to expand the first two factors:\n\n\\begin{align*}\n6(x+2)(x+3) &= (6\\cdot x + 6 \\cdot 2) (x+3)\\\\\n&=(6x+12)(x+3)\n\\end{align*}We use the distributive property again by adding the product of $6x+12$ and $x$ to the product of $6x+12$ and 3:\n\n\\begin{align*}\n(6x+12)(x+3) &= (6x+12) \\cdot x +(6x+12) \\cdot 3\\\\\n&= x(6x+12) + 3(6x+12)\n\\end{align*}We use the distributive property again and combine like terms:\n\n\\begin{align*}\nx(6x+12) + 3(6x+12) &= 6x^2 + 12x + 18x+ 36\\\\\n&= \\boxed{6x^2 + 30x + 36}\n\\end{align*}",
+    "prompt": "### Instruction: Expand the product ${6(x+2)(x+3)}$.\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "1. **Expand the first two factors:** \n   \n   We can use the distributive property or FOIL method to expand (x+2)(x+3).\n   * **Distributive Property:**\n      * (x+2)(x+3) = x(x+3) + 2(x+3) \n      * = x\u00b2 + 3x + 2x + 6 \n      * = x\u00b2 + 5x + 6\n   * **FOIL:**\n      * (x+2)(x+3) = **F**irst (x * x) + **O**uter (x * 3) + **I**nner (2 * x) + **L**ast (2 * 3)\n      * = x\u00b2 + 3x + 2x + 6 \n      * = x\u00b2 + 5x + 6\n2. **Multiply the result by 6:**\n   \n   Now, we need to multiply the expanded expression (x\u00b2 + 5x + 6) by 6. \n   * 6(x\u00b2 + 5x + 6) = 6x\u00b2 + 30x + 36\n**Therefore, the expanded product is 6x\u00b2 + 30x + 36.** \n",
+        "**Step 1: Expand the first two factors.**\nWe can expand  $(x+2)(x+3)$ using the FOIL method:\n* **F**irst: $x \\cdot x = x^2$\n* **O**uter: $x \\cdot 3 = 3x$\n* **I**nner: $2 \\cdot x = 2x$\n* **L**ast: $2 \\cdot 3 = 6$\nSo, $(x+2)(x+3) = x^2 + 3x + 2x + 6 = x^2 + 5x + 6$\n**Step 2: Multiply the result by 6.**\nNow we have: \n$6(x+2)(x+3) = 6(x^2 + 5x + 6)$\nDistribute the 6:\n$6(x^2 + 5x + 6) = \\boxed{6x^2 + 30x + 36}$ \n",
+        "Here's how to expand the product step by step:\n**1. Expand the first two factors:**\n*  $(x+2)(x+3) = x(x+3) + 2(x+3)$ \n*  $= x^2 + 3x + 2x + 6$\n*  $= x^2 + 5x + 6$\n**2. Multiply the result by 6:**\n*  $6(x^2 + 5x + 6) = 6x^2 + 30x + 36$\n**Therefore, the expanded product is 6x\u00b2 + 30x + 36.** \n",
+        "Here's how to expand the product step-by-step:\n**1. Expand the first two factors:**\n*  Use the distributive property (FOIL method) to expand $(x+2)(x+3)$:\n    * (x * x) + (x * 3) + (2 * x) + (2 * 3)\n    * x\u00b2 + 3x + 2x + 6\n**2. Combine like terms:**\n* x\u00b2 + 5x + 6\n**3. Multiply the remaining factor:**\n* 6(x\u00b2 + 5x + 6)\n* 6x\u00b2 + 30x + 36\n**Therefore, the expanded form of  6(x+2)(x+3) is 6x\u00b2 + 30x + 36.** \n",
+        "**1. Expand the first two factors:**\n   *  (x + 2)(x + 3) = x(x + 3) + 2(x + 3)\n   *  = x\u00b2 + 3x + 2x + 6\n   *  = x\u00b2 + 5x + 6\n**2. Multiply the result by 6:**\n   *  6(x\u00b2 + 5x + 6) = 6x\u00b2 + 30x + 36\n**Therefore, the expanded product is 6x\u00b2 + 30x + 36.** \n"
+    ],
+    "pred_answers": "36",
+    "final_pred_answer": [
+        "36",
+        "36",
+        "36",
+        "36",
+        "36"
+    ],
+    "ground_truth": "36"
+}

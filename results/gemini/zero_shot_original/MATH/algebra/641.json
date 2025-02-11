@@ -1,0 +1,23 @@
+{
+    "problem": "If $y = 8 - 5x +4x^2$, what is the value of $y$ when $x=-2$?",
+    "level": "Level 1",
+    "type": "Algebra",
+    "solution": "We have $y=8-5x +4x^2 = 8-5(-2) +4(-2)^2 = 8+10 + 4(4) = 8+10 + 16 = \\boxed{34}$.",
+    "prompt": "### Instruction: If $y = 8 - 5x +4x^2$, what is the value of $y$ when $x=-2$?\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "1. **Substitute:**  Replace every 'x' in the equation with -2. \n   \n   This gives us:  y = 8 - 5(-2) + 4(-2)^2\n2. **Simplify:**  Follow the order of operations (PEMDAS/BODMAS):\n   * **Exponents:**  (-2)^2 = 4\n   * **Multiplication:** -5(-2) = 10 and 4(4) = 16\n   * **Addition and Subtraction:** y = 8 + 10 + 16 \n3. **Calculate:**  y = 34\n**Therefore, the value of y when x = -2 is 34.** \n",
+        "1. **Substitute the value of x:** Since we're given that x = -2, we substitute this into the equation for *y*: \n   y = 8 - 5(-2) + 4(-2)^2\n2. **Simplify using order of operations (PEMDAS):**\n   * **Parentheses/Brackets:**  -2^2 = 4\n   * **Exponents:**  4(-2)^2 = 4(4) = 16\n   * **Multiplication:** -5(-2) = 10\n   * **Addition/Subtraction:** y = 8 + 10 + 16 \n3. **Calculate the final result:**\n   y = 34\n**Therefore, the value of y when x = -2 is 34.** \n",
+        "1. **Substitute:**  We are given the equation  y = 8 - 5x + 4x\u00b2 and we are told x = -2.  So, substitute -2 for x in the equation.\n   y = 8 - 5(-2) + 4(-2)\u00b2\n2. **Simplify:** Now we have a simple arithmetic problem. Remember to follow the order of operations (PEMDAS/BODMAS):\n   * **Parentheses/Brackets** (none in this case)\n   * **Exponents** (-2)\u00b2 = 4\n   * **Multiplication** 5(-2) = -10 and 4(4) = 16\n   * **Addition/Subtraction** \n   y = 8 + 10 + 16\n3. **Calculate:** \n   y = 34\n**Therefore, the value of y when x = -2 is 34.** \n",
+        "1. **Substitute:**  Replace every 'x' in the equation with -2.\n   \n   This gives us:  y = 8 - 5(-2) + 4(-2)^2\n2. **Simplify:**  Follow the order of operations (PEMDAS/BODMAS):\n   * **Exponents:**  (-2)^2 = 4\n   * **Multiplication:**  5(-2) = -10  and  4(4) = 16\n   * **Addition and Subtraction:**  y = 8 + 10 + 16\n3. **Calculate:**  y = 34\n**Therefore, the value of y when x = -2 is 34.** \n",
+        "1. **Substitute:** Replace every 'x' in the equation with -2: \n   y = 8 - 5(-2) + 4(-2)^2\n2. **Simplify:** \n   *  y = 8 + 10 + 4(4)\n   *  y = 8 + 10 + 16\n3. **Calculate:**\n   *  y = 34\n**Therefore, the value of y when x = -2 is 34.** \n"
+    ],
+    "pred_answers": "34",
+    "final_pred_answer": [
+        "34",
+        "34",
+        "34",
+        "34",
+        "34"
+    ],
+    "ground_truth": "34"
+}

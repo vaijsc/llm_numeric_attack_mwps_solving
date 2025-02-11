@@ -1,0 +1,23 @@
+{
+    "problem": "If $y = 8 - 5x +4x^2$, what is the value of $y$ when $x=-2$?",
+    "level": "Level 1",
+    "type": "Algebra",
+    "solution": "We have $y=8-5x +4x^2 = 8-5(-2) +4(-2)^2 = 8+10 + 4(4) = 8+10 + 16 = \\boxed{34}$.",
+    "prompt": "### Instruction: If $y = 8 - 5x +4x^2$, what is the value of $y$ when $x=-2$?\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "To find the value of \\( y \\) when \\( x = -2 \\) in the equation \\( y = 8 - 5x + 4x^2 \\), we can follow these steps:\n1. **Substitute \\( x = -2 \\) into the equation**:\n   \\[\n   y = 8 - 5(-2) + 4(-2)^2\n   \\]\n2. **Calculate each term one by one**:\n   - First, calculate \\( -5(-2) \\):\n     \\[\n     -5(-2) = 10\n     \\]\n   - Next, calculate \\( (-2)^2 \\):\n     \\[\n     (-2)^2 = 4\n     \\]\n   - Now, calculate \\( 4(-2)^2 \\):\n     \\[\n     4 \\times 4 = 16\n     \\]\n3. **Now, substitute these values back into the equation**:\n   \\[\n   y = 8 + 10 + 16\n   \\]\n4. **Combine the terms**:\n   \\[\n   y = 8 + 10 = 18\n   \\]\n   \\[\n   y = 18 + 16 = 34\n   \\]\nThus, the value of \\( y \\) when \\( x = -2 \\) is \\(\\boxed{34}\\).",
+        "We start with the equation given for \\( y \\):\n\\[\ny = 8 - 5x + 4x^2\n\\]\nNext, we need to evaluate \\( y \\) when \\( x = -2 \\). We substitute \\(-2\\) for \\( x \\) in the equation:\n\\[\ny = 8 - 5(-2) + 4(-2)^2\n\\]\nNow, we will calculate each term in the equation step by step:\n1. Calculate \\( 5(-2) \\):\n   \\[\n   5(-2) = -10\n   \\]\n   So, \\( -5(-2) = 10 \\) (since subtracting a negative is adding). \n2. Calculate \\( (-2)^2 \\):\n   \\[\n   (-2)^2 = 4\n   \\]\n3. Multiply this result by 4:\n   \\[\n   4 \\times 4 = 16\n   \\]\nNow substituting back, we have:\n\\[\ny = 8 + 10 + 16\n\\]\nNext, we add these values together:\n\\[\n8 + 10 = 18\n\\]\n\\[\n18 + 16 = 34\n\\]\nThus, the value of \\( y \\) when \\( x = -2 \\) is:\n\\[\n\\boxed{34}\n\\]",
+        "To find the value of \\( y \\) when \\( x = -2 \\), we need to substitute \\( -2 \\) into the equation given:\n\\[\ny = 8 - 5x + 4x^2\n\\]\nSubstituting \\( x = -2 \\):\n\\[\ny = 8 - 5(-2) + 4(-2)^2\n\\]\nNow, let's calculate each term step by step.\n1. Calculate \\( -5(-2) \\):\n   \\[\n   -5(-2) = 10\n   \\]\n2. Calculate \\( (-2)^2 \\):\n   \\[\n   (-2)^2 = 4\n   \\]\n3. Calculate \\( 4 \\times 4 \\):\n   \\[\n   4(-2)^2 = 4 \\times 4 = 16\n   \\]\nNow plug these values back into the equation for \\( y \\):\n\\[\ny = 8 + 10 + 16\n\\]\nNext, add these values together:\n\\[\n8 + 10 = 18\n\\]\n\\[\n18 + 16 = 34\n\\]\nThus, the value of \\( y \\) when \\( x = -2 \\) is:\n\\[\n\\boxed{34}\n\\]",
+        "To find the value of \\( y \\) when \\( x = -2 \\), we will substitute \\( x \\) into the equation \\( y = 8 - 5x + 4x^2 \\).\n1. Start with the equation:\n   \\[\n   y = 8 - 5x + 4x^2\n   \\]\n2. Substitute \\( x = -2 \\) into the equation:\n   \\[\n   y = 8 - 5(-2) + 4(-2)^2\n   \\]\n3. Calculate \\( 5(-2) \\):\n   \\[\n   5(-2) = -10\n   \\]\n   Thus, the equation becomes:\n   \\[\n   y = 8 - (-10) + 4(-2)^2 = 8 + 10 + 4(-2)^2\n   \\]\n4. Calculate \\( (-2)^2 \\):\n   \\[\n   (-2)^2 = 4\n   \\]\n   So now we have:\n   \\[\n   y = 8 + 10 + 4(4)\n   \\]\n5. Now calculate \\( 4(4) \\):\n   \\[\n   4 \\times 4 = 16\n   \\]\n   Substitute this back into the equation:\n   \\[\n   y = 8 + 10 + 16\n   \\]\n6. Add the numbers together:\n   \\[\n   8 + 10 = 18\n   \\]\n   Then,\n   \\[\n   18 + 16 = 34\n   \\]\nThus, the value of \\( y \\) when \\( x = -2 \\) is:\n\\[\n\\boxed{34}\n\\]",
+        "We start with the equation given:\n\\[\ny = 8 - 5x + 4x^2\n\\]\nWe need to substitute \\( x = -2 \\) into the equation. So, we replace \\( x \\) with \\(-2\\):\n\\[\ny = 8 - 5(-2) + 4(-2)^2\n\\]\nNow, let's calculate each term step by step:\n1. Calculate \\( -5(-2) \\):\n   \\[\n   -5(-2) = 10\n   \\]\n2. Calculate \\( (-2)^2 \\):\n   \\[\n   (-2)^2 = 4\n   \\]\n   \n   Then calculate \\( 4(-2)^2 \\):\n   \\[\n   4 \\cdot 4 = 16\n   \\]\nNow, we can substitute these values back into our expression for \\( y \\):\n\\[\ny = 8 + 10 + 16\n\\]\nNext, we need to add these values together:\n1. First, add \\( 8 + 10 \\):\n   \\[\n   8 + 10 = 18\n   \\]\n2. Then add \\( 18 + 16 \\):\n   \\[\n   18 + 16 = 34\n   \\]\nThus, the value of \\( y \\) when \\( x = -2 \\) is:\n\\[\n\\boxed{34}\n\\]"
+    ],
+    "pred_answers": "34",
+    "final_pred_answer": [
+        "34",
+        "34",
+        "34",
+        "34",
+        "34"
+    ],
+    "ground_truth": "34"
+}

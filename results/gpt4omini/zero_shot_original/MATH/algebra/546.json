@@ -1,0 +1,23 @@
+{
+    "problem": "If $x = 3$ and $y = 2$, then what is the value of $\\frac{2x^3-3y^2}{6}$ ?",
+    "level": "Level 1",
+    "type": "Algebra",
+    "solution": "We have  \\[\\frac{2x^3 - 3y^2}{6} = \\frac{2(3)^3 - 3(2)^2}{6} = \\frac{2(27) - 3(4)}{6} = \\frac{54-12}{6} = \\boxed{7}.\\]",
+    "prompt": "### Instruction: If $x = 3$ and $y = 2$, then what is the value of $\\frac{2x^3-3y^2}{6}$ ?\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "To find the value of \\(\\frac{2x^3 - 3y^2}{6}\\) given \\(x = 3\\) and \\(y = 2\\), we will follow these steps:\n1. **Calculate \\(x^3\\)**:\n   \\[\n   x^3 = 3^3 = 27\n   \\]\n2. **Calculate \\(y^2\\)**:\n   \\[\n   y^2 = 2^2 = 4\n   \\]\n3. **Substitute \\(x^3\\) and \\(y^2\\) into the expression**:\n   We need to evaluate \\(2x^3 - 3y^2\\).\n   \\[\n   2x^3 = 2 \\times 27 = 54\n   \\]\n   \\[\n   3y^2 = 3 \\times 4 = 12\n   \\]\n   Now substitute these values into the expression:\n   \\[\n   2x^3 - 3y^2 = 54 - 12 = 42\n   \\]\n4. **Finally, divide by 6**:\n   \\[\n   \\frac{2x^3 - 3y^2}{6} = \\frac{42}{6} = 7\n   \\]\nThus, the value of \\(\\frac{2x^3 - 3y^2}{6}\\) is \\(\\boxed{7}\\).",
+        "Let's start with the values given for \\( x \\) and \\( y \\):\n\\[\nx = 3 \\quad \\text{and} \\quad y = 2\n\\]\nWe need to compute the expression:\n\\[\n\\frac{2x^3 - 3y^2}{6}\n\\]\nFirst, we calculate \\( x^3 \\):\n\\[\nx^3 = 3^3 = 27\n\\]\nNext, we calculate \\( y^2 \\):\n\\[\ny^2 = 2^2 = 4\n\\]\nNow we can substitute \\( x^3 \\) and \\( y^2 \\) into the expression \\( 2x^3 - 3y^2 \\):\n\\[\n2x^3 = 2 \\cdot 27 = 54\n\\]\n\\[\n3y^2 = 3 \\cdot 4 = 12\n\\]\nNow we substitute these results back into the expression:\n\\[\n2x^3 - 3y^2 = 54 - 12 = 42\n\\]\nFinally, we substitute this value back into the fraction:\n\\[\n\\frac{2x^3 - 3y^2}{6} = \\frac{42}{6} = 7\n\\]\nThus, the value of the expression is:\n\\[\n\\boxed{7}\n\\]",
+        "To find the value of \\(\\frac{2x^3 - 3y^2}{6}\\) given \\(x = 3\\) and \\(y = 2\\), we will follow these steps:\n1. **Calculate \\(x^3\\)**:\n   \\[\n   x^3 = 3^3 = 27\n   \\]\n2. **Calculate \\(y^2\\)**:\n   \\[\n   y^2 = 2^2 = 4\n   \\]\n3. **Calculate \\(2x^3\\)**:\n   \\[\n   2x^3 = 2 \\times 27 = 54\n   \\]\n4. **Calculate \\(3y^2\\)**:\n   \\[\n   3y^2 = 3 \\times 4 = 12\n   \\]\n5. **Subtract \\(3y^2\\) from \\(2x^3\\)**:\n   \\[\n   2x^3 - 3y^2 = 54 - 12 = 42\n   \\]\n6. **Divide by 6**:\n   \\[\n   \\frac{2x^3 - 3y^2}{6} = \\frac{42}{6} = 7\n   \\]\nThus, the value is \\(\\boxed{7}\\).",
+        "Given the values \\( x = 3 \\) and \\( y = 2 \\), we are to find the value of the expression \n\\[\n\\frac{2x^3 - 3y^2}{6}.\n\\]\n**Step 1: Compute \\( x^3 \\) and \\( y^2 \\)**\nFirst, we calculate \\( x^3 \\):\n\\[\nx^3 = 3^3 = 27.\n\\]\nNext, we calculate \\( y^2 \\):\n\\[\ny^2 = 2^2 = 4.\n\\]\n**Step 2: Substitute \\( x^3 \\) and \\( y^2 \\) into the expression**\nNow we substitute \\( x^3 \\) and \\( y^2 \\) into the expression:\n\\[\n2x^3 - 3y^2 = 2(27) - 3(4).\n\\]\nCalculate \\( 2(27) \\):\n\\[\n2(27) = 54.\n\\]\nCalculate \\( 3(4) \\):\n\\[\n3(4) = 12.\n\\]\n**Step 3: Compute \\( 2x^3 - 3y^2 \\)**\nNow we substitute these results back:\n\\[\n2x^3 - 3y^2 = 54 - 12 = 42.\n\\]\n**Step 4: Divide by 6**\nNow we divide by 6:\n\\[\n\\frac{42}{6} = 7.\n\\]\n### Final Answer\nThus, the value of the expression \\(\\frac{2x^3 - 3y^2}{6}\\) is \n\\[\n\\boxed{7}.\n\\]",
+        "To find the value of \\(\\frac{2x^3 - 3y^2}{6}\\) when \\(x = 3\\) and \\(y = 2\\), we can follow these steps:\n1. **Calculate \\(x^3\\):**\n   \\[\n   x^3 = 3^3 = 27\n   \\]\n2. **Calculate \\(y^2\\):**\n   \\[\n   y^2 = 2^2 = 4\n   \\]\n3. **Substitute \\(x^3\\) and \\(y^2\\) into the expression \\(2x^3 - 3y^2\\):**\n   \\[\n   2x^3 = 2 \\times 27 = 54\n   \\]\n   \\[\n   3y^2 = 3 \\times 4 = 12\n   \\]\n4. **Now calculate \\(2x^3 - 3y^2\\):**\n   \\[\n   2x^3 - 3y^2 = 54 - 12 = 42\n   \\]\n5. **Finally, divide by 6:**\n   \\[\n   \\frac{2x^3 - 3y^2}{6} = \\frac{42}{6} = 7\n   \\]\nTherefore, the value of \\(\\frac{2x^3 - 3y^2}{6}\\) is \\(\\boxed{7}\\)."
+    ],
+    "pred_answers": "7",
+    "final_pred_answer": [
+        "7",
+        "7",
+        "7",
+        "7",
+        "7"
+    ],
+    "ground_truth": "7"
+}

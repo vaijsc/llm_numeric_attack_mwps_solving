@@ -1,0 +1,23 @@
+{
+    "problem": "There are two solutions for the equation $x^2 - x - 6 = 0$. What is the product of these two solutions?",
+    "level": "Level 2",
+    "type": "Algebra",
+    "solution": "In a quadratic with the equation $ax^2+bx+c=0$, the product of the roots is $c/a$. Applying this formula to the problem, we have that the product of the two roots is $-6/1=\\boxed{-6}$.",
+    "prompt": "### Instruction: There are two solutions for the equation $x^2 - x - 6 = 0$. What is the product of these two solutions?\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "Here's how to solve this step-by-step:\n1. **Factor the quadratic:**\n   The equation  $x^2 - x - 6 = 0$ factors as $(x-3)(x+2) = 0$\n2. **Find the solutions:**\n   For the product to be zero, one or both of the factors must be zero.  This gives us:\n   *  x - 3 = 0  =>  x = 3\n   *  x + 2 = 0  =>  x = -2\n3. **Calculate the product:**\n   The product of the solutions is 3 * (-2) = **-6**\n**Key Idea:**  The product of the roots of a quadratic equation of the form  $ax^2 + bx + c = 0$ is equal to  $c/a$. In this case,  c = -6 and a = 1, so the product of the roots is -6/1 = -6. \n",
+        "Here's how to find the product of the solutions step-by-step:\n**1. Factor the quadratic:**\n* The quadratic factors into:  (x - 3)(x + 2) = 0\n**2. Find the solutions:**\n* For the product to be zero, one or both of the factors must be zero.\n* Setting each factor equal to zero, we get:\n    * x - 3 = 0  =>  x = 3\n    * x + 2 = 0  =>  x = -2\n**3. Calculate the product:**\n* The product of the solutions is 3 * (-2) = **-6**\n**Key Concept:**\nThe product of the roots (solutions) of a quadratic equation in the form ax\u00b2 + bx + c = 0 is always equal to c/a. In this case, c = -6 and a = 1, so the product of the roots is -6/1 = -6. \n",
+        "Here's how to solve the problem step-by-step:\n**1. Factor the quadratic equation:**\n   The equation $x^2 - x - 6 = 0$ factors into  (x - 3)(x + 2) = 0\n**2. Find the solutions:**\n   For the product of two factors to be zero, at least one of them must be zero.  Therefore:\n   *  x - 3 = 0  -->  x = 3\n   *  x + 2 = 0  -->  x = -2\n**3. Calculate the product of the solutions:**\n   The product of the two solutions is 3 * (-2) = **-6**\n**Key Concept:**\nThe product of the roots (solutions) of a quadratic equation of the form  ax\u00b2 + bx + c = 0  is always equal to c/a. In this case, c = -6 and a = 1, so the product of the roots is -6/1 = -6. \n",
+        "Here's how to solve this problem step-by-step:\n**1. Factor the quadratic equation:**\nThe equation  *x\u00b2 - x - 6 = 0*  can be factored as:\n(x - 3)(x + 2) = 0\n**2. Find the solutions:**\nFor the product of two factors to be zero, at least one of them must be zero. Therefore:\n* x - 3 = 0  =>  x = 3\n* x + 2 = 0  =>  x = -2\n**3. Calculate the product of the solutions:**\nThe two solutions are 3 and -2. Their product is:\n3 * (-2) = **-6**\n**Therefore, the product of the two solutions to the equation x\u00b2 - x - 6 = 0 is -6.** \n",
+        "Here's how to solve this problem step-by-step:\n**1. Factor the quadratic equation:**\nThe equation $x^2 - x - 6 = 0$ can be factored as: \n(x - 3)(x + 2) = 0\n**2. Find the solutions:**\nFor the product of two factors to be zero, at least one of them must be zero. So we have two possibilities:\n* x - 3 = 0  =>  x = 3\n* x + 2 = 0  =>  x = -2\n**3. Calculate the product of the solutions:**\nThe product of the two solutions is 3 * (-2) = **-6**\n**Key Idea:**  For any quadratic equation in the form ax\u00b2 + bx + c = 0, the product of its roots is always equal to c/a. In this case, c = -6 and a = 1, so the product of the roots is -6/1 = -6. \n"
+    ],
+    "pred_answers": "-6",
+    "final_pred_answer": [
+        "-6",
+        "-6",
+        "-6",
+        "-6",
+        "-6"
+    ],
+    "ground_truth": "-6"
+}

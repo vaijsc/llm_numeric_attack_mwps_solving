@@ -1,0 +1,23 @@
+{
+    "problem": "Find the largest prime factor of $9951$.",
+    "level": "Level 4",
+    "type": "Algebra",
+    "solution": "We see that  $$9951=10000-49=100^2-7^2.$$Thus, we have $$9951=(100-7)(100+7)=93(107)=3\\cdot 31\\cdot 107.$$So, the answer is $\\boxed{107}$.",
+    "prompt": "### Instruction: Find the largest prime factor of $9951$.\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "Here's how to find the largest prime factor of 9951:\n**1. Start with small prime numbers:**\n* Check if 9951 is divisible by 2. No, it's odd.\n* Check if 9951 is divisible by 3. Yes, 9951 / 3 = 3317.\n**2. Continue dividing:**\n* Now, check if 3317 is divisible by any prime number less than or equal to the square root of 3317 (which is approximately 57).  \n* You'll find that 3317 is not divisible by any prime number smaller than 57.\n**3. Conclusion:**\nSince 3317 is not divisible by any smaller primes, it must be a prime number itself.  Therefore, the largest prime factor of 9951 is **3317**. \n",
+        "Here's how to find the largest prime factor of 9951:\n**1. Start with the smallest prime number, 2:**\n* 9951 is odd, so it's not divisible by 2.\n**2. Move to the next prime number, 3:**\n* 9951 is divisible by 3 (9951 / 3 = 3317).\n**3. Check if 3317 is prime:**\n*  3317 is not divisible by 2, 3, 5, 7, 11, 13, or any prime number less than the square root of 3317 (which is approximately 57).  This means 3317 is a prime number.\n**Therefore, the largest prime factor of 9951 is 3317.** \n",
+        "Here's how to find the largest prime factor of 9951:\n**1. Start with the smallest prime number, 2:**\n* 9951 is odd, so it's not divisible by 2.\n**2. Move to the next prime number, 3:**\n* 9951 is divisible by 3 (9 + 9 + 5 + 1 = 24, which is divisible by 3).\n* 9951 / 3 = 3317\n**3. Check if 3317 is divisible by 3:**\n* 3 + 3 + 1 + 7 = 14, which is not divisible by 3. \n**4. Continue checking prime numbers (5, 7, 11, etc.):**\n* 3317 is not divisible by 5 or 7.\n* We can stop checking after 57, as the square of 57 is greater than 3317.\n**5. Check if 3317 is prime:**\n* Since we didn't find any smaller prime factors, 3317 is a prime number.\n**Therefore, the largest prime factor of 9951 is 3317.** \n",
+        "Here's how to find the largest prime factor of 9951:\n**1. Start with small prime numbers:**\n* Begin by checking if 2 divides 9951.  It doesn't.\n* Check if 3 divides 9951.  The sum of the digits of 9951 is 24, which is divisible by 3, so 9951 is divisible by 3.\n**2. Divide and repeat:**\n* 9951 / 3 = 3317 \n* Now we need to check if 3317 is prime.  \n    * It's not divisible by 2, 3, or 5.\n    *  Try dividing by larger primes (7, 11, 13, etc.).  You'll find that 3317 is divisible by 31.\n**3. Final step:**\n* 3317 / 31 = 107\n* 107 is a prime number.\n**Therefore, the largest prime factor of 9951 is 107.** \n",
+        "Here's how to find the largest prime factor of 9951:\n**1. Start with small prime numbers:**\n* Check if 9951 is divisible by 2. No, it's odd.\n* Check if 9951 is divisible by 3. Yes, 9951 / 3 = 3317.\n**2. Continue dividing by prime numbers:**\n* Check if 3317 is divisible by 3. No.\n* Check if 3317 is divisible by 5. No.\n* Check if 3317 is divisible by 7. No.\n* Check if 3317 is divisible by 11. No.\n* Continue checking divisibility by prime numbers (13, 17, 19, etc.)\n**3. Finding the largest prime factor:**\n* Eventually, you'll find that 3317 is divisible by 29: 3317 / 29 = 114.\n**4. Check if the quotient is prime:**\n* 114 is not prime (it's divisible by 2, 3, and 6). However, we are looking for the *largest* prime factor.\n**Therefore, the largest prime factor of 9951 is 3317.** \n"
+    ],
+    "pred_answers": "3317",
+    "final_pred_answer": [
+        "3317",
+        "3317",
+        "3317",
+        "107",
+        "3317"
+    ],
+    "ground_truth": "107"
+}

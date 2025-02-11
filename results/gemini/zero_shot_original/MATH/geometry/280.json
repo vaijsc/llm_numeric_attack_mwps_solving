@@ -1,0 +1,23 @@
+{
+    "problem": "Compute $\\tan 180^\\circ$.",
+    "level": "Level 1",
+    "type": "Geometry",
+    "solution": "Rotating the point $(1,0)$ about the origin by $180^\\circ$ counterclockwise gives us the point $(-1,0)$, so $\\tan 180^\\circ = \\frac{\\sin 180^\\circ}{\\cos 180^\\circ} = \\frac{0}{-1} = \\boxed{0}$.",
+    "prompt": "### Instruction: Compute $\\tan 180^\\circ$.\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "Here's how to compute $\\tan 180^\\circ$:\n**1. Understand Tangent**\n* Tangent (tan) is a trigonometric function that represents the ratio of the opposite side to the adjacent side in a right triangle.\n* It can also be defined as the sine of an angle divided by the cosine of that angle: \n  *  tan \u03b8 = sin \u03b8 / cos \u03b8\n**2.  Angle of 180\u00b0**\n* An angle of 180\u00b0 lies on the negative x-axis in the unit circle.\n**3.  Coordinates on the Unit Circle**\n* The point on the unit circle corresponding to 180\u00b0 is (-1, 0).\n**4. Sine and Cosine at 180\u00b0**\n* Sine (sin) represents the y-coordinate, so sin 180\u00b0 = 0.\n* Cosine (cos) represents the x-coordinate, so cos 180\u00b0 = -1.\n**5. Calculate Tangent**\n* tan 180\u00b0 = sin 180\u00b0 / cos 180\u00b0 = 0 / -1 = **0**\n**Therefore, tan 180\u00b0 = 0** \n",
+        "Here's how to compute $\\tan 180^\\circ$:\n**Understanding Tangent**\n* **Definition:**  The tangent of an angle is the ratio of the sine of the angle to the cosine of the angle:  \n  tan \u03b8 = sin \u03b8 / cos \u03b8\n**Finding Sine and Cosine of 180\u00b0**\n* **Unit Circle:**  Consider the unit circle (a circle with radius 1).  An angle of 180\u00b0 corresponds to a point on the unit circle that lies directly to the left of the origin.\n* **Coordinates:**  The coordinates of this point are (-1, 0).\n* **Sine and Cosine:** The sine of an angle is the y-coordinate of the point on the unit circle, and the cosine is the x-coordinate. Therefore:\n    * sin 180\u00b0 = 0\n    * cos 180\u00b0 = -1\n**Calculating Tangent**\nNow we can find the tangent:\ntan 180\u00b0 = sin 180\u00b0 / cos 180\u00b0 = 0 / (-1) = **0**\n**Therefore, tan 180\u00b0 = 0** \n",
+        "Here's how to compute $\\tan 180^\\circ$:\n**1. Understand Tangent:**\n* Tangent (tan) is a trigonometric function that relates the opposite side and adjacent side of a right triangle.\n* In a unit circle (circle with radius 1),  tan(angle) = (y-coordinate)/(x-coordinate) of the point where the angle intersects the circle.\n**2.  180 degrees on the Unit Circle:**\n* An angle of 180 degrees lies on the negative x-axis of the unit circle. \n* The point of intersection is (-1, 0).\n**3. Calculate Tangent:**\n*  tan(180\u00b0) = (y-coordinate) / (x-coordinate) = 0 / -1 = 0\n**Therefore, tan 180\u00b0 = 0** \n",
+        "Here's how to compute tan 180\u00b0:\n**Understanding Tangent**\n* **Definition:** The tangent of an angle is the ratio of the sine of the angle to the cosine of the angle:  tan \u03b8 = sin \u03b8 / cos \u03b8.\n**180\u00b0 on the Unit Circle**\n* **Coordinates:** On the unit circle, 180\u00b0 corresponds to the point (-1, 0).\n* **Sine and Cosine:**  The sine of 180\u00b0 is the y-coordinate, which is 0. The cosine of 180\u00b0 is the x-coordinate, which is -1.\n**Calculation**\n* **tan 180\u00b0 = sin 180\u00b0 / cos 180\u00b0 = 0 / (-1) = 0**\n**Therefore, tan 180\u00b0 = 0.** \n",
+        "**Step 1: Understand Tangent**\nThe tangent of an angle is defined as the ratio of the sine of the angle to the cosine of the angle:\n```\ntan \u03b8 = sin \u03b8 / cos \u03b8\n```\n**Step 2: Find Sine and Cosine of 180\u00b0**\n*  **Sine of 180\u00b0:**  sin 180\u00b0 = 0\n*  **Cosine of 180\u00b0:** cos 180\u00b0 = -1\n**Step 3: Calculate Tangent**\nSubstitute the values of sine and cosine into the tangent formula:\n```\ntan 180\u00b0 = sin 180\u00b0 / cos 180\u00b0 = 0 / -1 \n```\n**Step 4: Simplify**\n```\ntan 180\u00b0 = 0\n```\n**Therefore, tan 180\u00b0 = 0** \n"
+    ],
+    "pred_answers": "0",
+    "final_pred_answer": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+    ],
+    "ground_truth": "0"
+}

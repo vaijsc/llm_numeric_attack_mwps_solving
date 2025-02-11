@@ -1,0 +1,23 @@
+{
+    "problem": "What is the value of $\\sqrt{1,\\!000,\\!000} - \\sqrt[3]{1,\\!000,\\!000}$?",
+    "level": "Level 1",
+    "type": "Algebra",
+    "solution": "We have   \\begin{align*}\n\\sqrt{1,\\!000,\\!000} - \\sqrt[3]{1,\\!000,\\!000}&= \\sqrt{10^6} - \\sqrt[3]{10^6} \\\\\n&= (10^6)^{\\frac{1}{2}} - (10^6)^{\\frac{1}{3}}\\\\\n&=10^{6\\cdot \\frac{1}{2}} - 10^{6\\cdot \\frac{1}{3}} \\\\\n&= 10^3 - 10^2 = 1000-100 =\\boxed{900}.\n\\end{align*}",
+    "prompt": "### Instruction: What is the value of $\\sqrt{1,\\!000,\\!000} - \\sqrt[3]{1,\\!000,\\!000}$?\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "Here's how to solve the problem step-by-step:\n* **Simplify the square root:**  \u221a1,000,000 = 1000 (since 1000 * 1000 = 1,000,000)\n* **Simplify the cube root:**  \u221b1,000,000 = 100 (since 100 * 100 * 100 = 1,000,000)\n* **Subtract the results:** 1000 - 100 = **900** \nTherefore, the value of \u221a1,000,000 - \u221b1,000,000 is **900**. \n",
+        "Here's how to solve the problem step-by-step:\n* **Simplify the square root:**  \u221a1,000,000 = 1000 (since 1000 * 1000 = 1,000,000)\n* **Simplify the cube root:** \u221b1,000,000 = 100 (since 100 * 100 * 100 = 1,000,000)\n* **Subtract:** 1000 - 100 = 900\n**Therefore, the value of \u221a1,000,000 - \u221b1,000,000 is 900.** \n",
+        "Here's how to solve the problem step-by-step:\n* **Simplify the square root:**  \u221a1,000,000 = 1000 (since 1000 * 1000 = 1,000,000)\n* **Simplify the cube root:**  \u221b1,000,000 = 100 (since 100 * 100 * 100 = 1,000,000)\n* **Subtract the results:** 1000 - 100 = 900\n**Therefore, the value of \u221a1,000,000 - \u221b1,000,000 is 900.** \n",
+        "Here's how to solve the problem step-by-step:\n* **Simplify the square root:**  \u221a1,000,000 = 1000 (since 1000 * 1000 = 1,000,000)\n* **Simplify the cube root:**  \u221b1,000,000 = 100 (since 100 * 100 * 100 = 1,000,000)\n* **Subtract the results:** 1000 - 100 = **900**\nTherefore, the value of \u221a1,000,000 - \u221b1,000,000 is **900**. \n",
+        "Here's how to solve the problem step-by-step:\n* **Simplify the square root:**  \u221a1,000,000 = 1000 (since 1000 * 1000 = 1,000,000)\n* **Simplify the cube root:** \u221b1,000,000 = 100 (since 100 * 100 * 100 = 1,000,000)\n* **Subtract the results:** 1000 - 100 = **900**\nTherefore, the value of \u221a1,000,000 - \u221b1,000,000 is **900**. \n"
+    ],
+    "pred_answers": "900",
+    "final_pred_answer": [
+        "900",
+        "900",
+        "900",
+        "900",
+        "900"
+    ],
+    "ground_truth": "900"
+}

@@ -1,0 +1,23 @@
+{
+    "problem": "Find the least common multiple of $6!$ and $(4!)^2.$",
+    "level": "Level 2",
+    "type": "Counting & Probability",
+    "solution": "We use the prime factorizations of $6!$ and $(4!)^2$ to find their $\\text{lcm}$ (as we would with most pairs of integers): $$ \\begin{array}{rcrcr} 6! &=& 6 \\cdot 5 \\cdot 4 \\cdot 3 \\cdot 2 \\cdot 1 &=& 2^4 \\cdot 3^2 \\cdot 5^1 \\\\ (4!)^2 &=& (4 \\cdot 3 \\cdot 2 \\cdot 1)^2 &=& 2^6 \\cdot 3^2 \\\\ \\text{lcm}[6!, (4!)^2] &=& 2^6 \\cdot 3^2 \\cdot 5^1 &=& \\boxed{2880} \\end{array} $$",
+    "prompt": "### Instruction: Find the least common multiple of $6!$ and $(4!)^2.$\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "Here's how to find the least common multiple (LCM) of $6!$ and $(4!)^2$:\n**1. Factor each term:**\n* **6!** = 6 * 5 * 4 * 3 * 2 * 1 = 2^4 * 3^2 * 5\n* **(4!)^2** = (4 * 3 * 2 * 1)^2 = (2^4 * 3)^2 = 2^8 * 3^2\n**2. Identify the highest power of each prime factor:**\n* **2:** The highest power of 2 is 8 (from (4!)^2).\n* **3:** The highest power of 3 is 2 (from both 6! and (4!)^2).\n* **5:** The highest power of 5 is 1 (from 6!).\n**3. Multiply the highest powers together:**\nLCM = 2^8 * 3^2 * 5 = 256 * 9 * 5 = **11520** \n**Therefore, the least common multiple of 6! and (4!)^2 is 11520.** \n",
+        "Here's how to find the least common multiple (LCM) of 6! and (4!)\u00b2:\n**1. Factorial Definitions**\n*  6! (6 factorial) = 6 * 5 * 4 * 3 * 2 * 1 = 720\n*  4! (4 factorial) = 4 * 3 * 2 * 1 = 24\n*  (4!)\u00b2 = 24 * 24 = 576\n**2. Prime Factorization**\n*  720 = 2\u2074 * 3\u00b2 * 5\u00b9\n*  576 = 2\u2076 * 3\u00b2 \n**3. Finding the LCM**\nTo find the LCM, we take the highest power of each prime factor that appears in either number:\n*  LCM = 2\u2076 * 3\u00b2 * 5\u00b9 = 64 * 9 * 5 = **2880**\n**Therefore, the least common multiple of 6! and (4!)\u00b2 is 2880.** \n",
+        "Here's how to find the least common multiple (LCM) of 6! and (4!)\u00b2:\n**1. Factorials:**\n*  6! = 6 * 5 * 4 * 3 * 2 * 1 = 720\n*  4! = 4 * 3 * 2 * 1 = 24\n*  (4!)\u00b2 = 24\u00b2 = 576\n**2. Prime Factorization:**\n*  720 = 2\u2074 * 3\u00b2 * 5\u00b9 \n*  576 = 2\u2076 * 3\u00b2\n**3. Find the LCM:**\n*  To find the LCM, take the highest power of each prime factor that appears in either number.\n*  LCM = 2\u2076 * 3\u00b2 * 5\u00b9 = **5760**\n**Therefore, the least common multiple of 6! and (4!)\u00b2 is 5760.** \n",
+        "Here's how to find the least common multiple (LCM) of 6! and (4!)\u00b2:\n**1. Prime Factorization**\n* **6! (6 factorial):** 6! = 6 * 5 * 4 * 3 * 2 * 1 = 2\u2074 * 3\u00b2 * 5\n* **(4!)\u00b2:** (4!)\u00b2 = (4 * 3 * 2 * 1)\u00b2 = (2\u00b2 * 3 * 2)\u00b2 = 2\u2076 * 3\u00b2\n**2. Identify the Highest Powers of Each Prime Factor**\n* **2:**  The highest power of 2 is 6 (from (4!)\u00b2)\n* **3:** The highest power of 3 is 2 (from both 6! and (4!)\u00b2)\n* **5:** The highest power of 5 is 1 (from 6!)\n**3. Calculate the LCM**\nThe LCM is the product of the highest powers of each prime factor:\nLCM = 2\u2076 * 3\u00b2 * 5 = 64 * 9 * 5 = **2880**\n**Therefore, the least common multiple of 6! and (4!)\u00b2 is 2880.** \n",
+        "Here's how to find the least common multiple (LCM) of $6!$ and $(4!)^2$:\n**1. Factorials:**\n*  $6! = 6 \\times 5 \\times 4 \\times 3 \\times 2 \\times 1 = 720$\n*  $4! = 4 \\times 3 \\times 2 \\times 1 = 24$\n*  $(4!)^2 = 24^2 = 576$\n**2. Prime Factorization:**\n*  $720 = 2^4 \\times 3^2 \\times 5$\n*  $576 = 2^6 \\times 3^2$\n**3. Finding the LCM:**\nTo find the LCM, take the highest power of each prime factor that appears in either number:\n* **2:** The highest power is $2^6$ (from 576)\n* **3:** The highest power is $3^2$ (from both numbers)\n* **5:** The highest power is $5^1$ (from 720)\n**4. Calculate the LCM:**\nLCM = $2^6 \\times 3^2 \\times 5^1 = 64 \\times 9 \\times 5 = \\boxed{2880}$ \n"
+    ],
+    "pred_answers": "2880",
+    "final_pred_answer": [
+        "11520",
+        "2880",
+        "5760",
+        "2880",
+        "2880"
+    ],
+    "ground_truth": "2880"
+}

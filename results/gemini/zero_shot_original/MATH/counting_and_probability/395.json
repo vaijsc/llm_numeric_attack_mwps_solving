@@ -1,0 +1,23 @@
+{
+    "problem": "What is the coefficient of $a^4b^2$ in the expansion of $\\left(2a-\\frac{b}{3}\\right)^6$?  Express your answer as a common fraction.",
+    "level": "Level 4",
+    "type": "Counting & Probability",
+    "solution": "By the Binomial theorem, this term is: $$\\binom64 (2a)^4\\left(-\\frac{b}{3}\\right)^2=15\\cdot16\\cdot\\frac{1}{9}a^4b^2=\\boxed{\\frac{80}{3}}a^4b^2$$",
+    "prompt": "### Instruction: What is the coefficient of $a^4b^2$ in the expansion of $\\left(2a-\\frac{b}{3}\\right)^6$?  Express your answer as a common fraction.\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "We can use the Binomial Theorem to expand this expression:\n$(x + y)^n = \\binom{n}{0}x^n + \\binom{n}{1}x^{n-1}y + \\binom{n}{2}x^{n-2}y^2 + \\dots + \\binom{n}{n-1}xy^{n-1} + \\binom{n}{n}y^n$\nIn our case, $x = 2a$, $y = -\\frac{b}{3}$, and $n = 6$.  We want the term with $a^4b^2$, which corresponds to the term with $x^4y^2$.  This term is:\n$$\\binom{6}{2}(2a)^4 \\left(-\\frac{b}{3}\\right)^2$$\nLet's simplify:\n* $\\binom{6}{2} = \\frac{6!}{2!4!} = 15$\n* $(2a)^4 = 16a^4$\n* $\\left(-\\frac{b}{3}\\right)^2 = \\frac{b^2}{9}$\nPutting it all together, the coefficient of $a^4b^2$ is:\n$$15 \\cdot 16a^4 \\cdot \\frac{b^2}{9} = \\boxed{\\frac{80}{3}}a^4b^2$$ \n",
+        "We can use the Binomial Theorem to expand this expression.  The Binomial Theorem states that:\n$$(x + y)^n = \\binom{n}{0}x^n y^0 + \\binom{n}{1}x^{n-1}y^1 + \\binom{n}{2}x^{n-2}y^2 + \\dots + \\binom{n}{n}x^0 y^n$$\nwhere $\\binom{n}{k}$ is the binomial coefficient, which is equal to $\\frac{n!}{k!(n-k)!}$.\nIn our case, we have $x = 2a$, $y = -\\frac{b}{3}$, and $n = 6$.  We want the term that has $a^4b^2$, which corresponds to the term where $k = 2$ in the Binomial Theorem.  This term is:\n$$\\binom{6}{2}(2a)^4 \\left(-\\frac{b}{3}\\right)^2$$\nCalculating the binomial coefficient and simplifying, we get:\n$$\\frac{6!}{2!4!} \\cdot 16a^4 \\cdot \\frac{b^2}{9} = 15 \\cdot 16a^4 \\cdot \\frac{b^2}{9} = \\boxed{\\frac{80}{3}}a^4b^2$$ \n",
+        "We can use the Binomial Theorem to solve this problem.  The Binomial Theorem states that for any real numbers $x$ and $y$, and any nonnegative integer $n$:\n$$(x + y)^n = \\sum_{k=0}^n \\binom{n}{k} x^{n-k} y^k$$\nwhere $\\binom{n}{k} = \\frac{n!}{k!(n-k)!}$ is the binomial coefficient.\nIn our case, $x = 2a$, $y = -\\frac{b}{3}$, and $n = 6$.  We want the term where $a^4b^2$ appears, which means we need $n-k = 4$ and $k = 2$.  So the term we're looking for is:\n$$\\binom{6}{2} (2a)^{6-2} \\left(-\\frac{b}{3}\\right)^2 = \\binom{6}{2} (2a)^4 \\left(\\frac{b^2}{9}\\right)$$\nSimplifying, we get:\n$$\\frac{6!}{2!4!} \\cdot 16a^4 \\cdot \\frac{b^2}{9} = \\frac{6 \\cdot 5}{2 \\cdot 1} \\cdot 16a^4 \\cdot \\frac{b^2}{9} = \\boxed{\\frac{160}{3}}a^4b^2$$ \n",
+        "We can use the Binomial Theorem to solve this problem. The Binomial Theorem states that for any real numbers $x$ and $y$, and any nonnegative integer $n$:\n$$(x+y)^n = \\sum_{k=0}^n \\binom{n}{k} x^{n-k} y^k$$\nwhere $\\binom{n}{k} = \\frac{n!}{k!(n-k)!}$ is the binomial coefficient.\nIn our case, we have $x = 2a$, $y = -\\frac{b}{3}$, and $n = 6$. We want the term where $a^4b^2$ appears, which corresponds to $k = 2$ (since we need the power of $b$ to be 2).\nTherefore, the coefficient of $a^4b^2$ in the expansion is:\n$$\\binom{6}{2}(2a)^{6-2}\\left(-\\frac{b}{3}\\right)^2 = \\binom{6}{2} (2^4) a^4 \\left(\\frac{b^2}{9}\\right)$$\nCalculating the binomial coefficient and simplifying:\n$$\\frac{6!}{2!4!} \\cdot 16 \\cdot \\frac{b^2}{9} = 15 \\cdot 16 \\cdot \\frac{b^2}{9} = \\boxed{\\frac{80}{3}} b^2$$ \n",
+        "We can use the Binomial Theorem to solve this problem. The Binomial Theorem states that:\n$$(x + y)^n = \\sum_{k=0}^n \\binom{n}{k} x^{n-k} y^k$$\nwhere $\\binom{n}{k}$ is the binomial coefficient, which is calculated as:\n$$\\binom{n}{k} = \\frac{n!}{k!(n-k)!}$$\nIn our case, we have $x = 2a$, $y = -\\frac{b}{3}$, and $n = 6$.  We want to find the term with $a^4b^2$, which corresponds to $n-k = 4$ and $k = 2$.  \nPlugging these values into the Binomial Theorem, we get:\n$$\\binom{6}{2} (2a)^4 \\left(-\\frac{b}{3}\\right)^2$$\nLet's calculate the binomial coefficient and simplify the expression:\n$$\\binom{6}{2} = \\frac{6!}{2!4!} = 15$$\nSo, the coefficient of $a^4b^2$ is:\n$$15 \\cdot (2a)^4 \\cdot \\left(-\\frac{b}{3}\\right)^2 = 15 \\cdot 16a^4 \\cdot \\frac{b^2}{9} = \\boxed{\\frac{80}{3}}a^4b^2$$ \n"
+    ],
+    "pred_answers": "2",
+    "final_pred_answer": [
+        "2",
+        "2",
+        "2",
+        "2",
+        "2"
+    ],
+    "ground_truth": "2"
+}

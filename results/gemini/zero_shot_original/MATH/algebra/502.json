@@ -1,0 +1,23 @@
+{
+    "problem": "What is the value of the arithmetic series $28 + 30 + 32 + \\cdots + 86$?",
+    "level": "Level 4",
+    "type": "Algebra",
+    "solution": "The common difference is 2, so the $n^{\\text{th}}$ term in the sequence is $28 + 2(n - 1) = 2n + 26$.  If $2n + 26 = 86$, then $n = 30$, so the sequence contains 30 terms.\n\nThe sum of an arithmetic series is equal to the average of the first and last term, multiplied by the number of terms, so the sum is $\\frac{(28 + 86)}{2} \\cdot 30 = \\boxed{1710}$.",
+    "prompt": "### Instruction: What is the value of the arithmetic series $28 + 30 + 32 + \\cdots + 86$?\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "Here's how to solve the problem step-by-step:\n**1. Identify the pattern:**\n* The series is arithmetic because there's a constant difference between consecutive terms (in this case, 2).\n**2. Find the key values:**\n* **First term (a):** 28\n* **Common difference (d):** 2\n* **Last term (l):** 86\n**3. Determine the number of terms (n):**\n*  We can use the formula for the nth term of an arithmetic series:  l = a + (n - 1)d \n*  Substitute the known values: 86 = 28 + (n - 1)2\n*  Simplify and solve for n:\n    * 86 = 28 + 2n - 2\n    * 58 = 2n\n    * n = 29\n**4. Apply the formula for the sum (S) of an arithmetic series:**\n* S = (n/2)(a + l)\n* Substitute the known values: S = (29/2)(28 + 86)\n* Simplify: S = (29/2)(114) = 1653\n**Therefore, the value of the arithmetic series is 1653.** \n",
+        "Here's how to find the value of the arithmetic series:\n**1. Identify the key elements:**\n* **First term (a):** 28\n* **Common difference (d):** 30 - 28 = 2\n* **Last term (l):** 86\n**2. Find the number of terms (n):**\nWe can use the formula for the nth term of an arithmetic series: \n  * l = a + (n - 1)d\n  * 86 = 28 + (n - 1)2\n  * 58 = 2(n - 1)\n  * 29 = n - 1\n  * n = 30\n**3. Apply the arithmetic series sum formula:**\nThe sum (S) of an arithmetic series is:\n  * S = (n/2)(a + l)\n  * S = (30/2)(28 + 86)\n  * S = 15 * 114\n  * S = 1710\n**Therefore, the value of the arithmetic series 28 + 30 + 32 + ... + 86 is 1710.** \n",
+        "Here's how to find the value of the arithmetic series:\n**1. Identify the Key Information**\n* **First term (a):** 28\n* **Common difference (d):** 30 - 28 = 2 \n* **Last term (l):** 86\n**2. Find the Number of Terms (n)**\n* Use the formula:  l = a + (n - 1)d\n* Substitute the known values: 86 = 28 + (n - 1)2\n* Simplify and solve for n:\n   * 86 = 28 + 2n - 2\n   * 86 = 26 + 2n\n   * 60 = 2n\n   * n = 30\n**3. Apply the Arithmetic Series Formula**\n* The sum (S) of an arithmetic series is: S = (n/2)(a + l)\n* Substitute the values: S = (30/2)(28 + 86)\n* Calculate: S = 15 * 114 = 1710\n**Therefore, the value of the arithmetic series 28 + 30 + 32 + ... + 86 is 1710.** \n",
+        "Here's how to find the value of the arithmetic series:\n**1. Identify the pattern:**\n* The series increases by 2 each time, so the common difference (d) is 2.\n**2. Find the number of terms:**\n* The first term (a) is 28 and the last term (l) is 86. \n* To find the number of terms (n), we can use the formula:  l = a + (n-1)d\n* Substituting the values: 86 = 28 + (n-1)2\n* Simplifying: 58 = 2n - 2\n* Solving for n: 60 = 2n => n = 30\n**3. Use the formula for the sum of an arithmetic series:**\n* The sum (S) of an arithmetic series is given by: S = (n/2) * (a + l)\n* Plugging in our values: S = (30/2) * (28 + 86)\n* Calculating: S = 15 * 114 = 1710\n**Therefore, the value of the arithmetic series 28 + 30 + 32 + ... + 86 is 1710.** \n",
+        "Here's how to find the value of the arithmetic series:\n**1. Identify the key elements:**\n* **First term (a):** 28\n* **Common difference (d):** 30 - 28 = 2\n* **Last term (l):** 86\n**2. Find the number of terms (n):**\nWe can use the formula for the nth term of an arithmetic series:\n*  l = a + (n - 1)d \n*  86 = 28 + (n - 1)2\n*  58 = 2(n - 1)\n*  29 = n - 1\n*  n = 30\n**3. Apply the arithmetic series sum formula:**\nThe sum (S) of an arithmetic series is:\n* S = (n/2)(a + l)\n* S = (30/2)(28 + 86)\n* S = 15 * 114\n* S = 1710\n**Therefore, the value of the arithmetic series 28 + 30 + 32 + ... + 86 is 1710.** \n"
+    ],
+    "pred_answers": "1710",
+    "final_pred_answer": [
+        "1653",
+        "1710",
+        "1710",
+        "1710",
+        "1710"
+    ],
+    "ground_truth": "1710"
+}

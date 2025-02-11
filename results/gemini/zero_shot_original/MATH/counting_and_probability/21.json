@@ -1,0 +1,23 @@
+{
+    "problem": "Express $\\frac{6!+4!}{5!}$ as a mixed number.",
+    "level": "Level 1",
+    "type": "Counting & Probability",
+    "solution": "We can separate the fraction to get $\\frac{6!}{5!} +\\frac{4!}{5!}$. We can then simplify the quotient of factorials:\n\n\\begin{align*}\n\\frac{6!}{5!} +\\frac{4!}{5!} &= \\frac{6\\cdot5!}{5!} +\\frac{4!}{5\\cdot4!}\\\\\n&=6+\\frac15\\\\\n&=\\boxed{6\\frac15}.\n\\end{align*}",
+    "prompt": "### Instruction: Express $\\frac{6!+4!}{5!}$ as a mixed number.\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "Here's how to solve the problem step-by-step:\n**1. Calculate the factorials:**\n*  6! = 6 * 5 * 4 * 3 * 2 * 1 = 720\n*  4! = 4 * 3 * 2 * 1 = 24\n*  5! = 5 * 4 * 3 * 2 * 1 = 120\n**2. Substitute the factorials into the expression:**\n  (6! + 4!)/5! = (720 + 24)/120\n**3. Simplify the numerator:**\n  (720 + 24)/120 = 744/120\n**4. Divide the numerator by the denominator:**\n  744/120 = 6.2\n**5. Express as a mixed number:**\n  6.2 = **6 1/5** \nTherefore,  (6! + 4!)/5! expressed as a mixed number is **6 1/5**. \n",
+        "Here's how to solve the problem step-by-step:\n**1. Calculate the factorials:**\n*  6! = 6 * 5 * 4 * 3 * 2 * 1 = 720\n*  4! = 4 * 3 * 2 * 1 = 24\n*  5! = 5 * 4 * 3 * 2 * 1 = 120\n**2. Substitute the values into the expression:**\n   (6! + 4!) / 5! = (720 + 24) / 120\n**3. Simplify the expression:**\n   (720 + 24) / 120 = 744 / 120\n**4. Divide to get a mixed number:**\n   744 / 120 = 6 with a remainder of 24\n**5. Express the remainder as a fraction:**\n   The remainder (24) becomes the numerator, and the original denominator (120) stays the same: 24/120\n**6. Simplify the fraction:**\n   24/120 simplifies to 1/5\n**Final Answer:**  Therefore,  (6! + 4!) / 5!  expressed as a mixed number is **6 1/5**. \n",
+        "Here's how to solve the problem step-by-step:\n**1. Calculate the factorials:**\n* 6! = 6 * 5 * 4 * 3 * 2 * 1 = 720\n* 4! = 4 * 3 * 2 * 1 = 24\n* 5! = 5 * 4 * 3 * 2 * 1 = 120\n**2. Substitute the factorials into the expression:**\n(6! + 4!) / 5! = (720 + 24) / 120\n**3. Simplify:**\n(720 + 24) / 120 = 744 / 120\n**4. Reduce the fraction:**\n744 / 120 = 6.2 \n**5. Express as a mixed number:**\n6.2 = **6 1/5** \nTherefore,  (6! + 4!) / 5! expressed as a mixed number is **6 1/5**. \n",
+        "Here's how to solve the problem step by step:\n**1. Calculate the factorials:**\n*  6! = 6 * 5 * 4 * 3 * 2 * 1 = 720\n*  4! = 4 * 3 * 2 * 1 = 24\n*  5! = 5 * 4 * 3 * 2 * 1 = 120\n**2. Substitute the factorials back into the expression:**\n   (6! + 4!) / 5! = (720 + 24) / 120\n**3. Simplify the numerator:**\n   (720 + 24) / 120 = 744 / 120\n**4. Divide to get a mixed number:**\n   744 / 120 = 6 with a remainder of 24\n**5. Express the result as a mixed number:**\n   6 with a remainder of 24 is the same as **6 24/120**.\n**6. Simplify the fraction:**\n   6 24/120 simplifies to **6 1/5**\n**Therefore,  (6! + 4!) / 5! expressed as a mixed number is 6 1/5.** \n",
+        "Here's how to express  $\\frac{6!+4!}{5!}$ as a mixed number:\n**1. Calculate the factorials:**\n*  6! = 6 * 5 * 4 * 3 * 2 * 1 = 720\n*  4! = 4 * 3 * 2 * 1 = 24\n*  5! = 5 * 4 * 3 * 2 * 1 = 120\n**2. Substitute the values into the expression:**\n  (6! + 4!)/5! = (720 + 24)/120\n**3. Simplify the numerator:**\n  (720 + 24)/120 = 744/120\n**4. Divide the numerator by the denominator:**\n  744/120 = 6 remainder 24\n**5. Express the result as a mixed number:**\n  6 remainder 24  =  **6 1/5** \nTherefore, $\\frac{6!+4!}{5!}$ expressed as a mixed number is **6 1/5**. \n"
+    ],
+    "pred_answers": "5",
+    "final_pred_answer": [
+        "5",
+        "6",
+        "5",
+        "5",
+        "5"
+    ],
+    "ground_truth": "15"
+}

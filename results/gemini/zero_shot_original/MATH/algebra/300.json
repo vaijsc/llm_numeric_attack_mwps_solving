@@ -1,0 +1,23 @@
+{
+    "problem": "Evaluate $\\lfloor 14.6 \\rfloor-\\lceil-14.6\\rceil$.",
+    "level": "Level 4",
+    "type": "Algebra",
+    "solution": "The greatest integer less than $14.6$ is $14$. The smallest integer greater than $-14.6$ is $-14$. Therefore, the equation can be rewritten as $14-(-14)$, or $\\boxed{28}$.",
+    "prompt": "### Instruction: Evaluate $\\lfloor 14.6 \\rfloor-\\lceil-14.6\\rceil$.\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "Here's how to evaluate the expression step-by-step:\n* **Understanding floor and ceiling functions:**\n    * **Floor function (\u230ax\u230b):**  The floor function gives the greatest integer less than or equal to x. For example, \u230a3.7\u230b = 3 and \u230a-2.3\u230b = -3.\n    * **Ceiling function (\u2308x\u2309):** The ceiling function gives the smallest integer greater than or equal to x. For example, \u23083.7\u2309 = 4 and \u2308-2.3\u2309 = -2.\n* **Evaluating the terms:**\n    * \u230a14.6\u230b = 14 (The greatest integer less than or equal to 14.6 is 14)\n    * \u2308-14.6\u2309 = -14 (The smallest integer greater than or equal to -14.6 is -14)\n* **Subtracting the results:**\n    * 14 - (-14) = 14 + 14 = 28\n**Therefore, \u230a14.6\u230b - \u2308-14.6\u2309 = 28** \n",
+        "Here's how to evaluate the expression step-by-step:\n* **Understanding Floor and Ceiling Functions:**\n    * **Floor function (\u230ax\u230b):**  Gives the greatest integer less than or equal to x.\n    * **Ceiling function (\u2308x\u2309):** Gives the smallest integer greater than or equal to x.\n* **Evaluating the Floor:** \n    * \u230a14.6\u230b = 14 (The greatest integer less than or equal to 14.6 is 14).\n* **Evaluating the Ceiling:**\n    * \u2308-14.6\u2309 = -14 (The smallest integer greater than or equal to -14.6 is -14).\n* **Final Calculation:**\n    * \u230a14.6\u230b - \u2308-14.6\u2309 = 14 - (-14) = 14 + 14 = **28** \n",
+        "Here's how to evaluate the expression step-by-step:\n* **Understanding Floor and Ceiling Functions:**\n    * **Floor Function (\u230ax\u230b):**  The greatest integer less than or equal to x. \n    * **Ceiling Function (\u2308x\u2309):** The smallest integer greater than or equal to x.\n* **Evaluating the Floor Function:**\n    * \u230a14.6\u230b = 14 (since 14 is the greatest integer less than or equal to 14.6)\n* **Evaluating the Ceiling Function:**\n    * \u2308-14.6\u2309 = -14 (since -14 is the smallest integer greater than or equal to -14.6)\n* **Final Calculation:**\n    * \u230a14.6\u230b - \u2308-14.6\u2309 = 14 - (-14) = 14 + 14 = **28** \n",
+        "Here's how to solve the problem step-by-step:\n* **Understanding Floor and Ceiling Functions:**\n    * **Floor Function (\u230ax\u230b):** The floor function gives the greatest integer less than or equal to *x*.  For example, \u230a3.7\u230b = 3 and \u230a-2.3\u230b = -3.\n    * **Ceiling Function (\u2308x\u2309):** The ceiling function gives the smallest integer greater than or equal to *x*. For example, \u23083.7\u2309 = 4 and \u2308-2.3\u2309 = -2.\n* **Evaluating the Expression:**\n    1. **\u230a14.6\u230b:** The greatest integer less than or equal to 14.6 is 14. So, \u230a14.6\u230b = 14.\n    2. **\u2308-14.6\u2309:** The smallest integer greater than or equal to -14.6 is -14. So, \u2308-14.6\u2309 = -14.\n* **Final Calculation:**\n    \u230a14.6\u230b - \u2308-14.6\u2309 = 14 - (-14) = 14 + 14 = **28** \n",
+        "Here's how to evaluate the expression step-by-step:\n* **Understanding Floor and Ceiling Functions:**\n    * **Floor function (\u230ax\u230b):**  The floor function gives the greatest integer less than or equal to x.\n    * **Ceiling function (\u2308x\u2309):** The ceiling function gives the smallest integer greater than or equal to x.\n* **Evaluating \u230a14.6\u230b:** The greatest integer less than or equal to 14.6 is 14.  So, \u230a14.6\u230b = 14.\n* **Evaluating \u2308-14.6\u2309:** The smallest integer greater than or equal to -14.6 is -14. So, \u2308-14.6\u2309 = -14.\n* **Final Calculation:**  Now we have:  \u230a14.6\u230b - \u2308-14.6\u2309 = 14 - (-14) = 14 + 14 = **28** \n"
+    ],
+    "pred_answers": "28",
+    "final_pred_answer": [
+        "28",
+        "28",
+        "28",
+        "28",
+        "28"
+    ],
+    "ground_truth": "28"
+}

@@ -1,0 +1,23 @@
+{
+    "problem": "Evaluate $531^2 - 2\\cdot 531\\cdot 530 + 530^2$.",
+    "level": "Level 3",
+    "type": "Algebra",
+    "solution": "We see that $531^2 - 2\\cdot 531\\cdot530 + 530^2 = (531-530)^2 = 1^2 = \\boxed{1}$.",
+    "prompt": "### Instruction: Evaluate $531^2 - 2\\cdot 531\\cdot 530 + 530^2$.\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "We can recognize this expression as a perfect square trinomial.  Here's why:\n* **Perfect Square Trinomial Pattern:**  (a - b)\u00b2 = a\u00b2 - 2ab + b\u00b2\nIn our expression:\n* a = 531\n* b = 530\nSo, we can rewrite the expression as:\n(531 - 530)\u00b2 = 1\u00b2 = **1** \n",
+        "We can evaluate this expression by recognizing a pattern:\n* **The expression looks like a squared difference:**  The expression resembles the formula (a - b)\u00b2 = a\u00b2 - 2ab + b\u00b2 \n* **Applying the pattern:**  In our case,  a = 531 and b = 530.  So, we can rewrite the expression as:\n   \n   (531 - 530)\u00b2\n* **Simplifying:** \n   (531 - 530)\u00b2 = (1)\u00b2 = 1\n**Therefore, 531\u00b2 - 2 * 531 * 530 + 530\u00b2 = 1** \n",
+        "We can recognize this expression as a special case of a common algebraic identity:\n**The Difference of Squares:**  (a - b)\u00b2 = a\u00b2 - 2ab + b\u00b2\nLet's apply this to our problem:\n*  a = 531\n*  b = 530\nTherefore, 531\u00b2 - 2 * 531 * 530 + 530\u00b2  = (531 - 530)\u00b2\nSimplifying, we get:\n(531 - 530)\u00b2 = 1\u00b2 = **1** \n",
+        "We can recognize this expression as a difference of squares:\n*  The first term is $531^2$ and the last term is $530^2$.\n*  The middle term is $-2 \\cdot 531 \\cdot 530$.\nThis means we can simplify using the difference of squares formula:  $a^2 - 2ab + b^2 = (a - b)^2$\nIn this case,  $a = 531$ and $b = 530$.  Therefore:\n$531^2 - 2 \\cdot 531 \\cdot 530 + 530^2 = (531 - 530)^2 = 1^2 = \\boxed{1}$. \n",
+        "We can recognize that the expression is a perfect square trinomial.  Recall the pattern: \n \n  * $(a - b)^2 = a^2 - 2ab + b^2$\nIn our case,  $a = 531$ and $b = 530$.  Therefore, we can simplify the expression as follows:\n $531^2 - 2 \\cdot 531 \\cdot 530 + 530^2 = (531 - 530)^2 = 1^2 = \\boxed{1}$. \n"
+    ],
+    "pred_answers": "1",
+    "final_pred_answer": [
+        "1",
+        "1",
+        "1",
+        "1",
+        "1"
+    ],
+    "ground_truth": "1"
+}

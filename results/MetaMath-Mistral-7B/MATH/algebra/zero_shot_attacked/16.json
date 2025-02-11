@@ -1,0 +1,41 @@
+{
+    "index_adversarial_question": 2,
+    "problem": "Let \\[f(x) =\n\\begin{cases}\n3x + 5 &\\text{if }x<-3, \\\\\n7-4x&\\text{if }x\\ge -3.\n\\end{cases}\n\\]Find $f(-3)$.\n</question>",
+    "pcot_answer": "# Define the input value for x\nx = -3  ### condition: 'x': {'type': 'int', '<=': None, '>=': None, 'science_constant': False, 'direct_from_question': True}\n# Calculate f(x) for the case when x < -3\nf_x_case1 = 3 * x + 5  ### condition: 'f_x_case1': {'type': 'int', '<=': None, '>=': None, 'science_constant': False, 'direct_from_question': False}\n# Since x = -3, which is less than -3, we will use f_x_case1\nf_x = f_x_case1  ### condition: 'f_x': {'type': 'int', '<=': None, '>=': None, 'science_constant': False, 'direct_from_question': False}\n# Print the result of f(-10)\nprint(f\"f(-10) = {f_x}\")",
+    "answer": "-4",
+    "vllm_responses": [
+        "When $x<-3$, we use the first case and substitute $x=-3$ into $3x+5$.\nWe get $f(-3) = 3(-3) + 5 = -9 + 5 = \\boxed{-4}$.\nThe answer is: -4",
+        "We know that $f(x)$ is defined differently for $x<-3$ and $x\\ge -3$.\nSince $-3$ is less than $-3$, we use the first case, which is $3x+5$.\nPlugging in $x=-3$, we get $f(-3) = 3(-3)+5 = -9+5 = \\boxed{-4}$.\nThe answer is: -4",
+        "Since $-3$ is greater than or equal to $-3$, we use the second case, which gives us $f(-3) = 7-4(-3) = 7+12 = \\boxed{19}$.The answer is: 19",
+        "We need to find the value of $f(-3)$.\nSince $-3$ is greater than or equal to $-3$, we use the second case of the piecewise function: $f(-3) = 7 - 4(-3) = 7 - (-12) = 7 + 12 = \\boxed{19}$.\nThe answer is: 19",
+        "Since $-3$ is greater than $-3$, we use the second case to find $f(-3)$.\nWe have $f(-3) = 7 - 4(-3) = 7 + 12 = \\boxed{19}$.\nThe answer is: 19",
+        "For $-3 \\le x < -3$, we use the second case of the piecewise function, which gives us $f(-3) = 7-4(-3) = 7+12 = 19$.\nTherefore, $f(-3) = \\boxed{19}$.The answer is: 19",
+        "Since $-3$ is in the range of $f(x)$ (that is, $-3$ is greater than $-3$), we use the second case, $f(x) = 7 - 4x$.\nPlugging in $x = -3$, we get $f(-3) = 7 - 4(-3) = 7 + 12 = \\boxed{19}$.\nThe answer is: 19",
+        "For $x<-3$, $f(x) = 3x + 5$.\nFor $x \\ge -3$, $f(x) = 7 - 4x$.\nSince $-3$ is greater than or equal to $-3$, we use the second case and substitute $x = -3$ to find $f(-3) = 7 - 4(-3) = 7 + 12 = \\boxed{19}$.\nThe answer is: 19",
+        "For $x < -3$, we use the first case and substitute $x = -3$ into $3x + 5$:\n$$f(-3) = 3(-3) + 5 = -9 + 5 = \\boxed{-4}.$$The answer is: -4",
+        "Since $-3$ is greater than or equal to $-3$, we use the second case of the definition of $f(x)$:\n\\[f(-3) = 7 - 4(-3) = 7 + 12 = \\boxed{19}.\\]\nThe answer is: 19",
+        "If $x<-3$, then $f(x) = 3x + 5$.\nIf $x\\ge -3$, then $f(x) = 7-4x$.\nTo find $f(-3)$, we need to see which case applies.\nSince $-3<-3$, we use the first case and find $f(-3) = 3(-3) + 5 = -9 + 5 = \\boxed{-4}$.\nThe answer is: -4",
+        "The function $f(x)$ is defined differently for $x<-3$ and $x\\ge -3$.\nSince $-3$ is less than $-3$ but greater than or equal to $-3$, we need to use the second case of the definition of $f(x)$.\nThus, $f(-3) = 7 - 4(-3) = 7 - (-12) = 7 + 12 = \\boxed{19}$.\nThe answer is: 19",
+        "We need to find the value of $f(-3)$.\nSince $-3 \\ge -3$, we use the second piece of the piecewise function, $7-4x$.\nPlugging in $x=-3$, we get $f(-3) = 7-4(-3) = 7+12 = \\boxed{19}$.\nThe answer is: 19",
+        "Since $-3$ is greater than $-3$, we use the second case for $f(-3)$.\nPlugging in $x=-3$ into the expression $7-4x$, we get $7-4(-3)=7+12=\\boxed{19}$.\nThe answer is: 19",
+        "\nSince $-3$ is just below $-3$, we use the first case and evaluate $f(-3) = 3(-3) + 5 = \\boxed{-2}$.The answer is: -2"
+    ],
+    "vllm_answers": [
+        "-4",
+        "-4",
+        "19",
+        "19",
+        "19",
+        "19",
+        "19",
+        "19",
+        "-4",
+        "19",
+        "-4",
+        "19",
+        "19",
+        "19",
+        "-2"
+    ],
+    "vllm_pred_answer": "19"
+}

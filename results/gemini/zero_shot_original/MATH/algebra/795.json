@@ -1,0 +1,23 @@
+{
+    "problem": "If $2a+4b=5$ and $a$ is equal to three times $b$, what is $3a$?",
+    "level": "Level 2",
+    "type": "Algebra",
+    "solution": "First we begin by solving the system of equations \\begin{align*}\n2a+4b&=5, \\\\\n3b&=a.\n\\end{align*}Making the substitution for $a$ from the second equation to the first, we get $2(3b)+4b=5$, which simplifies to $10b=5$. Solving for $b$, we find that $b=\\frac{1}{2}$. Plugging this into the second equation above, we obtain $a=3\\cdot \\frac{1}{2}$. Hence $3a=3\\cdot \\frac{3}{2}=\\boxed{\\frac{9}{2}}$.",
+    "prompt": "### Instruction: If $2a+4b=5$ and $a$ is equal to three times $b$, what is $3a$?\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "Here's how to solve the problem step-by-step:\n1. **Substitute:** Since we know  \"a is equal to three times b\", we can write  *a = 3b*.  Substitute this into the first equation: \n   2(3b) + 4b = 5\n2. **Simplify:**  \n   6b + 4b = 5\n   10b = 5\n3. **Solve for b:**\n   b = 5/10 \n   b = 1/2\n4. **Find a:** \n   Since a = 3b, we have a = 3 * (1/2) = 3/2\n5. **Calculate 3a:**\n   3a = 3 * (3/2) = 9/2\n**Therefore, 3a = 9/2** \n",
+        "Here's how to solve the problem step-by-step:\n1. **Substitute:** Since we know  \"a is equal to three times b,\" we can write  *a = 3b*. Substitute this into the first equation:\n   * 2(3b) + 4b = 5\n2. **Simplify:**\n   * 6b + 4b = 5\n   * 10b = 5\n3. **Solve for b:**\n   * b = 5/10\n   * b = 1/2\n4. **Find a:** Now that we know b, we can find a using the equation a = 3b:\n   * a = 3 * (1/2)\n   * a = 3/2\n5. **Calculate 3a:**\n   * 3a = 3 * (3/2)\n   * 3a = 9/2\n**Therefore, 3a is equal to 9/2.** \n",
+        "Here's how to solve the problem step-by-step:\n**1. Substitute 'a' in terms of 'b':**\nSince we know  *a* is equal to three times *b*, we can write: \n   *a = 3b*\n**2. Substitute into the first equation:**\nSubstitute *a = 3b* into the equation *2a + 4b = 5*:\n   *2(3b) + 4b = 5*\n**3. Simplify and solve for 'b':**\n   *6b + 4b = 5*\n   *10b = 5*\n   *b = 1/2*\n**4. Find 'a':**\nSubstitute the value of *b* back into the equation *a = 3b*:\n   *a = 3(1/2)*\n   *a = 3/2*\n**5. Calculate 3a:**\nFinally, multiply the value of *a* by 3:\n   *3a = 3(3/2)*\n   *3a = 9/2*\n**Therefore, 3a = 9/2** \n",
+        "Here's how to solve the problem step-by-step:\n1. **Substitute:** Since we know  *a* is equal to three times *b* (a = 3b), we can substitute 3*b* for *a* in the first equation: \n   2(3b) + 4b = 5\n2. **Simplify:**  \n   6b + 4b = 5\n3. **Combine like terms:**\n   10b = 5\n4. **Solve for b:**\n   b = 5/10 = 1/2\n5. **Find a:**  Since a = 3b, we can substitute the value of *b* we just found:\n   a = 3(1/2) = 3/2\n6. **Calculate 3a:**\n   3a = 3(3/2) = 9/2\n**Therefore, 3a = 9/2** \n",
+        "Here's how to solve this problem step-by-step:\n1. **Substitute:** Since we know  *a* is three times *b*, we can write *a* as 3*b*. Substitute this into the first equation:\n   2(3*b) + 4*b = 5\n2. **Simplify:**  \n   6*b + 4*b = 5\n   10*b = 5\n3. **Solve for b:** Divide both sides by 10:\n   b = 5/10 = 1/2\n4. **Find a:** Now that you know *b* = 1/2, substitute it back into the equation *a* = 3*b:\n   a = 3 * (1/2) = 3/2\n5. **Calculate 3a:**  Finally, multiply *a* by 3:\n   3 * (3/2) = 9/2 \n**Therefore, 3a = 9/2** \n"
+    ],
+    "pred_answers": "2",
+    "final_pred_answer": [
+        "2",
+        "2",
+        "2",
+        "2",
+        "2"
+    ],
+    "ground_truth": "2"
+}

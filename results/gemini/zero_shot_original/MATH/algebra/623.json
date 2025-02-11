@@ -1,0 +1,23 @@
+{
+    "problem": "John is 31 years younger than his dad. The sum of their ages is 53 years. How many years old is John's dad?",
+    "level": "Level 2",
+    "type": "Algebra",
+    "solution": "Let $j$ be John's age and $d$ be his dad's age. We are trying to find the value of $d$. We can create a system of two equations to represent the given information. They are\n\n\\begin{align*}\nj &= d - 31 \\\\\nj + d &= 53 \\\\\n\\end{align*}\n\nWe want to find $d$, so we need to eliminate $j$ from the equations above. Substituting the first equation into the second to eliminate $j$, we have $(d-31)+d=53$, or $d=42$. Thus, John's dad is $\\boxed{42}$ years old.",
+    "prompt": "### Instruction: John is 31 years younger than his dad. The sum of their ages is 53 years. How many years old is John's dad?\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "Here's how to solve this problem step-by-step:\n**1. Set up variables:**\n* Let John's age be \"j\"\n* Let his dad's age be \"d\"\n**2. Write equations based on the given information:**\n* \"John is 31 years younger than his dad\":  j = d - 31\n* \"The sum of their ages is 53 years\": j + d = 53\n**3. Solve for the dad's age (d):**\n* **Substitute** the first equation (j = d - 31) into the second equation:\n   (d - 31) + d = 53\n* **Combine** like terms: 2d - 31 = 53\n* **Add** 31 to both sides: 2d = 84\n* **Divide** both sides by 2: d = 42\n**Answer:** John's dad is 42 years old. \n",
+        "Here's how to solve the problem:\n**Let's use variables:**\n*  Let John's age be represented by \"j\"\n*  Let John's dad's age be represented by \"d\"\n**Set up equations based on the given information:**\n*  \"John is 31 years younger than his dad\":  j = d - 31\n*  \"The sum of their ages is 53 years\": j + d = 53\n**Now we have two equations, and we can solve for \"d\" (John's dad's age):**\n1. **Substitute:** Since we know j = d - 31, we can substitute that into the second equation: \n   (d - 31) + d = 53\n2. **Simplify:** Combine the \"d\" terms: 2d - 31 = 53\n3. **Isolate \"d\":** Add 31 to both sides: 2d = 84\n4. **Solve for \"d\":** Divide both sides by 2: d = 42\n**Answer:** John's dad is 42 years old. \n",
+        "Here's how to solve the problem step-by-step:\n**1. Define variables:**\n* Let  'x' represent John's dad's age.\n* John's age is 'x - 31' (since he's 31 years younger).\n**2. Set up an equation:**\n* The sum of their ages is 53, so: x + (x - 31) = 53\n**3. Solve the equation:**\n* Combine like terms: 2x - 31 = 53\n* Add 31 to both sides: 2x = 84\n* Divide both sides by 2: x = 42\n**Answer:** John's dad is 42 years old. \n",
+        "Here's how to solve this problem step-by-step:\n**1. Define Variables:**\n* Let \"x\" represent John's dad's age.\n* John's age is \"x - 31\" (since he's 31 years younger).\n**2. Set Up the Equation:**\n* The sum of their ages is 53:  x + (x - 31) = 53\n**3. Solve for x:**\n* Combine like terms: 2x - 31 = 53\n* Add 31 to both sides: 2x = 84\n* Divide both sides by 2: x = 42\n**Answer:** John's dad is 42 years old. \n",
+        "Here's how to solve this problem step-by-step:\n**1. Set up variables:**\n* Let \"x\" represent John's dad's age.\n* John's age is then \"x - 31\" (since he's 31 years younger).\n**2. Write the equation:**\n* The sum of their ages is 53, so we have the equation: x + (x - 31) = 53\n**3. Solve for x:**\n* Combine like terms: 2x - 31 = 53\n* Add 31 to both sides: 2x = 84\n* Divide both sides by 2: x = 42\n**Answer:** John's dad is 42 years old. \n"
+    ],
+    "pred_answers": "42",
+    "final_pred_answer": [
+        "42",
+        "42",
+        "42",
+        "42",
+        "42"
+    ],
+    "ground_truth": "42"
+}

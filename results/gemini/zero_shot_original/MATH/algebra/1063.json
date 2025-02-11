@@ -1,0 +1,23 @@
+{
+    "problem": "Solve for $z$ in the following equation: $2-3iz = 3 + 2iz$.",
+    "level": "Level 5",
+    "type": "Algebra",
+    "solution": "$2-3iz = 3 + 2iz \\Rightarrow -1 = 5iz \\Rightarrow z = \\frac{-1}{5i}$. Multiplying the numerator and denominator by $-i$, we get $z = \\frac{-1}{5i} \\cdot \\frac{-i}{-i} = \\boxed{\\frac{i}{5}}$.",
+    "prompt": "### Instruction: Solve for $z$ in the following equation: $2-3iz = 3 + 2iz$.\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "Here's how to solve for *z* step-by-step:\n1. **Combine *z* terms:** \n   Add *3iz* to both sides of the equation: \n   \n   2 - 3iz + 3iz = 3 + 2iz + 3iz\n   \n   This simplifies to: 2 = 3 + 5iz\n2. **Isolate the *z* term:** \n   Subtract 3 from both sides: \n   2 - 3 = 3 + 5iz - 3\n   This gives us: -1 = 5iz\n3. **Solve for *z*:**\n   Divide both sides by 5*i*:\n   -1 / (5i) = 5iz / (5i)\n   Simplify:  -1 / (5i) = z\n4. **Rationalize the denominator:**\n   Multiply both the numerator and denominator by *i*:\n   (-1 * i) / (5i * i) = z\n   Simplify: -i / (-5) = z\n5. **Final result:**\n   Therefore,  *z* = i/5 \n",
+        "1. **Combine terms with 'z'**:  Add $3iz$ to both sides of the equation: \n   \n   $$2 - 3iz + 3iz = 3 + 2iz + 3iz$$\n   \n   This simplifies to:\n   \n   $$2 = 3 + 5iz$$\n2. **Isolate the 'z' term**: Subtract 3 from both sides:\n   $$2 - 3 = 3 + 5iz - 3$$\n   This gives:\n   $$-1 = 5iz$$\n3. **Solve for 'z'**: Divide both sides by $5i$:\n   $$\\frac{-1}{5i} = \\frac{5iz}{5i}$$\n   This simplifies to:\n   $$z = \\frac{-1}{5i}$$\n4. **Rationalize the denominator**:  Multiply the numerator and denominator by $i$:\n   $$z = \\frac{-1}{5i} \\cdot \\frac{i}{i}$$\n   This results in:\n   $$z = \\frac{-i}{5i^2}$$\n5. **Simplify**: Since $i^2 = -1$, we can substitute and simplify:\n   $$z = \\frac{-i}{5(-1)}$$\n   Therefore, the solution is:\n   $$z = \\boxed{\\frac{i}{5}}$$ \n",
+        "Here's how to solve for *z* step-by-step:\n1. **Combine *z* terms:** \n   Add 3*iz* to both sides of the equation:\n   2 - 3*iz + 3*iz = 3 + 2*iz + 3*iz\n   This simplifies to: 2 = 3 + 5*iz\n2. **Isolate the *z* term:**\n   Subtract 3 from both sides:\n   2 - 3 = 3 + 5*iz - 3\n   This gives us: -1 = 5*iz\n3. **Solve for *z*:**\n   Divide both sides by 5*i:\n   -1 / (5*i) = 5*iz / (5*i)\n   This simplifies to:  -1 / (5*i) = z\n4. **Rationalize the denominator:**\n   Multiply the numerator and denominator by *i*:\n   (-1 * i) / (5*i * i) = z\n   This simplifies to: -i / (-5) = z\n5. **Final solution:**\n   z = i/5\n**Therefore, the solution for *z* is z = i/5.** \n",
+        "1. **Combine like terms:** \n   - Move all terms with *z* to one side of the equation:\n     -  -3iz - 2iz = 3 - 2\n   - Combine the coefficients of *z*:\n     -  -5iz = 1\n2. **Isolate *z*:**\n   - Divide both sides by -5i:\n     - z = 1 / (-5i)\n3. **Simplify:**\n   - Multiply the numerator and denominator by *i*:\n     - z = (1 * i) / (-5i * i)\n   - Simplify:\n     - z = i / 5\nTherefore, the solution for *z* is **z = i/5**. \n",
+        "1. **Combine terms with 'z' on one side:**\n   Add 3iz to both sides of the equation:\n   ```\n   2 - 3iz + 3iz = 3 + 2iz + 3iz\n   ```\n   This simplifies to:\n   ```\n   2 = 3 + 5iz \n   ```\n2. **Isolate the term with 'z':**\n   Subtract 3 from both sides:\n   ```\n   2 - 3 = 3 + 5iz - 3\n   ```\n   This gives us:\n   ```\n   -1 = 5iz \n   ```\n3. **Solve for 'z':**\n   Divide both sides by 5i:\n   ```\n   -1 / (5i) = 5iz / (5i)\n   ```\n   This simplifies to:\n   ```\n   z = -1 / (5i)\n   ```\n4. **Rationalize the denominator:**\n   Multiply the numerator and denominator by 'i':\n   ```\n   z = (-1 / (5i)) * (i/i) \n   ```\n   This gives us:\n   ```\n   z = -i / (5i\u00b2) \n   ```\n   Since i\u00b2 = -1, we can substitute:\n   ```\n   z = -i / (-5)\n   ```\n   Finally:\n   ```\n   z = i/5\n   ```\nTherefore, the solution for 'z' is **z = i/5**. \n"
+    ],
+    "pred_answers": "5",
+    "final_pred_answer": [
+        "5",
+        "5",
+        "5",
+        "5",
+        "5"
+    ],
+    "ground_truth": "5"
+}

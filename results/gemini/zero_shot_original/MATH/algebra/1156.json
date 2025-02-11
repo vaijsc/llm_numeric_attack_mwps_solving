@@ -1,0 +1,23 @@
+{
+    "problem": "How many units long is a line segment whose endpoints have coordinates $(-3,7)$ and $(2,-5)$?",
+    "level": "Level 2",
+    "type": "Algebra",
+    "solution": "We use the distance formula: $\\sqrt{(2 - (-3))^2 + ((-5) - 7)^2} = \\sqrt{25 + 144} = \\boxed{13}$.\n\n- OR -\n\nWe note that the points $(-3, 7)$, $(2, -5)$, and $(-3, -5)$ form a right triangle with legs of length 5 and 12. This is a Pythagorean triple, so the hypotenuse has length $\\boxed{13}$.",
+    "prompt": "### Instruction: How many units long is a line segment whose endpoints have coordinates $(-3,7)$ and $(2,-5)$?\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "Here's how to find the length of the line segment:\n**1. Understand the Distance Formula**\nThe distance formula is derived from the Pythagorean theorem and helps us calculate the distance between two points in a coordinate plane. It's:\n*  \u221a[(x\u2082 - x\u2081)\u00b2 + (y\u2082 - y\u2081)\u00b2] \n**2. Identify the Coordinates**\n*  Let (-3, 7) be (x\u2081, y\u2081)\n*  Let (2, -5) be (x\u2082, y\u2082)\n**3. Substitute the Values**\n*  \u221a[(2 - (-3))\u00b2 + (-5 - 7)\u00b2]\n**4. Simplify**\n* \u221a[(5)\u00b2 + (-12)\u00b2]\n* \u221a(25 + 144)\n* \u221a169\n**5. Calculate the Final Answer**\n*  \u221a169 = 13\n**Therefore, the line segment is 13 units long.** \n",
+        "Here's how to find the length of the line segment:\n**1. Understand the Distance Formula:**\nThe distance formula is derived from the Pythagorean theorem and helps us calculate the distance between two points in a coordinate plane. It's expressed as:\n   Distance = \u221a[(x\u2082 - x\u2081)\u00b2 + (y\u2082 - y\u2081)\u00b2]\n**2.  Label Your Points:**\n*  Let (-3, 7) be (x\u2081, y\u2081)\n*  Let (2, -5) be (x\u2082, y\u2082)\n**3. Apply the Distance Formula:**\n   Distance = \u221a[(2 - (-3))\u00b2 + (-5 - 7)\u00b2]\n   Distance = \u221a[(5)\u00b2 + (-12)\u00b2]\n   Distance = \u221a(25 + 144)\n   Distance = \u221a169\n   Distance = 13\n**Therefore, the line segment is 13 units long.** \n",
+        "Here's how to find the length of the line segment:\n**1. Understand the Distance Formula**\nThe distance formula is derived from the Pythagorean theorem and helps us calculate the distance between two points in a coordinate plane. It states:\n*  Distance = \u221a[(x\u2082 - x\u2081)\u00b2 + (y\u2082 - y\u2081)\u00b2]\n**2. Label the Points**\n* Let (-3, 7) be (x\u2081, y\u2081)\n* Let (2, -5) be (x\u2082, y\u2082)\n**3. Substitute into the Distance Formula**\n* Distance = \u221a[(2 - (-3))\u00b2 + (-5 - 7)\u00b2]\n**4. Simplify**\n* Distance = \u221a[(5)\u00b2 + (-12)\u00b2]\n* Distance = \u221a(25 + 144)\n* Distance = \u221a169\n**5. Calculate the Final Result**\n* Distance = 13\n**Therefore, the line segment is 13 units long.** \n",
+        "Here's how to find the length of the line segment:\n**1. Understand the Distance Formula**\nThe distance formula is derived from the Pythagorean theorem and helps us calculate the distance between two points in a coordinate plane. It's:\n   \u221a[(x\u2082 - x\u2081)\u00b2 + (y\u2082 - y\u2081)\u00b2]\n**2. Identify the Coordinates**\n*  Let (-3, 7) be (x\u2081, y\u2081) \n*  Let (2, -5) be (x\u2082, y\u2082)\n**3. Substitute into the Formula**\n\u221a[(2 - (-3))\u00b2 + (-5 - 7)\u00b2]\n**4. Simplify**\n\u221a[(5)\u00b2 + (-12)\u00b2]\n\u221a(25 + 144)\n\u221a169\n**5. Calculate the Length**\n\u221a169 = 13\n**Therefore, the line segment is 13 units long.** \n",
+        "Here's how to find the length of the line segment:\n**1. Understand the Distance Formula**\nThe distance formula is derived from the Pythagorean theorem and helps us calculate the distance between two points in a coordinate plane. It's:\n  Distance = \u221a[(x\u2082 - x\u2081)\u00b2 + (y\u2082 - y\u2081)\u00b2]\n**2. Identify the Coordinates**\n*  Let (-3, 7) be (x\u2081, y\u2081)\n*  Let (2, -5) be (x\u2082, y\u2082)\n**3. Plug the Values into the Formula**\nDistance = \u221a[(2 - (-3))\u00b2 + (-5 - 7)\u00b2]\n**4. Simplify the Equation**\nDistance = \u221a[(5)\u00b2 + (-12)\u00b2]\nDistance = \u221a(25 + 144)\nDistance = \u221a169\n**5. Calculate the Distance**\nDistance = 13\n**Answer:** The line segment is 13 units long. \n"
+    ],
+    "pred_answers": "13",
+    "final_pred_answer": [
+        "13",
+        "13",
+        "13",
+        "13",
+        "13"
+    ],
+    "ground_truth": "13"
+}

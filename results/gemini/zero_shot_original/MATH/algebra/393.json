@@ -1,0 +1,23 @@
+{
+    "problem": "Factor $r^2+10r+25$.",
+    "level": "Level 1",
+    "type": "Algebra",
+    "solution": "The quadratic term is the square of $r$ and the constant term is $5^2$.  The linear term is $2(r)(5)$, so we see that $r^2 + 10r+25 = \\boxed{(r+5)^2}$.",
+    "prompt": "### Instruction: Factor $r^2+10r+25$.\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "1. **Identify the type of expression:** This is a trinomial (three terms) in the form of $ax^2 + bx + c$.\n2. **Find two numbers that add up to the middle term (10) and multiply to the last term (25).**  The numbers 5 and 5 satisfy both conditions:\n   * 5 + 5 = 10\n   * 5 * 5 = 25\n3. **Rewrite the middle term using the two numbers you found:**\n   *  $r^2 + 5r + 5r + 25$\n4. **Factor by grouping:**\n   *  $r(r + 5) + 5(r + 5)$\n5. **Factor out the common binomial:**\n   *  $(r + 5)(r + 5)$\n6. **Simplify:**\n   *  $(r + 5)^2$\n**Therefore, the factored form of $r^2 + 10r + 25$ is $(r + 5)^2$.** \n",
+        "**1. Identify the pattern:**\nThe expression is a perfect square trinomial because:\n* The first term ($r^2$) is a perfect square.\n* The last term ($25$) is a perfect square (5 x 5 = 25).\n* The middle term ($10r$) is twice the product of the square roots of the first and last terms (2 * r * 5 = 10r).\n**2. Apply the pattern:**\nThe factorization of a perfect square trinomial follows the pattern: \n(a + b)\u00b2 = a\u00b2 + 2ab + b\u00b2\n**3. Apply the pattern to our expression:**\n* a = r \n* b = 5\nTherefore, the factored form is:\n**(r + 5)\u00b2** \n",
+        "**1. Recognize the pattern:**\n* The expression is a trinomial (three terms).\n* The first and last terms are perfect squares: $r^2$ is the square of $r$, and $25$ is the square of $5$.\n* The middle term is twice the product of the square roots of the first and last terms: $10r = 2(r)(5)$.\nThis pattern suggests that the trinomial is a perfect square trinomial.\n**2. Factor the trinomial:**\n* Since the middle term is positive, the factored form will be: $(r + 5)^2$\n**Explanation:**\n* $(r + 5)^2$ expands to $(r + 5)(r + 5)$ \n*  Using the FOIL method, we get: $r^2 + 5r + 5r + 25 = r^2 + 10r + 25$\n**Therefore, the factored form of  $r^2 + 10r + 25$ is $(r + 5)^2$.** \n",
+        "**1. Identify the pattern:**\n* The expression is a trinomial (three terms).\n* The first and last terms are perfect squares: $r^2 = (r)^2$ and $25 = (5)^2$.\n* The middle term is twice the product of the square roots of the first and last terms: $10r = 2(r)(5)$.\n**2. Apply the pattern:**\nThis pattern indicates that the trinomial is a perfect square trinomial. It factors as: \n   \n   (a + b)\u00b2 = a\u00b2 + 2ab + b\u00b2\n**3. Factor the trinomial:**\n*  a = r\n*  b = 5\nTherefore,  \n  \n  r\u00b2 + 10r + 25 = **(r + 5)\u00b2** \n",
+        "**1. Identify the pattern:**\nThe expression is a perfect square trinomial because:\n* The first term ($r^2$) is the square of $r$.\n* The last term ($25$) is the square of $5$.\n* The middle term ($10r$) is twice the product of $r$ and $5$ (2 * r * 5 = 10r).\n**2. Apply the pattern:**\nThe general form of a perfect square trinomial is:  \n  \n  $a^2 + 2ab + b^2 = (a + b)^2$\n**3. Factor the trinomial:**\nIn our case, $a = r$ and $b = 5$.  Therefore, we can factor the expression as:\n$r^2 + 10r + 25 = (r + 5)^2$\n**Final answer:**  The factored form of $r^2 + 10r + 25$ is **(r + 5)\u00b2**. \n"
+    ],
+    "pred_answers": "5",
+    "final_pred_answer": [
+        "2",
+        "5",
+        "2",
+        "5",
+        "5"
+    ],
+    "ground_truth": "2"
+}

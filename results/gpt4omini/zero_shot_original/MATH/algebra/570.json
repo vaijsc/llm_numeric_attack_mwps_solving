@@ -1,0 +1,23 @@
+{
+    "problem": "Compute the square of 989 without a calculator.",
+    "level": "Level 3",
+    "type": "Algebra",
+    "solution": "\\[989^2=(10^3-11)^2=10^6-2\\cdot11\\cdot10^3+121.\\]We can factor out $10^3$ from the first two terms to make the computation easier: \\[989^2=10^3(10^3-22)+121=10^3\\cdot978+121=\\boxed{978121}.\\]",
+    "prompt": "### Instruction: Compute the square of 989 without a calculator.\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "To compute the square of 989, we can use the identity for squaring a binomial. We can express 989 as \\(1000 - 11\\) and then use the formula \\((a - b)^2 = a^2 - 2ab + b^2\\).\nLet \\(a = 1000\\) and \\(b = 11\\).\nNow, we can calculate:\n1. \\(a^2 = 1000^2 = 1000000\\)\n2. \\(b^2 = 11^2 = 121\\)\n3. \\(2ab = 2 \\times 1000 \\times 11 = 22000\\)\nNow, apply the formula:\n\\[\n(1000 - 11)^2 = 1000^2 - 2 \\times 1000 \\times 11 + 11^2\n\\]\nSubstituting the values we calculated:\n\\[\n1000000 - 22000 + 121\n\\]\nNow, do the subtraction and addition step-by-step:\n1. Compute \\(1000000 - 22000 = 978000\\)\n2. Now, add \\(121\\):\n\\[\n978000 + 121 = 978121\n\\]\nThus, the square of 989 is:\n\\[\n\\boxed{978121}\n\\]",
+        "To compute the square of 989, we can use the binomial expansion formula since 989 can be rewritten as \\(1000 - 11\\). \nWe can express \\(989^2\\) as:\n\\[\n(1000 - 11)^2\n\\]\nUsing the formula \\((a - b)^2 = a^2 - 2ab + b^2\\), where \\(a = 1000\\) and \\(b = 11\\):\n1. **Calculate \\(a^2\\)**:\n   \\[\n   1000^2 = 1000000\n   \\]\n2. **Calculate \\(2ab\\)**:\n   \\[\n   2 \\times 1000 \\times 11 = 22000\n   \\]\n3. **Calculate \\(b^2\\)**:\n   \\[\n   11^2 = 121\n   \\]\nNow, substitute these values back into the binomial formula:\n\\[\n989^2 = 1000000 - 22000 + 121\n\\]\nNow, simplify this step by step:\n1. **Subtract \\(22000\\) from \\(1000000\\)**:\n   \\[\n   1000000 - 22000 = 978000\n   \\]\n2. **Add \\(121\\)**:\n   \\[\n   978000 + 121 = 978121\n   \\]\nThus, the square of 989 is:\n\\[\n\\boxed{978121}\n\\]",
+        "To compute the square of 989, we can use the formula for the square of a binomial:\n\\[\n(a - b)^2 = a^2 - 2ab + b^2\n\\]\nIn this case, we can express 989 as \\(1000 - 11\\). So we have:\n- \\(a = 1000\\)\n- \\(b = 11\\)\nNow we apply the formula:\n\\[\n(1000 - 11)^2 = 1000^2 - 2 \\cdot 1000 \\cdot 11 + 11^2\n\\]\nCalculating each term:\n1. \\(1000^2 = 1000000\\)\n2. \\(2 \\cdot 1000 \\cdot 11 = 22000\\)\n3. \\(11^2 = 121\\)\nNow, putting it all together:\n\\[\n989^2 = 1000000 - 22000 + 121\n\\]\nNow we perform the subtraction and addition step by step:\nFirst, do the subtraction:\n\\[\n1000000 - 22000 = 978000\n\\]\nNext, add 121:\n\\[\n978000 + 121 = 978121\n\\]\nTherefore, the square of 989 is:\n\\[\n\\boxed{978121}\n\\]",
+        "To compute the square of 989, we can use the algebraic identity for the square of a number:\n\\[\n(a - b)^2 = a^2 - 2ab + b^2\n\\]\nIn this case, we can express 989 as \\(1000 - 11\\), so we set \\(a = 1000\\) and \\(b = 11\\).\nNow, we apply the identity:\n\\[\n(1000 - 11)^2 = 1000^2 - 2 \\times 1000 \\times 11 + 11^2\n\\]\n1. Calculate \\(1000^2\\):\n   \\[\n   1000^2 = 1000000\n   \\]\n2. Calculate \\(2 \\times 1000 \\times 11\\):\n   \\[\n   2 \\times 1000 \\times 11 = 2000 \\times 11 = 22000\n   \\]\n3. Calculate \\(11^2\\):\n   \\[\n   11^2 = 121\n   \\]\nNow, we can substitute back into the equation:\n\\[\n989^2 = 1000000 - 22000 + 121\n\\]\n4. Calculate \\(1000000 - 22000\\):\n   \\[\n   1000000 - 22000 = 978000\n   \\]\n5. Finally, add \\(121\\):\n   \\[\n   978000 + 121 = 978121\n   \\]\nTherefore, the square of 989 is \n\\[\n\\boxed{978121}\n\\]",
+        "To compute the square of 989, we can use the formula for the square of a binomial, \\( (a - b)^2 = a^2 - 2ab + b^2 \\).\nLet's choose \\( a = 1000 \\) and \\( b = 11 \\) because \\( 989 = 1000 - 11 \\).\nNow we can use the formula:\n\\[\n(1000 - 11)^2 = 1000^2 - 2 \\cdot 1000 \\cdot 11 + 11^2\n\\]\nCalculating each of these components:\n1. \\( 1000^2 = 1000000 \\)\n2. \\( 2 \\cdot 1000 \\cdot 11 = 22000 \\)\n3. \\( 11^2 = 121 \\)\nNow substituting these values back into the equation:\n\\[\n989^2 = 1000000 - 22000 + 121\n\\]\nPerforming the subtraction and addition step by step:\n\\[\n1000000 - 22000 = 978000\n\\]\n\\[\n978000 + 121 = 978121\n\\]\nThus, the square of 989 is:\n\\[\n\\boxed{978121}\n\\]"
+    ],
+    "pred_answers": "978121",
+    "final_pred_answer": [
+        "978121",
+        "978121",
+        "978121",
+        "978121",
+        "978121"
+    ],
+    "ground_truth": "978121"
+}

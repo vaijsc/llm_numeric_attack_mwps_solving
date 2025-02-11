@@ -1,0 +1,23 @@
+{
+    "problem": "If $p (x) = 2-x^2$ and $q(x) = \\frac{6}{x}$, what is the value of $p (q(2))$?",
+    "level": "Level 1",
+    "type": "Algebra",
+    "solution": "Since $q(2) = \\frac62 = 3$, we have $p(q(2)) = p(3) = 2-3^2 = \\boxed{-7}$.",
+    "prompt": "### Instruction: If $p (x) = 2-x^2$ and $q(x) = \\frac{6}{x}$, what is the value of $p (q(2))$?\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "Here's how to solve the problem step-by-step:\n1. **Find q(2):** \n   * Substitute x = 2 into the expression for q(x):\n   *  q(2) = 6/2 = 3\n2. **Find p(q(2)) which is the same as p(3):**\n   * Substitute x = 3 into the expression for p(x):\n   * p(3) = 2 - 3\u00b2 = 2 - 9 = -7\n**Therefore, the value of p(q(2)) is -7.** \n",
+        "Here's how to solve the problem step-by-step:\n1. **Find the value of  q(2):** \n   Substitute  x = 2 into the expression for q(x):\n   q(2) = 6/2 = 3\n2. **Find the value of p(q(2)), which is p(3):** \n   Substitute x = 3 into the expression for p(x):\n   p(3) = 2 - 3^2 = 2 - 9 = -7\n**Therefore, the value of p(q(2)) is -7.** \n",
+        "Here's how to solve the problem step-by-step:\n**1. Find the value of q(2):**\n* Substitute *x* = 2 into the expression for *q(x)*: \n   * q(2) = 6/2 = 3\n**2. Find the value of p(q(2)), which is the same as p(3):**\n* Substitute *x* = 3 into the expression for *p(x)*:\n   * p(3) = 2 - 3\u00b2 = 2 - 9 = -7\n**Therefore, the value of p(q(2)) is -7.** \n",
+        "Here's how to solve this problem step by step:\n1. **Find q(2):** \n   Substitute *x = 2* into the expression for *q(x)*:\n   *q(2) = 6/2 = 3*\n2. **Find p(q(2)), which is p(3):** \n   Now substitute *x = 3* into the expression for *p(x)*:\n   *p(3) = 2 - 3\u00b2 = 2 - 9 = -7*\n**Therefore, the value of p(q(2)) is -7.** \n",
+        "Here's how to solve the problem step-by-step:\n**1. Find the value of q(2):**\n* Substitute *x* = 2 into the expression for *q(x)*:\n   * q(2) = 6/2 = 3\n**2. Find the value of p(q(2)), which is p(3):**\n* Substitute *x* = 3 into the expression for *p(x)*:\n   * p(3) = 2 - 3\u00b2 = 2 - 9 = -7\n**Therefore, the value of p(q(2)) is -7.** \n"
+    ],
+    "pred_answers": "-7",
+    "final_pred_answer": [
+        "-7",
+        "-7",
+        "-7",
+        "-7",
+        "-7"
+    ],
+    "ground_truth": "-7"
+}

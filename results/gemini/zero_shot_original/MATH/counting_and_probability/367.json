@@ -1,0 +1,23 @@
+{
+    "problem": "A singles tournament had six players. Each player played every other player only once, with no ties. If Helen won 4 games, Ines won 3 games, Janet won 2 games, Kendra won 2 games and Lara won 2 games, how many games did Monica win?",
+    "level": "Level 3",
+    "type": "Counting & Probability",
+    "solution": "Each of the six players played 5 games, and each game involved two players. So there were $\\binom{6}{2} = 15$ games. Helen, Ines, Janet, Kendra and Lara won a total of $4+3+2+2+2=13$ games, so Monica won $15-13=\\boxed{2}$ games.",
+    "prompt": "### Instruction: A singles tournament had six players. Each player played every other player only once, with no ties. If Helen won 4 games, Ines won 3 games, Janet won 2 games, Kendra won 2 games and Lara won 2 games, how many games did Monica win?\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "Here's how to solve this problem:\n**1. Total Games Played:**\n* In a tournament where everyone plays each other once, the total number of games is calculated using the formula:  n * (n - 1) / 2, where 'n' is the number of players.\n* In this case, n = 6, so there were 6 * (6 - 1) / 2 = 15 games played.\n**2. Games Won by Known Players:**\n* Helen: 4 games\n* Ines: 3 games\n* Janet: 2 games\n* Kendra: 2 games\n* Lara: 2 games\n* **Total games won by known players:** 4 + 3 + 2 + 2 + 2 = 13 games\n**3. Games Won by Monica:**\n* Since all 15 games were played, and we know the outcome of 13 games, Monica must have won the remaining games: 15 - 13 = 2 games.\n**Therefore, Monica won 2 games.** \n",
+        "Here's how we can solve this problem:\n**1. Total Games:**\n* Since each of the 6 players played every other player once, we can calculate the total number of games played using the formula: n * (n-1) / 2, where n is the number of players. \n* In this case, the total number of games is 6 * (6-1) / 2 = 15 games.\n**2. Games Won by Known Players:**\n* Helen: 4 games\n* Ines: 3 games\n* Janet: 2 games\n* Kendra: 2 games\n* Lara: 2 games\n* Total games won by these players: 4 + 3 + 2 + 2 + 2 = 13 games\n**3. Games Won by Monica:**\n* Since there were 15 total games and 13 were won by the other players, Monica must have won the remaining games.\n* Monica won 15 - 13 = 2 games.\n**Therefore, Monica won 2 games.** \n",
+        "Here's how to solve this problem step-by-step:\n**1. Total Games Played:**\n*  Since there are 6 players, and each player plays every other player once, we can use the formula:  n * (n - 1) / 2, where 'n' is the number of players.\n*  6 * (6 - 1) / 2 = 6 * 5 / 2 = 15 games were played in total.\n**2. Games Won by Known Players:**\n* Helen: 4 wins\n* Ines: 3 wins\n* Janet: 2 wins\n* Kendra: 2 wins\n* Lara: 2 wins\n* Total wins by these players: 4 + 3 + 2 + 2 + 2 = 13 wins\n**3. Games Won by Monica:**\n* Since 15 games were played in total, and we know 13 were won by other players, Monica must have won the remaining games.\n* 15 - 13 = 2 games\n**Therefore, Monica won 2 games.** \n",
+        "Here's how to solve this problem step-by-step:\n**1. Total Games Played:**\n* Since there are 6 players, and each player plays every other player once, the total number of games played is:  6 * (6 - 1) / 2 = 15 games\n**2. Games Won by Known Players:**\n* Helen: 4 games\n* Ines: 3 games\n* Janet: 2 games\n* Kendra: 2 games\n* Lara: 2 games\n* **Total:** 4 + 3 + 2 + 2 + 2 = 13 games\n**3. Games Won by Monica:**\n* We know that 13 games were won by the five players mentioned.\n* Since there were 15 total games played, Monica must have won the remaining games. \n* Monica won: 15 - 13 = **2 games** \n",
+        "Here's how to solve this problem step-by-step:\n**1. Total Games Played:**\n* In a tournament where everyone plays each other once, the total number of games is calculated using the formula: n(n-1)/2, where 'n' is the number of players.\n* In this case, there are 6 players, so the total number of games is 6(6-1)/2 = 15 games.\n**2. Games Won by Known Players:**\n* Helen won 4 games.\n* Ines won 3 games.\n* Janet won 2 games.\n* Kendra won 2 games.\n* Lara won 2 games.\n* In total, these players won 4 + 3 + 2 + 2 + 2 = 13 games.\n**3. Games Won by Monica:**\n* Since there were 15 games played in total, and 13 games were won by the other players, Monica must have won the remaining games.\n* Therefore, Monica won 15 - 13 = **2 games**. \n"
+    ],
+    "pred_answers": "2",
+    "final_pred_answer": [
+        "2",
+        "2",
+        "2",
+        "2",
+        "2"
+    ],
+    "ground_truth": "2"
+}

@@ -1,0 +1,23 @@
+{
+    "problem": "Find the coefficient of $x$ when $(7+8x)-3(2+6x+2x^2)+9(1+3x+4x^2+12x^3)-9(7-x^2-8x^3+13x^4)$ is simplified.",
+    "level": "Level 3",
+    "type": "Algebra",
+    "solution": "Ignoring the non-linear terms, we see that the coefficient of $x$ is  \\[1\\cdot8-3\\cdot6+9\\cdot3=8-18+27=\\boxed{17}.\\]",
+    "prompt": "### Instruction: Find the coefficient of $x$ when $(7+8x)-3(2+6x+2x^2)+9(1+3x+4x^2+12x^3)-9(7-x^2-8x^3+13x^4)$ is simplified.\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "1. **Distribute:** Begin by distributing the constants outside each set of parentheses:\n   ```\n   7 + 8x - 6 - 18x - 6x^2 + 9 + 27x + 36x^2 + 108x^3 - 63 + 9x^2 + 72x^3 - 117x^4\n   ```\n2. **Combine like terms:** Group the terms with the same powers of *x* together:\n   ```\n   (7 - 6 + 9 - 63) + (8 - 18 + 27)x + (-6 + 36 + 9)x^2 + (108 + 72)x^3 - 117x^4 \n   ```\n3. **Simplify:** Calculate the coefficients for each power of *x*:\n   ```\n   -43 + 17x + 39x^2 + 180x^3 - 117x^4\n   ```\nTherefore, the coefficient of *x* is **17**. \n",
+        "1. **Distribute:** \n   -  Start by distributing the constants outside the parentheses:\n      *  $7 + 8x - 6 - 18x - 6x^2 + 9 + 27x + 36x^2 + 108x^3 - 63 + 9x^2 + 72x^3 - 117x^4$\n2. **Combine Like Terms:**\n   - Group the terms with the same variable and exponent:\n     *  $(-6 - 63) + (8 - 18 + 27)x + (-6 + 36 + 9)x^2 + (108 + 72)x^3 - 117x^4$\n3. **Simplify:**\n   - Combine the coefficients of each term:\n     *  $-69 + 17x + 39x^2 + 180x^3 - 117x^4$\n4. **Identify the Coefficient of x:**\n   - The coefficient of the $x$ term is **17**. \n**Therefore, the coefficient of $x$ is 17.** \n",
+        "1. **Distribute:**  First, distribute the constants outside the parentheses:\n   *  $(7+8x) - 3(2+6x+2x^2) + 9(1+3x+4x^2+12x^3) - 9(7-x^2-8x^3+13x^4)  = $\n   *  $7 + 8x - 6 - 18x - 6x^2 + 9 + 27x + 36x^2 + 108x^3 - 63 + 9x^2 + 72x^3 - 117x^4$\n2. **Combine like terms:** Combine the terms with the same powers of *x*:\n   * $(-117x^4) + (108x^3 + 72x^3) + (36x^2 + 9x^2 - 6x^2) + (27x + 8x - 18x) + (7 - 6 + 9 - 63) $\n3. **Simplify:**\n   * $-117x^4 + 180x^3 + 39x^2 + 17x - 53$\n4. **Identify the coefficient:** The coefficient of the *x* term is **17**. \nTherefore, the coefficient of *x* in the simplified expression is **17**. \n",
+        "Here's how to find the coefficient of $x$ step-by-step:\n1. **Distribute:**  Expand each term by distributing the constants:\n   *  7 + 8x \n   *  -6 - 18x - 6x\u00b2 \n   *  9 + 27x + 36x\u00b2 + 108x\u00b3\n   *  -63 + 9x\u00b2 + 72x\u00b3 - 117x\u2074\n2. **Combine Like Terms:** Combine the terms with the same power of *x*:\n   *  **x\u00b3 terms:** 108x\u00b3 + 72x\u00b3 = 180x\u00b3\n   *  **x\u00b2 terms:** -6x\u00b2 + 36x\u00b2 + 9x\u00b2 = 39x\u00b2\n   *  **x terms:** 8x - 18x + 27x = 17x\n   *  **Constant terms:** 7 - 6 + 9 - 63 = -53 \n3. **Write the Simplified Expression:**  The simplified expression is:\n   -117x\u2074 + 180x\u00b3 + 39x\u00b2 + 17x - 53\n4. **Identify the Coefficient:**  The coefficient of *x* is the number that multiplies *x*, which is **17**. \n**Therefore, the coefficient of *x* is 17.** \n",
+        "Here's how to find the coefficient of $x$ step-by-step:\n1. **Distribute:**  Expand each of the products:\n   *  $(7+8x) = 7 + 8x$\n   *  $-3(2+6x+2x^2) = -6 -18x -6x^2$\n   *  $9(1+3x+4x^2+12x^3) = 9 + 27x + 36x^2 + 108x^3$\n   *  $-9(7-x^2-8x^3+13x^4) = -63 + 9x^2 + 72x^3 - 117x^4$\n2. **Combine Like Terms:**  Group the terms with the same powers of $x$:\n   *  $x^4$ terms:  $-117x^4$ \n   *  $x^3$ terms: $108x^3 + 72x^3 = 180x^3$\n   *  $x^2$ terms: $36x^2 -6x^2 + 9x^2 = 39x^2$\n   *  $x$ terms: $8x -18x + 27x = 17x$\n   *  Constant terms: $7 - 6 - 63 = -62$\n3. **Final Expression:** The simplified expression is:\n   $-117x^4 + 180x^3 + 39x^2 + 17x - 62$\n4. **Coefficient of x:** The coefficient of $x$ is the number multiplying the $x$ term, which is **17**. \n"
+    ],
+    "pred_answers": "17",
+    "final_pred_answer": [
+        "17",
+        "17",
+        "17",
+        "17",
+        "17"
+    ],
+    "ground_truth": "17"
+}

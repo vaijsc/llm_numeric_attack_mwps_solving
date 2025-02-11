@@ -1,0 +1,23 @@
+{
+    "problem": "Find $p+q$, given that $(q+4)(p+3)-(q+2)(p+1)=44$.",
+    "level": "Level 3",
+    "type": "Algebra",
+    "solution": "We multiply the binomials:\n\n\\begin{align*}\n(q+4)(p+3)-(q+2)(p+1)&=44\\\\\nq(p+3)+4(p+3)-(q(p+1)+2(p+1))&=44\\\\\npq+3q+4p+12-(pq+q+2p+2)&=44\\\\\n2q+2p+10&=44\\\\\n2q+2p&=34\\\\\nq+p&=\\boxed{17}\\\\\n\\end{align*}",
+    "prompt": "### Instruction: Find $p+q$, given that $(q+4)(p+3)-(q+2)(p+1)=44$.\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "Here's how to solve the problem step by step:\n1. **Expand the products:** \n   \n   *  (q + 4)(p + 3) = qp + 3q + 4p + 12\n   *  (q + 2)(p + 1) = qp + q + 2p + 2\n2. **Substitute the expanded products into the equation:**\n   *  (qp + 3q + 4p + 12) - (qp + q + 2p + 2) = 44\n3. **Simplify the equation:**\n   *  qp + 3q + 4p + 12 - qp - q - 2p - 2 = 44\n   *  2q + 2p + 10 = 44\n4. **Solve for 2q + 2p:**\n   *  2q + 2p = 34\n5. **Factor out a 2:**\n   *  2(q + p) = 34\n6. **Solve for q + p:**\n   *  q + p = 17\nTherefore, **p + q = 17**. \n",
+        "Here's how to solve the problem step-by-step:\n1. **Expand the products:** \n   (q+4)(p+3) = qp + 3q + 4p + 12\n   (q+2)(p+1) = qp + q + 2p + 2\n2. **Substitute the expanded products into the equation:**\n   (qp + 3q + 4p + 12) - (qp + q + 2p + 2) = 44\n3. **Simplify the equation:**\n   qp + 3q + 4p + 12 - qp - q - 2p - 2 = 44\n   2q + 2p + 10 = 44\n4. **Isolate the terms with 'p' and 'q':**\n   2q + 2p = 34\n5. **Divide both sides by 2:**\n   q + p = 17\n6. **Therefore, p + q = 17** \n",
+        "Here's how to solve the problem step-by-step:\n1. **Expand the products:** \n   \n   The equation becomes:\n   \n   ```\n   qp + 3q + 4p + 12 - (qp + q + 2p + 2) = 44\n   ```\n2. **Simplify by combining like terms:**\n   ```\n   qp + 3q + 4p + 12 - qp - q - 2p - 2 = 44 \n   2q + 2p + 10 = 44\n   ```\n3. **Isolate the terms with 'p' and 'q':**\n   ```\n   2q + 2p = 34\n   ```\n4. **Divide both sides by 2:**\n   ```\n   q + p = 17\n   ```\n5. **Therefore, p + q = 17** \n",
+        "1. **Expand the products:**\n   \n   (q+4)(p+3) = qp + 3q + 4p + 12\n   (q+2)(p+1) = qp + q + 2p + 2\n2. **Substitute the expansions into the equation:**\n   (qp + 3q + 4p + 12) - (qp + q + 2p + 2) = 44\n3. **Simplify the equation:**\n   qp + 3q + 4p + 12 - qp - q - 2p - 2 = 44\n   2q + 2p + 10 = 44\n4. **Isolate the terms with p and q:**\n   2q + 2p = 34\n5. **Divide both sides by 2:**\n   q + p = 17\nTherefore, **p + q = 17**. \n",
+        "Here's how to solve the problem step-by-step:\n1. **Expand the products:** \n   \n   (q+4)(p+3) = qp + 3q + 4p + 12\n   (q+2)(p+1) = qp + q + 2p + 2\n2. **Substitute into the equation:**\n   (qp + 3q + 4p + 12) - (qp + q + 2p + 2) = 44\n3. **Simplify the equation:**\n   qp + 3q + 4p + 12 - qp - q - 2p - 2 = 44\n   2q + 2p + 10 = 44\n4. **Solve for 2q + 2p:**\n   2q + 2p = 34\n5. **Factor out a 2:**\n   2(q + p) = 34\n6. **Solve for q + p:**\n   q + p = 17\nTherefore, **p + q = 17**. \n"
+    ],
+    "pred_answers": "17",
+    "final_pred_answer": [
+        "17",
+        "17",
+        "17",
+        "17",
+        "17"
+    ],
+    "ground_truth": "17"
+}

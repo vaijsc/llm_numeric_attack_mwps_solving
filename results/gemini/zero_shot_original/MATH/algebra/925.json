@@ -1,0 +1,23 @@
+{
+    "problem": "The sum of two numbers is 25 and their difference is 11. What is the larger of the two numbers?",
+    "level": "Level 1",
+    "type": "Algebra",
+    "solution": "Let $x,y$ be the two numbers, $x>y$. Then $x+y=25$ and $x-y=11$, thus:\n\n$x=\\frac{1}{2}\\left((x+y)+(x-y)\\right)=\\frac{1}{2}(25+11)=\\boxed{18}$.",
+    "prompt": "### Instruction: The sum of two numbers is 25 and their difference is 11. What is the larger of the two numbers?\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "Here's how to solve the problem step-by-step:\n**1. Set up equations:**\n* Let 'x' be the larger number.\n* Let 'y' be the smaller number.\nWe are given:\n* x + y = 25  (The sum of the two numbers is 25)\n* x - y = 11  (The difference of the two numbers is 11)\n**2. Solve for x (the larger number):**\n* **Add the two equations together:** \n   (x + y) + (x - y) = 25 + 11\n* **Simplify:**\n   2x = 36\n* **Divide both sides by 2:**\n   x = 18\n**Therefore, the larger of the two numbers is 18.** \n",
+        "Here's how to solve this problem step-by-step:\n**1. Set up equations:**\n* Let 'x' be the larger number.\n* Let 'y' be the smaller number.\nWe are given:\n*  x + y = 25 \n*  x - y = 11\n**2. Solve for one variable:**\n* Add the two equations together: \n   (x + y) + (x - y) = 25 + 11\n   2x = 36\n* Divide both sides by 2:\n   x = 18\n**3. Find the larger number:**\n* We found that x = 18.\n**Therefore, the larger of the two numbers is 18.** \n",
+        "Here's how to solve this problem step-by-step:\n**1. Set up equations:**\n* Let 'x' represent the larger number.\n* Let 'y' represent the smaller number.\nWe are given:\n*  x + y = 25  (The sum of the two numbers is 25)\n*  x - y = 11  (The difference of the two numbers is 11)\n**2. Solve for x (the larger number):**\n* **Add the two equations together:** Notice that the 'y' terms cancel out:\n   (x + y) + (x - y) = 25 + 11\n   2x = 36\n* **Divide both sides by 2:**\n   x = 18\n**Therefore, the larger of the two numbers is 18.** \n",
+        "Here's how to solve this problem step-by-step:\n**1. Set up equations:**\n* Let 'x' be the larger number.\n* Let 'y' be the smaller number.\nWe are given:\n*  x + y = 25 \n*  x - y = 11\n**2. Solve for one variable:**\n* **Add the two equations together:** Notice that the 'y' terms cancel out:\n   (x + y) + (x - y) = 25 + 11\n   2x = 36\n* **Solve for x:**\n   x = 36 / 2\n   x = 18\n**3. Find the larger number:**\n* Since we defined 'x' as the larger number, the larger of the two numbers is **18**. \n",
+        "Here's how to solve this problem step-by-step:\n**1. Set up equations:**\n* Let 'x' be the larger number.\n* Let 'y' be the smaller number.\nWe are given:\n* x + y = 25  (The sum of the two numbers is 25)\n* x - y = 11  (The difference of the two numbers is 11)\n**2. Solve for x (the larger number):**\n* **Add the two equations together:** Notice that the 'y' terms cancel out.\n   (x + y) + (x - y) = 25 + 11\n   2x = 36\n* **Divide both sides by 2:**\n   x = 18\n**Therefore, the larger of the two numbers is 18.** \n"
+    ],
+    "pred_answers": "18",
+    "final_pred_answer": [
+        "18",
+        "18",
+        "18",
+        "18",
+        "18"
+    ],
+    "ground_truth": "18"
+}

@@ -1,0 +1,23 @@
+{
+    "problem": "Let $t=2s-s^2$ and $s=n^2 - 2^n+1$. What is the value of $t$ when $n=3$?",
+    "level": "Level 1",
+    "type": "Algebra",
+    "solution": "First substitute $n=3$ into the expression for $s$ to find $s=3^2 - 2^3 + 1 = 9-8+1=2$.  Then substitute $s=2$ into the expression for $t$ to find $t=2(2) - 2^2 =\\boxed{0}$.",
+    "prompt": "### Instruction: Let $t=2s-s^2$ and $s=n^2 - 2^n+1$. What is the value of $t$ when $n=3$?\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "Here's how to solve the problem step-by-step:\n1. **Substitute the value of n into the equation for s:**\n   Since n = 3, we have:\n   s = 3\u00b2 - 2\u00b3 + 1 = 9 - 8 + 1 = 2\n2. **Substitute the value of s into the equation for t:**\n   Since s = 2, we have:\n   t = 2(2) - 2\u00b2 = 4 - 4 = 0\n**Therefore, the value of t when n = 3 is 0.** \n",
+        "Here's how to solve the problem step-by-step:\n1. **Substitute n = 3 into the expression for s:**\n   *  s = (3)^2 - 2^(3) + 1 = 9 - 8 + 1 = 2\n2. **Substitute the value of s (which is 2) into the expression for t:**\n   *  t = 2(2) - (2)^2 = 4 - 4 = 0\n**Therefore, when n = 3, the value of t is 0.** \n",
+        "Here's how to solve the problem step-by-step:\n1. **Substitute the value of n into the equation for s:** \n   Since n = 3, we have:\n   s = 3\u00b2 - 2\u00b3 + 1 = 9 - 8 + 1 = 2\n2. **Substitute the value of s into the equation for t:**\n   Now that we know s = 2, we can find t:\n   t = 2(2) - 2\u00b2 = 4 - 4 = 0\n**Therefore, when n = 3, the value of t is 0.** \n",
+        "Here's how to solve the problem step by step:\n1. **Substitute n = 3 into the equation for s:**\n   s = (3)^2 - 2^(3) + 1\n   s = 9 - 8 + 1\n   s = 2\n2. **Substitute s = 2 into the equation for t:**\n   t = 2(2) - (2)^2\n   t = 4 - 4\n   t = 0\n**Therefore, the value of t when n = 3 is 0.** \n",
+        "1. **Find the value of 's' when n = 3:**\n   Substitute n = 3 into the equation for 's':\n   s = 3\u00b2 - 2\u00b3 + 1 = 9 - 8 + 1 = 2\n2. **Find the value of 't' when s = 2:**\n   Substitute s = 2 into the equation for 't':\n   t = 2(2) - 2\u00b2 = 4 - 4 = 0\n**Therefore, the value of 't' when n = 3 is 0.** \n"
+    ],
+    "pred_answers": "0",
+    "final_pred_answer": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+    ],
+    "ground_truth": "0"
+}

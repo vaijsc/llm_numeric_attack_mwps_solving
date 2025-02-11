@@ -1,0 +1,23 @@
+{
+    "problem": "What is the value of $\\sqrt[3]{4^5 + 4^5 + 4^5 + 4^5}$?",
+    "level": "Level 2",
+    "type": "Algebra",
+    "solution": "Simplify under the radical first: $4^5+4^5+4^5+4^5=4\\cdot 4^5=4^6$, and the cube root of $4^6$ is $4^{6/3}=4^2=\\boxed{16}$.",
+    "prompt": "### Instruction: What is the value of $\\sqrt[3]{4^5 + 4^5 + 4^5 + 4^5}$?\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "Here's how to solve the problem step-by-step:\n1. **Simplify inside the cube root:**  We have four terms of  $4^5$. This can be written as  $4 \\cdot 4^5$.\n2. **Use exponent rules:**  Remember that when multiplying exponents with the same base, you add the powers. So,  $4 \\cdot 4^5 = 4^6$.\n3. **Calculate the cube root:**  The cube root of  $4^6$ is  $4^{6/3} = 4^2$.\n4. **Final answer:**  $4^2 = 16$. \n**Therefore, the value of  $\\sqrt[3]{4^5 + 4^5 + 4^5 + 4^5}$ is 16.** \n",
+        "Here's how to solve the problem step-by-step:\n1. **Simplify the expression inside the cube root:** \n   * We have four identical terms of 4\u2075, so we can write this as 4 * 4\u2075.\n2. **Apply the rule of exponents:**\n   * When multiplying exponents with the same base, you add the powers: 4 * 4\u2075 = 4\u00b9 * 4\u2075 = 4\u2076\n3. **Calculate 4\u2076:**\n   * 4\u2076 = 4 * 4 * 4 * 4 * 4 * 4 = 4096\n4. **Find the cube root:**\n   *  \u221a[3](4096) = 16 (since 16 * 16 * 16 = 4096)\n**Therefore, the value of \u221a[3](4\u2075 + 4\u2075 + 4\u2075 + 4\u2075) is 16.** \n",
+        "1. **Simplify the expression inside the cube root:** \n   *  4^5 + 4^5 + 4^5 + 4^5 = 4 * 4^5 = 4^6\n2. **Evaluate 4^6:**\n   * 4^6 = 4 * 4 * 4 * 4 * 4 * 4 = 4096\n3. **Find the cube root of 4096:**\n   *  \u221b4096 = 16 \n**Therefore, the value of \u221a[3](4^5 + 4^5 + 4^5 + 4^5) is 16.** \n",
+        "Here's how to solve the problem step-by-step:\n1. **Simplify the expression inside the cube root:**\n   *  4^5 + 4^5 + 4^5 + 4^5 = 4 * 4^5 = 4^6 \n2. **Evaluate the cube root:**\n   *  \u221a[3](4^6) = (4^6)^(1/3) = 4^(6/3) = 4^2 \n3. **Calculate the final result:**\n   *  4^2 = 16\n**Therefore, the value of \u221a[3](4^5 + 4^5 + 4^5 + 4^5) is 16.** \n",
+        "Here's how to solve the problem step-by-step:\n1. **Simplify the expression inside the cube root:** \n   Since we have four identical terms, we can combine them:\n   4\u2075 + 4\u2075 + 4\u2075 + 4\u2075 = 4 * 4\u2075\n2. **Apply the exponent rule:** \n   When multiplying exponents with the same base, you add the powers:\n   4 * 4\u2075 = 4\u00b9 * 4\u2075 = 4\u2076\n3. **Calculate the cube root:**\n   \u221a[3](4\u2076) = 4\u2076/\u00b3 = 4\u00b2 = 16\n**Therefore, the value of \u221a[3](4\u2075 + 4\u2075 + 4\u2075 + 4\u2075) is 16.** \n"
+    ],
+    "pred_answers": "16",
+    "final_pred_answer": [
+        "16",
+        "16",
+        "16",
+        "16",
+        "16"
+    ],
+    "ground_truth": "16"
+}

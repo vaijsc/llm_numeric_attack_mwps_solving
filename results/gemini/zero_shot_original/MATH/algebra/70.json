@@ -1,0 +1,23 @@
+{
+    "problem": "If $(x,y) = (3,9)$, what is $y^2 - 3xy + 8$?",
+    "level": "Level 1",
+    "type": "Algebra",
+    "solution": "We have $y^2 -3xy + 8 = 9^2 - 3(3)(9) + 8 = 81 - 81 + 8 = \\boxed{8}$.",
+    "prompt": "### Instruction: If $(x,y) = (3,9)$, what is $y^2 - 3xy + 8$?\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "Here's how to solve the problem step-by-step:\n1. **Substitute the values:** We are given that (x, y) = (3, 9).  Substitute these values into the expression: \n   \n   y\u00b2 - 3xy + 8 = (9)\u00b2 - 3(3)(9) + 8\n2. **Simplify using order of operations (PEMDAS/BODMAS):**\n   * **Exponents:** 9\u00b2 = 81\n   * **Multiplication:** 3(3)(9) = 81\n   * **Subtraction and Addition:** 81 - 81 + 8 = 8\n**Therefore, y\u00b2 - 3xy + 8 = 8 when (x, y) = (3, 9).** \n",
+        "Here's how to solve the problem step-by-step:\n1. **Substitute the values:** We know that  x = 3 and y = 9.  Let's substitute these values into the expression:\n   y\u00b2 - 3xy + 8  =  9\u00b2 - 3(3)(9) + 8\n2. **Simplify:** Now we can perform the calculations:\n   81 - 81 + 8 = 8\n**Therefore, if (x, y) = (3, 9), then y\u00b2 - 3xy + 8 = 8.** \n",
+        "Here's how to solve the problem step-by-step:\n1. **Substitute the values:** We are given that (x, y) = (3, 9).  This means x = 3 and y = 9.  Substitute these values into the expression:\n   y\u00b2 - 3xy + 8  =  9\u00b2 - 3(3)(9) + 8\n2. **Simplify using the order of operations (PEMDAS/BODMAS):**\n   * **Exponents:** 9\u00b2 = 81\n   * **Multiplication:** 3(3)(9) = 81\n   * **Subtraction and Addition:** 81 - 81 + 8 = 8\n3. **The answer:** Therefore, y\u00b2 - 3xy + 8 = **8** when (x, y) = (3, 9). \n",
+        "1. **Substitute the values:** We are given that (x, y) = (3, 9). So, we can substitute x = 3 and y = 9 into the expression.\n2. **Evaluate:**  \n   *  y\u00b2 = 9\u00b2 = 81\n   *  3xy = 3 * 3 * 9 = 81\n   *  8 = 8 \n3. **Combine the terms:** \n   *  y\u00b2 - 3xy + 8 = 81 - 81 + 8 \n4. **Simplify:** \n   *  y\u00b2 - 3xy + 8 = 8\nTherefore, if (x, y) = (3, 9), then y\u00b2 - 3xy + 8 = **8**. \n",
+        "Here's how to solve the problem step-by-step:\n1. **Substitute the values:** We are given that (x, y) = (3, 9).  Substitute these values into the expression: \n   \n   y\u00b2 - 3xy + 8 = (9)\u00b2 - 3(3)(9) + 8\n2. **Simplify using the order of operations (PEMDAS/BODMAS):**\n   * **Exponents:** 9\u00b2 = 81\n   * **Multiplication:** 3(3)(9) = 81\n   * **Subtraction and addition:** 81 - 81 + 8 = 8\n**Therefore, if (x, y) = (3, 9), then y\u00b2 - 3xy + 8 = 8.** \n"
+    ],
+    "pred_answers": "8",
+    "final_pred_answer": [
+        "9",
+        "8",
+        "9",
+        "8",
+        "8"
+    ],
+    "ground_truth": "8"
+}

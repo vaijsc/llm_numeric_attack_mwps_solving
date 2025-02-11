@@ -1,0 +1,23 @@
+{
+    "problem": "Evaluate $\\log_381$.",
+    "level": "Level 2",
+    "type": "Algebra",
+    "solution": "We have $3^4=81$, so $\\log_3 81 = \\boxed{4}$.",
+    "prompt": "### Instruction: Evaluate $\\log_381$.\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "We want to find the exponent to which we need to raise 3 to get 81.  In other words, we want to solve the equation $3^x = 81$.\nSince $81 = 3^4$, we have $3^x = 3^4$.  Therefore, $x = \\boxed{4}$.  So, $\\log_3 81 = 4$. \n",
+        "**1. Understand Logarithms**\n   *  A logarithm answers the question: \"What exponent do I need to raise the base to, to get a certain number?\"  \n   * In the expression  log<sub>b</sub>a, we are asking \"What power do I need to raise 'b' to in order to get 'a'?\"\n**2. Apply to the Problem**\n* We have log<sub>3</sub>81.  This means we are looking for the exponent we need to raise 3 to in order to get 81.\n**3. Find the Solution**\n* We know that 3 x 3 x 3 x 3 = 81, or 3<sup>4</sup> = 81. \n* Therefore, log<sub>3</sub>81 = **4** \n",
+        "**1. Understand Logarithms:**\n*  The expression  $\\log_3 81$ asks: \"What power do we need to raise 3 to in order to get 81?\"\n**2. Find the Power:**\n* We know that  3 x 3 x 3 x 3 = 81\n*  This can be written as  3\u2074 = 81\n**3. Conclusion:**\n* Therefore,  $\\log_3 81 = \\boxed{4}$ \n",
+        "**1. Understand Logarithms:**\n   * The expression  \"log\u2083 81\" asks the question: \"To what power must we raise 3 to get 81?\"\n**2.  Find the Power:**\n   * We know that 3 x 3 x 3 x 3 = 81 \n   * This can be written as 3\u2074 = 81\n**3. Answer:**\n   * Therefore, log\u2083 81 = **4** \n",
+        "**Step 1: Understand what logarithms represent**\nThe equation $\\log_3 81$ asks: \"To what power must we raise 3 to get 81?\"\n**Step 2: Find the exponent**\nWe know that  3 * 3 * 3 * 3 = 81, which can be written as 3\u2074 = 81.\n**Step 3: State the answer**\nTherefore,  $\\log_3 81 = \\boxed{4}$. \n"
+    ],
+    "pred_answers": "4",
+    "final_pred_answer": [
+        "4",
+        "4",
+        "4",
+        "81",
+        "4"
+    ],
+    "ground_truth": "4"
+}

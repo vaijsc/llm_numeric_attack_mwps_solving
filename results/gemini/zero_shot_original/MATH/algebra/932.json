@@ -1,0 +1,23 @@
+{
+    "problem": "The owners of the Luray Caverns in Virginia conduct tours every 20 minutes. Each day in April the first tour is at 9 a.m., and the last tour starts at 6 p.m. How many tours are there per day in April?",
+    "level": "Level 3",
+    "type": "Algebra",
+    "solution": "From 9 a.m. to 6 p.m. there are 9 hours. In each hour, there are 3 tours (every 20 minutes). Thus, in 9 hours, there are $9 \\cdot 3 = 27$ tours. Don't forget to count the last tour at 6 p.m., so there are $\\boxed{28}$ tours total per day.",
+    "prompt": "### Instruction: The owners of the Luray Caverns in Virginia conduct tours every 20 minutes. Each day in April the first tour is at 9 a.m., and the last tour starts at 6 p.m. How many tours are there per day in April?\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "Here's how to solve the problem step-by-step:\n1. **Calculate the total time for tours:** The tours run from 9:00 a.m. to 6:00 p.m., which is a total of 9 hours.\n2. **Convert hours to minutes:**  9 hours * 60 minutes/hour = 540 minutes.\n3. **Calculate the number of tours:** Divide the total time by the time between tours: 540 minutes / 20 minutes/tour = 27 tours.\n**Therefore, there are 27 tours per day in April at the Luray Caverns.** \n",
+        "Here's how to solve the problem step-by-step:\n1. **Calculate the total time for tours:** The last tour starts at 6 p.m., which is 18:00 in 24-hour time. The first tour is at 9 a.m., which is 09:00.  The total time for tours is 18:00 - 09:00 = 9 hours.\n2. **Convert hours to minutes:** There are 60 minutes in an hour, so 9 hours is equal to 9 * 60 = 540 minutes.\n3. **Calculate the number of tours:**  A tour starts every 20 minutes, so in 540 minutes there are 540 / 20 = 27 tours.\n**Therefore, there are 27 tours per day in April at the Luray Caverns.** \n",
+        "Here's how to solve the problem step by step:\n1. **Calculate the total time tours run:** The tours run from 9 a.m. to 6 p.m., which is a total of 9 hours.\n2. **Convert hours to minutes:**  There are 60 minutes in an hour, so 9 hours is equal to 9 * 60 = 540 minutes.\n3. **Calculate the number of tours:** Since tours start every 20 minutes, there are 540 minutes / 20 minutes/tour = 27 tours per day.\n**Answer:** There are **27** tours per day in April at Luray Caverns. \n",
+        "Here's how to solve this problem step-by-step:\n1. **Calculate the total time for tours:** The tours run from 9 a.m. to 6 p.m., which is a total of 9 hours.\n2. **Convert hours to minutes:**  9 hours * 60 minutes/hour = 540 minutes\n3. **Calculate the number of tours:** Since tours start every 20 minutes, divide the total time by the time between tours: 540 minutes / 20 minutes/tour = 27 tours.\n**Therefore, there are 27 tours per day in April at the Luray Caverns.** \n",
+        "Here's how to solve the problem step-by-step:\n1. **Calculate the total time for tours:** The tours run from 9:00 a.m. to 6:00 p.m., which is a total of 9 hours.\n2. **Convert hours to minutes:**  There are 60 minutes in an hour, so 9 hours is equal to 9 * 60 = 540 minutes.\n3. **Divide the total time by the time between tours:**  A tour starts every 20 minutes, so there are 540 / 20 = 27 tours per day.\n**Answer:** There are 27 tours per day in April at the Luray Caverns. \n"
+    ],
+    "pred_answers": "27",
+    "final_pred_answer": [
+        "27",
+        "27",
+        "27",
+        "27",
+        "27"
+    ],
+    "ground_truth": "28"
+}

@@ -1,0 +1,23 @@
+{
+    "problem": "If $5a=-4b+5$ and $3a=-2b+3$, what is $6b$?",
+    "level": "Level 3",
+    "type": "Algebra",
+    "solution": "First we begin by solving the system of equations \\begin{align*}\n5a&=-4b+5, \\\\\n3a&=-2b+3.\n\\end{align*}Subtracting two times the second equation from the first equation, we get $5a-2(3a)=-4b+5-2(-2b+3)$, which simplifies to $-a=-1$. So $a=1$ and plugging this into the first equation we obtain $5=-4b+5$. Solving for $b$, we find that $b=0$. Hence $6b=6\\cdot 0=\\boxed{0}$.",
+    "prompt": "### Instruction: If $5a=-4b+5$ and $3a=-2b+3$, what is $6b$?\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "Here's how to solve for 6b step-by-step:\n1. **Solve for 'a' in terms of 'b' in one of the equations:**\n   Let's use the second equation: \n   3a = -2b + 3\n   Divide both sides by 3:\n   a = (-2/3)b + 1\n2. **Substitute the expression for 'a' into the other equation:**\n   Substitute  a = (-2/3)b + 1  into the first equation:\n   5[(-2/3)b + 1] = -4b + 5\n3. **Simplify and solve for 'b':**\n   (-10/3)b + 5 = -4b + 5\n   (-10/3)b + 4b = 5 - 5 \n   (2/3)b = 0\n   b = 0\n4. **Calculate 6b:**\n   6b = 6 * 0 = 0\n**Therefore, 6b = 0** \n",
+        "Here's how to solve the problem step-by-step:\n**1. Eliminate one variable:**\n* Notice that both equations have 'a' and 'b'. We can eliminate 'a' by multiplying the second equation by -5 and the first equation by 3. This will give us:\n    *  -15a = 10b - 15\n    *  15a = -12b + 15\n* Now, add the two equations together. The 'a' terms cancel out:\n    *  0 = -2b \n**2. Solve for 'b':**\n* Divide both sides by -2:\n    *  b = 0\n**3. Find 6b:**\n*  Substitute b = 0 into the expression 6b:\n    * 6b = 6(0) = 0\n**Therefore, 6b = 0** \n",
+        "Here's how to solve the problem step-by-step:\n**1. Eliminate one variable:**\n* **Multiply the second equation by 5:** This will make the coefficients of 'a' in both equations the same, allowing us to eliminate 'a'. \n   *  (5)(3a) = (5)(-2b + 3) \n   *  15a = -10b + 15\n* **Subtract the first equation from the modified second equation:** \n   * 15a = -10b + 15\n   * -(5a = -4b + 5)\n   *  -----------------\n   *  10a = -6b + 10\n**2. Solve for 'a':**\n*  10a = -6b + 10\n*  a = (-6b + 10)/10\n*  a = (-3b + 5)/5\n**3. Substitute the value of 'a' into either original equation:**\n* Let's use the first equation: 5a = -4b + 5\n* 5((-3b + 5)/5) = -4b + 5\n* -3b + 5 = -4b + 5\n**4. Solve for 'b':**\n* -3b + 5 = -4b + 5\n* b = 0 \n**5. Calculate 6b:**\n* 6b = 6(0) \n* 6b = 0\n**Therefore, 6b = 0** \n",
+        "Here's how to solve the problem step-by-step:\n**1. Eliminate one variable**\n* **Multiply the second equation by -5:** This will allow us to eliminate 'a' when we add the equations together.\n   - (-5) * (3a) = (-5) * (-2b + 3) \n   - This simplifies to -15a = 10b - 15\n* **Add the modified second equation to the first equation:**\n   - 5a = -4b + 5\n   - -15a = 10b - 15\n   ------------------\n   -10a = 6b - 10\n**2. Solve for 'a'**\n* **Divide both sides of the equation by -10:**\n   - a = (-6b + 10) / -10\n   - a = (3b - 5) / 5\n**3. Substitute 'a' into one of the original equations**\n* **Let's use the first equation (5a = -4b + 5):**\n   - 5 * [(3b - 5) / 5] = -4b + 5\n**4. Solve for 'b'**\n* **Simplify and solve for 'b':**\n   - 3b - 5 = -4b + 5\n   - 7b = 10\n   - b = 10/7\n**5. Calculate 6b**\n* **Multiply 'b' by 6:**\n   - 6b = 6 * (10/7) \n   - **6b = 60/7**\n**Therefore, 6b = 60/7** \n",
+        "Here's how to solve the problem step-by-step:\n**1. Eliminate one variable**\nWe can use elimination to solve for one of the variables.  Notice that if we multiply the second equation by -5, the 'a' coefficients will be opposites:\n*  -15a = 10b - 15\nNow, add this modified equation to the first equation:\n*  5a = -4b + 5\n* -15a = 10b - 15\n* ----------\n* -10a = 6b - 10\n**2. Solve for one variable**\nWe can now solve for 'a':\n* -10a = 6b - 10\n* a = (-6b + 10) / -10\n* a = (3b - 5) / 5\n**3. Substitute to find 'b'**\nSubstitute this expression for 'a' back into either of the original equations. Let's use the second equation:\n* 3[(3b - 5) / 5] = -2b + 3\n* 9b - 15 = -10b + 15\n* 19b = 30\n* b = 30/19\n**4. Calculate 6b**\nFinally, calculate 6b:\n* 6b = 6 * (30/19) \n* **6b = 180/19** \n"
+    ],
+    "pred_answers": "0",
+    "final_pred_answer": [
+        "0",
+        "0",
+        "0",
+        "7",
+        "19"
+    ],
+    "ground_truth": "0"
+}

@@ -1,0 +1,23 @@
+{
+    "problem": "Given $2^a = 32$ and $a^b = 125$ find $b^a$.",
+    "level": "Level 1",
+    "type": "Algebra",
+    "solution": "We note that $32 = 2 \\cdot 2\\cdot 2\\cdot 2\\cdot 2= 2^5$, so $a=5$. This leaves us with $5^b=125=5\\cdot5\\cdot5=5^3$, which means that $b=3$. Therefore our answer is $b^a = 3^5 = \\boxed{243}$.",
+    "prompt": "### Instruction: Given $2^a = 32$ and $a^b = 125$ find $b^a$.\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "Here's how to solve this problem step-by-step:\n**1. Solve for 'a' in the first equation:**\n* We know that  2<sup>5</sup> = 32.\n* Therefore,  a = 5.\n**2. Solve for 'b' in the second equation:**\n* We know that 5<sup>3</sup> = 125.\n* Therefore, b = 3.\n**3. Calculate b<sup>a</sup>:**\n* Substitute the values of 'a' and 'b' we found: 3<sup>5</sup> = 243\n**Therefore, b<sup>a</sup> = 243** \n",
+        "Here's how to solve the problem step-by-step:\n**1. Solve for 'a'**\n* We know  2^a = 32.  Since 32 is 2 raised to the power of 5 (2 x 2 x 2 x 2 x 2 = 32), we have:\n* a = 5\n**2. Solve for 'b'**\n* We know a^b = 125. We know a = 5, so:\n* 5^b = 125. Since 125 is 5 raised to the power of 3 (5 x 5 x 5 = 125), we have:\n* b = 3\n**3. Calculate b^a**\n* Now we have a = 5 and b = 3. Let's calculate b^a:\n* b^a = 3^5 = 3 x 3 x 3 x 3 x 3 = 243\n**Therefore, b^a = 243** \n",
+        "Here's how to solve the problem step-by-step:\n**1. Solve for 'a' in the first equation:**\n*  We know that  2<sup>5</sup> = 32.  Therefore,  a = 5.\n**2. Solve for 'b' in the second equation:**\n* We know that 5<sup>3</sup> = 125. Therefore, b = 3.\n**3. Calculate b<sup>a</sup>:**\n* Now, we have b = 3 and a = 5.  \n* Substitute these values into b<sup>a</sup>:  3<sup>5</sup> = 243\n**Therefore, b<sup>a</sup> = 243** \n",
+        "Here's how to solve the problem step-by-step:\n**1. Find the value of 'a'**\n* We know  2^a = 32.  \n* Since 32 is 2 raised to the power of 5 (2 x 2 x 2 x 2 x 2 = 32), we can say a = 5.\n**2. Find the value of 'b'**\n* We know a^b = 125.\n* We know a = 5, so 5^b = 125. \n* Since 125 is 5 raised to the power of 3 (5 x 5 x 5 = 125), we can say b = 3.\n**3. Calculate b^a**\n* We know b = 3 and a = 5. \n* Therefore, b^a = 3^5 = 3 x 3 x 3 x 3 x 3 = 243\n**Therefore, b^a = 243** \n",
+        "Here's how to solve the problem step-by-step:\n**1. Solve for 'a' in the first equation:**\n*  We know  2^a = 32.  Since 32 is 2 raised to the power of 5 (2 x 2 x 2 x 2 x 2 = 32), we have:\n   * a = 5\n**2. Solve for 'b' in the second equation:**\n* We know a^b = 125, and we just found that a = 5. So:\n   * 5^b = 125\n   * Since 125 is 5 raised to the power of 3 (5 x 5 x 5 = 125), we have:\n   * b = 3\n**3. Calculate b^a:**\n* Now that we know a = 5 and b = 3, we can calculate b^a:\n   * b^a = 3^5 \n   * 3^5 = 3 x 3 x 3 x 3 x 3 = 243\n**Therefore, b^a = 243** \n"
+    ],
+    "pred_answers": "243",
+    "final_pred_answer": [
+        "243",
+        "243",
+        "243",
+        "243",
+        "243"
+    ],
+    "ground_truth": "243"
+}

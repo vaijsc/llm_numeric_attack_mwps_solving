@@ -1,0 +1,23 @@
+{
+    "problem": "At 50 miles per hour, how far would a car travel in $2\\frac{3}{4}$ hours? Express your answer as a mixed number.",
+    "level": "Level 1",
+    "type": "Algebra",
+    "solution": "In two hours, a car traveling at $50$ mph would travel $50$ mph $\\times 2$ hours $= 100$ miles. Now we find how far a car can travel in $3/4$ of an hour which is $50$ mph $\\times \\frac{3}{4}$ hours $ = \\frac{150}{4} = 37 \\frac{1}{2}$ miles. Thus, the car would travel a total of $100 + 37 \\frac{1}{2}= \\boxed{137 \\frac{1}{2}}$ miles.",
+    "prompt": "### Instruction: At 50 miles per hour, how far would a car travel in $2\\frac{3}{4}$ hours? Express your answer as a mixed number.\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "Here's how to solve the problem step-by-step:\n**1. Convert the mixed number to a fraction:**\n*  2 3/4 = (2 * 4 + 3) / 4 = 11/4 hours\n**2. Multiply the speed by the time to find the distance:**\n* Distance = Speed * Time\n* Distance = 50 miles/hour * (11/4) hours\n* Distance = 550/4 miles\n**3. Simplify the fraction:**\n* 550/4 = 137 1/2 miles\n**Answer:** The car would travel **137 1/2 miles** in 2 3/4 hours. \n",
+        "Here's how to solve the problem step-by-step:\n**1. Convert the mixed number to a fraction:**\n*  2 3/4 = (2 * 4 + 3) / 4 = 11/4 hours\n**2.  Use the formula: distance = speed * time**\n*  Distance = 50 miles/hour * 11/4 hours\n**3.  Multiply the numerators and denominators:**\n*  Distance = (50 * 11) / (1 * 4) miles \n**4.  Simplify:**\n*  Distance = 550/4 miles\n**5.  Convert the improper fraction to a mixed number:**\n*  Distance = 137 1/2 miles \n**Therefore, a car traveling at 50 miles per hour would travel 137 1/2 miles in 2 3/4 hours.** \n",
+        "Here's how to solve the problem:\n* **Convert the mixed number to a fraction:**  2 3/4 hours is equal to (2 * 4 + 3) / 4 = 11/4 hours.\n* **Multiply speed by time:**  Distance = Speed * Time.  So, the car travels 50 miles/hour * 11/4 hours = 550/4 miles.\n* **Simplify the fraction:** 550/4 miles simplifies to 137 1/2 miles.\n**Therefore, the car would travel 137 1/2 miles in 2 3/4 hours.** \n",
+        "Here's how to solve the problem step-by-step:\n**1. Convert the mixed number to a fraction:**\n*  2 3/4 hours is the same as (2 * 4 + 3) / 4 = 11/4 hours\n**2.  Use the formula: distance = speed * time**\n* Distance = 50 miles/hour * 11/4 hours\n**3. Simplify:**\n* Distance = (50 * 11) / 4 miles \n* Distance = 550/4 miles\n**4. Convert the improper fraction to a mixed number:**\n* 550/4 miles = 137 1/2 miles\n**Answer:** The car would travel **137 1/2 miles** in 2 3/4 hours. \n",
+        "Here's how to solve the problem step-by-step:\n**1. Convert the mixed number to a fraction:**\n*  2 3/4 hours is the same as (2 * 4 + 3) / 4 = 11/4 hours.\n**2.  Use the formula: distance = speed x time**\n*  Distance = 50 miles/hour * (11/4) hours \n*  Distance = (50 * 11) / 4 miles\n*  Distance = 550/4 miles\n**3. Simplify the fraction to a mixed number:**\n*  550/4 miles = 137 1/2 miles\n**Answer:** The car would travel **137 1/2 miles** in 2 3/4 hours. \n"
+    ],
+    "pred_answers": "137",
+    "final_pred_answer": [
+        "137",
+        "4",
+        "4",
+        "137",
+        "137"
+    ],
+    "ground_truth": "2"
+}

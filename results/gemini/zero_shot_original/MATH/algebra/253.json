@@ -1,0 +1,23 @@
+{
+    "problem": "$P$ and $Q$ represent numbers, and $P \\ast Q$ means $\\cfrac{P+Q}{2}$. What is the value of $3 \\ast (6 \\ast 8)$?",
+    "level": "Level 2",
+    "type": "Algebra",
+    "solution": "According to the order of operations, first perform the operation indicated in the parentheses.\n\n$6 \\ast 8 = \\cfrac{6+8}{2}$ or 7. Then $3 \\ast (6 \\ast 8) = 3 \\ast 7 = \\cfrac{3+7}{2}$ or $\\boxed{5}$.",
+    "prompt": "### Instruction: $P$ and $Q$ represent numbers, and $P \\ast Q$ means $\\cfrac{P+Q}{2}$. What is the value of $3 \\ast (6 \\ast 8)$?\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "Here's how to solve the problem step-by-step:\n**1. Solve the inner parentheses first:**\n*  (6 * 8) means (6 + 8) / 2 = 14 / 2 = 7\n**2. Now we have:**\n* 3 * 7\n**3. Solve the remaining operation:**\n* 3 * 7 means (3 + 7) / 2 = 10 / 2 = 5\n**Therefore, the value of 3 * (6 * 8) is 5.** \n",
+        "Let's break down the problem step-by-step:\n1. **Calculate (6 * 8):** \n   *  (6 * 8) = (6 + 8) / 2 = 14 / 2 = 7\n2. **Calculate 3 * (6 * 8):** \n   *  3 * (6 * 8) = 3 * 7 = (3 + 7) / 2 = 10 / 2 = 5\n**Therefore, the value of 3 * (6 * 8) is 5.** \n",
+        "Here's how to solve this step-by-step:\n1. **Solve the innermost parentheses first:** \n   *  (6 * 8) means (6 + 8) / 2 = 14 / 2 = 7\n2. **Now we have:** 3 * 7\n3. **Solve the remaining operation:**\n   * 3 * 7 means (3 + 7) / 2 = 10 / 2 = 5\n**Therefore, the value of 3 * (6 * 8) is 5.** \n",
+        "Here's how to solve the problem step-by-step:\n1. **Solve the inner parentheses first:**\n   *  (6 * 8) means (6 + 8) / 2 = 14 / 2 = 7\n2. **Now we have:** 3 * 7\n3. **Solve the remaining operation:**\n   *  3 * 7 means (3 + 7) / 2 = 10 / 2 = 5\n**Therefore, the value of 3 * (6 * 8) is 5.** \n",
+        "Here's how to solve this step-by-step:\n1. **Solve the inner parentheses first:** \n   *  6 * 8 = (6 + 8)/2 = 14/2 = 7\n2. **Now solve the outer parentheses:**\n   * 3 * (7) = (3 + 7)/2 = 10/2 = 5\n**Therefore, the value of 3 * (6 * 8) is 5.** \n"
+    ],
+    "pred_answers": "5",
+    "final_pred_answer": [
+        "5",
+        "5",
+        "5",
+        "5",
+        "5"
+    ],
+    "ground_truth": "5"
+}

@@ -1,0 +1,23 @@
+{
+    "problem": "The volume of a cone is given by the formula $V = \\frac{1}{3}Bh$, where $B$ is the area of the base and $h$ is the height. The area of the base of a cone is 30 square units, and its height is 6.5 units. What is the number of cubic units in its volume?",
+    "level": "Level 1",
+    "type": "Algebra",
+    "solution": "We are given that $B = 30$ and $h = 6.5$ and asked to find $\\frac{1}{3}Bh$.  We find that \\[\\frac{1}{3}Bh = \\frac{1}{3}(30)(6.5) = (10)(6.5) = \\boxed{65}.\\]",
+    "prompt": "### Instruction: The volume of a cone is given by the formula $V = \\frac{1}{3}Bh$, where $B$ is the area of the base and $h$ is the height. The area of the base of a cone is 30 square units, and its height is 6.5 units. What is the number of cubic units in its volume?\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "Here's how to solve the problem step-by-step:\n1. **Identify the given information:**\n   *  Base area (B) = 30 square units\n   *  Height (h) = 6.5 units\n2. **Apply the formula:**\n   *  V = (1/3) * B * h\n3. **Substitute the values:**\n   *  V = (1/3) * 30 * 6.5\n4. **Calculate the volume:**\n   *  V = 10 * 6.5 \n   *  V = 65\n**Therefore, the volume of the cone is 65 cubic units.** \n",
+        "Here's how to solve the problem step-by-step:\n1. **Identify the given information:**\n   - Base area (B) = 30 square units\n   - Height (h) = 6.5 units\n2. **Apply the formula:**\n   -  V = (1/3) * B * h\n3. **Substitute the values:**\n   - V = (1/3) * 30 * 6.5\n4. **Calculate the volume:**\n   - V = 10 * 6.5\n   - V = 65\n**Therefore, the volume of the cone is 65 cubic units.** \n",
+        "1. **Identify the given values:** We know that the base area (B) is 30 square units and the height (h) is 6.5 units.\n2. **Substitute the values into the formula:**  The formula for the volume of a cone is V = (1/3)Bh.  Substituting the given values, we get: \n   V = (1/3) * 30 * 6.5\n3. **Calculate the volume:**  \n   V = 10 * 6.5\n   V = 65\n**Therefore, the volume of the cone is 65 cubic units.** \n",
+        "Here's how to solve the problem step-by-step:\n1. **Identify the given information:**\n   - Base area (B) = 30 square units\n   - Height (h) = 6.5 units\n2. **Use the formula:**\n   - Volume (V) = (1/3) * B * h\n3. **Substitute the values:**\n   - V = (1/3) * 30 * 6.5\n4. **Calculate the volume:**\n   - V = 10 * 6.5\n   - V = 65 cubic units\n**Therefore, the volume of the cone is 65 cubic units.** \n",
+        "**1. Identify the given values:**\n*  Base area (B) = 30 square units\n*  Height (h) = 6.5 units\n**2.  Apply the formula:**\n*  Volume (V) = (1/3) * B * h\n**3. Substitute the values:**\n*  V = (1/3) * 30 * 6.5\n**4. Calculate the volume:**\n*  V = 10 * 6.5\n*  V = 65\n**Therefore, the volume of the cone is 65 cubic units.** \n"
+    ],
+    "pred_answers": "65",
+    "final_pred_answer": [
+        "65",
+        "65",
+        "65",
+        "65",
+        "65"
+    ],
+    "ground_truth": "65"
+}

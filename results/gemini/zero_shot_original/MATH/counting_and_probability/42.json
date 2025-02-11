@@ -1,0 +1,23 @@
+{
+    "problem": "A European train compartment has six seats.  Four of the seats are broken.  Wilhelm needs to fill out a form like the one here to indicate that there are broken seats.  If he randomly checks off four of the seats in the diagram, what is the probability that he marked the correct seats?  Express your answer as a common fraction.\n\n[asy]\n\ndraw((0,0)--(24,0)--(24,18)--(0,18)--(0,0));\n\nlabel(\"$\\textbf{Maintenance Report}$\",(12,16));\n\ndraw((2,2)--(22,2)--(22,14)--(2,14)--(2,2));\n\ndraw((4,4)--(8,4)--(8,6)--(4,6)--(4,4));\n\ndraw((10,4)--(14,4)--(14,6)--(10,6)--(10,4));\nlabel(\"$\\surd$\",(12,5));\n\ndraw((16,4)--(20,4)--(20,6)--(16,6)--(16,4));\nlabel(\"$\\surd$\",(18,5));\n\ndraw((4,10)--(8,10)--(8,12)--(4,12)--(4,10));\nlabel(\"$\\surd$\",(6,11));\n\ndraw((10,10)--(14,10)--(14,12)--(10,12)--(10,10));\nlabel(\"$\\surd$\",(12,11));\n\ndraw((16,10)--(20,10)--(20,12)--(16,12)--(16,10));\n\n[/asy]",
+    "level": "Level 3",
+    "type": "Counting & Probability",
+    "solution": "There are $\\binom{6}{4} = 15$ ways to mark any four seats. Of these 15 ways, only one is correct, so the answer is $\\boxed{\\frac{1}{15}}$.",
+    "prompt": "### Instruction: A European train compartment has six seats.  Four of the seats are broken.  Wilhelm needs to fill out a form like the one here to indicate that there are broken seats.  If he randomly checks off four of the seats in the diagram, what is the probability that he marked the correct seats?  Express your answer as a common fraction.\n\n[asy]\n\ndraw((0,0)--(24,0)--(24,18)--(0,18)--(0,0));\n\nlabel(\"$\\textbf{Maintenance Report}$\",(12,16));\n\ndraw((2,2)--(22,2)--(22,14)--(2,14)--(2,2));\n\ndraw((4,4)--(8,4)--(8,6)--(4,6)--(4,4));\n\ndraw((10,4)--(14,4)--(14,6)--(10,6)--(10,4));\nlabel(\"$\\surd$\",(12,5));\n\ndraw((16,4)--(20,4)--(20,6)--(16,6)--(16,4));\nlabel(\"$\\surd$\",(18,5));\n\ndraw((4,10)--(8,10)--(8,12)--(4,12)--(4,10));\nlabel(\"$\\surd$\",(6,11));\n\ndraw((10,10)--(14,10)--(14,12)--(10,12)--(10,10));\nlabel(\"$\\surd$\",(12,11));\n\ndraw((16,10)--(20,10)--(20,12)--(16,12)--(16,10));\n\n[/asy]\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "Here's how to solve the problem:\n* **Possible choices:** Wilhelm has to choose 4 seats out of 6.  The number of ways to do this is given by the combination formula:  \u2076C\u2084 = (6!)/(4!2!) = 15.\n* **Favorable choices:** There's only one way to choose the correct 4 broken seats.\n* **Probability:** The probability of Wilhelm marking the correct seats is the number of favorable choices divided by the total number of possible choices: 1/15.\nTherefore, the probability that Wilhelm marked the correct seats is **1/15**. \n",
+        "There are  $\\binom{6}{4} = 15$ ways to choose four seats out of six.  Since there are only four broken seats, there's only one way to choose the correct four.  Thus, the probability is $\\boxed{\\frac{1}{15}}$. \n",
+        "Here's how to solve the problem:\n* **Total Possibilities:** Wilhelm has 6 seats to choose from, and he's marking 4.  The total number of ways to choose 4 out of 6 is  \u2076C\u2084 = (6 * 5)/(2 * 1) = 15. \n* **Favorable Possibilities:** There's only one way to mark the correct four seats.\n* **Probability:** The probability of Wilhelm marking the correct seats is the number of favorable outcomes divided by the total number of outcomes: 1/15.\n**Therefore, the probability is 1/15.** \n",
+        "Here's how to solve this problem:\n* **Possible Choices:** Wilhelm has to choose 4 seats out of 6. The number of ways to do this is  \u2076C\u2084 = 6!/(4!2!) = 15. \n* **Correct Choices:**  There's only one way to choose the correct 4 broken seats.\n* **Probability:** The probability of Wilhelm choosing the correct seats is the number of correct choices divided by the total number of possible choices:  1/15.\n**Therefore, the probability that Wilhelm marked the correct seats is 1/15.** \n",
+        "Here's how to solve this problem:\n* **Possible Choices:** Wilhelm has to choose 4 seats out of 6. The number of ways to do this is  \u2076C\u2084 = 6!/(4!2!) = 15.\n* **Correct Choices:**  There's only one way to choose all four broken seats.\n* **Probability:** The probability of Wilhelm choosing the correct seats is the number of correct choices divided by the total number of possible choices.  This is 1/15.\n**Therefore, the probability that Wilhelm marked the correct seats is 1/15.** \n"
+    ],
+    "pred_answers": "15",
+    "final_pred_answer": [
+        "15",
+        "15",
+        "15",
+        "15",
+        "15"
+    ],
+    "ground_truth": "15"
+}

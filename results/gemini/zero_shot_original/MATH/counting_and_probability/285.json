@@ -1,0 +1,23 @@
+{
+    "problem": "Compute $\\dbinom{30}{27}$.",
+    "level": "Level 2",
+    "type": "Counting & Probability",
+    "solution": "$\\dbinom{30}{27}=\\dbinom{30}{3}=\\dfrac{30 \\times 29 \\times 28}{3!} = \\boxed{4060}$.",
+    "prompt": "### Instruction: Compute $\\dbinom{30}{27}$.\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "We know that $\\binom{n}{k} = \\dfrac{n!}{k!(n-k)!}$.  Therefore, \n\\[\\binom{30}{27} = \\dfrac{30!}{27!3!} = \\dfrac{30\\times29\\times28}{3\\times2\\times1} = \\boxed{4060}.\\]",
+        "We know that $\\dbinom{n}{k} = \\dfrac{n!}{k!(n-k)!}$. \nSo, we have:\n$\\dbinom{30}{27} = \\dfrac{30!}{27!(30-27)!} = \\dfrac{30!}{27!3!}$\nNow, let's simplify by expanding the factorials:\n$\\dfrac{30!}{27!3!} = \\dfrac{30 \\times 29 \\times 28 \\times 27!}{27! \\times 3 \\times 2 \\times 1}$\nCanceling out the $27!$ terms, we get:\n$\\dfrac{30 \\times 29 \\times 28}{3 \\times 2 \\times 1} = 10 \\times 29 \\times 14 = \\boxed{4060}$. \n",
+        "Here's how to compute  $\\binom{30}{27}$ step-by-step:\n**Understanding the Formula**\nThe binomial coefficient  $\\binom{n}{k}$ (read \"n choose k\") represents the number of ways to choose *k* items from a set of *n* distinct items. The formula is:\n$$\\binom{n}{k} = \\frac{n!}{k!(n-k)!}$$\nwhere \"!\" denotes the factorial (e.g., 5! = 5 * 4 * 3 * 2 * 1).\n**Applying the Formula**\n1. **Identify n and k:** In our case,  n = 30 and k = 27.\n2. **Calculate the factorials:**\n   * 30! = 30 * 29 * 28 * ... * 2 * 1\n   * 27! = 27 * 26 * 25 * ... * 2 * 1\n   * 3! = 3 * 2 * 1\n3. **Substitute into the formula:**\n   $$\\binom{30}{27} = \\frac{30!}{27!(30-27)!} = \\frac{30!}{27!3!}$$\n4. **Simplify:** \n   * Notice that 30! contains all the factors of 27! and an additional 3 * 2 * 1.  So, we can rewrite it as:\n      $$\\frac{30!}{27!3!} = \\frac{30 \\times 29 \\times 28 \\times 27!}{27! \\times 3 \\times 2 \\times 1}$$\n   * Cancel out the 27!:\n      $$\\frac{30 \\times 29 \\times 28 \\times \\cancel{27!}}{\\cancel{27!} \\times 3 \\times 2 \\times 1}$$\n   * Calculate the remaining: \n      $$\\frac{30 \\times 29 \\times 28}{3 \\times 2 \\times 1} = \\frac{24360}{6} = 4060$$\n**Therefore,  $\\binom{30}{27} = 4060$.** \n",
+        "We have that \n\\[\\binom{30}{27} = \\frac{30!}{27!3!} = \\frac{30 \\times 29 \\times 28}{3 \\times 2 \\times 1} = \\boxed{4060}.\\]",
+        "We have that\n\\[\\binom{30}{27} = \\frac{30!}{27!3!} = \\frac{30 \\times 29 \\times 28}{3 \\times 2 \\times 1} = \\boxed{4060}.\\]"
+    ],
+    "pred_answers": "4060",
+    "final_pred_answer": [
+        "4060",
+        "4060",
+        "4060",
+        "4060",
+        "4060"
+    ],
+    "ground_truth": "4060"
+}

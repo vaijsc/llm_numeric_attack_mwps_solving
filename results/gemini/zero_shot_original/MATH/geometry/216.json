@@ -1,0 +1,23 @@
+{
+    "problem": "For $x > 0$, the area of the triangle with vertices $(0, 0), (x, 0)$ and $(x, 5)$ is 30 square units. What is the value of $x$?",
+    "level": "Level 2",
+    "type": "Geometry",
+    "solution": "Sketching the points, we find that the triangle is a right triangle whose legs measure $x$ and $5$ units.  Solving $\\frac{1}{2}(x)(5)=30$, we find $x=\\boxed{12}$.\n\n[asy]\nsize(5cm,IgnoreAspect);\nimport graph;\ndefaultpen(linewidth(0.7)+fontsize(10));\nreal x = 12;\npair A=(0,0), B=(x,0), C=(x,5);\npair[] dots = {A,B,C};\ndot(dots);\ndraw(A--B--C--cycle);\nxaxis(-2,14,Arrows(4));\nyaxis(-1,7,Arrows(4));\nlabel(\"$(0,0)$\",A,SW);\nlabel(\"$(x,0)$\",B,S);\nlabel(\"$(x,5)$\",C,N);[/asy]",
+    "prompt": "### Instruction: For $x > 0$, the area of the triangle with vertices $(0, 0), (x, 0)$ and $(x, 5)$ is 30 square units. What is the value of $x$?\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "Here's how to solve the problem step-by-step:\n**1. Understand the Geometry**\n* The triangle is a right triangle with base *x* and height 5.\n**2. Area Formula**\n* The area of a triangle is given by: (1/2) * base * height\n**3. Set up the Equation**\n* We know the area is 30 square units. So, (1/2) * x * 5 = 30\n**4. Solve for x**\n* Simplify the equation: (5/2) * x = 30\n* Multiply both sides by (2/5): x = 30 * (2/5)\n* Calculate: x = 12\n**Answer:** The value of *x* is **12**. \n",
+        "Here's how to solve the problem step-by-step:\n**1. Visualize the Triangle**\nImagine a triangle with its base along the x-axis, one vertex at the origin (0,0), and the opposite vertex at a point directly above the base on the line y = 5.  \n**2.  Area of a Triangle**\nThe area of a triangle is given by:\n*  Area = (1/2) * base * height\n**3.  Identify Base and Height**\n* **Base:** The base of our triangle is the line segment from (0,0) to (x,0), which has a length of *x*.\n* **Height:** The height of the triangle is the perpendicular distance from the point (x,5) to the x-axis, which is 5 units.\n**4.  Set Up the Equation**\nWe're given that the area is 30 square units.  Let's plug the values into the area formula:\n* 30 = (1/2) * x * 5\n**5.  Solve for x**\n* 30 = (5/2) * x\n* 60 = 5x\n* x = 12\n**Answer:** The value of x is **12**. \n",
+        "Here's how to solve the problem step-by-step:\n**1. Visualize the Triangle**\nImagine a right triangle with its base along the x-axis, its height along the y-axis, and its right angle at the origin (0, 0). The other two vertices are (x, 0) and (x, 5).\n**2. Calculate the Base and Height**\n* **Base:** The length of the base is the distance from (0, 0) to (x, 0), which is simply *x*.\n* **Height:** The length of the height is the distance from (x, 0) to (x, 5), which is 5.\n**3. Use the Area Formula**\nThe area of a triangle is given by:\n* Area = (1/2) * base * height\n**4. Substitute and Solve**\nWe know the area is 30 square units, and we found the base is *x* and the height is 5.  Let's plug these values into the area formula:\n* 30 = (1/2) * *x* * 5\nSimplify and solve for *x*:\n* 30 = 2.5*x*\n* x = 30 / 2.5\n* x = 12\n**Therefore, the value of x is 12.** \n",
+        "Here's how to solve the problem step-by-step:\n**1. Understand the Triangle:**\n* The triangle is a right triangle with base *x* and height *5*.\n**2. Use the Area Formula:**\n* The area of a triangle is (1/2) * base * height.\n**3. Set Up the Equation:**\n* We know the area is 30 square units, so: \n   (1/2) * *x* * 5 = 30\n**4. Solve for x:**\n* Simplify the equation:  (5/2) * *x* = 30\n* Multiply both sides by (2/5): *x* = 30 * (2/5)\n* Calculate: *x* = 12\n**Therefore, the value of x is 12.** \n",
+        "Here's how to solve the problem step-by-step:\n**1. Visualize the Triangle**\nImagine a right triangle with its base along the x-axis, extending from (0, 0) to (x, 0). Its height is along the y-axis, going from (x, 0) to (x, 5).\n**2. Area Formula**\nThe area of a triangle is given by:\nArea = (1/2) * base * height\n**3. Apply the Formula**\n* **Base:**  The base of the triangle is the distance from (0, 0) to (x, 0), which is simply *x*.\n* **Height:** The height of the triangle is the distance from (x, 0) to (x, 5), which is *5*.\nSubstitute these values into the area formula:\n30 = (1/2) * x * 5\n**4. Solve for x**\nSimplify the equation:\n30 = (5/2) * x\nMultiply both sides by (2/5):\n30 * (2/5) = x\nSimplify:\n12 = x\n**Therefore, the value of x is 12.** \n"
+    ],
+    "pred_answers": "12",
+    "final_pred_answer": [
+        "12",
+        "12",
+        "12",
+        "12",
+        "12"
+    ],
+    "ground_truth": "5"
+}

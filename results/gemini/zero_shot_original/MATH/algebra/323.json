@@ -1,0 +1,23 @@
+{
+    "problem": "Simplify the following expression: $$\\sqrt{\\sqrt{4096} + \\sqrt[3]{4096} + \\sqrt[4]{4096}}$$",
+    "level": "Level 3",
+    "type": "Algebra",
+    "solution": "We note that $4096=2^{12}$, so the expression becomes $$\\sqrt{\\sqrt{2^{12}} + \\sqrt[3]{2^{12}} + \\sqrt[4]{2^{12}}} = \\sqrt{2^6 + 2^4 + 2^3} = \\sqrt{64+16+8} = \\sqrt{88}$$\n\nFactoring out $4$ from $88$ gives $\\boxed{2\\sqrt{22}}$, which cannot be simplified further.",
+    "prompt": "### Instruction: Simplify the following expression: $$\\sqrt{\\sqrt{4096} + \\sqrt[3]{4096} + \\sqrt[4]{4096}}$$\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "Here's how to simplify the expression step-by-step:\n1. **Find the roots:**\n   *  \u221a4096 = 64 (since 64 * 64 = 4096)\n   *  \u221b4096 = 16 (since 16 * 16 * 16 = 4096)\n   *  \u221c4096 = 8 (since 8 * 8 * 8 * 8 = 4096)\n2. **Substitute the values:**\n   \u221a(64 + 16 + 8)\n3. **Add the numbers inside the square root:**\n   \u221a(88)\n4. **Simplify (if possible):**  88 is not a perfect square, so we can leave the answer as **\u221a88**.  We can also simplify this slightly by factoring out a perfect square: \u221a88 = \u221a(4 * 22) = 2\u221a22\n**Therefore, the simplified expression is \u221a88 or 2\u221a22.** \n",
+        "Here's how to simplify the expression step-by-step:\n1. **Find the roots:**\n   *  \u221a4096 = 64 (since 64 * 64 = 4096)\n   *  \u221b4096 = 16 (since 16 * 16 * 16 = 4096)\n   *  \u221c4096 = 8 (since 8 * 8 * 8 * 8 = 4096)\n2. **Substitute the values:**\n   The expression becomes: \u221a(64 + 16 + 8)\n3. **Add the numbers inside the square root:**\n   \u221a(64 + 16 + 8) = \u221a88\n4. **Simplify the square root (optional):**\n   \u221a88 can be simplified by factoring out a perfect square: \u221a88 = \u221a(4 * 22) = 2\u221a22\n**Therefore, the simplified expression is \u221a88 or 2\u221a22.** \n",
+        "Here's how to simplify the expression step-by-step:\n1. **Calculate the roots:**\n   *  \u221a4096 = 64 (since 64 * 64 = 4096)\n   *  \u221b4096 = 16 (since 16 * 16 * 16 = 4096)\n   *  \u221c4096 = 8 (since 8 * 8 * 8 * 8 = 4096)\n2. **Substitute the values:**\n   The expression becomes: \u221a(64 + 16 + 8)\n3. **Simplify inside the square root:**\n   \u221a(64 + 16 + 8) = \u221a88\n4. **Factor out a perfect square:**\n   \u221a88 = \u221a(4 * 22) = \u221a4 * \u221a22\n5. **Final simplification:**\n   \u221a4 * \u221a22 = 2\u221a22\n**Therefore, the simplified expression is 2\u221a22.** \n",
+        "Here's how to simplify the expression step-by-step:\n1. **Find the roots:**\n   *  \u221a4096 = 64 (since 64 * 64 = 4096)\n   *  \u221b4096 = 16 (since 16 * 16 * 16 = 4096)\n   *  \u221a\u20744096 = 8 (since 8 * 8 * 8 * 8 = 4096)\n2. **Substitute the values:**\n   \u221a(64 + 16 + 8)\n3. **Add the numbers inside the square root:**\n   \u221a(88)\n4. **Simplify the square root (if possible):**\n   \u221a(88) can be simplified since 88 has a perfect square factor (4):\n   \u221a(4 * 22) = \u221a4 * \u221a22 = 2\u221a22\n**Therefore, the simplified expression is 2\u221a22.** \n",
+        "Here's how to simplify the expression step-by-step:\n1. **Calculate the roots:**\n   *  \u221a4096 = 64 (since 64 * 64 = 4096)\n   *  \u221b4096 = 16 (since 16 * 16 * 16 = 4096)\n   *  \u221a\u20744096 = 8 (since 8 * 8 * 8 * 8 = 4096)\n2. **Substitute the values:**\n   *  \u221a(64 + 16 + 8)\n3. **Simplify inside the square root:**\n   *  \u221a(88)\n**Therefore, the simplified expression is \u221a88.** You can leave it as \u221a88, or you could further simplify it by factoring out a perfect square:\n\u221a88 = \u221a(4 * 22) = 2\u221a22 \n"
+    ],
+    "pred_answers": "22",
+    "final_pred_answer": [
+        "22",
+        "22",
+        "22",
+        "22",
+        "22"
+    ],
+    "ground_truth": "22"
+}

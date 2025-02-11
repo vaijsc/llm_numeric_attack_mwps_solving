@@ -1,0 +1,23 @@
+{
+    "problem": "You have a square that has a side length of $1$ centimeter. Each minute, $2$ centimeters are added to the side length. After $10$ minutes, what will be the difference between the area of the last square and the area of the initial square in square centimeters (do not include the units in your answer)?",
+    "level": "Level 4",
+    "type": "Algebra",
+    "solution": "The initial square has area $1^2 = 1\\text{ cm}^2$. After ten minutes, the side length of the square will be $1 + 2\\cdot 10 = 21\\text{ cm}$. So, the last square has area $21^2 = 441\\text{ cm}^2$. So the difference in areas is $441 - 1 = \\boxed{440\\text{ cm}^2}$.",
+    "prompt": "### Instruction: You have a square that has a side length of $1$ centimeter. Each minute, $2$ centimeters are added to the side length. After $10$ minutes, what will be the difference between the area of the last square and the area of the initial square in square centimeters (do not include the units in your answer)?\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "Here's how to solve the problem step-by-step:\n* **Initial square:** The initial side length is 1 cm, so the initial area is 1 * 1 = 1 square cm.\n* **Side length after 10 minutes:** Each minute, 2 cm are added, so after 10 minutes, the side length will be 1 + (2 * 10) = 21 cm.\n* **Area after 10 minutes:** The area of the square after 10 minutes is 21 * 21 = 441 square cm.\n* **Difference:** The difference between the final area and the initial area is 441 - 1 = **440**. \n",
+        "Here's how to solve this problem step-by-step:\n* **Initial square:** The initial side length is 1 cm, so the initial area is 1 * 1 = 1 square cm.\n* **Side length after 10 minutes:**  After 10 minutes, 2 cm are added to the side length each minute, for a total of 2 * 10 = 20 cm added. The new side length is 1 + 20 = 21 cm.\n* **Area of the final square:** The area of the final square is 21 * 21 = 441 square cm.\n* **Difference in area:** The difference between the final area and the initial area is 441 - 1 = 440.\n**Therefore, the difference in area is 440.** \n",
+        "Here's how to solve the problem step-by-step:\n**1. Calculate the side length after 10 minutes:**\n* Initial side length: 1 cm\n* Increase per minute: 2 cm\n* Total increase after 10 minutes: 2 cm/minute * 10 minutes = 20 cm\n* Final side length: 1 cm + 20 cm = 21 cm\n**2. Calculate the area of the initial square:**\n* Side length: 1 cm\n* Area: 1 cm * 1 cm = 1 square cm\n**3. Calculate the area of the final square:**\n* Side length: 21 cm\n* Area: 21 cm * 21 cm = 441 square cm\n**4. Find the difference in area:**\n* Difference: 441 square cm - 1 square cm = 440\n**Therefore, the difference between the area of the last square and the area of the initial square is 440.** \n",
+        "Here's how to solve this problem step-by-step:\n**1. Calculate the side length of the final square:**\n* Initial side length: 1 cm\n* Side length increase per minute: 2 cm\n* Total increase after 10 minutes: 2 cm/minute * 10 minutes = 20 cm\n* Final side length: 1 cm + 20 cm = 21 cm\n**2. Calculate the area of the initial square:**\n* Area = side length * side length = 1 cm * 1 cm = 1 square cm\n**3. Calculate the area of the final square:**\n* Area = side length * side length = 21 cm * 21 cm = 441 square cm\n**4. Find the difference in area:**\n* Difference = Area of final square - Area of initial square = 441 square cm - 1 square cm = 440\n**Answer:** 440 \n",
+        "Here's how to solve the problem step-by-step:\n* **Initial square:** The initial square has a side length of 1 cm, so its area is 1 * 1 = 1 square centimeter.\n* **Side length after 10 minutes:** After 10 minutes, 2 cm are added to the side length each minute, for a total of 10 * 2 = 20 cm added.  The new side length is 1 + 20 = 21 cm.\n* **Area of the final square:** The final square has a side length of 21 cm, so its area is 21 * 21 = 441 square centimeters.\n* **Difference in area:** The difference between the final area and the initial area is 441 - 1 = 440 square centimeters.\n**Answer:** 440 \n"
+    ],
+    "pred_answers": "440",
+    "final_pred_answer": [
+        "440",
+        "440",
+        "440",
+        "440",
+        "440"
+    ],
+    "ground_truth": "2"
+}

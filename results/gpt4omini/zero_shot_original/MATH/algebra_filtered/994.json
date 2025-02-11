@@ -1,0 +1,23 @@
+{
+    "problem": "Simplify: $3!(2^3+\\sqrt{9})\\div 2$.",
+    "level": "Level 1",
+    "type": "Algebra",
+    "solution": "Simplify according to the order of operations. \\begin{align*}\n3!(2^3+\\sqrt{9})\\div 2 &= 6(8+3)\\div 2 \\\\\n&=6(11)\\div 2 \\\\\n&=66\\div 2\\\\\n&=\\boxed{33}.\n\\end{align*}",
+    "prompt": "### Instruction: Simplify: $3!(2^3+\\sqrt{9})\\div 2$.\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "To simplify the expression \\(3!(2^3+\\sqrt{9})\\div 2\\), we will break it down step by step.\n1. **Calculate \\(3!\\)**:\n   \\[\n   3! = 3 \\times 2 \\times 1 = 6\n   \\]\n2. **Calculate \\(2^3\\)**:\n   \\[\n   2^3 = 2 \\times 2 \\times 2 = 8\n   \\]\n3. **Calculate \\(\\sqrt{9}\\)**:\n   \\[\n   \\sqrt{9} = 3\n   \\]\n4. **Now, sum \\(2^3\\) and \\(\\sqrt{9}\\)**:\n   \\[\n   2^3 + \\sqrt{9} = 8 + 3 = 11\n   \\]\n5. **Now plug this back into the expression**:\n   \\[\n   3!(2^3 + \\sqrt{9}) = 6 \\times 11 = 66\n   \\]\n6. **Finally, divide by 2**:\n   \\[\n   66 \\div 2 = 33\n   \\]\nThus, the simplified value of the expression \\(3!(2^3+\\sqrt{9})\\div 2\\) is \\(\\boxed{33}\\).",
+        "We start with the expression\n\\[\n3!(2^3+\\sqrt{9})\\div 2.\n\\]\nFirst, we need to calculate \\(3!\\), which is the factorial of 3:\n\\[\n3! = 3 \\times 2 \\times 1 = 6.\n\\]\nNext, we calculate \\(2^3\\):\n\\[\n2^3 = 2 \\times 2 \\times 2 = 8.\n\\]\nNow, we calculate \\(\\sqrt{9}\\):\n\\[\n\\sqrt{9} = 3.\n\\]\nNow, we substitute these values back into the expression:\n\\[\n3!(2^3+\\sqrt{9}) = 6(8 + 3).\n\\]\nNow we can add \\(8\\) and \\(3\\):\n\\[\n8 + 3 = 11.\n\\]\nSubstituting this back, we have:\n\\[\n6 \\times 11.\n\\]\nMultiplying these gives:\n\\[\n6 \\times 11 = 66.\n\\]\nAfterward, we need to divide by \\(2\\):\n\\[\n66 \\div 2 = 33.\n\\]\nThus, the simplified result is\n\\[\n\\boxed{33}.\n\\]",
+        "To simplify the expression \\( 3!(2^3+\\sqrt{9})\\div 2 \\), we can break it down step by step.\n1. **Calculate the factorial:** \n   \\[\n   3! = 3 \\times 2 \\times 1 = 6\n   \\]\n2. **Calculate the exponent and square root:** \n   - First, calculate \\( 2^3 \\):\n     \\[\n     2^3 = 8\n     \\]\n   - Next, calculate \\( \\sqrt{9} \\):\n     \\[\n     \\sqrt{9} = 3\n     \\]\n3. **Add the results from step 2:**\n   \\[\n   2^3 + \\sqrt{9} = 8 + 3 = 11\n   \\]\n4. **Now substitute back into the expression:**\n   \\[\n   3!(2^3 + \\sqrt{9}) = 6 \\times 11 = 66\n   \\]\n5. **Finally, divide by 2:**\n   \\[\n   66 \\div 2 = 33\n   \\]\nTherefore, the simplified expression is:\n\\[\n\\boxed{33}\n\\]",
+        "To simplify the expression \\( 3!(2^3+\\sqrt{9})\\div 2 \\), we will proceed step by step.\n1. **Calculate \\( 3! \\)**:\n   \\[\n   3! = 3 \\times 2 \\times 1 = 6\n   \\]\n2. **Calculate \\( 2^3 \\)**:\n   \\[\n   2^3 = 2 \\times 2 \\times 2 = 8\n   \\]\n3. **Calculate \\( \\sqrt{9} \\)**:\n   \\[\n   \\sqrt{9} = 3\n   \\]\n4. **Combine the results from steps 2 and 3**:\n   \\[\n   2^3 + \\sqrt{9} = 8 + 3 = 11\n   \\]\n5. **Substitute the values back into the expression**:\n   Now we have:\n   \\[\n   3!(2^3+\\sqrt{9}) = 6 \\times 11 = 66\n   \\]\n6. **Divide by 2**:\n   \\[\n   66 \\div 2 = 33\n   \\]\nThus, the simplified expression is:\n\\[\n\\boxed{33}\n\\]",
+        "To simplify the expression \\( 3!(2^3+\\sqrt{9})\\div 2 \\), we will follow a step-by-step approach.\n1. **Calculate \\( 3! \\):**\n   \\[\n   3! = 3 \\times 2 \\times 1 = 6\n   \\]\n2. **Calculate \\( 2^3 \\):**\n   \\[\n   2^3 = 2 \\times 2 \\times 2 = 8\n   \\]\n3. **Calculate \\( \\sqrt{9} \\):**\n   \\[\n   \\sqrt{9} = 3\n   \\]\n4. **Combine \\( 2^3 \\) and \\( \\sqrt{9} \\):**\n   \\[\n   2^3 + \\sqrt{9} = 8 + 3 = 11\n   \\]\n5. **Multiply \\( 3! \\) by \\( (2^3 + \\sqrt{9}) \\):**\n   \\[\n   3! \\cdot (2^3 + \\sqrt{9}) = 6 \\cdot 11 = 66\n   \\]\n6. **Finally, divide by 2:**\n   \\[\n   66 \\div 2 = 33\n   \\]\nThus, the simplified expression is:\n\\[\n\\boxed{33}\n\\]"
+    ],
+    "pred_answers": "33",
+    "final_pred_answer": [
+        "33",
+        "33",
+        "33",
+        "33",
+        "33"
+    ],
+    "ground_truth": "33"
+}

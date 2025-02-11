@@ -1,0 +1,23 @@
+{
+    "problem": "Compute: $113+276-13-26$.",
+    "level": "Level 1",
+    "type": "Algebra",
+    "solution": "First notice that $113-13=100$ and $276-26=250$.  By the commutative property, we can rewrite our expression as: $$113+276-13-26=113-13+276-26=100+250=\\boxed{350}$$",
+    "prompt": "### Instruction: Compute: $113+276-13-26$.\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "1. **Combine the positive numbers:** 113 + 276 = 389\n2. **Combine the negative numbers:** -13 - 26 = -39\n3. **Subtract the combined negative number from the combined positive number:** 389 - 39 = **350** \n",
+        "1. **Combine the positive numbers:** 113 + 276 = 389\n2. **Combine the negative numbers:** -13 - 26 = -39\n3. **Subtract the negative sum from the positive sum:** 389 - 39 = **350**\nTherefore, 113 + 276 - 13 - 26 = 350. \n",
+        "1. **Combine the positive numbers:** 113 + 276 = 389\n2. **Combine the negative numbers:** -13 - 26 = -39\n3. **Subtract the combined negative numbers from the combined positive numbers:** 389 - 39 = **350**\nTherefore, 113 + 276 - 13 - 26 = **350**. \n",
+        "1. **Combine the positive numbers:** 113 + 276 = 389\n2. **Combine the negative numbers:** -13 - 26 = -39\n3. **Subtract the negative sum from the positive sum:** 389 - 39 = **350** \nTherefore, 113 + 276 - 13 - 26 = **350**. \n",
+        "1. **Combine the positive numbers:** 113 + 276 = 389\n2. **Combine the negative numbers:** -13 - 26 = -39\n3. **Subtract the negative sum from the positive sum:** 389 - 39 = **350**\nTherefore, $113 + 276 - 13 - 26 = \\boxed{350}$. \n"
+    ],
+    "pred_answers": "350",
+    "final_pred_answer": [
+        "350",
+        "350",
+        "350",
+        "350",
+        "350"
+    ],
+    "ground_truth": "350"
+}

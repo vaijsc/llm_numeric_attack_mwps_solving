@@ -1,0 +1,23 @@
+{
+    "problem": "Two consecutive positive even numbers are each squared.  The  difference of the squares is 60.  What is the sum of the original  two numbers?",
+    "level": "Level 3",
+    "type": "Algebra",
+    "solution": "Let the two numbers be $x$ and $x + 2$, where $x$ is even. We want to find $x + (x + 2) = 2x + 2$, and we are told that $(x + 2)^2 - x^2 = 60$. This last equation can be factored as a difference of squares: $(x + 2 + x)(x + 2 - x) = (2x + 2)(2) = 60$. It follows that $2x + 2 = 60/2 = \\boxed{30}$.",
+    "prompt": "### Instruction: Two consecutive positive even numbers are each squared.  The  difference of the squares is 60.  What is the sum of the original  two numbers?\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "Here's how to solve the problem step-by-step:\n**1. Define Variables:**\n* Let 'x' be the smaller even number.\n* The next consecutive even number is 'x + 2'.\n**2. Set Up the Equation:**\n* The difference of their squares is 60, so we can write: (x + 2)\u00b2 - x\u00b2 = 60\n**3. Solve the Equation:**\n* Expand the equation: x\u00b2 + 4x + 4 - x\u00b2 = 60\n* Simplify: 4x + 4 = 60\n* Subtract 4 from both sides: 4x = 56\n* Divide both sides by 4: x = 14\n**4. Find the Other Number:**\n* The next consecutive even number is x + 2 = 14 + 2 = 16\n**5. Calculate the Sum:**\n* The sum of the two numbers is 14 + 16 = 30\n**Answer:** The sum of the original two numbers is **30**. \n",
+        "Here's how to solve this problem step-by-step:\n**1. Set up the equations:**\n* Let 'x' represent the smaller even number.\n* The next consecutive even number is 'x + 2'.\nWe are told the difference of their squares is 60, so we can write the equation:\n(x + 2)\u00b2 - x\u00b2 = 60\n**2. Expand and simplify the equation:**\n*  x\u00b2 + 4x + 4 - x\u00b2 = 60\n*  4x + 4 = 60\n*  4x = 56\n**3. Solve for x:**\n* x = 14 \n**4. Find the other even number:**\n* x + 2 = 14 + 2 = 16\n**5. Calculate the sum:**\n* 14 + 16 = 30\n**Answer:** The sum of the original two numbers is 30. \n",
+        "Here's how to solve the problem step-by-step:\n**1. Define variables:**\n* Let 'x' be the first even number.\n* Since the numbers are consecutive even numbers, the second even number is 'x + 2'.\n**2. Set up the equation:**\n* The difference of the squares is 60, so we have the equation: (x + 2)\u00b2 - x\u00b2 = 60\n**3. Solve the equation:**\n* Expand the square: x\u00b2 + 4x + 4 - x\u00b2 = 60\n* Simplify: 4x + 4 = 60\n* Subtract 4 from both sides: 4x = 56\n* Divide both sides by 4: x = 14\n**4. Find the second number:**\n* The second even number is x + 2 = 14 + 2 = 16\n**5. Calculate the sum:**\n* The sum of the two numbers is 14 + 16 = 30\n**Answer:** The sum of the original two numbers is 30. \n",
+        "Here's how to solve this problem step-by-step:\n**1. Define the variables:**\n* Let the first even number be represented by  'x'.\n* Since the numbers are consecutive even numbers, the second even number is 'x + 2'.\n**2. Set up the equation:**\n* The square of the first number is  x\u00b2\n* The square of the second number is (x + 2)\u00b2\n* The difference of the squares is 60:  (x + 2)\u00b2 - x\u00b2 = 60\n**3. Solve the equation:**\n* Expand the equation: x\u00b2 + 4x + 4 - x\u00b2 = 60\n* Simplify: 4x + 4 = 60\n* Subtract 4 from both sides: 4x = 56\n* Divide both sides by 4: x = 14\n**4. Find the second even number:**\n* The second even number is x + 2 = 14 + 2 = 16\n**5. Calculate the sum:**\n* The sum of the original two numbers is 14 + 16 = 30\n**Answer:** The sum of the original two numbers is 30. \n",
+        "Here's how to solve the problem step-by-step:\n**1. Define the variables:**\n* Let  'x' be the smaller even number.\n* Since the numbers are consecutive even numbers, the larger even number is 'x + 2'.\n**2. Set up the equation:**\n* The square of the larger number minus the square of the smaller number equals 60: \n   (x + 2)\u00b2 - x\u00b2 = 60\n**3. Solve the equation:**\n* Expand the equation: x\u00b2 + 4x + 4 - x\u00b2 = 60\n* Simplify: 4x + 4 = 60\n* Subtract 4 from both sides: 4x = 56\n* Divide both sides by 4: x = 14\n**4. Find the larger number:**\n* The larger number is x + 2 = 14 + 2 = 16\n**5. Find the sum:**\n* The sum of the two numbers is 14 + 16 = 30\n**Therefore, the sum of the original two numbers is 30.** \n"
+    ],
+    "pred_answers": "30",
+    "final_pred_answer": [
+        "30",
+        "30",
+        "30",
+        "30",
+        "30"
+    ],
+    "ground_truth": "30"
+}

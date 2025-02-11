@@ -1,0 +1,41 @@
+{
+    "index_adversarial_question": 1,
+    "problem": "Find the positive difference between the solutions for |x + 5| = 9.",
+    "pcot_answer": "# Define the constant on the right side of the equation\nconstant = 8  ### condition: 'constant': {'type': 'int', '<=': None, '>=': 0, 'science_constant': False, 'direct_from_question': True}\n# Define the value to be subtracted from both sides of the equation\nsubtract_value = 3  ### condition: 'subtract_value': {'type': 'int', '<=': None, '>=': 0, 'science_constant': False, 'direct_from_question': True}\n# Calculate the two possible solutions for the equation |x + 3| = 6\nsolution_1 = constant - subtract_value  ### condition: 'solution_1': {'type': 'int', '<=': None, '>=': 0, 'science_constant': False, 'direct_from_question': False}\nsolution_2 = -constant - subtract_value  ### condition: 'solution_2': {'type': 'int', '<=': None, '>=': -float('inf'), 'science_constant': False, 'direct_from_question': False}\n# Calculate the positive difference between the two solutions\npositive_difference = abs(solution_1 - solution_2)  ### condition: 'positive_difference': {'type': 'int', '<=': None, '>=': 0, 'science_constant': False, 'direct_from_question': False}\n# Print the positive difference between the solutions\nprint(f\"Positive difference between the solutions: {positive_difference}\")",
+    "answer": "16",
+    "vllm_responses": [
+        "The equation |x + 5| = 9 can be rewritten as two separate equations:\nx + 5 = 9 and x + 5 = -9.\nSolving the first equation, we have x = 4.\nSolving the second equation, we have x = -14.\nThe positive difference between the two solutions is 4 - (-14) = 18.\nTherefore, the answer is \\boxed{18}.\nThe answer is: 18",
+        "We have two cases to consider: $x + 5 = 9$ and $x + 5 = -9$.\nFor the first case, if $x + 5 = 9$, then $x = 4$.\nFor the second case, if $x + 5 = -9$, then $x = -14$.\nThe positive difference between the two solutions is $4 - (-14) = \\boxed{18}$.The answer is: 18",
+        "We can solve the equation by considering two cases:\nCase 1: $x + 5 = 9$\nIn this case, $x = 4$, and the positive difference between the solutions is $4 - (-4) = 8$.\nCase 2: $x + 5 = -9$\nIn this case, $x = -14$, and the positive difference between the solutions is $-14 - (-4) = -10$.\nTherefore, the positive difference between the solutions for $|x + 5| = 9$ is $\\boxed{8}$.The answer is: 8",
+        "If we remove the absolute value signs, we have two cases to consider:\n$x + 5 = 9$ or $x + 5 = -9$.\nFor the first case, $x = 4$, and for the second case, $x = -14$.\nThe positive difference between these solutions is $4 - (-14) = \\boxed{18}$.\nThe answer is: 18",
+        "First, we can split the equation into two cases:\nCase 1: $x+5=9$\nSolving this equation, we get $x=4$.\nCase 2: $-(x+5)=9$\nSolving this equation, we get $x=-14$.\nThe positive difference between the two solutions is $4-(-14)=4+14=\\boxed{18}$.\nThe answer is: 18",
+        "We can rewrite the equation as two separate equations, one for $x + 5$ positive and one for $x + 5$ negative.\nFor $x + 5$ positive, we have $x + 5 = 9$, so $x = 4$.\nFor $x + 5$ negative, we have $-(x + 5) = 9$, so $x = -14$.\nThe positive difference between the solutions is $4 - (-14) = \\boxed{18}$.The answer is: 18",
+        "We can rewrite the equation as two separate equations:\n$x + 5 = 9$ and $x + 5 = -9$.\nSolving the first equation, we have $x = 4$.\nSolving the second equation, we have $x = -14$.\nThe positive difference between $4$ and $-14$ is $4 - (-14) = \\boxed{18}$.\nThe answer is: 18",
+        "\nTo find the solutions for |x + 5| = 9, we need to consider two cases:\nCase 1: (x + 5) = 9\nIn this case, we have x = 4.\nCase 2: (x + 5) = -9\nIn this case, we have x = -14.\nThe positive difference between these two solutions is 4 - (-14) = 18.\nTherefore, the positive difference between the solutions for |x + 5| = 9 is 18.The answer is: 18",
+        "We can break down the equation as follows:\n$x+5 = 9$ or $x+5 = -9$\nFor the first equation, we have $x = 4$.\nFor the second equation, we have $x = -14$.\nThe positive difference between these two solutions is $4 - (-14) = \\boxed{18}$.The answer is: 18",
+        "We can rewrite the equation as two separate cases:\n$x + 5 = 9$ and $x + 5 = -9$.\nSolving these equations, we find $x = 4$ and $x = -14$.\nThe positive difference between these solutions is $4 - (-14) = \\boxed{18}$.\nThe answer is: 18",
+        "We can split the absolute value equation into two cases: $x+5=9$ and $x+5=-9$.\nSolving the first equation, we have $x=4$.\nSolving the second equation, we have $x=-14$.\nThe positive difference between these two solutions is $4-(-14)=\\boxed{18}$.\nThe answer is: 18",
+        "To solve the equation $|x + 5| = 9$, we can break it down into two cases: $x + 5 = 9$ and $-(x + 5) = 9$.\nFor the first case, $x + 5 = 9$, we solve to find $x = 4$.\nFor the second case, $-(x + 5) = 9$, we distribute the negative sign to get $-x - 5 = 9$, and then solve to find $x = -4$.\nTherefore, the solutions to the equation are $x = 4$ and $x = -4$.\nThe positive difference between the solutions is $4 - (-4) = \\boxed{8}$.\nThe answer is: 8",
+        "We can rewrite $|x + 5| = 9$ as $x + 5 = 9$ or $x + 5 = -9$.\nSolving the first equation, we have $x = 4$.\nSolving the second equation, we have $x = -14$.\nThe positive difference between the solutions is $4 - (-14) = \\boxed{18}$.The answer is: 18",
+        "We can rewrite the equation as $x + 5 = 9$ or $x + 5 = -9$.\nFor $x + 5 = 9$, we have $x = 4$.\nFor $x + 5 = -9$, we have $x = -14$.\nThe positive difference between these two solutions is $4 - (-14) = \\boxed{18}$.The answer is: 18",
+        "First, we can split the equation |x + 5| = 9 into two cases:\nCase 1: x + 5 = 9\nIn this case, x = 4.\nCase 2: -(x + 5) = 9\nIn this case, x = -14.\nThe positive difference between the solutions is 4 - (-14) = 18.\nSo, the answer is 18.The answer is: 18"
+    ],
+    "vllm_answers": [
+        "18",
+        "18",
+        "8",
+        "18",
+        "18",
+        "18",
+        "18",
+        "18",
+        "18",
+        "18",
+        "18",
+        "8",
+        "18",
+        "18",
+        "18"
+    ],
+    "vllm_pred_answer": "18"
+}

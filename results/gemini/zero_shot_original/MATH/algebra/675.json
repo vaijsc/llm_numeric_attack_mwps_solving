@@ -1,0 +1,23 @@
+{
+    "problem": "A population of bacteria is doubling every four hours. At noon there are $600$ bacteria. If this rate continues, how many bacteria will be present at midnight, twelve hours later?",
+    "level": "Level 2",
+    "type": "Algebra",
+    "solution": "Twelve hours later is three four-hour intervals later, so the population will double three times. The population size will be $600\\times2\\times2\\times2=600\\times2^3=\\boxed{4800}$ bacteria.",
+    "prompt": "### Instruction: A population of bacteria is doubling every four hours. At noon there are $600$ bacteria. If this rate continues, how many bacteria will be present at midnight, twelve hours later?\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "Here's how to solve this problem step-by-step:\n* **Calculate the number of doubling periods:**  There are 12 hours between noon and midnight, and the bacteria double every 4 hours. So there are 12 hours / 4 hours/doubling = 3 doubling periods.\n* **Calculate the bacteria population after each doubling:**\n    * After the first doubling (4 hours after noon): 600 bacteria * 2 = 1200 bacteria\n    * After the second doubling (8 hours after noon): 1200 bacteria * 2 = 2400 bacteria\n    * After the third doubling (12 hours after noon, midnight): 2400 bacteria * 2 = 4800 bacteria\n**Therefore, there will be 4800 bacteria present at midnight.** \n",
+        "Here's how to solve the problem step by step:\n* **Time intervals:** From noon to midnight, there are 12 hours.\n* **Doubling periods:** Since the bacteria double every 4 hours, there are 12 hours / 4 hours/doubling = 3 doubling periods.\n* **Calculate the population:**\n    * After the first doubling (4 hours): 600 bacteria * 2 = 1200 bacteria\n    * After the second doubling (8 hours): 1200 bacteria * 2 = 2400 bacteria\n    * After the third doubling (12 hours): 2400 bacteria * 2 = 4800 bacteria\n**Therefore, there will be 4800 bacteria present at midnight.** \n",
+        "Here's how to solve the problem step by step:\n* **Time periods:**  There are 12 hours between noon and midnight, and the bacteria double every 4 hours. This means there are 12 / 4 = 3 doubling periods.\n* **Doubling:**  \n    * After the first 4 hours, the bacteria double to 600 * 2 = 1200\n    * After the second 4 hours, they double again to 1200 * 2 = 2400\n    * After the third 4 hours, they double a final time to 2400 * 2 = 4800\n* **Answer:**  At midnight, there will be **4800** bacteria. \n",
+        "Here's how to solve this problem step-by-step:\n**1. Determine the number of doubling periods:**\n* There are 12 hours between noon and midnight.\n* The bacteria double every 4 hours, so there are 12 hours / 4 hours/doubling = 3 doubling periods.\n**2. Calculate the population after each doubling:**\n* **Doubling 1:** 600 bacteria * 2 = 1200 bacteria\n* **Doubling 2:** 1200 bacteria * 2 = 2400 bacteria\n* **Doubling 3:** 2400 bacteria * 2 = 4800 bacteria\n**Answer:** There will be **4800** bacteria present at midnight. \n",
+        "Here's how to solve the problem step-by-step:\n* **Calculate the number of doubling periods:**  There are 12 hours between noon and midnight, and the bacteria double every 4 hours. So there are 12 hours / 4 hours/doubling = 3 doubling periods.\n* **Double the population for each period:**\n    * After the first doubling (4 hours after noon): 600 bacteria * 2 = 1200 bacteria\n    * After the second doubling (8 hours after noon): 1200 bacteria * 2 = 2400 bacteria\n    * After the third doubling (12 hours after noon, or midnight): 2400 bacteria * 2 = 4800 bacteria\n* **Answer:** There will be **4800** bacteria present at midnight. \n"
+    ],
+    "pred_answers": "4800",
+    "final_pred_answer": [
+        "4800",
+        "4800",
+        "4800",
+        "4800",
+        "4800"
+    ],
+    "ground_truth": "4800"
+}

@@ -1,0 +1,23 @@
+{
+    "problem": "What is the value of $255^2 - 245^2$?",
+    "level": "Level 1",
+    "type": "Algebra",
+    "solution": "We recognize the expression as a difference of squares, so we can easily factor it.  $$255^2-245^2=(255+245)(255-245)=500(10)=\\boxed{5000}$$",
+    "prompt": "### Instruction: What is the value of $255^2 - 245^2$?\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "To solve \\( 255^2 - 245^2 \\), we can use the difference of squares formula, which states:\n\\[\na^2 - b^2 = (a - b)(a + b)\n\\]\nIn our case, we have:\n- \\( a = 255 \\)\n- \\( b = 245 \\)\nNow we can apply the formula:\n\\[\n255^2 - 245^2 = (255 - 245)(255 + 245)\n\\]\nFirst, let's calculate \\( 255 - 245 \\) and \\( 255 + 245 \\):\n\\[\n255 - 245 = 10\n\\]\n\\[\n255 + 245 = 500\n\\]\nNow we substitute these values back into our expression:\n\\[\n255^2 - 245^2 = 10 \\times 500\n\\]\nCalculating \\( 10 \\times 500 \\):\n\\[\n10 \\times 500 = 5000\n\\]\nTherefore, the value of \\( 255^2 - 245^2 \\) is:\n\\[\n\\boxed{5000}\n\\]",
+        "To find the value of \\( 255^2 - 245^2 \\), we can use the difference of squares formula, which states that:\n\\[\na^2 - b^2 = (a-b)(a+b)\n\\]\nHere, we can let \\( a = 255 \\) and \\( b = 245 \\).\nFirst, we calculate \\( a - b \\) and \\( a + b \\):\n\\[\na - b = 255 - 245 = 10\n\\]\n\\[\na + b = 255 + 245 = 500\n\\]\nNow, substituting these values into the difference of squares formula, we have:\n\\[\n255^2 - 245^2 = (255 - 245)(255 + 245) = 10 \\times 500\n\\]\nNow, we perform the multiplication:\n\\[\n10 \\times 500 = 5000\n\\]\nThus, the value of \\( 255^2 - 245^2 \\) is \n\\[\n\\boxed{5000}\n\\]",
+        "To find the value of \\( 255^2 - 245^2 \\), we can use the difference of squares formula, which states that:\n\\[\na^2 - b^2 = (a - b)(a + b)\n\\]\nIn this case, let \\( a = 255 \\) and \\( b = 245 \\). We can apply the formula as follows:\n1. Compute \\( a - b \\):\n   \\[\n   a - b = 255 - 245 = 10\n   \\]\n2. Compute \\( a + b \\):\n   \\[\n   a + b = 255 + 245 = 500\n   \\]\n3. Substitute these values into the difference of squares formula:\n   \\[\n   255^2 - 245^2 = (255 - 245)(255 + 245) = 10 \\times 500\n   \\]\n4. Finally, calculate the product:\n   \\[\n   10 \\times 500 = 5000\n   \\]\nThus, the value of \\( 255^2 - 245^2 \\) is \\(\\boxed{5000}\\).",
+        "To evaluate \\( 255^2 - 245^2 \\), we can use the difference of squares formula, which states that:\n\\[\na^2 - b^2 = (a - b)(a + b)\n\\]\nIn this case, we can let \\( a = 255 \\) and \\( b = 245 \\).\nFirst, we calculate \\( a - b \\):\n\\[\na - b = 255 - 245 = 10\n\\]\nNext, we calculate \\( a + b \\):\n\\[\na + b = 255 + 245 = 500\n\\]\nNow, we can apply the difference of squares formula:\n\\[\n255^2 - 245^2 = (255 - 245)(255 + 245) = 10 \\times 500\n\\]\nNow, we can compute the final multiplication:\n\\[\n10 \\times 500 = 5000\n\\]\nThus, the value of \\( 255^2 - 245^2 \\) is \n\\[\n\\boxed{5000}\n\\]",
+        "To find the value of \\(255^2 - 245^2\\), we can use the difference of squares formula, which states that:\n\\[\na^2 - b^2 = (a-b)(a+b)\n\\]\nIn this case, let \\( a = 255 \\) and \\( b = 245 \\).\nNow, we calculate \\( a - b \\) and \\( a + b \\):\n1. Calculate \\( a - b \\):\n   \\[\n   255 - 245 = 10\n   \\]\n2. Calculate \\( a + b \\):\n   \\[\n   255 + 245 = 500\n   \\]\nNow, applying the difference of squares formula:\n\\[\n255^2 - 245^2 = (255 - 245)(255 + 245) = 10 \\cdot 500\n\\]\nNext, we perform the multiplication:\n\\[\n10 \\cdot 500 = 5000\n\\]\nThus, the value of \\( 255^2 - 245^2 \\) is \n\\[\n\\boxed{5000}\n\\]"
+    ],
+    "pred_answers": "5000",
+    "final_pred_answer": [
+        "5000",
+        "5000",
+        "5000",
+        "5000",
+        "5000"
+    ],
+    "ground_truth": "5000"
+}

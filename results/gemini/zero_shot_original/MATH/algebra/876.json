@@ -1,0 +1,23 @@
+{
+    "problem": "What is the slope of a line perpendicular to the line whose equation is $\\frac{x}4-\\frac{y}5=1$? Express your answer as a common fraction.",
+    "level": "Level 3",
+    "type": "Algebra",
+    "solution": "In slope-intercept form, the given equation becomes $y=\\frac{5}{4}x-5$.  The slope of this line is $\\frac{5}{4}$, so the slope of a line perpendicular to this one is the negative of the reciprocal of $\\frac{5}{4}$, or $\\boxed{-\\frac{4}{5}}.$",
+    "prompt": "### Instruction: What is the slope of a line perpendicular to the line whose equation is $\\frac{x}4-\\frac{y}5=1$? Express your answer as a common fraction.\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "Here's how to solve the problem step-by-step:\n1. **Rewrite the equation in slope-intercept form (y = mx + b):**\n   * Start with the given equation:  (x/4) - (y/5) = 1\n   * Subtract (x/4) from both sides:  -(y/5) = 1 - (x/4)\n   * Multiply both sides by -5: y = 5 - (5/4)x\n   * Rearrange: y = (-5/4)x + 5\n2. **Identify the slope of the original line:**\n   * The equation is now in slope-intercept form (y = mx + b). The coefficient of the x term is the slope.\n   * The slope of the original line is -5/4.\n3. **Find the slope of the perpendicular line:**\n   * Perpendicular lines have slopes that are negative reciprocals of each other. \n   * To find the negative reciprocal, flip the fraction and change the sign. \n   * The negative reciprocal of -5/4 is 4/5.\n**Therefore, the slope of the line perpendicular to the given line is 4/5.** \n",
+        "1. **Rewrite the equation in slope-intercept form (y = mx + b):** \n   - Multiply both sides by 20 (the least common multiple of 4 and 5) to get rid of the fractions:  \n      5x - 4y = 20\n   - Subtract 5x from both sides:\n      -4y = -5x + 20\n   - Divide both sides by -4:\n      y = (5/4)x - 5\n2. **Identify the slope of the original line:**\n   - The original line is now in slope-intercept form, and we see that its slope is 5/4.\n3. **Find the slope of a perpendicular line:**\n   - The slopes of perpendicular lines are negative reciprocals of each other. To find the negative reciprocal, flip the fraction and change its sign.  \n   - The slope of the perpendicular line is **-4/5**. \n",
+        "1. **Rewrite the equation in slope-intercept form (y = mx + b):** \n   * Subtract  $\\frac{x}{4}$ from both sides: \n      $-\\frac{y}{5} = 1 - \\frac{x}{4}$\n   * Multiply both sides by -5: \n      $y = \\frac{5}{4}x - 5$ \n   * Now we see the slope of the original line is $\\frac{5}{4}$.\n2. **Perpendicular lines have negative reciprocal slopes:**  \n   * The negative reciprocal of $\\frac{5}{4}$ is $-\\frac{4}{5}$.\n**Therefore, the slope of the line perpendicular to the given line is  -4/5.** \n",
+        "1. **Rewrite the equation in slope-intercept form (y = mx + b):**\n   * Multiply both sides by 20 to get rid of the fractions: 5x - 4y = 20\n   * Add 4y to both sides: 5x = 4y + 20\n   * Subtract 20 from both sides: 5x - 20 = 4y\n   * Divide both sides by 4: y = (5/4)x - 5 \n   * Now the equation is in slope-intercept form, and we see that the slope of the original line is 5/4.\n2. **Perpendicular lines have negative reciprocal slopes:**\n   * The negative reciprocal of 5/4 is -4/5.\n**Therefore, the slope of the line perpendicular to the given line is -4/5.** \n",
+        "Here's how to solve the problem step-by-step:\n**1. Rewrite the equation in slope-intercept form (y = mx + b):**\n* Start with the given equation:  $\\frac{x}{4} - \\frac{y}{5} = 1$\n* Multiply both sides by 20 (the least common multiple of 4 and 5) to get rid of the fractions: $5x - 4y = 20$\n* Isolate *y*:  $-4y = -5x + 20$\n* Divide both sides by -4:  $y = \\frac{5}{4}x - 5$\nNow the equation is in slope-intercept form, and we see the slope of the original line is  **5/4**.\n**2. Find the slope of the perpendicular line:**\n* The slopes of perpendicular lines are negative reciprocals of each other.\n* The negative reciprocal of 5/4 is **-4/5**.\n**Therefore, the slope of the line perpendicular to the given line is -4/5.** \n"
+    ],
+    "pred_answers": "5",
+    "final_pred_answer": [
+        "5",
+        "5",
+        "5",
+        "5",
+        "5"
+    ],
+    "ground_truth": "5"
+}

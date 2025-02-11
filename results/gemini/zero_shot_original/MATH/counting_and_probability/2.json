@@ -1,0 +1,23 @@
+{
+    "problem": "Our club has 20 members, 10 boys and 10 girls.  In how many ways can we choose a president and a vice-president if we have no restrictions other than the same person can't hold both offices?",
+    "level": "Level 2",
+    "type": "Counting & Probability",
+    "solution": "The president can be any one of the 20 members, and the vice-president can be any one of the 19 remaining members. The answer is $20\\times 19=\\boxed{380}$.",
+    "prompt": "### Instruction: Our club has 20 members, 10 boys and 10 girls.  In how many ways can we choose a president and a vice-president if we have no restrictions other than the same person can't hold both offices?\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "Here's how to solve this problem step-by-step:\n**Step 1: Choosing the President**\n* We have 20 members to choose from for the president.\n**Step 2: Choosing the Vice-President**\n* After choosing the president, we have 19 members left to choose from for the vice-president (since the same person can't hold both positions).\n**Step 3: Finding the Total Number of Combinations**\n* To find the total number of ways to choose a president and vice-president, we multiply the number of choices for each position: 20 * 19 = 380\n**Answer:** There are 380 ways to choose a president and vice-president from the club. \n",
+        "Here's how to solve this problem step-by-step:\n**1. Choosing the President:**\n* We have 20 members, so there are 20 different choices for who can be president.\n**2. Choosing the Vice-President:**\n* After choosing the president, we only have 19 members left.  Since the same person can't hold both offices, we have 19 choices for vice-president.\n**3. Total Possibilities:**\n* To find the total number of ways to choose a president and vice-president, we multiply the number of choices for each position: 20 * 19 = 380\n**Therefore, there are 380 ways to choose a president and vice-president from our club.** \n",
+        "Here's how to break down the solution:\n* **Step 1: Choosing the President**\n   - We have 20 members to choose from for the president.\n* **Step 2: Choosing the Vice-President**\n   - After choosing the president, we only have 19 members left.  Since the same person can't hold both offices, we have 19 choices for the vice-president.\n* **Step 3: Combining the Choices**\n   -  To get the total number of ways to choose a president and vice-president, we multiply the number of choices for each position: 20 * 19 = 380\n**Answer:** There are 380 ways to choose a president and a vice-president. \n",
+        "Here's how to solve this problem step by step:\n**Step 1: Choosing the President**\n* We have 20 members, and any of them can be president. \n* So, there are 20 options for the president.\n**Step 2: Choosing the Vice-President**\n* After we've chosen the president, only 19 members remain. \n* Any of these 19 can be the vice-president.\n**Step 3: Combining the Choices**\n* To find the total number of ways to choose a president and vice-president, we multiply the number of choices for each position: 20 * 19 = 380\n**Answer:** There are **380** ways to choose a president and vice-president. \n",
+        "Here's how to solve this problem step-by-step:\n**Step 1: Choosing the President**\n* We have 20 members to choose from for the president.\n**Step 2: Choosing the Vice President**\n* After choosing the president, we have 19 members left.  \n* Since the same person can't hold both offices, we have 19 options for the vice president.\n**Step 3: Calculating the Total Number of Ways**\n* To get the total number of ways to choose a president and vice president, we multiply the number of choices for each position: 20 * 19 = 380\n**Answer:** There are 380 ways to choose a president and vice-president. \n"
+    ],
+    "pred_answers": "380",
+    "final_pred_answer": [
+        "380",
+        "380",
+        "380",
+        "380",
+        "380"
+    ],
+    "ground_truth": "380"
+}

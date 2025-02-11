@@ -1,0 +1,23 @@
+{
+    "problem": "Mike paid $\\$1.25$ for a stamp three years ago. He was just offered double that amount for the stamp. Assuming the stamp's offer price doubles every three years, how many dollars will he be offered in 12 more years?",
+    "level": "Level 4",
+    "type": "Algebra",
+    "solution": "The stamp is currently worth $\\$2.50$. $12$ years is four more doubling periods, so at the end the stamp will be worth $2^4=16$ times what it is now, or\n\n$$16(\\$2.50)=\\boxed{\\$40}$$",
+    "prompt": "### Instruction: Mike paid $\\$1.25$ for a stamp three years ago. He was just offered double that amount for the stamp. Assuming the stamp's offer price doubles every three years, how many dollars will he be offered in 12 more years?\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "Here's how we can solve this step-by-step:\n* **Current Offer:** Mike is offered double the original price, so he's currently being offered $1.25 * 2 = $2.50.\n* **Years in the Future:** We want to know the price in 12 more years. Since the price doubles every three years, this is 12 / 3 = 4 periods of doubling.\n* **Calculating the Price:** The price will double four times:\n    * Year 3: $2.50\n    * Year 6: $2.50 * 2 = $5.00\n    * Year 9: $5.00 * 2 = $10.00\n    * Year 12: $10.00 * 2 = $20.00\n    * Year 15: $20.00 * 2 = $40.00\n**Therefore, Mike will be offered $40.00 for the stamp in 12 more years.** \n",
+        "Here's how to solve this problem step-by-step:\n* **Calculate the current offer price:** Mike was offered double the original price, so the current offer is $1.25 * 2 = $2.50.\n* **Determine the number of 3-year intervals:** 12 more years divided by 3 years per interval equals 4 intervals.\n* **Calculate the offer price after 12 years:** Since the price doubles every 3 years, we need to double the current offer price 4 times: \n    * After 3 years: $2.50 * 2 = $5.00\n    * After 6 years: $5.00 * 2 = $10.00\n    * After 9 years: $10.00 * 2 = $20.00\n    * After 12 years: $20.00 * 2 = $40.00\n**Therefore, Mike will be offered $40.00 for the stamp in 12 more years.** \n",
+        "Here's how to solve the problem step-by-step:\n* **Calculate the offer price after 3 years:** Since the offer price doubles every three years, after three years, the stamp will be worth $1.25 * 2 = $2.50.\n* **Calculate the offer price after 6 years:** After another three years (total of 6 years), the stamp will be worth $2.50 * 2 = $5.00.\n* **Calculate the offer price after 9 years:**  After another three years (total of 9 years), the stamp will be worth $5.00 * 2 = $10.00.\n* **Calculate the offer price after 12 years:** After another three years (total of 12 years), the stamp will be worth $10.00 * 2 = $20.00.\n**Therefore, Mike will be offered $20.00 for the stamp in 12 more years.** \n",
+        "Here's how to solve the problem step-by-step:\n* **Calculate the current offer:** The stamp was offered double the original price, so it's currently worth $1.25 * 2 = $2.50.\n* **Determine the number of 3-year periods:** 12 years is equal to 12 / 3 = 4 three-year periods.\n* **Calculate the offer after each period:** The offer doubles every three years, so we'll need to multiply the current offer by 2 four times:\n    * After 3 years: $2.50 * 2 = $5.00\n    * After 6 years: $5.00 * 2 = $10.00\n    * After 9 years: $10.00 * 2 = $20.00\n    * After 12 years: $20.00 * 2 = $40.00\n**Answer:** Mike will be offered $40.00 for the stamp in 12 more years. \n",
+        "Here's how to solve this problem step by step:\n* **Calculate the current offer price:**  The stamp was offered double the original price, so it's currently worth $1.25 * 2 = $2.50.\n* **Determine the number of 3-year periods:**  In 12 more years, there will be 12 / 3 = 4 periods of three years.\n* **Calculate the price increase:**  The price doubles every three years, so in 12 years, the price will double 4 times.  We can represent this as 2 * 2 * 2 * 2 = 2^4 = 16\n* **Calculate the final offer price:**  The current offer price of $2.50 will be multiplied by 16 in 12 years.  So, the final offer price will be $2.50 * 16 = $40.00.\n**Therefore, Mike will be offered $40.00 for the stamp in 12 years.** \n"
+    ],
+    "pred_answers": "12",
+    "final_pred_answer": [
+        "12",
+        "12",
+        "12",
+        "40.00",
+        "12"
+    ],
+    "ground_truth": "40"
+}

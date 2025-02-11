@@ -1,0 +1,23 @@
+{
+    "problem": "Simplify $(5-3i)(-4+3i)$.",
+    "level": "Level 3",
+    "type": "Algebra",
+    "solution": "$(5-3i)(-4+3i) = 5(-4) + 5(3i) -3i(-4) -3i(3i) = -20 +15i +12i +9 = \\boxed{-11 + 27i}$.",
+    "prompt": "### Instruction: Simplify $(5-3i)(-4+3i)$.\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "We can simplify this expression by using the distributive property (often referred to as FOIL):\n1. **FOIL:**  \n   * **F**irst: (5)(-4) = -20\n   * **O**uter: (5)(3i) = 15i\n   * **I**nner: (-3i)(-4) = 12i\n   * **L**ast: (-3i)(3i) = -9i\u00b2\n2. **Combine like terms:** -20 + 15i + 12i - 9i\u00b2\n3. **Remember i\u00b2 = -1:** Substitute -1 for i\u00b2: -20 + 15i + 12i - 9(-1)\n4. **Simplify:** -20 + 15i + 12i + 9 = -11 + 27i\nTherefore, the simplified form of (5-3i)(-4+3i) is **-11 + 27i**. \n",
+        "**1. Distribute:**\nWe can simplify this expression by using the distributive property (FOIL):\n* **F**irst: (5)(-4) = -20\n* **O**uter: (5)(3i) = 15i\n* **I**nner: (-3i)(-4) = 12i\n* **L**ast: (-3i)(3i) = -9i\u00b2\n**2. Combine Terms:**\nNow we have:  -20 + 15i + 12i - 9i\u00b2\n**3. Simplify i\u00b2:**\nRemember that i\u00b2 = -1.  Substitute this into the expression:\n-20 + 15i + 12i - 9(-1)\n**4. Combine Real and Imaginary Terms:**\n-20 + 9 + 15i + 12i \n= -11 + 27i\n**Therefore, (5-3i)(-4+3i) simplifies to -11 + 27i** \n",
+        "We can simplify this expression by using the distributive property (also known as FOIL):\n1. **Multiply the first terms:**  (5)(-4) = -20\n2. **Multiply the outer terms:** (5)(3i) = 15i\n3. **Multiply the inner terms:** (-3i)(-4) = 12i\n4. **Multiply the last terms:** (-3i)(3i) = -9i\u00b2\nNow we have: -20 + 15i + 12i - 9i\u00b2\nRemember that i\u00b2 = -1.  Substitute this in:\n-20 + 15i + 12i - 9(-1)\nSimplify:\n-20 + 15i + 12i + 9\nCombine like terms:\n**(-20 + 9) + (15 + 12)i = -11 + 27i** \nTherefore, the simplified form of (5-3i)(-4+3i) is **-11 + 27i**. \n",
+        "###  Simplify $(5-3i)(-4+3i)$.\n**Step 1: Distribute**\nWe use the distributive property (also known as FOIL) to multiply the two complex numbers.\n```\n(5 - 3i)(-4 + 3i) = (5)(-4) + (5)(3i) + (-3i)(-4) + (-3i)(3i) \n```\n**Step 2: Simplify**\n```\n= -20 + 15i + 12i - 9i\u00b2\n```\n**Step 3: Remember that i\u00b2 = -1**\nSubstitute -1 for i\u00b2 in the expression:\n```\n= -20 + 15i + 12i - 9(-1)\n```\n**Step 4: Combine like terms**\n```\n= -20 + 9 + 15i + 12i\n= -11 + 27i\n```\n**Therefore, the simplified form of (5 - 3i)(-4 + 3i) is -11 + 27i.** \n",
+        "We can simplify this expression by using the distributive property (also known as FOIL):\n1. **Multiply the first terms:** (5)(-4) = -20\n2. **Multiply the outer terms:** (5)(3i) = 15i\n3. **Multiply the inner terms:** (-3i)(-4) = 12i\n4. **Multiply the last terms:** (-3i)(3i) = -9i\u00b2\nNow we have: -20 + 15i + 12i - 9i\u00b2\nRemember that i\u00b2 = -1.  Substituting this in:\n-20 + 15i + 12i - 9(-1)\nSimplifying further:\n-20 + 15i + 12i + 9\nCombining like terms:\n-11 + 27i\nTherefore, $(5-3i)(-4+3i) = \\boxed{-11 + 27i}$. \n"
+    ],
+    "pred_answers": "27",
+    "final_pred_answer": [
+        "27",
+        "27",
+        "27",
+        "27",
+        "27"
+    ],
+    "ground_truth": "27"
+}

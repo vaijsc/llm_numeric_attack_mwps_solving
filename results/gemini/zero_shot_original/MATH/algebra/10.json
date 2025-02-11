@@ -1,0 +1,23 @@
+{
+    "problem": "Let $f(x)=7x+5$ and $g(x)=x-1$.  If $h(x)=f(g(x))$, then what is the inverse of $h(x)$?",
+    "level": "Level 4",
+    "type": "Algebra",
+    "solution": "\\[h(x)=f(g(x))=7(x-1)+5=7x-2.\\]Let's replace $h(x)$ with $y$ for simplicity, so \\[y=7x-2.\\]In order to invert $h(x)$ we may solve this equation for $x$.  That gives \\[y+2=7x\\]or  \\[x=\\frac{y+2}{7}.\\]Writing this in terms of $x$ gives the inverse function of $h$ as  \\[h^{-1}(x)=\\boxed{\\frac{x+2}{7}}.\\]",
+    "prompt": "### Instruction: Let $f(x)=7x+5$ and $g(x)=x-1$.  If $h(x)=f(g(x))$, then what is the inverse of $h(x)$?\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "Here's how to find the inverse of  h(x):\n**1. Find h(x):**\n*  Start by finding the composition of f(g(x)):\n   *  Substitute  g(x) = x - 1 into f(x): \n      *  h(x) = f(g(x)) = f(x - 1) = 7(x - 1) + 5 \n      *  h(x) = 7x - 2\n**2. Replace h(x) with y:**\n*  y = 7x - 2\n**3. Swap x and y:**\n*  x = 7y - 2\n**4. Solve for y:**\n*  x + 2 = 7y\n*  y = (x + 2) / 7\n**5. Replace y with h\u207b\u00b9(x):**\n*  h\u207b\u00b9(x) = (x + 2) / 7\n**Therefore, the inverse of h(x) is h\u207b\u00b9(x) = (x + 2) / 7** \n",
+        "Here's how to find the inverse of  h(x):\n**1. Find h(x):**\n*  Start by substituting  g(x) into f(x):\n   *  h(x) = f(g(x)) = f(x - 1) = 7(x - 1) + 5 = 7x - 2\n**2. Replace h(x) with y:**\n*  y = 7x - 2\n**3. Swap x and y:**\n*  x = 7y - 2\n**4. Solve for y:**\n*  x + 2 = 7y\n*  y = (x + 2)/7\n**5. Replace y with h\u207b\u00b9(x):**\n*  h\u207b\u00b9(x) = (x + 2)/7\n**Therefore, the inverse of h(x) is h\u207b\u00b9(x) = (x + 2)/7** \n",
+        "Here's how to find the inverse of  h(x):\n**1. Find h(x):**\n*  Substitute g(x) into the expression for f(x):\n   *  h(x) = f(g(x)) = 7(x - 1) + 5 \n   *  h(x) = 7x - 7 + 5\n   *  h(x) = 7x - 2\n**2. Replace h(x) with y:**\n*  y = 7x - 2\n**3. Swap x and y:**\n*  x = 7y - 2\n**4. Solve for y:**\n*  x + 2 = 7y\n*  y = (x + 2)/7\n**5. Replace y with h\u207b\u00b9(x):**\n*  h\u207b\u00b9(x) = (x + 2)/7\n**Therefore, the inverse of h(x) is h\u207b\u00b9(x) = (x + 2)/7** \n",
+        "Here's how to find the inverse of h(x):\n**1. Find h(x):**\n*  Start by finding the composition *f(g(x))*\n*  Substitute *g(x) = x - 1* into *f(x)*:\n    *  *h(x) = f(g(x)) = 7(x - 1) + 5*\n    *  *h(x) = 7x - 7 + 5*\n    *  *h(x) = 7x - 2*\n**2.  Replace h(x) with y:**\n*  *y = 7x - 2*\n**3. Swap x and y:**\n*  *x = 7y - 2*\n**4. Solve for y:**\n*  *x + 2 = 7y*\n*  *y = (x + 2) / 7*\n**5. Replace y with h\u207b\u00b9(x):**\n*  *h\u207b\u00b9(x) = (x + 2) / 7*\n**Therefore, the inverse of h(x) is h\u207b\u00b9(x) = (x + 2) / 7.** \n",
+        "Here's how to find the inverse of  h(x):\n**1. Find h(x):**\n* Start by substituting *g(x)* into *f(x)*:\n   *  h(x) = f(g(x)) = f(x - 1) = 7(x - 1) + 5\n   *  h(x) = 7x - 2\n**2. Replace h(x) with y:**\n*  y = 7x - 2\n**3. Swap x and y:**\n*  x = 7y - 2\n**4. Solve for y:**\n*  x + 2 = 7y\n*  y = (x + 2)/7\n**5. Replace y with h\u207b\u00b9(x):**\n*  h\u207b\u00b9(x) = (x + 2)/7\n**Therefore, the inverse of h(x) is h\u207b\u00b9(x) = (x + 2)/7.** \n"
+    ],
+    "pred_answers": "7",
+    "final_pred_answer": [
+        "7",
+        "7",
+        "7",
+        "7",
+        "7"
+    ],
+    "ground_truth": "7"
+}

@@ -1,0 +1,23 @@
+{
+    "problem": "A function is defined as $f(x) = x^2 - 3x + 4$. What expression can be used to describe $f(2x)$? Express your answer in simplified form in terms of $x$.",
+    "level": "Level 5",
+    "type": "Algebra",
+    "solution": "We have that\n\\[f(2x) = (2x)^2 - 3(2x) + 4 = \\boxed{4x^2 - 6x + 4}.\\]",
+    "prompt": "### Instruction: A function is defined as $f(x) = x^2 - 3x + 4$. What expression can be used to describe $f(2x)$? Express your answer in simplified form in terms of $x$.\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "To find \\( f(2x) \\) for the function defined as \\( f(x) = x^2 - 3x + 4 \\), we will substitute \\( 2x \\) into the function wherever \\( x \\) appears.\n1. Start with the function:\n   \\[\n   f(x) = x^2 - 3x + 4\n   \\]\n2. Substitute \\( 2x \\) for \\( x \\):\n   \\[\n   f(2x) = (2x)^2 - 3(2x) + 4\n   \\]\n3. Now calculate each term step by step:\n   - The first term: \n   \n     \\[\n     (2x)^2 = 4x^2\n     \\]\n   - The second term:\n   \n     \\[\n     -3(2x) = -6x\n     \\]\n   - The third term remains unchanged:\n   \n     \\[\n     4\n     \\]\n4. Combine all the terms:\n   \\[\n   f(2x) = 4x^2 - 6x + 4\n   \\]\n5. Thus, the simplified expression for \\( f(2x) \\) in terms of \\( x \\) is:\n   \\[\n   \\boxed{4x^2 - 6x + 4}\n   \\]",
+        "To find the expression for \\( f(2x) \\), we start with the original function given by:\n\\[\nf(x) = x^2 - 3x + 4.\n\\]\nWe need to evaluate \\( f(2x) \\). This means we will substitute \\( 2x \\) for \\( x \\) in the function:\n\\[\nf(2x) = (2x)^2 - 3(2x) + 4.\n\\]\nNow, we will compute each term step by step.\n1. Calculate \\( (2x)^2 \\):\n   \\[\n   (2x)^2 = 4x^2.\n   \\]\n2. Calculate \\( -3(2x) \\):\n   \\[\n   -3(2x) = -6x.\n   \\]\n3. The constant term \\( 4 \\) remains the same.\nNow, we can combine all these results:\n\\[\nf(2x) = 4x^2 - 6x + 4.\n\\]\nThus, the expression for \\( f(2x) \\) in simplified form is:\n\\[\n\\boxed{4x^2 - 6x + 4}.\n\\]",
+        "To find \\( f(2x) \\) for the function defined as \\( f(x) = x^2 - 3x + 4 \\), we need to substitute \\( 2x \\) into the function wherever we see \\( x \\).\nStart by substituting \\( 2x \\):\n\\[\nf(2x) = (2x)^2 - 3(2x) + 4\n\\]\nNow, simplify each term:\n1. Calculate \\( (2x)^2 \\):\n   \\[\n   (2x)^2 = 4x^2\n   \\]\n2. Calculate \\( -3(2x) \\):\n   \\[\n   -3(2x) = -6x\n   \\]\nNow we can substitute these simplified terms back into the expression for \\( f(2x) \\):\n\\[\nf(2x) = 4x^2 - 6x + 4\n\\]\nThus, the expression that describes \\( f(2x) \\) in simplified form is:\n\\[\n\\boxed{4x^2 - 6x + 4}\n\\]",
+        "To find the expression for \\( f(2x) \\), we start with the given function:\n\\[\nf(x) = x^2 - 3x + 4\n\\]\nNext, we'll substitute \\( 2x \\) for \\( x \\) in the function:\n\\[\nf(2x) = (2x)^2 - 3(2x) + 4\n\\]\nNow, let's calculate each term:\n1. **Calculate \\( (2x)^2 \\)**:\n   \\[\n   (2x)^2 = 4x^2\n   \\]\n2. **Calculate \\( -3(2x) \\)**:\n   \\[\n   -3(2x) = -6x\n   \\]\nNow, we can put these results back into the expression for \\( f(2x) \\):\n\\[\nf(2x) = 4x^2 - 6x + 4\n\\]\nThis expression is already simplified, so the final answer is:\n\\[\n\\boxed{4x^2 - 6x + 4}\n\\]",
+        "To find the expression for \\( f(2x) \\) given the function \\( f(x) = x^2 - 3x + 4 \\), we will substitute \\( 2x \\) into the function in place of \\( x \\).\n1. Start with the original function:\n   \\[\n   f(x) = x^2 - 3x + 4\n   \\]\n2. Substitute \\( 2x \\) for \\( x \\):\n   \\[\n   f(2x) = (2x)^2 - 3(2x) + 4\n   \\]\n3. Calculate \\( (2x)^2 \\):\n   \\[\n   (2x)^2 = 4x^2\n   \\]\n4. Calculate \\( -3(2x) \\):\n   \\[\n   -3(2x) = -6x\n   \\]\n5. Now, combine all the parts together:\n   \\[\n   f(2x) = 4x^2 - 6x + 4\n   \\]\n6. The final expression for \\( f(2x) \\) in simplified form is:\n   \\[\n   \\boxed{4x^2 - 6x + 4}\n   \\]"
+    ],
+    "pred_answers": "4",
+    "final_pred_answer": [
+        "4",
+        "4",
+        "4",
+        "4",
+        "4"
+    ],
+    "ground_truth": "4"
+}

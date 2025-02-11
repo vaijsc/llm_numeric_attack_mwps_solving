@@ -1,0 +1,23 @@
+{
+    "problem": "What is the value of $(7+5)^2-(7-5)^2$?",
+    "level": "Level 1",
+    "type": "Algebra",
+    "solution": "Although it's easy to simply multiply out the squares and compute, there is a more elegant solution. We are looking at an equation of the form $x^2 - y^2$, and we know that this factors into $(x+y)(x-y)$. So, we factor the given equation to get $(7+5+7-5)(7+5-7+5)$, which equals $14 \\cdot 10$, or $\\boxed{140}$.",
+    "prompt": "### Instruction: What is the value of $(7+5)^2-(7-5)^2$?\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "To find the value of \\((7+5)^2 - (7-5)^2\\), we can start by simplifying the individual terms inside the parentheses.\nFirst, calculate \\(7 + 5\\) and \\(7 - 5\\):\n\\[\n7 + 5 = 12\n\\]\n\\[\n7 - 5 = 2\n\\]\nNext, we substitute these results back into the expression:\n\\[\n(7+5)^2 = 12^2\n\\]\n\\[\n(7-5)^2 = 2^2\n\\]\nNow, calculate the squares:\n\\[\n12^2 = 144\n\\]\n\\[\n2^2 = 4\n\\]\nNow we substitute these values into the expression:\n\\[\n(7+5)^2 - (7-5)^2 = 144 - 4\n\\]\nFinally, perform the subtraction:\n\\[\n144 - 4 = 140\n\\]\nThus, the value of \\((7+5)^2 - (7-5)^2\\) is \\(\\boxed{140}\\).",
+        "To solve the expression \\((7+5)^2 - (7-5)^2\\), we can start by simplifying each term separately.\n1. Calculate \\(7 + 5\\):\n   \\[\n   7 + 5 = 12\n   \\]\n   Hence, \\((7 + 5)^2 = 12^2 = 144\\).\n2. Calculate \\(7 - 5\\):\n   \\[\n   7 - 5 = 2\n   \\]\n   Hence, \\((7 - 5)^2 = 2^2 = 4\\).\nNow, we can put these values back into the original expression:\n\\[\n(7 + 5)^2 - (7 - 5)^2 = 144 - 4\n\\]\nCalculating this gives:\n\\[\n144 - 4 = 140\n\\]\nThus, the value of \\((7+5)^2 - (7-5)^2\\) is \\(\\boxed{140}\\). \nAlternatively, we can use the identity for the difference of squares, which states that \\(a^2 - b^2 = (a-b)(a+b)\\). Here, let \\(a = 7 + 5\\) and \\(b = 7 - 5\\).\nUsing \\(a = 12\\) and \\(b = 2\\):\n1. Calculate \\(a - b\\):\n   \\[\n   12 - 2 = 10\n   \\]\n2. Calculate \\(a + b\\):\n   \\[\n   12 + 2 = 14\n   \\]\nNow we can find \\(a^2 - b^2\\):\n\\[\n(7+5)^2 - (7-5)^2 = (a^2 - b^2) = (10)(14) = 140\n\\]\nThus, we confirm that the value is indeed \\(\\boxed{140}\\).",
+        "To solve the expression \\((7+5)^2-(7-5)^2\\), we will first evaluate each part step by step.\n1. Calculate \\(7 + 5\\):\n   \\[\n   7 + 5 = 12\n   \\]\n2. Calculate \\(7 - 5\\):\n   \\[\n   7 - 5 = 2\n   \\]\nNow, substitute these results back into the expression:\n\\[\n(7+5)^2 - (7-5)^2 = 12^2 - 2^2\n\\]\nNext, we compute \\(12^2\\) and \\(2^2\\):\n3. Calculate \\(12^2\\):\n   \\[\n   12^2 = 144\n   \\]\n4. Calculate \\(2^2\\):\n   \\[\n   2^2 = 4\n   \\]\nNow substitute these squared values back into the expression:\n\\[\n144 - 4\n\\]\nFinally, we perform the subtraction:\n5. Calculate \\(144 - 4\\):\n   \\[\n   144 - 4 = 140\n   \\]\nThus, the value of \\((7+5)^2 - (7-5)^2\\) is \n\\[\n\\boxed{140}\n\\]",
+        "We start with the expression \\((7+5)^2 - (7-5)^2\\).\nFirst, we calculate \\(7+5\\) and \\(7-5\\):\n\\[\n7+5 = 12\n\\]\n\\[\n7-5 = 2\n\\]\nNow we can rewrite the expression using these results:\n\\[\n(7+5)^2 - (7-5)^2 = 12^2 - 2^2\n\\]\nNext, we compute \\(12^2\\) and \\(2^2\\):\n\\[\n12^2 = 144\n\\]\n\\[\n2^2 = 4\n\\]\nNow, substituting these values back into the expression gives:\n\\[\n144 - 4\n\\]\nFinally, we calculate the result:\n\\[\n144 - 4 = 140\n\\]\nThus, the value of \\((7+5)^2 - (7-5)^2\\) is \\(\\boxed{140}\\).",
+        "We need to calculate the expression \\((7+5)^2 - (7-5)^2\\).\n1. **Evaluate \\(7 + 5\\) and \\(7 - 5\\)**:\n   \\[\n   7 + 5 = 12\n   \\]\n   \\[\n   7 - 5 = 2\n   \\]\n2. **Now compute \\((7+5)^2\\) and \\((7-5)^2\\)**:\n   \\[\n   (7+5)^2 = 12^2 = 144\n   \\]\n   \\[\n   (7-5)^2 = 2^2 = 4\n   \\]\n3. **Now substitute these values into the expression**:\n   \\[\n   (7+5)^2 - (7-5)^2 = 144 - 4\n   \\]\n4. **Calculate the result**:\n   \\[\n   144 - 4 = 140\n   \\]\nThus, the value of \\((7+5)^2 - (7-5)^2\\) is \\(\\boxed{140}\\)."
+    ],
+    "pred_answers": "140",
+    "final_pred_answer": [
+        "140",
+        "140",
+        "140",
+        "140",
+        "140"
+    ],
+    "ground_truth": "140"
+}

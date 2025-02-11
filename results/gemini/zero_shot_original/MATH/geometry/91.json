@@ -1,0 +1,23 @@
+{
+    "problem": "Compute $\\cos 60^\\circ$.",
+    "level": "Level 1",
+    "type": "Geometry",
+    "solution": "Let $P$ be the point on the unit circle that is $60^\\circ$ counterclockwise from $(1,0)$, and let $D$ be the foot of the altitude from $P$ to the $x$-axis, as shown below.\n\n[asy]\n\npair A,C,P,O,D;\n\ndraw((0,-1.2)--(0,1.2),p=black+1.2bp,Arrows(0.15cm));\n\ndraw((-1.2,0)--(1.2,0),p=black+1.2bp,Arrows(0.15cm));\n\nA = (1,0);\n\nO= (0,0);\n\nlabel(\"$x$\",(1.2,0),SE);\n\nlabel(\"$y$\",(0,1.2),NE);\n\nP = rotate(60)*A;\n\nD = foot(P,A,-A);\n\ndraw(O--P--D);\n\ndraw(rightanglemark(O,D,P,2));\n\ndraw(Circle(O,1));\n\nlabel(\"$O$\",O,SE);\n\nlabel(\"$P$\",P,NE);\n\n//label(\"$A$\",A,SE);\n\nlabel(\"$D$\",D,S);\n\n[/asy]\n\nTriangle $POD$ is a 30-60-90 triangle, so $DO = \\frac{1}{2}$ and $DP = \\frac{\\sqrt{3}}{2}$.  Therefore, the coordinates of $P$ are $\\left(\\frac{1}{2}, \\frac{\\sqrt{3}}{2}\\right)$, so $\\cos 60^\\circ = \\boxed{\\frac{1}{2}}$.",
+    "prompt": "### Instruction: Compute $\\cos 60^\\circ$.\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "Here's how to compute cos 60\u00b0:\n**1. Visualize the Unit Circle:**\nImagine a circle with radius 1 centered at the origin of a coordinate plane.  \n**2.  Locate 60\u00b0:**\n* Starting from the positive x-axis, rotate counterclockwise by 60 degrees. \n**3.  Identify the Coordinates:**\n* The point where the rotation intersects the unit circle will have coordinates (1/2, \u221a3/2). \n**4.  Cosine is the x-coordinate:**\n* In the coordinates (x, y), the cosine of the angle is represented by the x-value. \n**Therefore, cos 60\u00b0 = 1/2** \n",
+        "Here's how to compute cos 60\u00b0:\n**1. Visualize the Unit Circle:**\n* Imagine a circle with radius 1 centered at the origin of a coordinate plane. \n* An angle of 60\u00b0 starts at the positive x-axis and rotates counterclockwise. \n**2. Find the Point on the Unit Circle:**\n* The point where the 60\u00b0 angle intersects the unit circle is (1/2, \u221a3/2). \n**3. Understand Cosine:**\n* Cosine represents the x-coordinate of the point on the unit circle.\n**4. Conclusion:**\n* Therefore, cos 60\u00b0 = **1/2**. \n",
+        "Here's how to compute cos 60\u00b0:\n**1. Visualize the Unit Circle:**\n* Imagine a circle with radius 1 centered at the origin of a coordinate plane.\n* An angle of 60\u00b0 is formed by rotating a line counterclockwise from the positive x-axis.\n**2. Find the Point on the Circle:**\n* The point where the rotated line intersects the unit circle has coordinates (1/2, \u221a3/2).  This is because a 30-60-90 right triangle is formed, with the hypotenuse being 1 (the radius of the circle).\n**3. Recall the Definition of Cosine:**\n* The cosine of an angle is the x-coordinate of the point where the angle's terminal side intersects the unit circle.\n**4. Conclusion:**\n* Since the x-coordinate of the point we found is 1/2, **cos 60\u00b0 = 1/2**. \n",
+        "Here's how to compute cos 60\u00b0:\n**1. Visualize the Unit Circle**\nImagine a circle with radius 1 centered at the origin of a coordinate plane.  \n**2. Find the 60\u00b0 Angle**\n* Start at the positive x-axis (0\u00b0).\n* Rotate counterclockwise by 60\u00b0.\n**3. Locate the Point**\nThe point where the 60\u00b0 angle intersects the unit circle has coordinates (1/2, \u221a3/2).\n**4. Cosine is the x-coordinate**\nThe cosine of an angle is represented by the x-coordinate of the point on the unit circle.\n**Therefore, cos 60\u00b0 = 1/2.** \n",
+        "Here's how to compute  $\\cos 60^\\circ$:\n**1. Visualize the Unit Circle:**\n* Imagine a circle with radius 1 centered at the origin of a coordinate plane.\n* An angle of 60 degrees is formed by rotating a line counterclockwise from the positive x-axis.\n**2. Find the Point on the Unit Circle:**\n* The point where the rotated line intersects the unit circle will have coordinates (x, y). \n*  In this case, the point is (1/2, \u221a3/2). This is a standard angle and its coordinates are worth memorizing.\n**3. Cosine is the x-coordinate:**\n* The cosine of an angle is represented by the x-coordinate of the point on the unit circle.\n**Therefore, cos 60\u00b0 = 1/2.** \n"
+    ],
+    "pred_answers": "2",
+    "final_pred_answer": [
+        "2",
+        "2",
+        "2",
+        "2",
+        "2"
+    ],
+    "ground_truth": "2"
+}

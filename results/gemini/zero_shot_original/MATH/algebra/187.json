@@ -1,0 +1,23 @@
+{
+    "problem": "The combined weight of three basset hounds is $185$ pounds. The two smaller dogs weigh the same. The difference between the larger weight and the smaller weight is $20$ pounds. How many pounds does the largest dog weigh?",
+    "level": "Level 2",
+    "type": "Algebra",
+    "solution": "Let the three basset hounds weigh $a$, $a$, and $b$ pounds, where $a < b$. We have the two equations \\begin{align*}\n2a+b&=185\\\\\nb-a&=20\n\\end{align*} From the second equation, we have $a=b-20$. Substituting this in to the first equation to eliminate $a$, we have $2(b-20)+b=185 \\Rightarrow b=75$. Thus, the largest dog weighs $\\boxed{75}$ pounds.",
+    "prompt": "### Instruction: The combined weight of three basset hounds is $185$ pounds. The two smaller dogs weigh the same. The difference between the larger weight and the smaller weight is $20$ pounds. How many pounds does the largest dog weigh?\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "Here's how to solve the problem step-by-step:\n**1. Define Variables:**\n* Let  'x' represent the weight of each of the two smaller dogs.\n* Let 'x + 20' represent the weight of the largest dog.\n**2. Set up an Equation:**\nThe combined weight of all three dogs is 185 pounds, so:\nx + x + (x + 20) = 185\n**3. Solve for x:**\n* Combine like terms: 3x + 20 = 185\n* Subtract 20 from both sides: 3x = 165\n* Divide both sides by 3: x = 55 \n**4. Find the Weight of the Largest Dog:**\n* The largest dog weighs x + 20 pounds.\n* Substitute x = 55: 55 + 20 = 75\n**Answer:** The largest dog weighs **75 pounds**. \n",
+        "Here's how to solve this problem step-by-step:\n**1. Set up variables:**\n* Let  'x' represent the weight of each of the two smaller dogs.\n* Let 'x + 20' represent the weight of the larger dog.\n**2. Write an equation:**\nThe total weight of all three dogs is 185 pounds, so we can write the equation:\nx + x + (x + 20) = 185\n**3. Solve for x:**\n* Combine like terms: 3x + 20 = 185\n* Subtract 20 from both sides: 3x = 165\n* Divide both sides by 3: x = 55\n**4. Find the weight of the largest dog:**\n* The largest dog weighs x + 20 pounds.\n* Substitute x = 55: 55 + 20 = 75\n**Answer:** The largest dog weighs **75 pounds**. \n",
+        "Here's how to solve the problem step-by-step:\n**1. Define Variables:**\n* Let 'x' represent the weight of each of the two smaller dogs.\n* Let 'x + 20' represent the weight of the largest dog.\n**2. Set up an Equation:**\nThe total weight of all three dogs is 185 pounds, so we can write the equation:\nx + x + (x + 20) = 185\n**3. Solve for x:**\n* Combine like terms: 3x + 20 = 185\n* Subtract 20 from both sides: 3x = 165\n* Divide both sides by 3: x = 55\n**4. Find the Weight of the Largest Dog:**\n* The largest dog weighs x + 20 pounds.\n* Substitute x = 55: 55 + 20 = 75\n**Answer:** The largest dog weighs **75 pounds**. \n",
+        "Here's how to solve the problem step by step:\n**1. Define variables:**\n* Let 'x' represent the weight of each of the smaller dogs.\n* Let 'x + 20' represent the weight of the largest dog.\n**2. Set up an equation:**\n* The total weight of all three dogs is 185 pounds, so we can write the equation: \n   x + x + (x + 20) = 185\n**3. Simplify the equation:**\n* Combine like terms: 3x + 20 = 185\n**4. Solve for x:**\n* Subtract 20 from both sides: 3x = 165\n* Divide both sides by 3: x = 55 \n**5. Find the weight of the largest dog:**\n* The largest dog weighs x + 20 pounds.\n* Substitute x = 55: 55 + 20 = 75 pounds\n**Answer:** The largest dog weighs **75 pounds**. \n",
+        "Here's how to solve the problem step by step:\n**1. Set up variables:**\n* Let 'x' represent the weight of each of the two smaller dogs.\n* Let 'x + 20' represent the weight of the larger dog.\n**2. Write an equation:**\n* The total weight of all three dogs is 185 pounds, so:  x + x + (x + 20) = 185\n**3. Simplify the equation:**\n* 3x + 20 = 185\n**4. Solve for x:**\n* 3x = 165\n* x = 55 \n**5. Find the weight of the largest dog:**\n* The largest dog weighs x + 20 pounds, so it weighs 55 + 20 = 75 pounds.\n**Answer:** The largest dog weighs **75 pounds**. \n"
+    ],
+    "pred_answers": "75",
+    "final_pred_answer": [
+        "75",
+        "75",
+        "75",
+        "75",
+        "75"
+    ],
+    "ground_truth": "75"
+}

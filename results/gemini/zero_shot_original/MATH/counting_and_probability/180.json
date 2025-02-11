@@ -1,0 +1,23 @@
+{
+    "problem": "Joe's batting average is .323.  (That is, he averages 0.323 hits per at bat.)  What is the probability that he will get three hits in three at-bats? Express your answer as a decimal to the nearest hundredth.",
+    "level": "Level 3",
+    "type": "Counting & Probability",
+    "solution": "Each of Joe's hits is independent of the others. That is, the probability for one hit does not change depending on whether he hit or missed the previous ball. So, to calculate the probability that he will get three hits in three at-bats, we simply cube $0.323$ to get $0.033$. Rounded to the nearest hundredth, this gives $\\boxed{0.03}$.",
+    "prompt": "### Instruction: Joe's batting average is .323.  (That is, he averages 0.323 hits per at bat.)  What is the probability that he will get three hits in three at-bats? Express your answer as a decimal to the nearest hundredth.\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "Here's how to solve the problem:\n* **Probability of one hit:** Joe's batting average of .323 means the probability of getting a hit in one at-bat is 0.323.\n* **Probability of three hits in a row:**  To get three hits in a row, he needs to get a hit in the first at-bat, *and* a hit in the second at-bat, *and* a hit in the third at-bat. Since these are independent events, we multiply the probabilities together: 0.323 * 0.323 * 0.323 = 0.0338 (approximately).\n**Therefore, the probability of Joe getting three hits in three at-bats is approximately 0.03.** \n",
+        "Here's how to solve this step-by-step:\n* **Probability of one hit:** Since his batting average is .323, the probability of getting a hit in a single at-bat is 0.323.\n* **Probability of three hits in a row:** To get three hits in a row, we multiply the probability of getting a hit in each at-bat: 0.323 * 0.323 * 0.323 = 0.0337 \n* **Rounding to the nearest hundredth:**  0.0337 rounded to the nearest hundredth is **0.03**.\n**Therefore, the probability of Joe getting three hits in three at-bats is approximately 0.03.** \n",
+        "Here's how to break down the problem:\n* **Probability of a hit in one at-bat:** Joe's batting average of .323 means he has a 0.323 probability of getting a hit in any given at-bat.\n* **Probability of three hits in a row:** Since each at-bat is independent (one at-bat doesn't affect the next), we multiply the probability of a hit in each at-bat together: 0.323 * 0.323 * 0.323\n* **Calculation:** 0.323 * 0.323 * 0.323 \u2248 0.033\n**Answer:** The probability of Joe getting three hits in three at-bats is approximately **0.03**. \n",
+        "Here's how to solve the problem:\n* **Probability of one hit:** Joe's batting average of .323 means he has a 0.323 probability of getting a hit in any given at-bat.\n* **Probability of three hits in a row:** Since each at-bat is independent, we multiply the probability of getting a hit in one at-bat by itself three times. \n   * 0.323 * 0.323 * 0.323 = 0.0337 \n**Therefore, the probability of Joe getting three hits in three at-bats is approximately 0.03 (to the nearest hundredth).** \n",
+        "Here's how to solve the problem:\n* **Probability of one hit:** Joe's batting average is .323, meaning the probability of him getting a hit in one at-bat is 0.323.\n* **Probability of three hits:** Since each at-bat is independent of the others, we multiply the probability of getting a hit in each at-bat together: 0.323 * 0.323 * 0.323 = 0.0337 \n**Therefore, the probability of Joe getting three hits in three at-bats is approximately 0.03.** \n"
+    ],
+    "pred_answers": "0.03",
+    "final_pred_answer": [
+        "0.03",
+        "0.03",
+        "0.03",
+        "0.03",
+        "0.03"
+    ],
+    "ground_truth": "0.03"
+}

@@ -1,0 +1,23 @@
+{
+    "problem": "How many vertical asymptotes does the graph of $y=\\frac{x-3}{x^2+7x-30}$ have?",
+    "level": "Level 4",
+    "type": "Algebra",
+    "solution": "Factoring the denominator $x^2 + 7x - 30$, we get \\[y = \\frac{x - 3}{x^2 + 7x - 30} = \\frac{x - 3}{(x-3)(x+10)}.\\]The graph has a vertical asymptote at $x = -10$.  There is no vertical asymptote at $x = 3$, because the factors of $x - 3$ in the numerator and denominator cancel.  Therefore, the graph has $\\boxed{1}$ vertical asymptote.",
+    "prompt": "### Instruction: How many vertical asymptotes does the graph of $y=\\frac{x-3}{x^2+7x-30}$ have?\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "Here's how to find the vertical asymptotes:\n**1. Factor the denominator:**\nThe denominator factors as  (x + 10)(x - 3).\n**2. Identify values that make the denominator zero:**\nThe denominator is zero when x = -10 or x = 3.\n**3. Check if these values also make the numerator zero:**\n* When x = -10, the numerator is -13. This is not zero.\n* When x = 3, the numerator is zero.\n**4. Determine vertical asymptotes:**\n*  Since x = -10 makes the denominator zero but not the numerator, there is a vertical asymptote at **x = -10**. \n*  Since x = 3 makes both the numerator and denominator zero, there is a hole in the graph at x = 3, not a vertical asymptote.\n**Answer:** The graph of the function has **one** vertical asymptote. \n",
+        "Here's how to determine the number of vertical asymptotes:\n**1. Factor the denominator:**\nThe denominator factors as:  \n  x\u00b2 + 7x - 30 = (x + 10)(x - 3)\n**2. Identify values that make the denominator zero:**\nThe denominator is zero when x = -10 or x = 3.\n**3. Check for cancellations with the numerator:**\nNotice that the numerator also has a factor of (x - 3). This means there's a hole in the graph at x = 3, not a vertical asymptote.\n**4. Conclusion:**\nSince the factor (x - 3) cancels out, we are left with only one value that makes the denominator zero: x = -10. This means there is **one** vertical asymptote at **x = -10**. \n",
+        "Here's how to find the vertical asymptotes:\n**1. Factor the denominator:**\nThe denominator factors as  (x + 10)(x - 3).\n**2. Identify values that make the denominator zero:**\nThe denominator is zero when x = -10 or x = 3.\n**3. Check for cancellation with the numerator:**\nNotice that the numerator also has a factor of (x - 3).  This means there's a hole in the graph at x = 3, not a vertical asymptote.\n**4. Remaining vertical asymptotes:**\nThe only remaining factor in the denominator that doesn't cancel is (x + 10).  This means there's a vertical asymptote at x = -10.\n**Answer:** The graph has **one** vertical asymptote. \n",
+        "Here's how to find the vertical asymptotes:\n**1. Factor the denominator:**\nThe denominator factors as  (x + 10)(x - 3).\n**2. Identify the values that make the denominator zero:**\nThe denominator is zero when x = -10 or x = 3.\n**3. Check for cancellation:**\nNotice that the numerator also has a factor of (x - 3). This means there's a hole in the graph at x = 3, not a vertical asymptote.\n**4. The remaining zero:**\nThe only remaining value that makes the denominator zero is x = -10.  This means there's a vertical asymptote at x = -10.\n**Answer:** The graph has **one** vertical asymptote. \n",
+        "Here's how to find the vertical asymptotes:\n1. **Factor the denominator:** The denominator factors as  (x+10)(x-3). \n2. **Identify the values that make the denominator zero:** The denominator is zero when x = -10 and x = 3.\n3. **Check if these values also make the numerator zero:** Notice that the numerator also becomes zero when x = 3. This means there's a hole in the graph at x = 3, not a vertical asymptote.\n4. **The remaining value is the vertical asymptote:** The only value that makes the denominator zero *without* also making the numerator zero is x = -10.\n**Therefore, the graph of the function has one vertical asymptote at x = -10.** \n"
+    ],
+    "pred_answers": "-10",
+    "final_pred_answer": [
+        "3",
+        "-10",
+        "-10",
+        "-10",
+        "-10"
+    ],
+    "ground_truth": "1"
+}

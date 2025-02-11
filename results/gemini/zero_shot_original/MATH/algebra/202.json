@@ -1,0 +1,23 @@
+{
+    "problem": "For how many values of $x$ is the expression $\\frac{x-5}{x^2-9}$  not defined?",
+    "level": "Level 2",
+    "type": "Algebra",
+    "solution": "The expression is not defined when the denominator is equal to zero. Thus, we need to find the number of values of $x$ such that $x^2-9=0$. Rearranging the equation and taking the square root of both sides, we have $x^2-9=0\\Rightarrow x^2=9 \\Rightarrow x=\\pm3$. Thus, there are $\\boxed{2}$ different values of $x$ that make the given expression undefined.",
+    "prompt": "### Instruction: For how many values of $x$ is the expression $\\frac{x-5}{x^2-9}$  not defined?\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "Here's how to solve the problem step-by-step:\n**1. Identify the issue:**\nThe expression is a fraction, and fractions are undefined when the denominator is zero. \n**2. Find the values that make the denominator zero:**\nWe need to solve the equation: \n  *  x\u00b2 - 9 = 0\n**3. Factor the denominator:**\nThis equation factors as a difference of squares:\n  * (x + 3)(x - 3) = 0\n**4. Solve for x:**\nFor the product of two factors to be zero, at least one of the factors must be zero.  So we have two possibilities:\n  * x + 3 = 0  =>  x = -3\n  * x - 3 = 0  =>  x = 3\n**5. Answer:**\nThe expression is undefined for **two** values of *x*:  x = -3 and x = 3. \n",
+        "The expression is not defined when the denominator is equal to zero. So we need to find the values of *x* that make *x\u00b2 - 9 = 0*.\nHere's how to solve that:\n1. **Factor the expression:**  *x\u00b2 - 9* factors into *(x + 3)(x - 3)*.\n2. **Set each factor equal to zero:**\n   *  *x + 3 = 0*  \n   *  *x - 3 = 0*\n3. **Solve for *x*:**\n   *  *x = -3*\n   *  *x = 3*\nTherefore, the expression is not defined for **two** values of *x*: **x = -3** and **x = 3**. \n",
+        "Here's how to solve the problem step-by-step:\n**1. Understand the Problem**\nThe expression is a fraction. Fractions are undefined when the denominator is zero.  Our goal is to find the values of *x* that make the denominator zero.\n**2. Factor the Denominator**\nThe denominator is a difference of squares:  \n*x\u00b2 - 9 = (x + 3)(x - 3)*\n**3. Find the Values that Make the Denominator Zero**\nFor the denominator to be zero, one or both of the factors must be zero.  This occurs when:\n*  *x + 3 = 0*  (Solving for *x* gives *x = -3*)\n*  *x - 3 = 0*  (Solving for *x* gives *x = 3*)\n**4. Answer**\nTherefore, the expression is not defined for **two** values of *x*:  *x = -3* and *x = 3*. \n",
+        "Here's how to solve the problem step-by-step:\n**1. Understand what makes an expression undefined**\nA fraction is undefined when its denominator is equal to zero. This is because division by zero is not defined in mathematics.\n**2. Find the values that make the denominator zero**\nThe denominator of our expression is $x^2 - 9$. We need to find the values of *x* that make this expression equal to zero:\n*  Factor the denominator:  $x^2 - 9 = (x + 3)(x - 3)$\n*  Set each factor equal to zero and solve:\n    *  $x + 3 = 0  \\Rightarrow x = -3$\n    *  $x - 3 = 0  \\Rightarrow x = 3$\n**3. The answer**\nWe found that the expression is undefined for *x = -3* and *x = 3*.  Therefore, the expression is not defined for **two** values of *x*. \n",
+        "Here's how to solve the problem step-by-step:\n**1. Identify the problem:**\nThe expression is a fraction, and fractions are undefined when the denominator is zero. \n**2. Set the denominator equal to zero:**\nWe need to find the values of *x* that make the denominator,  *x\u00b2 - 9*, equal to zero. \n**3. Factor the denominator:**\n*x\u00b2 - 9* is a difference of squares, which factors as (x + 3)(x - 3).\n**4. Solve for *x*:**\nFor the denominator to be zero, either (x + 3) = 0 or (x - 3) = 0. \n*  Solving x + 3 = 0 gives us x = -3.\n*  Solving x - 3 = 0 gives us x = 3.\n**5. Conclusion:**\nThe expression is not defined for **two** values of *x*: **x = -3** and **x = 3**. \n"
+    ],
+    "pred_answers": "3",
+    "final_pred_answer": [
+        "-3",
+        "3",
+        "3",
+        "3",
+        "3"
+    ],
+    "ground_truth": "2"
+}

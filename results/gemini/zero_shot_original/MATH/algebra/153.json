@@ -1,0 +1,23 @@
+{
+    "problem": "Let $x$ be a number that satisfies both equations $18x^2+25x-3=0$ and $4x^2+8x+3=0$. Find the value of $x$.",
+    "level": "Level 3",
+    "type": "Algebra",
+    "solution": "We begin by factoring both quadratics. We find that the $18x^2+25x-3=0$ factors to: \\[ (2x+3)(9x-1)=0. \\]Thus, the only values of $x$ that satisfy this equation are $-\\frac32$ and $\\frac19$. When we factor the second quadratic, $4x^2+8x+3=0$, we find that it is equal to: \\[ (2x+1)(2x+3)=0. \\]Thus, the only values that satisfy this equation are $-\\frac12$ and $-\\frac32$. Since $-\\frac32$ is the only root both polynomials have in common, the answer must be $\\boxed{-\\frac32}$",
+    "prompt": "### Instruction: Let $x$ be a number that satisfies both equations $18x^2+25x-3=0$ and $4x^2+8x+3=0$. Find the value of $x$.\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "Here's how to solve the problem:\n**1. Solve for x in each equation**\n* **Equation 1:**  18x\u00b2 + 25x - 3 = 0\n   * This quadratic equation can be factored: (2x + 3)(9x - 1) = 0\n   * Therefore, x = -3/2 or x = 1/9\n* **Equation 2:** 4x\u00b2 + 8x + 3 = 0\n   * This quadratic equation can be factored: (2x + 1)(2x + 3) = 0\n   * Therefore, x = -1/2 or x = -3/2\n**2. Find the common solution**\nThe only value of x that satisfies both equations is **x = -3/2**.\n**Therefore, the value of x that satisfies both equations is x = -3/2.** \n",
+        "Here's how to solve the problem step-by-step:\n**1. Solve for x in each equation:**\n* **Equation 1:**  18x\u00b2 + 25x - 3 = 0\n   * This quadratic equation can be factored: (2x + 3)(9x - 1) = 0\n   * Therefore, x = -3/2 or x = 1/9\n* **Equation 2:** 4x\u00b2 + 8x + 3 = 0\n   * This quadratic equation can also be factored: (2x + 1)(2x + 3) = 0\n   * Therefore, x = -1/2 or x = -3/2\n**2. Identify the common solution:**\nNotice that the value x = -3/2 satisfies both equations. \n**Therefore, the value of x that satisfies both equations is x = -3/2.** \n",
+        "Here's how to solve the problem step-by-step:\n**1. Solve each quadratic equation:**\n* **Equation 1:** 18x\u00b2 + 25x - 3 = 0\n   * We can use the quadratic formula: \n      x = (-b \u00b1 \u221a(b\u00b2 - 4ac)) / 2a\n      where a = 18, b = 25, and c = -3\n      x = (-25 \u00b1 \u221a(25\u00b2 - 4 * 18 * -3)) / (2 * 18)\n      x = (-25 \u00b1 \u221a(841)) / 36\n      x = (-25 \u00b1 29) / 36\n      This gives us two possible solutions for x: x = 1/9 and x = -3/2\n* **Equation 2:** 4x\u00b2 + 8x + 3 = 0\n   * Again, using the quadratic formula (a = 4, b = 8, c = 3):\n      x = (-8 \u00b1 \u221a(8\u00b2 - 4 * 4 * 3)) / (2 * 4)\n      x = (-8 \u00b1 \u221a(16)) / 8\n      x = (-8 \u00b1 4) / 8\n      This gives us two possible solutions for x: x = -1/2 and x = -3/2\n**2. Find the common solution:**\nNotice that both equations have the solution  x = -3/2. \n**Therefore, the value of x that satisfies both equations is x = -3/2.** \n",
+        "Here's how to solve the problem step-by-step:\n**1. Find the roots of each equation.**\n* **Equation 1:**  18x\u00b2 + 25x - 3 = 0\n   * We can factor this equation: (2x + 3)(9x - 1) = 0\n   * This gives us two solutions: x = -3/2 or x = 1/9\n* **Equation 2:** 4x\u00b2 + 8x + 3 = 0\n   * This equation doesn't factor easily, so we can use the quadratic formula:\n      * x = [-b \u00b1 \u221a(b\u00b2 - 4ac)] / 2a \n      * Where a = 4, b = 8, and c = 3\n      * x = [-8 \u00b1 \u221a(8\u00b2 - 4 * 4 * 3)] / (2 * 4)\n      * x = [-8 \u00b1 \u221a(16)] / 8\n      * x = (-8 \u00b1 4) / 8 \n      * This gives us two solutions: x = -3/2 or x = -1/2\n**2. Identify the common solution.**\nNotice that both equations have the solution x = -3/2.\n**Therefore, the value of x that satisfies both equations is x = -3/2.** \n",
+        "Here's how to solve the problem:\n**1. Find the solutions to each equation:**\n* **Equation 1:**  18x\u00b2 + 25x - 3 = 0\n   * This equation can be factored: (2x + 3)(9x - 1) = 0\n   * This gives us two solutions: x = -3/2 or x = 1/9\n* **Equation 2:** 4x\u00b2 + 8x + 3 = 0\n   * This equation can also be factored: (2x + 1)(2x + 3) = 0\n   * This gives us two solutions: x = -1/2 or x = -3/2\n**2. Identify the common solution:**\n* Notice that the solution x = -3/2 appears in both equations.\n**Therefore, the value of x that satisfies both equations is x = -3/2.** \n"
+    ],
+    "pred_answers": "2",
+    "final_pred_answer": [
+        "2",
+        "2",
+        "2",
+        "2",
+        "2"
+    ],
+    "ground_truth": "32"
+}

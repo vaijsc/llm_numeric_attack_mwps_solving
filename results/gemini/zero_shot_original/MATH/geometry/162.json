@@ -1,0 +1,23 @@
+{
+    "problem": "The perimeter of $\\triangle ABC$ is $32.$ If $\\angle ABC=\\angle ACB$ and $BC=12,$ what is the length of $AB?$\n\n[asy]\ndraw((0,0)--(12,0)--(6,10)--cycle,black+linewidth(1));\nMarkAngle((12,0),(0,0),(6,10),1,black+linewidth(1));\nMarkAngle((6,10),(12,0),(0,0),1,black+linewidth(1));\nlabel(\"$A$\",(6,10),N);\nlabel(\"$B$\",(0,0),W);\nlabel(\"$C$\",(12,0),E);\nlabel(\"12\",(0,0)--(12,0),S);\n[/asy]",
+    "level": "Level 1",
+    "type": "Geometry",
+    "solution": "Since $\\angle ABC=\\angle ACB,$ then $\\triangle ABC$ is isosceles and $AB=AC.$ Given that  $\\triangle ABC$ has a perimeter of $32,$ $AB+AC+12=32$ or $AB+AC=20.$ But $AB=AC,$ so $2AB=20$ or $AB=\\boxed{10}.$",
+    "prompt": "### Instruction: The perimeter of $\\triangle ABC$ is $32.$ If $\\angle ABC=\\angle ACB$ and $BC=12,$ what is the length of $AB?$\n\n[asy]\ndraw((0,0)--(12,0)--(6,10)--cycle,black+linewidth(1));\nMarkAngle((12,0),(0,0),(6,10),1,black+linewidth(1));\nMarkAngle((6,10),(12,0),(0,0),1,black+linewidth(1));\nlabel(\"$A$\",(6,10),N);\nlabel(\"$B$\",(0,0),W);\nlabel(\"$C$\",(12,0),E);\nlabel(\"12\",(0,0)--(12,0),S);\n[/asy]\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "Since $\\angle ABC = \\angle ACB$, triangle $ABC$ is isosceles with $AB = AC$.  Let $x$ be the length of $AB$ and $AC$.  Then the perimeter of $\\triangle ABC$ is $x + x + 12 = 32$, so $2x = 20$ and $x = \\boxed{10}$. \n",
+        "Since $\\angle ABC = \\angle ACB$, triangle $ABC$ is isosceles with $AB = AC$.  Let $x$ be the length of $AB$ and $AC$.  Then the perimeter of the triangle is $x + x + 12 = 2x + 12 = 32$.  Solving for $x$, we find $x = \\boxed{10}$. \n",
+        "Since $\\angle ABC = \\angle ACB$, triangle $ABC$ is isosceles, and $AB=AC$.  Let $x$ be the length of $AB$ (and $AC$).  Then the perimeter of the triangle is $x+x+12=32$.  Solving for $x$, we find $x=\\boxed{10}$. \n",
+        "Since $\\angle ABC = \\angle ACB$, we know that $\\triangle ABC$ is an isosceles triangle with $AB = AC$.  Let $x = AB = AC$.  Then the perimeter of $\\triangle ABC$ is $x + x + 12 = 2x + 12 = 32$.  Solving for $x$, we find $2x = 20$, so $x = \\boxed{10}$. \n",
+        "Here's how to solve the problem step-by-step:\n**1. Understand Isosceles Triangles**\nSince  \u2220ABC = \u2220ACB, we know that triangle ABC is an isosceles triangle. This means that AB = AC.\n**2. Use the Perimeter Information**\nWe know the perimeter is 32, and BC = 12.  So:\nAB + AC + BC = 32\nSince AB = AC, we can substitute:\n2 * AB + 12 = 32\n**3. Solve for AB**\n* Subtract 12 from both sides: 2 * AB = 20\n* Divide both sides by 2: AB = 10\n**Therefore, the length of AB is 10.** \n"
+    ],
+    "pred_answers": "10",
+    "final_pred_answer": [
+        "10",
+        "10",
+        "10",
+        "10",
+        "10"
+    ],
+    "ground_truth": "10"
+}

@@ -1,0 +1,23 @@
+{
+    "problem": "A function is defined as $f(x) = x^2 - 3x + 4$. What expression can be used to describe $f(2x)$? Express your answer in simplified form in terms of $x$.",
+    "level": "Level 5",
+    "type": "Algebra",
+    "solution": "We have that\n\\[f(2x) = (2x)^2 - 3(2x) + 4 = \\boxed{4x^2 - 6x + 4}.\\]",
+    "prompt": "### Instruction: A function is defined as $f(x) = x^2 - 3x + 4$. What expression can be used to describe $f(2x)$? Express your answer in simplified form in terms of $x$.\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "1. **Substitute 2x for x in the function:**  Since we're looking for *f(2x)*, we replace every *x* in the original function with *2x*. This gives us:\n   *f(2x) = (2x)^2 - 3(2x) + 4*\n2. **Simplify the expression:** Now, we just need to simplify the expression:\n   *f(2x) = 4x^2 - 6x + 4*\n**Therefore, the expression that describes f(2x) is 4x^2 - 6x + 4.** \n",
+        "1. **Substitute:**  We start by replacing the 'x' in the original function with '2x'.\n   \n   *  f(x) = x\u00b2 - 3x + 4\n   *  f(2x) = (2x)\u00b2 - 3(2x) + 4\n2. **Simplify:**  Now we expand and simplify the expression.\n   * f(2x) = 4x\u00b2 - 6x + 4\n**Therefore, the expression that describes f(2x) is 4x\u00b2 - 6x + 4.** \n",
+        "Here's how to find the expression for  *f(2x)*:\n**1. Replace 'x' with '2x' in the function:**\nSince *f(x) = x\u00b2 - 3x + 4*,  we replace each 'x' with '2x':\n*f(2x) = (2x)\u00b2 - 3(2x) + 4*\n**2. Simplify the expression:**\n*f(2x) = 4x\u00b2 - 6x + 4*\n**Therefore, the expression that describes *f(2x)* is 4x\u00b2 - 6x + 4.** \n",
+        "1. **Substitute:**  Since we want to find *f(2x)*, we replace every *x* in the original function with *2x*:\n   *  *f(2x) = (2x)^2 - 3(2x) + 4*\n2. **Simplify:** Now we simplify the expression:\n   *  *f(2x) = 4x^2 - 6x + 4*\n**Therefore, the expression that describes *f(2x)* is 4x^2 - 6x + 4.** \n",
+        "Here's how to find the expression for  *f(2x)*:\n**1. Understand the Function**\nThe function *f(x)* takes an input *x*, squares it, subtracts three times the input, and then adds 4.\n**2. Substitute 2x for x**\nTo find *f(2x)*, we simply replace every *x* in the function's definition with *2x*:\n*f(2x) = (2x)^2 - 3(2x) + 4*\n**3. Simplify**\nNow, let's simplify the expression:\n*f(2x) = 4x^2 - 6x + 4*\n**Therefore, the expression for *f(2x)* is 4x^2 - 6x + 4.** \n"
+    ],
+    "pred_answers": "4",
+    "final_pred_answer": [
+        "4",
+        "4",
+        "4",
+        "4",
+        "4"
+    ],
+    "ground_truth": "4"
+}

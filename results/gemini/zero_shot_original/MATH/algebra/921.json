@@ -1,0 +1,23 @@
+{
+    "problem": "Kyle's birthday party in 2007 cost $d$ dollars per person and $p$ people attended. In 2008, the cost per person doubled and the number of people attending the party also doubled. What is the ratio of the total cost of the party in 2007 to the total cost of the party in 2008? Express your answer as a common fraction.",
+    "level": "Level 3",
+    "type": "Algebra",
+    "solution": "The cost increased by a factor of 2 due to the increase in cost per person and by an additional factor of 2 due to the increase in number of people.  In total, the cost increased by a factor of 4, so the ratio of the cost of the party in 2007 to the cost of the party in 2008 is $\\boxed{\\frac{1}{4}}$.",
+    "prompt": "### Instruction: Kyle's birthday party in 2007 cost $d$ dollars per person and $p$ people attended. In 2008, the cost per person doubled and the number of people attending the party also doubled. What is the ratio of the total cost of the party in 2007 to the total cost of the party in 2008? Express your answer as a common fraction.\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "Here's how to break down the problem step-by-step:\n**2007:**\n* Cost per person: $d$ dollars\n* Number of people: $p$\n* Total cost: $d * p$ dollars\n**2008:**\n* Cost per person: $2d$ dollars (double the cost of 2007)\n* Number of people: $2p$ (double the number of people in 2007)\n* Total cost: $(2d) * (2p) = 4dp$ dollars\n**Ratio:**\nThe ratio of the total cost in 2007 to the total cost in 2008 is:\n(Total cost in 2007) / (Total cost in 2008) =  ($d * p$) / ($4dp$) = **1/4** \n",
+        "Here's how to solve the problem step-by-step:\n**2007:**\n* Cost per person: $d$ dollars\n* Number of people:  $p$\n* Total cost: $d * p$ dollars\n**2008:**\n* Cost per person: $2d$ dollars (doubled)\n* Number of people: $2p$ (doubled)\n* Total cost: $2d * 2p = 4dp$ dollars\n**Ratio of 2007 cost to 2008 cost:**\n* (2007 cost) / (2008 cost) =  (dp) / (4dp) = **1/4** \n",
+        "Here's how to solve the problem step-by-step:\n* **2007 Cost:** The total cost of the party in 2007 was $d$ dollars per person * $p$ people = $dp$ dollars.\n* **2008 Cost Per Person:** The cost per person doubled in 2008, so it became $2d$ dollars.\n* **2008 Number of People:** The number of people attending also doubled, so there were $2p$ people in 2008.\n* **2008 Cost:** The total cost of the party in 2008 was $2d$ dollars per person * $2p$ people = $4dp$ dollars.\n* **Ratio:** The ratio of the 2007 cost to the 2008 cost is  $\\frac{dp}{4dp} = \\boxed{\\frac{1}{4}}$. \n",
+        "Here's how to solve the problem step-by-step:\n**2007 Cost:**\n* Cost per person: $d$ dollars\n* Number of people: $p$\n* Total cost in 2007: $d * p$ dollars\n**2008 Cost:**\n* Cost per person: $2d$ dollars (doubled)\n* Number of people: $2p$ (doubled)\n* Total cost in 2008: $2d * 2p = 4dp$ dollars\n**Ratio of 2007 Cost to 2008 Cost:**\n* (Total cost in 2007) / (Total cost in 2008) =  (dp) / (4dp) = **1/4** \n**Therefore, the ratio of the total cost of the party in 2007 to the total cost of the party in 2008 is 1/4.** \n",
+        "Here's how to break down the problem and find the ratio:\n**2007:**\n* Cost per person: $d$ dollars\n* Number of people: $p$\n* Total cost: $d * p$ dollars\n**2008:**\n* Cost per person: $2d$ dollars (doubled)\n* Number of people: $2p$ (doubled)\n* Total cost: $2d * 2p = 4dp$ dollars\n**Ratio:**\nThe ratio of the total cost in 2007 to the total cost in 2008 is:\n(Total cost in 2007) / (Total cost in 2008) =  ($d * p$) / ($4dp$) \nSimplifying the ratio, we get: \n **1/4** \n"
+    ],
+    "pred_answers": "4",
+    "final_pred_answer": [
+        "4",
+        "4",
+        "4",
+        "4",
+        "4"
+    ],
+    "ground_truth": "4"
+}

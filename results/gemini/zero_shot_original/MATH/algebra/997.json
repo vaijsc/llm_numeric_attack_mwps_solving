@@ -1,0 +1,23 @@
+{
+    "problem": "Evaluate $\\left(\\dfrac{-2i}{5}\\right)^2$.",
+    "level": "Level 3",
+    "type": "Algebra",
+    "solution": "$\\left(\\dfrac{-2i}{5}\\right)^2 = \\left(\\dfrac{(-2i)^2}{5^2}\\right) = \\left(\\dfrac{(-2)^2i^2}{25}\\right) = \\boxed{-\\dfrac{4}{25}}.$",
+    "prompt": "### Instruction: Evaluate $\\left(\\dfrac{-2i}{5}\\right)^2$.\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "Here's how to evaluate the expression step-by-step:\n**1. Square the numerator and denominator:**\n   *  (-2i)\u00b2 = (-2)\u00b2 * (i)\u00b2 = 4 * (-1) = -4 \n   *  (5)\u00b2 = 25\n**2. Combine the results:**\n   *  (-4 / 25) = **-4/25**\n**Therefore,  ( -2i / 5 )\u00b2 = -4/25** \n",
+        "Here's how to evaluate the expression step-by-step:\n**1. Square the numerator:**\n   (-2i)\u00b2 = (-2)\u00b2 * i\u00b2 = 4 * (-1) = -4  (Remember that i\u00b2 = -1)\n**2. Square the denominator:**\n   5\u00b2 = 25\n**3. Combine the results:**\n   (-4) / 25 = **-4/25**\n**Therefore,  ( -2i / 5 )\u00b2 = -4/25** \n",
+        "**Step 1: Square the numerator and the denominator separately.**\n  *  $(-2i)^2 = (-2)^2 \\cdot (i)^2 = 4 \\cdot (-1) = -4$\n  *  $(5)^2 = 25$\n**Step 2: Combine the results.**\n  * $\\left(\\dfrac{-2i}{5}\\right)^2 = \\dfrac{(-2i)^2}{(5)^2} = \\dfrac{-4}{25}$\n**Therefore,  $\\left(\\dfrac{-2i}{5}\\right)^2 = \\boxed{-\\dfrac{4}{25}}$.** \n",
+        "Here's how to evaluate the expression step-by-step:\n**1. Square the numerator and denominator:**\n   *  (-2i)\u00b2 = (-2)\u00b2 * (i)\u00b2 = 4 * (-1) = -4  (Remember that i\u00b2 = -1)\n   *  5\u00b2 = 25\n**2. Combine the results:**\n   *  (-4) / 25 = **-4/25**\n**Therefore,  ( -2i / 5 )\u00b2 = -4/25** \n",
+        "1. **Square the numerator and denominator:**  \n   \n   ```\n   ( -2i / 5 ) ^2 = (-2i)^2 / 5^2 \n   ```\n2. **Simplify:**\n   \n   ```\n   (-2i)^2 / 5^2 = 4i^2 / 25\n   ```\n3. **Recall that i^2 = -1:**\n   ```\n   4i^2 / 25 = 4(-1) / 25\n   ```\n4. **Final answer:**\n   ```\n   4(-1) / 25 = **-4/25**\n   ```\nTherefore,  $\\left(\\dfrac{-2i}{5}\\right)^2 = \\boxed{-\\dfrac{4}{25}}$. \n"
+    ],
+    "pred_answers": "25",
+    "final_pred_answer": [
+        "25",
+        "25",
+        "25",
+        "25",
+        "25"
+    ],
+    "ground_truth": "25"
+}

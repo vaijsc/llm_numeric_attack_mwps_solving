@@ -1,0 +1,23 @@
+{
+    "problem": "The surface area of a particular cube is 600 square inches. When the edges of the cube are doubled in length, what is the volume of the new cube, in cubic inches?",
+    "level": "Level 2",
+    "type": "Geometry",
+    "solution": "Let $s$ be the original side length, in inches. We originally have $6s^2 = 600,$ so $s=10.$ Doubling $s,$ the volume becomes $20^3=\\boxed{8000}$ cubic inches.",
+    "prompt": "### Instruction: The surface area of a particular cube is 600 square inches. When the edges of the cube are doubled in length, what is the volume of the new cube, in cubic inches?\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "Here's how to solve the problem step-by-step:\n**1. Find the side length of the original cube:**\n* **Formula:** Surface area of a cube = 6 * (side length)\u00b2\n* **Given:** Surface area = 600 square inches\n* **Solve for side length:**\n   * 600 = 6 * (side length)\u00b2\n   * 100 = (side length)\u00b2\n   * side length = 10 inches\n**2. Find the side length of the new cube:**\n* **Given:** The edges of the new cube are doubled.\n* **New side length:** 10 inches * 2 = 20 inches\n**3. Calculate the volume of the new cube:**\n* **Formula:** Volume of a cube = (side length)\u00b3\n* **New side length:** 20 inches\n* **Volume:** 20 inches * 20 inches * 20 inches = 8000 cubic inches\n**Therefore, the volume of the new cube is 8000 cubic inches.** \n",
+        "Here's how to solve this problem step-by-step:\n**1. Find the side length of the original cube:**\n* The surface area of a cube is 6 times the area of one of its faces. \n* So, the area of one face is 600 square inches / 6 = 100 square inches.\n* The side length of a square is the square root of its area, so the side length of the original cube is \u221a100 inches = 10 inches.\n**2. Find the side length of the new cube:**\n* The edges of the original cube are doubled, so the new cube has a side length of 10 inches * 2 = 20 inches.\n**3. Calculate the volume of the new cube:**\n* The volume of a cube is side length cubed. \n* So, the volume of the new cube is 20 inches * 20 inches * 20 inches = 8000 cubic inches.\n**Answer:** The volume of the new cube is **8000 cubic inches**. \n",
+        "Here's how to solve the problem step-by-step:\n**1. Find the side length of the original cube:**\n* **Surface area of a cube:** 6 * (side length)^2\n* **Given surface area:** 600 square inches\n* **Set up the equation:** 6 * (side length)^2 = 600\n* **Solve for side length:**\n    * (side length)^2 = 100\n    * side length = 10 inches\n**2. Find the side length of the new cube:**\n* The edges of the new cube are doubled, so the side length is 10 inches * 2 = 20 inches\n**3. Calculate the volume of the new cube:**\n* **Volume of a cube:** (side length)^3\n* **Volume of the new cube:** (20 inches)^3 = 8000 cubic inches\n**Therefore, the volume of the new cube is 8000 cubic inches.** \n",
+        "Here's how to solve the problem step-by-step:\n**1. Find the side length of the original cube:**\n* The surface area of a cube is 6 times the area of one of its faces.\n* Let 's' be the side length of the original cube.  \n* Surface area = 6 * s\u00b2 = 600 square inches\n* s\u00b2 = 100 square inches\n* s = 10 inches \n**2. Find the side length of the new cube:**\n* The edges of the new cube are doubled, so the new side length is 10 inches * 2 = 20 inches.\n**3. Calculate the volume of the new cube:**\n* Volume of a cube = side length\u00b3\n* Volume of the new cube = 20 inches * 20 inches * 20 inches = 8000 cubic inches\n**Answer:** The volume of the new cube is **8000 cubic inches**. \n",
+        "Here's how to solve the problem step-by-step:\n**1. Find the side length of the original cube:**\n* The surface area of a cube is calculated by 6 * (side length)^2.\n* We know the surface area is 600 square inches.\n* So, 6 * (side length)^2 = 600\n* Divide both sides by 6: (side length)^2 = 100\n* Take the square root of both sides: side length = 10 inches\n**2. Find the side length of the new cube:**\n* The edges of the original cube are doubled, so the new side length is 10 inches * 2 = 20 inches.\n**3. Calculate the volume of the new cube:**\n* The volume of a cube is calculated by (side length)^3.\n* The new side length is 20 inches.\n* Therefore, the volume of the new cube is 20 inches * 20 inches * 20 inches = **8000 cubic inches**. \n"
+    ],
+    "pred_answers": "8000",
+    "final_pred_answer": [
+        "8000",
+        "8000",
+        "8000",
+        "8000",
+        "8000"
+    ],
+    "ground_truth": "8000"
+}

@@ -1,0 +1,23 @@
+{
+    "problem": "What is the value of $513^2 - 487^2$?",
+    "level": "Level 1",
+    "type": "Algebra",
+    "solution": "We note that this is a difference of squares, so $513^2 - 487^2 = (513+487)(513-487) = (1000)(26) = \\boxed{26000}$.",
+    "prompt": "### Instruction: What is the value of $513^2 - 487^2$?\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "To solve the expression \\( 513^2 - 487^2 \\), we can use the difference of squares formula, which states:\n\\[\na^2 - b^2 = (a - b)(a + b)\n\\]\nIn this case, we set \\( a = 513 \\) and \\( b = 487 \\).\nFirst, we calculate \\( a - b \\):\n\\[\n513 - 487 = 26\n\\]\nNext, we calculate \\( a + b \\):\n\\[\n513 + 487 = 1000\n\\]\nNow, substituting these values into the difference of squares formula:\n\\[\n513^2 - 487^2 = (513 - 487)(513 + 487) = 26 \\times 1000\n\\]\nCalculating the product:\n\\[\n26 \\times 1000 = 26000\n\\]\nThus, the value of \\( 513^2 - 487^2 \\) is \n\\[\n\\boxed{26000}\n\\]",
+        "To find the value of \\(513^2 - 487^2\\), we can use the difference of squares formula, which states that for any two numbers \\(a\\) and \\(b\\),\n\\[\na^2 - b^2 = (a - b)(a + b)\n\\]\nIn this case, we have \\(a = 513\\) and \\(b = 487\\). \nFirst, we calculate \\(a - b\\):\n\\[\na - b = 513 - 487 = 26\n\\]\nNext, we calculate \\(a + b\\):\n\\[\na + b = 513 + 487 = 1000\n\\]\nNow, we can substitute these values back into the difference of squares formula:\n\\[\n513^2 - 487^2 = (513 - 487)(513 + 487) = 26 \\times 1000\n\\]\nNow, we simply multiply the two values:\n\\[\n26 \\times 1000 = 26000\n\\]\nThus, the value of \\(513^2 - 487^2\\) is \n\\[\n\\boxed{26000}\n\\]",
+        "To calculate \\( 513^2 - 487^2 \\), we can use the difference of squares formula, which states that:\n\\[\na^2 - b^2 = (a - b)(a + b)\n\\]\nHere, let \\( a = 513 \\) and \\( b = 487 \\). Now, we first need to compute \\( a - b \\) and \\( a + b \\):\n\\[\na - b = 513 - 487 = 26\n\\]\n\\[\na + b = 513 + 487 = 1000\n\\]\nNow we substitute these values back into the difference of squares formula:\n\\[\n513^2 - 487^2 = (513 - 487)(513 + 487) = 26 \\times 1000\n\\]\nNow we perform the multiplication:\n\\[\n26 \\times 1000 = 26000\n\\]\nThus, the value of \\( 513^2 - 487^2 \\) is \n\\[\n\\boxed{26000}\n\\]",
+        "To find the value of \\( 513^2 - 487^2 \\), we can use the difference of squares formula, which states that:\n\\[\na^2 - b^2 = (a - b)(a + b)\n\\]\nIn this case, let \\( a = 513 \\) and \\( b = 487 \\). We first calculate \\( a - b \\) and \\( a + b \\):\n\\[\na - b = 513 - 487 = 26\n\\]\n\\[\na + b = 513 + 487 = 1000\n\\]\nNow we can use the difference of squares formula:\n\\[\n513^2 - 487^2 = (a - b)(a + b) = 26 \\times 1000\n\\]\nNext, we perform the multiplication:\n\\[\n26 \\times 1000 = 26000\n\\]\nThus, the value of \\( 513^2 - 487^2 \\) is \n\\[\n\\boxed{26000}\n\\]",
+        "We can solve \\( 513^2 - 487^2 \\) using the difference of squares formula, which states that \\( a^2 - b^2 = (a - b)(a + b) \\).\nHere, let:\n- \\( a = 513 \\)\n- \\( b = 487 \\)\nWe will first calculate \\( a - b \\) and \\( a + b \\):\n\\[\na - b = 513 - 487 = 26\n\\]\n\\[\na + b = 513 + 487 = 1000\n\\]\nNow we can apply the difference of squares formula:\n\\[\n513^2 - 487^2 = (513 - 487)(513 + 487) = 26 \\times 1000\n\\]\nNext, we multiply:\n\\[\n26 \\times 1000 = 26000\n\\]\nThus, the value of \\( 513^2 - 487^2 \\) is \n\\[\n\\boxed{26000}\n\\]"
+    ],
+    "pred_answers": "26000",
+    "final_pred_answer": [
+        "26000",
+        "26000",
+        "26000",
+        "26000",
+        "26000"
+    ],
+    "ground_truth": "26000"
+}

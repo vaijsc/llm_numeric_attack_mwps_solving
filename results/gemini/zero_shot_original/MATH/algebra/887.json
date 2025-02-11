@@ -1,0 +1,23 @@
+{
+    "problem": "Compute $91^2$ in your head.",
+    "level": "Level 1",
+    "type": "Algebra",
+    "solution": "Note that $91\\times 91 = (90 + 1)^2 = 90^2 + 2\\cdot 90 + 1 = 8100 + 180 + 1 = \\boxed{8281}$.",
+    "prompt": "### Instruction: Compute $91^2$ in your head.\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "Here's how to compute 91\u00b2 in your head:\n1. **Recognize the pattern:** 91 is close to 100.  Think of it as (100 - 9).\n2. **Square the difference:** 9\u00b2 = 81.\n3. **Double the difference and multiply by the base number:** 2 * 9 * 100 = 1800\n4. **Subtract the result from the square of the base number:** 100\u00b2 - 1800 = 8200\n5. **Add the square of the difference:** 8200 + 81 = 8281\n**Therefore, 91\u00b2 = 8281** \n",
+        "Here's how to compute 91\u00b2 in your head:\n**1. Think of 91 as (90 + 1)**\n**2.  Expand the square:** \n   (90 + 1)\u00b2 = 90\u00b2 + 2(90)(1) + 1\u00b2\n**3.  Calculate each term:**\n   * 90\u00b2 = 8100  (Think: 9 x 9 = 81, add two zeros)\n   * 2(90)(1) = 180\n   * 1\u00b2 = 1\n**4.  Add the terms:** \n   8100 + 180 + 1 = **8281**\nTherefore, 91\u00b2 = 8281. \n",
+        "Here's how to compute 91\u00b2 in your head:\n**1. Recognize the pattern:** 91 is close to 90, which is a nice round number. \n**2.  Think of 91 as (90 + 1):**  So, 91\u00b2 = (90 + 1)\u00b2\n**3. Expand the square:**  (90 + 1)\u00b2 = 90\u00b2 + 2(90)(1) + 1\u00b2\n**4. Calculate:**\n   * 90\u00b2 = 8100\n   * 2(90)(1) = 180\n   * 1\u00b2 = 1\n**5. Add the parts:** 8100 + 180 + 1 = **8281**\nTherefore, 91\u00b2 = 8281. \n",
+        "Here's how to compute 91\u00b2 in your head:\n**1. Think of 91 as (90 + 1):**  This makes the problem (90 + 1)\u00b2\n**2. Expand using the FOIL method (or recognize the pattern):**\n   (90 + 1)\u00b2 = 90\u00b2 + (2 * 90 * 1) + 1\u00b2\n**3. Calculate the pieces:**\n   * 90\u00b2 = 8100\n   * (2 * 90 * 1) = 180\n   * 1\u00b2 = 1\n**4. Add the results:** \n   8100 + 180 + 1 = 8281\n**Therefore, 91\u00b2 = 8281** \n",
+        "Here's how to compute 91\u00b2 in your head:\n**1. Think of 91 as (90 + 1)**\n**2. Square the first term (90):** 90\u00b2 = 8100\n**3. Multiply the two terms and double the result:** 90 * 1 * 2 = 180\n**4. Square the second term (1):** 1\u00b2 = 1\n**5. Add the three results:** 8100 + 180 + 1 = **8281**\nTherefore, 91\u00b2 = 8281. \n"
+    ],
+    "pred_answers": "8281",
+    "final_pred_answer": [
+        "8281",
+        "8281",
+        "8281",
+        "8281",
+        "8281"
+    ],
+    "ground_truth": "8281"
+}

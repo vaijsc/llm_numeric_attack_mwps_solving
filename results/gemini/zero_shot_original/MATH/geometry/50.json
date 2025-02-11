@@ -1,0 +1,23 @@
+{
+    "problem": "Compute $\\tan 330^\\circ$.",
+    "level": "Level 4",
+    "type": "Geometry",
+    "solution": "Let $P$ be the point on the unit circle that is $330^\\circ$ counterclockwise from $(1,0)$, and let $D$ be the foot of the altitude from $P$ to the $x$-axis, as shown below.\n\n[asy]\npair A,C,P,O,D;\ndraw((0,-1.2)--(0,1.2),p=black+1.2bp,Arrows(0.15cm));\ndraw((-1.2,0)--(1.2,0),p=black+1.2bp,Arrows(0.15cm));\nA = (1,0);\nO= (0,0);\nlabel(\"$x$\",(1.2,0),SE);\nlabel(\"$y$\",(0,1.2),NE);\n\nP = rotate(330)*A;\nD = foot(P,A,-A);\ndraw(O--P--D);\ndraw(rightanglemark(O,D,P,2));\ndraw(Circle(O,1));\nlabel(\"$O$\",O,NW);\nlabel(\"$P$\",P,SE);\n//label(\"$A$\",A,SE);\nlabel(\"$D$\",D,N);\n[/asy]\n\nTriangle $POD$ is a 30-60-90 triangle, so $DO = \\frac{\\sqrt{3}}{2}$ and $PD = \\frac{1}{2}$.  Therefore, the coordinates of $P$ are $\\left(\\frac{\\sqrt{3}}{2},-\\frac{1}{2}\\right)$, so $\\tan 330^\\circ = \\frac{\\sin330^\\circ}{\\cos 330^\\circ} = \\frac{-1/2}{\\sqrt{3}/2} = -\\frac{1}{\\sqrt{3}} = \\boxed{-\\frac{\\sqrt{3}}{3}}$.",
+    "prompt": "### Instruction: Compute $\\tan 330^\\circ$.\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "Here's how to compute  tan 330\u00b0 step-by-step:\n**1. Find the Reference Angle:**\n*  330\u00b0 is in the fourth quadrant. \n*  To find the reference angle, subtract 330\u00b0 from 360\u00b0: 360\u00b0 - 330\u00b0 = 30\u00b0\n**2. Determine the Quadrant:**\n*  330\u00b0 is in the fourth quadrant.\n**3. Consider the Sign:**\n*  In the fourth quadrant, tangent is negative.\n**4. Calculate the Tangent:**\n*  tan 30\u00b0 = 1/\u221a3 (You can find this from the 30-60-90 triangle)\n**5. Apply the Sign:**\n*  Since tangent is negative in the fourth quadrant: tan 330\u00b0 = -tan 30\u00b0 = **-1/\u221a3** \n**Therefore, tan 330\u00b0 = -1/\u221a3** \n",
+        "**1. Find the Reference Angle:**\n* The reference angle is the acute angle formed between the terminal side of the angle and the x-axis.\n* Since 330\u00b0 is in the fourth quadrant, we subtract it from 360\u00b0 to find the reference angle: 360\u00b0 - 330\u00b0 = 30\u00b0\n**2. Determine the Quadrant:**\n* 330\u00b0 is in the fourth quadrant.\n**3. Identify the Tangent's Sign in the Quadrant:**\n* Tangent is negative in the fourth quadrant.\n**4. Find the Tangent of the Reference Angle:**\n* tan 30\u00b0 = 1/\u221a3\n**5. Apply the Sign:**\n* Since tangent is negative in the fourth quadrant, tan 330\u00b0 = - tan 30\u00b0\n**Therefore, tan 330\u00b0 = -1/\u221a3** \n",
+        "Here's how to compute  tan 330\u00b0:\n**1. Find the Reference Angle:**\n*  330\u00b0 is in the fourth quadrant. \n*  To find the reference angle, subtract 330\u00b0 from 360\u00b0: 360\u00b0 - 330\u00b0 = 30\u00b0\n**2. Determine the Sign of Tangent in the Fourth Quadrant:**\n* Tangent is negative in the fourth quadrant.\n**3.  Calculate the Tangent of the Reference Angle:**\n* We know tan 30\u00b0 = 1/\u221a3\n**4. Apply the Sign:**\n* Since tangent is negative in the fourth quadrant,  tan 330\u00b0 = -tan 30\u00b0\n**Therefore, tan 330\u00b0 = -1/\u221a3** \n",
+        "Here's how to compute $\\tan 330^\\circ$:\n**1. Find the Reference Angle:**\n*  The reference angle is the acute angle formed between the terminal side of the angle and the x-axis. \n*  Since 330\u00b0 is in the fourth quadrant, we subtract it from 360\u00b0: 360\u00b0 - 330\u00b0 = 30\u00b0. \n**2. Determine the Quadrant:**\n* 330\u00b0 lies in the fourth quadrant.\n**3. Apply Tangent Rules:**\n* In the fourth quadrant, tangent is negative.\n**4. Calculate the Tangent:**\n*  We know that tan 30\u00b0 = 1/\u221a3.\n*  Since tangent is negative in the fourth quadrant,  tan 330\u00b0 = -tan 30\u00b0 = **-1/\u221a3**.\n**Therefore, tan 330\u00b0 = -1/\u221a3.** \n",
+        "1. **Find the reference angle:**  The reference angle for 330\u00b0 is 30\u00b0 because 360\u00b0 - 330\u00b0 = 30\u00b0.\n2. **Determine the quadrant:** 330\u00b0 lies in Quadrant IV, where tangent is negative.\n3. **Find the tangent of the reference angle:**  We know that tan 30\u00b0 = 1/\u221a3.\n4. **Apply the sign:** Since tangent is negative in Quadrant IV, tan 330\u00b0 = **-1/\u221a3**. \n"
+    ],
+    "pred_answers": "3",
+    "final_pred_answer": [
+        "3",
+        "3",
+        "3",
+        "3",
+        "3"
+    ],
+    "ground_truth": "3"
+}

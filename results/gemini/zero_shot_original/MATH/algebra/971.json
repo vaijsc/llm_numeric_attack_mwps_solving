@@ -1,0 +1,23 @@
+{
+    "problem": "Let $f(x) = x^2 - 4\\sqrt{x} + 1$. What is $f(f(4))$?",
+    "level": "Level 2",
+    "type": "Algebra",
+    "solution": "First, we evaluate $f(4)$: $$f(4) = 4^2 - 4\\sqrt{4} + 1 = 9.$$ Thus, $$f(f(4)) = f(9) = 9^2 - 4 \\sqrt{9} + 1 = \\boxed{70}.$$",
+    "prompt": "### Instruction: Let $f(x) = x^2 - 4\\sqrt{x} + 1$. What is $f(f(4))$?\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "Here's how to solve the problem step-by-step:\n**1. Find f(4):**\n* Substitute  *x* = 4 into the function:\n   *  f(4) = (4)^2 - 4\u221a(4) + 1\n   *  f(4) = 16 - 8 + 1\n   *  f(4) = 9\n**2. Find f(f(4)), which is f(9):**\n* Now, substitute *x* = 9 into the function:\n   *  f(9) = (9)^2 - 4\u221a(9) + 1\n   *  f(9) = 81 - 12 + 1\n   *  f(9) = 70\n**Therefore, f(f(4)) = 70** \n",
+        "Here's how to solve this problem step-by-step:\n**1. Find f(4):**\n* Substitute *x* = 4 into the function:\n   *  f(4) = (4)^2 - 4\u221a(4) + 1\n   *  f(4) = 16 - 8 + 1\n   *  f(4) = 9\n**2. Find f(f(4)), which is the same as f(9):**\n* Substitute *x* = 9 into the function:\n   *  f(9) = (9)^2 - 4\u221a(9) + 1\n   *  f(9) = 81 - 12 + 1\n   *  f(9) = 70\n**Therefore, f(f(4)) = 70** \n",
+        "Here's how to solve the problem step-by-step:\n**1. Find f(4):**\n* Substitute *x* = 4 into the function:\n   *  f(4) = (4)^2 - 4\u221a(4) + 1 \n   *  f(4) = 16 - 8 + 1 \n   *  f(4) = 9\n**2. Find f(f(4)), which is f(9):**\n* Now substitute *x* = 9 into the function:\n   * f(9) = (9)^2 - 4\u221a(9) + 1\n   * f(9) = 81 - 12 + 1\n   * f(9) = 70\n**Therefore, f(f(4)) = 70** \n",
+        "Here's how to solve the problem step-by-step:\n**1. Find f(4):**\n* Substitute *x* = 4 into the function:\n   *  f(4) = (4)^2 - 4\u221a(4) + 1\n   *  f(4) = 16 - 8 + 1\n   *  f(4) = 9\n**2. Find f(f(4)), which is f(9):**\n* Now, substitute *x* = 9 into the function:\n   * f(9) = (9)^2 - 4\u221a(9) + 1\n   * f(9) = 81 - 12 + 1\n   * f(9) = 70\n**Therefore, f(f(4)) = 70** \n",
+        "Here's how to solve the problem step-by-step:\n**1. Find f(4):**\n* Substitute *x* = 4 into the function:\n   *  f(4) = (4)^2 - 4\u221a(4) + 1 \n   *  f(4) = 16 - 8 + 1\n   *  f(4) = 9\n**2. Find f(f(4)) which is f(9):**\n* Substitute *x* = 9 into the function:\n   *  f(9) = (9)^2 - 4\u221a(9) + 1\n   *  f(9) = 81 - 12 + 1\n   *  f(9) = 70\n**Therefore, f(f(4)) = 70** \n"
+    ],
+    "pred_answers": "70",
+    "final_pred_answer": [
+        "70",
+        "70",
+        "70",
+        "70",
+        "70"
+    ],
+    "ground_truth": "70"
+}

@@ -1,0 +1,23 @@
+{
+    "problem": "Find $\\left \\lceil \\frac{\\left \\lfloor 52/3 \\right. \\rfloor}{5/23} \\right \\rceil$.",
+    "level": "Level 4",
+    "type": "Algebra",
+    "solution": "Since $17 = \\frac{51}{3} < \\frac {52}3 < \\frac {54}3 = 18$, the floor  of $52/3$ is $17$. The given quantity is thus equal to $$\\left \\lceil \\frac{17}{5/23} \\right \\rceil = \\left \\lceil \\frac{391}{5} \\right \\rceil = \\left \\lceil 78.2 \\right. \\rceil = \\boxed{79}.$$",
+    "prompt": "### Instruction: Find $\\left \\lceil \\frac{\\left \\lfloor 52/3 \\right. \\rfloor}{5/23} \\right \\rceil$.\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "Here's how to solve the problem step-by-step:\n1. **Calculate the floor of 52/3:**\n   * 52 divided by 3 is approximately 17.33.\n   * The floor function, denoted by  \u230a \u230b, gives the greatest integer less than or equal to the input. Therefore,  \u230a52/3\u230b = 17.\n2. **Calculate the division of the floor by 5/23:**\n   * 17 divided by 5/23 is the same as multiplying 17 by the reciprocal of 5/23, which is 23/5.\n   * (17) * (23/5) = 78.2\n3. **Calculate the ceiling of 78.2:**\n   * The ceiling function, denoted by \u2308 \u2309, gives the smallest integer greater than or equal to the input. Therefore, \u230878.2\u2309 = 79.\n**Therefore,  $\\left \\lceil \\frac{\\left \\lfloor 52/3 \\right. \\rfloor}{5/23} \\right \\rceil = 79$.** \n",
+        "Here's how to solve the problem step-by-step:\n1. **Innermost floor function:**  \n   *  $\\lfloor 52/3 \\rfloor$ means the greatest integer less than or equal to 52/3. \n   *  52/3 is approximately 17.33, so  $\\lfloor 52/3 \\rfloor = 17$.\n2. **Next, the division:**\n   * Now we have  $\\left \\lceil \\frac{17}{5/23} \\right \\rceil$.\n   * Dividing by a fraction is the same as multiplying by its reciprocal:  \n      * $\\frac{17}{5/23} = 17 \\cdot \\frac{23}{5} = \\frac{391}{5}$\n3. **Outermost ceiling function:**\n   * $\\left \\lceil \\frac{391}{5} \\right \\rceil$ means the smallest integer greater than or equal to 391/5.\n   * 391/5 is approximately 78.2, so $\\left \\lceil \\frac{391}{5} \\right \\rceil = 79$.\n**Therefore,  $\\left \\lceil \\frac{\\left \\lfloor 52/3 \\right. \\rfloor}{5/23} \\right \\rceil = 79$.** \n",
+        "Here's how to break down the problem step by step:\n**1. Innermost Floor Function:**\n*  \u230a52/3\u230b  means the greatest integer less than or equal to 52/3. \n*  52/3 is approximately 17.33, so \u230a52/3\u230b = 17.\n**2. Division:**\n* We now have 17 / (5/23).\n* Dividing by a fraction is the same as multiplying by its reciprocal: 17 * (23/5) = 391/5\n**3. Outermost Ceiling Function:**\n*  \u2308391/5\u2309 means the smallest integer greater than or equal to 391/5.\n* 391/5 is approximately 78.2, so \u2308391/5\u2309 = 79.\n**Therefore,  $\\left \\lceil \\frac{\\left \\lfloor 52/3 \\right. \\rfloor}{5/23} \\right \\rceil = \\boxed{79}$.** \n",
+        "Here's how to solve the problem step-by-step:\n1. **Innermost floor function:**  \n   *  $\\left \\lfloor 52/3 \\right \\rfloor$  means the greatest integer less than or equal to 52/3. Since 52/3 is approximately 17.33,  $\\left \\lfloor 52/3 \\right \\rfloor = 17$.\n2. **Division:**\n   * We now have  $\\left \\lceil \\frac{17}{5/23} \\right \\rceil$.  Dividing by a fraction is the same as multiplying by its reciprocal: $\\frac{17}{5/23} = 17 \\cdot \\frac{23}{5} = \\frac{391}{5}$.\n3. **Outermost ceiling function:**\n   *  $\\left \\lceil \\frac{391}{5} \\right \\rceil$ means the smallest integer greater than or equal to 391/5. Since 391/5 is approximately 78.2,  $\\left \\lceil \\frac{391}{5} \\right \\rceil = 79$.\n**Therefore,  $\\left \\lceil \\frac{\\left \\lfloor 52/3 \\right. \\rfloor}{5/23} \\right \\rceil = 79$.** \n",
+        "1. **Innermost floor:**  \u230a52/3\u230b = 17 (since 17 is the largest integer less than or equal to 52/3)\n2. **Division:** 17 / (5/23) = 17 * (23/5) = 78.2\n3. **Outermost ceiling:**  \u230878.2\u2309 = 79 (since 79 is the smallest integer greater than or equal to 78.2)\nTherefore,  $\\left \\lceil \\frac{\\left \\lfloor 52/3 \\right. \\rfloor}{5/23} \\right \\rceil = \\boxed{79}$. \n"
+    ],
+    "pred_answers": "79",
+    "final_pred_answer": [
+        "79",
+        "79",
+        "79",
+        "79",
+        "79"
+    ],
+    "ground_truth": "79"
+}

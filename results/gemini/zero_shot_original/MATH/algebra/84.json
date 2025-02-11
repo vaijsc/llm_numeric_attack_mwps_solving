@@ -1,0 +1,23 @@
+{
+    "problem": "If $a\\ast b = 2a+5b-ab$, what is the value of $3\\ast10$?",
+    "level": "Level 1",
+    "type": "Algebra",
+    "solution": "From the defined function, we know that $3\\ast 10 = 2(3)+5(10)-(3)(10) = 6+50-30=\\boxed{26}$.",
+    "prompt": "### Instruction: If $a\\ast b = 2a+5b-ab$, what is the value of $3\\ast10$?\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "Here's how to solve the problem step-by-step:\n1. **Identify 'a' and 'b':** In the expression $3 \\ast 10$, we have  $a = 3$ and $b = 10$.\n2. **Substitute the values into the formula:**  We're given the formula $a \\ast b = 2a + 5b - ab$.  Substitute the values of  $a$ and $b$:\n   \n   $3 \\ast 10 = (2 \\cdot 3) + (5 \\cdot 10) - (3 \\cdot 10)$\n3. **Simplify the expression:**  Calculate the products and then perform the addition and subtraction:\n   $3 \\ast 10 = 6 + 50 - 30$\n4. **Calculate the final result:**\n   $3 \\ast 10 = 26$\n**Therefore, the value of $3 \\ast 10$ is 26.** \n",
+        "1. **Identify 'a' and 'b':** In the expression 3 * 10,  a = 3 and b = 10.\n2. **Substitute values into the equation:**  \n   Replace 'a' with 3 and 'b' with 10 in the given equation:\n   3 * 10 = 2(3) + 5(10) - (3)(10)\n3. **Simplify:**\n   3 * 10 = 6 + 50 - 30\n4. **Calculate:**\n   3 * 10 = 26\n**Therefore, the value of 3 * 10 is 26.** \n",
+        "Here's how to solve the problem step-by-step:\n1. **Identify 'a' and 'b':**  In the expression $3 \\ast 10$, we have  $a = 3$ and $b = 10$.\n2. **Substitute the values into the equation:**\n   Replace 'a' with 3 and 'b' with 10 in the given equation:\n   $2a + 5b - ab = 2(3) + 5(10) - (3)(10)$\n3. **Simplify the expression:**\n   $6 + 50 - 30 = 26$\n**Therefore, the value of 3 * 10 is 26.** \n",
+        "Here's how to solve the problem step-by-step:\n1. **Identify the values:** We are given that *a* = 3 and *b* = 10.\n2. **Substitute the values:** Substitute these values into the equation: \n   3 * 10 = 2(3) + 5(10) - (3)(10)\n3. **Simplify:** \n   * 2(3) = 6\n   * 5(10) = 50\n   * (3)(10) = 30\n4. **Calculate:**\n   6 + 50 - 30 = 26\n**Therefore, the value of 3 * 10 is 26.** \n",
+        "Here's how to solve the problem step-by-step:\n1. **Identify 'a' and 'b':**  In the expression  $3 \\ast 10$, we have  $a = 3$ and $b = 10$.\n2. **Substitute into the formula:** Replace 'a' and 'b' in the formula  $a \\ast b = 2a + 5b - ab$ with their values: \n   \n   $3 \\ast 10 = (2 \\cdot 3) + (5 \\cdot 10) - (3 \\cdot 10)$\n3. **Simplify:** \n   \n   $3 \\ast 10 = 6 + 50 - 30$\n4. **Calculate the final value:**\n   \n   $3 \\ast 10 = 26$\n**Therefore, the value of $3 \\ast 10$ is 26.** \n"
+    ],
+    "pred_answers": "26",
+    "final_pred_answer": [
+        "26",
+        "26",
+        "26",
+        "26",
+        "26"
+    ],
+    "ground_truth": "26"
+}

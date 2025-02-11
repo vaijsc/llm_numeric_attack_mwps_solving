@@ -1,0 +1,23 @@
+{
+    "problem": "A chime clock strikes 1 chime at one o'clock, 2 chimes at two o'clock, 3 chimes at three o'clock, and so forth. What is the total number of chimes the clock will strike in a twelve-hour period?",
+    "level": "Level 1",
+    "type": "Algebra",
+    "solution": "We want to find the sum $1 + 2 + \\dots + 12$.  This sum is equal to the average of the first and last term, multiplied by the total number of terms, which is \\[\\frac{1 + 12}{2} \\cdot 12 = \\boxed{78}.\\]",
+    "prompt": "### Instruction: A chime clock strikes 1 chime at one o'clock, 2 chimes at two o'clock, 3 chimes at three o'clock, and so forth. What is the total number of chimes the clock will strike in a twelve-hour period?\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "Here's how to solve this problem step-by-step:\n**1. Identify the Pattern:**\nThe clock strikes a number of chimes equal to the hour. This forms an arithmetic sequence: 1, 2, 3, ... , 12.\n**2. Find the Sum of the Sequence:**\nThe sum of an arithmetic sequence is found using the formula:\nSum = (n/2) * (first term + last term)\nWhere:\n* n = number of terms\n* first term = 1\n* last term = 12\n**3. Apply the Formula:**\n* n = 12 (there are 12 hours)\n* Sum = (12/2) * (1 + 12)\n* Sum = 6 * 13\n* Sum = 78\n**Answer:** The clock will strike a total of **78** chimes in a twelve-hour period. \n",
+        "Here's how to solve this step-by-step:\n* **The pattern:** The clock strikes a number of chimes equal to the hour.\n* **The sequence:**  1 + 2 + 3 + 4 + 5 + 6 + 7 + 8 + 9 + 10 + 11 + 12\n* **The formula:** This is an arithmetic series.  The formula for the sum of an arithmetic series is:  S = (n/2) * (a + l), where:\n    * S = sum of the series\n    * n = number of terms\n    * a = first term\n    * l = last term\n* **Applying the formula:**\n    * n = 12 (hours)\n    * a = 1 (first chime)\n    * l = 12 (last chime)\n    * S = (12/2) * (1 + 12) = 6 * 13 = 78\n**Therefore, the clock will strike a total of 78 times in a twelve-hour period.** \n",
+        "Here's how to solve this step-by-step:\n* **1 o'clock:** 1 chime\n* **2 o'clock:** 2 chimes\n* **3 o'clock:** 3 chimes\n* ...\n* **12 o'clock:** 12 chimes\nThis is a simple arithmetic sequence.  To find the total number of chimes, we need to sum this sequence.  \n**Formula for the sum of an arithmetic series:**\nSum = (n/2) * (first term + last term)\nWhere:\n* n = number of terms \n* First term = 1\n* Last term = 12\n**Calculation:**\n* Sum = (12/2) * (1 + 12)\n* Sum = 6 * 13\n* Sum = 78\n**Answer:** The clock will strike a total of **78** chimes in a twelve-hour period. \n",
+        "Here's how to solve this problem step-by-step:\n**1. Recognize the Pattern:**\nThe number of chimes follows a simple pattern: 1, 2, 3, 4... 12.  This is an arithmetic sequence.\n**2. Calculate the Sum of an Arithmetic Sequence:**\nThe sum (S) of an arithmetic sequence is calculated using the formula:\nS = (n/2) * (a + l)\nWhere:\n* n = number of terms\n* a = first term\n* l = last term\n**3. Apply the Formula:**\n* n = 12 (There are 12 hours in a 12-hour period)\n* a = 1 (The clock strikes 1 chime at 1 o'clock)\n* l = 12 (The clock strikes 12 chimes at 12 o'clock)\nS = (12/2) * (1 + 12) \nS = 6 * 13\nS = 78\n**Therefore, the clock will strike a total of 78 chimes in a twelve-hour period.** \n",
+        "Here's how to solve this step-by-step:\n* **The pattern:** The clock strikes a number of chimes equal to the hour.  \n* **The sequence:**  1 + 2 + 3 + 4 + 5 + 6 + 7 + 8 + 9 + 10 + 11 + 12\n* **The formula:**  There's a handy formula to calculate the sum of consecutive numbers: (n * (n + 1)) / 2, where 'n' is the last number in the sequence.\n* **Applying the formula:** In this case, n = 12. So, (12 * (12 + 1)) / 2 = (12 * 13) / 2 = 78\n**Therefore, the clock will strike a total of 78 chimes in a twelve-hour period.** \n"
+    ],
+    "pred_answers": "78",
+    "final_pred_answer": [
+        "78",
+        "78",
+        "78",
+        "78",
+        "78"
+    ],
+    "ground_truth": "78"
+}

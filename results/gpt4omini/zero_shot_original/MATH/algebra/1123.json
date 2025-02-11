@@ -1,0 +1,23 @@
+{
+    "problem": "If $f(x)=5x^2+3x+4$, what is the value of $f(-2)$?",
+    "level": "Level 1",
+    "type": "Algebra",
+    "solution": "We have $f(-2) = 5(-2)^2 + 3(-2) + 4 = 5(4) -6 + 4 = \\boxed{18}$.",
+    "prompt": "### Instruction: If $f(x)=5x^2+3x+4$, what is the value of $f(-2)$?\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "To find the value of \\( f(-2) \\) for the function \\( f(x) = 5x^2 + 3x + 4 \\), we will substitute \\(-2\\) into the function.\n1. Start by substituting \\(-2\\) for \\(x\\):\n   \\[\n   f(-2) = 5(-2)^2 + 3(-2) + 4\n   \\]\n2. Calculate \\((-2)^2\\):\n   \\[\n   (-2)^2 = 4\n   \\]\n3. Multiply by 5:\n   \\[\n   5 \\times 4 = 20\n   \\]\n4. Now calculate \\(3(-2)\\):\n   \\[\n   3 \\times -2 = -6\n   \\]\n5. Add all the values together:\n   \\[\n   f(-2) = 20 - 6 + 4\n   \\]\n6. Simplify:\n   - First, \\(20 - 6 = 14\\)\n   - Then, \\(14 + 4 = 18\\)\nThe final value of \\( f(-2) \\) is:\n\\[\n\\boxed{18}\n\\]",
+        "To find the value of \\( f(-2) \\) for the function \\( f(x) = 5x^2 + 3x + 4 \\), we will substitute \\( -2 \\) for \\( x \\).\n1. Start with the function:\n   \\[\n   f(x) = 5x^2 + 3x + 4\n   \\]\n2. Substitute \\( x = -2 \\):\n   \\[\n   f(-2) = 5(-2)^2 + 3(-2) + 4\n   \\]\n3. Calculate \\( (-2)^2 \\):\n   \\[\n   (-2)^2 = 4\n   \\]\n4. Now substitute \\( 4 \\) back into the equation:\n   \\[\n   f(-2) = 5(4) + 3(-2) + 4\n   \\]\n5. Multiply \\( 5 \\) by \\( 4 \\):\n   \\[\n   5(4) = 20\n   \\]\n6. Multiply \\( 3 \\) by \\( -2 \\):\n   \\[\n   3(-2) = -6\n   \\]\n7. Substitute these values back into the equation:\n   \\[\n   f(-2) = 20 - 6 + 4\n   \\]\n8. Combine the terms:\n   \\[\n   20 - 6 = 14\n   \\]\n   \\[\n   14 + 4 = 18\n   \\]\nThus, the value of \\( f(-2) \\) is:\n\\[\n\\boxed{18}\n\\]",
+        "To find the value of \\( f(-2) \\) for the function \\( f(x) = 5x^2 + 3x + 4 \\), we will substitute \\( x = -2 \\) into the function.\n1. Start by substituting \\(-2\\) into the equation:\n   \\[\n   f(-2) = 5(-2)^2 + 3(-2) + 4\n   \\]\n2. Calculate \\((-2)^2\\):\n   \\[\n   (-2)^2 = 4\n   \\]\n3. Now multiply \\(5\\) by \\(4\\):\n   \\[\n   5 \\cdot 4 = 20\n   \\]\n4. Next, calculate \\(3 \\cdot (-2)\\):\n   \\[\n   3 \\cdot (-2) = -6\n   \\]\n5. Now substitute these results back into the equation:\n   \\[\n   f(-2) = 20 - 6 + 4\n   \\]\n6. Combine the numbers:\n   \\[\n   20 - 6 = 14\n   \\]\n   \\[\n   14 + 4 = 18\n   \\]\nTherefore, the value of \\( f(-2) \\) is \n\\[\n\\boxed{18}\n\\]",
+        "To find the value of \\( f(-2) \\) for the function \\( f(x) = 5x^2 + 3x + 4 \\), we will follow these steps:\n1. **Substitute \\(-2\\) for \\(x\\)** in the function \\(f(x)\\).\n2. The expression for \\(f(x)\\) is \\(5x^2 + 3x + 4\\). So we will calculate:\n   \\[\n   f(-2) = 5(-2)^2 + 3(-2) + 4\n   \\]\n3. **Calculate \\((-2)^2\\)**:\n   \\[\n   (-2)^2 = 4\n   \\]\n4. **Now substitute this back into the function**:\n   \\[\n   f(-2) = 5(4) + 3(-2) + 4\n   \\]\n5. **Calculate \\(5(4)\\)**:\n   \\[\n   5(4) = 20\n   \\]\n6. **Calculate \\(3(-2)\\)**:\n   \\[\n   3(-2) = -6\n   \\]\n7. **Now substitute these values back into the equation**:\n   \\[\n   f(-2) = 20 - 6 + 4\n   \\]\n8. **Perform the addition and subtraction**:\n   \\[\n   20 - 6 = 14\n   \\]\n   \\[\n   14 + 4 = 18\n   \\]\nThus, the value of \\( f(-2) \\) is \\(\\boxed{18}\\).",
+        "To find the value of \\( f(-2) \\) for the function \\( f(x) = 5x^2 + 3x + 4 \\), we will substitute \\( x = -2 \\) into the function.\n1. Start with the function:\n   \\[\n   f(x) = 5x^2 + 3x + 4\n   \\]\n2. Substitute \\( x = -2 \\):\n   \\[\n   f(-2) = 5(-2)^2 + 3(-2) + 4\n   \\]\n3. Calculate \\( (-2)^2 \\):\n   \\[\n   (-2)^2 = 4\n   \\]\n4. Now substitute back into the equation:\n   \\[\n   f(-2) = 5(4) + 3(-2) + 4\n   \\]\n5. Calculate \\( 5(4) \\):\n   \\[\n   5(4) = 20\n   \\]\n6. Calculate \\( 3(-2) \\):\n   \\[\n   3(-2) = -6\n   \\]\n7. Now put it all together:\n   \\[\n   f(-2) = 20 - 6 + 4\n   \\]\n8. Simplify the expression:\n   \\[\n   f(-2) = 20 - 6 = 14\n   \\]\n   \\[\n   f(-2) = 14 + 4 = 18\n   \\]\nThus, the value of \\( f(-2) \\) is \\( \\boxed{18} \\)."
+    ],
+    "pred_answers": "18",
+    "final_pred_answer": [
+        "18",
+        "18",
+        "18",
+        "18",
+        "18"
+    ],
+    "ground_truth": "18"
+}

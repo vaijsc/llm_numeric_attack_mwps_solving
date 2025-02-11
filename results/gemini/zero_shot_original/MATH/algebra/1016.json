@@ -1,0 +1,23 @@
+{
+    "problem": "What is the sum of the odd integers between 46 and 64?",
+    "level": "Level 2",
+    "type": "Algebra",
+    "solution": "The odd integers between 46 and 64 are 47, 49, $\\dots$, 63.  These integers form an arithmetic sequence with common difference 2, so the $n^{\\text{th}}$ term in this sequence is $47 + 2(n - 1) = 2n + 45$.\n\nIf $2n + 45 = 63$, then $n = 9$, so there are 9 such odd integers.  The sum of an arithmetic series is equal to the average of the first and last term, multiplied by the number of terms, so the sum is $(47 + 63)/2 \\cdot 9 = \\boxed{495}$.",
+    "prompt": "### Instruction: What is the sum of the odd integers between 46 and 64?\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "Here's how to find the sum of the odd integers between 46 and 64:\n**1. Identify the odd numbers:**\n* The odd numbers between 46 and 64 are: 47, 49, 51, 53, 55, 57, 59, 61, 63.\n**2. Calculate the sum:**\n* Add all the odd numbers together: 47 + 49 + 51 + 53 + 55 + 57 + 59 + 61 + 63 = **450**\n**Therefore, the sum of the odd integers between 46 and 64 is 450.** \n",
+        "Here's how to find the sum of the odd integers between 46 and 64:\n**1. Identify the Odd Integers:**\n* The odd integers between 46 and 64 are: 47, 49, 51, 53, 55, 57, 59, 61, 63.\n**2.  Calculate the Sum:**\n*  47 + 49 + 51 + 53 + 55 + 57 + 59 + 61 + 63 = **495**\n**Therefore, the sum of the odd integers between 46 and 64 is 495.** \n",
+        "Here's how to find the sum of the odd integers between 46 and 64:\n**1. Identify the odd integers:**\n* The first odd integer greater than 46 is 47.\n* The last odd integer less than 64 is 63.\n**2.  Recognize the pattern:**\n* The odd integers form an arithmetic sequence: 47, 49, 51, ..., 63.\n* The common difference is 2.\n**3.  Apply the arithmetic series formula:**\n* The sum (S) of an arithmetic series is: S = (n/2) * [2a + (n-1)d]\n   *  where:\n      * n = number of terms\n      * a = first term\n      * d = common difference\n**4. Calculate the number of terms (n):**\n*  We can use the formula: a + (n-1)d = l  (where l is the last term)\n*  Substitute the values: 47 + (n-1)2 = 63\n*  Simplify: 47 + 2n - 2 = 63\n*  Solve for n: 2n = 18  =>  n = 9\n**5. Apply the sum formula:**\n* S = (9/2) * [2(47) + (9-1)2]\n* S = (9/2) * [94 + 16]\n* S = (9/2) * 110\n* S = 495\n**Therefore, the sum of the odd integers between 46 and 64 is 495.** \n",
+        "Here's how to solve this problem step-by-step:\n1. **Identify the odd integers:** The odd integers between 46 and 64 are 47, 49, 51, 53, 55, 57, 59, and 61.\n2. **Sum the odd integers:**  47 + 49 + 51 + 53 + 55 + 57 + 59 + 61 = **382**\nTherefore, the sum of the odd integers between 46 and 64 is **382**. \n",
+        "Here's how to solve the problem:\n**1. Identify the odd integers:**\n* The odd integers between 46 and 64 are: 47, 49, 51, 53, 55, 57, 59, 61, 63\n**2. Use the formula for the sum of an arithmetic series:**\n* The sum of an arithmetic series is:  (n/2) * (a + l) \n    * Where:\n        * n = number of terms\n        * a = first term\n        * l = last term\n**3. Apply the formula:**\n* n = 9 (there are 9 odd integers)\n* a = 47\n* l = 63\n* Sum = (9/2) * (47 + 63) = 4.5 * 110 = 495\n**Therefore, the sum of the odd integers between 46 and 64 is 495.** \n"
+    ],
+    "pred_answers": "495",
+    "final_pred_answer": [
+        "450",
+        "495",
+        "495",
+        "382",
+        "495"
+    ],
+    "ground_truth": "495"
+}

@@ -1,0 +1,23 @@
+{
+    "problem": "What is the largest value of $x$ such that $(4x+11)(2x-8)=x(2x+7)$? Express your answer as a fraction.",
+    "level": "Level 4",
+    "type": "Algebra",
+    "solution": "We expand both sides: \\begin{align*}\n(4x+11)(2x-8)&= x(2x+7)\\\\\n8x^2-10x-88 &= 2x^2 + 7x\\\\\n6x^2-17x-88 &= 0\\\\\n(2x-11)(3x+8) &= 0\n\\end{align*}Therefore, the smaller of the two solutions is $x=-8/3$ and the larger is $x=\\boxed{\\frac{11}{2}}$",
+    "prompt": "### Instruction: What is the largest value of $x$ such that $(4x+11)(2x-8)=x(2x+7)$? Express your answer as a fraction.\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "Here's how to solve the problem step-by-step:\n1. **Expand both sides of the equation:**\n   *  $(4x+11)(2x-8) = 8x^2 - 19x - 88$\n   *  $x(2x+7) = 2x^2 + 7x$\n2. **Set the equations equal to each other and simplify:**\n   *  $8x^2 - 19x - 88 = 2x^2 + 7x$\n   *  $6x^2 - 26x - 88 = 0$\n3. **Divide both sides by 2 to simplify further:**\n   *  $3x^2 - 13x - 44 = 0$\n4. **Factor the quadratic equation:**\n   *  $(3x + 11)(x - 4) = 0$\n5. **Solve for x:**\n   *  $3x + 11 = 0$  or  $x - 4 = 0$\n   *  $x = -\\frac{11}{3}$  or  $x = 4$\n6. **Identify the larger value:**\n   *  The larger value of  $x$ is $\\boxed{4}$. \n",
+        "1. **Expand both sides of the equation:** \n   \n   The left side expands to: $(4x+11)(2x-8) = 8x^2 - 15x - 88$\n   \n   The right side expands to: $x(2x+7) = 2x^2 + 7x$\n2. **Set the equation to zero:**\n   Subtract $2x^2 + 7x$ from both sides to get: $6x^2 - 22x - 88 = 0$\n3. **Simplify the equation:**\n   Divide both sides by 2 to get: $3x^2 - 11x - 44 = 0$\n4. **Solve for x:**\n   We can solve this quadratic equation by factoring or using the quadratic formula. Let's use factoring:\n   * Find two numbers that multiply to give (3)(-44) = -132 and add up to -11.  These numbers are -22 and 6. \n   * Rewrite the middle term:  $3x^2 - 22x + 6x - 44 = 0$\n   * Factor by grouping: $x(3x-22) + 2(3x-22) = 0$\n   * Factor out the common term: $(3x-22)(x+2) = 0$\n   * Set each factor equal to zero and solve:\n      *  $3x - 22 = 0  \\Rightarrow x = \\frac{22}{3}$\n      *  $x + 2 = 0  \\Rightarrow x = -2$\n5. **Identify the largest value:**\n   The largest value of $x$ that satisfies the equation is $\\boxed{\\frac{22}{3}}$. \n",
+        "Here's how to solve the problem step-by-step:\n1. **Expand both sides:**\n   *  $(4x+11)(2x-8) = 8x^2 - 15x - 88$\n   *  $x(2x+7) = 2x^2 + 7x$\n2. **Set the expressions equal to each other:**\n   *  $8x^2 - 15x - 88 = 2x^2 + 7x$\n3. **Move all terms to one side:**\n   *  $6x^2 - 22x - 88 = 0$\n4. **Simplify by dividing by 2:**\n   *  $3x^2 - 11x - 44 = 0$\n5. **Factor the quadratic:**\n   *  $(3x + 11)(x - 4) = 0$\n6. **Solve for x:**\n   *  $3x + 11 = 0$  or  $x - 4 = 0$\n   *  $x = -\\frac{11}{3}$  or  $x = 4$\n7. **Identify the largest value:**\n   *  The largest value of $x$ is $\\boxed{4}$. \n",
+        "Here's how to solve the problem step-by-step:\n1. **Expand both sides of the equation:**\n   *  $(4x+11)(2x-8) = 8x^2 - 15x - 88$\n   *  $x(2x+7) = 2x^2 + 7x$\n2. **Set the equations equal to each other:**\n   *  $8x^2 - 15x - 88 = 2x^2 + 7x$\n3. **Simplify by moving all terms to one side:**\n   *  $6x^2 - 22x - 88 = 0$\n4. **Divide both sides by 2 to simplify the coefficients:**\n   *  $3x^2 - 11x - 44 = 0$\n5. **Factor the quadratic expression:**\n   *  $(3x + 11)(x - 4) = 0$\n6. **Solve for x:**\n   *  $3x + 11 = 0$  or  $x - 4 = 0$\n   *  $x = -\\frac{11}{3}$  or  $x = 4$\n7. **Identify the largest value:**\n   *  The largest value of *x* is **4**. \nTherefore, the largest value of *x* that satisfies the equation is **4**. \n",
+        "1. **Expand both sides:**\n   *  $(4x+11)(2x-8) = 8x^2 - 15x - 88$\n   *  $x(2x+7) = 2x^2 + 7x$\n2. **Set the equations equal:**\n   * $8x^2 - 15x - 88 = 2x^2 + 7x$\n3. **Simplify by moving all terms to one side:**\n   * $6x^2 - 22x - 88 = 0$\n4. **Divide by 2 to make the coefficients smaller:**\n   * $3x^2 - 11x - 44 = 0$\n5. **Factor the quadratic:**\n   * $(3x + 11)(x - 4) = 0$\n6. **Solve for x:**\n   * $3x + 11 = 0$  or  $x - 4 = 0$\n   * $x = -\\frac{11}{3}$ or $x = 4$\n7. **Identify the largest value:**\n   * The larger value is **x = 4**. \nTherefore, the largest value of x is $\\boxed{4}$. \n"
+    ],
+    "pred_answers": "4",
+    "final_pred_answer": [
+        "4",
+        "3",
+        "4",
+        "4",
+        "4"
+    ],
+    "ground_truth": "2"
+}

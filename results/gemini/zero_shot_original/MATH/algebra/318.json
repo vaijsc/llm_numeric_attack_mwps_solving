@@ -1,0 +1,23 @@
+{
+    "problem": "Find the sum of all solutions to this equation: $x^2 + 6^2 = 10^2$.",
+    "level": "Level 2",
+    "type": "Algebra",
+    "solution": "We rearrange the terms to see that $x^2 = 64$. It follows that $x = 8$ or $x = -8$, so the sum of all solutions is $\\boxed{0}$.\n\n- OR -\n\nThe equation should jump out as a 6-8-10 Pythagorean triple. Thus, $x = 8$ or $x = -8$, and the sum of all solutions is $\\boxed{0}$, as before.",
+    "prompt": "### Instruction: Find the sum of all solutions to this equation: $x^2 + 6^2 = 10^2$.\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "1. **Simplify the equation:**  The equation is already simplified, but we can make it easier to work with: \n   \n   $x^2 + 36 = 100$\n2. **Isolate the x\u00b2 term:** Subtract 36 from both sides:\n   $x^2 = 64$\n3. **Solve for x:** Take the square root of both sides (remembering both positive and negative solutions):\n   $x = \\pm 8$\n4. **Find the sum:** The solutions are 8 and -8. Their sum is:\n   $8 + (-8) = \\boxed{0}$ \n",
+        "1. **Simplify the equation:**  \n   The equation is already simplified: $x^2 + 36 = 100$\n2. **Isolate the x\u00b2 term:**\n   Subtract 36 from both sides:  $x^2 = 64$\n3. **Solve for x:**\n   Take the square root of both sides (remembering both positive and negative roots): $x = \\pm 8$\n4. **Find the sum of the solutions:**\n   The solutions are 8 and -8.  Their sum is $8 + (-8) = \\boxed{0}$. \n",
+        "1. **Simplify the equation:**\n   The equation simplifies to  $x^2 + 36 = 100$.\n2. **Isolate the x\u00b2 term:**\n   Subtract 36 from both sides:  $x^2 = 64$.\n3. **Solve for x:**\n   Take the square root of both sides:  $x = \\pm 8$.\n4. **Find the sum of the solutions:**\n   The two solutions are 8 and -8. Their sum is 8 + (-8) = **0**. \nTherefore, the sum of all solutions to the equation is **0**. \n",
+        "Here's how to solve the problem step-by-step:\n1. **Simplify the equation:**\n   -  The equation is already simplified:  x\u00b2 + 36 = 100\n2. **Isolate the x\u00b2 term:**\n   - Subtract 36 from both sides: x\u00b2 = 64\n3. **Solve for x:**\n   - Take the square root of both sides (remembering both positive and negative solutions): x = \u00b18\n4. **Find the sum of the solutions:**\n   - The solutions are 8 and -8. Their sum is 8 + (-8) = **0**\n**Therefore, the sum of all solutions to the equation x\u00b2 + 6\u00b2 = 10\u00b2 is 0.** \n",
+        "Here's how to solve the problem step-by-step:\n1. **Simplify the equation:**  \n   The equation is $x^2 + 6^2 = 10^2$.  Calculate the squares: $x^2 + 36 = 100$\n2. **Isolate x\u00b2:** \n   Subtract 36 from both sides: $x^2 = 64$\n3. **Solve for x:**\n   Take the square root of both sides: $x = \\pm 8$\n4. **Find the sum of the solutions:**\n   The solutions are $x = 8$ and $x = -8$. Their sum is $8 + (-8) = \\boxed{0}$. \n"
+    ],
+    "pred_answers": "0",
+    "final_pred_answer": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+    ],
+    "ground_truth": "0"
+}

@@ -1,0 +1,23 @@
+{
+    "problem": "If $3x=8y$ and $5y=15z$, what is the value of $\\frac{x}{z}$? Express your answer in simplest form.",
+    "level": "Level 3",
+    "type": "Algebra",
+    "solution": "Rewrite the given equations as $\\frac{x}{y}=\\frac{8}{3}$ and $\\frac{y}{z}=\\frac{15}{5}$.  Multiply these equations to find $\\frac{x}{z}=\\frac{8}{3}\\cdot\\frac{15}{5}=\\boxed{8}$.",
+    "prompt": "### Instruction: If $3x=8y$ and $5y=15z$, what is the value of $\\frac{x}{z}$? Express your answer in simplest form.\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "Here's how to solve the problem step-by-step:\n1. **Solve for a common variable:**  We want to get both equations in terms of the same variable so we can relate *x* and *z*. Let's solve both equations for *y*:\n   *  From the first equation,  $3x = 8y$, we get  $y = \\frac{3}{8}x$\n   *  From the second equation, $5y = 15z$, we get $y = 3z$\n2. **Set the expressions for *y* equal to each other:** Since both expressions equal *y*, they must be equal to each other:\n   * $\\frac{3}{8}x = 3z$\n3. **Solve for  *x/z*:**  Now we can isolate *x/z*:\n   * Multiply both sides by 8:  $3x = 24z$\n   * Divide both sides by 3z:  $\\frac{x}{z} = \\boxed{8}$ \n",
+        "Here's how to solve the problem step-by-step:\n**1. Solve for a common variable:**\n* We want to find a way to relate *x* and *z*. Notice that both equations involve *y*. Let's solve each equation for *y*:\n   * From the first equation,  $3x = 8y  \\Rightarrow y = \\frac{3}{8}x$\n   * From the second equation, $5y = 15z \\Rightarrow y = 3z$\n**2. Equate the expressions for *y*:**\n* Now we have two different expressions for *y*. Since they both represent the same value, we can set them equal to each other:\n   *  $\\frac{3}{8}x = 3z$\n**3. Solve for *x/z*:**\n* To isolate *x/z*, multiply both sides of the equation by 8/3:\n   *  $x = 8z$\n   *  $\\frac{x}{z} = \\boxed{8}$ \n",
+        "Here's how to solve the problem step-by-step:\n1. **Solve for y in terms of x:** \n   From the equation  $3x = 8y$, we can divide both sides by 8 to get: \n   $y = \\frac{3}{8}x$\n2. **Solve for y in terms of z:**\n   From the equation $5y = 15z$, we can divide both sides by 5 to get:\n   $y = 3z$\n3. **Equate the two expressions for y:**\n   Since we have two expressions for y, we can set them equal to each other:\n   $\\frac{3}{8}x = 3z$\n4. **Solve for x/z:**\n   To isolate  $x/z$, multiply both sides of the equation by $\\frac{8}{3}$:\n   $\\frac{x}{z} = \\boxed{8}$ \n",
+        "Here's how to solve the problem step-by-step:\n1. **Solve for a common variable:**  We want to express both equations in terms of the same variable.  Let's solve the first equation for *y*:\n   \n   *  $3x = 8y$ \n   *  $y = \\frac{3}{8}x$\n2. **Substitute:** Now substitute this value of *y* into the second equation:\n   *  $5 \\left(\\frac{3}{8}x \\right) = 15z$ \n3. **Simplify and solve for x/z:**\n   *  $\\frac{15}{8}x = 15z$\n   *  $x = 8z$\n   *  $\\frac{x}{z} = \\boxed{8}$ \n",
+        "Here's how to solve the problem step-by-step:\n1. **Solve for a common variable:**  We want to find a relationship between *x* and *z*. Notice that both equations have *y* in them. Let's solve both equations for *y*:\n   * From  $3x = 8y$, we get  $y = \\frac{3x}{8}$\n   * From $5y = 15z$, we get $y = \\frac{15z}{5} = 3z$\n2. **Set the expressions for *y* equal to each other:** Since both expressions equal *y*, we can set them equal:\n   * $\\frac{3x}{8} = 3z$\n3. **Solve for *x/z*:** Now we can solve for the ratio *x/z*:\n   * Multiply both sides by 8: $3x = 24z$\n   * Divide both sides by 3z: $\\frac{x}{z} = \\boxed{8}$ \n"
+    ],
+    "pred_answers": "8",
+    "final_pred_answer": [
+        "8",
+        "8",
+        "8",
+        "8",
+        "8"
+    ],
+    "ground_truth": "8"
+}

@@ -1,0 +1,23 @@
+{
+    "problem": "The solution to $-4 < 2(x - 1) < 8$ is expressed in the form $a < x < b$. Find the value of $a + b$.",
+    "level": "Level 2",
+    "type": "Algebra",
+    "solution": "Since everything in sight is even, we should begin by dividing by 2.  That gives \\[-2<x-1<4.\\] To isolate $x$, we add 1, so \\[-1<x<5.\\] Since $a=-1$ and $b=5$, we get $a+b=-1+5=\\boxed{4}$.",
+    "prompt": "### Instruction: The solution to $-4 < 2(x - 1) < 8$ is expressed in the form $a < x < b$. Find the value of $a + b$.\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "Here's how to solve the inequality and find the value of a + b:\n**1. Distribute:**\n   Start by distributing the 2 on the right side of the inequality:\n   \n   -4 < 2x - 2 < 8\n**2. Isolate x:**\n   * Add 2 to all parts of the inequality:\n      -2 < 2x < 10\n   * Divide all parts of the inequality by 2:\n      -1 < x < 5\n**3. Identify a and b:**\n   Now we see that the solution is in the form a < x < b, where:\n   * a = -1\n   * b = 5\n**4. Calculate a + b:**\n   a + b = -1 + 5 = 4\n**Therefore, the value of a + b is 4.** \n",
+        "Here's how to solve the inequality and find the value of  a + b:\n1. **Simplify the inequality:**\n   * Divide all parts of the inequality by 2: \n     -2 < x - 1 < 4\n2. **Isolate x:**\n   * Add 1 to all parts of the inequality:\n     -1 < x < 5\n3. **Identify a and b:**\n   *  We now have the inequality in the form  a < x < b:\n     * a = -1\n     * b = 5\n4. **Calculate a + b:**\n   * a + b = -1 + 5 = 4\n**Therefore, the value of a + b is 4.** \n",
+        "Here's how to solve the inequality and find the value of  a + b:\n1. **Distribute:** \n   - Start by distributing the 2 on the right side of the inequality:\n     -  -4 < 2x - 2 < 8\n2. **Isolate x:**\n   - Add 2 to all parts of the inequality:\n     - -2 < 2x < 10\n3. **Divide by 2:**\n   - Divide all parts of the inequality by 2:\n     - -1 < x < 5\n4. **Identify a and b:**\n   -  We now have the solution in the form  a < x < b.  Therefore:\n     -  a = -1\n     -  b = 5\n5. **Calculate a + b:**\n   - a + b = -1 + 5 = 4\n**Therefore, the value of a + b is 4.** \n",
+        "Here's how to solve the inequality and find the value of a + b:\n**1. Distribute:**\nBegin by distributing the 2 on the right side of the inequality:\n-4 < 2x - 2 < 8\n**2. Isolate x:**\n* **Left side:** Add 2 to all parts of the inequality:\n   -2 < 2x < 10\n* **Right side:** Divide all parts of the inequality by 2:\n   -1 < x < 5\n**3. Identify a and b:**\nNow the inequality is in the form a < x < b, where:\n* a = -1\n* b = 5\n**4. Calculate a + b:**\na + b = -1 + 5 = **4** \n**Therefore, the value of a + b is 4.** \n",
+        "Here's how to solve the inequality and find the value of a + b:\n1. **Distribute:** Start by distributing the 2 on the right side of the inequality: \n   -4 < 2x - 2 < 8\n2. **Isolate x:**  Add 2 to all parts of the inequality:\n   -2 < 2x < 10\n3. **Divide:** Divide all parts of the inequality by 2:\n   -1 < x < 5\n4. **Identify a and b:** Now the inequality is in the form a < x < b, where:\n   - a = -1\n   - b = 5\n5. **Calculate a + b:** \n   a + b = -1 + 5 = 4\n**Therefore, the value of a + b is 4.** \n"
+    ],
+    "pred_answers": "4",
+    "final_pred_answer": [
+        "4",
+        "4",
+        "4",
+        "4",
+        "4"
+    ],
+    "ground_truth": "4"
+}

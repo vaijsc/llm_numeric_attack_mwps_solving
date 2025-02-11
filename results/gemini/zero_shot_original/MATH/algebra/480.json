@@ -1,0 +1,23 @@
+{
+    "problem": "Given two real numbers $p>1$ and $q>1$ so that $\\frac{1}{p} + \\frac{1}{q} = 1$, what is the value of $(p-1)(q-1)$?",
+    "level": "Level 2",
+    "type": "Algebra",
+    "solution": "Multiplying both sides of the given equation by $p$, we see that $1+\\frac{p}{q} = p \\Rightarrow \\frac{p}{q} = p-1 \\Rightarrow p = q(p-1)$. But then $(p-1)(q-1) = q(p-1) - (p-1) = p -p +1 = \\boxed{1}$.",
+    "prompt": "### Instruction: Given two real numbers $p>1$ and $q>1$ so that $\\frac{1}{p} + \\frac{1}{q} = 1$, what is the value of $(p-1)(q-1)$?\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "Here's how to solve the problem step-by-step:\n1. **Simplify the given equation:**\n   Start with the given equation:  \n   ```\n   1/p + 1/q = 1 \n   ```\n   Multiply both sides by *pq* to get rid of the fractions:\n   ```\n   q + p = pq \n   ```\n2. **Rearrange to get the desired product:**\n   Subtract *pq* from both sides and add 1 to both sides:\n   ```\n   1 = pq - p - q + 1\n   ```\n   Notice the right side now factors nicely:\n   ```\n   1 = (p - 1)(q - 1)\n   ```\n3. **The answer:**\n   Therefore,  **(p - 1)(q - 1) = 1** \n",
+        "Here's how to solve the problem step-by-step:\n**1. Simplify the given equation:**\nStart with the equation  $\\frac{1}{p} + \\frac{1}{q} = 1$.  To combine the fractions, find a common denominator:\n*  $\\frac{q}{pq} + \\frac{p}{pq} = 1$\n*  $\\frac{p + q}{pq} = 1$\n**2. Solve for pq:**\nMultiply both sides of the equation by *pq*:\n*  $p + q = pq$\n**3. Manipulate the expression (p-1)(q-1):**\nExpand the expression:\n* $(p-1)(q-1) = pq - p - q + 1$\n**4. Substitute the value of pq:**\nSince we know that $pq = p + q$, we can substitute:\n* $(p-1)(q-1) = (p + q) - p - q + 1$\n**5. Simplify:**\nThe terms *p* and *q* cancel out:\n* $(p-1)(q-1) = \\boxed{1}$\n**Therefore, the value of (p-1)(q-1) is always 1, regardless of the specific values of p and q (as long as they satisfy the original condition).** \n",
+        "Here's how to solve the problem step-by-step:\n**1. Manipulate the given equation:**\n   Start with the equation: \n   ```\n   1/p + 1/q = 1 \n   ```\n   Multiply both sides by pq:\n   ```\n   q + p = pq\n   ```\n   Rearrange:\n   ```\n   pq - p - q = 0\n   ```\n**2. Factor by grouping:**\n   Add 1 to both sides to complete the factoring:\n   ```\n   pq - p - q + 1 = 1\n   ```\n   Now, factor by grouping:\n   ```\n   p(q-1) - 1(q-1) = 1\n   ```\n   This simplifies to:\n   ```\n   (p-1)(q-1) = 1\n   ```\n**Therefore, the value of (p-1)(q-1) is 1.** \n",
+        "Here's how to solve the problem step-by-step:\n1. **Simplify the given equation:**\n   Start with the given equation: \n   ```\n   1/p + 1/q = 1 \n   ```\n   To combine the fractions, find a common denominator:\n   ```\n   (q + p) / (pq) = 1\n   ```\n2. **Solve for pq:**\n   Multiply both sides by `pq`:\n   ```\n   q + p = pq\n   ```\n3. **Manipulate the expression:**\n   We want to find the value of `(p-1)(q-1)`.  Let's expand this expression:\n   ```\n   (p-1)(q-1) = pq - p - q + 1 \n   ```\n4. **Substitute:**\n   Notice that `pq - p - q` appears in our simplified equation from step 2. Substitute  `q + p` for `pq - p - q`:\n   ```\n   (p-1)(q-1) = (q + p) - p - q + 1\n   ```\n5. **Simplify:**\n   The `p` and `q` terms cancel out, leaving us with:\n   ```\n   (p-1)(q-1) = 1 \n   ```\n**Therefore, the value of (p-1)(q-1) is 1.** \n",
+        "Here's how to solve the problem step-by-step:\n**1. Simplify the given equation:**\n* Start with the given equation:  1/p + 1/q = 1 \n* Find a common denominator: (q + p) / (pq) = 1\n* Multiply both sides by pq: q + p = pq\n**2. Rearrange the equation:**\n* Subtract p and q from both sides: 0 = pq - p - q \n**3. Factor the right side:**\n* Notice that the right side can be factored by grouping: 0 = (p - 1)(q - 1)\n**4. Solve for (p-1)(q-1):**\n* Since we have 0 = (p - 1)(q - 1),  the only way this equation can be true is if either (p-1) or (q-1) equals zero. However, we are given that p > 1 and q > 1, so neither (p-1) nor (q-1) can be zero.\n**Therefore, the value of (p-1)(q-1) is **0**.** \n"
+    ],
+    "pred_answers": "1",
+    "final_pred_answer": [
+        "1",
+        "1",
+        "1",
+        "1",
+        "0"
+    ],
+    "ground_truth": "1"
+}

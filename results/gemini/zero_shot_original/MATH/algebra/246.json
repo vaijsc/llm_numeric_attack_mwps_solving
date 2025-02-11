@@ -1,0 +1,23 @@
+{
+    "problem": "Six construction workers that work at the same rate can build a house in 1.5 days.  How long does it take 15 construction workers, working at the same rate, to finish building a house?  Express your answer as a fraction in lowest terms.",
+    "level": "Level 3",
+    "type": "Algebra",
+    "solution": "The number of workers is inversely proportional to the amount of time it takes to build a house.  Thus $$\\text{number of workers} \\times \\text{time} = \\text{constant}.$$Using this, we have that $6 \\cdot 1.5 = 15 \\cdot t \\Rightarrow t = .6$.  As a fraction in lowest terms this is $\\boxed{\\frac{3}{5}}$.",
+    "prompt": "### Instruction: Six construction workers that work at the same rate can build a house in 1.5 days.  How long does it take 15 construction workers, working at the same rate, to finish building a house?  Express your answer as a fraction in lowest terms.\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "Here's how to solve this problem:\n**Understanding the Relationship**\n* **Workers and Time:** The number of workers and the time it takes to build a house are inversely proportional.  This means that if you increase the number of workers, the time it takes to build the house decreases.\n**Calculations**\n1. **Find the total work:**  If 6 workers take 1.5 days, they complete 6 * 1.5 = 9 units of work.\n2. **Divide the work by the new number of workers:**  With 15 workers, the time to complete the 9 units of work is 9 / 15 = 3/5 days.\n**Answer:** It takes **3/5** of a day for 15 workers to build the house. \n",
+        "Here's how to solve this problem:\n**Understanding the Relationship**\n* **Workers and Time:** The number of workers and the time it takes to build a house are inversely proportional. This means that if you increase the number of workers, the time it takes will decrease.\n**Calculations**\n1. **Find the total work units:**  If 6 workers take 1.5 days, they complete 6 * 1.5 = 9 units of work.\n2. **Divide the work units by the new number of workers:** With 15 workers, the time to complete the same 9 units of work is 9 / 15 = 3/5 days.\n**Answer:** It takes **3/5** of a day for 15 workers to build the house. \n",
+        "Here's how to solve this problem:\n**1.  Understand the relationship:**\n* **Workers and Time:** The number of workers and the time it takes to build a house are inversely proportional. This means that if you increase the number of workers, the time it takes to build the house decreases.\n**2. Set up a proportion:**\nLet  'x' be the time it takes 15 workers to build the house.  We can set up a proportion:\n(6 workers) / (1.5 days) = (15 workers) / (x days)\n**3. Solve for x:**\n* Cross-multiply: 6 * x = 1.5 * 15\n* Simplify: 6x = 22.5\n* Divide both sides by 6: x = 22.5 / 6\n* Simplify the fraction: x = 15/4\n**Answer:** It takes **15/4 days** for 15 construction workers to build a house. \n",
+        "Here's how to solve the problem step-by-step:\n**1.  Calculate the total work:**\n* Six workers take 1.5 days to build a house.  \n* This means they complete 1/1.5 = 2/3 of the house per day.\n* Since they work for 1.5 days, they complete a total of (2/3) * 1.5 = 1 house.\n**2.  Calculate the work rate per worker:**\n* Six workers complete 1 house in 1.5 days.\n* Therefore, each worker completes 1/6 of the house in 1.5 days.\n**3.  Calculate the time for 15 workers:**\n*  If 1 worker completes 1/6 of the house in 1.5 days, then 15 workers would complete 15 * (1/6) = 5/2 houses in 1.5 days.\n* To complete 1 house, they would take (1.5 days) / (5/2) = **3/5 days**.\n**Answer:** It takes 15 construction workers **3/5 days** to build a house. \n",
+        "Here's how to solve the problem step-by-step:\n**1. Find the work rate of one worker:**\n* If 6 workers build a house in 1.5 days, they complete 1/1.5 = 2/3 of the house per day.\n* Since they work at the same rate, one worker completes (2/3) / 6 = 1/9 of the house per day.\n**2. Calculate the time for 15 workers:**\n* With 15 workers, their combined work rate is 15 * (1/9) = 5/3 of the house per day.\n* To find the time it takes to build the entire house, divide the total work (1 house) by their combined work rate: 1 / (5/3) = 3/5 days.\n**Answer:** It takes **3/5** of a day for 15 workers to build the house. \n"
+    ],
+    "pred_answers": "3",
+    "final_pred_answer": [
+        "3",
+        "3",
+        "15",
+        "15",
+        "3"
+    ],
+    "ground_truth": "5"
+}

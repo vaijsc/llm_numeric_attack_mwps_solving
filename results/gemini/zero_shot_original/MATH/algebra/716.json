@@ -1,0 +1,23 @@
+{
+    "problem": "Evaluate $\\left(\\frac{i}{4}\\right)^4$.",
+    "level": "Level 3",
+    "type": "Algebra",
+    "solution": "$(i/4)^4 = (i^4)/(4^4) = (1)/256 = \\boxed{\\frac{1}{256}}$",
+    "prompt": "### Instruction: Evaluate $\\left(\\frac{i}{4}\\right)^4$.\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "Here's how to evaluate the expression step by step:\n**1. Simplify the fraction:**\nSince the fraction is raised to the fourth power, we can simplify it first:\n  *  (i/4)^4 = (i^4) / (4^4)\n**2. Evaluate the powers:**\n*  i^4 = (i^2)^2 = (-1)^2 = 1  (Recall that i^2 = -1)\n*  4^4 = 256\n**3. Combine the results:**\n*  (i^4) / (4^4) = 1 / 256\n**Therefore, (i/4)^4 = 1/256** \n",
+        "Here's how to evaluate  $\\left(\\frac{i}{4}\\right)^4$:\n**Step 1:  Simplify the exponent**\nRemember that $(a/b)^n = a^n/b^n$.  So:\n  \n$\\left(\\frac{i}{4}\\right)^4 = \\frac{i^4}{4^4}$ \n**Step 2: Evaluate the powers**\n* $i^4 = (i^2)^2 = (-1)^2 = 1$ \n* $4^4 = 256$\n**Step 3: Combine the results**\n  \n$\\frac{i^4}{4^4} = \\frac{1}{256}$ \n**Therefore, $\\left(\\frac{i}{4}\\right)^4 = \\boxed{\\frac{1}{256}}$.** \n",
+        "Here's how to evaluate the expression step-by-step:\n**1. Simplify the fraction:**\n*  Since we're raising a fraction to a power, we can raise both the numerator and the denominator to that power:  \n   \n   (i/4)\u2074 = (i\u2074) / (4\u2074)\n**2. Evaluate the numerator:**\n*  We know that *i* is the imaginary unit, where *i\u00b2 = -1*.  Therefore: \n   \n   i\u2074 = (i\u00b2)\u00b2 = (-1)\u00b2 = 1\n**3. Evaluate the denominator:**\n*  4\u2074 = 4 * 4 * 4 * 4 = 256\n**4. Combine the results:**\n*  (i\u2074) / (4\u2074) = 1 / 256\n**Therefore, (i/4)\u2074 = 1/256** \n",
+        "Here's how to evaluate  $\\left(\\frac{i}{4}\\right)^4$:\n**Step 1:  Simplify the exponent**\n*  Remember that raising a fraction to a power means raising both the numerator and denominator to that power: \n   \n   $\\left(\\frac{i}{4}\\right)^4 = \\frac{i^4}{4^4}$\n**Step 2:  Evaluate  i<sup>4</sup>**\n*  We know that  i<sup>2</sup> = -1.\n*  Therefore, i<sup>4</sup> = (i<sup>2</sup>)<sup>2</sup> = (-1)<sup>2</sup> = 1\n**Step 3:  Evaluate 4<sup>4</sup>**\n*  4<sup>4</sup> = 4 * 4 * 4 * 4 = 256\n**Step 4:  Combine the results**\n*  $\\frac{i^4}{4^4} = \\frac{1}{256}$\n**Therefore,  $\\left(\\frac{i}{4}\\right)^4 = \\frac{1}{256}$** \n",
+        "Here's how to evaluate the expression step-by-step:\n**1. Simplify the exponent:**\n*  We have (i/4) raised to the power of 4.  This means we multiply (i/4) by itself four times: \n   (i/4) * (i/4) * (i/4) * (i/4)\n**2.  Simplify the multiplication:**\n*  Multiply the numerators: i * i * i * i = i\u2074\n*  Multiply the denominators: 4 * 4 * 4 * 4 = 256\n**3.  Recall the properties of 'i':**\n*  'i' is the imaginary unit, defined as the square root of -1 (i\u00b2 = -1). \n*  Therefore, i\u2074 = (i\u00b2)\u00b2 = (-1)\u00b2 = 1\n**4.  Combine the results:**\n*  We have (i\u2074 / 256) = (1 / 256)\n**Therefore,  (i/4)\u2074 = 1/256** \n"
+    ],
+    "pred_answers": "256",
+    "final_pred_answer": [
+        "256",
+        "256",
+        "256",
+        "256",
+        "256"
+    ],
+    "ground_truth": "256"
+}

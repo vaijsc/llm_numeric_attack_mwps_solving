@@ -1,0 +1,23 @@
+{
+    "problem": "Suppose $p$ and $q$ are inversely proportional. If $p=28$ when $q=7$, find the value of $p$ when $q=49$.",
+    "level": "Level 2",
+    "type": "Algebra",
+    "solution": "If $p$ and $q$ are inversely proportional, then $p\\cdot{q}=k$ (where $k$ is a constant). We know that $p=28$ when $q=7$, so $(28)(7)=k$ or $k=196$. Thus when $q=49$, $(p)(49)=196$ and $p=\\boxed{4}$.",
+    "prompt": "### Instruction: Suppose $p$ and $q$ are inversely proportional. If $p=28$ when $q=7$, find the value of $p$ when $q=49$.\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "Here's how to solve the problem step-by-step:\n**1. Understand Inverse Proportionality:**\nInverse proportionality means that as one quantity increases, the other decreases at a rate that keeps their product constant.  Mathematically, this is represented as:\n*  *p* *q* = *k*  (where *k* is a constant)\n**2. Find the Constant of Proportionality (k):**\n* We know *p* = 28 when *q* = 7. Substitute these values into the equation:\n   * 28 * 7 = *k*\n   * *k* = 196\n**3. Find p when q = 49:**\n* Now we know *k* = 196.  Substitute *q* = 49 into the equation and solve for *p*:\n   * *p* * 49 = 196\n   * *p* = 196 / 49\n   * *p* = 4\n**Therefore, the value of p when q = 49 is 4.** \n",
+        "Here's how to solve the problem step-by-step:\n**1. Understand Inverse Proportionality**\nInverse proportionality means that as one quantity increases, the other decreases at a rate that keeps their product constant.  This can be represented mathematically as:\n*  p * q = k  (where k is a constant)\n**2. Find the Constant (k)**\n* We know p = 28 when q = 7. Substitute these values into the equation:\n   * 28 * 7 = k\n   * k = 196\n**3. Find p When q = 49**\n* Now we know k = 196.  Substitute this value and q = 49 into the equation:\n   * p * 49 = 196\n   * p = 196 / 49\n   * p = 4\n**Therefore, when q = 49, the value of p is 4.** \n",
+        "Here's how to solve the problem step-by-step:\n**1. Understand Inverse Proportionality**\nInverse proportionality means that as one quantity increases, the other decreases proportionally.  This relationship can be expressed mathematically as:\n*  p * q = k (where k is a constant)\n**2. Find the Constant of Proportionality (k)**\n* We know that p = 28 when q = 7.  Let's plug these values into the equation:\n   * 28 * 7 = k\n   * k = 196\n**3. Find the Value of p when q = 49**\n* Now we know k = 196.  We want to find p when q = 49.  Let's use the equation again:\n   * p * 49 = 196\n   * p = 196 / 49\n   * p = 4\n**Therefore, the value of p when q = 49 is 4.** \n",
+        "Here's how to solve the problem step-by-step:\n**1. Understand Inverse Proportionality**\nInverse proportionality means that as one quantity increases, the other decreases proportionally. Mathematically, this is represented by the equation:\n*  p * q = k  (where k is a constant)\n**2. Find the Constant (k)**\n* We know that p = 28 when q = 7.  Substitute these values into the equation:\n   28 * 7 = k\n   k = 196\n**3. Determine the Value of p when q = 49**\n* Now we know k = 196.  Let's find p when q = 49.  Substitute these values into the equation:\n   p * 49 = 196\n   p = 196 / 49\n   p = 4\n**Therefore, the value of p when q = 49 is 4.** \n",
+        "Here's how to solve the problem step-by-step:\n**1. Understand Inverse Proportionality**\nInverse proportionality means that as one quantity increases, the other decreases proportionally.  This can be represented by the equation:\n*  p * q = k (where k is a constant)\n**2. Find the Constant of Proportionality (k)**\n* We know p = 28 when q = 7.  Substitute these values into the equation:\n   * 28 * 7 = k\n   * k = 196\n**3. Solve for p when q = 49**\n* Now we know k = 196, and we want to find p when q = 49.  Plug these values back into the equation:\n   * p * 49 = 196\n   * p = 196 / 49\n   * p = 4\n**Answer:** The value of p when q = 49 is **4**. \n"
+    ],
+    "pred_answers": "4",
+    "final_pred_answer": [
+        "4",
+        "4",
+        "4",
+        "4",
+        "49"
+    ],
+    "ground_truth": "4"
+}

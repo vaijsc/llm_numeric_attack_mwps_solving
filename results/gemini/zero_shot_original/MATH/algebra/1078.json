@@ -1,0 +1,23 @@
+{
+    "problem": "Evaluate $\\left\\lfloor\\frac{36}{7}\\right\\rfloor$.",
+    "level": "Level 3",
+    "type": "Algebra",
+    "solution": "$\\left\\lfloor\\frac{36}{7}\\right\\rfloor=\\left\\lfloor 5 \\frac{1}{7} \\right\\rfloor=\\boxed{5}.$",
+    "prompt": "### Instruction: Evaluate $\\left\\lfloor\\frac{36}{7}\\right\\rfloor$.\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "Here's how to evaluate the expression step-by-step:\n* **Understanding the notation:** The symbol $\\lfloor x \\rfloor$ represents the **floor function**. This function takes a real number *x* and rounds it *down* to the nearest integer.\n* **Calculate the division:**  36 divided by 7 is approximately 5.14.\n* **Round down:** Since 5.14 is between 5 and 6, rounding down to the nearest integer gives us 5.\n**Therefore,  $\\left\\lfloor\\frac{36}{7}\\right\\rfloor = 5$.** \n",
+        "The notation $\\lfloor x \\rfloor$ represents the **floor function**, which gives the greatest integer less than or equal to *x*.\n1. **Divide:**  36 divided by 7 is approximately 5.14.\n2. **Find the greatest integer less than or equal to 5.14:**  This is **5**.\nTherefore, $\\left\\lfloor\\frac{36}{7}\\right\\rfloor = \\boxed{5}$. \n",
+        "Here's how to evaluate the expression:\n* **Understanding the Floor Function:** The floor function, denoted by  $\\lfloor x \\rfloor$, gives the greatest integer less than or equal to  *x*. \n* **Calculate the Division:**  36 divided by 7 is approximately 5.14.\n* **Find the Greatest Integer:** The greatest integer less than or equal to 5.14 is **5**.\n**Therefore,  $\\left\\lfloor\\frac{36}{7}\\right\\rfloor = 5$.** \n",
+        "**Step 1: Understand the notation**\n*  The symbol $\\lfloor x \\rfloor$ represents the **floor function**.  The floor function of a number *x* gives the greatest integer less than or equal to *x*.\n**Step 2:  Calculate the division**\n*  36 divided by 7 is approximately 5.14.\n**Step 3: Find the greatest integer less than or equal to the result**\n* The greatest integer less than or equal to 5.14 is **5**.\n**Therefore, $\\left\\lfloor\\frac{36}{7}\\right\\rfloor = 5$.** \n",
+        "**Step 1:  Divide 36 by 7**\n36 divided by 7 is approximately 5.14.\n**Step 2: Understand the Floor Function**\nThe floor function, denoted by  $\\lfloor x \\rfloor$, gives the greatest integer less than or equal to *x*. \n**Step 3: Apply the Floor Function**\nSince 5.14 is between 5 and 6, the greatest integer less than or equal to 5.14 is 5.\n**Therefore, $\\left\\lfloor\\frac{36}{7}\\right\\rfloor = 5$.** \n"
+    ],
+    "pred_answers": "5",
+    "final_pred_answer": [
+        "5",
+        "5",
+        "5",
+        "5",
+        "5"
+    ],
+    "ground_truth": "5"
+}

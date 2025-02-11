@@ -1,0 +1,23 @@
+{
+    "problem": "If $f (x) = 2x + 1$ and $g (x) =-3$, what is the value of $f(g(x))$?",
+    "level": "Level 1",
+    "type": "Algebra",
+    "solution": "$f(g(x)) = f(-3) = 2(-3) + 1 = \\boxed{-5}$.",
+    "prompt": "### Instruction: If $f (x) = 2x + 1$ and $g (x) =-3$, what is the value of $f(g(x))$?\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "Here's how to solve this step by step:\n**1. Understand the notation:**\n*  *f(g(x))* means we're composing the functions. We'll first evaluate the inner function *g(x)*, and then use that result as the input for the outer function *f(x)*.\n**2. Evaluate g(x):**\n* We're given *g(x) = -3*.  This means no matter what the input *x* is, the output of *g(x)* will always be -3.\n**3. Substitute the result into f(x):**\n* Now we know *g(x) = -3*.  So, we need to find *f(-3)*.\n* Substitute -3 into the function *f(x) = 2x + 1*:\n   * f(-3) = 2(-3) + 1 \n   * f(-3) = -6 + 1\n   * f(-3) = -5\n**Therefore, the value of f(g(x)) is -5.** \n",
+        "Here's how to solve this step-by-step:\n**1. Understand the Composition:**\nThe notation  *f(g(x))* means we're plugging the entire function *g(x)* into the *x* of the function *f(x)*. \n**2. Substitute g(x):**\nSince *g(x) = -3*, we replace *x* in *f(x)* with -3:\n*f(g(x)) = f(-3)*\n**3. Evaluate f(-3):**\nNow we substitute -3 into the function *f(x) = 2x + 1*:\n*f(-3) = 2(-3) + 1*\n**4. Simplify:**\n*f(-3) = -6 + 1*\n*f(-3) = -5*\n**Therefore, the value of f(g(x)) is -5.** \n",
+        "Here's how to solve this step-by-step:\n1. **Understand composite functions:**  The notation  \"f(g(x))\" means we're plugging the entire function g(x) into the function f(x).\n2. **Substitute g(x):**  Since g(x) = -3, we replace every \"x\" in f(x) with -3.\n3. **Evaluate f(g(x)):** \n   * f(g(x)) = f(-3)\n   * f(-3) = 2(-3) + 1\n   * f(-3) = -6 + 1\n   * f(-3) = -5\n**Therefore, the value of f(g(x)) is -5.** \n",
+        "Here's how to solve this problem step-by-step:\n1. **Understand composition of functions:**  The notation  *f(g(x))*  means we're plugging the entire function *g(x)* into the function *f(x)*.\n2. **Substitute g(x) into f(x):**  Since *g(x) = -3*, we substitute -3 wherever we see *x* in the function *f(x)*:\n   *f(g(x)) = f(-3) = 2(-3) + 1*\n3. **Simplify:**\n   *f(-3) = -6 + 1 = -5*\n**Therefore, the value of f(g(x)) is -5.** \n",
+        "Here's how to solve this step-by-step:\n1. **Understand the concept of composite functions:**  The notation  *f(g(x))* means we're plugging the entire function *g(x)* into the function *f(x)*.\n2. **Find g(x):** We're given that *g(x) = -3*. This means *g(x)* always outputs the value -3, regardless of the input *x*.\n3. **Substitute g(x) into f(x):** Now, we replace *x* in the function *f(x) = 2x + 1* with the value *g(x) = -3*:\n   *f(g(x)) = f(-3) = 2(-3) + 1*\n4. **Simplify:**\n   *f(-3) = -6 + 1 = -5*\n**Therefore, the value of f(g(x)) is -5.** \n"
+    ],
+    "pred_answers": "-5",
+    "final_pred_answer": [
+        "-5",
+        "-5",
+        "-5",
+        "-5",
+        "-5"
+    ],
+    "ground_truth": "-5"
+}

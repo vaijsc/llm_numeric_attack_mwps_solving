@@ -1,0 +1,23 @@
+{
+    "problem": "The arithmetic mean (or average) of $A$, $B$ and $C$ is 10. The value of $A$ is six less than the value of $B$, and the value of $C$ is three more than the value of $B$. What is the value of $C$?",
+    "level": "Level 3",
+    "type": "Algebra",
+    "solution": "We know that $\\frac{A+B+C}{3} = 10$, thus, $A+B+C = 30$.  We also know that $B = C - 3$, and that $A = B - 6 = C - 9$.  Thus, $(C - 9) + (C - 3) + C = 30$, thus, $3C = 42 \\rightarrow C = \\boxed{14}$.",
+    "prompt": "### Instruction: The arithmetic mean (or average) of $A$, $B$ and $C$ is 10. The value of $A$ is six less than the value of $B$, and the value of $C$ is three more than the value of $B$. What is the value of $C$?\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "Here's how to solve the problem step-by-step:\n**1. Set up equations based on the given information:**\n* **Arithmetic Mean:** (A + B + C) / 3 = 10 \n* **Relationship between A and B:** A = B - 6\n* **Relationship between C and B:** C = B + 3\n**2. Substitute the values of A and C into the arithmetic mean equation:**\n* [(B - 6) + B + (B + 3)] / 3 = 10\n**3. Simplify the equation:**\n* (3B - 3) / 3 = 10\n* B - 1 = 10\n**4. Solve for B:**\n* B = 11\n**5. Substitute the value of B back into the equation for C:**\n* C = B + 3\n* C = 11 + 3\n* C = 14\n**Therefore, the value of C is 14.** \n",
+        "Here's how to solve this problem step by step:\n**1. Set up equations based on the given information:**\n* **Average:** (A + B + C) / 3 = 10\n* **A in terms of B:** A = B - 6\n* **C in terms of B:** C = B + 3\n**2. Substitute the values of A and C into the average equation:**\n* [(B - 6) + B + (B + 3)] / 3 = 10\n**3. Simplify the equation:**\n* (3B - 3) / 3 = 10\n* B - 1 = 10\n**4. Solve for B:**\n* B = 11\n**5. Substitute the value of B back into the equation for C:**\n* C = B + 3\n* C = 11 + 3\n* C = 14\n**Therefore, the value of C is 14.** \n",
+        "Here's how to solve the problem step-by-step:\n**1. Set up equations based on the given information:**\n* **Average:** (A + B + C) / 3 = 10\n* **A in terms of B:** A = B - 6\n* **C in terms of B:** C = B + 3\n**2. Substitute the expressions for A and C into the average equation:**\n* ((B - 6) + B + (B + 3)) / 3 = 10\n**3. Simplify the equation:**\n* (3B - 3) / 3 = 10\n* B - 1 = 10\n**4. Solve for B:**\n* B = 11\n**5. Find the value of C:**\n* C = B + 3\n* C = 11 + 3\n* C = 14\n**Therefore, the value of C is 14.** \n",
+        "Here's how to solve the problem step-by-step:\n**1. Set up equations based on the given information:**\n* **Arithmetic mean:** (A + B + C) / 3 = 10\n* **Relationship between A and B:** A = B - 6\n* **Relationship between B and C:** C = B + 3\n**2. Substitute to eliminate variables:**\n*  Since we want to find C, let's substitute the expressions for A and C in terms of B into the mean equation:\n   [(B - 6) + B + (B + 3)] / 3 = 10\n**3. Simplify and solve for B:**\n* Combine like terms: (3B - 3) / 3 = 10\n* Multiply both sides by 3: 3B - 3 = 30\n* Add 3 to both sides: 3B = 33\n* Divide both sides by 3: B = 11\n**4. Find C:**\n* Now that we know B = 11, substitute it into the equation for C: \n* C = B + 3 = 11 + 3 = 14\n**Therefore, the value of C is 14.** \n",
+        "Here's how to solve the problem step-by-step:\n**1. Set up equations based on the given information:**\n* **Arithmetic mean:** (A + B + C) / 3 = 10\n* **Relationship between A and B:** A = B - 6\n* **Relationship between B and C:** C = B + 3\n**2. Substitute to eliminate variables:**\n* Since we want to find the value of C, let's try to express everything in terms of B.\n* **Substitute A in the mean equation:**  ((B - 6) + B + C) / 3 = 10\n* **Substitute C in the mean equation:** ((B - 6) + B + (B + 3)) / 3 = 10\n**3. Simplify and solve for B:**\n* (3B - 3) / 3 = 10\n* 3B - 3 = 30\n* 3B = 33\n* B = 11\n**4. Find the value of C:**\n* C = B + 3\n* C = 11 + 3\n* C = 14\n**Therefore, the value of C is 14.** \n"
+    ],
+    "pred_answers": "14",
+    "final_pred_answer": [
+        "14",
+        "14",
+        "14",
+        "14",
+        "14"
+    ],
+    "ground_truth": "14"
+}

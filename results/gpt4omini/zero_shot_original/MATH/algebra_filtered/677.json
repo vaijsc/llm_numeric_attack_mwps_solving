@@ -1,0 +1,23 @@
+{
+    "problem": "If $(x + y)^2 = 105$ and $x^2 + y^2 = 65$, what is the value of $xy$?",
+    "level": "Level 3",
+    "type": "Algebra",
+    "solution": "If we expand the left hand side of the first equation, we get $x^2 + 2xy + y^2 = 105$, so $2xy + (x^2 + y^2) = 105$. We are given that $x^2 + y^2 = 65$, so we can substitute for $x^2 + y^2$ to obtain $2xy + 65 = 105$. It follows that $xy = \\boxed{20}$.",
+    "prompt": "### Instruction: If $(x + y)^2 = 105$ and $x^2 + y^2 = 65$, what is the value of $xy$?\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "To find the value of \\( xy \\) given the equations \\( (x + y)^2 = 105 \\) and \\( x^2 + y^2 = 65 \\), we can start by expanding the first equation.\n1. The equation \\( (x + y)^2 = 105 \\) can be expanded as:\n   \\[\n   (x + y)^2 = x^2 + 2xy + y^2\n   \\]\n   Substituting \\( x^2 + y^2 = 65 \\) into this equation gives us:\n   \\[\n   105 = 65 + 2xy\n   \\]\n2. Next, we can isolate \\( 2xy \\) by subtracting 65 from both sides:\n   \\[\n   105 - 65 = 2xy\n   \\]\n   Which simplifies to:\n   \\[\n   40 = 2xy\n   \\]\n3. Now, divide both sides by 2 to solve for \\( xy \\):\n   \\[\n   xy = \\frac{40}{2} = 20\n   \\]\nThus, the value of \\( xy \\) is \\( \\boxed{20} \\).",
+        "To solve for \\( xy \\) given the equations \\((x + y)^2 = 105\\) and \\(x^2 + y^2 = 65\\), we can use some algebraic identities and manipulate the equations step by step.\n1. Start with the identity of the square of a sum:\n   \\[\n   (x + y)^2 = x^2 + y^2 + 2xy\n   \\]\n   We know that \\((x + y)^2 = 105\\) and \\(x^2 + y^2 = 65\\). \n2. Substitute the second equation into the first:\n   \\[\n   105 = 65 + 2xy\n   \\]\n3. Rearranging this equation gives:\n   \\[\n   2xy = 105 - 65\n   \\]\n   \\[\n   2xy = 40\n   \\]\n4. Dividing both sides by 2, we find:\n   \\[\n   xy = \\frac{40}{2} = 20\n   \\]\nThus, the value of \\( xy \\) is \\(\\boxed{20}\\).",
+        "To find the value of \\( xy \\), we start from the given equations:\n1. \\((x + y)^2 = 105\\)\n2. \\(x^2 + y^2 = 65\\)\nWe can expand the first equation using the identity:\n\\[\n(x + y)^2 = x^2 + 2xy + y^2\n\\]\nSubstituting \\( x^2 + y^2 = 65 \\) into this identity gives us:\n\\[\n105 = 65 + 2xy\n\\]\nNow, we can isolate \\( 2xy \\):\n\\[\n2xy = 105 - 65\n\\]\nCalculating the right side:\n\\[\n2xy = 40\n\\]\nTo find \\( xy \\), we divide both sides by 2:\n\\[\nxy = \\frac{40}{2} = 20\n\\]\nThus, the value of \\( xy \\) is \n\\[\n\\boxed{20}\n\\]",
+        "We start with the given equations:\n1. \\((x + y)^2 = 105\\)\n2. \\(x^2 + y^2 = 65\\)\nWe can expand the first equation:\n\\[\n(x + y)^2 = x^2 + 2xy + y^2\n\\]\nSubstituting \\(x^2 + y^2\\) from the second equation:\n\\[\nx^2 + 2xy + y^2 = 105\n\\]\n\\[\n65 + 2xy = 105\n\\]\nNow, we can isolate \\(2xy\\):\n\\[\n2xy = 105 - 65\n\\]\n\\[\n2xy = 40\n\\]\nDividing both sides by 2 gives us:\n\\[\nxy = 20\n\\]\nThus, the value of \\(xy\\) is:\n\\[\n\\boxed{20}\n\\]",
+        "To solve for \\( xy \\), we can first use the relationship between the given expressions \\( (x+y)^2 \\) and \\( x^2 + y^2 \\).\nWe know from algebra that:\n\\[\n(x+y)^2 = x^2 + y^2 + 2xy\n\\]\nNow, we can substitute the values we know into this equation. We're given:\n1. \\( (x+y)^2 = 105 \\)\n2. \\( x^2 + y^2 = 65 \\)\nSubstituting these into the equation gives us:\n\\[\n105 = 65 + 2xy\n\\]\nNow, we can isolate \\( 2xy \\):\n\\[\n105 - 65 = 2xy\n\\]\nThis simplifies to:\n\\[\n40 = 2xy\n\\]\nNext, we divide both sides by 2 to find \\( xy \\):\n\\[\nxy = \\frac{40}{2} = 20\n\\]\nThus, the value of \\( xy \\) is \n\\[\n\\boxed{20}\n\\]"
+    ],
+    "pred_answers": "20",
+    "final_pred_answer": [
+        "20",
+        "20",
+        "20",
+        "20",
+        "20"
+    ],
+    "ground_truth": "20"
+}

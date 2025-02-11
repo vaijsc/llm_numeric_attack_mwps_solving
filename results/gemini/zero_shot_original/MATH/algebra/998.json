@@ -1,0 +1,23 @@
+{
+    "problem": "What are the coordinates of the point on the line $5x-9y=42$ such that the $x$ and $y$ coordinates are the additive inverses of each other? Express your answer as an ordered pair.",
+    "level": "Level 4",
+    "type": "Algebra",
+    "solution": "Our point lies on $5x-9y=42$ with the condition that $x=-y$. Thus, we have the system of equations \\begin{align*}\n5x-9y &= 42\\\\\nx &= -y.\n\\end{align*} Substituting $x= -y$ into the first equation gives  \\begin{align*}\n5(-y) -9y &=42\\\\\n\\Rightarrow -14y &= 42\\\\\n\\Rightarrow y &=-3.\n\\end{align*} Thus $x = -y = -(-3) = 3$, so our desired point is $\\boxed{(3,-3)}$.",
+    "prompt": "### Instruction: What are the coordinates of the point on the line $5x-9y=42$ such that the $x$ and $y$ coordinates are the additive inverses of each other? Express your answer as an ordered pair.\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "Here's how to solve the problem step-by-step:\n**1. Understand the problem:**\nWe are looking for a point on the line where the x-coordinate and y-coordinate are additive inverses. This means they are the same number but with opposite signs. For example, (3, -3) or (-5, 5).\n**2. Set up the equation:**\nSince the x and y coordinates are additive inverses, we can write: \n  *  x = -y\n**3. Substitute into the line equation:**\nSubstitute -y for x in the equation of the line:\n  * 5(-y) - 9y = 42\n**4. Solve for y:**\nSimplify and solve for y:\n  * -5y - 9y = 42\n  * -14y = 42\n  * y = -3\n**5. Find x:**\nSince x = -y, we have:\n  * x = -(-3) = 3\n**6. The answer:**\nThe coordinates of the point are (3, -3). \n",
+        "Since the $x$ and $y$ coordinates are additive inverses, we know that $x=-y$. We can substitute this into the equation of the line to get:\n$$5(-y) - 9y = 42$$\nSimplifying the equation, we get:\n$$-5y - 9y = 42$$\n$$-14y = 42$$\n$$y = -3$$\nSince $x=-y$, we know that $x=3$. \nTherefore, the point on the line with additive inverse coordinates is $\\boxed{(3,-3)}$. \n",
+        "We are told that the x-coordinate and y-coordinate are additive inverses of each other.  This means that $x=-y$.  Substituting this into the equation of the line, we get:\n$$5(-y)-9y=42$$\nSimplifying the equation, we have:\n$$-5y-9y=42$$\n$$-14y=42$$\n$$y=-3$$\nSince $x=-y$, we have $x=3$.\nTherefore, the point on the line is $\\boxed{(3,-3)}$. \n",
+        "Since the $x$ and $y$ coordinates are additive inverses, we know that $x=-y$.  Substituting this into the equation of the line, we get  \\[5(-y) - 9y = 42.\\]Simplifying, we have $-14y = 42$, so $y = -3$.  Since $x=-y$, we have $x=3$.  Therefore, the point is $\\boxed{(3,-3)}$. \n",
+        "Here's how to solve the problem step-by-step:\n**1. Understand the Condition:**\nWe're looking for a point (x, y) on the line where x and y are additive inverses. This means x = -y.\n**2. Substitute:**\nSince x = -y, we can substitute -y for x in the equation of the line:\n5(-y) - 9y = 42\n**3. Solve for y:**\n-5y - 9y = 42\n-14y = 42\ny = -3\n**4. Find x:**\nSince x = -y, then x = 3.\n**5. Answer:**\nThe point on the line where x and y are additive inverses is **(3, -3)**. \n"
+    ],
+    "pred_answers": "-3",
+    "final_pred_answer": [
+        "-3",
+        "-3",
+        "-3",
+        "-3",
+        "3"
+    ],
+    "ground_truth": "-3"
+}

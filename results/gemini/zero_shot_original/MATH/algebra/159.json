@@ -1,0 +1,23 @@
+{
+    "problem": "The function $f (n) = n^2 + n + 17$ for $0 \\leq n \\leq 15$ generates prime numbers. What is the value of $f (10)-f (9)$?",
+    "level": "Level 2",
+    "type": "Algebra",
+    "solution": "We have $f(10)-f(9) = (10^2+10+17)-(9^2+9+17) = 10^2-9^2+10-9 = 100-81+1 = \\boxed{20}$.",
+    "prompt": "### Instruction: The function $f (n) = n^2 + n + 17$ for $0 \\leq n \\leq 15$ generates prime numbers. What is the value of $f (10)-f (9)$?\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "Here's how to solve the problem step-by-step:\n1. **Calculate f(10):**\n   *  f(10) = (10)^2 + 10 + 17 = 100 + 10 + 17 = 127\n2. **Calculate f(9):**\n   * f(9) = (9)^2 + 9 + 17 = 81 + 9 + 17 = 107\n3. **Find the difference:**\n   * f(10) - f(9) = 127 - 107 = 20\n**Therefore, the value of f(10) - f(9) is 20.** \n",
+        "Here's how to solve the problem step-by-step:\n1. **Find f(10):**\n   * Substitute *n* = 10 into the function: \n      * f(10) = 10\u00b2 + 10 + 17 = 100 + 10 + 17 = 127\n2. **Find f(9):**\n   * Substitute *n* = 9 into the function: \n      * f(9) = 9\u00b2 + 9 + 17 = 81 + 9 + 17 = 107\n3. **Calculate f(10) - f(9):**\n   * Subtract the values we found:\n      * f(10) - f(9) = 127 - 107 = 20\n**Therefore, the value of f(10) - f(9) is 20.** \n",
+        "Here's how to solve the problem step-by-step:\n**1. Find f(10):**\n* Substitute *n = 10* into the function: \n   * f(10) = (10)\u00b2 + 10 + 17 = 100 + 10 + 17 = 127\n**2. Find f(9):**\n* Substitute *n = 9* into the function:\n   * f(9) = (9)\u00b2 + 9 + 17 = 81 + 9 + 17 = 107\n**3. Calculate f(10) - f(9):**\n* Subtract the values we found:\n   * f(10) - f(9) = 127 - 107 = 20\n**Therefore, the value of f(10) - f(9) is 20.** \n",
+        "Here's how to solve the problem step-by-step:\n1. **Calculate f(10):**\n   *  f(10) = (10)^2 + 10 + 17 = 100 + 10 + 17 = 127\n2. **Calculate f(9):**\n   *  f(9) = (9)^2 + 9 + 17 = 81 + 9 + 17 = 107\n3. **Find f(10) - f(9):**\n   *  f(10) - f(9) = 127 - 107 = 20\n**Therefore, the value of f(10) - f(9) is 20.** \n",
+        "Here's how to solve the problem step-by-step:\n**1. Calculate f(10):**\n*  f(10) = 10\u00b2 + 10 + 17 = 100 + 10 + 17 = 127\n**2. Calculate f(9):**\n*  f(9) = 9\u00b2 + 9 + 17 = 81 + 9 + 17 = 107\n**3. Find the difference:**\n* f(10) - f(9) = 127 - 107 = 20\n**Therefore, the value of f(10) - f(9) is 20.** \n"
+    ],
+    "pred_answers": "20",
+    "final_pred_answer": [
+        "20",
+        "20",
+        "20",
+        "20",
+        "20"
+    ],
+    "ground_truth": "20"
+}

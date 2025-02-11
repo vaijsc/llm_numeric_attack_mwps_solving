@@ -1,0 +1,23 @@
+{
+    "problem": "If $\\frac{\\sqrt{x}}{\\sqrt{x-1}}=\\frac32$, solve for $x$. Express your answer in simplest fractional form.",
+    "level": "Level 4",
+    "type": "Algebra",
+    "solution": "We can start by cross-multiplying: \\begin{align*} 3\\sqrt{x-1}&=2\\sqrt{x}\n\\\\\\Rightarrow \\qquad (3\\sqrt{x-1})^2 &=(2\\sqrt{x})^2\n\\\\\\Rightarrow \\qquad 9(x-1)& =4(x)\n\\\\\\Rightarrow \\qquad 9x-9& =4x\n\\\\ \\Rightarrow \\qquad5x&=9\n\\\\ \\Rightarrow \\qquad x&=\\boxed{\\frac9{5}}.\n\\end{align*}Checking, we see that this value of $x$ does indeed work, so it is not an extraneous solution.",
+    "prompt": "### Instruction: If $\\frac{\\sqrt{x}}{\\sqrt{x-1}}=\\frac32$, solve for $x$. Express your answer in simplest fractional form.\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "Here's how to solve for *x* step-by-step:\n1. **Cross-multiply:** \n   Multiply both sides of the equation by  2\u221a(x-1) and 3\u221ax to get rid of the fractions:\n   \n   2\u221a(x-1) * \u221ax = 3\u221ax * \u221a(x-1)\n2. **Simplify:**\n   \u221a(x-1) * \u221ax = \u221a(x(x-1))  (This is based on the property \u221aa * \u221ab = \u221a(ab))\n   \n   The equation now becomes:\n   2\u221a(x(x-1)) = 3\u221a(x(x-1))\n3. **Solve for x:**\n   Since both sides of the equation have the same square root term, we can divide both sides by \u221a(x(x-1)) (as long as x(x-1) is not equal to 0):\n   \n   2 = 3\n   This is a contradiction, which means there is **no solution** for *x* that satisfies the original equation. \n",
+        "1. **Cross-multiply:** To get rid of the fractions, multiply both sides of the equation by the denominators: \n   2 * \u221ax = 3 * \u221a(x-1)\n2. **Square both sides:** To get rid of the square roots, square both sides of the equation:\n   (2\u221ax)\u00b2 = (3\u221a(x-1))\u00b2\n   4x = 9(x-1)\n3. **Simplify and solve for x:** \n   4x = 9x - 9\n   9 = 5x\n   x = 9/5\nTherefore, the solution is **x = 9/5**. \n",
+        "Here's how to solve for *x*:\n1. **Cross-multiply:**  \n   Multiply both sides of the equation by  2\u221a(x-1) and 3\u221ax to get rid of the fractions:\n   \n   2\u221a(x) * \u221a(x-1) = 3\u221a(x-1) * \u221a(x)\n2. **Simplify:**\n   \u221a(x) * \u221a(x-1) = \u221a(x) * \u221a(x-1)\n3. **Cancel:**\n   Since both sides are identical, we can cancel them. This means the equation is true for any value of *x* where the original equation is defined. \n4. **Consider the restrictions:**\n   The original equation has restrictions on the values of *x* because we can't take the square root of a negative number and the denominator can't be zero.\n   * **\u221ax:**  This means *x* must be greater than or equal to 0.\n   * **\u221a(x-1):** This means *x* must be greater than or equal to 1.\n   * **x - 1 \u2260 0:** This means *x* cannot be equal to 1.\n5. **Solution:**\n   Combining all restrictions, the solution is **x > 1**.  We can't express this as a single fraction, but we can express it in interval notation as **(1, \u221e)**. \n",
+        "1. **Cross-multiply:**  \n   Multiply both sides of the equation by $2\\sqrt{x-1}$ and by $\\sqrt{x}$: \n   \n   $$2\\sqrt{x}\\sqrt{x-1} = 3\\sqrt{x}\\sqrt{x-1}$$\n2. **Simplify:**\n   Cancel out $\\sqrt{x}\\sqrt{x-1}$ from both sides (as long as it's not zero):\n   $$2 = 3$$\n   This is a contradiction.  We can't have 2 equal to 3.  Therefore, there is **no solution** to the equation. \n",
+        "Here's how to solve for *x*:\n1. **Cross-multiply:**\n   (\u221ax) * 2 = 3 * (\u221a(x-1))\n2. **Simplify:**\n   2\u221ax = 3\u221a(x-1)\n3. **Square both sides:**\n   (2\u221ax)\u00b2 = (3\u221a(x-1))\u00b2\n   4x = 9(x-1)\n4. **Distribute:**\n   4x = 9x - 9\n5. **Solve for x:**\n   -5x = -9\n   x = 9/5\nTherefore, the solution is  **x = 9/5**. \n"
+    ],
+    "pred_answers": "3",
+    "final_pred_answer": [
+        "3",
+        "5",
+        "1",
+        "3",
+        "5"
+    ],
+    "ground_truth": "5"
+}

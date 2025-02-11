@@ -1,0 +1,65 @@
+Write a Python script that contains a step-by-step solution for a given math problem and its answer and condition each step.  Note that in the condition section: 'type' refers to the input data type. For example, animals and people have the type 'int', while price, ratio, and percentage have the type 'float' and when calculate multiplication and division, the variable's data type can change from int to float but in reality it is still int, for example: value = 18.0, type is float but I want its type in the condition to be int. '<=' or '>=' specify variable constraints if any are applicable. 'science_constant' refers to unchanging scientific constants, such as pi = 3.14. 'direct_from_question' indicates whether a value is taken directly from the question or not. If 'direct_from_question' is True, the value is taken directly from the question; if you have to infer the value of the variable, 'direct_from_question' is False. Start the script by defining variables corresponding to the quantities mentioned in the problem. If any number is given by the question then assign it to a specific variable. Print the final answer at the end of the script. Do not use if-else statements and loops to solve the problem. 
+Note that: Must to assert modulus(%) equal 0 before calculate floor division(//).
+
+Example:
+Given problem: Janet’s ducks lay 16 eggs per day. She eats three for breakfast every morning and bakes muffins for her friends every day with four. She sells the remainder at the farmers' market daily for $2 per fresh duck egg. How much in dollars does she make every day at the farmers' market?
+
+Answer:
+# Define the initial number of eggs laid per day
+eggs_per_day = 16  ### condition: 'eggs_per_day': {'type': 'int', '<=': None, '>=': 0, 'science_constant': False, 'direct_from_question': True}
+
+# Number of eggs eaten for breakfast
+eggs_for_breakfast = 3  ### condition: 'eggs_for_breakfast': {'type': 'int', '<=': 'eggs_per_day', '>=': 0, 'science_constant': False, 'direct_from_question': True}
+
+# Number of eggs used for baking muffins
+eggs_for_muffins = 4  ### condition: 'eggs_for_muffins': {'type': 'int', '<=': 'eggs_per_day', '>=': 0, 'science_constant': False, 'direct_from_question': True}
+
+# Calculate the number of eggs left to sell at the farmers' market
+eggs_for_sale = eggs_per_day - eggs_for_breakfast - eggs_for_muffins  ### condition: 'eggs_for_sale': {'type': 'int', '<=': 'eggs_per_day', '>=': 0, 'science_constant': False, 'direct_from_question': False}
+
+# Define the price per egg sold at the farmers' market
+price_per_egg = 2.0  ### condition: 'price_per_egg': {'type': 'float', '<=': None, '>=': 0, 'science_constant': False, 'direct_from_question': True}
+
+# Calculate the total amount of money made from selling the eggs
+total_money_made = eggs_for_sale * price_per_egg  ### condition: 'total_money_made': {'type': 'float', '<=': None, '>=': 0, 'science_constant': False, 'direct_from_question': False}
+
+# Print the total money made
+print(f"Total money made at the farmers' market daily: ${total_money_made}")
+
+
+Example: Must to assert modulus(%) equal 0 before calculate floor division(//)
+Given problem: Darrell and Allen's ages are in the ratio of 7:11. If their total age now is 162, calculate Allen's age 10 years from now.
+
+Answer: 
+# Define the total age of Darrell and Allen combined
+total_age = 162  ### condition: 'total_age': {'type': 'int', '<=': None, '>=': 0, 'science_constant': False, 'direct_from_question': True}
+
+# Define the ratio of Darrell's age to the total ratio part
+darrell_ratio = 7  ### condition: 'darrell_ratio': {'type': 'int', '<=': None, '>=': 0, 'science_constant': False, 'direct_from_question': True}
+
+# Define the ratio of Allen's age to the total ratio part
+allen_ratio = 11  ### condition: 'allen_ratio': {'type': 'int', '<=': None, '>=': 0, 'science_constant': False, 'direct_from_question': True}
+
+# Calculate the total ratio
+total_ratio = darrell_ratio + allen_ratio  ### condition: 'total_ratio': {'type': 'int', '<=': None, '>=': 0, 'science_constant': False, 'direct_from_question': False}
+
+# Assert that the division will not produce a remainder
+assert (allen_ratio * total_age) % total_ratio == 0, "The division has a remainder, which is not allowed for this problem."
+
+# Calculate Allen's current age using the ratio by performing integer multiplication first
+allen_current_age = (allen_ratio * total_age) // total_ratio  ### condition: 'allen_current_age': {'type': 'int', '<=': None, '>=': 0, 'science_constant': False, 'direct_from_question': False}
+
+# Define the number of years to calculate into the future
+years_from_now = 10  ### condition: 'years_from_now': {'type': 'int', '<=': None, '>=': 0, 'science_constant': False, 'direct_from_question': True}
+
+# Calculate Allen's age 10 years from now
+allen_future_age = allen_current_age + years_from_now  ### condition: 'allen_future_age': {'type': 'int', '<=': None, '>=': 0, 'science_constant': False, 'direct_from_question': False}
+
+# Print Allen's age 10 years from now
+print(f"Allen's age 10 years from now: {allen_future_age}")
+
+
+Given problem: What is the positive difference between $120\%$ of 30 and $130\%$ of 20?
+
+Note: Please only response python code, do not need "Here's a Python script..." or any explaination or ```python```
+Answer: 

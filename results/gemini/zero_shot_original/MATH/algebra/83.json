@@ -1,0 +1,23 @@
+{
+    "problem": "A recipe calls for $\\frac14$ teaspoon of salt for each quart of water. How many quarts of water will be used for two teaspoons of salt?",
+    "level": "Level 1",
+    "type": "Algebra",
+    "solution": "It takes $8$ quarter-teaspoons of salt to make two teaspoons, so $\\boxed{8}$ quarts of water are used.",
+    "prompt": "### Instruction: A recipe calls for $\\frac14$ teaspoon of salt for each quart of water. How many quarts of water will be used for two teaspoons of salt?\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "Here's how to solve this problem step-by-step:\n* **Find out how many quarts one teaspoon of salt represents:** Since 1/4 teaspoon of salt is needed for 1 quart of water, then 1 teaspoon of salt is needed for 1 / (1/4) = 4 quarts of water.\n* **Calculate the quarts for two teaspoons:**  If 1 teaspoon of salt is used for 4 quarts of water, then 2 teaspoons of salt will be used for 2 * 4 = **8 quarts** of water. \n",
+        "Here's how to solve the problem step-by-step:\n* **Find out how many quarts one teaspoon of salt is used for:**  Since 1/4 teaspoon of salt is used for 1 quart of water, one teaspoon of salt is used for 1 quart * 4 = 4 quarts of water.\n* **Calculate the quarts needed for two teaspoons:**  If one teaspoon is used for 4 quarts, then two teaspoons are used for 4 quarts * 2 = 8 quarts of water.\n**Answer:** 8 quarts of water will be used for two teaspoons of salt. \n",
+        "Here's how to solve the problem step-by-step:\n* **Understand the relationship:** The recipe uses 1/4 teaspoon of salt for every 1 quart of water. \n* **Find the water for one teaspoon:**  Since 1/4 teaspoon of salt is used for 1 quart,  one teaspoon of salt would be used for 4 quarts of water (because 1 / (1/4) = 4).\n* **Calculate for two teaspoons:** If one teaspoon of salt uses 4 quarts of water, then two teaspoons of salt would use 8 quarts of water (because 4 x 2 = 8).\n**Answer:** You will need **8 quarts** of water for two teaspoons of salt. \n",
+        "Here's how to solve the problem step-by-step:\n* **Understand the relationship:**  For every 1/4 teaspoon of salt, we need 1 quart of water.\n* **Find the number of \"1/4 teaspoon\" units:**  Two teaspoons of salt is the same as  2 / (1/4) = 8  units of 1/4 teaspoon.\n* **Calculate the water:**  Since we need 1 quart for each 1/4 teaspoon unit, we need 8 quarts of water.\n**Answer:**  You will need **8 quarts** of water. \n",
+        "Here's how to solve the problem step-by-step:\n* **Find the water needed for one teaspoon of salt:** Since 1/4 teaspoon of salt is used for 1 quart of water, one teaspoon of salt would be used for 4 quarts of water (because 1 / (1/4) = 4).\n* **Calculate the water needed for two teaspoons:**  Since one teaspoon requires 4 quarts, two teaspoons would require 8 quarts (because 4 x 2 = 8).\n**Answer:** You will need **8 quarts** of water for two teaspoons of salt. \n"
+    ],
+    "pred_answers": "8",
+    "final_pred_answer": [
+        "8",
+        "8",
+        "8",
+        "8",
+        "8"
+    ],
+    "ground_truth": "8"
+}

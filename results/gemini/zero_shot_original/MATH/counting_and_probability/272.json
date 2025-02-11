@@ -1,0 +1,23 @@
+{
+    "problem": "How many numbers between 100 and 200 (inclusive) are not perfect squares?",
+    "level": "Level 2",
+    "type": "Counting & Probability",
+    "solution": "There are $200-100+1 = 101$ numbers in the list $100, 101, \\ldots, 200$.  We can find 5 perfect squares in the list, namely $10^2,\\ldots,14^2$.  So the number of non-perfect-squares in the list is $101-5=\\boxed{96}$.",
+    "prompt": "### Instruction: How many numbers between 100 and 200 (inclusive) are not perfect squares?\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "Here's how to solve this problem:\n**1. Find the perfect squares within the range:**\n* The smallest perfect square greater than or equal to 100 is 10\u00b2 = 100.\n* The largest perfect square less than or equal to 200 is 14\u00b2 = 196. \n**2. Count the perfect squares:**\n* There are 5 perfect squares between 100 and 200 (10\u00b2, 11\u00b2, 12\u00b2, 13\u00b2, 14\u00b2).\n**3. Calculate the non-perfect squares:**\n* There are 101 numbers between 100 and 200 (inclusive).\n* Subtract the number of perfect squares: 101 - 5 = 96\n**Answer:** There are **96** numbers between 100 and 200 (inclusive) that are not perfect squares. \n",
+        "Here's how to solve this problem step-by-step:\n**1. Find the Perfect Squares:**\n* The smallest perfect square greater than or equal to 100 is 10\u00b2 = 100.\n* The largest perfect square less than or equal to 200 is 14\u00b2 = 196.\n**2. Count the Perfect Squares:**\n* There are 5 perfect squares between 100 and 200: 10\u00b2, 11\u00b2, 12\u00b2, 13\u00b2, and 14\u00b2.\n**3. Calculate the Total Numbers:**\n* There are 101 numbers between 100 and 200 (inclusive).\n**4. Subtract the Perfect Squares:**\n* 101 (total numbers) - 5 (perfect squares) = 96\n**Therefore, there are 96 numbers between 100 and 200 (inclusive) that are not perfect squares.** \n",
+        "Here's how to solve this problem:\n**1. Find the perfect squares within the range:**\n* The smallest perfect square greater than 100 is 10\u00b2 = 100.\n* The largest perfect square less than 200 is 14\u00b2 = 196.\n**2. Count the perfect squares:**\n* There are 5 perfect squares between 100 and 200 (10\u00b2, 11\u00b2, 12\u00b2, 13\u00b2, 14\u00b2).\n**3. Calculate the non-perfect squares:**\n* There are 101 numbers between 100 and 200 (inclusive).\n* Subtract the number of perfect squares: 101 - 5 = 96\n**Answer:** There are **96** numbers between 100 and 200 (inclusive) that are not perfect squares. \n",
+        "Here's how to solve the problem step-by-step:\n**1. Find the perfect squares within the range:**\n* The smallest perfect square greater than or equal to 100 is 10\u00b2 = 100.\n* The largest perfect square less than or equal to 200 is 14\u00b2 = 196.\n**2. Count the perfect squares:**\n* We have the perfect squares: 10\u00b2, 11\u00b2, 12\u00b2, 13\u00b2, and 14\u00b2.  This is a total of 5 perfect squares.\n**3. Calculate the non-perfect squares:**\n* There are 101 numbers between 100 and 200 (inclusive).\n* Subtract the number of perfect squares from the total number of numbers: 101 - 5 = 96\n**Therefore, there are 96 numbers between 100 and 200 (inclusive) that are not perfect squares.** \n",
+        "Here's how to solve this problem step by step:\n**1. Find the Perfect Squares:**\n* The smallest perfect square greater than 100 is 10^2 = 100.\n* The largest perfect square less than 200 is 14^2 = 196.\n**2. Count the Perfect Squares:**\n* The perfect squares between 100 and 200 are: 10^2, 11^2, 12^2, 13^2, and 14^2.  That's 5 perfect squares.\n**3. Calculate Non-Perfect Squares:**\n* There are 101 numbers between 100 and 200 (inclusive).\n* Subtract the number of perfect squares: 101 - 5 = 96.\n**Answer:** There are **96** numbers between 100 and 200 (inclusive) that are not perfect squares. \n"
+    ],
+    "pred_answers": "96",
+    "final_pred_answer": [
+        "96",
+        "200",
+        "96",
+        "200",
+        "96"
+    ],
+    "ground_truth": "96"
+}

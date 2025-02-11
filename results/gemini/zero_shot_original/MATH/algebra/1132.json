@@ -1,0 +1,23 @@
+{
+    "problem": "If $3m+4n=47$, and $m+n=15$, what is $m$?",
+    "level": "Level 1",
+    "type": "Algebra",
+    "solution": "Because the question only asks for the value of $m$, we can begin by eliminating $n$. In order to do this, we multiply the second equation by 4, giving us a system of two equations where both coefficients of $n$ are 4: \\begin{align*} 3m+4n=47\n\\\\ 4m+4n=60\n\\end{align*}From here, we can just subtract the second equation from the first. This gives us $(3m+4n)-(4m+4n)=47-60$, which simplifies to $-m=-13$ or $m=\\boxed{13}$.",
+    "prompt": "### Instruction: If $3m+4n=47$, and $m+n=15$, what is $m$?\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "Here's how to solve for 'm' step-by-step:\n**1. Solve for 'n' in the second equation:**\n*  m + n = 15\n*  n = 15 - m\n**2. Substitute the value of 'n' into the first equation:**\n* 3m + 4(15 - m) = 47\n**3. Simplify and solve for 'm':**\n* 3m + 60 - 4m = 47\n* -m = -13\n* m = 13\n**Therefore, m = 13** \n",
+        "Here's how to solve for 'm' step-by-step:\n1. **Solve for 'n' in the second equation:**\n   *  m + n = 15\n   *  n = 15 - m\n2. **Substitute the value of 'n' into the first equation:**\n   * 3m + 4(15 - m) = 47\n3. **Simplify and solve for 'm':**\n   * 3m + 60 - 4m = 47\n   * -m = -13\n   * m = 13\n**Therefore, m = 13** \n",
+        "Here's how to solve for 'm' step-by-step:\n1. **Solve for 'n' in the second equation:** \n   *  m + n = 15\n   *  n = 15 - m\n2. **Substitute the value of 'n' into the first equation:**\n   * 3m + 4(15 - m) = 47\n3. **Simplify and solve for 'm':**\n   * 3m + 60 - 4m = 47\n   * -m = -13\n   * m = 13\n**Therefore, m = 13** \n",
+        "Here's how to solve the problem step-by-step:\n1. **Solve for 'n' in the second equation:**\n   *  m + n = 15\n   *  n = 15 - m\n2. **Substitute the value of 'n' into the first equation:**\n   * 3m + 4(15 - m) = 47\n3. **Simplify and solve for 'm':**\n   * 3m + 60 - 4m = 47\n   * -m = -13\n   * m = 13\n**Therefore, m = 13** \n",
+        "Here's how to solve the problem step-by-step:\n**1. Solve for 'n' in the second equation:**\n*  m + n = 15\n*  n = 15 - m\n**2. Substitute the value of 'n' into the first equation:**\n* 3m + 4(15 - m) = 47\n**3. Simplify and solve for 'm':**\n* 3m + 60 - 4m = 47\n* -m = -13\n* m = 13\n**Therefore, m = 13** \n"
+    ],
+    "pred_answers": "13",
+    "final_pred_answer": [
+        "13",
+        "13",
+        "13",
+        "13",
+        "13"
+    ],
+    "ground_truth": "13"
+}

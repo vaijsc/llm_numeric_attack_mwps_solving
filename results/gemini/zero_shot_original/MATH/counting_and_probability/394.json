@@ -1,0 +1,23 @@
+{
+    "problem": "When counting from $3$ to $201$, $53$ is the $51^\\mathrm{st}$ number counted. When counting backwards from $201$ to $3$, $53$ is the $n^\\mathrm{th}$ number counted. What is $n$?",
+    "level": "Level 2",
+    "type": "Counting & Probability",
+    "solution": "Note that $n$ is equal to the number of integers between $53$ and $201$, inclusive. Thus, $n=201-53+1=\\boxed{149}$.",
+    "prompt": "### Instruction: When counting from $3$ to $201$, $53$ is the $51^\\mathrm{st}$ number counted. When counting backwards from $201$ to $3$, $53$ is the $n^\\mathrm{th}$ number counted. What is $n$?\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "Here's how to solve this problem:\n**1. Understand the Pattern:**\n* When counting from 3 to 201, you're moving in increasing order.\n* When counting backwards from 201 to 3, you're moving in decreasing order.\n**2. Determine the Number of Numbers Between 3 and 53:**\n* There are 50 numbers between 3 and 53 (exclusive) because 53 is the 51st number counted when starting at 3.\n**3.  Find the Corresponding Position Counting Backwards:**\n* Since there are 50 numbers between 3 and 53, when counting backwards, 53 will be the 51st number from the *end*.  \n**4. Calculate the Total Numbers:**\n* There are a total of 198 numbers between 3 and 201 (inclusive).\n*  Subtract the 50 numbers between 3 and 53 to find the number of numbers counted before 53 when going backwards: 198 - 50 = 148\n**5.  Final Answer:**\n* When counting backwards from 201 to 3, 53 is the **149th** number counted (because it's the 51st from the end, and there are 148 numbers counted before it). Therefore, n = **149**. \n",
+        "Here's how to solve this problem:\n* **Counting forward:**  When counting from 3 to 201, there are 201 - 3 + 1 = 199 numbers.  Since 53 is the 51st number counted, there are 199 - 51 = 148 numbers left to count after 53.\n* **Counting backward:** When counting backward from 201 to 3, we are counting the same 199 numbers in reverse order.  \n* **Finding n:** Since there are 148 numbers left to count after 53 when counting forward, 53 will be the **149th** number counted when going backward. Therefore, **n = 149**. \n",
+        "Here's how to solve the problem:\n* **Counting forward:**  When counting from 3 to 201, we have 201 - 3 + 1 = 199 numbers in total.  Since 53 is the 51st number counted, there are 199 - 51 = 148 numbers remaining after 53.\n* **Counting backward:** When counting backward from 201 to 3, we are essentially reversing the order.  The 148 numbers remaining after 53 in the forward count will now be the first 148 numbers counted in the backward count. \n* **Finding n:** Since 53 is the next number in the backward count, it will be the 148 + 1 = 149th number counted. \nTherefore,  n = **149**. \n",
+        "Here's how to solve this problem step by step:\n* **Understanding the Problem:**  We're counting from 3 to 201 and then back down from 201 to 3. We need to figure out the position of 53 when counting backward.\n* **Forward Counting:**  We know that 53 is the 51st number counted when going from 3 to 201. This means there are 50 numbers before 53 in this sequence.\n* **Backward Counting:** Now, when we count backward from 201 to 3, the numbers before 53 are the same numbers that came *after* 53 in the forward count.  Since there were 50 numbers after 53 in the forward count, there will be 50 numbers before 53 in the backward count.\n* **Finding n:**  To find the position of 53 in the backward count, we add 1 to the number of numbers before it: 50 + 1 = 51.\n**Therefore, n = 51.** \n",
+        "Here's how to solve this problem:\n* **Counting Forward:** When counting from 3 to 201, we have 201 - 3 + 1 = 199 numbers.  \n* **Counting Backwards:** When counting backwards from 201 to 3, the order of the numbers is reversed, but there are still the same 199 numbers.\n* **Finding the Position:** Since 53 is the 51st number when counting forward, it will be the **149th** number when counting backwards (199 - 51 + 1 = 149). \n**Therefore, n = 149** \n"
+    ],
+    "pred_answers": "149",
+    "final_pred_answer": [
+        "201",
+        "149",
+        "149",
+        "51",
+        "149"
+    ],
+    "ground_truth": "149"
+}
