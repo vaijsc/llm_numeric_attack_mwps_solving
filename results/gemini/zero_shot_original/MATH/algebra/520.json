@@ -1,0 +1,23 @@
+{
+    "problem": "Simplify $(u+4)(u-1) - (u-3)(u+6)$.",
+    "level": "Level 3",
+    "type": "Algebra",
+    "solution": "Expanding the first product, the distribute property shows that  $$(u+4)(u-1) = u^2 + 4u - u - 4 = u^2 + 3u - 4.$$The second product becomes $$(u-3)(u+6) = u^2 - 3u + 6u - 18 = u^2 + 3u - 18.$$Subtracting, both the $u^2$ and the $3u$ terms cancel, leaving an answer of $-4 - (-18) = \\boxed{14}$.",
+    "prompt": "### Instruction: Simplify $(u+4)(u-1) - (u-3)(u+6)$.\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "1. **Expand the products:**\n   - $(u+4)(u-1) = u^2 - u + 4u - 4 = u^2 + 3u - 4$\n   - $(u-3)(u+6) = u^2 + 6u - 3u - 18 = u^2 + 3u - 18$\n2. **Substitute the expanded products back into the original expression:**\n   - $(u^2 + 3u - 4) - (u^2 + 3u - 18)$\n3. **Distribute the negative sign:**\n   - $u^2 + 3u - 4 - u^2 - 3u + 18$\n4. **Combine like terms:**\n   - $(u^2 - u^2) + (3u - 3u) + (-4 + 18) = \\boxed{14}$\nTherefore, the simplified expression is 14. \n",
+        "1. **Expand the products using the distributive property (FOIL):** \n   \n   (u + 4)(u - 1) = u\u00b2 - u + 4u - 4 = u\u00b2 + 3u - 4\n   (u - 3)(u + 6) = u\u00b2 + 6u - 3u - 18 = u\u00b2 + 3u - 18\n2. **Substitute the expanded products back into the original expression:**\n   (u\u00b2 + 3u - 4) - (u\u00b2 + 3u - 18)\n3. **Distribute the negative sign:**\n   u\u00b2 + 3u - 4 - u\u00b2 - 3u + 18\n4. **Combine like terms:**\n   (u\u00b2 - u\u00b2) + (3u - 3u) + (-4 + 18)\n5. **Simplify:**\n   **14**\nTherefore, the simplified form of the expression is **14**. \n",
+        "Here's how to simplify the expression step by step:\n1. **Expand the products using the distributive property (FOIL):**\n   *  (u + 4)(u - 1) = u(u - 1) + 4(u - 1) = u\u00b2 - u + 4u - 4\n   *  (u - 3)(u + 6) = u(u + 6) - 3(u + 6) = u\u00b2 + 6u - 3u - 18\n2. **Combine like terms in each expansion:**\n   *  (u\u00b2 - u + 4u - 4) = u\u00b2 + 3u - 4\n   *  (u\u00b2 + 6u - 3u - 18) = u\u00b2 + 3u - 18\n3. **Substitute the expanded forms back into the original expression:**\n   (u\u00b2 + 3u - 4) - (u\u00b2 + 3u - 18)\n4. **Distribute the negative sign:**\n   u\u00b2 + 3u - 4 - u\u00b2 - 3u + 18\n5. **Combine like terms:**\n   (u\u00b2 - u\u00b2) + (3u - 3u) + (-4 + 18)\n6. **Simplify:**\n   **14**\n**Therefore, the simplified expression is 14.** \n",
+        "1. **Expand the products:** \n   *  $(u+4)(u-1) = u^2 - u + 4u - 4 = u^2 + 3u - 4$\n   *  $(u-3)(u+6) = u^2 + 6u - 3u - 18 = u^2 + 3u - 18$\n2. **Substitute the expanded forms back into the original expression:**\n   * $(u+4)(u-1) - (u-3)(u+6) = (u^2 + 3u - 4) - (u^2 + 3u - 18)$\n3. **Distribute the negative sign:**\n   *  $u^2 + 3u - 4 - u^2 - 3u + 18$\n4. **Combine like terms:**\n   *  $(u^2 - u^2) + (3u - 3u) + (-4 + 18) = \\boxed{14}$ \nTherefore, the simplified expression is 14. \n",
+        "Here's how to simplify the expression step by step:\n**1. Expand the products using the distributive property (FOIL):**\n*  $(u+4)(u-1) = u(u-1) + 4(u-1) = u^2 - u + 4u - 4 = u^2 + 3u - 4$\n*  $(u-3)(u+6) = u(u+6) - 3(u+6) = u^2 + 6u - 3u - 18 = u^2 + 3u - 18$\n**2. Substitute the expanded products back into the original expression:**\n   $(u+4)(u-1) - (u-3)(u+6) = (u^2 + 3u - 4) - (u^2 + 3u - 18)$\n**3. Distribute the negative sign:**\n   $u^2 + 3u - 4 - u^2 - 3u + 18$\n**4. Combine like terms:**\n   $(u^2 - u^2) + (3u - 3u) + (-4 + 18) = \\boxed{14}$\n**Therefore, the simplified expression is 14.** \n"
+    ],
+    "pred_answers": "14",
+    "final_pred_answer": [
+        "14",
+        "14",
+        "14",
+        "14",
+        "14"
+    ],
+    "ground_truth": "14"
+}

@@ -1,0 +1,23 @@
+{
+    "problem": "If \\begin{align*}\n5x-2y&=7,\\\\\n3x+y&=2,\n\\end{align*}compute $24x-14y$.",
+    "level": "Level 2",
+    "type": "Algebra",
+    "solution": "Note that $6(5x-2y)-2(3x+y)=24x-14y$.  Thus, $24x-14y=6(7)-2(2)=\\boxed{38}$.",
+    "prompt": "### Instruction: If \\begin{align*}\n5x-2y&=7,\\\\\n3x+y&=2,\n\\end{align*}compute $24x-14y$.\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "Here's how to solve the problem step-by-step:\n**1. Solve for x and y**\nWe can use elimination to solve for x and y. Multiply the second equation by 2:\n```\n6x + 2y = 4 \n```\nNow add this equation to the first equation:\n```\n5x - 2y = 7\n6x + 2y = 4\n-------\n11x      = 11\n```\nDividing both sides by 11, we get:\n```\nx = 1\n```\nSubstitute this value of x into either of the original equations. Let's use the second equation:\n```\n3(1) + y = 2\n```\nSimplifying, we get:\n```\ny = -1\n```\n**2. Compute 24x - 14y**\nNow that we know x = 1 and y = -1, we can substitute these values into the expression:\n```\n24x - 14y = 24(1) - 14(-1)\n```\nSimplifying, we get:\n```\n24x - 14y = 24 + 14 = 38\n```\n**Therefore, 24x - 14y = 38** \n",
+        "Here's how to solve the problem step-by-step:\n**1. Solve for one variable in terms of the other**\n* We can solve the second equation for *y*:\n   *  3x + y = 2\n   *  y = 2 - 3x \n**2. Substitute to eliminate one variable**\n* Substitute the expression for *y* (from step 1) into the first equation:\n   * 5x - 2(2 - 3x) = 7\n**3. Simplify and solve for x**\n* 5x - 4 + 6x = 7\n* 11x = 11\n* x = 1\n**4. Substitute to find y**\n* Substitute the value of *x* (from step 3) into either of the original equations. Let's use the second equation:\n   * 3(1) + y = 2\n   * y = -1\n**5. Calculate 24x - 14y**\n* Now that we know *x = 1* and *y = -1*, we can substitute these values:\n   * 24(1) - 14(-1) = 24 + 14 = 38\n**Therefore, 24x - 14y = 38** \n",
+        "We can solve for $x$ and $y$ using elimination.  Multiply the second equation by 2 to get\n\\[6x + 2y = 4.\\]Adding this equation to the first equation, we get\n\\[11x = 11,\\]so $x = 1.$  Substituting into the second equation, we get\n\\[3 + y = 2,\\]so $y = -1.$  Therefore, $24x - 14y = 24(1) - 14(-1) = \\boxed{38}.$",
+        "1. **Solve for one variable in terms of the other:**\n   We can solve the second equation for *y*: \n   ```\n   3x + y = 2\n   y = 2 - 3x\n   ```\n2. **Substitute:** \n   Now we can substitute this expression for *y* into the first equation:\n   ```\n   5x - 2(2 - 3x) = 7\n   ```\n3. **Solve for x:**\n   Simplify and solve for *x*:\n   ```\n   5x - 4 + 6x = 7\n   11x = 11\n   x = 1\n   ```\n4. **Substitute to find y:**\n   Substitute the value of *x* back into either of the original equations to find *y*. Let's use the second equation:\n   ```\n   3(1) + y = 2\n   3 + y = 2\n   y = -1\n   ```\n5. **Calculate 24x - 14y:**\n   Finally, substitute the values of *x* and *y* into the expression:\n   ```\n   24(1) - 14(-1) = 24 + 14 = 38\n   ```\nTherefore,  **24x - 14y = 38** \n",
+        "Here's how to solve the problem step-by-step:\n**1. Solve for one variable in terms of the other.**\n   Let's solve the second equation for *y*: \n   \n   ```\n   3x + y = 2\n   y = 2 - 3x \n   ```\n**2. Substitute to eliminate one variable.**\n   Substitute the expression for *y* from step 1 into the first equation:\n   ```\n   5x - 2(2 - 3x) = 7\n   ```\n**3. Solve for the remaining variable.**\n   Simplify and solve for *x*:\n   ```\n   5x - 4 + 6x = 7\n   11x = 11\n   x = 1\n   ```\n**4. Substitute to find the other variable.**\n   Substitute the value of *x* (1) back into the equation we solved for *y*:\n   ```\n   y = 2 - 3(1)\n   y = -1\n   ```\n**5. Calculate the desired expression.**\n   Now that we know *x* = 1 and *y* = -1, we can calculate 24*x* - 14*y*:\n   ```\n   24(1) - 14(-1) = 24 + 14 = 38\n   ```\n**Therefore, 24x - 14y = 38** \n"
+    ],
+    "pred_answers": "38",
+    "final_pred_answer": [
+        "38",
+        "38",
+        "38",
+        "38",
+        "38"
+    ],
+    "ground_truth": "38"
+}

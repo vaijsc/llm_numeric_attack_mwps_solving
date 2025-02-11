@@ -1,0 +1,23 @@
+{
+    "problem": "A stack of 100 nickels has a height of 6.25 inches. What is the value, in dollars, of an 8-foot stack of nickels? Express your answer to the nearest hundredth.",
+    "level": "Level 3",
+    "type": "Algebra",
+    "solution": "The height of each nickel is $6.25/100=0.0625$ inches.  Divide 8 feet by 0.0625 inches to find that there are $\\frac{8\\cdot 12}{0.0625}=1536$ nickels in an 8-foot stack.  The value of 1536 nickels is $1536\\times \\$0.05=\\boxed{\\$76.80}$.",
+    "prompt": "### Instruction: A stack of 100 nickels has a height of 6.25 inches. What is the value, in dollars, of an 8-foot stack of nickels? Express your answer to the nearest hundredth.\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "Here's how to solve this problem step-by-step:\n**1. Convert everything to the same units:**\n* Since we're dealing with inches and feet, let's convert the 8-foot stack to inches: 8 feet * 12 inches/foot = 96 inches\n**2. Figure out the number of nickels in the 8-foot stack:**\n* We know a 6.25-inch stack has 100 nickels.  To find out how many nickels are in a 96-inch stack, set up a proportion: \n   (6.25 inches / 100 nickels) = (96 inches / x nickels)\n* Cross-multiply and solve for x: \n   6.25x = 9600\n   x = 9600 / 6.25 = 1536 nickels\n**3. Calculate the total value of the nickels:**\n*  Each nickel is worth $0.05.\n* The total value is: 1536 nickels * $0.05/nickel = $76.80\n**Answer:** An 8-foot stack of nickels is worth **$76.80**. \n",
+        "Here's how to solve the problem step-by-step:\n**1. Convert everything to the same units:**\n* Since the height of the stack is given in inches, convert the 8-foot stack to inches: 8 feet * 12 inches/foot = 96 inches\n**2. Determine the height of a single nickel:**\n* Divide the height of the 100-nickel stack by the number of nickels: 6.25 inches / 100 nickels = 0.0625 inches/nickel\n**3. Calculate the number of nickels in the 8-foot stack:**\n* Divide the height of the 8-foot stack by the height of a single nickel: 96 inches / 0.0625 inches/nickel = 1536 nickels\n**4. Calculate the total value of the nickels:**\n* Multiply the number of nickels by the value of each nickel: 1536 nickels * $0.05/nickel = $76.80\n**Answer:** The value of an 8-foot stack of nickels is approximately **$76.80**. \n",
+        "Here's how to solve this problem step-by-step:\n**1. Convert Feet to Inches:**\n* There are 12 inches in a foot, so an 8-foot stack is 8 * 12 = 96 inches tall.\n**2. Find the Number of Nickels in the 8-Foot Stack:**\n*  If 6.25 inches is equal to 100 nickels, then 1 inch is equal to 100 / 6.25 = 16 nickels.\n* A 96-inch stack would contain 96 * 16 = 1536 nickels.\n**3. Calculate the Total Value:**\n* Each nickel is worth $0.05.\n* The value of 1536 nickels is 1536 * $0.05 = $76.80.\n**Answer:** The value of an 8-foot stack of nickels is approximately **$76.80**. \n",
+        "Here's how to solve the problem step-by-step:\n**1. Convert feet to inches:**\n* There are 12 inches in a foot, so an 8-foot stack is 8 * 12 = 96 inches tall.\n**2. Find the number of nickels in the 8-foot stack:**\n*  Since a 6.25-inch stack has 100 nickels, a 96-inch stack has (96 / 6.25) * 100 = 1536 nickels.\n**3. Calculate the total value in dollars:**\n* Each nickel is worth $0.05, so the total value is 1536 * $0.05 = $76.80.\n**Answer:** The value of an 8-foot stack of nickels is **$76.80**. \n",
+        "Here's how to solve the problem step-by-step:\n**1. Convert Feet to Inches:**\n* There are 12 inches in a foot, so an 8-foot stack is 8 * 12 = 96 inches tall.\n**2. Find the Number of Nickels:**\n* An 8-foot stack is 96 inches / 6.25 inches/stack = 15.36 stacks of nickels.\n* Since we can't have fractions of stacks, we know there are 15 complete stacks of nickels.\n**3. Calculate the Total Value:**\n* Each stack has 100 nickels, so 15 stacks have 15 * 100 = 1500 nickels.\n*  A nickel is worth $0.05, so 1500 nickels are worth 1500 * $0.05 = $75.00\n**Answer:** The value of an 8-foot stack of nickels is **$75.00**. \n"
+    ],
+    "pred_answers": "8",
+    "final_pred_answer": [
+        "8",
+        "8",
+        "8",
+        "8",
+        "8"
+    ],
+    "ground_truth": "76.80"
+}

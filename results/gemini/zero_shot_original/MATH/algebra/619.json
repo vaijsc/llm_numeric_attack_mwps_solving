@@ -1,0 +1,23 @@
+{
+    "problem": "How many units long is a segment whose endpoints are $(1,2)$ and $(-4,-10)$?",
+    "level": "Level 2",
+    "type": "Algebra",
+    "solution": "We use the distance formula: $\\sqrt{(1 - (-4))^2 + (2 - (-10))^2} = \\sqrt{25 + 144} = \\boxed{13}$.",
+    "prompt": "### Instruction: How many units long is a segment whose endpoints are $(1,2)$ and $(-4,-10)$?\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "Here's how to find the length of the segment:\n**1. Understand the Distance Formula**\nThe distance formula is derived from the Pythagorean theorem and helps us calculate the distance between two points in a coordinate plane. It states:\nDistance = \u221a[(x\u2082 - x\u2081)\u00b2 + (y\u2082 - y\u2081)\u00b2]\n**2. Identify the Coordinates**\n*  Let (x\u2081, y\u2081) be (1, 2)\n*  Let (x\u2082, y\u2082) be (-4, -10)\n**3. Substitute the Values into the Formula**\nDistance = \u221a[(-4 - 1)\u00b2 + (-10 - 2)\u00b2]\n**4. Simplify the Equation**\nDistance = \u221a[(-5)\u00b2 + (-12)\u00b2]\nDistance = \u221a(25 + 144)\nDistance = \u221a169\n**5. Calculate the Final Result**\nDistance = 13\n**Therefore, the segment is 13 units long.** \n",
+        "Here's how to find the length of the segment:\n**1. Understand the Distance Formula**\nThe distance formula is derived from the Pythagorean theorem and helps us calculate the distance between two points in a coordinate plane. It's:\n   Distance = \u221a[(x\u2082 - x\u2081)\u00b2 + (y\u2082 - y\u2081)\u00b2]\n**2.  Label Your Points**\n* Let (1, 2) be (x\u2081, y\u2081)\n* Let (-4, -10) be (x\u2082, y\u2082)\n**3.  Plug the Values into the Formula**\nDistance = \u221a[(-4 - 1)\u00b2 + (-10 - 2)\u00b2]\n**4.  Simplify**\nDistance = \u221a[(-5)\u00b2 + (-12)\u00b2]\nDistance = \u221a(25 + 144)\nDistance = \u221a169\n**5.  Calculate the Final Distance**\nDistance = 13\n**Answer:** The segment is **13 units** long. \n",
+        "Here's how to find the length of the segment:\n**1. Understand the Distance Formula**\nThe distance formula is derived from the Pythagorean theorem and helps us calculate the distance between two points in a coordinate plane. It's given by:\n```\nDistance = \u221a[(x\u2082 - x\u2081)\u00b2 + (y\u2082 - y\u2081)\u00b2]\n```\n**2. Label Your Points**\n* Let (1, 2) be (x\u2081, y\u2081)\n* Let (-4, -10) be (x\u2082, y\u2082)\n**3. Substitute into the Distance Formula**\n```\nDistance = \u221a[(-4 - 1)\u00b2 + (-10 - 2)\u00b2]\n```\n**4. Simplify**\n```\nDistance = \u221a[(-5)\u00b2 + (-12)\u00b2]\nDistance = \u221a(25 + 144)\nDistance = \u221a169\nDistance = 13\n```\n**Therefore, the segment is 13 units long.** \n",
+        "Here's how to find the length of the segment:\n**1. Understand the Distance Formula**\nThe distance formula is derived from the Pythagorean theorem and helps us find the distance between two points in a coordinate plane. It looks like this:\nDistance = \u221a[(x\u2082 - x\u2081)\u00b2 + (y\u2082 - y\u2081)\u00b2]\n**2. Label your points**\n* Let (1, 2) be (x\u2081, y\u2081)\n* Let (-4, -10) be (x\u2082, y\u2082)\n**3. Plug the values into the distance formula**\nDistance = \u221a[(-4 - 1)\u00b2 + (-10 - 2)\u00b2]\n**4. Simplify the expression**\nDistance = \u221a[(-5)\u00b2 + (-12)\u00b2]\nDistance = \u221a(25 + 144)\nDistance = \u221a169\n**5. Calculate the final distance**\nDistance = 13\n**Answer:** The segment is **13 units** long. \n",
+        "Here's how to find the length of the segment:\n**1. Understand the Distance Formula**\nThe distance formula is derived from the Pythagorean theorem and helps us calculate the distance between two points in a coordinate plane. It's given by:\nDistance = \u221a[(x\u2082 - x\u2081)\u00b2 + (y\u2082 - y\u2081)\u00b2]\n**2. Label Your Points**\n* Let (1, 2) be (x\u2081, y\u2081)\n* Let (-4, -10) be (x\u2082, y\u2082)\n**3. Substitute the Values into the Distance Formula**\nDistance = \u221a[(-4 - 1)\u00b2 + (-10 - 2)\u00b2]\n**4. Simplify the Expression**\nDistance = \u221a[(-5)\u00b2 + (-12)\u00b2]\nDistance = \u221a(25 + 144)\nDistance = \u221a169\n**5. Calculate the Final Result**\nDistance = 13\n**Therefore, the segment whose endpoints are (1, 2) and (-4, -10) is 13 units long.** \n"
+    ],
+    "pred_answers": "13",
+    "final_pred_answer": [
+        "13",
+        "13",
+        "13",
+        "13",
+        "13"
+    ],
+    "ground_truth": "13"
+}

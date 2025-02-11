@@ -1,0 +1,23 @@
+{
+    "problem": "Solve for $x$, where $x > 0$ and $0 = -9x^2 - 3x + 2.$ Express your answer as a simplified common fraction.",
+    "level": "Level 3",
+    "type": "Algebra",
+    "solution": "We factor and obtain $-(3x - 1)(3x + 2) = 0.$ Clearly, the only positive solution for $x$ occurs when $3x - 1 = 0,$ giving us $x = \\boxed{\\dfrac{1}{3}}.$",
+    "prompt": "### Instruction: Solve for $x$, where $x > 0$ and $0 = -9x^2 - 3x + 2.$ Express your answer as a simplified common fraction.\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "1. **Divide by -1:** To make the leading coefficient positive, we divide both sides of the equation by -1: \n   \n   $0 = -9x^2 - 3x + 2$ becomes $0 = 9x^2 + 3x - 2$\n2. **Factor:** We need to find two numbers that multiply to give 9 * -2 = -18 and add up to 3.  These numbers are 6 and -3:\n   $0 = (9x - 3)(x + 2)$\n3. **Solve for x:** Now we set each factor equal to zero and solve:\n   *  $9x - 3 = 0$  -->  $9x = 3$  -->  $x = \\frac{1}{3}$\n   *  $x + 2 = 0$  -->  $x = -2$\n4. **Choose the positive solution:** Since we are given that $x > 0$, the only valid solution is $\\boxed{\\frac{1}{3}}$. \n",
+        "1. **Divide by -1:**  To make the leading coefficient positive, divide both sides of the equation by -1:\n   \n   ```\n   0 = -9x^2 - 3x + 2 \n   0 = 9x^2 + 3x - 2\n   ```\n2. **Factor:** The quadratic equation is now in standard form. We can factor it as:\n   ```\n   0 = (3x - 1)(3x + 2)\n   ```\n3. **Solve for x:**  For the product of two factors to be zero, at least one of the factors must be zero.  Therefore:\n   *  $3x - 1 = 0$  implies  $x = \\frac{1}{3}$\n   *  $3x + 2 = 0$ implies $x = -\\frac{2}{3}$\n4. **Choose the positive solution:**  Since the problem states that $x > 0$, the solution is  $x = \\boxed{\\frac{1}{3}}$. \n",
+        "1. **Divide by -1:**  To make the coefficient of the $x^2$ term positive, we can divide both sides of the equation by -1: \n   \n   $$0 = -9x^2 - 3x + 2 \\implies 0 = 9x^2 + 3x - 2$$\n2. **Factor the quadratic:**  The quadratic expression on the right side of the equation factors as:\n   $$0 = (3x - 1)(3x + 2)$$\n3. **Solve for x:**  For the product of two factors to be zero, at least one of the factors must be zero.  This gives us two possible solutions:\n   *  $3x - 1 = 0 \\implies x = \\boxed{\\frac{1}{3}}$\n   *  $3x + 2 = 0 \\implies x = -\\frac{2}{3}$\nSince we are only looking for solutions where $x > 0$, the only valid solution is $x = \\boxed{\\frac{1}{3}}$. \n",
+        "Here's how to solve the quadratic equation:\n1. **Multiply both sides by -1:** This makes the coefficient of the $x^2$ term positive, making it easier to work with.\n   \n   $0 = -9x^2 - 3x + 2$ becomes \n   $0 = 9x^2 + 3x - 2$\n2. **Factor the quadratic:**  We need to find two numbers that multiply to (9)(-2) = -18 and add up to 3.  These numbers are 6 and -3.\n   $0 = (3x - 1)(3x + 2)$\n3. **Set each factor equal to zero and solve for x:**\n   * $3x - 1 = 0$  \n     $3x = 1$\n     $x = \\frac{1}{3}$\n   * $3x + 2 = 0$\n     $3x = -2$\n     $x = -\\frac{2}{3}$\n4. **Choose the positive solution:** Since the problem states that $x > 0$, the solution is  $x = \\boxed{\\frac{1}{3}}$. \n",
+        "1. **Divide by -1:** To make the leading coefficient positive, we divide both sides of the equation by -1: \n   \n   $0 = -9x^2 - 3x + 2$ becomes $0 = 9x^2 + 3x - 2$.\n2. **Factor the quadratic:** The quadratic expression on the right-hand side can be factored:\n   $0 = (3x - 1)(3x + 2)$\n3. **Set each factor to zero:**  For the product of two factors to be zero, at least one of them must be zero.  Therefore:\n   *  $3x - 1 = 0$ \n   *  $3x + 2 = 0$\n4. **Solve for x:**  Solving each equation for *x*, we get:\n   * $x = \\frac{1}{3}$\n   * $x = -\\frac{2}{3}$\n5. **Choose the positive solution:**  Since the problem states that $x > 0$, the solution we choose is $x = \\boxed{\\frac{1}{3}}$. \n"
+    ],
+    "pred_answers": "3",
+    "final_pred_answer": [
+        "3",
+        "3",
+        "3",
+        "3",
+        "3"
+    ],
+    "ground_truth": "3"
+}

@@ -1,0 +1,23 @@
+{
+    "problem": "The quadratic $x^2-6x+66$ can be written in the form $(x+b)^2+c$, where $b$ and $c$ are constants. What is $b+c$?",
+    "level": "Level 3",
+    "type": "Algebra",
+    "solution": "We complete the square.\n\nWe have $(x-3)^2 = x^2 - 6x + 9$, and so\n\n\\begin{align*}\nx^2-6x+66 &= (x-3)^2 - 9 + 66 \\\\\n&= (x-3)^2 + 57.\n\\end{align*}Therefore, $b=-3$ and $c=57$, which gives us $b+c = \\boxed{54}$.",
+    "prompt": "### Instruction: The quadratic $x^2-6x+66$ can be written in the form $(x+b)^2+c$, where $b$ and $c$ are constants. What is $b+c$?\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "Here's how to solve the problem step-by-step:\n**1. Expanding the target form:**\nStart by expanding the given form: \n  (x + b)\u00b2 + c = x\u00b2 + 2bx + b\u00b2 + c\n**2. Matching coefficients:**\nWe want this expanded form to be equal to the given quadratic:\n  x\u00b2 + 2bx + b\u00b2 + c = x\u00b2 - 6x + 66\nNow, match the coefficients of the corresponding terms:\n* **x\u00b2 term:**  1 = 1 (already matched)\n* **x term:** 2b = -6  => b = -3\n* **Constant term:** b\u00b2 + c = 66\n**3. Solving for c:**\nSubstitute the value of b we found into the constant term equation:\n (-3)\u00b2 + c = 66\n 9 + c = 66\n c = 57\n**4. Finding b + c:**\nFinally, calculate b + c:\n b + c = -3 + 57 = **54** \n",
+        "Here's how to solve the problem step-by-step:\n**1. Expand the expression  (x + b)\u00b2 + c**\nExpanding the square gives us: \n(x + b)\u00b2 + c = x\u00b2 + 2bx + b\u00b2 + c\n**2. Match coefficients with the given quadratic**\nWe want this expression to be equal to x\u00b2 - 6x + 66.  Let's match the coefficients:\n* **x\u00b2 term:** Both expressions already have a coefficient of 1 for x\u00b2.\n* **x term:**  We need 2bx to equal -6x.  Therefore, 2b = -6, and b = -3.\n* **Constant term:** We need b\u00b2 + c to equal 66.  Since b = -3, we have (-3)\u00b2 + c = 66.  This simplifies to 9 + c = 66, so c = 57.\n**3. Find b + c**\nNow that we know b = -3 and c = 57, we can find b + c:\nb + c = -3 + 57 = **54** \n",
+        "Here's how to solve the problem step-by-step:\n**1. Expand the form  (x + b)^2 + c**\nExpanding the square gives us: \n  (x + b)^2 + c = x^2 + 2bx + b^2 + c\n**2. Match Coefficients**\nWe want this expanded form to be equal to our original quadratic: x^2 - 6x + 66.  Let's match the coefficients:\n* **x^2 term:**  Both expressions already have an x^2 term.\n* **x term:**  2bx = -6x  =>  b = -3\n* **Constant term:** b^2 + c = 66\n**3. Solve for c**\nSince we know b = -3, substitute it into the equation for the constant term:\n(-3)^2 + c = 66\n9 + c = 66\nc = 57\n**4. Calculate b + c**\nFinally, add b and c:\nb + c = -3 + 57 = **54** \n",
+        "Here's how to solve the problem step-by-step:\n**1. Expand the given form:**\n   The form  (x + b)\u00b2 + c  expands as:  x\u00b2 + 2bx + b\u00b2 + c\n**2. Match coefficients:**\n   We want to make this expression equal to x\u00b2 - 6x + 66.  Matching the coefficients of x and the constant term, we get:\n   * 2b = -6 \n   * b\u00b2 + c = 66\n**3. Solve for b:**\n   From the equation 2b = -6, we find b = -3.\n**4. Solve for c:**\n   Substitute b = -3 into the equation b\u00b2 + c = 66:\n   (-3)\u00b2 + c = 66\n   9 + c = 66\n   c = 57\n**5. Calculate b + c:**\n   b + c = -3 + 57 = **54** \n",
+        "Here's how to solve the problem step-by-step:\n**1. Expand the expression  (x + b)\u00b2 + c**\n(x + b)\u00b2 + c = x\u00b2 + 2bx + b\u00b2 + c\n**2. Match coefficients with the given quadratic**\nWe want this expression to be equal to x\u00b2 - 6x + 66.  Let's compare the coefficients:\n* **x\u00b2 term:**  Both expressions have a coefficient of 1 for the x\u00b2 term, so that matches.\n* **x term:**  The coefficient of the x term in our expanded expression is 2b.  This needs to equal -6 in the given quadratic.  So, 2b = -6.\n* **Constant term:** The constant term in our expanded expression is b\u00b2 + c. This needs to equal 66 in the given quadratic.\n**3. Solve for b**\nFrom 2b = -6, we find b = -3.\n**4. Solve for c**\nSubstitute b = -3 into the equation b\u00b2 + c = 66:\n(-3)\u00b2 + c = 66\n9 + c = 66\nc = 57\n**5. Find b + c**\nb + c = -3 + 57 = **54** \n"
+    ],
+    "pred_answers": "54",
+    "final_pred_answer": [
+        "54",
+        "54",
+        "54",
+        "54",
+        "54"
+    ],
+    "ground_truth": "54"
+}

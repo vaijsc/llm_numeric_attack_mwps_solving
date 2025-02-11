@@ -1,0 +1,23 @@
+{
+    "problem": "The operation @ is defined as $\\frac{m}{n}@\\frac{p}{q} = (m)(p)\\left(\\frac{q}{n}\\right)$ for simplified fractions $\\frac{p}{q}$.  What is the simplified value of $\\frac{7}{30}@\\frac{10}{21}$?",
+    "level": "Level 2",
+    "type": "Algebra",
+    "solution": "We have $\\frac{7}{30}@\\frac{10}{21}=(7)(10)\\left(\\frac{21}{30}\\right)=\\boxed{49}$.",
+    "prompt": "### Instruction: The operation @ is defined as $\\frac{m}{n}@\\frac{p}{q} = (m)(p)\\left(\\frac{q}{n}\\right)$ for simplified fractions $\\frac{p}{q}$.  What is the simplified value of $\\frac{7}{30}@\\frac{10}{21}$?\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "1. **Identify the values:**  We have  $m = 7$, $n = 30$, $p = 10$, and $q = 21$.\n2. **Substitute into the formula:**  \n   \n   $\\frac{7}{30}@\\frac{10}{21} = (7)(10)\\left(\\frac{21}{30}\\right)$\n3. **Simplify:**\n   *  $(7)(10) = 70$\n   *  $\\frac{21}{30} = \\frac{7}{10}$\n   So, the expression becomes: $70 \\cdot \\frac{7}{10}$\n4. **Calculate:**\n   $70 \\cdot \\frac{7}{10} = \\boxed{49}$ \n",
+        "**1. Identify the values:**\n*  m = 7\n*  n = 30\n*  p = 10\n*  q = 21\n**2. Substitute the values into the formula:**\n(m)(p)(q/n) = (7)(10)(21/30)\n**3. Simplify:**\n* Cancel out common factors: (7)(10)(21/30) = (7)(10)(7/10) \n* Multiply the remaining terms: (7)(10)(7/10) = 49\n**Therefore, the simplified value of  (7/30)@(10/21) is 49.** \n",
+        "Here's how to solve the problem step-by-step:\n1. **Identify the values:**\n   *  m = 7\n   *  n = 30\n   *  p = 10\n   *  q = 21\n2. **Substitute the values into the formula:**\n   *  (7)(10)(21/30)\n3. **Simplify:**\n   * (70)(21/30) = 49\nTherefore, the simplified value of  $\\frac{7}{30}@\\frac{10}{21}$ is **49**. \n",
+        "Here's how to solve the problem step-by-step:\n1. **Identify the values of m, n, p, and q:**\n   *  m = 7\n   *  n = 30\n   *  p = 10\n   *  q = 21\n2. **Substitute the values into the formula:**\n   * (m)(p)(q/n) = (7)(10)(21/30)\n3. **Simplify the multiplication:**\n   * (7)(10)(21/30) = 70(21/30)\n4. **Simplify the fraction:**\n   * 70(21/30) = 70(7/10)\n5. **Multiply to find the final answer:**\n   * 70(7/10) = **49** \nTherefore, the simplified value of (7/30)@(10/21) is **49**. \n",
+        "1. **Identify m, n, p, and q:**  In the problem, we have  $\\frac{7}{30}@\\frac{10}{21}$. This means:\n   *  m = 7\n   *  n = 30\n   *  p = 10\n   *  q = 21\n2. **Plug the values into the formula:**  \n   Substitute the values into the given formula:  \n   (m)(p)(q/n) = (7)(10)(21/30)\n3. **Simplify:**  \n   * Cancel common factors: (7)(10)(21/30) = (7)(10)(7/10) \n   * Multiply: (7)(10)(7/10) = 49\nTherefore, the simplified value of $\\frac{7}{30}@\\frac{10}{21}$ is **49**. \n"
+    ],
+    "pred_answers": "49",
+    "final_pred_answer": [
+        "49",
+        "49",
+        "49",
+        "49",
+        "49"
+    ],
+    "ground_truth": "49"
+}

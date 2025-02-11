@@ -1,0 +1,23 @@
+{
+    "problem": "Compute $\\dbinom{7}{2}$.",
+    "level": "Level 2",
+    "type": "Counting & Probability",
+    "solution": "$\\dbinom{7}{2}=\\dfrac{7\\times 6}{2}=\\boxed{21}.$",
+    "prompt": "### Instruction: Compute $\\dbinom{7}{2}$.\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "**Step 1: Understand the notation**\nThe notation $\\binom{7}{2}$ represents the binomial coefficient, which is read as \"7 choose 2\".  It tells us how many ways we can choose 2 items from a set of 7 items.\n**Step 2: Use the formula**\nThe formula for the binomial coefficient is:\n  $$\\binom{n}{k} = \\frac{n!}{k!(n-k)!}$$\nwhere \"!\" represents the factorial (e.g., 5! = 5 * 4 * 3 * 2 * 1).\n**Step 3: Apply the formula**\nIn our case, n = 7 and k = 2.  Let's plug these values into the formula:\n  $$\\binom{7}{2} = \\frac{7!}{2!(7-2)!} = \\frac{7!}{2!5!}$$\n**Step 4: Calculate the factorials**\n* 7! = 7 * 6 * 5 * 4 * 3 * 2 * 1 = 5040\n* 2! = 2 * 1 = 2\n* 5! = 5 * 4 * 3 * 2 * 1 = 120\n**Step 5: Simplify the expression**\n  $$\\binom{7}{2} = \\frac{7!}{2!5!} = \\frac{5040}{2 * 120} = \\frac{5040}{240} = 21$$\n**Therefore, $\\binom{7}{2} = 21$.** \n",
+        "**Step 1: Recall the binomial coefficient formula.**\nThe binomial coefficient $\\dbinom{n}{k}$ is calculated as:\n$$\\dbinom{n}{k} = \\dfrac{n!}{k!(n-k)!}$$\n**Step 2: Apply the formula to our problem.**\nWe want to find $\\dbinom{7}{2}$, so we have:\n$$\\dbinom{7}{2} = \\dfrac{7!}{2!(7-2)!}$$\n**Step 3: Calculate the factorials.**\n*  7! = 7 * 6 * 5 * 4 * 3 * 2 * 1 = 5040\n*  2! = 2 * 1 = 2\n*  5! = 5 * 4 * 3 * 2 * 1 = 120\n**Step 4: Substitute the factorials back into the equation and simplify.**\n$$\\dbinom{7}{2} = \\dfrac{5040}{2!5!} = \\dfrac{5040}{2 \\cdot 120} = \\dfrac{5040}{240} = 21$$\n**Therefore, $\\dbinom{7}{2} = 21$.** \n",
+        "### Response:\nWe know that $\\binom{n}{k}$ represents the number of ways to choose $k$ objects from a set of $n$ objects.  In this case, we want to find the number of ways to choose 2 objects from a set of 7 objects.\nWe can use the formula for the binomial coefficient:\n$$\\binom{n}{k} = \\frac{n!}{k!(n-k)!}$$\nSubstituting $n=7$ and $k=2$, we get:\n$$\\binom{7}{2} = \\frac{7!}{2!(7-2)!} = \\frac{7!}{2!5!} = \\frac{7\\times 6\\times 5!}{2\\times 1\\times 5!} = \\frac{7\\times 6}{2} = \\boxed{21}.$$ \n",
+        "**Step 1: Understand the notation.**\nThe notation $\\binom{7}{2}$ represents the binomial coefficient, which is read as \"7 choose 2\". It calculates the number of ways to choose 2 items from a set of 7 items.\n**Step 2: Use the formula.**\nThe formula for the binomial coefficient is:\n  $$\\binom{n}{k} = \\frac{n!}{k!(n-k)!}$$\nWhere:\n* $n$ is the total number of items\n* $k$ is the number of items being chosen\n**Step 3: Plug in the values.**\nIn this case, we have $n = 7$ and $k = 2$. So, we get:\n$$\\binom{7}{2} = \\frac{7!}{2!(7-2)!}$$\n**Step 4: Calculate the factorials.**\n* $7! = 7 \\times 6 \\times 5 \\times 4 \\times 3 \\times 2 \\times 1 = 5040$\n* $2! = 2 \\times 1 = 2$\n* $5! = 5 \\times 4 \\times 3 \\times 2 \\times 1 = 120$\n**Step 5: Substitute and simplify.**\n$$\\binom{7}{2} = \\frac{5040}{2 \\times 120} = \\frac{5040}{240} = 21$$\n**Therefore, $\\binom{7}{2} = 21$.** \n",
+        "**Step 1: Recall the binomial coefficient formula**\nThe binomial coefficient $\\binom{n}{k}$ is calculated as:\n$$\\binom{n}{k} = \\frac{n!}{k!(n-k)!}$$\n**Step 2: Apply the formula to our problem**\nIn this case, we have $n = 7$ and $k = 2$.  Substituting into the formula, we get:\n$$\\binom{7}{2} = \\frac{7!}{2!(7-2)!}$$\n**Step 3: Simplify the factorials**\n* $7! = 7 \\times 6 \\times 5 \\times 4 \\times 3 \\times 2 \\times 1$\n* $2! = 2 \\times 1$\n* $5! = 5 \\times 4 \\times 3 \\times 2 \\times 1$\n**Step 4: Calculate the result**\n$$\\binom{7}{2} = \\frac{7 \\times 6 \\times 5 \\times 4 \\times 3 \\times 2 \\times 1}{(2 \\times 1)(5 \\times 4 \\times 3 \\times 2 \\times 1)}$$\nSimplifying, we get:\n$$\\binom{7}{2} = \\frac{7 \\times 6}{2 \\times 1} = \\frac{42}{2} = \\boxed{21}$$ \n"
+    ],
+    "pred_answers": "21",
+    "final_pred_answer": [
+        "21",
+        "21",
+        "21",
+        "21",
+        "21"
+    ],
+    "ground_truth": "21"
+}

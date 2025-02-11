@@ -1,0 +1,23 @@
+{
+    "problem": "Simplify: $\\displaystyle \\frac{\\frac 12\\times 1024}{0.125\\times 2^{12}}$.",
+    "level": "Level 1",
+    "type": "Algebra",
+    "solution": "Each number in the expression equals 2 raised to an integer power, so we can use the laws of exponents to simplify the expression: \\[\\displaystyle \\frac{\\frac 12\\times 1024}{0.125\\times 2^{12}} = \\frac{2^{-1} \\times 2^{10}}{2^{-3}\\times 2^{12}} = \\frac{2^{-1+10}}{2^{-3+12}} = \\frac{2^9}{2^9} = \\boxed{1}.\\]",
+    "prompt": "### Instruction: Simplify: $\\displaystyle \\frac{\\frac 12\\times 1024}{0.125\\times 2^{12}}$.\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "Here's how to simplify the expression step-by-step:\n**1. Simplify the numerator:**\n*  (1/2) * 1024 = 512\n**2. Simplify the denominator:**\n* 0.125 = 1/8\n* 2^12 = 4096\n* (1/8) * 4096 = 512\n**3. Divide the simplified numerator by the simplified denominator:**\n* 512 / 512 = 1\n**Therefore, the simplified expression is 1.** \n",
+        "**Step 1: Simplify the numerator.**\n*  $\\frac{1}{2} \\times 1024 = 512$ \n**Step 2: Simplify the denominator.**\n*  $0.125 = \\frac{1}{8}$\n*  $2^{12} = 4096$\n*  $\\frac{1}{8} \\times 4096 = 512$\n**Step 3: Divide the simplified numerator by the simplified denominator.**\n*  $\\frac{512}{512} = \\boxed{1}$ \n",
+        "Here's how to simplify the expression step by step:\n1. **Simplify the numerator:** \n   *  (1/2) * 1024 = 512\n2. **Simplify the denominator:**\n   * 0.125 = 1/8\n   * 2^12 = 4096\n   * (1/8) * 4096 = 512\n3. **Divide the numerator by the denominator:**\n   * 512 / 512 = 1\n**Therefore, the simplified expression is 1.** \n",
+        "Here's how to simplify the expression step by step:\n**1. Simplify the numerator:**\n* $\\frac{1}{2} \\times 1024 = 512$ \n**2. Simplify the denominator:**\n* $0.125 = \\frac{1}{8}$ \n* $2^{12} = 4096$\n*  $\\frac{1}{8} \\times 4096 = 512$\n**3. Divide the numerator by the denominator:**\n* $\\frac{512}{512} = \\boxed{1}$ \n",
+        "Here's how to simplify the expression step-by-step:\n1. **Simplify the numerator:**\n   *  (1/2) * 1024 = 512\n2. **Simplify the denominator:**\n   * 0.125 = 1/8\n   * 2^12 = 4096\n   * (1/8) * 4096 = 512\n3. **Divide the simplified numerator and denominator:**\n   * 512 / 512 = 1\nTherefore, the simplified expression is **1**. \n"
+    ],
+    "pred_answers": "1",
+    "final_pred_answer": [
+        "1",
+        "1",
+        "1",
+        "1",
+        "1"
+    ],
+    "ground_truth": "1"
+}

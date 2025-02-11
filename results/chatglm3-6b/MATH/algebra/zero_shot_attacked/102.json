@@ -1,0 +1,41 @@
+{
+    "index_adversarial_question": 2,
+    "problem": "What is 50$\\%$ of $\\frac{1}{3}$ of 36?",
+    "pcot_answer": "# Define the total number for the calculation\ntotal_number = 36  ### condition: 'total_number': {'type': 'int', '<=': None, '>=': 0, 'science_constant': False, 'direct_from_question': True}\n# Define the fraction to calculate (1/3)\nfraction = 1/3  ### condition: 'fraction': {'type': 'float', '<=': None, '>=': 0, 'science_constant': False, 'direct_from_question': True}\n# Calculate one third of the total number\none_third_of_total = total_number * fraction  ### condition: 'one_third_of_total': {'type': 'float', '<=': None, '>=': 0, 'science_constant': False, 'direct_from_question': False}\n# Define the percentage to calculate (50%)\npercentage = 0.75 ### condition: 'percentage': {'type': 'float', '<=': None, '>=': 0, 'science_constant': False, 'direct_from_question': True}\n# Calculate 50% of one third of the total number\nresult = one_third_of_total * percentage  ### condition: 'result': {'type': 'float', '<=': None, '>=': 0, 'science_constant': False, 'direct_from_question': False}\n# Print the result\nprint(f\"50% of 1/3 of 36 is: {result}\")",
+    "answer": "9",
+    "vllm_responses": [
+        " To find 50$\\%$ of $\\frac{1}{3}$ of 36, we need to multiply 36 by 50$\\%$, and then multiply the result by $\\frac{1}{3}$.\n50$\\%$ of 36 is $\\frac{50}{100} \\cdot 36 = \\frac{1}{2} \\cdot 36 = 18$.\nNow, we need to multiply 18 by $\\frac{1}{3}$:\n18 $\\times \\frac{1}{3} = \\frac{18}{3} = \\boxed{6}$.\nSo, 50$\\%$ of $\\frac{1}{3}$ of 36 is 6.The answer is: 6",
+        " First, we calculate $\\frac{1}{3}$ of 36, which is $\\frac{1}{3} \\cdot 36 = 12$.\nThen, we calculate 50$\\%$ of 12, which is $0.5 \\cdot 12 = 6$.\nTherefore, 50$\\%$ of $\\frac{1}{3}$ of 36 is 6.",
+        "\nFirst, we find 50% of 36. To do this, we multiply 36 by 0.50. \nLet's calculate:\n36 * 0.50 = 18\nNow, we find 1/3 of 36. To do this, we multiply 36 by 1/3. \nLet's calculate:\n36 * 1/3 = 12\nFinally, we multiply the result of the previous step with 50% to find 50% of $\\frac{1}{3}$ of 36. \nLet's calculate:\n18 * 0.50 = 9\nFrom this, we can see that 50% of $\\frac{1}{3}$ of 36 is equal to 9.",
+        "\nFirst, calculate $\\frac{1}{3}$ of 36.\n$$\\frac{1}{3} \\times 36 = 12$$\nNext, calculate 50% of 12.\n$$0.5 \\times 12 = 6$$\nSo, 50% of $\\frac{1}{3}$ of 36 is 6.",
+        " To find 50$\\%$ of $\\frac{1}{3}$ of 36, we can multiply 36 by $\\frac{1}{3}$ and then multiply the result by 50$\\%$.\n Step 1: Multiply 36 by $\\frac{1}{3}$. \n$\\frac{1}{3} \\cdot 36 = 12$\n Step 2: Multiply the result by 50$\\%$. \n$12 \\cdot 50\\% = 6$\n Thought: The result of 50$\\%$ of $\\frac{1}{3}$ of 36 is 6.",
+        "\nTo find 50$\\%$ of a number, we multiply the number by 0.5.\nTo find $\\frac{1}{3}$ of a number, we divide the number by 3.\nSo, to find 50$\\%$ of $\\frac{1}{3}$ of 36, we first divide 36 by 3 to get 12.\nThen, we multiply 12 by 0.5 to get 6.\nTherefore, 50$\\%$ of $\\frac{1}{3}$ of 36 is 6.\nThe answer is: 6",
+        " To find 50% of a number, we multiply the number by 0.5. To find 1/3 of a number, we divide the number by 3. So to find 50% of 1/3 of 36, we first divide 36 by 3 to get 12. Then we multiply 12 by 0.5 to get 6.\nSo, 50% of 1/3 of 36 is 6.\n#### 6\nThe answer is: 6",
+        " \nTo find 50$\\%$ of $\\frac{1}{3}$ of 36, we need to calculate:\n(50\\% of $\\frac{1}{3}$) $\\times$ 36\nFirst, we need to convert 50$\\%$ to a decimal by dividing it by 100:\n50\\% \u00f7 100 = 0.5\nNow we can substitute the values into the formula:\n0.5 $\\times$ $\\frac{1}{3}$ $\\times$ 36\nNext, we need to calculate $\\frac{1}{3}$ of 36:\n$\\frac{1}{3}$ $\\times$ 36 = 12\nNow we can substitute this value back into the formula:\n0.5 $\\times$ 12 $\\times$ 36\nFinally, we can calculate the product:\n0.5 $\\times$ 12 $\\times$ 36 = 36\nTherefore, 50$\\%$ of $\\frac{1}{3}$ of 36 is equal to 36.",
+        "\nFirst, let\u2019s find $\\frac{1}{3}$ of 36. We multiply 36 by $\\frac{1}{3}$:\n$\\frac{1}{3} \\times 36 = 12$\nNow, we'll find 50% of 12. We multiply 12 by 0.5:\n$0.5 \\times 12 = 6$\nSo, 50$\\%$ of $\\frac{1}{3}$ of 36 is 6.",
+        " Here's a step by step breakdown:\nTo find 50% of $\\frac{1}{3}$ of 36, we first calculate $\\frac{1}{3}$ of 36:\n$\\frac{1}{3} \\times 36 = 12$\nNext, we calculate 50% of 12:\n$0.5 \\times 12 = 6$\nSo, 50% of $\\frac{1}{3}$ of 36 is 6.\nThe answer is: 6",
+        "\nFirst, we find 50$\\%$ of 36, which is $\\frac{50}{100} \\cdot 36$.\nSimplifying the fraction, we get $\\frac{1}{2} \\cdot 36 = 18$.\nNext, we find 1$/3$ of 36, which is $\\frac{1}{3} \\cdot 36$.\nDividing 36 by 3, we get 12$.\nFinally, we find 50$\\%$ of 12, which is $\\frac{50}{100} \\cdot 12$.\nMultiplying 12 by $\\frac{1}{2}$, we get 6.\nSo, 50$\\%$ of $\\frac{1}{3}$ of 36 is equal to 6.",
+        " To find 50% of 1/3 of 36, we first find 1/3 of 36 and then multiply by 50%.\nThe value of 1/3 of 36 is 36/3 = 12.\nNext, we multiply 12 by 50% or 0.5 to get 12 * 0.5 = 6.\nSo, 50% of 1/3 of 36 is 6.\nThe answer is: 6",
+        "\nStep 1: Calculate 50% of 36.\nTo find 50% of 36, we need to multiply 36 by 0.5:\n0.5 \\* 36 = 18\nNow we are left with 18.\nStep 2: Calculate 1/3 of 36.\nTo find 1/3 of 36, we need to multiply 36 by 1/3:\n1/3 \\* 36 = 12\nNow we are left with 12.\nStep 3: Multiply the results from the previous step.\nTo find 50% of 1/3 of 36, we need to multiply 18 by 12:\n18 \\* 12 = 216\nThe answer is: 216",
+        "\n1. Calculate $\\frac{1}{3}$ of 36.\n2. Multiply the result by 50%.\n3. Simplify the expression if necessary.\nCalculation:\n1. $\\frac{1}{3}$ of 36 is 12.\n2. Multiplying 12 by 50% (which is equivalent to $\\frac{50}{100}$ or $\\frac{1}{2}$), we get:\n$\\frac{1}{2} \\times 12 = 6$\n3. The simplified expression is 6.\nTherefore, 50$\\%$ of $\\frac{1}{3}$ of 36 is $\\boxed{6}$.",
+        " To find 50% of $\\frac{1}{3}$ of 36, we multiply 36 by 50% (or 0.5) and then take $\\frac{1}{3}$ of the result.\nSo, 50% of 36 is equal to 0.5 * 36 = 18.\nNext, we take 18 and divide it by 3 to get $\\frac{1}{3}$ of 18, which is equal to 18/3 = 6.\nFinally, we calculate 18% of 18 by multiplying 18 by 0.1, which gives us 1.8.\nTherefore, 50% of $\\frac{1}{3}$ of 36 is equal to 1.8."
+    ],
+    "vllm_answers": [
+        "6",
+        "6",
+        "9",
+        "6",
+        "6",
+        "6",
+        "6",
+        "36",
+        "6",
+        "6",
+        "6",
+        "6",
+        "216",
+        "6",
+        "1.8"
+    ],
+    "vllm_pred_answer": "6"
+}

@@ -1,0 +1,23 @@
+{
+    "problem": "Given x = 3 and y = 2, find the value of the expression $\\frac{4x^2}{9y^2}$",
+    "level": "Level 1",
+    "type": "Algebra",
+    "solution": "We substitute the values for $x$ and $y$ into the expression and get $$\\frac{4(3)^2}{9(2)^2}=\\frac{4\\cdot9}{9\\cdot4}=\\boxed{1}.$$",
+    "prompt": "### Instruction: Given x = 3 and y = 2, find the value of the expression $\\frac{4x^2}{9y^2}$\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "To find the value of the expression \\(\\frac{4x^2}{9y^2}\\), we will first substitute the given values of \\(x\\) and \\(y\\).\n1. **Identify the values**: \n   - \\(x = 3\\)\n   - \\(y = 2\\)\n2. **Calculate \\(x^2\\) and \\(y^2\\)**:\n   - \\(x^2 = 3^2 = 9\\)\n   - \\(y^2 = 2^2 = 4\\)\n3. **Substitute \\(x^2\\) and \\(y^2\\) into the expression**:\n   \\[\n   \\frac{4x^2}{9y^2} = \\frac{4 \\cdot 9}{9 \\cdot 4}\n   \\]\n4. **Simplify the expression**:\n   - The numerator is \\(4 \\cdot 9 = 36\\).\n   - The denominator is \\(9 \\cdot 4 = 36\\).\n   \n   Therefore, we have:\n   \\[\n   \\frac{36}{36} = 1\n   \\]\nThe value of the expression \\(\\frac{4x^2}{9y^2}\\) when \\(x = 3\\) and \\(y = 2\\) is \\(\\boxed{1}\\).",
+        "To find the value of the expression \\(\\frac{4x^2}{9y^2}\\) given the values \\(x = 3\\) and \\(y = 2\\), we will follow these steps:\n1. **Substitute the values of \\(x\\) and \\(y\\)**:\n   \\[\n   x = 3 \\quad \\text{and} \\quad y = 2\n   \\]\n2. **Calculate \\(x^2\\)** and \\(y^2\\)**:\n   \\[\n   x^2 = 3^2 = 9\n   \\]\n   \\[\n   y^2 = 2^2 = 4\n   \\]\n3. **Substitute \\(x^2\\) and \\(y^2\\) into the expression**:\n   \\[\n   \\frac{4x^2}{9y^2} = \\frac{4 \\cdot 9}{9 \\cdot 4}\n   \\]\n4. **Simplify the expression**:\n   \\[\n   \\frac{4 \\cdot 9}{9 \\cdot 4} = \\frac{36}{36} = 1\n   \\]\nThus, the value of the expression \\(\\frac{4x^2}{9y^2}\\) is \\(\\boxed{1}\\).",
+        "To find the value of the expression \\( \\frac{4x^2}{9y^2} \\) given \\( x = 3 \\) and \\( y = 2 \\), we'll follow these steps:\n1. **Calculate \\( x^2 \\)**: \n   \\[\n   x^2 = 3^2 = 9\n   \\]\n2. **Calculate \\( y^2 \\)**:\n   \\[\n   y^2 = 2^2 = 4\n   \\]\n3. **Substitute \\( x^2 \\) and \\( y^2 \\) back into the expression**:\n   \\[\n   \\frac{4x^2}{9y^2} = \\frac{4 \\cdot 9}{9 \\cdot 4}\n   \\]\n4. **Simplify the expression**:\n   - The numerator becomes \\( 4 \\cdot 9 = 36 \\).\n   - The denominator becomes \\( 9 \\cdot 4 = 36 \\).\n   \\[\n   \\frac{36}{36} = 1\n   \\]\nThus, the value of the expression \\( \\frac{4x^2}{9y^2} \\) is \\( \\boxed{1} \\).",
+        "To evaluate the expression \\(\\frac{4x^2}{9y^2}\\) given that \\(x = 3\\) and \\(y = 2\\), we can follow these steps:\n1. **Substitute Values**: Start by substituting \\(x\\) and \\(y\\) into the expression.\n   \\[\n   \\frac{4(3)^2}{9(2)^2}\n   \\]\n2. **Calculate \\(x^2\\) and \\(y^2\\)**:\n   - \\(x^2 = 3^2 = 9\\)\n   - \\(y^2 = 2^2 = 4\\)\n3. **Substitute Squared Values**:\n   \\[\n   \\frac{4(9)}{9(4)}\n   \\]\n4. **Multiply the Numerator and Denominator**:\n   - Numerator: \\(4 \\times 9 = 36\\)\n   - Denominator: \\(9 \\times 4 = 36\\)\n5. **Write the New Expression**:\n   \\[\n   \\frac{36}{36}\n   \\]\n6. **Simplify**:\n   \\[\n   \\frac{36}{36} = 1\n   \\]\nThus, the value of the expression \\(\\frac{4x^2}{9y^2}\\) is \\(\\boxed{1}\\).",
+        "To find the value of the expression \\(\\frac{4x^2}{9y^2}\\) given \\(x = 3\\) and \\(y = 2\\), we can follow these steps:\n1. **Substitute the values of \\(x\\) and \\(y\\)** into the expression.\n   \\[\n   \\frac{4(3)^2}{9(2)^2}\n   \\]\n2. **Calculate \\(x^2\\) and \\(y^2\\)**:\n   - \\(x^2 = 3^2 = 9\\)\n   - \\(y^2 = 2^2 = 4\\)\n3. **Substitute these values back into the expression**:\n   \\[\n   \\frac{4(9)}{9(4)}\n   \\]\n4. **Calculate the numerator and denominator**:\n   - The numerator is \\(4 \\times 9 = 36\\)\n   - The denominator is \\(9 \\times 4 = 36\\)\n5. **Now, we have**:\n   \\[\n   \\frac{36}{36}\n   \\]\n6. **Simplifying the fraction** gives us:\n   \\[\n   1\n   \\]\nThus, the value of the expression \\(\\frac{4x^2}{9y^2}\\) when \\(x = 3\\) and \\(y = 2\\) is \\(\\boxed{1}\\)."
+    ],
+    "pred_answers": "1",
+    "final_pred_answer": [
+        "1",
+        "1",
+        "1",
+        "1",
+        "1"
+    ],
+    "ground_truth": "1"
+}

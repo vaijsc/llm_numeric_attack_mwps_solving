@@ -1,0 +1,23 @@
+{
+    "problem": "Expand $(x+3)(2x-6)$.",
+    "level": "Level 2",
+    "type": "Algebra",
+    "solution": "Factoring a $2$ out of the second term gives $2(x+3)(x-3)=2(x^2-3^2)=\\boxed{2x^2-18}$.",
+    "prompt": "### Instruction: Expand $(x+3)(2x-6)$.\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "To expand the expression \\((x + 3)(2x - 6)\\), we can use the distributive property (also known as the FOIL method for binomials). This involves multiplying each term in the first binomial by each term in the second binomial.\nHere are the steps:\n1. **Distribute \\(x\\)** from the first binomial:\n   - \\(x \\cdot 2x = 2x^2\\)\n   - \\(x \\cdot (-6) = -6x\\)\n2. **Distribute \\(3\\)** from the first binomial:\n   - \\(3 \\cdot 2x = 6x\\)\n   - \\(3 \\cdot (-6) = -18\\)\n3. **Combine all the results**:\n   \\[\n   2x^2 - 6x + 6x - 18\n   \\]\n4. **Combine like terms** (the \\(-6x\\) and \\(6x\\) cancel each other out):\n   \\[\n   2x^2 - 18\n   \\]\nSo, the expanded form of \\((x + 3)(2x - 6)\\) is:\n\\[\n\\boxed{2x^2 - 18}\n\\]",
+        "To expand the expression \\((x+3)(2x-6)\\), we will use the distributive property, also known as the FOIL method (First, Outside, Inside, Last).\n1. **First**: Multiply the first terms of each binomial:\n   \\[\n   x \\cdot 2x = 2x^2\n   \\]\n2. **Outside**: Multiply the outer terms:\n   \\[\n   x \\cdot (-6) = -6x\n   \\]\n3. **Inside**: Multiply the inner terms:\n   \\[\n   3 \\cdot 2x = 6x\n   \\]\n4. **Last**: Multiply the last terms of each binomial:\n   \\[\n   3 \\cdot (-6) = -18\n   \\]\nNow, we combine all these results together:\n\\[\n2x^2 - 6x + 6x - 18\n\\]\nNext, combine the like terms (\\(-6x\\) and \\(6x\\)):\n\\[\n-6x + 6x = 0\n\\]\nThus, the expression simplifies to:\n\\[\n2x^2 - 18\n\\]\nFinally, we can write the expanded form of \\((x+3)(2x-6)\\) as:\n\\[\n\\boxed{2x^2 - 18}\n\\]",
+        "To expand the expression \\((x+3)(2x-6)\\), we'll use the distributive property, also known as the FOIL method (First, Outside, Inside, Last) for binomials. \nFollow these steps:\n1. **First**: Multiply the first terms in each binomial:\n   \\[\n   x \\cdot 2x = 2x^2\n   \\]\n2. **Outside**: Multiply the outer terms:\n   \\[\n   x \\cdot (-6) = -6x\n   \\]\n3. **Inside**: Multiply the inner terms:\n   \\[\n   3 \\cdot 2x = 6x\n   \\]\n4. **Last**: Multiply the last terms in each binomial:\n   \\[\n   3 \\cdot (-6) = -18\n   \\]\nNow, combine all these results:\n\\[\n2x^2 - 6x + 6x - 18\n\\]\nNext, combine the like terms \\(-6x\\) and \\(6x\\):\n\\[\n2x^2 + 0x - 18\n\\]\nThis simplifies to:\n\\[\n2x^2 - 18\n\\]\nThus, the expanded form of \\((x+3)(2x-6)\\) is:\n\\[\n\\boxed{2x^2 - 18}\n\\]",
+        "To expand the expression \\((x+3)(2x-6)\\), we can use the distributive property, also known as the FOIL method for binomials. Let's break it down step by step:\n1. **Identify the terms**: We have two binomials:\n   - First binomial: \\(x + 3\\)\n   - Second binomial: \\(2x - 6\\)\n2. **Use the distributive property**: We will multiply each term in the first binomial by each term in the second binomial.\n   \\[\n   (x + 3)(2x - 6) = x(2x) + x(-6) + 3(2x) + 3(-6)\n   \\]\n3. **Multiply each term**:\n   - First: \\(x \\cdot 2x = 2x^2\\)\n   - Outer: \\(x \\cdot -6 = -6x\\)\n   - Inner: \\(3 \\cdot 2x = 6x\\)\n   - Last: \\(3 \\cdot -6 = -18\\)\n4. **Combine the results**:\n   \\[\n   2x^2 - 6x + 6x - 18\n   \\]\n5. **Simplify**:\n   The \\(-6x\\) and \\(6x\\) cancel each other out:\n   \\[\n   2x^2 - 18\n   \\]\nThus, the expanded form of \\((x+3)(2x-6)\\) is:\n\\[\n\\boxed{2x^2 - 18}\n\\]",
+        "To expand the expression \\((x+3)(2x-6)\\), we'll use the distributive property, often referred to as the FOIL method for binomials (First, Outer, Inner, Last).\n1. **First**: Multiply the first terms in each binomial:\n   \\[\n   x \\cdot 2x = 2x^2\n   \\]\n2. **Outer**: Multiply the outer terms in the product:\n   \\[\n   x \\cdot (-6) = -6x\n   \\]\n3. **Inner**: Multiply the inner terms:\n   \\[\n   3 \\cdot 2x = 6x\n   \\]\n4. **Last**: Multiply the last terms in each binomial:\n   \\[\n   3 \\cdot (-6) = -18\n   \\]\nNow, let's combine all these results:\n\\[\n2x^2 - 6x + 6x - 18\n\\]\nNext, we combine the like terms \\(-6x\\) and \\(6x\\):\n\\[\n2x^2 + 0x - 18\n\\]\nSince \\(0x\\) is just zero, we can simplify further:\n\\[\n2x^2 - 18\n\\]\nThus, the expanded form of \\((x+3)(2x-6)\\) is:\n\\[\n\\boxed{2x^2 - 18}\n\\]"
+    ],
+    "pred_answers": "18",
+    "final_pred_answer": [
+        "18",
+        "18",
+        "18",
+        "18",
+        "18"
+    ],
+    "ground_truth": "-18"
+}

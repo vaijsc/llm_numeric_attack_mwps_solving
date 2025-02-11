@@ -1,0 +1,23 @@
+{
+    "problem": "What is the number of units in the distance from the origin to the point $(-8,6)$ in a coordinate system?",
+    "level": "Level 2",
+    "type": "Algebra",
+    "solution": "We use the distance formula: $\\sqrt{(-8 - 0)^2 + (6 - 0)^2} = \\sqrt{64 + 36} = \\boxed{10}$.\n\n- OR -\n\nWe note that the origin, the point $(-8, 6)$, and the point $(-8, 0)$ form a right triangle with legs of length 6 and 8. This is a Pythagorean triple, so the length of the hypotenuse must be $\\boxed{10}$.",
+    "prompt": "### Instruction: What is the number of units in the distance from the origin to the point $(-8,6)$ in a coordinate system?\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "The distance from the origin (0, 0) to a point (x, y) can be found using the distance formula, which is derived from the Pythagorean theorem:\nDistance = \u221a(x\u00b2 + y\u00b2)\nIn this case, the point is (-8, 6). So:\nDistance = \u221a((-8)\u00b2 + (6)\u00b2)\nDistance = \u221a(64 + 36)\nDistance = \u221a100\nDistance = 10\nTherefore, the distance from the origin to the point (-8, 6) is **10 units**. \n",
+        "Here's how to find the distance from the origin (0, 0) to the point (-8, 6):\n**1. Visualize the Problem**\nImagine a right triangle where:\n* The origin (0, 0) is one corner.\n* The point (-8, 6) is another corner.\n* The third corner is directly below (-8, 6) on the x-axis at the point (-8, 0).\n**2.  Find the Lengths of the Triangle's Sides**\n* The horizontal side (along the x-axis) has a length of 8 units (from 0 to -8).\n* The vertical side (along the y-axis) has a length of 6 units (from 0 to 6).\n**3. Use the Pythagorean Theorem**\nThe distance from the origin to the point is the hypotenuse of this right triangle.  The Pythagorean Theorem states:\n* a\u00b2 + b\u00b2 = c\u00b2\nWhere:\n* a and b are the lengths of the legs of the right triangle\n* c is the length of the hypotenuse (the distance we want to find)\n**4. Calculate**\n*  8\u00b2 + 6\u00b2 = c\u00b2\n*  64 + 36 = c\u00b2\n*  100 = c\u00b2\n*  c = \u221a100 \n*  c = 10\n**Answer:** The distance from the origin to the point (-8, 6) is **10 units**. \n",
+        "Here's how to find the distance from the origin (0,0) to the point (-8, 6):\n**1. Visualize:**\nImagine a right triangle where:\n* The origin (0, 0) is one vertex.\n* The point (-8, 6) is another vertex.\n* The third vertex is at (-8, 0) (directly below the point (-8, 6)).\n**2.  Identify the Sides:**\n* **Horizontal leg:** The distance from (0, 0) to (-8, 0) is 8 units.\n* **Vertical leg:** The distance from (-8, 0) to (-8, 6) is 6 units.\n* **Hypotenuse:** The distance from (0, 0) to (-8, 6) is the hypotenuse we want to find.\n**3. Use the Pythagorean Theorem:**\nThe Pythagorean Theorem states: a\u00b2 + b\u00b2 = c\u00b2 \nwhere:\n* a and b are the lengths of the legs of a right triangle\n* c is the length of the hypotenuse\n**4. Apply the Theorem:**\n* a = 8\n* b = 6\n* c = the distance we're looking for\nSo, 8\u00b2 + 6\u00b2 = c\u00b2\n* 64 + 36 = c\u00b2\n* 100 = c\u00b2\n* c = \u221a100 = 10\n**Answer:** The distance from the origin to the point (-8, 6) is **10 units**. \n",
+        "The distance from the origin (0,0) to a point (x,y) can be found using the distance formula, which is derived from the Pythagorean theorem:\nDistance = \u221a(x\u00b2 + y\u00b2)\nIn this case, our point is (-8, 6). Let's plug in the values:\nDistance = \u221a((-8)\u00b2 + (6)\u00b2)\nDistance = \u221a(64 + 36)\nDistance = \u221a100\nDistance = 10\nTherefore, the distance from the origin to the point (-8, 6) is **10 units**. \n",
+        "Here's how to find the distance from the origin (0, 0) to the point (-8, 6):\n**1. Visualize the Problem:**\nImagine a right triangle where:\n* The origin (0, 0) is one corner.\n* The point (-8, 6) is the opposite corner.\n* The horizontal and vertical lines from (-8, 6) to the axes form the legs of the triangle.\n**2. Use the Pythagorean Theorem:**\n* The distance from the origin to (-8, 6) is the hypotenuse of this triangle.\n* The legs of the triangle have lengths 8 (horizontal distance) and 6 (vertical distance).\nThe Pythagorean Theorem states: a\u00b2 + b\u00b2 = c\u00b2 \n* Where 'a' and 'b' are the lengths of the legs, and 'c' is the length of the hypotenuse.\n**3. Calculate:**\n* a = 8\n* b = 6\n* 8\u00b2 + 6\u00b2 = c\u00b2\n* 64 + 36 = c\u00b2\n* 100 = c\u00b2\n* c = \u221a100 = 10\n**Therefore, the distance from the origin to the point (-8, 6) is 10 units.** \n"
+    ],
+    "pred_answers": "10",
+    "final_pred_answer": [
+        "10",
+        "-8",
+        "-8",
+        "10",
+        "10"
+    ],
+    "ground_truth": "10"
+}

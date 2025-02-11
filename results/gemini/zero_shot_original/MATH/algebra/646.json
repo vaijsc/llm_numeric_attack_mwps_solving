@@ -1,0 +1,23 @@
+{
+    "problem": "Find the positive difference between the solutions for $|x + 3| = 6$.",
+    "level": "Level 3",
+    "type": "Algebra",
+    "solution": "We could solve the equation by noting that we must have $x+3 = 6$ or $x+3 = -6$, so $x=3$ or $x=-9$.  Or, we could be a little crafty and write the equation as $|x-(-3)| = 6$, which tells us that $x$ is 6 away from $-3$ on the number line.  This means that $x$ is $-9$ or 3.  Either way, the positive difference between the solutions is $3-(-9) = \\boxed{12}$.",
+    "prompt": "### Instruction: Find the positive difference between the solutions for $|x + 3| = 6$.\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "Here's how to solve the problem step-by-step:\n**1. Understand Absolute Value**\nThe absolute value of a number is its distance from zero. So,  |x + 3| = 6 means:\n*  x + 3 = 6   (if x + 3 is positive)\n*  x + 3 = -6  (if x + 3 is negative)\n**2. Solve for x in each case**\n* **Case 1:** x + 3 = 6\n   *  Subtract 3 from both sides:  x = 3\n* **Case 2:** x + 3 = -6\n   * Subtract 3 from both sides: x = -9\n**3. Find the Positive Difference**\nThe solutions are x = 3 and x = -9. The positive difference between them is:\n3 - (-9) = 3 + 9 = 12\n**Answer:** The positive difference between the solutions is **12**. \n",
+        "Here's how to find the positive difference between the solutions:\n**1. Understand Absolute Value:**\n* The absolute value of a number is its distance from zero.  So, |x| represents the distance of 'x' from zero.\n* This means there are two possibilities when we have an equation like |x + 3| = 6:\n    *  x + 3 = 6  (The expression inside the absolute value is positive)\n    *  x + 3 = -6 (The expression inside the absolute value is negative)\n**2. Solve the Equations:**\n* **Case 1:** x + 3 = 6\n   * Subtract 3 from both sides:  x = 3\n* **Case 2:** x + 3 = -6\n   * Subtract 3 from both sides:  x = -9\n**3. Find the Difference:**\n* The two solutions are 3 and -9.\n* The positive difference between them is 3 - (-9) = 12.\n**Answer:** The positive difference between the solutions for |x + 3| = 6 is **12**. \n",
+        "Here's how to solve the problem step-by-step:\n**1. Understand Absolute Value**\nThe absolute value of a number is its distance from zero.  So,  |x| = 3 means that x is either 3 units to the right of zero (x = 3) or 3 units to the left of zero (x = -3).\n**2. Solve for x**\n* **Case 1: x + 3 = 6**\n   Subtract 3 from both sides: \n   x = 3\n* **Case 2: x + 3 = -6**\n   Subtract 3 from both sides:\n   x = -9\n**3. Find the Difference**\nThe two solutions are 3 and -9.  The positive difference between them is:\n3 - (-9) = 3 + 9 = 12\n**Answer:** The positive difference between the solutions is **12**. \n",
+        "Here's how to find the positive difference between the solutions for |x + 3| = 6:\n**1. Understand Absolute Value**\nThe absolute value of a number is its distance from zero, always positive. So,  |x + 3| = 6 means:\n*  x + 3 = 6  \n*  x + 3 = -6\n**2. Solve for x**\n* **Case 1:**  x + 3 = 6  \n   Subtracting 3 from both sides gives: x = 3\n* **Case 2:** x + 3 = -6\n   Subtracting 3 from both sides gives: x = -9\n**3. Find the Difference**\nThe two solutions are x = 3 and x = -9.  The positive difference between them is:\n3 - (-9) = 12\n**Answer:** The positive difference between the solutions is **12**. \n",
+        "Here's how to solve the problem step-by-step:\n1. **Understand Absolute Value:** The absolute value of a number is its distance from zero.  So,  |x + 3| = 6 means that the expression (x + 3) is either 6 units away from zero in the positive direction or 6 units away from zero in the negative direction.\n2. **Set up Two Equations:** This gives us two separate equations to solve:\n   *  x + 3 = 6\n   *  x + 3 = -6\n3. **Solve for x in Each Equation:**\n   *  x + 3 = 6  => x = 3\n   *  x + 3 = -6 => x = -9\n4. **Find the Difference:** The solutions are x = 3 and x = -9.  The positive difference between these solutions is:\n   * 3 - (-9) = 12\n**Therefore, the positive difference between the solutions for |x + 3| = 6 is 12.** \n"
+    ],
+    "pred_answers": "12",
+    "final_pred_answer": [
+        "12",
+        "3",
+        "12",
+        "12",
+        "12"
+    ],
+    "ground_truth": "12"
+}

@@ -1,0 +1,23 @@
+{
+    "problem": "If Wonder Woman can capture 6 criminals in an hour, how many can she capture in $4\\frac{1}{2}$ hours?",
+    "level": "Level 1",
+    "type": "Algebra",
+    "solution": "To find the number of criminals that Wonder Woman can capture in $4 \\frac{1}{2}$ hours, we multiply how many criminals she can capture per hour by the number of hours she spends capturing criminals. Thus, she can capture $6 \\cdot (4 \\frac{1}{2})=6 \\cdot \\frac{9}{2} = \\boxed{27}$ criminals in $4 \\frac{1}{2}$ hours.",
+    "prompt": "### Instruction: If Wonder Woman can capture 6 criminals in an hour, how many can she capture in $4\\frac{1}{2}$ hours?\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "Here's how to solve the problem:\n* **Find the number of criminals captured per half hour:** Wonder Woman captures 6 criminals in 1 hour (60 minutes), so in half an hour (30 minutes), she would capture 6/2 = 3 criminals.\n* **Calculate the total number of criminals captured in 4.5 hours:** Since there are 9 half hours in 4.5 hours (4.5 x 2 = 9), she can capture 9 x 3 = 27 criminals.\n**Answer:** Wonder Woman can capture 27 criminals in 4.5 hours. \n",
+        "Here's how to solve this problem:\n**1. Convert the mixed number to a fraction:**\n*  4 1/2 hours is the same as (4 * 2 + 1) / 2 = 9/2 hours\n**2. Set up a proportion:**\n* We know Wonder Woman captures 6 criminals in 1 hour.  Let \"x\" represent the number of criminals she can capture in 9/2 hours. This can be written as a proportion: \n   * 6 criminals / 1 hour = x criminals / (9/2) hours\n**3. Solve for x:**\n* To solve for x, we can cross-multiply:\n    * 6 * (9/2) = x * 1\n    * 27 = x\n**Answer:** Wonder Woman can capture **27** criminals in 4 1/2 hours. \n",
+        "Here's how to solve this problem:\n**1. Convert the mixed number to a fraction:**\n*  4 1/2 hours is the same as (4 * 2 + 1) / 2 = 9/2 hours\n**2. Calculate criminals captured per half hour:**\n* Wonder Woman captures 6 criminals in 1 hour (2 half hours).\n* So, she captures 6 / 2 = 3 criminals in half an hour.\n**3. Calculate criminals captured in 9/2 hours:**\n* Since she captures 3 criminals every half hour, in 9/2 hours she would capture (9/2) * 3 = 13.5 criminals.\n**4.  Answer:**\n*  Wonder Woman can capture **13.5 criminals** in 4 1/2 hours. \n",
+        "Here's how to solve this problem step-by-step:\n* **Convert mixed number to a fraction:** 4 1/2 hours is the same as 9/2 hours.\n* **Set up a proportion:**  We know Wonder Woman captures 6 criminals in 1 hour. Let 'x' represent the number of criminals she captures in 9/2 hours. This can be written as a proportion: \n   6 criminals / 1 hour = x criminals / (9/2) hours\n* **Solve for x:** To solve for x, we can cross-multiply:\n   6 * (9/2) = x * 1\n   27 = x\n* **Answer:** Wonder Woman can capture **27** criminals in 4 1/2 hours. \n",
+        "Here's how to solve this problem step-by-step:\n**1. Convert the mixed number to a fraction:**\n*  4 1/2 hours is the same as (4 * 2 + 1) / 2 = 9/2 hours\n**2.  Set up a proportion:**\n* We know Wonder Woman captures 6 criminals in 1 hour.  Let 'x' represent the number of criminals she can capture in 9/2 hours. This can be written as a proportion: \n   * 6 criminals / 1 hour = x criminals / (9/2) hours\n**3. Solve for x:**\n* Cross-multiply: 6 * (9/2) = 1 * x\n* Simplify: 27 = x\n**Answer:** Wonder Woman can capture 27 criminals in 4 1/2 hours. \n"
+    ],
+    "pred_answers": "27",
+    "final_pred_answer": [
+        "27",
+        "27",
+        "13.5",
+        "27",
+        "27"
+    ],
+    "ground_truth": "2"
+}

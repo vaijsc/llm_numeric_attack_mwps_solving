@@ -1,0 +1,23 @@
+{
+    "problem": "Simplify the following:$$\\frac{3}{\\sqrt{27}}$$",
+    "level": "Level 3",
+    "type": "Algebra",
+    "solution": "We have:\n\n$\\frac{3}{\\sqrt{27}}=\\frac{3\\sqrt{3}}{\\sqrt{81}}=\\frac{3\\sqrt{3}}{9}=\\boxed{\\frac{\\sqrt{3}}{3}}$.",
+    "prompt": "### Instruction: Simplify the following:$$\\frac{3}{\\sqrt{27}}$$\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "Here's how to simplify the expression:\n**1. Simplify the radical:**\n*  The square root of 27 can be simplified because 27 has a perfect square factor: \n   *  27 = 9 * 3\n   *  \u221a27 = \u221a(9 * 3) = \u221a9 * \u221a3 = 3\u221a3\n**2. Substitute and simplify:**\n* Now our expression is: 3 / (3\u221a3) \n*  The 3's in the numerator and denominator cancel out, leaving: **1/\u221a3**\n**3. Rationalize the denominator (optional):**\n* To get rid of the radical in the denominator, multiply both numerator and denominator by \u221a3:\n   * (1/\u221a3) * (\u221a3/\u221a3) = \u221a3 / 3\n**Therefore, the simplified forms of the expression are:**\n* **1/\u221a3** \n* **\u221a3 / 3** \n",
+        "Here's how to simplify the expression:\n1. **Simplify the radical:**  The square root of 27 can be simplified because 27 has a perfect square factor (9). \n   *  \u221a27 = \u221a(9 * 3) = 3\u221a3\n2. **Rewrite the expression:** Now we have: \n   * 3 / (3\u221a3)\n3. **Cancel common factors:** Both the numerator and denominator have a factor of 3:\n   * (3 / 3) / \u221a3 \n4. **Simplify:** \n   * 1 / \u221a3\n5. **Rationalize the denominator (optional):** To get rid of the radical in the denominator, multiply both numerator and denominator by \u221a3:\n   * (1 * \u221a3) / (\u221a3 * \u221a3) = \u221a3 / 3\n**Therefore, the simplified form of 3/\u221a27 is 1/\u221a3 or \u221a3/3.** \n",
+        "1. **Simplify the radical:**  The square root of 27 can be simplified since 27 has a perfect square factor (9). \n   *  \u221a27 = \u221a(9 * 3) = \u221a9 * \u221a3 = 3\u221a3\n2. **Substitute the simplified radical:** Now we can rewrite the original expression:\n   *  3 / \u221a27 = 3 / (3\u221a3)\n3. **Cancel common factors:** Both the numerator and denominator have a factor of 3, which we can cancel:\n   *  3 / (3\u221a3) = 1 / \u221a3\n4. **Rationalize the denominator (optional):** To get rid of the radical in the denominator, we can multiply both the numerator and denominator by \u221a3:\n   * (1 / \u221a3) * (\u221a3 / \u221a3) = \u221a3 / 3\n**Therefore, the simplified form of the expression is  \u221a3 / 3.** \n",
+        "Here's how to simplify the expression:\n1. **Simplify the radical:** The square root of 27 can be simplified because 27 has a perfect square factor (9). \n   *  \u221a27 = \u221a(9 * 3) = \u221a9 * \u221a3 = 3\u221a3\n2. **Substitute the simplified radical:** Now our expression becomes:\n   * 3 / (3\u221a3)\n3. **Cancel the common factor:**  Both the numerator and denominator have a factor of 3.\n   * (3 / 3) / \u221a3 = 1/\u221a3\n4. **Rationalize the denominator:** It's generally preferred to avoid radicals in the denominator.  We can rationalize by multiplying both the numerator and denominator by \u221a3:\n   * (1/\u221a3) * (\u221a3/\u221a3) = \u221a3 / 3\n**Therefore, the simplified expression is \u221a3 / 3** \n",
+        "Here's how to simplify the expression:\n1. **Simplify the radical:**  The square root of 27 can be simplified because 27 has a perfect square factor (9): \n   \u221a27 = \u221a(9 * 3) = \u221a9 * \u221a3 = 3\u221a3\n2. **Substitute and simplify:** Now substitute this back into the original expression:\n   3 / \u221a27 = 3 / (3\u221a3)\n3. **Cancel common factors:** The 3 in the numerator and denominator cancel out:\n    3 / (3\u221a3) = 1 / \u221a3\n**Therefore, the simplified form of the expression is 1/\u221a3** \n"
+    ],
+    "pred_answers": "3",
+    "final_pred_answer": [
+        "3",
+        "3",
+        "3",
+        "3",
+        "3"
+    ],
+    "ground_truth": "3"
+}

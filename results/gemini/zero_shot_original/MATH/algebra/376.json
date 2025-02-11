@@ -1,0 +1,23 @@
+{
+    "problem": "Find the domain of $\\frac{x^2 + 10x + 21}{x^2 + 4x - 21}$.  (Express your answer using interval notation.)",
+    "level": "Level 5",
+    "type": "Algebra",
+    "solution": "We cannot divide by 0 so we have to exclude from the domain the values of $x$ that make the denominator 0. First we factor the denominator into $(x-3)(x+7)$. Then we set it equal to 0 and solve for $x$. We find that $x$ cannot be 3 or -7, so $x \\in \\boxed{(-\\infty, -7)\\cup(-7, 3)\\cup(3, \\infty)}.$",
+    "prompt": "### Instruction: Find the domain of $\\frac{x^2 + 10x + 21}{x^2 + 4x - 21}$.  (Express your answer using interval notation.)\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "Here's how to find the domain of the given rational function:\n**1. Identify the Restrictions:**\nThe only time a rational function (a function that is a fraction with polynomials in the numerator and denominator) is undefined is when the denominator is equal to zero. So, we need to find the values of *x* that make the denominator zero.\n**2. Factor the Denominator:**\nThe denominator factors as: \n  \n  *x\u00b2 + 4x - 21 = (x + 7)(x - 3)*\n**3. Find the Values that Make the Denominator Zero:**\nSet the factors equal to zero and solve:\n* x + 7 = 0  =>  x = -7\n* x - 3 = 0  =>  x = 3\n**4. Express the Domain:**\nThe domain is all real numbers except for the values that make the denominator zero. We can express this in interval notation:\n**(-\u221e, -7) \u222a (-7, 3) \u222a (3, \u221e)** \n",
+        "1. **Identify the denominator:** The denominator of the expression is  $x^2 + 4x - 21$.\n2. **Find the values that make the denominator zero:** We need to solve the equation $x^2 + 4x - 21 = 0$. This factors as $(x+7)(x-3) = 0$, giving us solutions $x = -7$ and $x = 3$.\n3. **Exclude those values from the domain:**  Since division by zero is undefined, the domain of the expression must exclude the values $x=-7$ and $x=3$.\n4. **Express the domain in interval notation:**  The domain consists of all real numbers except for -7 and 3.  We can express this in interval notation as:  \n   \n   **(-\u221e, -7) \u222a (-7, 3) \u222a (3, \u221e)** \n",
+        "**1. Identify the denominator:**\nThe denominator of the expression is  $x^2 + 4x - 21$.\n**2. Find the values that make the denominator zero:**\nWe need to find the roots of the quadratic equation $x^2 + 4x - 21 = 0$.  We can factor this as $(x+7)(x-3) = 0$, which means the roots are $x=-7$ and $x=3$.\n**3. Exclude those values from the domain:**\nThe denominator cannot be zero, so we must exclude $x=-7$ and $x=3$ from the domain.\n**4. Express the domain in interval notation:**\nSince we're excluding $x=-7$ and $x=3$, the domain is all real numbers except those two values.  We can express this in interval notation as:\n**(-\u221e, -7) \u222a (-7, 3) \u222a (3, \u221e)** \n",
+        "Here's how to find the domain of the rational function:\n**1. Identify Values That Make the Denominator Zero**\nThe denominator of the function is  $x^2 + 4x - 21$.  We need to find the values of *x* that make this expression equal to zero.  We can factor the denominator:\n  *  $(x + 7)(x - 3) = 0$\nThis tells us that the denominator is zero when *x* = -7 or *x* = 3.\n**2. Exclude the Values That Make the Denominator Zero**\nSince division by zero is undefined, the domain of the function must exclude the values *x* = -7 and *x* = 3.\n**3. Express the Domain in Interval Notation**\nThe domain consists of all real numbers except for -7 and 3.  We can express this in interval notation as:\n*  **(-\u221e, -7) \u222a (-7, 3) \u222a (3, \u221e)** \n",
+        "The domain of a rational function (a fraction with polynomials in the numerator and denominator) is all real numbers *except* for the values that make the denominator zero. \n1. **Find the values that make the denominator zero:**\n   * Factor the denominator:  x\u00b2 + 4x - 21 = (x + 7)(x - 3)\n   * Set each factor equal to zero and solve:\n      * x + 7 = 0  =>  x = -7\n      * x - 3 = 0  =>  x = 3\n2. **Exclude these values from the domain:**\n   The domain is all real numbers except for -7 and 3.\n3. **Express the domain in interval notation:**\n   *  (-\u221e, -7) U (-7, 3) U (3, \u221e) \n**Therefore, the domain of the function is (-\u221e, -7) U (-7, 3) U (3, \u221e).** \n"
+    ],
+    "pred_answers": "3",
+    "final_pred_answer": [
+        "3",
+        "3",
+        "3",
+        "3",
+        "3"
+    ],
+    "ground_truth": "3"
+}

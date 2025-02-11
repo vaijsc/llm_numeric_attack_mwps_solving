@@ -1,0 +1,23 @@
+{
+    "problem": "How many prime numbers have squares between 100 and 300?",
+    "level": "Level 1",
+    "type": "Counting & Probability",
+    "solution": "Since $10^2 =100$, $17^2 = 289$, and $18^2=324$, we know that the integers whose squares are between 100 and 300 are the integers between 10 and 18.  Between 10 and 18, 3 primes exist: 11, 13, 17, thus the answer is $\\boxed{3}$.",
+    "prompt": "### Instruction: How many prime numbers have squares between 100 and 300?\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "Here's how to solve this step-by-step:\n1. **Find the square roots:**\n   - The square root of 100 is 10.\n   - The square root of 300 is approximately 17.32.\n2. **Identify the prime numbers:** This means we need to find the prime numbers between 10 and 17.  Remember, a prime number is only divisible by 1 and itself.\n3. **List the primes:**  The prime numbers between 10 and 17 are:\n    - 11\n    - 13\n    - 17\n4. **Count:** There are **three** prime numbers whose squares fall between 100 and 300. \n",
+        "Here's how to solve this problem step by step:\n**1. Find the square root of the bounds:**\n* The square root of 100 is 10.\n* The square root of 300 is approximately 17.32.\n**2. Identify the prime numbers within the range:**\n* Since we're looking for prime numbers whose *squares* are between 100 and 300, we need to consider prime numbers between 10 and 17 (because their squares fall within our desired range).\n**3. List the prime numbers:**\nThe prime numbers between 10 and 17 are: \n* 11\n* 13\n* 17\n**4. Count the prime numbers:**\nThere are **three** prime numbers whose squares lie between 100 and 300. \n",
+        "Here's how to solve this problem step-by-step:\n**1. Find the square root of the limits:**\n* The square root of 100 is 10.\n* The square root of 300 is approximately 17.32.\n**2. Identify prime numbers within the range:**\n* We need to find prime numbers between 10 and 17 (since their squares will fall between 100 and 300).\n* The prime numbers in this range are: 11, 13, 17.\n**3. Count the prime numbers:**\n* There are **3** prime numbers whose squares fall between 100 and 300. \n",
+        "Here's how to solve this problem:\n**1. Find the Square Roots**\n* Find the square root of 100: \u221a100 = 10\n* Find the square root of 300: \u221a300 \u2248 17.32\n**2. Identify Prime Numbers**\n* We need to find prime numbers between 10 and 17 (since their squares will fall between 100 and 300). \n* Prime numbers between 10 and 17 are: 11, 13, 17\n**3. Count the Prime Numbers**\n* There are **three** prime numbers whose squares fall between 100 and 300. \n",
+        "Here's how to solve this problem step-by-step:\n**1. Find the square roots:**\n* The square root of 100 is 10.\n* The square root of 300 is approximately 17.32.\n**2. Identify prime numbers within the range:**\n* We need to find prime numbers between 10 and 17 (since their squares will fall between 100 and 300).\n* Prime numbers in this range are: 11, 13, 17.\n**3. Count the prime numbers:**\n* There are **three** prime numbers whose squares fall between 100 and 300. \n"
+    ],
+    "pred_answers": "300",
+    "final_pred_answer": [
+        "300",
+        "300",
+        "300",
+        "300",
+        "300"
+    ],
+    "ground_truth": "3"
+}

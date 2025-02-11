@@ -1,0 +1,23 @@
+{
+    "problem": "How many perfect squares have a value between 10 and 1000?",
+    "level": "Level 1",
+    "type": "Counting & Probability",
+    "solution": "We can see that $3^2 = 9 < 10 < 4^2 = 16$. Thus, $4^2 = 16$ is the smallest perfect square between 10 and 1000.\n\nWe also see that $31^2 = 961 < 1000 < 32^2 = 1024$. Thus, $31^2 = 961$ is the greatest perfect square between 10 and 1000.\n\nIt follows that there are $31 - 4 + 1 = \\boxed{28}$ perfect squares between 10 and 1000.",
+    "prompt": "### Instruction: How many perfect squares have a value between 10 and 1000?\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "Here's how to find the number of perfect squares between 10 and 1000:\n**1. Find the Relevant Squares:**\n* **Lower Bound:** The smallest perfect square greater than 10 is 16 (4\u00b2).\n* **Upper Bound:** The largest perfect square less than 1000 is 961 (31\u00b2).\n**2. Count the Squares:**\n* We need to count all the perfect squares from 4\u00b2 to 31\u00b2.  \n* This means we need to count the integers from 4 to 31 inclusive.\n**3. Calculate the Count:**\n* There are 31 - 4 + 1 = **28** perfect squares between 10 and 1000. \n",
+        "Here's how to solve this problem step-by-step:\n**1. Find the square roots of the boundaries:**\n* The square root of 10 is approximately 3.16.\n* The square root of 1000 is approximately 31.62.\n**2. Identify the perfect squares:**\n* Since we're looking for perfect squares, we need to find the integers between 3 and 31 (inclusive). These are the numbers that, when squared, will fall between 10 and 1000.\n**3. Count the integers:**\n* Count the integers from 3 to 31:  3, 4, 5, ... 31\n* There are 29 integers in this range.\n**Therefore, there are 29 perfect squares between 10 and 1000.** \n",
+        "Here's how to solve this problem:\n**1. Find the square roots:**\n* The square root of 10 is approximately 3.16.\n* The square root of 1000 is approximately 31.62.\n**2. Identify the integers:**\n* The smallest perfect square greater than 10 is 16 (4\u00b2).\n* The largest perfect square less than 1000 is 961 (31\u00b2).\n**3. Count the perfect squares:**\n* We need to count all the perfect squares from 4\u00b2 to 31\u00b2, inclusive.\n* This means we have to count the numbers from 4 to 31. \n**4. Calculate the count:**\n* There are 31 - 4 + 1 = **28** perfect squares between 10 and 1000. \n",
+        "Here's how to solve this problem step-by-step:\n**1. Find the square roots:**\n* The square root of 10 is approximately 3.16.\n* The square root of 1000 is approximately 31.62.\n**2. Determine the range of perfect squares:**\n* Since we're looking for perfect squares *between* 10 and 1000, we need the smallest perfect square greater than 10 and the largest perfect square less than 1000.\n* The smallest perfect square greater than 10 is 16 (4\u00b2).\n* The largest perfect square less than 1000 is 961 (31\u00b2).\n**3. Count the perfect squares:**\n* We need to count the perfect squares from 4\u00b2 to 31\u00b2, inclusive.\n* This is the same as counting the integers from 4 to 31, which is 31 - 4 + 1 = **28**.\n**Therefore, there are 28 perfect squares between 10 and 1000.** \n",
+        "Here's how to figure out how many perfect squares are between 10 and 1000:\n**1. Find the relevant square roots:**\n* **Lower bound:** The square root of 10 is between 3 and 4 (since 3\u00b2 = 9 and 4\u00b2 = 16).\n* **Upper bound:** The square root of 1000 is between 31 and 32 (since 31\u00b2 = 961 and 32\u00b2 = 1024).\n**2. Count the perfect squares:**\n* Since we're looking for perfect squares between 10 and 1000, we need to count the perfect squares from 4\u00b2 (16) up to 31\u00b2 (961). \n* This means we have the squares of 4, 5, 6, ... , 31.\n* There are a total of **28** perfect squares between 10 and 1000 (31 - 4 + 1 = 28). \n"
+    ],
+    "pred_answers": "1000",
+    "final_pred_answer": [
+        "1000",
+        "1000",
+        "1000",
+        "1000",
+        "28"
+    ],
+    "ground_truth": "1000"
+}

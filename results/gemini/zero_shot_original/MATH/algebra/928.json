@@ -1,0 +1,23 @@
+{
+    "problem": "What is the least value of $x$ for which $\\frac{x+2}{3} = \\frac{4}{x+1}$?",
+    "level": "Level 3",
+    "type": "Algebra",
+    "solution": "Cross-multiplying gives $(x+2)(x+1) = 12$.  Expanding the left side gives $x^2 + 3x + 2 = 12$, so $x^2 + 3x - 10 = 0$.  Factoring the left side gives $(x+5)(x-2) = 0$, so the least solution for $x$ is $x = \\boxed{-5}$.",
+    "prompt": "### Instruction: What is the least value of $x$ for which $\\frac{x+2}{3} = \\frac{4}{x+1}$?\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "1. **Cross-multiply:** To get rid of the fractions, we multiply both sides of the equation by  $(3)(x+1)$:\n   \n   (x + 2)(x + 1) = 4 * 3\n2. **Expand and Simplify:** Expand the left side and simplify:\n   \n   x\u00b2 + 3x + 2 = 12\n   x\u00b2 + 3x - 10 = 0\n3. **Factor:** Factor the quadratic expression:\n   \n   (x + 5)(x - 2) = 0\n4. **Solve for x:**  Set each factor equal to zero and solve:\n   x + 5 = 0  or  x - 2 = 0\n   x = -5  or  x = 2\n5. **Identify the Least Value:** The least value of x is **-5**. \n",
+        "1. **Cross-multiply:** To get rid of the fractions, we multiply both sides of the equation by $(x+1)$ and by $3$:\n   \n   $(x+2)(x+1) = 4 \\cdot 3$\n2. **Expand:**  Expand the left side of the equation:\n   $x^2 + 3x + 2 = 12$\n3. **Move all terms to one side:** Subtract 12 from both sides to set the equation equal to zero:\n   $x^2 + 3x - 10 = 0$\n4. **Factor:** Factor the quadratic expression:\n   $(x+5)(x-2) = 0$\n5. **Solve for x:**  For the product of two terms to be zero, at least one of them must be zero.  So, we have two possible solutions:\n   *  $x+5 = 0  \\Rightarrow x = -5$\n   *  $x-2 = 0  \\Rightarrow x = 2$\n6. **Check for extraneous solutions:**  We need to make sure that our solutions don't make the original denominators zero.  Notice that if $x=-1$, the denominator of the second fraction becomes zero, making the equation undefined.  Therefore, $x=-5$ is the only valid solution.\n**Answer:** The least value of $x$ that satisfies the equation is $\\boxed{-5}$. \n",
+        "Here's how to solve the problem step-by-step:\n1. **Cross-multiply:** To get rid of the fractions, we multiply both sides of the equation by the denominators: \n   \n   (x + 2)(x + 1) = 3 * 4\n2. **Expand and simplify:**  Expand both sides and combine like terms:\n   x\u00b2 + 3x + 2 = 12\n   x\u00b2 + 3x - 10 = 0\n3. **Factor the quadratic:** Factor the quadratic expression:\n   (x + 5)(x - 2) = 0\n4. **Solve for x:**  Set each factor equal to zero and solve for x:\n   x + 5 = 0  or  x - 2 = 0\n   x = -5  or  x = 2\n5. **Determine the least value:**  We have two possible solutions: -5 and 2. The least value of x is **-5**. \n",
+        "1. **Cross-multiply:** To get rid of the fractions, we multiply both sides of the equation by $(x+1)$ and by $3$: \n   \n   (x + 2)(x + 1) = 4 * 3\n2. **Expand and simplify:** Expand the left side and simplify:\n   x\u00b2 + 3x + 2 = 12\n   x\u00b2 + 3x - 10 = 0\n3. **Factor the quadratic:** Find two numbers that multiply to -10 and add up to 3. These numbers are 5 and -2:\n   (x + 5)(x - 2) = 0\n4. **Solve for x:**  For the product of two factors to be zero, at least one of them must be zero. So we have two possible solutions:\n   x + 5 = 0  or  x - 2 = 0\n   Therefore, x = -5 or x = 2\n5. **Identify the least value:**  The least value of x is **-5**. \n",
+        "1. **Cross-multiply:** To get rid of the fractions, multiply both sides of the equation by the denominators: \n   (x + 2)(x + 1) = 3 * 4\n2. **Expand:** Expand the left side of the equation:\n   x\u00b2 + 3x + 2 = 12\n3. **Rearrange:** Move all terms to one side to get a quadratic equation:\n   x\u00b2 + 3x - 10 = 0\n4. **Factor:** Factor the quadratic equation:\n   (x + 5)(x - 2) = 0\n5. **Solve for x:** Set each factor equal to zero and solve for x:\n   x + 5 = 0  or  x - 2 = 0\n   x = -5  or  x = 2\n6. **Check for extraneous solutions:** We need to make sure that the solutions we found don't make the original denominators zero. \n    *  For x = -5, the denominator (x + 1) becomes 0, so x = -5 is an extraneous solution.\n    *  For x = 2, both denominators are non-zero.\nTherefore, the least value of x that satisfies the equation is **x = 2**. \n"
+    ],
+    "pred_answers": "-5",
+    "final_pred_answer": [
+        "-5",
+        "-5",
+        "-5",
+        "-5",
+        "2"
+    ],
+    "ground_truth": "-5"
+}

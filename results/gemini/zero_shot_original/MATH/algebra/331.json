@@ -1,0 +1,23 @@
+{
+    "problem": "Rationalize the denominator: $\\sqrt{\\frac23}$.",
+    "level": "Level 3",
+    "type": "Algebra",
+    "solution": "Multiply both numerator and denominator by $\\sqrt3$: \\begin{align*}\n\\sqrt{\\frac23} &= \\frac{\\sqrt2}{\\sqrt3}\\\\\n&=\\frac{\\sqrt2}{\\sqrt3}\\cdot\\frac{\\sqrt3}{\\sqrt3}\\\\\n&=\\boxed{\\frac{\\sqrt6}3}.\n\\end{align*}",
+    "prompt": "### Instruction: Rationalize the denominator: $\\sqrt{\\frac23}$.\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "Here's how to rationalize the denominator of $\\sqrt{\\frac{2}{3}}$:\n1. **Separate the radical:**  We can rewrite the expression as: \n   $$\\sqrt{\\frac{2}{3}} = \\frac{\\sqrt{2}}{\\sqrt{3}}$$\n2. **Multiply by 1 (in a clever way):**  To get rid of the radical in the denominator, we'll multiply by $\\frac{\\sqrt{3}}{\\sqrt{3}}$ (which is just 1):\n   $$\\frac{\\sqrt{2}}{\\sqrt{3}} \\cdot \\frac{\\sqrt{3}}{\\sqrt{3}}$$\n3. **Simplify:**\n   $$\\frac{\\sqrt{2}\\cdot\\sqrt{3}}{\\sqrt{3}\\cdot\\sqrt{3}} = \\frac{\\sqrt{6}}{3}$$\n**Therefore, the rationalized form of $\\sqrt{\\frac{2}{3}}$ is $\\frac{\\sqrt{6}}{3}$.** \n",
+        "Here's how to rationalize the denominator of $\\sqrt{\\frac{2}{3}}$:\n**1. Separate the radical:**\nWe can rewrite the expression as: \n  \n  \u221a(2/3) = \u221a2 / \u221a3\n**2. Multiply by \u221a3/\u221a3:**\nSince \u221a3/\u221a3 = 1, multiplying by this fraction doesn't change the value of our expression:\n  (\u221a2 / \u221a3) * (\u221a3 / \u221a3)\n**3. Simplify:**\n  (\u221a2 * \u221a3) / (\u221a3 * \u221a3) = \u221a6 / 3\n**Therefore, the rationalized form of \u221a(2/3) is \u221a6 / 3.** \n",
+        "Here's how to rationalize the denominator of $\\sqrt{\\frac{2}{3}}$:\n1. **Separate the radical:**  We can rewrite the expression as: \n   \n   $$\\sqrt{\\frac{2}{3}} = \\frac{\\sqrt{2}}{\\sqrt{3}}$$\n2. **Multiply by 1 (in a clever way):**  To get rid of the radical in the denominator, we'll multiply by $\\frac{\\sqrt{3}}{\\sqrt{3}}$ (which is just 1, so we're not changing the value of the expression).\n   $$\\frac{\\sqrt{2}}{\\sqrt{3}} \\cdot \\frac{\\sqrt{3}}{\\sqrt{3}}$$\n3. **Simplify:** Multiply the numerators and denominators:\n   $$\\frac{\\sqrt{2} \\cdot \\sqrt{3}}{\\sqrt{3} \\cdot \\sqrt{3}} = \\frac{\\sqrt{6}}{3}$$\n**Therefore, the rationalized form of $\\sqrt{\\frac{2}{3}}$ is $\\frac{\\sqrt{6}}{3}$.** \n",
+        "Here's how to rationalize the denominator of $\\sqrt{\\frac{2}{3}}$:\n**1. Separate the radical:**\n   Since the square root of a fraction is equal to the fraction of the square roots, we can rewrite the expression as:\n   $$\\sqrt{\\frac{2}{3}} = \\frac{\\sqrt{2}}{\\sqrt{3}}$$\n**2. Multiply by $\\frac{\\sqrt{3}}{\\sqrt{3}}$:**\n   We're essentially multiplying by 1, which doesn't change the value of the expression.  This will eliminate the radical in the denominator:\n   $$\\frac{\\sqrt{2}}{\\sqrt{3}} \\cdot \\frac{\\sqrt{3}}{\\sqrt{3}} = \\frac{\\sqrt{2} \\cdot \\sqrt{3}}{\\sqrt{3} \\cdot \\sqrt{3}}$$\n**3. Simplify:**\n   $$\\frac{\\sqrt{6}}{3}$$\n**Therefore, the rationalized form of  $\\sqrt{\\frac{2}{3}}$ is $\\frac{\\sqrt{6}}{3}$.** \n",
+        "Here's how to rationalize the denominator of $\\sqrt{\\frac{2}{3}}$:\n1. **Separate the radical:**  Since the square root of a fraction is equal to the fraction of the square roots, we can write:\n   \n   $$\\sqrt{\\frac{2}{3}} = \\frac{\\sqrt{2}}{\\sqrt{3}}$$\n2. **Multiply by 1 (in a clever way):**  We want to get rid of the radical in the denominator.  To do this, we'll multiply by $\\frac{\\sqrt{3}}{\\sqrt{3}}$ (which is equal to 1):\n   $$\\frac{\\sqrt{2}}{\\sqrt{3}} \\cdot \\frac{\\sqrt{3}}{\\sqrt{3}}$$\n3. **Simplify:** \n   $$\\frac{\\sqrt{2} \\cdot \\sqrt{3}}{\\sqrt{3} \\cdot \\sqrt{3}} = \\frac{\\sqrt{6}}{3}$$\nTherefore, the rationalized form of $\\sqrt{\\frac{2}{3}}$ is $\\boxed{\\frac{\\sqrt{6}}{3}}$. \n"
+    ],
+    "pred_answers": "3",
+    "final_pred_answer": [
+        "3",
+        "3",
+        "3",
+        "3",
+        "3"
+    ],
+    "ground_truth": "3"
+}

@@ -1,0 +1,23 @@
+{
+    "problem": "If $\\displaystyle\\frac{n+5}{n-3} = 2$ what is the value of $n$?",
+    "level": "Level 1",
+    "type": "Algebra",
+    "solution": "Multiplying both sides by $n-3$, we have $n+5 = 2(n-3)$.  Expanding gives $n+5 = 2n - 6$, and solving this equation gives $n=\\boxed{11}$.",
+    "prompt": "### Instruction: If $\\displaystyle\\frac{n+5}{n-3} = 2$ what is the value of $n$?\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "Here's how to solve for the value of 'n':\n1. **Multiply both sides by (n - 3):** \n   This eliminates the fraction on the left side:\n   (n + 5) = 2(n - 3)\n2. **Distribute the 2 on the right side:**\n   n + 5 = 2n - 6\n3. **Subtract 'n' from both sides:**\n   5 = n - 6\n4. **Add 6 to both sides:**\n   11 = n\n**Therefore, the value of n is 11.** \n",
+        "Here's how to solve for *n* step-by-step:\n1. **Multiply both sides by (n-3):** \n   This gets rid of the fraction:\n   (n-3) * (n+5)/(n-3) = 2 * (n-3)\n   This simplifies to: n + 5 = 2n - 6\n2. **Subtract *n* from both sides:**\n   This isolates the *n* term on the right side:\n   n + 5 - n = 2n - 6 - n\n   This simplifies to: 5 = n - 6\n3. **Add 6 to both sides:**\n   This isolates *n* on the right side:\n   5 + 6 = n - 6 + 6\n   This simplifies to: 11 = n\n**Therefore, the value of *n* is 11.** \n",
+        "1. **Multiply both sides by (n-3):** \n   This eliminates the fraction on the left side. \n   \n   (n-3) * (n+5)/(n-3) = 2 * (n-3)\n   \n   n + 5 = 2n - 6\n2. **Subtract 'n' from both sides:** \n   This isolates the 'n' term on the right side.\n   n + 5 - n = 2n - 6 - n\n   5 = n - 6\n3. **Add 6 to both sides:** \n   This isolates 'n' on the right side.\n   5 + 6 = n - 6 + 6\n   11 = n\nTherefore, the value of **n is 11**. \n",
+        "1. **Multiply both sides by (n-3):** \n   This gets rid of the fraction: \n   (n-3) * (n+5)/(n-3) = 2 * (n-3)\n   This simplifies to: n + 5 = 2n - 6\n2. **Subtract 'n' from both sides:**\n   This isolates the 'n' term on one side:\n   n + 5 - n = 2n - 6 - n\n   This simplifies to: 5 = n - 6\n3. **Add 6 to both sides:**\n   This isolates the 'n' term:\n   5 + 6 = n - 6 + 6\n   This simplifies to: 11 = n\n**Therefore, the value of n is 11.** \n",
+        "1. **Multiply both sides by (n-3):** \n   This gets rid of the fraction:\n   (n-3) * (n+5)/(n-3) = 2 * (n-3)\n   Which simplifies to:\n   n + 5 = 2n - 6\n2. **Subtract 'n' from both sides:**\n   This isolates the 'n' term on the right side:\n   5 = n - 6\n3. **Add 6 to both sides:**\n   This isolates 'n' on the right side:\n   11 = n\n**Therefore, the value of n is 11.** \n"
+    ],
+    "pred_answers": "11",
+    "final_pred_answer": [
+        "11",
+        "11",
+        "11",
+        "11",
+        "11"
+    ],
+    "ground_truth": "11"
+}

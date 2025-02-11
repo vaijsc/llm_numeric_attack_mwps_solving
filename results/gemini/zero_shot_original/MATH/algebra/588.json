@@ -1,0 +1,23 @@
+{
+    "problem": "Evaluate $\\dfrac{7}{45^2 - 38^2}$.",
+    "level": "Level 2",
+    "type": "Algebra",
+    "solution": "We factor the denominator as a difference of squares: $\\dfrac{7}{45^2 - 38^2} = \\dfrac{7}{(45 + 38)(45 - 38)} = \\dfrac{7}{(83)(7)} = \\boxed{\\dfrac{1}{83}}.$",
+    "prompt": "### Instruction: Evaluate $\\dfrac{7}{45^2 - 38^2}$.\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "Here's how to evaluate the expression step-by-step:\n**1. Recognize the Difference of Squares Pattern:**\nThe expression in the denominator, $45^2 - 38^2$, fits the pattern of the difference of squares:  \n*  a\u00b2 - b\u00b2 = (a + b)(a - b)\n**2. Apply the Pattern:**\n*  a = 45\n*  b = 38\nTherefore:\n*  45\u00b2 - 38\u00b2 = (45 + 38)(45 - 38)\n**3. Simplify:**\n* (45 + 38)(45 - 38) = (83)(7) = 581\n**4. Substitute and Solve:**\nNow we have:\n*  7 / (45\u00b2 - 38\u00b2) = 7 / 581\n**Final Answer:**\n*  The expression evaluates to **7/581**. \n",
+        "**1. Factor the denominator:**\nWe can use the difference of squares factorization:  a\u00b2 - b\u00b2 = (a + b)(a - b)\nIn our case, a = 45 and b = 38.  So:\n45\u00b2 - 38\u00b2 = (45 + 38)(45 - 38) \n**2. Simplify:**\n(45 + 38)(45 - 38) = (83)(7)\n**3. Substitute back into the original expression:**\n  (7) / (83)(7) \n**4. Cancel common factors:**\nThe 7 in the numerator and denominator cancel out.\n**5. Final answer:**\n1/83\nTherefore,  $\\dfrac{7}{45^2 - 38^2} = \\boxed{\\dfrac{1}{83}}$. \n",
+        "We can use the difference of squares factorization: $a^2 - b^2 = (a+b)(a-b)$.\nApplying this to our problem: \n  \n  $\\dfrac{7}{45^2 - 38^2} = \\dfrac{7}{(45+38)(45-38)}$\nSimplifying: \n  $\\dfrac{7}{(45+38)(45-38)} = \\dfrac{7}{(83)(7)} = \\boxed{\\dfrac{1}{83}}$ \n",
+        "Here's how to evaluate the expression step-by-step:\n**1. Factor the Difference of Squares**\nNotice that the denominator is in the form of a difference of squares:  a\u00b2 - b\u00b2 = (a + b)(a - b)\n*  a = 45\n*  b = 38\nTherefore: 45\u00b2 - 38\u00b2 = (45 + 38)(45 - 38)\n**2. Simplify**\n* (45 + 38)(45 - 38) = (83)(7)\n**3. Calculate the Result**\n* (83)(7) = 581\n**4. Final Expression**\nThe expression becomes:  \n  \n  7 / (45\u00b2 - 38\u00b2) = 7 / 581\n**Therefore, the simplified value of the expression is 7/581.** \n",
+        "**1. Factor the denominator:**\nThe denominator is a difference of squares:  \n*  $45^2 - 38^2 = (45 + 38)(45 - 38)$\n**2. Simplify:**\n* $(45 + 38)(45 - 38) = (83)(7)$\n**3. Substitute back into the original expression:**\n* $\\dfrac{7}{45^2 - 38^2} = \\dfrac{7}{(83)(7)}$\n**4. Cancel the common factor of 7:**\n*  $\\dfrac{7}{(83)(7)} = \\boxed{\\dfrac{1}{83}}$ \n"
+    ],
+    "pred_answers": "83",
+    "final_pred_answer": [
+        "7",
+        "83",
+        "83",
+        "581",
+        "83"
+    ],
+    "ground_truth": "83"
+}

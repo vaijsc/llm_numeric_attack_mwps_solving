@@ -1,0 +1,23 @@
+{
+    "problem": "January 1, 2007 was a Monday. In 2007, how many Fridays are there?",
+    "level": "Level 2",
+    "type": "Counting & Probability",
+    "solution": "There were 365 days in 2007, and since $364=7\\cdot52$, there were $52$ full weeks and $1$ more day in the year. So there were $\\boxed{52}$ Fridays.",
+    "prompt": "### Instruction: January 1, 2007 was a Monday. In 2007, how many Fridays are there?\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "Here's how to figure out how many Fridays are in 2007:\n**1. Leap Year:** 2007 is not a leap year, so it has 365 days.\n**2. Days in a Week:** There are 7 days in a week.\n**3. Dividing Days by Weeks:** 365 days / 7 days/week = 52 weeks with 1 day left over.\n**4. Extra Day:**  The extra day means that 2007 has 52 full weeks and one extra day. Since January 1, 2007, was a Monday, the extra day is a Tuesday.\n**5. Number of Fridays:** Since there are 52 full weeks in the year, there are **52 Fridays** in 2007. \n",
+        "Here's how to figure out how many Fridays are in 2007:\n**Understanding Leap Years**\n* 2007 is not a leap year.  A regular year has 365 days.\n**Days in a Week**\n* There are 7 days in a week.\n**Calculations**\n1. **Days in a year:**  2007 has 365 days.\n2. **Weeks in a year:** 365 days / 7 days/week = 52 weeks with 1 day left over. \n3. **Extra Day:** That extra day means 2007 has 52 full weeks, plus one extra day. Since January 1, 2007, was a Monday, the extra day is a Tuesday.\n**Finding the Fridays**\n* Since there are 52 full weeks in the year, there are **52 Fridays** in 2007. \n",
+        "Here's how to figure out how many Fridays are in 2007:\n**1. Days in a Year:**  There are 365 days in a regular year like 2007.\n**2. Days in a Week:** There are 7 days in a week.\n**3. Number of Weeks:** Divide the days in a year by the days in a week: 365 days / 7 days/week = 52 weeks (with a remainder of 1 day).\n**4. The Remainder:** The remainder of 1 day means that 2007 has one extra day beyond the 52 full weeks. Since January 1st, 2007 was a Monday, that extra day means December 31st, 2007 was a Tuesday.\n**5. Fridays in a Year:** In a full year, there are 52 Fridays. Since 2007 has one extra day, there will still be **52 Fridays** in 2007. \n",
+        "Here's how to figure out how many Fridays there are in 2007:\n**1. Days in a year:**\n* A regular year has 365 days.\n**2. Days in a week:**\n* There are 7 days in a week.\n**3. Number of weeks in a year:**\n* 365 days / 7 days/week = 52 weeks and 1 extra day.\n**4. Extra day:**\n* Since January 1, 2007, was a Monday, the extra day (day 365) falls on a Tuesday.\n**5. Fridays:**\n* Every week has one Friday, so a year typically has 52 Fridays.\n**6. Conclusion:**\n* Since there are 52 complete weeks in 2007, there are **52 Fridays** in 2007. \n",
+        "Here's how to figure out the number of Fridays in 2007:\n**1. Leap Year:** 2007 is not a leap year, so it has 365 days.\n**2. Days per Week:** There are 7 days in a week.\n**3. Total Weeks:** 365 days / 7 days/week = 52 weeks and 1 day.\n**4. Extra Day:**  The extra day (the 365th day) is a Monday (since January 1st was a Monday).\n**5. Number of Fridays:** Since every week has one Friday, there are 52 Fridays in 2007. \n"
+    ],
+    "pred_answers": "2007",
+    "final_pred_answer": [
+        "2007",
+        "2007",
+        "2007",
+        "2007",
+        "2007"
+    ],
+    "ground_truth": "52"
+}

@@ -1,0 +1,23 @@
+{
+    "problem": "Each edge of a cube has length 3 inches. What is the number of square inches in the cube's total surface area?",
+    "level": "Level 1",
+    "type": "Geometry",
+    "solution": "Each face of the cube has area $3\\cdot3=9$ square inches. Since the cube's surface area includes 6 faces, the total surface area is $9\\cdot6=\\boxed{54}$ square inches.",
+    "prompt": "### Instruction: Each edge of a cube has length 3 inches. What is the number of square inches in the cube's total surface area?\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "Here's how to solve the problem step-by-step:\n* **Visualize:** Imagine a cube. It has 6 square faces.\n* **Find the area of one face:** Each face is a square with side length 3 inches.  The area of a square is side * side, so the area of one face is 3 inches * 3 inches = 9 square inches.\n* **Calculate the total surface area:** Since there are 6 faces, the total surface area is 6 * 9 square inches = 54 square inches.\n**Answer:** The cube's total surface area is 54 square inches. \n",
+        "Here's how to solve the problem step-by-step:\n* **1. Find the area of one face:** A cube has square faces.  The area of a square is side length squared. So, the area of one face is 3 inches * 3 inches = 9 square inches.\n* **2. Find the total surface area:** A cube has 6 faces.  Therefore, the total surface area is 6 * 9 square inches = 54 square inches.\n**Answer:** The cube's total surface area is **54 square inches**. \n",
+        "Here's how to solve this problem:\n**1. Understand the Shape:**\n* A cube has 6 square faces.\n**2. Calculate the Area of One Face:**\n* Each face is a square with side length 3 inches.\n* Area of a square = side * side = 3 inches * 3 inches = 9 square inches.\n**3. Calculate the Total Surface Area:**\n* Since there are 6 faces, the total surface area is 6 * 9 square inches = 54 square inches.\n**Answer:** The cube's total surface area is **54 square inches**. \n",
+        "Here's how to solve this step by step:\n* **1. Find the area of one face:**  A cube has square faces. The area of a square is side * side. So, one face has an area of 3 inches * 3 inches = 9 square inches.\n* **2. Find the total number of faces:** A cube has 6 faces.\n* **3. Calculate the total surface area:** Multiply the area of one face by the number of faces: 9 square inches/face * 6 faces = 54 square inches.\n**Therefore, the cube's total surface area is 54 square inches.** \n",
+        "Here's how to solve the problem step-by-step:\n1. **Find the area of one face:** A cube has square faces. The area of a square is side length squared.  So, the area of one face is 3 inches * 3 inches = 9 square inches.\n2. **Find the total surface area:** A cube has 6 faces.  Therefore, the total surface area is 6 faces * 9 square inches/face = 54 square inches.\n**Answer:** The cube's total surface area is 54 square inches. \n"
+    ],
+    "pred_answers": "54",
+    "final_pred_answer": [
+        "54",
+        "54",
+        "54",
+        "54",
+        "54"
+    ],
+    "ground_truth": "54"
+}

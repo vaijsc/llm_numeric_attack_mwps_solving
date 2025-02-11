@@ -1,0 +1,23 @@
+{
+    "problem": "A rectangular pool is $6\\text{ m}$ wide, $12\\text{ m}$ long and $4\\text{ m}$ deep. If the pool is half full of water, what is the volume of water in the pool?",
+    "level": "Level 1",
+    "type": "Geometry",
+    "solution": "Since the pool has dimensions $6\\text{ m}$ by $12\\text{ m}$ by $4\\text{ m},$ then its total volume is $6 \\times 12 \\times 4 = 288 \\mbox{ m}^3.$\n\nSince the pool is only half full of water, then the volume of water in the pool is $\\frac{1}{2} \\times 288 \\mbox{ m}^3$ or $\\boxed{144 \\mbox{ m}^3}.$",
+    "prompt": "### Instruction: A rectangular pool is $6\\text{ m}$ wide, $12\\text{ m}$ long and $4\\text{ m}$ deep. If the pool is half full of water, what is the volume of water in the pool?\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "Here's how to solve the problem step-by-step:\n**1. Calculate the total volume of the pool:**\n* Volume = length \u00d7 width \u00d7 depth\n* Volume = 12 m \u00d7 6 m \u00d7 4 m \n* Volume = 288 cubic meters\n**2. Calculate the volume of water when the pool is half full:**\n* Half the volume = 288 cubic meters / 2 \n* Half the volume = 144 cubic meters\n**Answer:** The volume of water in the pool when it is half full is **144 cubic meters**. \n",
+        "Here's how to solve the problem step-by-step:\n**1. Calculate the total volume of the pool:**\n* Volume = length \u00d7 width \u00d7 depth\n* Volume = 12 m \u00d7 6 m \u00d7 4 m\n* Volume = 288 cubic meters\n**2. Calculate the volume of water when the pool is half full:**\n* Volume of water = (1/2) \u00d7 total volume\n* Volume of water = (1/2) \u00d7 288 cubic meters\n* Volume of water = 144 cubic meters\n**Answer:** The volume of water in the pool is **144 cubic meters**. \n",
+        "Here's how to solve the problem step-by-step:\n**1. Calculate the total volume of the pool:**\n* Volume = length \u00d7 width \u00d7 depth\n* Volume = 12 m \u00d7 6 m \u00d7 4 m\n* Volume = 288 cubic meters\n**2. Calculate the volume of water when the pool is half full:**\n* Half the volume = 288 cubic meters / 2 \n* Half the volume = 144 cubic meters\n**Answer:** The volume of water in the pool when it is half full is **144 cubic meters**. \n",
+        "Here's how to solve the problem step-by-step:\n**1. Find the total volume of the pool:**\n* Volume = length x width x depth\n* Volume = 12 m x 6 m x 4 m\n* Volume = 288 cubic meters \n**2. Calculate the volume of water when the pool is half full:**\n* Half the volume = 288 cubic meters / 2\n* Half the volume = 144 cubic meters\n**Answer:** The volume of water in the pool when it's half full is **144 cubic meters**. \n",
+        "Here's how to solve the problem step-by-step:\n**1. Calculate the total volume of the pool:**\n* The volume of a rectangular prism (like a pool) is found by:  Volume = length \u00d7 width \u00d7 depth\n* Volume = 12 m \u00d7 6 m \u00d7 4 m = 288 cubic meters \n**2. Determine the volume of water when the pool is half full:**\n* Half the total volume is: 288 cubic meters / 2 = 144 cubic meters\n**Answer:** The volume of water in the pool when it's half full is **144 cubic meters**. \n"
+    ],
+    "pred_answers": "144",
+    "final_pred_answer": [
+        "144",
+        "144",
+        "144",
+        "144",
+        "144"
+    ],
+    "ground_truth": "3"
+}

@@ -1,0 +1,23 @@
+{
+    "problem": "What is the domain of the function $$k(y) = \\frac{1}{2y+1}~?$$ Express your answer in interval notation.",
+    "level": "Level 4",
+    "type": "Algebra",
+    "solution": "The fraction $\\frac{1}{2y+1}$ fails to be defined only if the denominator is zero. This occurs when $y$ is the solution of the equation $$2y+1=0,$$ which is $y=-\\frac 12$. Thus the domain of $k(y)$ is $$\\boxed{\\left(-\\infty,-\\frac 12\\right)\\cup \\left(-\\frac 12,\\infty\\right)}.$$",
+    "prompt": "### Instruction: What is the domain of the function $$k(y) = \\frac{1}{2y+1}~?$$ Express your answer in interval notation.\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "Here's how to find the domain of the function:\n**1. Identify the Restrictions:**\nThe function  *k(y)* is a rational function (a fraction where the numerator and denominator are polynomials). The only restriction on the domain of a rational function is that the denominator cannot be zero.\n**2. Set the Denominator to Zero and Solve:**\n* 2y + 1 = 0\n* 2y = -1\n* y = -1/2\n**3. Express the Domain:**\nThis means that *y* cannot be equal to -1/2.  We can express this in interval notation as:\n**(-\u221e, -1/2) U (-1/2, \u221e)** \nThis means the domain includes all real numbers except for -1/2. \n",
+        "The domain of a function is the set of all possible input values (in this case, values of *y*) that result in a defined output.  We need to find any values of *y* that would cause problems in our function.\nThe only potential issue is in the denominator.  A fraction is undefined when its denominator is zero. So, we need to find the value of *y* that makes the denominator zero:\n2*y* + 1 = 0\nSolving for *y*:\n2*y* = -1\n*y* = -1/2\nThis means the function is undefined when *y* = -1/2.  For all other values of *y*, the function is defined.\nTherefore, the domain of the function *k(y)* is all real numbers except -1/2.  In interval notation, this is:\n**(-\u221e, -1/2) U (-1/2, \u221e)** \n",
+        "Here's how to find the domain of the function:\n**Understanding Domain**\nThe domain of a function is the set of all possible input values (in this case, values of *y*) for which the function produces a valid output. \n**Identifying Restrictions**\nThe function *k(y)* has a fraction.  The key restriction for fractions is that the denominator cannot be zero. \n**Finding the Restriction**\n* Set the denominator equal to zero:  2y + 1 = 0\n* Solve for *y*:  2y = -1  =>  y = -1/2\n**Expressing the Domain**\nThis means that *y* cannot be equal to -1/2.  In interval notation, the domain is:\n**(-\u221e, -1/2) U (-1/2, \u221e)** \nThis means the function is defined for all values of *y* less than -1/2 and for all values of *y* greater than -1/2. \n",
+        "The domain of a function is the set of all possible input values (in this case, *y* values) for which the function is defined.  \n* **Fractions:**  We need to make sure the denominator of the fraction is not zero. \n* **Solve for the excluded value:** Set the denominator equal to zero and solve:\n  \n  2y + 1 = 0\n  2y = -1\n  y = -1/2\n* **Write the domain:** Since y = -1/2 makes the denominator zero, this value is excluded from the domain.  The domain is all real numbers except for -1/2.  \n**In interval notation:**  (-\u221e, -1/2) U (-1/2, \u221e) \n",
+        "Here's how to find the domain of the function:\n**1. Identify Restrictions:**\nThe only restriction on the domain of a rational function (a function with a fraction) is that the denominator cannot equal zero.  So, we need to find the values of *y* that make the denominator zero:\n* 2*y* + 1 = 0\n* 2*y* = -1\n* y = -1/2\n**2. Exclude the Restricted Value:**\nThe function is undefined when *y* = -1/2.  Therefore, the domain includes all real numbers *except* -1/2.\n**3. Express in Interval Notation:**\n* The domain can be expressed as the union of two intervals: \n    *  (-\u221e, -1/2)  (All numbers less than -1/2)\n    *  (-1/2, \u221e)   (All numbers greater than -1/2)\n**Therefore, the domain of the function *k(y)* is  (-\u221e, -1/2) \u222a (-1/2, \u221e).** \n"
+    ],
+    "pred_answers": "2",
+    "final_pred_answer": [
+        "2",
+        "2",
+        "2",
+        "2",
+        "2"
+    ],
+    "ground_truth": "12"
+}

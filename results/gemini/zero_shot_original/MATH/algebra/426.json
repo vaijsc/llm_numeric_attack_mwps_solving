@@ -1,0 +1,23 @@
+{
+    "problem": "Compute: $32^2 - 18^2$.",
+    "level": "Level 1",
+    "type": "Algebra",
+    "solution": "$32^2 - 18^2$ can also be expressed as $(32+18)(32-18)$. This simplifies as $50 \\cdot 14$, which equals $\\boxed{700}$.",
+    "prompt": "### Instruction: Compute: $32^2 - 18^2$.\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "We can use the difference of squares factorization: $a^2 - b^2 = (a+b)(a-b)$.\n1. **Identify a and b:** In this case,  $a = 32$ and $b = 18$.\n2. **Apply the factorization:**  \n   $32^2 - 18^2 = (32 + 18)(32 - 18)$\n3. **Simplify:**\n   $(32 + 18)(32 - 18) = (50)(14)$\n4. **Calculate the final result:**\n   $(50)(14) = \\boxed{700}$ \n",
+        "We can use the difference of squares factorization to simplify this calculation:\n* **Difference of Squares:**  a\u00b2 - b\u00b2 = (a + b)(a - b)\nApplying this to our problem:\n* 32\u00b2 - 18\u00b2 = (32 + 18)(32 - 18)\nNow we can simplify:\n* (32 + 18)(32 - 18) = (50)(14) = **700**\nTherefore, 32\u00b2 - 18\u00b2 = 700. \n",
+        "We can use the difference of squares factorization:  \n$a^2 - b^2 = (a+b)(a-b)$.\nApplying this to our problem:\n$32^2 - 18^2 = (32+18)(32-18)$\nSimplifying:\n$= (50)(14) = \\boxed{700}$ \n",
+        "We can use the difference of squares factorization: $a^2 - b^2 = (a + b)(a - b)$.\n1. **Apply the formula:**  In this case,  $a = 32$ and $b = 18$. So, we have:\n   $32^2 - 18^2 = (32 + 18)(32 - 18)$\n2. **Simplify:**\n   $(32 + 18)(32 - 18) = (50)(14)$\n3. **Calculate:**\n   $(50)(14) = \\boxed{700}$ \n",
+        "We can use the difference of squares factorization to simplify this calculation:\n* **Difference of Squares:**  a\u00b2 - b\u00b2 = (a + b)(a - b)\nApplying this to our problem:\n* 32\u00b2 - 18\u00b2 = (32 + 18)(32 - 18)\n*              = (50)(14)\n*              = **700** \nTherefore, 32\u00b2 - 18\u00b2 = 700. \n"
+    ],
+    "pred_answers": "700",
+    "final_pred_answer": [
+        "700",
+        "700",
+        "700",
+        "700",
+        "700"
+    ],
+    "ground_truth": "700"
+}

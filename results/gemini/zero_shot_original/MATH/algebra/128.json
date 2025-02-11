@@ -1,0 +1,23 @@
+{
+    "problem": "The vertex of the parabola described by the equation $y=2x^2-4x+4$ is $(m,n)$. What is $m$?",
+    "level": "Level 3",
+    "type": "Algebra",
+    "solution": "We will complete the square on the given quadratic expression to find the vertex. Factoring 2 from the first two terms, we have \\[y=2(x^2-2x)+4\\]We complete the square inside the parentheses by adding $+1-1$ inside the parentheses to get \\[y = 2(x^2-2x+1-1)+4 =2(x-1)^2+2\\]The graph of an equation of the form $y=a(x-h)^2+k$ is a parabola with vertex at $(h,k)$, so the vertex of our parabola is at $(1,2)$. Thus, $m=\\boxed{1}$.",
+    "prompt": "### Instruction: The vertex of the parabola described by the equation $y=2x^2-4x+4$ is $(m,n)$. What is $m$?\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "Here's how to find the x-coordinate (m) of the vertex:\n**1.  Complete the Square**\n* **Factor out a 2 from the first two terms:** \n   y = 2(x\u00b2 - 2x) + 4\n* **Take half of the coefficient of the x term (-2), square it (1), and add and subtract it inside the parentheses:**\n   y = 2(x\u00b2 - 2x + 1 - 1) + 4\n* **Rewrite the expression inside the parentheses as a squared term:**\n   y = 2(x - 1)\u00b2 - 2 + 4\n* **Simplify:**\n   y = 2(x - 1)\u00b2 + 2\n**2.  Identify the Vertex**\nThe equation is now in vertex form: y = a(x - h)\u00b2 + k, where (h, k) is the vertex.\n*  Comparing our equation to the vertex form, we see that h = 1 and k = 2. \n**3.  Answer**\nTherefore, the vertex is (1, 2), and  m = **1**. \n",
+        "Here's how to find the vertex's x-coordinate (m):\n**1. Understand the Vertex Form**\nThe vertex form of a parabola is  y = a(x - h)\u00b2 + k, where (h, k) is the vertex.\n**2.  Complete the Square**\n* **Factor out a 2:**  y = 2(x\u00b2 - 2x) + 4 \n* **Complete the square inside the parentheses:** Take half of the coefficient of our x term (-2), square it (1), and add and subtract it inside the parentheses:\n   y = 2(x\u00b2 - 2x + 1 - 1) + 4\n* **Rewrite:** y = 2(x\u00b2 - 2x + 1) - 2 + 4\n* **Factor the perfect square trinomial:** y = 2(x - 1)\u00b2 + 2\n**3. Identify the Vertex**\nNow our equation is in vertex form: y = 2(x - 1)\u00b2 + 2.  We can see that:\n* **h = 1** (the x-coordinate of the vertex)\n* **k = 2** (the y-coordinate of the vertex)\n**Therefore, m = 1.** \n",
+        "Here's how to find the vertex's x-coordinate (m):\n**1.  Vertex Formula**\n   The x-coordinate of the vertex of a parabola in the form  y = ax\u00b2 + bx + c is given by:\n   x = -b / 2a\n**2.  Identify a, b, and c**\n   In our equation, y = 2x\u00b2 - 4x + 4:\n    * a = 2\n    * b = -4\n    * c = 4\n**3.  Calculate the x-coordinate (m)**\n   Substitute the values of a and b into the vertex formula:\n   m = -(-4) / (2 * 2) \n   m = 4 / 4\n   m = 1\n**Therefore, the x-coordinate of the vertex (m) is 1.** \n",
+        "Here's how to find the vertex:\n**1.  Complete the Square**\n* **Factor out a 2:** \n   y = 2(x\u00b2 - 2x) + 4\n* **Complete the square inside the parentheses:**  Take half of the coefficient of the x term (-2), square it (1), and add and subtract it inside the parentheses.\n   y = 2(x\u00b2 - 2x + 1 - 1) + 4\n* **Rewrite the perfect square trinomial:**\n   y = 2(x - 1)\u00b2 - 2 + 4\n* **Simplify:**\n   y = 2(x - 1)\u00b2 + 2\n**2.  Identify the Vertex**\nThe equation is now in vertex form:  y = a(x - h)\u00b2 + k, where (h, k) is the vertex.\n* **Therefore, the vertex is (1, 2).**\n**3.  Find the Value of m**\nSince the vertex is (m, n), we have:\n* **m = 1** \n",
+        "Here's how to find the vertex's x-coordinate (m):\n**1.  Complete the Square**\n* **Factor out a 2:**  \n   y = 2(x\u00b2 - 2x) + 4 \n* **Complete the square inside the parentheses:** \n    * Take half of the coefficient of the x term (-2), square it (1), and add and subtract it inside the parentheses:\n    y = 2(x\u00b2 - 2x + 1 - 1) + 4 \n* **Rewrite as a squared term:**\n    y = 2(x - 1)\u00b2 - 2 + 4\n* **Simplify:**\n    y = 2(x - 1)\u00b2 + 2\n**2. Identify the Vertex**\n* The equation is now in vertex form:  y = a(x - h)\u00b2 + k\n* The vertex is at the point (h, k).\n* **Therefore, the x-coordinate of the vertex (m) is 1.**\n**So, m = 1** \n"
+    ],
+    "pred_answers": "1",
+    "final_pred_answer": [
+        "1",
+        "1",
+        "1",
+        "1",
+        "1"
+    ],
+    "ground_truth": "1"
+}

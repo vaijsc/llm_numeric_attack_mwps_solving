@@ -1,0 +1,23 @@
+{
+    "problem": "For what value of $x$ does $2^{12} = \\left(\\frac{1}{8}\\right)^x$?",
+    "level": "Level 2",
+    "type": "Algebra",
+    "solution": "Writing the right side as a power of 2, we have  \\[\\left(\\frac18\\right)^x = (2^{-3})^x = 2^{-3x},\\]so the equation is $2^{12} = 2^{-3x}$.  Therefore, we have $-3x = 12$, which means $x = \\boxed{-4}$.",
+    "prompt": "### Instruction: For what value of $x$ does $2^{12} = \\left(\\frac{1}{8}\\right)^x$?\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "Here's how to solve the problem step-by-step:\n**1. Express both sides with the same base:**\n*  We know that  $\\frac{1}{8} = 2^{-3}$. \n**2. Substitute and simplify:**\n*  The equation becomes:  $2^{12} = (2^{-3})^x$\n*  Using the rule of exponents  $(a^m)^n = a^{m \\cdot n}$, we get:  $2^{12} = 2^{-3x}$\n**3. Equate exponents:**\n* Since the bases are now the same, we can equate the exponents:  $12 = -3x$\n**4. Solve for x:**\n* Divide both sides by -3:  $x = \\boxed{-4}$ \n",
+        "Here's how to solve the problem step-by-step:\n**1. Express everything in terms of the same base:**\n*  Notice that  8 is a power of 2:  8 = 2\u00b3.\n*  Therefore,  1/8  can be written as  2\u207b\u00b3.\n**2. Substitute the equivalent expressions:**\n* The equation becomes:  2\u00b9\u00b2 = (2\u207b\u00b3)^x\n**3. Simplify using exponent rules:**\n*  When raising a power to another power, we multiply the exponents: (a^m)^n = a^(m*n).\n*  So, the equation becomes: 2\u00b9\u00b2 = 2^(-3x)\n**4. Solve for x:**\n*  For the bases to be equal, the exponents must also be equal.\n*  This gives us: 12 = -3x\n*  Solving for x:  x = 12 / -3 = **-4**\n**Therefore, the value of x that satisfies the equation is -4.** \n",
+        "Here's how to solve the problem step-by-step:\n**1. Express everything with the same base:**\n*  Notice that  8 can be written as  $2^3$. \n*  Therefore, $\\frac{1}{8}$ can be written as  $(2^3)^{-1}$ or $2^{-3}$.\n**2. Substitute:**\n*  Our equation now becomes: $2^{12} = (2^{-3})^x$\n**3. Simplify using exponent rules:**\n*  Recall that $(a^m)^n = a^{m \\cdot n}$.  Applying this:  $2^{12} = 2^{-3x}$\n**4. Solve for x:**\n*  Since the bases are now the same, we can equate the exponents:  $12 = -3x$\n*  Divide both sides by -3:  $x = \\boxed{-4}$ \n",
+        "Here's how to solve the problem step-by-step:\n**1. Express both sides with the same base:**\n*  We can rewrite 1/8 as a power of 2:  1/8 = 2\u207b\u00b3 \n**2. Substitute and simplify:**\n* Now our equation becomes: 2\u00b9\u00b2 = (2\u207b\u00b3)^x \n* Using the rule of exponents that says (a^m)^n = a^(m*n), we get: 2\u00b9\u00b2 = 2^(-3x)\n**3. Solve for x:**\n* Since the bases are the same, we can equate the exponents: 12 = -3x\n* Divide both sides by -3: x = -4\n**Therefore, the value of x that satisfies the equation is x = -4.** \n",
+        "Here's how to solve the problem step-by-step:\n**1. Express both sides with the same base:**\n*  We know that  8 is  $2^3$.  \n*  Therefore, $\\frac{1}{8}$ is the same as  $2^{-3}$.\n**2. Substitute and simplify:**\n* Our equation now becomes:  $2^{12} = (2^{-3})^x$\n* Using the rule of exponents that says $(a^m)^n = a^{m \\cdot n}$, we get:  $2^{12} = 2^{-3x}$\n**3. Solve for x:**\n*  Since the bases are the same, we can equate the exponents:  $12 = -3x$\n*  Divide both sides by -3:  $x = \\boxed{-4}$ \n"
+    ],
+    "pred_answers": "-4",
+    "final_pred_answer": [
+        "-4",
+        "-4",
+        "-4",
+        "-4",
+        "-4"
+    ],
+    "ground_truth": "-4"
+}

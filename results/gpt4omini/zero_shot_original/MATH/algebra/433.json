@@ -1,0 +1,23 @@
+{
+    "problem": "Evaluate $\\left\\lceil\\left(\\frac{7}{4}\\right)^2\\right\\rceil$.",
+    "level": "Level 3",
+    "type": "Algebra",
+    "solution": "The expression inside the ceiling function evaluates to $$\\left(\\frac{7}{4}\\right)^2=\\frac{49}{16}=3+\\frac{1}{16} $$Because $0\\le\\frac1{16}<1$, we have $$ \\left\\lceil\\left(\\frac{7}{4}\\right)^2\\right\\rceil = \\left\\lceil 3 + \\frac1{16} \\right\\rceil = \\boxed{4}.$$",
+    "prompt": "### Instruction: Evaluate $\\left\\lceil\\left(\\frac{7}{4}\\right)^2\\right\\rceil$.\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "To evaluate \\(\\left\\lceil\\left(\\frac{7}{4}\\right)^2\\right\\rceil\\), we will proceed step by step.\n1. **Calculate \\(\\left(\\frac{7}{4}\\right)^2\\)**:\n   \\[\n   \\left(\\frac{7}{4}\\right)^2 = \\frac{7^2}{4^2} = \\frac{49}{16}\n   \\]\n2. **Convert \\(\\frac{49}{16}\\) to a decimal**:\n   To convert \\(\\frac{49}{16}\\) to a decimal, we perform the division:\n   \\[\n   49 \\div 16 = 3.0625\n   \\]\n   Thus,\n   \\[\n   \\frac{49}{16} = 3.0625\n   \\]\n3. **Apply the ceiling function**:\n   The ceiling function \\(\\lceil x \\rceil\\) returns the smallest integer greater than or equal to \\(x\\). Since \\(3.0625\\) is between \\(3\\) and \\(4\\), we find:\n   \\[\n   \\lceil 3.0625 \\rceil = 4\n   \\]\nCombining all the steps, we find:\n\\[\n\\left\\lceil\\left(\\frac{7}{4}\\right)^2\\right\\rceil = \\left\\lceil \\frac{49}{16} \\right\\rceil = 4\n\\]\nThus, the final answer is:\n\\[\n\\boxed{4}\n\\]",
+        "To evaluate \\(\\left\\lceil\\left(\\frac{7}{4}\\right)^2\\right\\rceil\\), we first need to calculate \\(\\left(\\frac{7}{4}\\right)^2\\).\n1. **Calculating the square of \\(\\frac{7}{4}\\)**:\n   \\[\n   \\left(\\frac{7}{4}\\right)^2 = \\frac{7^2}{4^2} = \\frac{49}{16}\n   \\]\n2. **Converting \\(\\frac{49}{16}\\) to a decimal**:\n   We perform the division \\(49 \\div 16\\):\n   \\[\n   49 \\div 16 = 3.0625\n   \\]\n3. **Finding the ceiling of \\(3.0625\\)**:\n   The ceiling function, \\(\\lceil x \\rceil\\), gives the smallest integer greater than or equal to \\(x\\). Since \\(3.0625\\) is between \\(3\\) and \\(4\\), we have:\n   \\[\n   \\lceil 3.0625 \\rceil = 4\n   \\]\nPutting all the steps together, we find:\n\\[\n\\left\\lceil\\left(\\frac{7}{4}\\right)^2\\right\\rceil = \\lceil 3.0625 \\rceil = 4\n\\]\nThus, the final answer is:\n\\[\n\\boxed{4}\n\\]",
+        "To evaluate \\(\\left\\lceil\\left(\\frac{7}{4}\\right)^2\\right\\rceil\\), we will follow these steps:\n1. **Calculate \\(\\left(\\frac{7}{4}\\right)^2\\)**:\n   \\[\n   \\left(\\frac{7}{4}\\right)^2 = \\frac{7^2}{4^2} = \\frac{49}{16}\n   \\]\n2. **Convert \\(\\frac{49}{16}\\) to a decimal**:\n   We can divide \\(49\\) by \\(16\\):\n   \\[\n   49 \\div 16 = 3.0625\n   \\]\n3. **Take the ceiling of \\(3.0625\\)**:\n   The ceiling function \\(\\lceil x \\rceil\\) rounds \\(x\\) up to the nearest integer.\n   \\(\\lceil 3.0625 \\rceil = 4\\).\n4. **Final result**:\n   Therefore, \\(\\left\\lceil\\left(\\frac{7}{4}\\right)^2\\right\\rceil = 4\\).\nThus, the final answer is \n\\[\n\\boxed{4}.\n\\]",
+        "To evaluate \\(\\left\\lceil\\left(\\frac{7}{4}\\right)^2\\right\\rceil\\), we will follow these steps:\n1. First, calculate \\(\\left(\\frac{7}{4}\\right)^2\\).\n   \\[\n   \\left(\\frac{7}{4}\\right)^2 = \\frac{7^2}{4^2} = \\frac{49}{16}\n   \\]\n2. Next, we will find the decimal value of \\(\\frac{49}{16}\\).\n   \\[\n   49 \\div 16 = 3.0625\n   \\]\n3. Now, we take the ceiling of this value.\n   \\[\n   \\left\\lceil 3.0625 \\right\\rceil = 4\n   \\]\nThus, the final answer is\n\\[\n\\boxed{4}\n\\]",
+        "To evaluate \\(\\left\\lceil\\left(\\frac{7}{4}\\right)^2\\right\\rceil\\), let's follow these steps:\n1. **Calculate \\(\\left(\\frac{7}{4}\\right)^2\\)**:\n   \\[\n   \\left(\\frac{7}{4}\\right)^2 = \\frac{7^2}{4^2} = \\frac{49}{16}\n   \\]\n2. **Convert \\(\\frac{49}{16}\\) to a decimal**:\n   To do this, we can divide 49 by 16.\n   \\[\n   49 \\div 16 = 3.0625\n   \\]\n   Thus, \\(\\frac{49}{16} = 3.0625\\).\n3. **Apply the ceiling function**:\n   The ceiling function \\(\\lceil x \\rceil\\) gives the smallest integer greater than or equal to \\(x\\). Since \\(3.0625\\) lies between \\(3\\) and \\(4\\), the smallest integer greater than \\(3.0625\\) is \\(4\\).\nThus, we find that:\n\\[\n\\left\\lceil \\left(\\frac{7}{4}\\right)^2 \\right\\rceil = \\left\\lceil \\frac{49}{16} \\right\\rceil = 4\n\\]\nFinal answer:\n\\[\n\\boxed{4}\n\\]"
+    ],
+    "pred_answers": "4",
+    "final_pred_answer": [
+        "4",
+        "4",
+        "4",
+        "4",
+        "4"
+    ],
+    "ground_truth": "4"
+}

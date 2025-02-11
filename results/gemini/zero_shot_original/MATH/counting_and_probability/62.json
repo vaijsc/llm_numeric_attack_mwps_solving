@@ -1,0 +1,23 @@
+{
+    "problem": "Find the value of $n$ that satisfies $2(n+1)!+6n!=3(n+1)!$, where $n! = n\\cdot (n-1)\\cdot (n-2) \\cdots 2\\cdot 1$.",
+    "level": "Level 3",
+    "type": "Counting & Probability",
+    "solution": "Begin by moving all terms to the right side: $$0=3(n+1)!-2(n+1)!-6n!$$ $$0=(n+1)!-6n!$$ Now, since $(n+1)!=(n+1)n!$, we can take out a factor of $n!$: $$0=n!(n+1-6)$$ $$0=n!(n-5)$$ We know that $n!\\neq0$, so we can divide out $n!$ and solve for $n$: $$0=n-5$$ $$n=\\boxed{5}$$",
+    "prompt": "### Instruction: Find the value of $n$ that satisfies $2(n+1)!+6n!=3(n+1)!$, where $n! = n\\cdot (n-1)\\cdot (n-2) \\cdots 2\\cdot 1$.\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "1. **Simplify the equation:** \n   -  Subtract $2(n+1)!$ from both sides: \n      $6n! = (n+1)!$\n2. **Expand the factorials:**\n   -  Recall that $(n+1)! = (n+1) \\cdot n!$ \n   -  Substitute: $6n! = (n+1) \\cdot n!$\n3. **Solve for n:**\n   -  Divide both sides by $n!$: $6 = n + 1$\n   -  Subtract 1 from both sides: $n = 5$\n**Therefore, the value of n that satisfies the equation is 5.** \n",
+        "Here's how to solve the problem step-by-step:\n1. **Simplify the equation:**\n   Start by subtracting  2(n+1)! from both sides of the equation:\n   ```\n   6n! = (n+1)! \n   ```\n2. **Expand the factorials:**\n   Recall that (n+1)! = (n+1) * n! \n   Substitute this into the equation:\n   ```\n   6n! = (n+1) * n!\n   ```\n3. **Isolate n:**\n   Divide both sides by n!:\n   ```\n   6 = n + 1\n   ```\n4. **Solve for n:**\n   Subtract 1 from both sides:\n   ```\n   n = 5 \n   ```\n**Therefore, the value of n that satisfies the equation is n = 5.** \n",
+        "Here's how to solve the problem step-by-step:\n1. **Simplify the equation:**\n   Start by simplifying the equation by combining terms with factorials:\n   \n   ```\n   2(n+1)! + 6n! = 3(n+1)! \n   6n! = (n+1)! \n   ```\n2. **Expand the factorials:**\n   Recall that (n+1)! = (n+1) * n!  Substitute this into the equation:\n   \n   ```\n   6n! = (n+1) * n! \n   ```\n3. **Solve for n:**\n   * Divide both sides by n!:  \n      ```\n      6 = n + 1\n      ```\n   * Subtract 1 from both sides:\n      ```\n      n = 5\n      ```\n**Therefore, the value of n that satisfies the equation is n = 5.** \n",
+        "Here's how to solve the problem step by step:\n**1. Simplify the equation:**\n* Notice that all terms in the equation involve factorials. Let's try to combine them:\n   *  Subtract  `2(n+1)!` from both sides:  \n      `6n! = (n+1)!`\n**2. Expand the factorials:**\n* Recall that `(n+1)! = (n+1) * n!`.  Substitute this into the equation:\n   * `6n! = (n+1) * n!`\n**3. Solve for n:**\n* Divide both sides by `n!`:\n   * `6 = n+1`\n* Subtract 1 from both sides:\n   * `n = 5`\n**Therefore, the value of n that satisfies the equation is n = 5.** \n",
+        "Here's how to solve the problem step-by-step:\n1. **Simplify the equation:** \n   Start by simplifying the equation by combining like terms:\n   ```\n   2(n+1)! + 6n! = 3(n+1)!\n   6n! = (n+1)!  \n   ```\n2. **Expand the factorials:**\n   Recall that (n+1)! = (n+1) * n!  Substitute this into the equation:\n   ```\n   6n! = (n+1) * n!\n   ```\n3. **Solve for n:**\n   Divide both sides by n!:\n   ```\n   6 = n + 1\n   ```\n   Subtract 1 from both sides:\n   ```\n   n = 5\n   ```\n**Therefore, the value of n that satisfies the equation is n = 5.** \n"
+    ],
+    "pred_answers": "5",
+    "final_pred_answer": [
+        "5",
+        "5",
+        "5",
+        "5",
+        "5"
+    ],
+    "ground_truth": "5"
+}

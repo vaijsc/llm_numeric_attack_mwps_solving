@@ -1,0 +1,23 @@
+{
+    "problem": "A new green technology can be installed in your home for a one-time installation cost of $\\$10,\\!000$ and annual maintenance costs of $\\$650$ per year. If the green technology is supposed to save you $\\$1200$ each year in energy bills, how many whole years will it take to recuperate your costs?",
+    "level": "Level 4",
+    "type": "Algebra",
+    "solution": "We look for the least number of years $n$ it takes for the savings to be greater than or equal to the costs. \\begin{align*}\n1200n&\\ge10,000+650n\\quad\\Rightarrow\\\\\n550n&\\ge10,000\\quad\\Rightarrow\\\\\nn&\\ge\\frac{10,000}{550}=18.\\overline{18}\n\\end{align*}The smallest integer greater than $18.\\overline{18}$ is 19, so it will take $\\boxed{19}$ years to recuperate the costs.",
+    "prompt": "### Instruction: A new green technology can be installed in your home for a one-time installation cost of $\\$10,\\!000$ and annual maintenance costs of $\\$650$ per year. If the green technology is supposed to save you $\\$1200$ each year in energy bills, how many whole years will it take to recuperate your costs?\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "Here's how to solve the problem step-by-step:\n**1. Calculate the net annual savings:**\n* The technology saves you $1200 per year.\n* You spend $650 per year on maintenance.\n* Net annual savings: $1200 - $650 = $550\n**2. Determine how many years it takes to recoup the initial cost:**\n* Initial cost: $10,000\n* Net annual savings: $550\n* Years to recoup: $10,000 / $550 = 18.18 years (approximately)\n**3. Round to the nearest whole year:**\n* Since we need whole years, round 18.18 years up to **19 years**.\n**Answer:** It will take **19 years** to recuperate the costs of the green technology. \n",
+        "Here's how to break down the problem to find the solution:\n**1. Calculate the annual net savings:**\n* Savings from energy bills: $1200\n* Maintenance costs: $650\n* Net savings per year: $1200 - $650 = $550\n**2. Calculate the number of years to recoup the installation cost:**\n* Total installation cost: $10,000\n* Net savings per year: $550\n* Years to recoup: $10,000 / $550 = 18.18 years (approximately)\n**3. Round up to the nearest whole year:**\nSince we're looking for whole years, we round 18.18 years up to **19 years**.\n**Answer:** It will take **19 years** to recuperate the costs of the green technology. \n",
+        "Here's how to break down the problem to find the answer:\n**1. Calculate the annual net savings:**\n*  Savings from energy bills: $1200\n*  Annual maintenance cost: $650\n*  Net annual savings: $1200 - $650 = $550\n**2. Calculate the number of years to recoup the initial cost:**\n*  Initial cost: $10,000\n*  Annual net savings: $550\n*  Years to recoup: $10,000 / $550 = 18.18 years\n**3. Round up to the nearest whole number:**\n* Since you can't have a fraction of a year, round 18.18 years up to **19 years**.\n**Therefore, it will take 19 whole years to recuperate the costs of installing the green technology.** \n",
+        "Here's how to break down the problem:\n* **Annual Savings:** You save $1200 per year on energy bills.\n* **Annual Net Cost:** You spend $650 per year on maintenance, so your net annual savings are $1200 - $650 = $550.\n* **Cost to Recover:** You need to recover the initial $10,000 installation cost.\n* **Years to Recover:** Divide the total cost by the annual net savings: $10,000 / $550 = 18.18 years.\n**Answer:** It will take approximately **19 whole years** to recuperate the costs of installing the green technology. \n",
+        "Here's how to figure out how long it takes to recoup the costs:\n**1. Calculate the annual net savings:**\n* Savings from energy bills: $1200\n* Maintenance costs: -$650\n* **Net annual savings:** $1200 - $650 = $550\n**2. Calculate the number of years to recoup the initial cost:**\n* Initial cost: $10,000\n* Net annual savings: $550\n* **Years to recoup:** $10,000 / $550 \u2248 18.18 years\n**3. Round up to the nearest whole year:**\n* Since you can't have a fraction of a year, round 18.18 up to **19 years**.\n**Answer:** It will take **19 years** to recuperate your costs. \n"
+    ],
+    "pred_answers": "19",
+    "final_pred_answer": [
+        "19",
+        "19",
+        "19",
+        "19",
+        "19"
+    ],
+    "ground_truth": "19"
+}

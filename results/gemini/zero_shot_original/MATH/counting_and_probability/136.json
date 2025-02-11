@@ -1,0 +1,23 @@
+{
+    "problem": "A standard deck of cards has 26 cards which are considered \"red\" (the 'hearts' and 'diamonds') and 26 which are considered \"black\" (the 'spades' and 'clubs'). In how many different ways can we choose two red cards from the deck? (Note: Order matters in the sense that drawing an ace of hearts followed by jack of diamonds is different than drawing a jack of diamonds followed by ace of hearts, for instance.)",
+    "level": "Level 3",
+    "type": "Counting & Probability",
+    "solution": "For the number of successful possibilities, there are 26 ways to pick a red card first (since there are 26 total red cards), then there are 25 ways to also pick a second red card (since there are 25 red cards remaining after we've chosen the first card).  Thus, there are a total of $26 \\times 25 = \\boxed{650}$ total successful possibilities.",
+    "prompt": "### Instruction: A standard deck of cards has 26 cards which are considered \"red\" (the 'hearts' and 'diamonds') and 26 which are considered \"black\" (the 'spades' and 'clubs'). In how many different ways can we choose two red cards from the deck? (Note: Order matters in the sense that drawing an ace of hearts followed by jack of diamonds is different than drawing a jack of diamonds followed by ace of hearts, for instance.)\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "Here's how to solve this problem step-by-step:\n**1. Choosing the First Card:**\n* You have 26 red cards to choose from for your first card.\n**2. Choosing the Second Card:**\n* After you've chosen your first card, there are only 25 red cards left.\n**3. Total Possibilities:**\n* To find the total number of ways to choose two red cards, we multiply the number of choices for each step: 26 * 25 = 650\n**Therefore, there are 650 different ways to choose two red cards from a standard deck of cards if order matters.** \n",
+        "Here's how to solve this problem step by step:\n**1. Choosing the first card:**\n* We have 26 red cards to choose from for our first card.\n**2. Choosing the second card:**\n* After drawing one red card, we have 25 red cards left.\n**3. Total possibilities:**\n* Since the order matters, we need to consider all possible combinations. For the first card, we have 26 options, and for each of those options, we have 25 options for the second card.  \n* To find the total number of ways to choose two red cards, we multiply the number of options for each step: 26 * 25 = **650**\n**Therefore, there are 650 different ways to choose two red cards from a standard deck of cards if order matters.** \n",
+        "Here's how to break down the solution:\n* **Step 1: Choosing the first red card** \n   - We have 26 options for the first red card (any of the hearts or diamonds).\n* **Step 2: Choosing the second red card**\n   - After choosing the first card, there are only 25 red cards left.\n* **Total Combinations:**  To get the total number of ways to choose two red cards, we multiply the number of options at each step: 26 * 25 = 650\n**Therefore, there are 650 different ways to choose two red cards from a standard deck if order matters.** \n",
+        "Here's how to solve this problem step-by-step:\n**1. Choosing the first red card:**\n* We have 26 options for the first red card (any of the hearts or diamonds).\n**2. Choosing the second red card:**\n* After choosing the first card, we have 25 red cards left.\n**3. Total possibilities:**\n* Since order matters, we need to multiply the number of choices for each step: 26 * 25 = 650\n**Therefore, there are 650 different ways to choose two red cards from a standard deck of cards when order matters.** \n",
+        "Here's how to solve this problem step-by-step:\n**1. Choosing the first red card:**\n* There are 26 red cards to choose from.\n**2. Choosing the second red card:**\n* After taking out the first red card, there are only 25 red cards left.\n**3. Calculating the total number of ways:**\n* For each of the 26 choices for the first card, we have 25 choices for the second card.  \n* This gives us a total of 26 * 25 = 650 ways to choose two red cards.\n**Therefore, there are 650 different ways to choose two red cards from a standard deck of cards, where the order of selection matters.** \n"
+    ],
+    "pred_answers": "650",
+    "final_pred_answer": [
+        "650",
+        "650",
+        "650",
+        "650",
+        "650"
+    ],
+    "ground_truth": "650"
+}

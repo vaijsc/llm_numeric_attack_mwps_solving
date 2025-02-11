@@ -1,0 +1,23 @@
+{
+    "problem": "Two bricklayers, Alan and David, each place 30 bricks per hour. Alan worked three times as many hours as David, and the two of them placed a total of 600 bricks. How many bricks did David lay?",
+    "level": "Level 2",
+    "type": "Algebra",
+    "solution": "Let $t$ equal the amount of time David worked. Therefore, Alan worked $3t$ hours. They placed a total of $30 \\cdot t +30 \\cdot 3t=600$ bricks. Solving for $t$, we find that $t=5$ hours. Therefore, David placed $30 \\cdot 5 = \\boxed{150}$ bricks.",
+    "prompt": "### Instruction: Two bricklayers, Alan and David, each place 30 bricks per hour. Alan worked three times as many hours as David, and the two of them placed a total of 600 bricks. How many bricks did David lay?\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "Here's how to solve this problem step-by-step:\n**1. Define Variables:**\n* Let 'x' represent the number of hours David worked.\n* Alan worked three times as many hours as David, so he worked 3x hours.\n**2. Calculate Total Bricks Laid:**\n* David laid x hours * 30 bricks/hour = 30x bricks\n* Alan laid 3x hours * 30 bricks/hour = 90x bricks\n**3. Set Up an Equation:**\n* The total bricks laid is 600, so: 30x + 90x = 600\n**4. Solve for x:**\n* Combine like terms: 120x = 600\n* Divide both sides by 120: x = 5 \n**5. Find the Number of Bricks David Laid:**\n* David laid 30 bricks/hour * 5 hours = 150 bricks\n**Answer:** David laid 150 bricks. \n",
+        "Here's how to solve this problem step-by-step:\n**1. Define variables:**\n* Let 'x' represent the number of hours David worked.\n* Alan worked three times as many hours as David, so Alan worked 3x hours.\n**2. Set up an equation:**\n* The total number of bricks placed is the sum of the bricks Alan placed and the bricks David placed. \n* Alan's bricks: 30 bricks/hour * 3x hours = 90x bricks\n* David's bricks: 30 bricks/hour * x hours = 30x bricks\n* Total bricks: 90x + 30x = 600\n**3. Solve for x:**\n* Combine like terms: 120x = 600\n* Divide both sides by 120: x = 5\n**4. Find the number of bricks David laid:**\n* David laid 30 bricks/hour * 5 hours = 150 bricks\n**Answer:** David laid 150 bricks. \n",
+        "Here's how to solve the problem step-by-step:\n**1. Define variables:**\n* Let 'x' represent the number of hours David worked.\n* Alan worked 3 times as many hours as David, so Alan worked 3x hours.\n**2. Calculate total bricks laid:**\n* David laid x hours * 30 bricks/hour = 30x bricks\n* Alan laid 3x hours * 30 bricks/hour = 90x bricks\n* Together they laid 30x + 90x = 120x bricks\n**3. Set up an equation:**\n* We know they laid a total of 600 bricks: 120x = 600\n**4. Solve for x:**\n* Divide both sides by 120: x = 5 hours (This is how many hours David worked)\n**5. Calculate the number of bricks David laid:**\n* David laid 5 hours * 30 bricks/hour = 150 bricks\n**Answer:** David laid 150 bricks. \n",
+        "Here's how we can solve this problem step-by-step:\n**1. Define Variables:**\n* Let 'x' represent the number of hours David worked.\n* Alan worked three times as long, so he worked 3x hours.\n**2. Set up Equations:**\n* **Bricks laid by David:** x hours * 30 bricks/hour = 30x bricks\n* **Bricks laid by Alan:** 3x hours * 30 bricks/hour = 90x bricks\n* **Total bricks:** 30x + 90x = 600\n**3. Solve for x (the number of hours David worked):**\n* Combine like terms: 120x = 600\n* Divide both sides by 120: x = 5 hours\n**4. Calculate the number of bricks David laid:**\n* David laid 30 bricks/hour * 5 hours = 150 bricks\n**Answer:** David laid 150 bricks. \n",
+        "Here's how to solve the problem step-by-step:\n**1. Set up variables:**\n* Let 'x' be the number of hours David worked.\n* Alan worked 3x hours.\n**2. Calculate the total bricks laid by each:**\n* David laid 30x bricks (bricks per hour * hours worked)\n* Alan laid 30 * 3x = 90x bricks\n**3. Set up an equation:**\n* Total bricks laid by both: 30x + 90x = 600 \n**4. Solve for x:**\n* Combine like terms: 120x = 600\n* Divide both sides by 120: x = 5 \n**5. Calculate the bricks laid by David:**\n* David laid 30x bricks = 30 * 5 = 150 bricks\n**Answer:** David laid 150 bricks. \n"
+    ],
+    "pred_answers": "150",
+    "final_pred_answer": [
+        "150",
+        "150",
+        "150",
+        "150",
+        "150"
+    ],
+    "ground_truth": "150"
+}

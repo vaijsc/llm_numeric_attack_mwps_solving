@@ -1,0 +1,23 @@
+{
+    "problem": "Express in simplest form: $\\sqrt[12]{8^4}$",
+    "level": "Level 1",
+    "type": "Algebra",
+    "solution": "We have  \\[\\sqrt[12]{8^4} = (8^4)^{1/12} = 8^{4/12} = 8^{1/3} = (2^3)^{1/3} = \\boxed{2}.\\]",
+    "prompt": "### Instruction: Express in simplest form: $\\sqrt[12]{8^4}$\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "Here's how to simplify the expression:\n1. **Rewrite the expression:**  We can rewrite 8 as 2 cubed: 8 = 2\u00b3. \n   \n   This gives us:  \u221a[12](2\u00b3)^4\n2. **Simplify the exponent:** When raising a power to another power, we multiply the exponents: (2\u00b3)^4 = 2^(3*4) = 2^12.\n   Now we have: \u221a[12](2^12)\n3. **Use the definition of roots:** The 12th root of a number raised to the 12th power is simply the number itself: \u221a[12](2^12) = 2.\n**Therefore, the simplest form of \u221a[12](8^4) is 2.** \n",
+        "Here's how to simplify the expression step-by-step:\n1. **Simplify the inside:**  8^4 = 8 * 8 * 8 * 8 = 4096\n2. **Rewrite the radical:**  \u221a[12]{4096} is the same as finding the 12th root of 4096.\n3. **Find the 12th root:**  Since 2^12 = 4096, the 12th root of 4096 is 2.\n**Therefore, the simplest form of \u221a[12]{8^4} is 2.** \n",
+        "Here's how to simplify the expression step-by-step:\n1. **Simplify the exponent inside the radical:**  8 raised to the power of 4 is 8 * 8 * 8 * 8 = 4096.\n2. **Rewrite the radical using fractional exponents:**  The 12th root of a number is the same as raising that number to the power of 1/12. So, we can write: \n   \u221a[12](4096) = 4096^(1/12)\n3. **Find a common base:** Notice that 4096 is a power of 2 (2^12 = 4096).\n4. **Substitute and simplify:**  \n   4096^(1/12) = (2^12)^(1/12)\n   Since we are raising a power to another power, we multiply the exponents: (2^12)^(1/12) = 2^(12 * (1/12)) = 2^1 = **2**\n**Therefore, the simplest form of \u221a[12](8^4) is 2.** \n",
+        "Here's how to simplify the expression:\n1. **Rewrite 8 as a power of 2:**  8 is the same as 2 cubed (2\u00b3). \n   \n2. **Substitute and simplify:** \n   *  \u221a[12](8\u2074) = \u221a[12]((2\u00b3)\u2074)\n   *  \u221a[12](2\u00b9\u00b2)\n3. **Apply the rule of exponents:**  The 12th root of a number raised to the 12th power is just the number itself. \n   *  \u221a[12](2\u00b9\u00b2) = 2\nTherefore, the simplest form of \u221a[12](8\u2074) is **2**. \n",
+        "Here's how to simplify the expression step-by-step:\n1. **Simplify the inside:**  8\u2074 = 8 * 8 * 8 * 8 = 4096\n2. **Rewrite as a fractional exponent:**  \u221a[12]4096 = 4096^(1/12)\n3. **Find the prime factorization of 4096:** 4096 = 2\u00b9\u00b2\n4. **Substitute and simplify:**  (2\u00b9\u00b2)^(1/12) = 2^(12 * 1/12) = 2\u00b9 = **2**\nTherefore, the simplest form of \u221a[12]8\u2074 is **2**. \n"
+    ],
+    "pred_answers": "2",
+    "final_pred_answer": [
+        "2",
+        "2",
+        "2",
+        "2",
+        "2"
+    ],
+    "ground_truth": "2"
+}

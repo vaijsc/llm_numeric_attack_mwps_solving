@@ -1,0 +1,23 @@
+{
+    "problem": "Simplify $(a-1)(a+1)(a+2) - (a-2)(a+1).$",
+    "level": "Level 5",
+    "type": "Algebra",
+    "solution": "We successively expand by multiplying binomials: \\begin{align*}\n(a&-1)(a+1)(a+2) - (a-2)(a+1)\\\\\n&= (a^2-1)(a+2)-(a-2)(a+1)\\\\\n&= (a^3 + 2a^2 - a - 2) - (a^2 -a -2)\\\\\n&= a^3 + a^2.\n\\end{align*}So our answer is just $\\boxed{a^3 + a^2}$.",
+    "prompt": "### Instruction: Simplify $(a-1)(a+1)(a+2) - (a-2)(a+1).$\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "Here's how to simplify the expression step-by-step:\n**1. Expand the products:**\n* **First part:**  (a - 1)(a + 1)(a + 2) \n   *  Use the \"difference of squares\" pattern: (a - 1)(a + 1) = a\u00b2 - 1\n   *  Now we have: (a\u00b2 - 1)(a + 2)\n   *  Expand using the distributive property: a\u00b2(a + 2) - 1(a + 2) = a\u00b3 + 2a\u00b2 - a - 2 \n* **Second part:** (a - 2)(a + 1)\n   *  Expand using the distributive property: a(a + 1) - 2(a + 1) = a\u00b2 + a - 2a - 2 = a\u00b2 - a - 2\n**2. Combine the expanded expressions:**\n (a\u00b3 + 2a\u00b2 - a - 2) - (a\u00b2 - a - 2)\n**3. Simplify by distributing the negative sign:**\n a\u00b3 + 2a\u00b2 - a - 2 - a\u00b2 + a + 2\n**4. Combine like terms:**\na\u00b3 + a\u00b2 \n**Therefore, the simplified expression is a\u00b3 + a\u00b2** \n",
+        "1. **Expand the first product:**\n   \n   $(a-1)(a+1) = a^2 - 1$ (This is a difference of squares pattern)\n2. **Expand the second product:**\n   \n   $(a-2)(a+1) = a^2 - a - 2$\n3. **Substitute back into the original expression:**\n   \n   $(a^2 - 1)(a+2) - (a^2 - a - 2)$\n4. **Distribute:**\n   \n   $a^3 + 2a^2 - a - 2 - a^2 + a + 2$\n5. **Combine like terms:**\n   \n   $a^3 + a^2$\n**Therefore, the simplified expression is  $a^3 + a^2$.** \n",
+        "Here's how to simplify the expression step-by-step:\n**1. Expand the products:**\n* **First part:** $(a-1)(a+1)(a+2) = (a^2 - 1)(a+2)$ \n   * We used the difference of squares pattern: (a-b)(a+b) = a\u00b2 - b\u00b2 \n* **Second part:**  -(a-2)(a+1) = -(a\u00b2 - a - 2)\n**2. Expand further:**\n* **First part:** (a\u00b2 - 1)(a+2) = a\u00b3 + 2a\u00b2 - a - 2\n* **Second part:** -(a\u00b2 - a - 2) = -a\u00b2 + a + 2\n**3. Combine like terms:**\n* a\u00b3 + 2a\u00b2 - a - 2 - a\u00b2 + a + 2 = **a\u00b3 + a\u00b2** \n**Therefore, the simplified expression is a\u00b3 + a\u00b2** \n",
+        "Here's how to simplify the expression step-by-step:\n**1. Expand the products:**\n*  $(a-1)(a+1) = a^2 - 1$ (using the difference of squares pattern)\n*  $(a+2)(a^2-1) = a^3 + 2a^2 - a - 2$\n*  $(a-2)(a+1) = a^2 - a - 2$\n**2. Substitute the expanded products back into the original expression:**\n   $(a-1)(a+1)(a+2) - (a-2)(a+1) = (a^3 + 2a^2 - a - 2) - (a^2 - a - 2)$\n**3. Distribute the negative sign:**\n   $a^3 + 2a^2 - a - 2 - a^2 + a + 2$\n**4. Combine like terms:**\n   $a^3 + (2a^2 - a^2) + (-a + a) + (-2 + 2)$\n**5. Simplify:**\n   **$a^3 + a^2$** \nTherefore, the simplified expression is **$a^3 + a^2$**. \n",
+        "Here's how to simplify the expression step-by-step:\n**1. Expand the products:**\n* **First part:**  (a-1)(a+1)(a+2) can be expanded by using the \"difference of squares\" pattern (a-b)(a+b) = a\u00b2 - b\u00b2  and then distributing:\n   * (a-1)(a+1) = a\u00b2 - 1\n   * (a\u00b2 - 1)(a+2) = a\u00b3 + 2a\u00b2 - a - 2\n* **Second part:** (a-2)(a+1) can be expanded using the distributive property:\n   * (a-2)(a+1) = a\u00b2 + a - 2a - 2 = a\u00b2 - a - 2\n**2. Combine the expanded terms:**\n(a\u00b3 + 2a\u00b2 - a - 2) - (a\u00b2 - a - 2)\n**3. Distribute the negative sign:**\na\u00b3 + 2a\u00b2 - a - 2 - a\u00b2 + a + 2\n**4. Combine like terms:**\na\u00b3 + a\u00b2 \n**Therefore, the simplified expression is  a\u00b3 + a\u00b2** \n"
+    ],
+    "pred_answers": "2",
+    "final_pred_answer": [
+        "4",
+        "2",
+        "2",
+        "2",
+        "4"
+    ],
+    "ground_truth": "2"
+}

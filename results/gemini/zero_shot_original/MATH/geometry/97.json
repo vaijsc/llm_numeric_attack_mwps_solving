@@ -1,0 +1,23 @@
+{
+    "problem": "The volume of a cube is 0.027 cubic meters. What is its surface area in square meters?",
+    "level": "Level 2",
+    "type": "Geometry",
+    "solution": "Let $s$ be the side length of the cube. Then $s^3$ is the volume, so $s^3 = .027$. Taking the cube root of both sides gives $s = .3$. The area of one face of the cube is thus $s^2 = .09$. There are six faces, so the surface area is $6(.09) = \\boxed{0.54}$ square meters.",
+    "prompt": "### Instruction: The volume of a cube is 0.027 cubic meters. What is its surface area in square meters?\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "Here's how to solve this problem step-by-step:\n**1. Find the side length of the cube:**\n* The volume of a cube is calculated by  V = s\u00b3, where 's' is the side length.\n* We know the volume is 0.027 cubic meters. \n* So, 0.027 = s\u00b3\n* To find 's', take the cube root of 0.027:  s = \u00b3\u221a0.027 = 0.3 meters\n**2. Calculate the surface area:**\n* The surface area of a cube is calculated by A = 6s\u00b2, where 's' is the side length.\n* We know the side length is 0.3 meters.\n* So, A = 6 * (0.3)\u00b2 = 6 * 0.09 = 0.54 square meters.\n**Answer:** The surface area of the cube is **0.54 square meters**. \n",
+        "Here's how to solve the problem step-by-step:\n**1. Find the side length of the cube:**\n* The volume of a cube is calculated by  Volume = side\u00b3\n* We know the volume is 0.027 cubic meters. \n*  So, side\u00b3 = 0.027\n*  To find the side length, take the cube root of 0.027:  side = \u00b3\u221a0.027 = 0.3 meters\n**2. Calculate the surface area:**\n* The surface area of a cube is calculated by Surface Area = 6 * side\u00b2\n* We know the side length is 0.3 meters.\n* Surface Area = 6 * (0.3)\u00b2 = 6 * 0.09 = 0.54 square meters\n**Therefore, the surface area of the cube is 0.54 square meters.** \n",
+        "Here's how to solve the problem step-by-step:\n**1. Find the side length of the cube:**\n* The volume of a cube is calculated by  *Volume = side\u00b3*\n* We know the volume is 0.027 cubic meters.  Let 's' represent the side length. \n* So,  0.027 = s\u00b3\n* To find 's', take the cube root of both sides: \u00b3\u221a0.027 = s \n* Therefore, s = 0.3 meters \n**2. Calculate the surface area:**\n* The surface area of a cube is calculated by *Surface Area = 6 * side\u00b2*\n* We know the side length (s) is 0.3 meters.\n* Surface Area = 6 * (0.3)\u00b2\n* Surface Area = 6 * 0.09\n* Surface Area = 0.54 square meters\n**Therefore, the surface area of the cube is 0.54 square meters.** \n",
+        "Here's how to solve the problem step-by-step:\n**1. Find the side length of the cube:**\n* The volume of a cube is found by  *side length cubed* (side\u00b3).\n* To find the side length, we need to find the cube root of the volume: \u221b0.027 m\u00b3 = 0.3 meters\n**2. Calculate the surface area:**\n* A cube has 6 equal square faces.\n* The area of one face is side\u00b2 = (0.3 m)\u00b2 = 0.09 m\u00b2\n* The total surface area is 6 * 0.09 m\u00b2 = **0.54 square meters** \n",
+        "Here's how to solve the problem step-by-step:\n**1. Find the side length of the cube:**\n* The volume of a cube is calculated by  *Volume = side * side * side* (or side\u00b3)\n* We know the volume is 0.027 cubic meters.\n* To find the side length, we need to find the cube root of 0.027.  The cube root of 0.027 is 0.3 meters. \n**2. Calculate the surface area:**\n* A cube has 6 equal square faces.\n* The area of one face is side * side (or side\u00b2).\n* The surface area of the cube is 6 * (side\u00b2)\n* Surface area = 6 * (0.3 meters)\u00b2 = 6 * 0.09 square meters = 0.54 square meters.\n**Therefore, the surface area of the cube is 0.54 square meters.** \n"
+    ],
+    "pred_answers": "0.54",
+    "final_pred_answer": [
+        "0.54",
+        "0.54",
+        "0.54",
+        "0.54",
+        "0.54"
+    ],
+    "ground_truth": "0.54"
+}

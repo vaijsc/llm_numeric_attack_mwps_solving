@@ -1,0 +1,23 @@
+{
+    "problem": "In a rectangular coordinate system, the line $3y = x$ intersects the line $2x + 5y = 11$ at point $A$. What is the sum of the coordinates of point $A$?",
+    "level": "Level 3",
+    "type": "Algebra",
+    "solution": "If the coordinates of point $A$ are $(x,y)$ then $x$ and $y$ must satisfy the equations of both lines (as $A$ is on both lines). Substituting the first equation into the second gives: \\begin{align*}\n2x+5y &=11\\\\\n6y+5y&= 11\\\\\n11y&= 11\\\\\ny &= 1.\n\\end{align*}So now $x = 3y = 3$, and so the coordinates of point $A$ are $(3,1)$. The sum of these is $3+1 = \\boxed{4}$.",
+    "prompt": "### Instruction: In a rectangular coordinate system, the line $3y = x$ intersects the line $2x + 5y = 11$ at point $A$. What is the sum of the coordinates of point $A$?\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "Here's how to solve the problem step-by-step:\n**1. Solve for one variable in terms of the other in one of the equations.**\n   Let's solve the first equation for *x*: \n   \n   ```\n   3y = x \n   ```\n**2. Substitute that expression into the second equation.**\n   Substitute  *x = 3y*  into the second equation:\n   ```\n   2(3y) + 5y = 11\n   ```\n**3. Simplify and solve for *y*.**\n   ```\n   6y + 5y = 11\n   11y = 11\n   y = 1\n   ```\n**4. Substitute the value of *y* back into either of the original equations to find *x*.**\n   Let's use the equation *x = 3y*:\n   ```\n   x = 3(1)\n   x = 3\n   ```\n**5. Determine the coordinates of point A and calculate the sum.**\n   The point of intersection, point A, is (3, 1).\n   The sum of the coordinates is 3 + 1 = **4**. \n",
+        "Here's how to solve the problem step-by-step:\n**1. Solve for one variable in terms of the other**\n* From the equation  $3y = x$, we can solve for $x$:  $x = 3y$.\n**2. Substitute to eliminate a variable**\n* Substitute this expression for $x$ into the second equation: \n   $2(3y) + 5y = 11$\n**3. Solve for the remaining variable**\n* Simplify and solve for *y*:\n   * $6y + 5y = 11$\n   * $11y = 11$\n   * $y = 1$\n**4. Substitute to find the other variable**\n* Substitute the value of *y* back into either original equation to find *x*.  Let's use $x = 3y$:\n   * $x = 3(1)$\n   * $x = 3$\n**5. Determine the coordinates and the sum**\n* Point *A* has coordinates (3, 1). \n* The sum of the coordinates is 3 + 1 = **4**. \n",
+        "Here's how to solve the problem step-by-step:\n**1. Solve for the x and y coordinates of point A**\n* **Solve for x in the first equation:** \n   Since  3y = x, we know that x = 3y.\n* **Substitute into the second equation:**\n   Substitute 3y for x in the second equation: 2(3y) + 5y = 11\n* **Simplify and solve for y:**\n   6y + 5y = 11\n   11y = 11\n   y = 1\n* **Substitute y back into either equation to find x:**\n   Let's use the first equation: 3(1) = x\n   So, x = 3\n**2. Find the sum of the coordinates**\n* The coordinates of point A are (3, 1).\n* The sum of the coordinates is 3 + 1 = **4** \n",
+        "Here's how to solve the problem step-by-step:\n**1. Solve for x in the first equation:**\n*  $3y = x$ \n**2. Substitute this value of x into the second equation:**\n*  $2(3y) + 5y = 11$\n**3. Simplify and solve for y:**\n*  $6y + 5y = 11$\n*  $11y = 11$\n*  $y = 1$\n**4. Substitute the value of y back into the equation for x:**\n*  $x = 3(1)$\n*  $x = 3$\n**5. The coordinates of point A are (3, 1).**\n**6. Find the sum of the coordinates:**\n*  3 + 1 = 4\n**Therefore, the sum of the coordinates of point A is 4.** \n",
+        "Here's how to solve the problem step-by-step:\n**1. Solve for one variable in terms of the other in one of the equations.**\n* Let's use the first equation:  3y = x.  Solving for x, we get x = 3y.\n**2. Substitute this expression into the second equation.**\n* Substituting x = 3y into the second equation, we get: 2(3y) + 5y = 11.\n**3. Solve for y.**\n* Simplifying the equation: 6y + 5y = 11\n* Combining terms: 11y = 11\n* Solving for y: y = 1\n**4. Substitute the value of y back into either of the original equations to find x.**\n* Using the equation x = 3y, we get x = 3(1) = 3.\n**5. Find the sum of the coordinates.**\n* Point A has coordinates (3, 1), so the sum of its coordinates is 3 + 1 = **4**. \n"
+    ],
+    "pred_answers": "4",
+    "final_pred_answer": [
+        "4",
+        "4",
+        "4",
+        "4",
+        "4"
+    ],
+    "ground_truth": "4"
+}

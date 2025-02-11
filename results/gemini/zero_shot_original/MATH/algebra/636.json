@@ -1,0 +1,23 @@
+{
+    "problem": "The sum of two numbers is 25 and their difference is 9. What is their product?",
+    "level": "Level 1",
+    "type": "Algebra",
+    "solution": "We can represent the given information with the following system of linear equations:\n\n\\begin{align*}\nx + y &= 25, \\\\\nx - y &= 9.\n\\end{align*}To find the product of $x$ and $y$, solve for each independently.\n\nBegin by adding the two equations:  \\begin{align*}\n2x &= 34 \\\\\nx &= 17\n\\end{align*}Substituting in for $x$ yields a value of $8$ for $y$.\n\nHence, $x \\cdot y = 17 \\cdot 8 = \\boxed{136}$",
+    "prompt": "### Instruction: The sum of two numbers is 25 and their difference is 9. What is their product?\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "Here's how to solve this problem step by step:\n**1. Set up equations:**\n* Let 'x' be the larger number.\n* Let 'y' be the smaller number.\nWe are given:\n*  x + y = 25 \n*  x - y = 9\n**2. Solve for one variable:**\nWe can solve for 'x' in the second equation:\n* x = y + 9\n**3. Substitute:**\nSubstitute this value of 'x' into the first equation:\n* (y + 9) + y = 25\n**4. Simplify and solve for 'y':**\n* 2y + 9 = 25\n* 2y = 16\n* y = 8\n**5. Solve for x:**\nSubstitute the value of 'y' back into either of the original equations. Let's use x + y = 25:\n* x + 8 = 25\n* x = 17\n**6. Calculate the product:**\n* The product of the two numbers is x * y = 17 * 8 = 136\n**Therefore, the product of the two numbers is 136.** \n",
+        "Here's how to solve this problem step-by-step:\n**1. Set up equations:**\n* Let 'x' be the larger number.\n* Let 'y' be the smaller number.\nWe are given:\n* x + y = 25  \n* x - y = 9\n**2. Solve for x and y:**\n* **Add the two equations together:** Notice that the 'y' terms cancel out.\n   (x + y) + (x - y) = 25 + 9\n   2x = 34\n   x = 17 \n* **Substitute the value of x back into either original equation to solve for y:**\n   17 + y = 25\n   y = 8\n**3. Calculate the product:**\n* Product = x * y\n* Product = 17 * 8\n* Product = 136\n**Therefore, the product of the two numbers is 136.** \n",
+        "Here's how to solve this problem step-by-step:\n**1. Set up equations:**\n* Let 'x' be the larger number.\n* Let 'y' be the smaller number.\nWe are given:\n* x + y = 25 \n* x - y = 9\n**2. Solve for one variable:**\n*  Add the two equations together: \n   (x + y) + (x - y) = 25 + 9\n   2x = 34\n   x = 17\n**3. Substitute to find the other variable:**\n* Substitute x = 17 into either of the original equations. Let's use x + y = 25:\n   17 + y = 25\n   y = 8\n**4. Calculate the product:**\n* Now that we know x = 17 and y = 8, we can find their product:\n   x * y = 17 * 8 = 136\n**Therefore, the product of the two numbers is 136.** \n",
+        "Here's how to solve this problem step-by-step:\n**1. Set up equations:**\n* Let 'x' be the larger number.\n* Let 'y' be the smaller number.\nWe are given:\n* x + y = 25 \n* x - y = 9\n**2. Solve for x and y:**\n* **Add the two equations together:** Notice that the 'y' terms cancel out.\n   (x + y) + (x - y) = 25 + 9\n   2x = 34\n* **Solve for x:** \n   x = 34 / 2\n   x = 17\n* **Substitute the value of x back into either of the original equations to solve for y.** Let's use x + y = 25:\n   17 + y = 25\n   y = 25 - 17\n   y = 8\n**3. Calculate the product:**\n* The product of the two numbers is x * y \n* Product = 17 * 8 = 136\n**Therefore, the product of the two numbers is 136.** \n",
+        "Here's how to solve the problem step-by-step:\n**1. Set up equations:**\n* Let 'x' be the larger number.\n* Let 'y' be the smaller number.\nWe are given:\n*  x + y = 25 \n*  x - y = 9\n**2. Solve for x and y:**\n* **Method 1: Elimination**\n   * Add the two equations together: \n     (x + y) + (x - y) = 25 + 9\n     2x = 34\n     x = 17\n   * Substitute the value of x back into either original equation to solve for y:\n     17 + y = 25\n     y = 8\n* **Method 2: Substitution**\n   * Solve one equation for one variable (e.g., solve the second equation for x: x = y + 9)\n   * Substitute this expression for x into the other equation: \n     (y + 9) + y = 25\n     2y + 9 = 25\n     2y = 16\n     y = 8\n   * Substitute the value of y back into either original equation to solve for x:\n     x + 8 = 25\n     x = 17\n**3. Calculate the product:**\n* The product of the two numbers is x * y = 17 * 8 = **136** \n"
+    ],
+    "pred_answers": "136",
+    "final_pred_answer": [
+        "136",
+        "136",
+        "136",
+        "136",
+        "136"
+    ],
+    "ground_truth": "136"
+}

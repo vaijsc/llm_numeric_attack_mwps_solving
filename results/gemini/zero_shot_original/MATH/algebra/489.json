@@ -1,0 +1,23 @@
+{
+    "problem": "The positive difference between the squares of two consecutive odd integers is 128. What is the product of the two integers?",
+    "level": "Level 2",
+    "type": "Algebra",
+    "solution": "Let $a, a+2$ be the two integers. We are given that $(a+2)^2-a^2 = 128$. Using the difference of squares factorization, the equation becomes $(a+2+a)(a+2-a) = 128$. Simplifying and solving, we get: \\begin{align*}\n(2a+2)(2) &= 128\\\\\n\\Rightarrow 2a+2 &= 64\\\\\n\\Rightarrow 2a &= 62\\\\\n\\Rightarrow a &= 31.\\\\\n\\end{align*} Therefore the desired product is $a(a+2) = 31\\cdot33 = \\boxed{1023}$.",
+    "prompt": "### Instruction: The positive difference between the squares of two consecutive odd integers is 128. What is the product of the two integers?\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "Here's how to solve this problem step-by-step:\n**1. Represent the Integers:**\n* Let the first odd integer be represented by  'x'.\n* Since the integers are consecutive odd integers, the next odd integer is 'x + 2'.\n**2. Set up the Equation:**\n* The difference of the squares of the two integers is 128, so we can write the equation:\n   (x + 2)\u00b2 - x\u00b2 = 128\n**3. Simplify and Solve for x:**\n* Expand the equation: x\u00b2 + 4x + 4 - x\u00b2 = 128\n* Simplify: 4x + 4 = 128\n* Subtract 4 from both sides: 4x = 124\n* Divide both sides by 4: x = 31\n**4. Find the Second Integer:**\n* The second odd integer is x + 2, so it is 31 + 2 = 33\n**5. Calculate the Product:**\n* The product of the two integers is 31 * 33 = **1023** \n",
+        "Here's how to solve the problem step-by-step:\n**1. Define the variables:**\n* Let 'x' be the smaller odd integer.\n* The next consecutive odd integer is 'x + 2'.\n**2. Set up the equation:**\n* The difference between the squares of the two integers is 128, so we have: (x + 2)\u00b2 - x\u00b2 = 128\n**3. Expand and simplify the equation:**\n* x\u00b2 + 4x + 4 - x\u00b2 = 128\n* 4x + 4 = 128\n* 4x = 124\n**4. Solve for x:**\n* x = 31\n**5. Find the other integer:**\n* The next consecutive odd integer is x + 2 = 31 + 2 = 33\n**6. Calculate the product:**\n* The product of the two integers is 31 * 33 = 1023\n**Therefore, the product of the two consecutive odd integers is 1023.** \n",
+        "Here's how to solve the problem step-by-step:\n**1. Define the variables:**\n* Let 'x' be the first odd integer.\n* The next consecutive odd integer is 'x + 2'.\n**2. Set up the equation:**\n* The difference between the squares of the two integers is (x + 2)\u00b2 - x\u00b2 = 128\n**3. Solve the equation:**\n* Expand the square: x\u00b2 + 4x + 4 - x\u00b2 = 128\n* Simplify: 4x + 4 = 128\n* Subtract 4 from both sides: 4x = 124\n* Divide both sides by 4: x = 31\n**4. Find the second integer:**\n* The second consecutive odd integer is x + 2 = 31 + 2 = 33\n**5. Calculate the product:**\n* The product of the two integers is 31 * 33 = **1023**\n**Therefore, the product of the two integers is 1023.** \n",
+        "Here's how to solve this problem step-by-step:\n**1. Represent the integers:**\n* Let the first odd integer be represented by  'x'.\n* Since they are consecutive odd integers, the next odd integer is 'x + 2'.\n**2. Set up the equation:**\n* The difference of their squares is (x + 2)\u00b2 - x\u00b2 = 128\n**3. Simplify the equation:**\n* Expand (x + 2)\u00b2: x\u00b2 + 4x + 4 - x\u00b2 = 128\n* Simplify: 4x + 4 = 128\n**4. Solve for x:**\n* Subtract 4 from both sides: 4x = 124\n* Divide both sides by 4: x = 31\n**5. Find the second integer:**\n* The second odd integer is x + 2 = 31 + 2 = 33\n**6. Calculate the product:**\n* The product of the two integers is 31 * 33 = 1023\n**Therefore, the product of the two consecutive odd integers is 1023.** \n",
+        "Here's how to solve this problem step-by-step:\n**1. Define the variables:**\n* Let 'x' be the smaller odd integer.\n* The next consecutive odd integer is 'x + 2'.\n**2. Set up the equation:**\n* The difference of the squares is:  (x + 2)\u00b2 - x\u00b2 = 128\n**3. Expand and simplify:**\n* x\u00b2 + 4x + 4 - x\u00b2 = 128\n* 4x + 4 = 128\n* 4x = 124\n**4. Solve for x:**\n* x = 31\n**5. Find the consecutive odd integer:**\n* x + 2 = 31 + 2 = 33\n**6. Calculate the product:**\n* 31 * 33 = **1023**\n**Therefore, the product of the two consecutive odd integers is 1023.** \n"
+    ],
+    "pred_answers": "1023",
+    "final_pred_answer": [
+        "1023",
+        "1023",
+        "1023",
+        "1023",
+        "1023"
+    ],
+    "ground_truth": "1023"
+}

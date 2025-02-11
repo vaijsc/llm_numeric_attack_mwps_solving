@@ -1,0 +1,23 @@
+{
+    "problem": "If $12^2 \\cdot 18^3 = 2^x \\cdot 3^y$, find $x+y$.",
+    "level": "Level 4",
+    "type": "Algebra",
+    "solution": "We write $12$ and $18$ as products of $2$s and $3$s: \\begin{align*}\n12^2 \\cdot 18^3 &= (2^2 \\cdot 3)^2 \\cdot (2 \\cdot 3^2)^3 \\\\\n&= (2^4 \\cdot 3^2) \\cdot (2^3 \\cdot 3^6) \\\\\n&= 2^{4+3} \\cdot 3^{2+6}\\\\\n&= 2^7 \\cdot 3^8 \\\\\n\\end{align*}Therefore, $x+y = 7+8 = \\boxed{15}$.",
+    "prompt": "### Instruction: If $12^2 \\cdot 18^3 = 2^x \\cdot 3^y$, find $x+y$.\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "Here's how to solve the problem step-by-step:\n**1. Prime Factorization**\n* **Break down 12:**  12 = 2\u00b2 * 3\u00b9\n* **Break down 18:** 18 = 2\u00b9 * 3\u00b2\n**2. Substitute and Simplify**\nNow we can substitute these prime factorizations into the original equation:\n(2\u00b2 * 3\u00b9)\u00b2 * (2\u00b9 * 3\u00b2)\u00b3  = 2\u02e3 * 3\u02b8\nSimplify using exponent rules:\n* 2\u2074 * 3\u00b2 * 2\u00b3 * 3\u2076 = 2\u02e3 * 3\u02b8\n* 2\u2077 * 3\u2078 = 2\u02e3 * 3\u02b8\n**3. Match Exponents**\nSince the bases are the same on both sides of the equation, we can directly match the exponents:\n* x = 7\n* y = 8\n**4. Calculate x + y**\nx + y = 7 + 8 = **15** \n",
+        "Here's how to solve the problem step-by-step:\n**1. Prime Factorization**\n* Break down 12 and 18 into their prime factors:\n   *  12 = 2\u00b2 * 3\u00b9\n   *  18 = 2\u00b9 * 3\u00b2\n**2. Substitute and Simplify**\n* Substitute these prime factorizations into the original equation:\n   (2\u00b2 * 3\u00b9)\u00b2 * (2\u00b9 * 3\u00b2)\u00b3 = 2\u02e3 * 3\u02b8\n* Simplify using exponent rules:\n   * 2\u2074 * 3\u00b2 * 2\u00b3 * 3\u2076 = 2\u02e3 * 3\u02b8\n   * 2\u2077 * 3\u2078 = 2\u02e3 * 3\u02b8\n**3. Solve for x and y**\n* For the equation to hold true, the powers of 2 and 3 on both sides must be equal:\n   * x = 7\n   * y = 8\n**4. Calculate x + y**\n* x + y = 7 + 8 = **15** \n",
+        "Here's how to solve the problem step by step:\n**1. Prime Factorization:**\n*  Break down 12 and 18 into their prime factors:\n    *  12 = 2\u00b2 * 3\u00b9\n    *  18 = 2\u00b9 * 3\u00b2\n**2. Substitute and Simplify:**\n* Substitute the prime factorizations back into the original equation:\n    (2\u00b2 * 3\u00b9)\u00b2 * (2\u00b9 * 3\u00b2)\u00b3 = 2\u02e3 * 3\u02b8\n* Simplify using exponent rules:\n    2\u2074 * 3\u00b2 * 2\u00b3 * 3\u2076 = 2\u02e3 * 3\u02b8\n    2\u2077 * 3\u2078 = 2\u02e3 * 3\u02b8\n**3. Match Exponents:**\n* For the equation to be true, the exponents of 2 and 3 on both sides must be equal:\n    * x = 7\n    * y = 8\n**4. Calculate x + y:**\n* x + y = 7 + 8 = 15\n**Therefore, x + y = 15** \n",
+        "Here's how to solve the problem step-by-step:\n1. **Prime Factorization:**  Break down 12 and 18 into their prime factors:\n   *  $12 = 2^2 \\cdot 3$\n   *  $18 = 2 \\cdot 3^2$\n2. **Substitute:** Substitute these prime factorizations into the original equation:\n   * $(2^2 \\cdot 3)^2 \\cdot (2 \\cdot 3^2)^3 = 2^x \\cdot 3^y$\n3. **Simplify:** Use the rules of exponents (when multiplying powers with the same base, add the exponents):\n   * $2^4 \\cdot 3^2 \\cdot 2^3 \\cdot 3^6 = 2^x \\cdot 3^y$\n   * $2^7 \\cdot 3^8 = 2^x \\cdot 3^y$\n4. **Match Exponents:**  For the equation to be true, the exponents of 2 and 3 on both sides must match:\n   *  $x = 7$\n   *  $y = 8$\n5. **Calculate x + y:** \n   *  $x + y = 7 + 8 = 15$\n**Therefore,  $x + y = 15$.** \n",
+        "Here's how to solve the problem step-by-step:\n1. **Prime Factorization:**  Break down 12 and 18 into their prime factors:\n   *  12 = 2\u00b2 * 3\u00b9\n   *  18 = 2\u00b9 * 3\u00b2\n2. **Substitute and Simplify:** Substitute these prime factorizations into the original equation:\n   * (2\u00b2 * 3\u00b9)\u00b2 * (2\u00b9 * 3\u00b2)\u00b3 = 2\u02e3 * 3\u02b8\n   * 2\u2074 * 3\u00b2 * 2\u00b3 * 3\u2076 = 2\u02e3 * 3\u02b8 \n3. **Combine Like Terms:** Use the properties of exponents to combine the terms on the left side:\n   * 2\u2077 * 3\u2078 = 2\u02e3 * 3\u02b8\n4. **Match Exponents:**  For the equation to be true, the exponents of 2 and 3 must be equal on both sides:\n   * x = 7\n   * y = 8\n5. **Calculate x + y:**\n   * x + y = 7 + 8 = 15\n**Therefore, x + y = 15** \n"
+    ],
+    "pred_answers": "15",
+    "final_pred_answer": [
+        "15",
+        "15",
+        "15",
+        "15",
+        "15"
+    ],
+    "ground_truth": "15"
+}

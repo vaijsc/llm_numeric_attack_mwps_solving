@@ -1,0 +1,23 @@
+{
+    "problem": "Compute $99^2+99+1$ in your head.",
+    "level": "Level 1",
+    "type": "Algebra",
+    "solution": "Factoring the first two terms, we have:\n\n$99^2+99+1=99(99+1)+1=99\\cdot 100+1=9900+1=\\boxed{9901}$.",
+    "prompt": "### Instruction: Compute $99^2+99+1$ in your head.\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "Here's how to compute $99^2 + 99 + 1$ in your head:\n**1. Recognize the pattern:**\n* Notice that 99 is just one less than 100. \n* Also, the expression looks like a simplified version of  $(a-1)^2 + (a-1) + 1$.\n**2.  Use the pattern to simplify:**\n*  Let's substitute  *a* = 100 into the simplified expression: \n    *  (100 - 1)\u00b2 + (100 - 1) + 1 \n*  Expand: \n    * 99\u00b2 + 99 + 1 \n**3. Calculate:**\n* 99\u00b2 is a little tricky, but think: 99 * 99 is very close to 100 * 99 which is 9900. Since 99 is one less than 100, 99\u00b2 will be 9900 - 99.\n* 9900 - 99 = 9801\n* Now we have: 9801 + 99 + 1\n* This simplifies to 9901\n**Therefore, 99\u00b2 + 99 + 1 = 9901** \n",
+        "Here's how to compute  $99^2 + 99 + 1$ in your head:\n1. **Recognize the pattern:** Notice that 99 is just one less than 100. This is a helpful pattern to exploit.\n2. **Rewrite the expression:**  Instead of squaring 99, think of it as $(100 - 1)^2$.\n3. **Expand:**  Use the difference of squares pattern: $(100 - 1)^2 = 100^2 - 2(100)(1) + 1^2$\n4. **Simplify:** This becomes 10000 - 200 + 1\n5. **Combine:**  10000 - 200 + 1 = 9801\n6. **Add the remaining terms:** 9801 + 99 + 1 = **9901**\nTherefore, $99^2 + 99 + 1 = 9901$. \n",
+        "Here's how to compute it in your head:\n* **Recognize the pattern:**  Notice that  99\u00b2 + 99 + 1 looks like the expansion of (99 + 1)\u00b2. \n* **Apply the pattern:** (99 + 1)\u00b2 = 100\u00b2 = 10,000\n* **The answer:** Therefore, 99\u00b2 + 99 + 1 = **10,000** \n",
+        "Here's how to compute it in your head:\n* **Recognize the pattern:**  Notice that 99 is one less than 100. \n* **Rewrite the expression:**  We can rewrite the expression as: (100 - 1)\u00b2 + (100 - 1) + 1\n* **Expand:**  Expanding the square gives: 100\u00b2 - 2(100) + 1 + 100 - 1 + 1\n* **Simplify:** The -1 and +1 terms cancel out, leaving: 100\u00b2 - 2(100) + 100 + 1\n* **Combine:**  This simplifies to 100\u00b2 - 100 + 1 \n* **Calculate:** 100\u00b2 is 10,000. So, the final answer is 10,000 - 100 + 1 = **9,901** \n",
+        "Here's how to compute it mentally:\n* **Recognize the pattern:**  Notice that the expression looks like the expansion of a squared term: (a + 1)\u00b2 = a\u00b2 + 2a + 1 \n* **Apply the pattern:** In our case, 'a' is 99. So, we can rewrite the expression as: (99 + 1)\u00b2 \n* **Simplify:** This becomes 100\u00b2 = 10,000\n**Therefore, 99\u00b2 + 99 + 1 = 10,000** \n"
+    ],
+    "pred_answers": "9901",
+    "final_pred_answer": [
+        "9901",
+        "9901",
+        "10000",
+        "9901",
+        "10000"
+    ],
+    "ground_truth": "9901"
+}

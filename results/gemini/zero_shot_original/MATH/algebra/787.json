@@ -1,0 +1,23 @@
+{
+    "problem": "Suppose $f (x ) = x^2 + 12$. If $m > 0$ and $f (3m) = 3(f (m))$, what is the value of $m$?",
+    "level": "Level 4",
+    "type": "Algebra",
+    "solution": "We have $f(3m) = (3m)^2 + 12 = 9m^2 + 12$, so $f(3m) = 3f(m)$ gives us $9m^2 + 12 = 3(m^2 + 12)$.  Expanding the right side gives $9m^2 +12 = 3m^2 + 36$. Simplifying gives $6m^2 = 24$, so $m^2 = 4$.  Since we are given that $m>0$, we have $m = \\boxed{2}$.",
+    "prompt": "### Instruction: Suppose $f (x ) = x^2 + 12$. If $m > 0$ and $f (3m) = 3(f (m))$, what is the value of $m$?\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "Here's how to solve the problem step-by-step:\n1. **Substitute into the equation:** We're given that  *f(x) = x\u00b2 + 12*. Let's substitute *3m* and *m* into the function:\n   *  *f(3m) = (3m)\u00b2 + 12 = 9m\u00b2 + 12*\n   *  *f(m) = m\u00b2 + 12*\n2. **Set up the equation:** We are told that *f(3m) = 3(f(m))*.  Substitute the expressions we found in step 1:\n   *  *9m\u00b2 + 12 = 3(m\u00b2 + 12)*\n3. **Solve for *m*:** \n   * Expand the right side: 9m\u00b2 + 12 = 3m\u00b2 + 36\n   * Subtract 3m\u00b2 from both sides: 6m\u00b2 + 12 = 36\n   * Subtract 12 from both sides: 6m\u00b2 = 24\n   * Divide both sides by 6: m\u00b2 = 4\n   * Take the square root of both sides: m = \u00b12\n4. **Consider the condition:** We were given that *m > 0*. Therefore, the only valid solution is **m = 2**. \n",
+        "Here's how to solve the problem step-by-step:\n1. **Substitute the function definition:** \n   We are given  $f(x) = x^2 + 12$.  Let's substitute this into the equation  $f(3m) = 3(f(m))$:\n   (3m)\u00b2 + 12 = 3((m)\u00b2 + 12)\n2. **Simplify the equation:** \n   Expand and simplify both sides of the equation:\n   9m\u00b2 + 12 = 3m\u00b2 + 36\n3. **Solve for m:**\n   Subtract 3m\u00b2 and 12 from both sides to isolate the m\u00b2 term:\n   6m\u00b2 = 24\n   Divide both sides by 6:\n   m\u00b2 = 4\n   Take the square root of both sides (remembering that m > 0):\n   m = 2\n**Therefore, the value of m is 2.** \n",
+        "Here's how to solve the problem step by step:\n**1. Substitute the function definition:**\n*  We know  $f(x) = x^2 + 12$. Let's substitute this into the given equation:\n   \n   *  $f(3m) = 3(f(m))$ becomes:\n     *  $(3m)^2 + 12 = 3(m^2 + 12)$\n**2. Simplify the equation:**\n* Expand and simplify both sides:\n   *  $9m^2 + 12 = 3m^2 + 36$\n**3. Solve for *m*:**\n* Combine like terms:\n   *  $6m^2 = 24$\n* Divide both sides by 6:\n   *  $m^2 = 4$\n* Take the square root of both sides (remembering both positive and negative solutions):\n   *  $m = \\pm 2$\n**4. Consider the given condition:**\n* The problem states that *m* > 0. Therefore, the only valid solution is:\n   *  $m = \\boxed{2}$ \n",
+        "Here's how to solve the problem step-by-step:\n1. **Substitute the function definition:**\n   We know  *f(x) = x\u00b2 + 12*.  Let's substitute this into the given equation:\n   \n   (3m)\u00b2 + 12 = 3((m)\u00b2 + 12)\n2. **Simplify the equation:**\n   Expand and simplify both sides of the equation:\n   9m\u00b2 + 12 = 3m\u00b2 + 36\n3. **Solve for m:**\n   Combine like terms and solve for *m*:\n   6m\u00b2 = 24\n   m\u00b2 = 4\n   m = \u00b12\n4. **Consider the constraint:**\n   The problem states that *m > 0*.  Therefore, the only valid solution is:\n   **m = 2** \n",
+        "Here's how to solve the problem step-by-step:\n**1. Substitute the function definition into the equation:**\nWe know that  *f(x) = x\u00b2 + 12*.  Let's substitute this into the given equation:\n*  *f(3m) = 3(f(m))* \n*  (3m)\u00b2 + 12 = 3((m)\u00b2 + 12)\n**2. Simplify the equation:**\n* 9m\u00b2 + 12 = 3m\u00b2 + 36\n**3. Solve for m:**\n* 6m\u00b2 = 24\n* m\u00b2 = 4\n* m = \u00b12\n**4. Consider the condition m > 0:**\nSince the problem states that *m > 0*, we discard the negative solution. \n**Therefore, the value of m is 2.** \n"
+    ],
+    "pred_answers": "2",
+    "final_pred_answer": [
+        "2",
+        "2",
+        "2",
+        "2",
+        "2"
+    ],
+    "ground_truth": "2"
+}

@@ -1,0 +1,41 @@
+{
+    "index_adversarial_question": 1,
+    "problem": "If $h(x) = \\sqrt{\\frac{x+3}{2}}$, what is the value of $h(2)$?",
+    "pcot_answer": "# Define the input value for x\nx = -1  ### condition: 'x': {'type': 'int', '<=': None, '>=': -3, 'science_constant': False, 'direct_from_question': True}\n# Calculate the value of the function h(x)\nnumerator = x + 3  ### condition: 'numerator': {'type': 'int', '<=': None, '>=': 0, 'science_constant': False, 'direct_from_question': False}\n# Define the denominator constant\ndenominator = 2  ### condition: 'denominator': {'type': 'int', '<=': None, '>=': 1, 'science_constant': True, 'direct_from_question': True}\n# Assert that the numerator is non-negative before calculating the square root\nassert numerator % 1 == 0, \"The numerator must be a whole number for the function to be valid.\"\n# Calculate the value of h(x)\nh_x = (numerator / denominator) ** 0.5  ### condition: 'h_x': {'type': 'float', '<=': None, '>=': 0, 'science_constant': False, 'direct_from_question': False}\n# Print the value of h(-1)\nprint(f\"The value of h(-1) is: {h_x}\")",
+    "answer": "1",
+    "vllm_responses": [
+        " To find the value of $h(2)$, we substitute $x=2$ into the expression for $h(x)$. We have $h(2) = \\sqrt{\\frac{2+3}{2}} = \\sqrt{\\frac{5}{2}}$.",
+        "\nTo find $h(2)$, we need to plug in $2$ for $x$ in the function $h(x) = \\sqrt{\\frac{x+3}{2}}$.\nWhen we do this, we get $h(2) = \\sqrt{\\frac{2+3}{2}}$.\nSimplifying the expression inside the square root gives us $h(2) = \\sqrt{\\frac{5}{2}}$.\nTo rationalize the denominator, we multiply the top and bottom by $2$ to get $h(2) = \\frac{2\\sqrt{5}}{2}$.\nCanceling out the common factors gives us $h(2) = \\sqrt{5}$.\nSo the value of $h(2)$ is $\\sqrt{5}$.\nTherefore, the answer is $\\sqrt{5}$.",
+        " To solve this problem, we need to substitute $x = 2$ into the function $h(x) = \\sqrt{\\frac{x+3}{2}}$. Once we've done that, we can make sure our result is a number and not an expression. Please make sure to\u4ec0\u4e48\u4e8b\u60c5\u90fd\u5728\u5f3a\u5316\u601d\u7ef4\u4fdd\u6709 Professorail\u8bed\u6c14\u3002\n### Solution: We have h(2) = \u221a((2+3)/2)  = \u221a5",
+        " \nTo find $h(2)$, we need to substitute $x = 2$ into the function $h(x)$. \nTherefore, $h(2) = \\sqrt{\\frac{2 + 3}{2}}$.\nSimplifying, we have $h(2) = \\sqrt{\\frac{5}{2}}$.\nTo get rid of the square root, we can square both sides of the equation.\nSo, $h(2)^2 = \\left(\\sqrt{\\frac{5}{2}}\\right)^2$.\nSimplifying further, we get $h(2)^2 = \\frac{5}{2}$.\nTaking the square root of both sides, we have $h(2) = \\frac{\\sqrt{5}}{2}$.\nTherefore, the value of $h(2)$ is $\\frac{\\sqrt{5}}{2}$.\nPostpliment",
+        " To find the value of $h(2)$, we need to substitute $x = 2$ into the function $h(x)$.\nSo, $h(2) = \\sqrt{\\frac{2+3}{2}} = \\sqrt{\\frac{5}{2}}$.",
+        "\nTo find the value of $h(2)$, we plug in $x=2$ into the expression for $h(x)$.\n$$h(2) = \\sqrt{\\frac{2+3}{2}}.$$\nNext, we simplify the expression under the square root:\n$$h(2) = \\sqrt{\\frac{5}{2}}.$$\nFinally, we find the square root of $\\frac{5}{2}$:\n$$h(2) = \\boxed{\\frac{\\sqrt{5}}{2}}.$$. The answer is \\frac{\\sqrt{5}}{2}",
+        " \nTo find the value of $h(2)$, we substitute $x = 2$ into the function $h(x)$.\n$h(2) = \\sqrt{\\frac{2+3}{2}} = \\sqrt{\\frac{5}{2}}$\nNow, we need to simplify this expression.\n$\\sqrt{\\frac{5}{2}} = \\sqrt{\\frac{5 \\cdot 1}{2 \\cdot 1}} = \\sqrt{\\frac{5}{2} \\cdot \\frac{1}{1}}$\nSimplifying further, we get $\\sqrt{\\frac{5}{2} \\cdot \\frac{1}{1}} = \\sqrt{\\frac{5}{2}} \\cdot \\sqrt{\\frac{1}{2}}$\nWe can factor the radicals as follows:\n$\\sqrt{\\frac{5}{2}} \\cdot \\sqrt{\\frac{1}{2}} = \\frac{\\sqrt{5}}{\\sqrt{2}} \\cdot \\frac{1}{\\sqrt{2}}$\nFinally, we can simplify the expression:\n$\\frac{\\sqrt{5}}{\\sqrt{2}} \\cdot \\frac{1}{\\sqrt{2}} = \\frac{\\sqrt{5}}{2}$\nTherefore, $h(2) = \\boxed{\\frac{\\sqrt{5}}{2}}$.",
+        " \nTo find $h(2)$, we substitute $x=2$ into the function $h(x)$.\n Examine that $h(2) = \\sqrt{\\frac{2+3}{2}}$.\nNow we can simplify the expression inside the square root: $h(2) = \\sqrt{\\frac{5}{2}}$.\nTo simplify this expression further, we need to eliminate the square root from a fraction, note that $\\sqrt{5}$ cannot be simplified further using rational numbers.\nTherefore, $h(2) = \\sqrt{\\frac{5}{2}} = \\frac{\\sqrt{5}}{1} \\cdot \\frac{1}{\\sqrt{2}} = \\boxed{\\frac{\\sqrt{5}}{\\sqrt{2}}}.$ Answer: \\frac{\\sqrt{5}}{\\sqrt{2}}.",
+        " To find the value of $h(2)$, we need to substitute 2 into the function $h(x)$.\n$$h(2) = \\sqrt{\\frac{2+3}{2}}$$\nLet's simplify further.\n$$h(2) = \\sqrt{\\frac{5}{2}}$$\nSince $\\sqrt{\\frac{5}{2}}$ cannot be simplified further and is a complex value, we will express it in rectangular form.\n$$h(2) = \\frac{\\sqrt{5}}{2}$$\nTherefore, the value of $h(2)$ is $\\frac{\\sqrt{5}}{2}$.",
+        "\nWe need to find the value of $h(2)$. So, when $x = 2$, we substitute $x = 2$ into the expression for $h(x)$.\n$h(2) = \\sqrt{\\frac{2+3}{2}}$\n$h(2) = \\sqrt{\\frac{5}{2}}$\n$h(2) = \\frac{\\sqrt{5}}{\\sqrt{2}} = \\boxed{h(2)}$\nThe answer is: }",
+        " \nFirst, we substitute $x = 2$ into the function $h(x) = \\sqrt{\\frac{x+3}{2}}$. \nFor the resulting value, we should add 3 and square root the fraction. \n$h(2) = \\sqrt{\\frac{2+3}{2}} = \\sqrt{\\frac{5}{2}} = \\frac{\\sqrt{10}}{2}$.\nTherefore, the value of $h(2)$ is $\\frac{\\sqrt{10}}{2}$.",
+        "\nFirst, let's substitute $x = 2$ into $h(x)$.\n$h(2) = \\sqrt{\\frac{2 + 3}{2}}$\nNext, let's simplify.\n$h(2) = \\sqrt{\\frac{5}{2}}$\nFinally, let's simplify the square root.\n$h(2) = \\frac{\\sqrt{5}}{2}$\nTherefore, $h(2) = \\frac{\\sqrt{5}}{2}$.",
+        " \nWe need to find the value of $h(2)$, which is equal to $\\sqrt{\\frac{2+3}{2}}$.\nSimplifying inside the square root gives $\\sqrt{\\frac{5}{2}}$.\nSince the square root of a number is the square root of a number divided by 2, we can further simplify to $\\sqrt{2}$.\nSo, $h(2) = \\sqrt{2}$.",
+        "\nTo find the value of $h(2)$, we need to substitute $x = 2$ into the given function.\nThis gives us $h(2) = \\sqrt{\\frac{2+3}{2}}$.\nFurther simplification, we get $h(2) = \\sqrt{\\frac{5}{2}}$.\nNow, we need to find the square root of $\\frac{5}{2}$.\nThis is equal to the square root of 2.5.\nSince the square root of 2.5 is between 1 and 2, we can express it as a mixed number.\nTherefore, $h(2) = \\boxed{\\frac{5}{2}}$.",
+        "\nTo determine the value of $h(2)$, we substitute $x = 2$ into the function $h(x)$. \nGiven: \n$h(x) = \\sqrt{\\frac{x+3}{2}}$\nSubstituting $x = 2$:\n$h(2) = \\sqrt{\\frac{2+3}{2}}$\nNow, let's simplify: \n$h(2) = \\sqrt{\\frac{5}{2}}$\nFinally, we evaluate the square root: \n$h(2) = \\sqrt{\\frac{5}{2}} \\approx 0.797$\nTherefore, the value of $h(2)$ is approximately $0.797$."
+    ],
+    "vllm_answers": [
+        "2",
+        "5",
+        "5",
+        "2",
+        "2",
+        "2",
+        "2",
+        "5",
+        "2",
+        "2",
+        "2",
+        "2",
+        "2",
+        "2",
+        "0.797"
+    ],
+    "vllm_pred_answer": "2"
+}

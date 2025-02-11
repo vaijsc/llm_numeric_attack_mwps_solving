@@ -1,0 +1,23 @@
+{
+    "problem": "Evaluate $(x+y)(x-y)$ when $x=13$ and $y = 5$.",
+    "level": "Level 1",
+    "type": "Algebra",
+    "solution": "We can evaluate directly or we can use the difference of squares factorization: $(x+y)(x-y) = x^2-y^2 = 13^2-5^2 = 169-25 =\\boxed{144}$.",
+    "prompt": "### Instruction: Evaluate $(x+y)(x-y)$ when $x=13$ and $y = 5$.\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "1. **Substitute the values:**\n   We are given that  x = 13 and y = 5.  Let's substitute these values into the expression:\n   (13 + 5)(13 - 5)\n2. **Simplify inside the parentheses:**\n   (13 + 5) = 18\n   (13 - 5) = 8\n3. **Multiply the results:**\n   18 * 8 = 144\n**Therefore, the value of (x + y)(x - y) when x = 13 and y = 5 is 144.** \n",
+        "1. **Substitute the values:** \n   We are given that  *x = 13* and *y = 5*.  Substitute these values into the expression:\n   (13 + 5)(13 - 5)\n2. **Simplify inside the parentheses:**\n   Calculate the sums and differences within the parentheses:\n   (18)(8)\n3. **Multiply:**\n   Multiply the two numbers together:\n   144\n**Therefore, the value of (x + y)(x - y) when x = 13 and y = 5 is 144.** \n",
+        "1. **Substitute:** Replace *x* with 13 and *y* with 5 in the expression:\n   (13 + 5)(13 - 5)\n2. **Simplify inside the parentheses:**\n   (18)(8)\n3. **Multiply:**\n   144\n**Therefore, (x+y)(x-y) equals 144 when x = 13 and y = 5.** \n",
+        "1. **Substitute the values:**  Since we know  $x = 13$ and $y = 5$, substitute these values into the expression:\n   (13 + 5)(13 - 5)\n2. **Simplify inside the parentheses:**\n   (18)(8)\n3. **Multiply:** \n   18 * 8 = 144\n**Therefore,  (x + y)(x - y) = 144 when x = 13 and y = 5.** \n",
+        "1. **Substitute the values:** \n   We are given that x = 13 and y = 5.  Let's substitute these values into the expression:\n   (13 + 5)(13 - 5)\n2. **Simplify inside the parentheses:**\n   (13 + 5) = 18\n   (13 - 5) = 8\n3. **Multiply the results:**\n   18 * 8 = 144\n**Therefore, (x + y)(x - y) = 144 when x = 13 and y = 5.** \n"
+    ],
+    "pred_answers": "5",
+    "final_pred_answer": [
+        "144",
+        "144",
+        "5",
+        "5",
+        "5"
+    ],
+    "ground_truth": "144"
+}

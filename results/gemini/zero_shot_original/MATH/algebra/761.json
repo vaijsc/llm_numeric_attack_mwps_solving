@@ -1,0 +1,23 @@
+{
+    "problem": "What is the value of $513^2 - 487^2$?",
+    "level": "Level 1",
+    "type": "Algebra",
+    "solution": "We note that this is a difference of squares, so $513^2 - 487^2 = (513+487)(513-487) = (1000)(26) = \\boxed{26000}$.",
+    "prompt": "### Instruction: What is the value of $513^2 - 487^2$?\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "We can use the difference of squares factorization to simplify this problem:\n* **Difference of Squares:**  a\u00b2 - b\u00b2 = (a + b)(a - b)\nApplying this to our problem:\n* 513\u00b2 - 487\u00b2 = (513 + 487)(513 - 487)\nNow, simplify:\n* (513 + 487)(513 - 487) = (1000)(26) = **26000**\nTherefore, the value of 513\u00b2 - 487\u00b2 is **26000**. \n",
+        "We can use the difference of squares factorization to solve this problem:\n* **Difference of Squares:**  a\u00b2 - b\u00b2 = (a + b)(a - b)\nApplying this to our problem:\n* 513\u00b2 - 487\u00b2 = (513 + 487)(513 - 487)\nNow, we simplify:\n* (513 + 487)(513 - 487) = (1000)(26) = **26000**\nTherefore, the value of 513\u00b2 - 487\u00b2 is **26000**. \n",
+        "We can use the difference of squares factorization to simplify this problem:\n* **Difference of Squares:**  a\u00b2 - b\u00b2 = (a + b)(a - b)\nApplying this to our problem:\n* 513\u00b2 - 487\u00b2 = (513 + 487)(513 - 487)\nNow, we can simplify:\n* (513 + 487)(513 - 487) = (1000)(26) = **26000** \nTherefore, the value of 513\u00b2 - 487\u00b2 is **26000**. \n",
+        "We can use the difference of squares factorization: \n  \n  a\u00b2 - b\u00b2 = (a + b)(a - b)\nApplying this to our problem:\n513\u00b2 - 487\u00b2 = (513 + 487)(513 - 487)\nSimplifying:\n= (1000)(26)\n= **26,000** \n",
+        "We can use the difference of squares factorization:  a\u00b2 - b\u00b2 = (a + b)(a - b)\nIn this case, a = 513 and b = 487.  \nTherefore:\n513\u00b2 - 487\u00b2 = (513 + 487)(513 - 487) \nSimplify:\n= (1000)(26) \n= **26,000** \n"
+    ],
+    "pred_answers": "26000",
+    "final_pred_answer": [
+        "26000",
+        "26000",
+        "26000",
+        "26000",
+        "26000"
+    ],
+    "ground_truth": "26000"
+}

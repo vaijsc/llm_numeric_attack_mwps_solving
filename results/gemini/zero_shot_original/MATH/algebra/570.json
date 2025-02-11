@@ -1,0 +1,23 @@
+{
+    "problem": "Compute the square of 989 without a calculator.",
+    "level": "Level 3",
+    "type": "Algebra",
+    "solution": "\\[989^2=(10^3-11)^2=10^6-2\\cdot11\\cdot10^3+121.\\]We can factor out $10^3$ from the first two terms to make the computation easier: \\[989^2=10^3(10^3-22)+121=10^3\\cdot978+121=\\boxed{978121}.\\]",
+    "prompt": "### Instruction: Compute the square of 989 without a calculator.\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "Here's how to compute the square of 989 without a calculator:\n**1. Break down the number:**\n* 989 is close to 1000.  We can rewrite it as (1000 - 11).\n**2. Use the difference of squares pattern:**\n* The difference of squares pattern states: (a - b)\u00b2 = a\u00b2 - 2ab + b\u00b2\n**3. Apply the pattern:**\n*  (1000 - 11)\u00b2 = 1000\u00b2 - 2(1000)(11) + 11\u00b2\n**4. Calculate:**\n* 1000\u00b2 = 1,000,000\n* 2(1000)(11) = 22,000\n* 11\u00b2 = 121\n**5. Combine the terms:**\n* 1,000,000 - 22,000 + 121 = 978,121\n**Therefore, 989\u00b2 = 978,121** \n",
+        "Here's how to compute the square of 989 without a calculator:\n**1.  Recognize the Pattern:**\n* 989 is close to 1000, which is a nice round number to work with.\n**2.  Rewrite the Number:**\n*  989 can be expressed as (1000 - 11)\n**3.  Apply the Difference of Squares Formula:**\n*  (a - b)\u00b2 = a\u00b2 - 2ab + b\u00b2 \n**4.  Substitute and Calculate:**\n*  (1000 - 11)\u00b2 = 1000\u00b2 - 2(1000)(11) + 11\u00b2 \n*  = 1,000,000 - 22,000 + 121\n**5.  Simplify:**\n*  = 978,121\n**Therefore, the square of 989 is 978,121.** \n",
+        "Here's how to compute the square of 989 without a calculator:\n**1.  Recognize the Pattern:**\n* 989 is very close to 1000.  We can use this to our advantage.\n**2.  Express as a Difference:**\n* 989 = 1000 - 11\n**3.  Use the Difference of Squares Formula:**\n* (a - b)\u00b2 = a\u00b2 - 2ab + b\u00b2 \n**4.  Apply the Formula:**\n* (1000 - 11)\u00b2 = 1000\u00b2 - 2(1000)(11) + 11\u00b2\n**5.  Calculate:**\n* 1000\u00b2 = 1,000,000\n* 2(1000)(11) = 22,000\n* 11\u00b2 = 121\n**6.  Combine the Results:**\n* 1,000,000 - 22,000 + 121 = 978,121\n**Therefore, 989\u00b2 = 978,121** \n",
+        "Here's how to compute the square of 989 without a calculator:\n**1.  Recognize the pattern:**\n* 989 is close to 1000.  We can use this fact to our advantage.\n**2.  Rewrite the problem:**\n* 989 = 1000 - 11\n**3.  Expand the square:**\n* (1000 - 11)^2 = 1000^2 - 2(1000)(11) + 11^2\n**4.  Calculate the terms:**\n* 1000^2 = 1,000,000\n* 2(1000)(11) = 22,000\n* 11^2 = 121\n**5.  Combine the terms:**\n* 1,000,000 - 22,000 + 121 = 978,121\n**Therefore, 989 squared is 978,121.** \n",
+        "Here's how to compute the square of 989 without a calculator:\n**1.  Recognize the pattern:**\n* 989 is very close to 1000.  We can use this to our advantage.\n**2.  Rewrite 989:**\n* 989 = 1000 - 11\n**3.  Square the expression:**\n* (1000 - 11)\u00b2 = 1000\u00b2 - 2(1000)(11) + 11\u00b2\n**4.  Simplify:**\n* 1,000,000 - 22,000 + 121\n**5.  Calculate:**\n* 978,121\n**Therefore, the square of 989 is 978,121.** \n"
+    ],
+    "pred_answers": "978121",
+    "final_pred_answer": [
+        "978121",
+        "978121",
+        "978121",
+        "978121",
+        "978121"
+    ],
+    "ground_truth": "978121"
+}

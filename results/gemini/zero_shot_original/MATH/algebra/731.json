@@ -1,0 +1,23 @@
+{
+    "problem": "What is the value of $(7+5)^2-(7-5)^2$?",
+    "level": "Level 1",
+    "type": "Algebra",
+    "solution": "Although it's easy to simply multiply out the squares and compute, there is a more elegant solution. We are looking at an equation of the form $x^2 - y^2$, and we know that this factors into $(x+y)(x-y)$. So, we factor the given equation to get $(7+5+7-5)(7+5-7+5)$, which equals $14 \\cdot 10$, or $\\boxed{140}$.",
+    "prompt": "### Instruction: What is the value of $(7+5)^2-(7-5)^2$?\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "Here's how to solve the problem step-by-step:\n1. **Simplify inside the parentheses:**\n   * (7 + 5) = 12\n   * (7 - 5) = 2\n2. **Square the results:**\n   * 12\u00b2 = 144\n   * 2\u00b2 = 4\n3. **Subtract the squared values:**\n   * 144 - 4 = 140\n**Therefore, the value of (7 + 5)\u00b2 - (7 - 5)\u00b2 is 140.** \n",
+        "Here's how to solve the problem step-by-step:\n1. **Simplify inside the parentheses:**\n   * (7 + 5) = 12\n   * (7 - 5) = 2\n2. **Square the results:**\n   * 12\u00b2 = 144\n   * 2\u00b2 = 4\n3. **Subtract the squared values:**\n   * 144 - 4 = 140\n**Therefore, the value of (7+5)\u00b2 - (7-5)\u00b2 is 140.** \n",
+        "Here's how to solve it step-by-step:\n1. **Simplify inside the parentheses:**\n   * (7 + 5) = 12\n   * (7 - 5) = 2\n2. **Square the results:**\n   * 12\u00b2 = 144\n   * 2\u00b2 = 4\n3. **Subtract the squared values:**\n   * 144 - 4 = 140\n**Therefore, the value of (7 + 5)\u00b2 - (7 - 5)\u00b2 is 140.** \n",
+        "Here's how to solve the problem step-by-step:\n1. **Simplify inside the parentheses:**\n   *  (7 + 5) = 12\n   *  (7 - 5) = 2\n2. **Square the results:**\n   *  12\u00b2 = 144\n   *  2\u00b2 = 4\n3. **Subtract the squared values:**\n   *  144 - 4 = 140\n**Therefore, the value of (7 + 5)\u00b2 - (7 - 5)\u00b2 is 140.** \n",
+        "Here's how to solve it step-by-step:\n1. **Simplify inside the parentheses:**\n   *  (7 + 5) = 12\n   *  (7 - 5) = 2\n2. **Square the results:**\n   *  12\u00b2 = 144\n   *  2\u00b2 = 4\n3. **Subtract:**\n   * 144 - 4 = 140\n**Therefore, the value of (7+5)\u00b2 - (7-5)\u00b2 is 140.** \n"
+    ],
+    "pred_answers": "140",
+    "final_pred_answer": [
+        "140",
+        "140",
+        "140",
+        "140",
+        "140"
+    ],
+    "ground_truth": "140"
+}

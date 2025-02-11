@@ -1,0 +1,23 @@
+{
+    "problem": "In the equation $|x-4| -10 = 2$, what is the product of all possible values of $x$?",
+    "level": "Level 3",
+    "type": "Algebra",
+    "solution": "We rearrange the given equation to $|x-4| = 12$.  Thus either $x-4 = 12$, meaning $x = 16$, or $x-4 = -12$, meaning $x=-8$.  Our answer is therefore $16\\cdot (-8) = \\boxed{-128}$.",
+    "prompt": "### Instruction: In the equation $|x-4| -10 = 2$, what is the product of all possible values of $x$?\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "Here's how to solve the problem step-by-step:\n1. **Isolate the absolute value:** \n   Add 10 to both sides of the equation:\n   ```\n   |x - 4| = 12\n   ```\n2. **Consider both positive and negative cases:**\n   The absolute value of an expression is its distance from zero.  This means there are two possibilities:\n   * **Case 1:**  x - 4 = 12\n   * **Case 2:** x - 4 = -12\n3. **Solve for x in each case:**\n   * **Case 1:** Add 4 to both sides: x = 16\n   * **Case 2:** Add 4 to both sides: x = -8\n4. **Find the product:**\n   The product of the two possible values of x is:\n   16 * (-8) = **-128** \n",
+        "Here's how to solve the problem step-by-step:\n1. **Isolate the absolute value:** \n   Add 10 to both sides of the equation:\n   ```\n   |x - 4| = 12\n   ```\n2. **Consider both positive and negative cases:** \n   The absolute value of a number is its distance from zero, so it can be either positive or negative. This means we have two possible cases:\n   * **Case 1:** x - 4 = 12\n   * **Case 2:** x - 4 = -12\n3. **Solve for x in each case:**\n   * **Case 1:**  x = 12 + 4 = 16\n   * **Case 2:** x = -12 + 4 = -8\n4. **Find the product:**\n   The product of the two possible values of x is 16 * (-8) = **-128**. \n",
+        "Here's how to solve the equation step-by-step to find the product of all possible values of x:\n**1. Isolate the absolute value:**\n* Add 10 to both sides of the equation: \n   |x - 4| = 12\n**2. Consider both positive and negative cases:**\n* **Case 1:**  x - 4 = 12 \n   * Solve for x: x = 16\n* **Case 2:** x - 4 = -12\n   * Solve for x: x = -8\n**3. Find the product:**\n* The two possible values of x are 16 and -8.\n* The product of these values is 16 * (-8) = **-128** \n",
+        "Here's how to solve the problem step-by-step:\n1. **Isolate the absolute value:**\n   Add 10 to both sides of the equation: \n   ```\n   |x - 4| = 12\n   ```\n2. **Consider both positive and negative cases:**\n   The absolute value of an expression is its distance from zero.  This means there are two possibilities:\n   * **Case 1:**  x - 4 = 12\n   * **Case 2:** x - 4 = -12\n3. **Solve for x in each case:**\n   * **Case 1:**  x = 12 + 4  =>  x = 16\n   * **Case 2:**  x = -12 + 4  =>  x = -8\n4. **Find the product:**\n   The product of the two possible values of x is 16 * (-8) = **-128**. \n",
+        "Here's how to solve the problem step-by-step:\n1. **Isolate the absolute value:** \n   Add 10 to both sides of the equation:\n   ```\n   |x - 4| = 12\n   ```\n2. **Consider both positive and negative cases:**\n   The absolute value of an expression is its distance from zero. This means there are two possibilities:\n   * **Case 1:** x - 4 = 12\n   * **Case 2:** x - 4 = -12\n3. **Solve for x in each case:**\n   * **Case 1:** Add 4 to both sides: x = 16\n   * **Case 2:** Add 4 to both sides: x = -8\n4. **Find the product:**\n   The two possible values of x are 16 and -8. Their product is:\n   16 * -8 = **-128** \nTherefore, the product of all possible values of x is **-128**. \n"
+    ],
+    "pred_answers": "-128",
+    "final_pred_answer": [
+        "-128",
+        "-128",
+        "-128",
+        "-128",
+        "-128"
+    ],
+    "ground_truth": "-128"
+}

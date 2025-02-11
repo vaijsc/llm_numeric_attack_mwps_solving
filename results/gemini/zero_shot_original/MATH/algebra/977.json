@@ -1,0 +1,23 @@
+{
+    "problem": "Eric's sports car's specifications include a $500$ metric horsepower engine. Eric wants to know how many kilowatts of power his car's engine can generate. What result should Eric obtain if $1$ kilowatt is equivalent to $1.36$ horsepower? (You may use a calculator on this problem; answer to the nearest kilowatt.)",
+    "level": "Level 2",
+    "type": "Algebra",
+    "solution": "We multiply the engine's power measured in horsepower, $500$, by the conversion factor $\\frac{1\\ \\text{kW}}{1.36\\ \\text{hp}}$ to obtain $500\\ \\text{hp} \\cdot \\frac{1\\ \\text{kW}}{1.36\\ \\text{hp}} \\approx \\boxed{368}\\ \\text{kW}$.",
+    "prompt": "### Instruction: Eric's sports car's specifications include a $500$ metric horsepower engine. Eric wants to know how many kilowatts of power his car's engine can generate. What result should Eric obtain if $1$ kilowatt is equivalent to $1.36$ horsepower? (You may use a calculator on this problem; answer to the nearest kilowatt.)\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "Here's how to solve this problem:\n* **Convert horsepower to kilowatts:** Since 1 kilowatt is equivalent to 1.36 horsepower, we can divide the horsepower by 1.36 to find the equivalent kilowatts.\n* **Calculation:** 500 horsepower / 1.36 horsepower/kilowatt \u2248 367.65 kilowatts\n* **Round to the nearest kilowatt:**  367.65 kilowatts rounds up to **368 kilowatts**.\n**Therefore, Eric's car engine can generate approximately 368 kilowatts of power.** \n",
+        "Here's how to solve the problem:\n* **Understand the conversion:** We know that 1 kilowatt (kW) is equal to 1.36 horsepower (hp).\n* **Set up the proportion:** We want to find out how many kilowatts are in 500 horsepower.  This can be set up as a proportion:  \n   *  1 kW / 1.36 hp = x kW / 500 hp\n* **Solve for x:** To solve for x, we can cross-multiply:\n   * 1 kW * 500 hp = 1.36 hp * x kW\n   * 500 kW * hp = 1.36 hp * x kW\n* **Isolate x:** Divide both sides of the equation by 1.36 hp:\n   * 500 kW * hp / 1.36 hp = x kW\n   * x \u2248 367.65 kW\n**Answer:** Eric's car's engine can generate approximately **368 kilowatts** of power. \n",
+        "Here's how to solve the problem:\n* **Convert horsepower to kilowatts:** Since 1 kilowatt is equivalent to 1.36 horsepower, we can find the equivalent kilowatts by dividing the horsepower by 1.36: \n   500 horsepower / 1.36 horsepower/kilowatt = 367.65 kilowatts\n* **Round to the nearest kilowatt:**  Rounding 367.65 to the nearest kilowatt gives us **368 kilowatts**.\n**Therefore, Eric's sports car's engine can generate approximately 368 kilowatts of power.** \n",
+        "Here's how to solve the problem:\n1. **Convert horsepower to kilowatts:** We know 1 kilowatt is equivalent to 1.36 horsepower. \n2. **Divide the horsepower by the conversion factor:** To find the equivalent kilowatts, divide Eric's car's horsepower by the conversion factor: 500 horsepower / 1.36 horsepower/kilowatt = 367.65 kilowatts.\n3. **Round to the nearest kilowatt:** Rounding 367.65 to the nearest kilowatt gives us **368 kilowatts**.\n**Therefore, Eric's car's engine can generate approximately 368 kilowatts of power.** \n",
+        "Here's how to solve this problem:\n* **Understand the conversion:** We know 1 kilowatt (kW) is equal to 1.36 horsepower (hp).\n* **Set up the equation:**  We want to find out how many kW are in 500 hp.  Let 'x' represent the number of kilowatts.  We can set up a proportion: \n   * 1 kW / 1.36 hp = x kW / 500 hp \n* **Solve for x:** To solve for x, we can cross-multiply:\n   * 1 kW * 500 hp = 1.36 hp * x kW\n   * 500 kW = 1.36x kW\n* **Isolate x:** Divide both sides by 1.36:\n   * 500 kW / 1.36 = x kW\n* **Calculate:**  Using a calculator, 500 / 1.36 \u2248 367.65 \n* **Round to the nearest kilowatt:**  Eric's car's engine generates approximately **368 kilowatts** of power. \n"
+    ],
+    "pred_answers": "368",
+    "final_pred_answer": [
+        "368",
+        "368",
+        "368",
+        "368",
+        "368"
+    ],
+    "ground_truth": "368"
+}

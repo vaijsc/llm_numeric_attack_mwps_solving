@@ -1,0 +1,23 @@
+{
+    "problem": "The expression $\\dfrac{\\sqrt{10}}{\\sqrt[4]{10}}$ equals 10 raised to what power?",
+    "level": "Level 3",
+    "type": "Algebra",
+    "solution": "We have  \\[\\dfrac{\\sqrt{10}}{\\sqrt[4]{10}} = \\dfrac{10^{\\frac12}}{10^{\\frac14}} = 10^{\\frac12-\\frac14} = 10^{\\frac14}.\\]So, the expression equals 10 raised to the $\\boxed{\\frac{1}{4}}$ power.",
+    "prompt": "### Instruction: The expression $\\dfrac{\\sqrt{10}}{\\sqrt[4]{10}}$ equals 10 raised to what power?\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "Here's how to solve the problem step-by-step:\n1. **Rewrite the radicals using fractional exponents:**\n   *  \u221a10 = 10^(1/2)\n   *  \u221a[4]10 = 10^(1/4)\n2. **Substitute the fractional exponents into the expression:**\n   * (10^(1/2)) / (10^(1/4))\n3. **Apply the rule of exponents for division:  a^m / a^n = a^(m-n)**\n   * 10^(1/2 - 1/4) \n4. **Simplify the exponent:**\n   * 10^(1/4)\n**Therefore, the expression  \u221a10 / \u221a[4]10 equals 10 raised to the power of 1/4.** \n",
+        "Here's how to solve the problem step-by-step:\n1. **Rewrite the roots using fractional exponents:**\n   *  \u221a10 = 10^(1/2)\n   *  \u221a[4]10 = 10^(1/4)\n2. **Substitute these expressions back into the original problem:**\n   *  (10^(1/2)) / (10^(1/4))\n3. **Apply the rule of exponents for division:  x^m / x^n = x^(m-n)**\n   *  10^(1/2 - 1/4)\n4. **Simplify the exponent:**\n   *  10^(1/4)\n**Therefore, the expression (\u221a10) / (\u221a[4]10) equals 10 raised to the power of 1/4.** \n",
+        "Here's how to solve this problem:\n**1. Express the radicals as exponents:**\n*  \u221a10 = 10^(1/2) \n*  \u221a[4]10 = 10^(1/4)\n**2. Substitute the exponents into the expression:**\n  (10^(1/2)) / (10^(1/4))\n**3. Use the rule of exponents that states:  a^m / a^n = a^(m-n)**\n  10^(1/2 - 1/4) = 10^(1/4)\n**Therefore, the expression  (\u221a10) / (\u221a[4]10) equals 10 raised to the power of 1/4.** \n",
+        "Here's how to solve the problem step-by-step:\n1. **Express both terms with the same base:**\n   *  Remember that  \u221a10 = 10^(1/2) and \u221a[4]10 = 10^(1/4)\n2. **Rewrite the expression:**\n   * The expression becomes: (10^(1/2))/(10^(1/4))\n3. **Apply the rule of exponents for division:**\n   * When dividing exponents with the same base, subtract the powers.\n   *  (10^(1/2))/(10^(1/4)) = 10^(1/2 - 1/4)\n4. **Simplify the exponent:**\n   * 10^(1/2 - 1/4) = 10^(1/4)\n**Therefore, the expression  (\u221a10) / (\u221a[4]10) equals 10 raised to the power of 1/4.** \n",
+        "Here's how to solve the problem step-by-step:\n**1. Express the radicals using fractional exponents:**\n*  \u221a10  =  10^(1/2)\n*  \u221a[4]10 = 10^(1/4)\n**2. Substitute these expressions into the original fraction:**\n  (10^(1/2)) / (10^(1/4))\n**3. Use the rule of exponents for division:  x^m / x^n = x^(m-n)**\n  10^(1/2 - 1/4)\n**4. Simplify the exponent:**\n  10^(1/4)\n**Answer:** The expression  (\u221a10) / (\u221a[4]10)  equals 10 raised to the power of **1/4**. \n"
+    ],
+    "pred_answers": "4",
+    "final_pred_answer": [
+        "4",
+        "4",
+        "4",
+        "4",
+        "10"
+    ],
+    "ground_truth": "4"
+}

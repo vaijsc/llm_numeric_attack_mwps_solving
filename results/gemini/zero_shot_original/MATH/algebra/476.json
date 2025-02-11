@@ -1,0 +1,23 @@
+{
+    "problem": "Given that $3x^2-2(x^2+4)=42$, what is the value of $x^4$?",
+    "level": "Level 3",
+    "type": "Algebra",
+    "solution": "Begin by simplifying the left side: $$3x^2-2x^2-8=42$$ We can combine terms and solve for $x^2$: \\begin{align*}\n3x^2-2x^2&=42+8\\\\\n\\Rightarrow\\qquad x^2&=50\n\\end{align*} Squaring both sides, we find: \\begin{align*}\n(x^2)^2&=50^2\\\\\n\\Rightarrow\\qquad x^4&=\\boxed{2500}\n\\end{align*}",
+    "prompt": "### Instruction: Given that $3x^2-2(x^2+4)=42$, what is the value of $x^4$?\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "Here's how to solve the problem step-by-step:\n1. **Simplify the equation:**\n   * Distribute the -2:  \n     3x\u00b2 - 2x\u00b2 - 8 = 42\n   * Combine like terms:\n     x\u00b2 - 8 = 42\n2. **Isolate x\u00b2:**\n   * Add 8 to both sides:\n     x\u00b2 = 50\n3. **Find x\u2074:**\n   * Square both sides of the equation:\n     (x\u00b2)\u00b2 = 50\u00b2\n     x\u2074 = 2500\n**Therefore, the value of x\u2074 is 2500.** \n",
+        "Here's how to solve the problem step-by-step:\n1. **Simplify the equation:**\n   * Distribute the -2:  3x\u00b2 - 2x\u00b2 - 8 = 42\n   * Combine like terms: x\u00b2 - 8 = 42\n2. **Isolate x\u00b2:**\n   * Add 8 to both sides: x\u00b2 = 50\n3. **Find x\u2074:**\n   * Square both sides of the equation: (x\u00b2)\u00b2 = 50\u00b2\n   * Simplify: x\u2074 = 2500\n**Therefore, the value of x\u2074 is 2500.** \n",
+        "Here's how to solve the problem step-by-step:\n1. **Simplify the equation:**\n   * Distribute the -2:  \n     3x\u00b2 - 2x\u00b2 - 8 = 42\n   * Combine like terms: \n     x\u00b2 - 8 = 42\n2. **Solve for x\u00b2:**\n   * Add 8 to both sides:\n     x\u00b2 = 50\n3. **Find x\u2074:**\n   * Square both sides of the equation:\n     (x\u00b2)\u00b2 = 50\u00b2\n     x\u2074 = 2500\n**Therefore, the value of x\u2074 is 2500.** \n",
+        "Here's how to solve the problem step-by-step:\n1. **Simplify the equation:** \n   - Distribute the -2:  3x\u00b2 - 2x\u00b2 - 8 = 42\n   - Combine like terms: x\u00b2 - 8 = 42\n2. **Isolate x\u00b2:**\n   - Add 8 to both sides: x\u00b2 = 50\n3. **Find x\u2074:**\n   - Square both sides of the equation: (x\u00b2)\u00b2 = 50\u00b2\n   - Simplify: x\u2074 = **2500**\n**Therefore, the value of x\u2074 is 2500.** \n",
+        "1. **Simplify the equation:** \n   Start by distributing the -2 on the left side of the equation:\n   3x\u00b2 - 2x\u00b2 - 8 = 42\n2. **Combine like terms:**\n   Combine the x\u00b2 terms:\n   x\u00b2 - 8 = 42\n3. **Isolate x\u00b2:**\n   Add 8 to both sides of the equation:\n   x\u00b2 = 50\n4. **Solve for x\u2074:**\n   Square both sides of the equation to get x\u2074:\n   x\u2074 = 50\u00b2\n5. **Calculate:**\n   x\u2074 = 2500\n**Therefore, the value of x\u2074 is 2500.** \n"
+    ],
+    "pred_answers": "2500",
+    "final_pred_answer": [
+        "2500",
+        "2500",
+        "2500",
+        "2500",
+        "2500"
+    ],
+    "ground_truth": "2500"
+}

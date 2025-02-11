@@ -1,0 +1,23 @@
+{
+    "problem": "Kim has exactly enough money to buy 40 oranges at $3x$ cents each. If the price rose to $4x$ cents per orange, how many oranges could she buy?",
+    "level": "Level 2",
+    "type": "Algebra",
+    "solution": "If the total cost is fixed, then the relationship between cost per item and the number of items is inversely proportional.  Since each orange costs $\\frac{4}{3}$ as much, the same amount of money purchases $\\frac{3}{4}$ as many of them.  Taking three-fourths of 40, we find that Kim could buy $\\boxed{30}$ oranges.",
+    "prompt": "### Instruction: Kim has exactly enough money to buy 40 oranges at $3x$ cents each. If the price rose to $4x$ cents per orange, how many oranges could she buy?\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "Here's how to solve the problem step-by-step:\n**1. Find the total amount of money Kim has:**\n* Cost of one orange: $3x$ cents\n* Number of oranges: 40\n* Total money: (3x cents/orange) * 40 oranges = 120x cents\n**2. Calculate how many oranges Kim can buy at the new price:**\n* New price per orange: $4x$ cents\n* Total money: 120x cents\n* Number of oranges Kim can buy: (120x cents) / (4x cents/orange) = 30 oranges\n**Answer:** Kim could buy **30** oranges at the new price. \n",
+        "Here's how to solve the problem step-by-step:\n**1. Calculate the total money Kim has:**\n* Since she can buy 40 oranges at $3x$ cents each, she has 40 * $3x$ = $120x$ cents.\n**2. Determine how many oranges she can buy at the new price:**\n* With the new price of $4x$ cents per orange, she can buy $120x$ cents / $4x$ cents/orange = **30 oranges**.\n**Therefore, Kim can buy 30 oranges at the new price.** \n",
+        "Here's how to solve the problem step-by-step:\n**1. Calculate Kim's total money:**\n* The price of one orange is $3x$ cents.\n* She can buy 40 oranges, so her total money is 40 * $3x$ = $120x$ cents.\n**2. Calculate how many oranges she can buy at the new price:**\n* The new price is $4x$ cents per orange.\n* With $120x$ cents, she can buy $120x$ / $4x$ = 30 oranges.\n**Answer:** Kim could buy **30** oranges at the new price. \n",
+        "Here's how to solve the problem step-by-step:\n**1. Calculate Kim's total money:**\n* Since she can buy 40 oranges at $3x$ cents each, her total money is 40 * $3x$ = $120x$ cents.\n**2. Calculate how many oranges she can buy at the new price:**\n* At $4x$ cents per orange, she can buy $120x$ cents / $4x$ cents/orange = **30 oranges**.\n**Therefore, Kim could buy 30 oranges at the new price.** \n",
+        "Here's how to solve the problem step-by-step:\n**1. Find the total amount of money Kim has:**\n* Cost of one orange: 3x cents\n* Number of oranges she can buy: 40\n* Total money Kim has: (3x cents/orange) * 40 oranges = 120x cents\n**2. Calculate how many oranges she can buy at the new price:**\n* New price per orange: 4x cents\n* Total money Kim has: 120x cents\n* Number of oranges she can buy: (120x cents) / (4x cents/orange) = 30 oranges\n**Answer:** Kim could buy **30** oranges at the new price. \n"
+    ],
+    "pred_answers": "30",
+    "final_pred_answer": [
+        "30",
+        "30",
+        "30",
+        "30",
+        "30"
+    ],
+    "ground_truth": "30"
+}

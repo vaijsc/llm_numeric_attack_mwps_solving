@@ -1,0 +1,23 @@
+{
+    "problem": "The equation $x^2-6x+2=29$ has two solutions, $a$ and $b$, with $a\\geq b$. What is the value of $2a-3b$?",
+    "level": "Level 3",
+    "type": "Algebra",
+    "solution": "Simplifying, we get $x^2-6x-27 = 0$. Now we factor and get $(x - 9)(x + 3) = 0$, hence we have $x=9$ and $x=-3$. Since $a \\geq b$, $a=9$ and $b=-3$, so $2a-3b=2(9)-3(-3)=18+9=\\boxed{27}$.",
+    "prompt": "### Instruction: The equation $x^2-6x+2=29$ has two solutions, $a$ and $b$, with $a\\geq b$. What is the value of $2a-3b$?\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "Here's how to solve the problem step-by-step:\n**1. Solve the quadratic equation:**\n* Subtract 29 from both sides to get:  \n   $x^2 - 6x - 27 = 0$\n* Factor the quadratic:\n   $(x - 9)(x + 3) = 0$\n* Solve for x:\n   $x = 9$ or $x = -3$\n**2. Identify a and b:**\n* Since $a \\geq b$, we have:\n   *  $a = 9$\n   *  $b = -3$\n**3. Calculate 2a - 3b:**\n* Substitute the values of a and b:\n   * $2a - 3b = 2(9) - 3(-3)$\n   *  $2a - 3b = 18 + 9$\n   *  $2a - 3b = 27$\n**Therefore, the value of 2a - 3b is 27.** \n",
+        "1. **Solve the quadratic equation:**\n   First, subtract 29 from both sides to get:\n   $x^2 - 6x - 27 = 0$\n   Next, factor the quadratic:\n   $(x-9)(x+3) = 0$\n   Therefore, the solutions are $x = 9$ and $x = -3$. \n2. **Identify a and b:**\n   Since $a \\geq b$, we have  $a = 9$ and $b = -3$.\n3. **Calculate 2a - 3b:**\n   Substitute the values of a and b:\n   $2a - 3b = 2(9) - 3(-3) = 18 + 9 = 27$\n**Therefore, the value of 2a - 3b is 27.** \n",
+        "Here's how to solve the problem step-by-step:\n1. **Simplify the equation:** Subtract 29 from both sides to get: \n   \n   $x^2 - 6x - 27 = 0$\n2. **Factor the quadratic:**  Find two numbers that add up to -6 and multiply to -27. These numbers are -9 and 3.  So, we can factor the equation:\n   $(x - 9)(x + 3) = 0$\n3. **Solve for x:**  For the product of two terms to equal zero, at least one of them must be zero. Therefore:\n   *  $x - 9 = 0$  =>  $x = 9$\n   *  $x + 3 = 0$  =>  $x = -3$\n4. **Identify a and b:** Since $a \\geq b$, we have:\n   *  $a = 9$\n   *  $b = -3$\n5. **Calculate 2a - 3b:** Substitute the values of a and b:\n   $2a - 3b = 2(9) - 3(-3) = 18 + 9 = \\boxed{27}$ \n",
+        "Here's how to solve the problem step-by-step:\n**1. Solve the quadratic equation:**\n* Subtract 29 from both sides to get:  $x^2 - 6x - 27 = 0$\n* Factor the quadratic:  $(x-9)(x+3) = 0$\n* This gives us two solutions:  $x = 9$ and $x = -3$\n**2. Identify a and b:**\n* Since  $a \\geq b$,  we have  $a = 9$ and $b = -3$.\n**3. Calculate 2a - 3b:**\n* Substitute the values of a and b:  $2(9) - 3(-3) = 18 + 9$\n**4. Final answer:**\n* $2a - 3b = \\boxed{27}$ \n",
+        "Here's how to solve the problem step-by-step:\n1. **Simplify the equation:** Subtract 29 from both sides to get:\n   x\u00b2 - 6x - 27 = 0\n2. **Factor the quadratic:**  Find two numbers that multiply to -27 and add to -6. These numbers are -9 and 3. So, we can factor the equation as:\n   (x - 9)(x + 3) = 0\n3. **Solve for x:**  For the product of two factors to be zero, at least one of them must be zero. This gives us two solutions:\n   * x - 9 = 0  =>  x = 9\n   * x + 3 = 0  =>  x = -3\n4. **Identify a and b:** Since a \u2265 b, we have:\n   * a = 9\n   * b = -3\n5. **Calculate 2a - 3b:**\n   2a - 3b = 2(9) - 3(-3) = 18 + 9 = **27**\nTherefore, the value of 2a - 3b is **27**. \n"
+    ],
+    "pred_answers": "27",
+    "final_pred_answer": [
+        "27",
+        "27",
+        "27",
+        "27",
+        "27"
+    ],
+    "ground_truth": "27"
+}

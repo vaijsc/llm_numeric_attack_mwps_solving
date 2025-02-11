@@ -1,0 +1,23 @@
+{
+    "problem": "Three plus the reciprocal of a number equals 7 divided by that number.  What is the number?",
+    "level": "Level 2",
+    "type": "Algebra",
+    "solution": "Let $x$ be the number.  Converting the words in the problem into an equation gives us $3+\\dfrac{1}{x} = \\dfrac{7}{x}$.  Subtracting $\\dfrac{1}{x}$ from both sides gives $3 = \\dfrac{6}{x}$. Multiplying both sides of this equation by $x$ gives $3x =6$, and dividing both sides of this equation by 3 gives $x = \\boxed{2}$.",
+    "prompt": "### Instruction: Three plus the reciprocal of a number equals 7 divided by that number.  What is the number?\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "Here's how to solve the problem step-by-step:\n**1. Translate the words into an equation:**\n* \"Three plus the reciprocal of a number\" translates to 3 + 1/x  (where 'x' is the unknown number)\n* \"equals 7 divided by that number\" translates to = 7/x\n**2. Set up the equation:**\n3 + 1/x = 7/x\n**3. Solve for x:**\n* Subtract 1/x from both sides: 3 = 6/x\n* Multiply both sides by x: 3x = 6\n* Divide both sides by 3: x = 2\n**Therefore, the number is 2.** \n",
+        "Here's how to solve the problem step-by-step:\n**1. Translate the words into an equation:**\n* \"Three plus the reciprocal of a number\" translates to: 3 + 1/x \n* \"Equals 7 divided by that number\" translates to: = 7/x\n**2. Write the complete equation:**\n3 + 1/x = 7/x\n**3. Solve for x:**\n* **Subtract 1/x from both sides:** 3 = 6/x\n* **Multiply both sides by x:** 3x = 6\n* **Divide both sides by 3:** x = 2\n**Therefore, the number is 2.** \n",
+        "Here's how to solve the problem step-by-step:\n**1. Translate the words into an equation:**\n* \"Three plus the reciprocal of a number\" translates to: 3 + 1/x \n* \"equals 7 divided by that number\" translates to: = 7/x\n**2. Write the complete equation:**\n3 + 1/x = 7/x\n**3. Solve for x:**\n* **Get rid of the fractions:** Multiply both sides of the equation by x:\n   3x + 1 = 7\n* **Isolate the x term:** Subtract 1 from both sides:\n   3x = 6\n* **Solve for x:** Divide both sides by 3:\n   x = 2\n**Therefore, the number is 2.** \n",
+        "Here's how to solve the problem step-by-step:\n**1. Set up the equation:**\n* Let \"x\" represent the unknown number.\n* \"The reciprocal of a number\" is 1/x.\n* The problem translates to the equation: 3 + (1/x) = 7/x\n**2. Simplify the equation:**\n* Subtract (1/x) from both sides:  3 = 6/x\n* Multiply both sides by x: 3x = 6\n**3. Solve for x:**\n* Divide both sides by 3: x = 2\n**Therefore, the number is 2.** \n",
+        "Here's how to solve this problem step by step:\n**1. Translate the words into an equation:**\n* \"Three plus the reciprocal of a number\" translates to  3 + 1/x \n* \"equals 7 divided by that number\" translates to = 7/x\nSo the equation is: 3 + 1/x = 7/x\n**2. Solve for x:**\n* Subtract 1/x from both sides: 3 = 6/x\n* Multiply both sides by x: 3x = 6\n* Divide both sides by 3: x = 2\n**Therefore, the number is 2.** \n"
+    ],
+    "pred_answers": "2",
+    "final_pred_answer": [
+        "2",
+        "2",
+        "2",
+        "2",
+        "2"
+    ],
+    "ground_truth": "2"
+}

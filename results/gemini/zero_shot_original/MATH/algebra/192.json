@@ -1,0 +1,23 @@
+{
+    "problem": "Let $\\Psi$ be the relation defined by $A\\ \\Psi\\ B=2A+5B$. What is the value of $9\\ \\Psi\\ (3\\ \\Psi\\ 1)$?",
+    "level": "Level 1",
+    "type": "Algebra",
+    "solution": "Substitute 3 for $A$ and 1 for $B$ in the expression defining $\\Psi$ to find $3\\ \\Psi\\ 1=11$.  Then substitute 9 for $A$ and 11 for $B$ to find $9\\ \\Psi\\ 11=2\\cdot 9+5\\cdot 11=\\boxed{73}$.",
+    "prompt": "### Instruction: Let $\\Psi$ be the relation defined by $A\\ \\Psi\\ B=2A+5B$. What is the value of $9\\ \\Psi\\ (3\\ \\Psi\\ 1)$?\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "Here's how to solve this step-by-step:\n1. **Calculate the inner part:**  We need to find the value of  $(3 \\Psi 1)$.  Using the definition of the relation, we get:\n   \n   $3 \\Psi 1 = 2(3) + 5(1) = 6 + 5 = 11$\n2. **Substitute and calculate the outer part:** Now we know that $(3 \\Psi 1) = 11$. Substitute this back into the original expression:\n   $9 \\Psi (3 \\Psi 1) = 9 \\Psi 11$\n3. **Final Calculation:**  Apply the relation again:\n   $9 \\Psi 11 = 2(9) + 5(11) = 18 + 55 = \\boxed{73}$ \n",
+        "Here's how to solve this problem step-by-step:\n1. **Calculate the inner operation:** First, we need to find the value of  (3 \u03a8 1).  Using the definition of the relation, we have:\n   \n   3 \u03a8 1 = (2 * 3) + (5 * 1) = 6 + 5 = 11\n2. **Calculate the outer operation:** Now we have:\n   9 \u03a8 (3 \u03a8 1) = 9 \u03a8 11\n3. **Apply the relation again:** Using the definition of the relation, we get:\n   9 \u03a8 11 = (2 * 9) + (5 * 11) = 18 + 55 = 73\n**Therefore, the value of 9 \u03a8 (3 \u03a8 1) is 73.** \n",
+        "Here's how to solve the problem step-by-step:\n1. **Calculate the inner part:** First, we need to find the value of  (3  \u03a8  1). \n   * Using the definition of the relation,  (3 \u03a8 1) = (2 * 3) + (5 * 1) = 6 + 5 = 11\n2. **Calculate the outer part:** Now we have to find the value of (9 \u03a8 11).\n   * Using the definition again, (9 \u03a8 11) = (2 * 9) + (5 * 11) = 18 + 55 = 73\n**Therefore, the value of 9  \u03a8  (3  \u03a8  1) is 73.** \n",
+        "Here's how to solve the problem step-by-step:\n**1. Calculate the inner part:**\n* We need to find the value of  (3 \u03a8 1) first. \n* Substitute A = 3 and B = 1 into the definition of the relation:\n   * 3 \u03a8 1 = (2 * 3) + (5 * 1) = 6 + 5 = 11\n**2. Calculate the outer part:**\n* Now we know that (3 \u03a8 1) = 11. \n* Substitute A = 9 and B = 11 into the definition of the relation:\n   * 9 \u03a8 (3 \u03a8 1) = 9 \u03a8 11 = (2 * 9) + (5 * 11) = 18 + 55 = 73\n**Therefore, the value of 9 \u03a8 (3 \u03a8 1) is 73.** \n",
+        "Here's how to solve this step-by-step:\n1. **Calculate the inner part:**  We need to find the value of (3 \u03a8 1) first. Using the definition of the relation, we have: \n   3 \u03a8 1 = 2(3) + 5(1) = 6 + 5 = 11\n2. **Substitute and calculate the outer part:** Now we know that (3 \u03a8 1) = 11. Let's substitute this back into the original expression:\n   9 \u03a8 (3 \u03a8 1) = 9 \u03a8 11\n3. **Final Calculation:**  Again, using the definition of the relation:\n   9 \u03a8 11 = 2(9) + 5(11) = 18 + 55 = 73\n**Therefore, the value of 9 \u03a8 (3 \u03a8 1) is 73.** \n"
+    ],
+    "pred_answers": "73",
+    "final_pred_answer": [
+        "73",
+        "73",
+        "73",
+        "73",
+        "73"
+    ],
+    "ground_truth": "73"
+}

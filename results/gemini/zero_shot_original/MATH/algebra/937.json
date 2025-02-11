@@ -1,0 +1,23 @@
+{
+    "problem": "What is the $x$-coordinate for the $x$-intercept of the line containing the points $(7,4)$ and $(6,3)$?",
+    "level": "Level 3",
+    "type": "Algebra",
+    "solution": "First we find that the slope of the line is $\\frac{4 - 3}{7 - 6} = 1$.  Now, for any other point, $P = (x, y)$, to be on this line, the slope between $P$ and either of $(7, 4)$ or $(6, 3)$ must be equal to 1.  Thus $\\frac{y - 3}{x - 6} = 1 \\Rightarrow y = x - 3$.  A line crosses the $x$-axis when it has $y = 0$.  Plugging this in for our line we get $0 = x - 3 \\Rightarrow x = \\boxed{3}$.",
+    "prompt": "### Instruction: What is the $x$-coordinate for the $x$-intercept of the line containing the points $(7,4)$ and $(6,3)$?\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "Here's how to find the x-coordinate of the x-intercept:\n**1. Find the slope of the line:**\nThe slope (m) of a line passing through points (x1, y1) and (x2, y2) is given by:\nm = (y2 - y1) / (x2 - x1)\nIn our case: \nm = (3 - 4) / (6 - 7) = -1 / -1 = 1\n**2. Find the equation of the line:**\nWe can use the point-slope form of a linear equation: y - y1 = m(x - x1)\nLet's use the point (7, 4):\ny - 4 = 1(x - 7)\ny - 4 = x - 7\ny = x - 3\n**3. Find the x-intercept:**\nThe x-intercept is the point where the line crosses the x-axis. This happens when y = 0.  Let's substitute y = 0 into our equation:\n0 = x - 3\n**4. Solve for x:**\nAdding 3 to both sides gives us:\nx = 3\n**Therefore, the x-coordinate of the x-intercept is 3.** \n",
+        "Here's how to solve this problem step-by-step:\n**1. Find the slope of the line:**\n* The slope (m) of a line passing through points (x1, y1) and (x2, y2) is calculated as:  m = (y2 - y1) / (x2 - x1)\n* Using our points (7, 4) and (6, 3): m = (3 - 4) / (6 - 7) = -1 / -1 = 1\n**2. Determine the equation of the line:**\n* We can use the point-slope form of a linear equation: y - y1 = m(x - x1)\n* Using the point (7, 4) and the slope (m = 1): y - 4 = 1(x - 7)\n* Simplifying: y - 4 = x - 7 \n*  Further simplifying to slope-intercept form: y = x - 3\n**3. Find the x-intercept:**\n* The x-intercept is the point where the line crosses the x-axis.  This happens when y = 0.\n* Substitute y = 0 into our equation: 0 = x - 3\n* Solve for x: x = 3\n**Answer:** The x-coordinate of the x-intercept is **3**. \n",
+        "Here's how to solve this step-by-step:\n**1. Find the slope of the line:**\n* The slope (m) is calculated as:  m = (change in y) / (change in x)\n* Using the points (7,4) and (6,3): m = (3 - 4) / (6 - 7) = -1 / -1 = 1\n**2. Find the equation of the line:**\n* We can use the point-slope form of a linear equation: y - y\u2081 = m(x - x\u2081)\n* Let's use the point (7, 4): y - 4 = 1(x - 7)\n* Simplifying: y - 4 = x - 7\n* Further simplifying: y = x - 3\n**3. Find the x-intercept:**\n* The x-intercept is the point where the line crosses the x-axis. This happens when y = 0.\n* Substitute y = 0 into the equation: 0 = x - 3\n* Solve for x: x = 3\n**Therefore, the x-coordinate of the x-intercept is 3.** \n",
+        "Here's how to find the x-coordinate of the x-intercept:\n**1. Find the slope of the line:**\n* The slope (m) is calculated as: m = (change in y) / (change in x)\n* Using the given points: m = (3 - 4) / (6 - 7) = -1 / -1 = 1\n**2. Find the equation of the line:**\n* We can use the point-slope form: y - y1 = m(x - x1)\n* Using point (7, 4): y - 4 = 1(x - 7)\n* Simplifying: y - 4 = x - 7\n* Further simplifying: y = x - 3\n**3. Determine the x-intercept:**\n* The x-intercept is the point where the line crosses the x-axis, meaning y = 0.\n* Substitute y = 0 into the equation: 0 = x - 3\n* Solve for x: x = 3\n**Therefore, the x-coordinate of the x-intercept is 3.** \n",
+        "Here's how to find the x-intercept:\n**1. Find the slope:**\n* The slope of a line passing through points (x1, y1) and (x2, y2) is given by: (y2 - y1) / (x2 - x1)\n* In our case, the slope is: (3 - 4) / (6 - 7) = -1 / -1 = 1\n**2. Find the equation of the line:**\n* We can use the point-slope form: y - y1 = m(x - x1)\n* Using the point (7, 4) and the slope (m = 1): y - 4 = 1(x - 7)\n* Simplifying: y - 4 = x - 7\n* Rearranging to slope-intercept form: y = x - 3\n**3. Find the x-intercept:**\n* The x-intercept is the point where the line crosses the x-axis.  This happens when y = 0.\n* Substitute y = 0 into the equation: 0 = x - 3\n* Solving for x: x = 3\n**Therefore, the x-coordinate of the x-intercept is 3.** \n"
+    ],
+    "pred_answers": "3",
+    "final_pred_answer": [
+        "3",
+        "3",
+        "3",
+        "3",
+        "3"
+    ],
+    "ground_truth": "3"
+}

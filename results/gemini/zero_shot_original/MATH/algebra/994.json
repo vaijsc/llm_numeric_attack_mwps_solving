@@ -1,0 +1,23 @@
+{
+    "problem": "Simplify: $3!(2^3+\\sqrt{9})\\div 2$.",
+    "level": "Level 1",
+    "type": "Algebra",
+    "solution": "Simplify according to the order of operations. \\begin{align*}\n3!(2^3+\\sqrt{9})\\div 2 &= 6(8+3)\\div 2 \\\\\n&=6(11)\\div 2 \\\\\n&=66\\div 2\\\\\n&=\\boxed{33}.\n\\end{align*}",
+    "prompt": "### Instruction: Simplify: $3!(2^3+\\sqrt{9})\\div 2$.\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "Here's how to simplify the expression step-by-step:\n1. **Simplify inside the parentheses:**\n   *  2\u00b3 = 2 * 2 * 2 = 8\n   *  \u221a9 = 3 \n   *  Therefore, (2\u00b3 + \u221a9) = (8 + 3) = 11\n2. **Simplify the factorial:**\n   * 3! = 3 * 2 * 1 = 6\n3. **Substitute the simplified values:**\n   * The expression becomes: 6 * 11 \u00f7 2\n4. **Perform multiplication and division (from left to right):**\n   * 6 * 11 = 66\n   * 66 \u00f7 2 = 33\n**Therefore, the simplified expression is 33.** \n",
+        "Here's how to simplify the expression step-by-step:\n1. **Simplify inside the parentheses:**\n   *  2\u00b3 = 2 * 2 * 2 = 8\n   *  \u221a9 = 3 \n   *  So, (2\u00b3 + \u221a9) = (8 + 3) = 11\n2. **Calculate the factorial:**\n   * 3! = 3 * 2 * 1 = 6\n3. **Substitute the simplified values:**\n   * The expression becomes: 6 * 11 \u00f7 2\n4. **Perform the multiplication:**\n   * 6 * 11 = 66\n5. **Perform the division:**\n   * 66 \u00f7 2 = 33\n**Therefore, the simplified expression is 33.** \n",
+        "Here's how to simplify the expression step-by-step:\n1. **Simplify inside the parentheses:**\n   *  2\u00b3 = 2 * 2 * 2 = 8\n   *  \u221a9 = 3 \n   *  So, (2\u00b3 + \u221a9) = (8 + 3) = 11\n2. **Simplify the factorial:**\n   * 3! = 3 * 2 * 1 = 6\n3. **Substitute the simplified values:**\n   * The expression becomes: 6 * 11 \u00f7 2\n4. **Calculate the multiplication and division:**\n   * 6 * 11 = 66\n   * 66 \u00f7 2 = 33\n**Therefore, the simplified expression is 33.** \n",
+        "Here's how to simplify the expression step-by-step:\n1. **Simplify inside the parentheses:**\n   *  2\u00b3 = 2 * 2 * 2 = 8\n   *  \u221a9 = 3 \n   *  So, (2\u00b3 + \u221a9) = (8 + 3) = 11\n2. **Calculate the factorial:**\n   *  3! = 3 * 2 * 1 = 6\n3. **Substitute the simplified values:**\n   *  The expression becomes: 6 * 11 \u00f7 2\n4. **Perform the multiplication and division from left to right:**\n   * 6 * 11 = 66\n   * 66 \u00f7 2 = 33\n**Therefore, the simplified expression is 33.** \n",
+        "Here's how to simplify the expression step by step:\n1. **Calculate inside the parentheses:**\n   *  2\u00b3 = 2 * 2 * 2 = 8\n   *  \u221a9 = 3 \n   *  Therefore, (2\u00b3 + \u221a9) = (8 + 3) = 11\n2. **Calculate the factorial:**\n   * 3! = 3 * 2 * 1 = 6\n3. **Substitute the calculated values:**\n   *  The expression becomes: 6 * 11 \u00f7 2\n4. **Perform the multiplication and division from left to right:**\n   * 6 * 11 = 66\n   * 66 \u00f7 2 = 33\n**Therefore, the simplified expression is 33.** \n"
+    ],
+    "pred_answers": "33",
+    "final_pred_answer": [
+        "33",
+        "33",
+        "33",
+        "33",
+        "33"
+    ],
+    "ground_truth": "33"
+}

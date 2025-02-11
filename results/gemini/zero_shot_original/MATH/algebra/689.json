@@ -1,0 +1,23 @@
+{
+    "problem": "Simplify $\\left( \\frac{4}{x} \\right)^{-1} \\left( \\frac{3x^3}{x} \\right)^2 \\left( \\frac{1}{2x} \\right)^{-3}$.",
+    "level": "Level 3",
+    "type": "Algebra",
+    "solution": "$\\left( \\frac{4}{x} \\right)^{-1} \\left( \\frac{3x^3}{x} \\right)^2 \\left( \\frac{1}{2x} \\right)^{-3} = \\frac{x}{4} \\cdot (3x^2)^2 \\cdot (2x)^3 = \\frac{x}{4} \\cdot 9x^4 \\cdot 8x^3 = \\boxed{18x^8}$.",
+    "prompt": "### Instruction: Simplify $\\left( \\frac{4}{x} \\right)^{-1} \\left( \\frac{3x^3}{x} \\right)^2 \\left( \\frac{1}{2x} \\right)^{-3}$.\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "Here's how to simplify the expression step-by-step:\n**1. Simplify inside the parentheses:**\n*  $\\left( \\frac{3x^3}{x} \\right)^2 = (3x^2)^2 = 9x^4$ \n*  $\\left( \\frac{1}{2x} \\right)^{-3} = (2x)^3 = 8x^3$\n**2. Apply the negative exponent rule:**\n* $\\left( \\frac{4}{x} \\right)^{-1} = \\left(\\frac{x}{4}\\right)^1 = \\frac{x}{4}$\n**3. Substitute the simplified terms back into the original expression:**\n*  $\\left( \\frac{4}{x} \\right)^{-1} \\left( \\frac{3x^3}{x} \\right)^2 \\left( \\frac{1}{2x} \\right)^{-3} = \\frac{x}{4} \\cdot 9x^4 \\cdot 8x^3$\n**4. Multiply the terms:**\n* $\\frac{x}{4} \\cdot 9x^4 \\cdot 8x^3 = \\frac{72x^8}{4}$\n**5. Simplify the fraction:**\n* $\\frac{72x^8}{4} = \\boxed{18x^8}$ \n",
+        "Here's how to simplify the expression step-by-step:\n**1. Simplify inside the parentheses:**\n*  $\\left( \\frac{3x^3}{x} \\right)^2 = (3x^2)^2 = 9x^4$ \n*  $\\left( \\frac{1}{2x} \\right)^{-3} = (2x)^3 = 8x^3$\n**2. Apply the negative exponent rule:**\n*  $\\left( \\frac{4}{x} \\right)^{-1} = \\left( \\frac{x}{4} \\right)^1 = \\frac{x}{4}$\n**3. Combine the simplified terms:**\n*  $\\frac{x}{4} \\cdot 9x^4 \\cdot 8x^3$\n**4. Multiply the coefficients and add the exponents:**\n*  $\\frac{x}{4} \\cdot 9x^4 \\cdot 8x^3 = \\boxed{18x^8}$ \n",
+        "Here's how to simplify the expression step-by-step:\n**1. Simplify inside the parentheses:**\n*  $\\left( \\frac{3x^3}{x} \\right)^2 = \\left( 3x^2 \\right)^2 = 9x^4$\n*  $\\left( \\frac{1}{2x} \\right)^{-3} = (2x)^3 = 8x^3$\n**2. Apply the negative exponent rule:**\n*  $\\left( \\frac{4}{x} \\right)^{-1} = \\left( \\frac{x}{4} \\right)^1 = \\frac{x}{4}$\n**3. Combine the simplified terms:**\n*  $\\frac{x}{4} \\cdot 9x^4 \\cdot 8x^3$\n**4. Multiply the coefficients and add the exponents of x:**\n*  $\\frac{x}{4} \\cdot 9x^4 \\cdot 8x^3 = \\boxed{18x^8}$ \n",
+        "**Step 1: Simplify each term separately**\n*  $\\left( \\frac{4}{x} \\right)^{-1} = \\left( \\frac{x}{4} \\right)^1 = \\frac{x}{4}$ \n*  $\\left( \\frac{3x^3}{x} \\right)^2 = \\left( 3x^2 \\right)^2 = 9x^4$\n*  $\\left( \\frac{1}{2x} \\right)^{-3} = \\left( 2x \\right)^3 = 8x^3$\n**Step 2: Combine the simplified terms**\nNow we have:  \n  \n$\\frac{x}{4} \\cdot 9x^4 \\cdot 8x^3$\n**Step 3: Multiply the coefficients and add the exponents**\n  $\\frac{x}{4} \\cdot 9x^4 \\cdot 8x^3 = \\frac{72x^8}{4}$\n**Step 4: Simplify**\n$\\frac{72x^8}{4} = \\boxed{18x^8}$ \n",
+        "Here's how to simplify the expression step-by-step:\n**1. Simplify each term individually:**\n* **Term 1:**  $\\left( \\frac{4}{x} \\right)^{-1} = \\left( \\frac{x}{4} \\right)^1 = \\frac{x}{4}$  (Using the rule that $(a/b)^{-1} = (b/a)$)\n* **Term 2:**  $\\left( \\frac{3x^3}{x} \\right)^2 = \\left( 3x^2 \\right)^2 = 9x^4$ (Simplifying inside the parentheses first, then squaring)\n* **Term 3:**  $\\left( \\frac{1}{2x} \\right)^{-3} = \\left( \\frac{2x}{1} \\right)^3 = 8x^3$ \n**2. Multiply the simplified terms:**\nNow we have:  $\\frac{x}{4} \\cdot 9x^4 \\cdot 8x^3$\n**3. Combine the coefficients and the variables:**\nThis simplifies to:  $\\frac{9 \\cdot 8}{4} \\cdot x^{1+4+3} = 18x^8$\n**Therefore, the simplified expression is  18x\u2078.** \n"
+    ],
+    "pred_answers": "8",
+    "final_pred_answer": [
+        "8",
+        "8",
+        "8",
+        "8",
+        "18"
+    ],
+    "ground_truth": "8"
+}

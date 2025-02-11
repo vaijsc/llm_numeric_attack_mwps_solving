@@ -1,0 +1,23 @@
+{
+    "problem": "How many paths are there from $A$ to $C$, if every step must be up or to the right?[asy]size(4cm,4cm);int w=6;int h=5;int i;pen p=fontsize(9);for (i=0; i<h; ++i){draw((0,i) -- (w-1,i));}for (i=0; i<w; ++i){draw((i, 0)--(i,h-1));}label(\"A\", (0,0), SW, p);label(\"C\", (1,2), NE, p);label(\"B\", (w-1,h-1), NE, p);[/asy]",
+    "level": "Level 2",
+    "type": "Counting & Probability",
+    "solution": "There is 1 step to the right, and 2 steps up.  These 3 steps can be made in any order, so the answer is $\\binom{3}{1} = \\boxed{3}$.",
+    "prompt": "### Instruction: How many paths are there from $A$ to $C$, if every step must be up or to the right?[asy]size(4cm,4cm);int w=6;int h=5;int i;pen p=fontsize(9);for (i=0; i<h; ++i){draw((0,i) -- (w-1,i));}for (i=0; i<w; ++i){draw((i, 0)--(i,h-1));}label(\"A\", (0,0), SW, p);label(\"C\", (1,2), NE, p);label(\"B\", (w-1,h-1), NE, p);[/asy]\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "To get from A to C, you need to move 2 steps to the right and 2 steps up.  Think of this like a code, where \"R\" represents a step to the right and \"U\" represents a step up.  We need to find all possible combinations of \"R\" and \"U\" that have two of each.\nHere are the possibilities:\n* RRUU\n* RRUU\n* RURRU\n* RURRU\n* RRUUR\n* RRUUR\n* URURR\n* URURR\n* URRUR\n* URRUR\n* UURRR\n* UURRR\nThere are **12** possible paths from A to C. \n",
+        "Here's how to solve this problem:\n**Understanding the Problem**\n* We need to find all possible paths from point A to point C.\n* Each step can only be \"up\" (moving one unit north) or \"right\" (moving one unit east).\n**Solution**\n1. **Total Moves:** To get from A to C, you need to move 2 units to the right and 2 units up, for a total of 4 moves.\n2. **Choosing Moves:**  Each path is determined by choosing which of the 4 moves are \"right\" moves. The other moves will automatically be \"up\" moves.\n3. **Combinations:**  This is a classic combination problem. We need to choose 2 \"right\" moves out of 4 total moves.  We can represent this mathematically as:\n   \u2074C\u2082 = 4! / (2! * 2!) = (4 * 3) / (2 * 1) = 6\n**Answer:** There are **6** different paths from A to C. \n",
+        "Here's how to solve this problem:\n**Understanding the Problem**\nThe grid represents a path-finding problem. We need to find the number of ways to move from point A to point C, where each move can only be up or to the right.\n**Solution**\n* **Total Moves:** To get from A to C, we need to move 2 units to the right and 2 units up.  This means we need to make a total of 4 moves.\n* **Choosing the Moves:**  Each path is essentially a sequence of \"R\" (right) and \"U\" (up) moves. For example, one path could be \"RRUU\".  Since we need 4 moves, we need to choose 2 of them to be \"R\" (the rest will automatically be \"U\").\n* **Combinations:** The number of ways to choose 2 moves out of 4 is a combination, denoted as  \u2074C\u2082. \n* **Calculating the Combination:** \u2074C\u2082 = (4!)/(2!2!) = 6\n**Answer:** There are **6** paths from point A to point C. \n",
+        "Here's how to solve this problem:\n**Understanding the Problem**\nWe need to find all the possible routes from point A to point C, moving only up or to the right.  Think of each move as either \"U\" (up) or \"R\" (right).\n**Counting the Moves**\n* To reach point C, we need to move 1 unit to the right and 2 units up. \n*  This means we'll have a total of 3 moves (1 right + 2 up).\n**Arranging the Moves**\nWe have 3 moves, and need to figure out how many ways to arrange them with 2 being \"U\" and 1 being \"R\".  This is a classic combinatorics problem.\n**Solution**\nThe number of ways to arrange these moves is the same as the number of ways to choose 2 positions out of 3 for the \"U\" moves.  This is represented by the combination:\n*  \u00b3C\u2082 = 3! / (2! * 1!) = 3 \n**Therefore, there are 3 different paths from point A to point C.** \n",
+        "To get from point $A$ to point $C$, we need to move 1 unit to the right and 2 units up.  This means we need to take a total of 3 steps.  \nThink of each path as a sequence of \"R\" (right) and \"U\" (up).  For example, the path \"RUU\" means go right, then up, then up again.\nSince we have 3 steps, we need to choose 2 of them to be \"U\" (the other will be \"R\"). The number of ways to choose 2 out of 3 is $\\binom{3}{2} = \\boxed{3}$. \n"
+    ],
+    "pred_answers": "6",
+    "final_pred_answer": [
+        "12",
+        "6",
+        "6",
+        "3",
+        "3"
+    ],
+    "ground_truth": "3"
+}

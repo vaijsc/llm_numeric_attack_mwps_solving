@@ -1,0 +1,23 @@
+{
+    "problem": "What is the probability that flipping a fair coin three times produces fewer than two heads? Express your answer as a common fraction.",
+    "level": "Level 3",
+    "type": "Counting & Probability",
+    "solution": "This is the probability of flipping no heads (three tails) or one head (two tails). This is the same as the probability of flipping two heads (one tail) or three heads (no tails), since we can just interchange heads and tails. Since all outcomes are covered, both probabilities add up to 1, so the desired probability is $\\boxed{\\frac{1}{2}}$.",
+    "prompt": "### Instruction: What is the probability that flipping a fair coin three times produces fewer than two heads? Express your answer as a common fraction.\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "Here's how to solve this problem step-by-step:\n**1. List all possible outcomes:**\nWhen flipping a coin three times, here are the possible outcomes (H = Heads, T = Tails):\n* HHH\n* HHT\n* HTH\n* THH\n* HTT\n* THT\n* TTH\n* TTT\n**2. Identify outcomes with fewer than two heads:**\n* HTT\n* THT\n* TTH\n* TTT\n**3. Calculate the probability:**\n* There are 4 outcomes with fewer than two heads.\n* There are 8 total possible outcomes.\nTherefore, the probability of getting fewer than two heads is **4/8**, which simplifies to **1/2**. \n",
+        "Here's how to solve this step-by-step:\n**1. List the Possibilities**\nWhen flipping a coin three times, there are 2 possible outcomes for each flip (heads or tails).  This gives us a total of 2 * 2 * 2 = 8 possible outcomes:\n* HHH\n* HHT\n* HTH\n* THH\n* HTT\n* THT\n* TTH\n* TTT\n**2. Identify Favorable Outcomes**\nWe want fewer than two heads, meaning 0 or 1 head. These outcomes are:\n* TTT\n* HTT\n* THT\n* TTH\n**3. Calculate the Probability**\n* There are 4 favorable outcomes.\n* There are 8 total possible outcomes.\nTherefore, the probability of getting fewer than two heads is **4/8**, which simplifies to **1/2**. \n",
+        "Here's how to solve the problem step-by-step:\n**1. List the Possible Outcomes**\nWhen flipping a coin three times, here are the possible outcomes (H = Heads, T = Tails):\n* HHH\n* HHT\n* HTH\n* THH\n* HTT\n* THT\n* TTH\n* TTT\n**2. Identify Outcomes with Fewer Than Two Heads**\nThe outcomes with fewer than two heads are:\n* HTT\n* THT\n* TTH\n* TTT\n**3. Calculate the Probability**\n* There are 4 favorable outcomes (fewer than two heads).\n* There are 8 total possible outcomes.\nTherefore, the probability of getting fewer than two heads is 4/8, which simplifies to **1/2**. \n",
+        "Here's how to solve this problem step by step:\n**1. List all possible outcomes:**\nWhen you flip a coin three times, there are 2 possibilities for each flip (heads or tails).  This gives us a total of 2 * 2 * 2 = 8 possible outcomes:\n* HHH\n* HHT\n* HTH\n* THH\n* HTT\n* THT\n* TTH\n* TTT\n**2. Identify outcomes with fewer than two heads:**\nWe need the outcomes with either zero or one head:\n* **Zero heads:** TTT \n* **One head:** HTT, THT, TTH\n**3. Calculate the probability:**\n* There are 4 favorable outcomes (fewer than two heads).\n* There are 8 total possible outcomes.\nTherefore, the probability of getting fewer than two heads is **4/8**, which simplifies to **1/2**. \n",
+        "Here's how to solve the problem step-by-step:\n**1. List all possible outcomes:**\nWhen flipping a coin three times, there are 2 possibilities for each flip (Heads or Tails).  So the total number of possible outcomes is 2 * 2 * 2 = 8. Here they are:\n* HHH\n* HHT\n* HTH\n* THH\n* HTT\n* THT\n* TTH\n* TTT\n**2. Identify outcomes with fewer than two heads:**\nWe need the outcomes with either zero or one head:\n* TTT\n* HTT\n* THT\n* TTH\n**3. Calculate the probability:**\nThere are 4 favorable outcomes (fewer than two heads) out of 8 total possible outcomes.  The probability is:\n4/8 = **1/2** \n"
+    ],
+    "pred_answers": "2",
+    "final_pred_answer": [
+        "2",
+        "2",
+        "2",
+        "2",
+        "2"
+    ],
+    "ground_truth": "2"
+}

@@ -1,0 +1,23 @@
+{
+    "problem": "If $x$ is a real number, find $x^2+2x(5-x)+(5-x)^2$.",
+    "level": "Level 3",
+    "type": "Algebra",
+    "solution": "\\[\nx^2+2x(5-x)+(5-x)^2=[x+(5-x)]^2=5^2=\\boxed{25}\n\\]",
+    "prompt": "### Instruction: If $x$ is a real number, find $x^2+2x(5-x)+(5-x)^2$.\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "We can simplify this expression by recognizing that it is the expansion of a squared term:\n1. **Notice the pattern:** The expression resembles the expansion of  $(a + b)^2 = a^2 + 2ab + b^2$ \n2. **Identify a and b:** In our expression, let:\n   *  $a = x$\n   *  $b = (5 - x)$\n3. **Apply the formula:** Now we can substitute these values into the formula:\n   *  $(x + (5 - x))^2$\n4. **Simplify:** \n   *  $(5)^2 = \\boxed{25}$ \nTherefore, $x^2+2x(5-x)+(5-x)^2 = 25$ \n",
+        "Here's how to solve the problem step-by-step:\n1. **Expand the squares:**\n   *  x\u00b2 remains the same\n   *  (5-x)\u00b2 = (5-x)(5-x) = 25 - 10x + x\u00b2\n2. **Distribute the middle term:**\n   * 2x(5-x) = 10x - 2x\u00b2\n3. **Combine all the terms:**\n   * x\u00b2 + 10x - 2x\u00b2 + 25 - 10x + x\u00b2\n4. **Simplify by combining like terms:**\n   * (x\u00b2 - 2x\u00b2 + x\u00b2) + (10x - 10x) + 25 \n   * = 25\n**Therefore, x\u00b2 + 2x(5-x) + (5-x)\u00b2 = 25** \n**Important Note:** This expression simplifies to a constant (25), meaning its value is always 25, regardless of the value of x. This is a characteristic of perfect square trinomials. \n",
+        "Here's how to solve the problem step-by-step:\n**1. Expand the squares:**\n*  $x^2$ remains the same.\n*  $(5-x)^2 = (5-x)(5-x) = 25 - 10x + x^2$ \n**2.  Simplify the middle term:**\n*  $2x(5-x) = 10x - 2x^2$\n**3.  Combine all the terms:**\n*  $x^2 + 10x - 2x^2 + 25 - 10x + x^2$\n**4.  Combine like terms:**\n*  $(x^2 - 2x^2 + x^2) + (10x - 10x) + 25$\n**5.  Final answer:**\n*  $25$\n**Therefore,  $x^2+2x(5-x)+(5-x)^2 = 25$ for any real number *x*.** \nNotice that the expression is actually a perfect square trinomial: $(x + (5 - x))^2 = 5^2 = 25$ \n",
+        "Here's how to solve the problem step-by-step:\n1. **Expand the squares:**\n   *  $x^2$ remains the same.\n   *  $(5-x)^2 = (5-x)(5-x) = 25 - 10x + x^2$\n2. **Expand the middle term:**\n   *  $2x(5-x) = 10x - 2x^2$\n3. **Combine all terms:**\n   *  $x^2 + 10x - 2x^2 + 25 - 10x + x^2$\n4. **Simplify:**\n   *  $x^2 - 2x^2 + x^2 + 10x - 10x + 25 = \\boxed{25}$\n**Therefore, the expression simplifies to 25.** \n",
+        "Here's how to solve this problem step-by-step:\n**1. Expand the Squares:**\n*  $(5-x)^2 = (5-x)(5-x) = 25 - 10x + x^2$\n**2. Distribute the Middle Term:**\n*  $2x(5-x) = 10x - 2x^2$\n**3. Combine All Terms:**\n*  $x^2 + 2x(5-x) + (5-x)^2 = x^2 + (10x - 2x^2) + (25 - 10x + x^2)$\n**4. Simplify:**\n*  Notice that the  `-2x^2` and `+x^2` terms cancel out, as do the `10x` and `-10x` terms.  \n*  This leaves us with:  `x^2 + (10x - 2x^2) + (25 - 10x + x^2) = 25`\n**Therefore,  $x^2 + 2x(5-x) + (5-x)^2 = 25$ for any real number x.** \n"
+    ],
+    "pred_answers": "25",
+    "final_pred_answer": [
+        "25",
+        "25",
+        "25",
+        "25",
+        "25"
+    ],
+    "ground_truth": "25"
+}

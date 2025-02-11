@@ -1,0 +1,23 @@
+{
+    "problem": "Points $A(2,5)$ and $B(10,5)$ are the endpoints of a diameter of a circle graphed in a coordinate plane. How many square units are in the area of the circle? Express your answer in terms of $\\pi$.",
+    "level": "Level 1",
+    "type": "Geometry",
+    "solution": "We must find the radius of the circle in order to find the area. We are told that points $A$ and $B$ are the endpoints of a diameter, so we can find the distance between these two points. We could use the distance formula, but since $A$ and $B$ have the same $y$-coordinate, we can see that the distance between them is $10 - 2 = 8$.\n\nSince the diameter has a length of 8, the radius must have length 4. Therefore, the answer is $4^2\\pi = \\boxed{16\\pi}$.",
+    "prompt": "### Instruction: Points $A(2,5)$ and $B(10,5)$ are the endpoints of a diameter of a circle graphed in a coordinate plane. How many square units are in the area of the circle? Express your answer in terms of $\\pi$.\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "1. **Find the diameter:** The diameter of the circle is the distance between points A and B. Since they have the same y-coordinate, the diameter is simply the difference in their x-coordinates: 10 - 2 = 8 units.\n2. **Find the radius:** The radius of the circle is half the diameter, so the radius is 8 / 2 = 4 units.\n3. **Calculate the area:** The area of a circle is given by the formula  \u03c0 * r\u00b2, where r is the radius.  Therefore, the area of this circle is \u03c0 * (4)\u00b2 = **16\u03c0 square units**. \n",
+        "Here's how to solve the problem step-by-step:\n**1. Find the diameter:**\n* The diameter of the circle is the distance between points A and B.  Since they have the same y-coordinate, the diameter is simply the difference in their x-coordinates: 10 - 2 = 8.\n**2. Find the radius:**\n* The radius of a circle is half the diameter. So, the radius is 8/2 = 4.\n**3. Calculate the area:**\n* The area of a circle is given by the formula:  Area = \u03c0 * radius\u00b2\n* Substitute the radius we found: Area = \u03c0 * 4\u00b2 = \u03c0 * 16\n**Answer:** The area of the circle is **16\u03c0** square units. \n",
+        "Here's how to solve the problem step-by-step:\n**1. Find the diameter:**\n* The diameter of the circle is the distance between points A and B.\n* Since the y-coordinates are the same, the diameter is simply the difference in the x-coordinates: 10 - 2 = 8 units.\n**2. Find the radius:**\n* The radius is half the diameter: 8/2 = 4 units.\n**3. Calculate the area:**\n* The area of a circle is given by the formula: Area = \u03c0 * radius\u00b2\n* Substitute the radius: Area = \u03c0 * 4\u00b2 = \u03c0 * 16\n**Answer:** The area of the circle is **16\u03c0** square units. \n",
+        "Here's how to solve the problem step-by-step:\n**1. Find the diameter:**\n* The diameter of the circle is the distance between points A and B.\n* Since the y-coordinates are the same, we can find the diameter by subtracting the x-coordinates: 10 - 2 = 8.\n**2. Find the radius:**\n* The radius is half the diameter: 8 / 2 = 4.\n**3. Calculate the area:**\n* The area of a circle is given by the formula:  Area = \u03c0 * radius\u00b2\n* Substitute the radius we found: Area = \u03c0 * 4\u00b2 = 16\u03c0\n**Answer:** The area of the circle is **16\u03c0** square units. \n",
+        "Here's how to solve the problem step-by-step:\n**1. Find the diameter:**\n* The diameter of the circle is the distance between points A and B.\n* Since the y-coordinates are the same, the diameter is simply the difference in the x-coordinates: 10 - 2 = 8 units.\n**2. Find the radius:**\n* The radius is half the diameter: 8 / 2 = 4 units.\n**3. Calculate the area:**\n* The area of a circle is given by the formula:  Area = \u03c0 * radius\u00b2\n* Substitute the radius we found: Area = \u03c0 * 4\u00b2 = 16\u03c0 square units.\n**Answer:** There are **16\u03c0** square units in the area of the circle. \n"
+    ],
+    "pred_answers": "16",
+    "final_pred_answer": [
+        "16",
+        "16",
+        "16",
+        "16",
+        "16"
+    ],
+    "ground_truth": "16"
+}

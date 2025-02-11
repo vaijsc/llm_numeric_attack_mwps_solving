@@ -1,0 +1,23 @@
+{
+    "problem": "During the school year, the 10 members of the chess club play a total of 900 games of chess during their practice matches. Each member plays against every other member $N$ times. What is the value of $N$?",
+    "level": "Level 4",
+    "type": "Counting & Probability",
+    "solution": "Since there are 10 club members, there are $\\binom{10}{2} = \\frac{10\\cdot 9}{2} = 45$ pairings of members.  Thus, each pair must have played $\\frac{900}{45} = \\boxed{20}$ games.",
+    "prompt": "### Instruction: During the school year, the 10 members of the chess club play a total of 900 games of chess during their practice matches. Each member plays against every other member $N$ times. What is the value of $N$?\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "Here's how to solve the problem step-by-step:\n**1.  Calculate the total number of possible pairings:**\n*  Each of the 10 members can play against 9 other members. \n*  We might think there are 10 * 9 = 90 pairings.\n*  However, this counts each pairing twice (e.g., member 1 playing member 2 is the same pairing as member 2 playing member 1).\n*  Therefore, the actual number of unique pairings is 90 / 2 = 45.\n**2.  Calculate the number of games per pairing:**\n*  The club plays a total of 900 games.\n*  Since there are 45 unique pairings, each pairing must have 900 / 45 = 20 games.\n**Therefore, the value of N is 20.** \n",
+        "Here's how to solve the problem step-by-step:\n**1.  Understanding the Setup:**\n* There are 10 chess club members.\n* Each member plays against every other member a fixed number of times, which we'll call *N*.\n**2.  Calculating Total Matches Without Double Counting:**\n*  If we simply multiply the number of members (10) by the number of matches per member (9), we'd get 10 * 9 = 90 matches.  However, this counts each match twice (once for each player).\n* To correct for this, we divide the initial result by 2: 90 / 2 = 45.  So there are 45 unique matches between the members.\n**3.  Finding the Value of N:**\n* Each match is played *N* times.\n* Since there are 45 unique matches, the total number of games is 45 * *N*.\n* We know the total number of games is 900.\n* Therefore, 45 * *N* = 900\n* Solving for *N*: *N* = 900 / 45 = 20\n**Answer:** The value of *N* is **20**. Each member plays against every other member 20 times. \n",
+        "Here's how to solve the problem step-by-step:\n**1. Calculate the total number of possible pairings:**\n*  Each of the 10 members can play against 9 other members.\n*  We might think there are 10 * 9 = 90 pairings.\n*  However, this counts each pairing twice (once for each member in the pair).\n*  Therefore, there are actually 90 / 2 = 45 unique pairings possible.\n**2. Calculate the number of times each pairing plays:**\n* The club plays a total of 900 games.\n*  There are 45 unique pairings.\n* Each pairing plays 900 / 45 = 20 times.\n**3. Determine the value of N:**\n* Since each member plays against every other member N times, and there are 9 other members,  N is equal to the number of times each pairing plays. \n**Therefore, the value of N is 20.** \n",
+        "Here's how to solve this problem step-by-step:\n**1.  Calculate the total number of possible pairings:**\n* Each member has to play against 9 other members (10 members total - 1 themselves).\n* If we multiply 10 members * 9 opponents = 90 pairings. \n* However, this counts each pairing twice (once for each player).  \n* So, the actual number of unique pairings is 90 / 2 = 45.\n**2. Determine how many times each pairing is played:**\n* The club plays a total of 900 games.\n* Divide the total games by the number of pairings: 900 games / 45 pairings = 20 games per pairing.\n**Therefore, the value of N is 20.** \n",
+        "Here's how to solve the problem step-by-step:\n**1.  Calculate the total number of possible pairings:**\n* Each member has 9 other members they can play against.\n* If we simply multiply 10 members * 9 opponents, we're double-counting each pairing (since John playing Mary is the same pairing as Mary playing John). \n* To correct for this, we divide by 2: (10 * 9) / 2 = 45 total possible pairings.\n**2. Determine how many times each pairing occurs:**\n* The club plays a total of 900 games.\n* Each game represents one pairing.\n* Therefore, each pairing occurs 900 / 45 = 20 times.\n**Answer:**  The value of N is **20**. \n"
+    ],
+    "pred_answers": "20",
+    "final_pred_answer": [
+        "20",
+        "20",
+        "20",
+        "20",
+        "20"
+    ],
+    "ground_truth": "20"
+}

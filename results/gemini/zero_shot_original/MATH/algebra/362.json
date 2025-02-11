@@ -1,0 +1,23 @@
+{
+    "problem": "Sviatoslav solved the quadratic equation $x^2-x-1=0$ by completing the square. In the process, he came up with the equivalent equation $$(x+a)^2 = b,$$where $a$ and $b$ are constants.\n\nWhat is $b$?",
+    "level": "Level 4",
+    "type": "Algebra",
+    "solution": "The square which agrees with $x^2-x-1$ except for the constant term is $\\left(x-\\frac 12\\right)^2$, which is equal to $x^2-x+\\frac 14$, and thus to $(x^2-x-1) + \\frac 54$.\n\nTherefore, by adding $\\frac 54$ to each side, Sviatoslav rewrote the equation $x^2-x-1 = 0$ as $$\\left(x-\\frac 12\\right)^2 = \\frac 54.$$We have $a=-\\frac 12$ and $b=\\boxed{\\frac 54}$.",
+    "prompt": "### Instruction: Sviatoslav solved the quadratic equation $x^2-x-1=0$ by completing the square. In the process, he came up with the equivalent equation $$(x+a)^2 = b,$$where $a$ and $b$ are constants.\n\nWhat is $b$?\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "Here's how to solve the problem step-by-step:\n1. **Complete the square:**\n   - Take half of the coefficient of the $x$ term (-1), square it (1/4), and add it to both sides of the equation:\n     \n     ```\n     x^2 - x - 1 + 1/4 = 0 + 1/4\n     ```\n2. **Rewrite the left side as a squared term:**\n   - The left side now factors perfectly:\n     ```\n     (x - 1/2)^2 = 5/4\n     ```\n3. **Compare to the given form:**\n   - We see that  $(x - 1/2)^2 = 5/4$  matches the form  $(x + a)^2 = b$.  Therefore,  $b = \\boxed{\\frac{5}{4}}$. \n",
+        "Here's how to solve the problem step-by-step:\n1. **Start with the original equation:**  \n   We have  $x^2 - x - 1 = 0$\n2. **Move the constant term to the right side:**\n   $x^2 - x = 1$\n3. **Complete the square on the left side:** \n   * Take half of the coefficient of the $x$ term (-1), square it (1/4), and add it to both sides: \n   $x^2 - x + \\frac{1}{4} = 1 + \\frac{1}{4}$\n4. **Factor the left side as a perfect square:**\n   $(x - \\frac{1}{2})^2 = \\frac{5}{4}$\n5. **Now the equation is in the desired form:**\n   $(x + a)^2 = b$, where $a = -\\frac{1}{2}$ and $b = \\frac{5}{4}$\n**Therefore, the value of b is  $\\boxed{\\frac{5}{4}}$.** \n",
+        "Here's how to solve the problem step-by-step:\n1. **Start with the original equation:**  \n   x\u00b2 - x - 1 = 0\n2. **Move the constant term to the right side:**\n   x\u00b2 - x = 1\n3. **Complete the square on the left side:**  To do this, take half of the coefficient of the x term (-1), square it (1/4), and add it to both sides of the equation.\n   x\u00b2 - x + 1/4 = 1 + 1/4\n4. **Factor the left side as a perfect square:** \n   (x - 1/2)\u00b2 = 5/4\n5. **Now the equation is in the form (x + a)\u00b2 = b:**\n   We see that a = -1/2 and **b = 5/4** \n",
+        "Here's how to solve the problem step-by-step:\n1. **Start with the original equation:** \n   We have the equation:  $x^2 - x - 1 = 0$\n2. **Move the constant term to the right side:**\n   Add 1 to both sides:  $x^2 - x = 1$\n3. **Complete the square:**\n   * Take half of the coefficient of the $x$ term (-1), square it, and add it to both sides.  Half of -1 is -1/2, and squaring it gives 1/4. \n   * So, we add 1/4 to both sides: $x^2 - x + \\frac{1}{4} = 1 + \\frac{1}{4}$\n4. **Factor the left side:**\n   The left side now factors as a perfect square: $\\left(x - \\frac{1}{2}\\right)^2 = \\frac{5}{4}$\n5. **Identify a and b:**\n   We have the equation in the desired form: $(x + a)^2 = b$. Comparing this to our factored equation, we see:\n    *  $a = -\\frac{1}{2}$\n    *  $b = \\frac{5}{4}$\n**Therefore, the value of b is  5/4.** \n",
+        "Here's how to solve the problem:\n**1. Completing the Square**\nTo complete the square, we need to manipulate the equation to get a perfect square trinomial on the left side.  \n* **Start with the original equation:**  \n   x\u00b2 - x - 1 = 0\n* **Move the constant term to the right side:**\n   x\u00b2 - x = 1\n* **Take half of the coefficient of the x term (-1), square it (1/4), and add it to both sides:**\n   x\u00b2 - x + (1/4) = 1 + (1/4)\n* **Factor the left side as a perfect square:**\n   (x - 1/2)\u00b2 = 5/4\n**2. Identifying 'a' and 'b'**\nNow we have the equation in the form (x + a)\u00b2 = b. \n* **a = -1/2** (The coefficient of x inside the square)\n* **b = 5/4**  (The constant term on the right side)\n**Answer:**\nTherefore,  b = **5/4**. \n"
+    ],
+    "pred_answers": "4",
+    "final_pred_answer": [
+        "4",
+        "4",
+        "4",
+        "4",
+        "5"
+    ],
+    "ground_truth": "54"
+}

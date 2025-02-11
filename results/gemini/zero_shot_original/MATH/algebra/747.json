@@ -1,0 +1,23 @@
+{
+    "problem": "If $x$ is the average of $13$, $-16$, and $6$ and if $y$ is the cube root of $8$, find $x^2 + y^3$.",
+    "level": "Level 1",
+    "type": "Algebra",
+    "solution": "We first find the $x$, the average of $13$, $-16$, and $6$ by summing the three integers and dividing the sum by $3$, so we have that $x = \\frac{13+(-16)+6}{3}=\\frac{3}{3}=1$. Now, we try to find $y$, the cube root of $8$. We know that $2^3=8$, so $y=\\sqrt[3]{8}=2$. Finally, we can substitute in $1$ for $x$ and $2$ for $y$ to find $x^2+y^3$: $$x^2+y^3=(1)^2+(2)^3 = 1 + 8 = \\boxed{9}.$$",
+    "prompt": "### Instruction: If $x$ is the average of $13$, $-16$, and $6$ and if $y$ is the cube root of $8$, find $x^2 + y^3$.\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "Here's how to solve the problem step-by-step:\n**1. Find the average (x):**\n* Add the numbers: 13 + (-16) + 6 = 3\n* Divide the sum by the number of values: 3 / 3 = 1\n* Therefore, x = 1\n**2. Find the cube root of 8 (y):**\n* The cube root of a number is the value that, when multiplied by itself three times, equals the original number. \n* 2 * 2 * 2 = 8\n* Therefore, y = 2\n**3. Calculate x\u00b2 + y\u00b3:**\n* x\u00b2 = 1\u00b2 = 1\n* y\u00b3 = 2\u00b3 = 8\n* x\u00b2 + y\u00b3 = 1 + 8 = 9\n**Therefore, x\u00b2 + y\u00b3 = 9** \n",
+        "Here's how to solve the problem step-by-step:\n**1. Find the average (x):**\n* The average of a set of numbers is their sum divided by the number of values.\n* Sum of the numbers: 13 + (-16) + 6 = 3\n* Number of values: 3\n* Average (x): 3 / 3 = 1\n**2. Find the cube root of 8 (y):**\n* The cube root of a number is the value that, when multiplied by itself three times, equals the original number.\n* Cube root of 8: 2 (since 2 * 2 * 2 = 8)\n**3. Calculate x\u00b2 + y\u00b3:**\n* x\u00b2 = 1\u00b2 = 1\n* y\u00b3 = 2\u00b3 = 8\n* x\u00b2 + y\u00b3 = 1 + 8 = 9\n**Therefore, x\u00b2 + y\u00b3 = 9** \n",
+        "Here's how to solve the problem step-by-step:\n**1. Find the average (x):**\n* Add the numbers: 13 + (-16) + 6 = 3\n* Divide the sum by the number of values: 3 / 3 = 1\n* Therefore, x = 1\n**2. Find the cube root of 8 (y):**\n* The cube root of 8 is 2, since 2 * 2 * 2 = 8\n* Therefore, y = 2\n**3. Calculate x\u00b2 + y\u00b3:**\n* x\u00b2 = 1\u00b2 = 1\n* y\u00b3 = 2\u00b3 = 8\n* x\u00b2 + y\u00b3 = 1 + 8 = 9\n**Therefore, x\u00b2 + y\u00b3 = 9** \n",
+        "Here's how to solve the problem step-by-step:\n**1. Find the average (x):**\n* Add the numbers: 13 + (-16) + 6 = 3\n* Divide the sum by 3 (the number of values): 3 / 3 = 1\n* Therefore, x = 1\n**2. Find the cube root of 8 (y):**\n* The cube root of a number is the value that, when multiplied by itself three times, equals the original number. \n* 2 x 2 x 2 = 8, so the cube root of 8 is 2.\n* Therefore, y = 2\n**3. Calculate x\u00b2 + y\u00b3:**\n* x\u00b2 = 1\u00b2 = 1\n* y\u00b3 = 2\u00b3 = 8\n* x\u00b2 + y\u00b3 = 1 + 8 = 9\n**Therefore, x\u00b2 + y\u00b3 = 9** \n",
+        "Here's how to solve the problem step by step:\n**1. Find the average (x):**\n* The average of three numbers is their sum divided by 3.\n*  x = (13 + (-16) + 6) / 3 \n*  x = 3 / 3\n*  x = 1\n**2. Find the cube root of 8 (y):**\n* The cube root of a number is the value that, when multiplied by itself three times, equals the original number.\n*  y = \u00b3\u221a8 = 2\n**3. Calculate x\u00b2 + y\u00b3:**\n* x\u00b2 = 1\u00b2 = 1\n* y\u00b3 = 2\u00b3 = 8\n* x\u00b2 + y\u00b3 = 1 + 8 = 9\n**Therefore, x\u00b2 + y\u00b3 = 9** \n"
+    ],
+    "pred_answers": "9",
+    "final_pred_answer": [
+        "9",
+        "9",
+        "9",
+        "9",
+        "9"
+    ],
+    "ground_truth": "9"
+}

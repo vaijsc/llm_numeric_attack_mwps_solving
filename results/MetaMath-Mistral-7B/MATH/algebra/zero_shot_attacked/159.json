@@ -1,0 +1,41 @@
+{
+    "index_adversarial_question": 0,
+    "problem": "The function $f (n) = n^2 + n + 17$ for $0 \\leq n \\leq 15$ generates prime numbers. What is the value of $f (11)-f (0)$?",
+    "pcot_answer": "# Define the value of n for which we need to evaluate the function\nn = 10  ### condition: 'n': {'type': 'int', '<=': 15, '>=': 0, 'science_constant': False, 'direct_from_question': True}\n# Calculate f(n) = n^2 + n + 17\nf_n = n**2 + n + 17  ### condition: 'f_n': {'type': 'int', '<=': None, '>=': 0, 'science_constant': False, 'direct_from_question': False}\n# Define the value of n for the previous function evaluation\nn_minus_1 = 0  ### condition: 'n_minus_1': {'type': 'int', '<=': 15, '>=': 0, 'science_constant': False, 'direct_from_question': True}\n# Calculate f(n-1) = (n-1)^2 + (n-1) + 17\nf_n_minus_1 = n_minus_1**2 + n_minus_1 + 17  ### condition: 'f_n_minus_1': {'type': 'int', '<=': None, '>=': 0, 'science_constant': False, 'direct_from_question': False}\n# Calculate the difference f(n) - f(n-1)\ndifference = f_n - f_n_minus_1  ### condition: 'difference': {'type': 'int', '<=': None, '>=': 0, 'science_constant': False, 'direct_from_question': False}\n# Print the result\nprint(f\"The value of f(10) - f(9) is: {difference}\")",
+    "answer": "110",
+    "vllm_responses": [
+        "First, we find $f(0)$ by plugging $n=0$ into the function.\n$f(0) = 0^2 + 0 + 17 = 17$\nNext, we find $f(11)$ by plugging $n=11$ into the function.\n$f(11) = 11^2 + 11 + 17 = 137$\nFinally, we find the difference between $f(11)$ and $f(0)$.\n$f(11) - f(0) = 137 - 17 = \\boxed{120}$\nThe answer is: 120",
+        "luence $f(n) = n^2 + n + 17$.\nTo evaluate $f(11)$, we substitute $n = 11$ into the expression for $f(n)$:\n$$f(11) = 11^2 + 11 + 17 = 121 + 11 + 17 = 149.$$\nTo evaluate $f(0)$, we substitute $n = 0$ into the expression for $f(n)$:\n$$f(0) = 0^2 + 0 + 17 = 0 + 0 + 17 = 17.$$\nTherefore, $f(11) - f(0) = 149 - 17 = \\boxed{132}.$\nThe answer is: 132",
+        "To find the value of $f(11)-f(0)$, we first need to evaluate $f(11)$ and $f(0)$.\n$f(11) = 11^2 + 11 + 17 = 121 + 11 + 17 = 149$.\n$f(0) = 0^2 + 0 + 17 = 0 + 0 + 17 = 17$.\nTherefore, $f(11)-f(0) = 149 - 17 = \\boxed{132}$.\nThe answer is: 132",
+        "We are given that the function $f(n) = n^2 + n + 17$ generates prime numbers for $0 \\leq n \\leq 15$.\nWe want to find the value of $f(11) - f(0)$.\nFirst, let's find $f(11)$:\n$f(11) = 11^2 + 11 + 17 = 121 + 11 + 17 = 149$.\nNext, let's find $f(0)$:\n$f(0) = 0^2 + 0 + 17 = 0 + 0 + 17 = 17$.\nFinally, let's calculate $f(11) - f(0)$:\n$f(11) - f(0) = 149 - 17 = \\boxed{132}$.The answer is: 132",
+        "We can use a calculator to find that $f (11) = 121$ and $f (0) = 17$.\nTherefore, $f (11) - f (0) = 121 - 17 = \\boxed{104}$.\nThe answer is: 104",
+        "\nTo find $f(11)-f(0)$, we need to calculate $f(11)$ and $f(0)$.\n$f(0) = 0^2 + 0 + 17 = 17$.\n$f(11) = 11^2 + 11 + 17 = 133$.\nTherefore, $f(11)-f(0) = 133-17 = \\boxed{116}$.\nThe answer is: 116",
+        "More specifically, we need to evaluate $f(11)-f(0)$.\nWe know that $f(n) = n^2 + n + 17$, so $f(11) = 11^2 + 11 + 17 = 133$ and $f(0) = 0^2 + 0 + 17 = 17$.\nTherefore, $f(11)-f(0) = 133-17 = \\boxed{116}$.The answer is: 116",
+        "We need to evaluate the difference between $f(11)$ and $f(0)$.\nPlugging in $n=0$, we have $f(0)=0^2+0+17=17$.\nPlugging in $n=11$, we have $f(11)=11^2+11+17=137$.\nTherefore, $f(11)-f(0)=137-17=\\boxed{120}$.\nThe answer is: 120",
+        "We have $f(0) = 0^2 + 0 + 17 = 17$ and $f(11) = 11^2 + 11 + 17 = 133$.\nSo, $f(11) - f(0) = 133 - 17 = \\boxed{116}$.\nThe answer is: 116",
+        "To find $f(11) - f(0)$, we can first find $f(11)$ and $f(0)$ separately and then subtract.\n$f(11) = 11^2 + 11 + 17 = 134.$\n$f(0) = 0^2 + 0 + 17 = 17.$\nTherefore, $f(11) - f(0) = 134 - 17 = \\boxed{117}.$\nThe answer is: 117",
+        "$f (n) = n^2 + n + 17$.\nTo find $f (11)$, we substitute $n = 11$ into the function and get $f (11) = 11^2 + 11 + 17 = 121 + 11 + 17 = 149$.\nTo find $f (0)$, we substitute $n = 0$ into the function and get $f (0) = 0^2 + 0 + 17 = 17$.\nSo, $f (11) - f (0) = 149 - 17 = \\boxed{132}$.\nThe answer is: 132",
+        "We want to find the value of $f(11) - f(0)$.\nFirst, we find the value of $f(0)$ by plugging $n=0$ into the function: $f(0) = 0^2 + 0 + 17 = 17$.\nNext, we find the value of $f(11)$ by plugging $n=11$ into the function: $f(11) = 11^2 + 11 + 17 = 137$.\nFinally, we subtract $f(0)$ from $f(11)$ to find $f(11) - f(0)$: $f(11) - f(0) = 137 - 17 = \\boxed{120}$.\nThe answer is: 120",
+        "$We have $f(n) = n^2 + n + 17$ for $0 \\leq n \\leq 15$.\nTo find $f(11)-f(0)$, we substitute $n=11$ and $n=0$ into the function.\nWe get $f(11) = 11^2 + 11 + 17 = 137$ and $f(0) = 0^2 + 0 + 17 = 17$.\nTherefore, $f(11)-f(0) = 137 - 17 = \\boxed{120}$.\nThe answer is: 120",
+        "We are asked to find the value of $f(11)-f(0)$.\nTo find $f(11)$, we substitute $n=11$ into the function:\n$f(11)=11^2+11+17=121+11+17=149$.\nTo find $f(0)$, we substitute $n=0$ into the function:\n$f(0)=0^2+0+17=0+0+17=17$.\nTherefore, $f(11)-f(0)=149-17=\\boxed{132}$. The answer is: 132",
+        "We are given that the function $f(n) = n^2 + n + 17$ generates prime numbers for $0 \\leq n \\leq 15$.\nWe need to find $f(11) - f(0)$.\nFirst, we find $f(11)$ by plugging $n = 11$ into the function:\n$f(11) = 11^2 + 11 + 17 = 121 + 11 + 17 = 149$.\nNext, we find $f(0)$ by plugging $n = 0$ into the function:\n$f(0) = 0^2 + 0 + 17 = 0 + 0 + 17 = 17$.\nFinally, we subtract $f(0)$ from $f(11)$ to find the difference:\n$f(11) - f(0) = 149 - 17 = \\boxed{132}$.\nThe answer is: 132"
+    ],
+    "vllm_answers": [
+        "120",
+        "132",
+        "132",
+        "132",
+        "104",
+        "116",
+        "116",
+        "120",
+        "116",
+        "117",
+        "132",
+        "120",
+        "120",
+        "132",
+        "132"
+    ],
+    "vllm_pred_answer": "132"
+}

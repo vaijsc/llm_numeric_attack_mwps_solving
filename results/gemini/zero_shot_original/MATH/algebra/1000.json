@@ -1,0 +1,23 @@
+{
+    "problem": "What is the positive value of the expression $\\sqrt{x^3 - 2^y}$ when $x = 5$ and $y = 2$?",
+    "level": "Level 1",
+    "type": "Algebra",
+    "solution": "Plugging in, the desired expression is just $\\sqrt{5^3 - 2^2} = \\sqrt{125 - 4} = \\sqrt{121} = \\boxed{11}$.",
+    "prompt": "### Instruction: What is the positive value of the expression $\\sqrt{x^3 - 2^y}$ when $x = 5$ and $y = 2$?\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "1. **Substitute the values:** We are given that $x = 5$ and $y = 2$.  Let's substitute these values into the expression:\n   \n   \u221a(5\u00b3 - 2\u00b2)\n2. **Simplify inside the radical:** Calculate the powers:\n   \u221a(125 - 4)\n3. **Continue simplifying:**\n   \u221a(121)\n4. **Find the square root:**\n   \u221a(121) = 11\nTherefore, the positive value of the expression is **11**. \n",
+        "1. **Substitute the values:** We are given that *x = 5* and *y = 2*.  Substitute these values into the expression: \n   \u221a(5\u00b3 - 2\u00b2)\n2. **Calculate the powers:** Calculate the exponents: \n   \u221a(125 - 4)\n3. **Simplify inside the radical:**  Subtract the numbers inside the radical:\n   \u221a(121)\n4. **Find the square root:** Find the square root of 121:\n   \u221a(121) = 11\n**Therefore, the positive value of the expression is 11.** \n",
+        "Here's how to solve the problem step-by-step:\n1. **Substitute the values:** We are given that  *x = 5* and *y = 2*. Substitute these values into the expression:\n   \u221a(5\u00b3 - 2\u00b2)\n2. **Calculate the powers:**  Calculate 5\u00b3 (5 * 5 * 5 = 125) and 2\u00b2 (2 * 2 = 4):\n   \u221a(125 - 4)\n3. **Simplify inside the radical:** Subtract 4 from 125:\n   \u221a(121)\n4. **Find the square root:** The square root of 121 is 11.\n**Therefore, the positive value of the expression is 11.** \n",
+        "1. **Substitute the values:** We are given that  x = 5 and y = 2. Substitute these values into the expression: \n   \u221a(5\u00b3 - 2\u00b2)\n2. **Simplify inside the radical:** Calculate 5\u00b3 = 125 and 2\u00b2 = 4:\n   \u221a(125 - 4)\n3. **Continue simplifying:** 125 - 4 = 121:\n   \u221a121\n4. **Find the square root:** The square root of 121 is 11.\n**Therefore, the positive value of the expression is 11.** \n",
+        "1. **Substitute the values:**  We are given that $x = 5$ and $y = 2$. Substitute these values into the expression: \n   \n   \u221a(5\u00b3 - 2\u00b2)\n2. **Simplify inside the square root:** Calculate the powers:\n   \u221a(125 - 4)\n3. **Continue simplifying:**\n   \u221a(121)\n4. **Calculate the square root:**\n   \u221a(121) = 11\n**Therefore, the positive value of the expression is 11.** \n"
+    ],
+    "pred_answers": "11",
+    "final_pred_answer": [
+        "11",
+        "11",
+        "11",
+        "11",
+        "11"
+    ],
+    "ground_truth": "11"
+}

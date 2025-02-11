@@ -1,0 +1,23 @@
+{
+    "problem": "The square root of $t$ is greater than $2$ and less than $3.5$. How many integer values of $t$ satisfy this condition?",
+    "level": "Level 4",
+    "type": "Algebra",
+    "solution": "We have: $2 < \\sqrt{t} < \\frac{7}{2}$ so squaring the inequality (which we can do because all the terms in it are positive) gives us  $4 < t <\\frac{49}{4}=12.25$.  Therefore, $t$ is an integer between 5 and 12 inclusive, which leaves us with $\\boxed{8}$ possible integer values of $t$.",
+    "prompt": "### Instruction: The square root of $t$ is greater than $2$ and less than $3.5$. How many integer values of $t$ satisfy this condition?\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "Here's how to solve the problem step-by-step:\n**1. Set up inequalities:**\n* We know that the square root of *t* is greater than 2:  \u221at > 2\n* We know that the square root of *t* is less than 3.5: \u221at < 3.5\n**2. Solve for *t* in each inequality:**\n* Square both sides of the first inequality: (\u221at)\u00b2 > 2\u00b2  => t > 4\n* Square both sides of the second inequality: (\u221at)\u00b2 < 3.5\u00b2 => t < 12.25\n**3. Find the integers within the range:**\nWe know that *t* must be greater than 4 and less than 12.25.  The integers within this range are:\n* 5\n* 6\n* 7\n* 8\n* 9\n* 10\n* 11\n* 12\n**4. Count the integers:**\nThere are **8** integer values of *t* that satisfy the condition. \n",
+        "Here's how to solve the problem step-by-step:\n**1. Set up inequalities:**\n* We are given that the square root of *t* is greater than 2:  \u221at > 2\n* We are also given that the square root of *t* is less than 3.5: \u221at < 3.5\n**2. Solve for *t* in each inequality:**\n*  Square both sides of the first inequality: (\u221at)\u00b2 > 2\u00b2  =>  t > 4\n* Square both sides of the second inequality: (\u221at)\u00b2 < 3.5\u00b2  => t < 12.25\n**3. Combine the inequalities:**\nWe now know that *t* must be greater than 4 and less than 12.25:  4 < t < 12.25\n**4. Count the integer values:**\nThe integers that satisfy this condition are 5, 6, 7, 8, 9, 10, 11, and 12.\n**Answer:** There are **8** integer values of *t* that satisfy the given condition. \n",
+        "Here's how to solve the problem step-by-step:\n* **Understanding the inequality:** The problem states that  2 < \u221at < 3.5. This means the square root of *t* is between 2 and 3.5.\n* **Squaring all parts:** To get rid of the square root, we square all parts of the inequality: \n   2\u00b2 < (\u221at)\u00b2 < 3.5\u00b2 \n   4 < t < 12.25\n* **Finding integer values:** The inequality now tells us that *t* is greater than 4 and less than 12.25. The integers that satisfy this condition are 5, 6, 7, 8, 9, 10, 11, and 12.\n* **Counting the integers:** There are **8** integer values of *t* that satisfy the given condition. \n",
+        "Here's how we can solve this step-by-step:\n1. **Translate the words into inequalities:**\n   * \"The square root of *t* is greater than 2\" translates to  \u221at > 2\n   * \"The square root of *t* is less than 3.5\" translates to \u221at < 3.5\n2. **Solve for *t* in each inequality:**\n   * Square both sides of the first inequality: (\u221at)\u00b2 > 2\u00b2  which gives us t > 4\n   * Square both sides of the second inequality: (\u221at)\u00b2 < 3.5\u00b2 which gives us t < 12.25\n3. **Combine the inequalities:** \n   We now know that 4 < t < 12.25\n4. **Identify the integers:**\n   The integers between 4 and 12.25 are 5, 6, 7, 8, 9, 10, 11, and 12.\n**Answer:** There are **8** integer values of *t* that satisfy the condition. \n",
+        "Here's how to solve the problem:\n**1. Understand the inequality:**\n* The problem states that the square root of *t* is between 2 and 3.5:  2 < \u221at < 3.5\n**2. Square all parts of the inequality:**\n* To get rid of the square root, square all three parts of the inequality:\n   2\u00b2 < (\u221at)\u00b2 < 3.5\u00b2\n   4 < t < 12.25\n**3. Identify integers:**\n* The inequality tells us that *t* must be greater than 4 and less than 12.25.  The integers that satisfy this are: 5, 6, 7, 8, 9, 10, 11, and 12.\n**4. Count the integers:**\n* There are **8** integer values of *t* that satisfy the given condition. \n"
+    ],
+    "pred_answers": "8",
+    "final_pred_answer": [
+        "8",
+        "8",
+        "8",
+        "8",
+        "8"
+    ],
+    "ground_truth": "8"
+}

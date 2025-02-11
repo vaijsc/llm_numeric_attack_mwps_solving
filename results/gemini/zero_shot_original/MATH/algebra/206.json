@@ -1,0 +1,23 @@
+{
+    "problem": "Evaluate $(-125)^{4/3}$.",
+    "level": "Level 2",
+    "type": "Algebra",
+    "solution": "We have  \\[(-125)^{4/3} = ((-5)^3)^{4/3} = (-5)^{3\\cdot (4/3)} = (-5)^4 = \\boxed{625}.\\]",
+    "prompt": "### Instruction: Evaluate $(-125)^{4/3}$.\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "Here's how to evaluate $(-125)^{4/3}$ step-by-step:\n**Understanding Fractional Exponents**\n* **The numerator of the exponent (4) indicates the power.** We'll raise the base (-125) to the 4th power.\n* **The denominator of the exponent (3) indicates the root.** We'll take the cube root of the result.\n**Calculation**\n1. **Cube root:**  Find the cube root of -125. Since -5 x -5 x -5 = -125, the cube root of -125 is -5.\n2. **Fourth power:** Raise the result (-5) to the fourth power: (-5)^4 = 625.\n**Therefore,  (-125)^(4/3) = 625** \n",
+        "Here's how to evaluate $(-125)^{4/3}$ step-by-step:\n**Understanding Fractional Exponents**\n* **Fractional exponents represent roots and powers:** The numerator of the fraction indicates the power, and the denominator indicates the root. So,  (a)^(m/n) is the same as the nth root of a raised to the power of m:  \u221a[n](a^m).\n**Applying the Concepts**\n1. **Cube Root:** The denominator of our exponent is 3, so we need to find the cube root of -125.  The cube root of -125 is -5 because (-5) * (-5) * (-5) = -125.\n2. **Fourth Power:** The numerator of our exponent is 4, so we need to raise the result from step 1 (which is -5) to the power of 4: (-5)^4 = 625.\n**Therefore,  (-125)^(4/3) = 625** \n",
+        "Here's how to evaluate $(-125)^{4/3}$ step-by-step:\n**1. Understand Fractional Exponents**\nA fractional exponent like 4/3 represents both a root and a power:\n* **The denominator (3):**  Indicates the type of root to take (in this case, a cube root).\n* **The numerator (4):** Indicates the power to raise the result to.\n**2. Calculate the Cube Root**\n* Find the cube root of -125:  \u221b(-125) = -5  (Since (-5) x (-5) x (-5) = -125)\n**3. Raise to the Power**\n* Now raise the result (-5) to the power of 4:  (-5)\u2074 = 625\n**Therefore, (-125)\u2074/\u00b3 = 625** \n",
+        "Here's how to evaluate  (-125)^(4/3) step-by-step:\n**1. Understand Fractional Exponents:**\n* A fractional exponent like 4/3 represents both a root and a power. \n* The denominator (3) indicates the type of root to take (in this case, a cube root).\n* The numerator (4) indicates the power to raise the result to.\n**2. Calculate the Cube Root:**\n* The cube root of -125 is -5 because (-5) * (-5) * (-5) = -125\n**3. Raise to the Power:**\n* Now, raise -5 to the power of 4:  (-5)^4 = (-5) * (-5) * (-5) * (-5) = 625\n**Therefore, (-125)^(4/3) = 625** \n",
+        "Here's how to evaluate $(-125)^{4/3}$ step-by-step:\n**1. Understand Fractional Exponents:**\n* A fractional exponent like 4/3 represents both a root and a power. The denominator (3) indicates the type of root to take (cube root in this case), and the numerator (4) indicates the power to raise the result to.\n**2. Calculate the Cube Root:**\n* The cube root of -125 is -5, since (-5) * (-5) * (-5) = -125.\n**3. Raise to the Power:**\n* Now, raise -5 to the power of 4:  (-5)\u2074 = (-5) * (-5) * (-5) * (-5) = 625.\n**Therefore, (-125)\u2074/\u00b3 = 625** \n"
+    ],
+    "pred_answers": "625",
+    "final_pred_answer": [
+        "625",
+        "625",
+        "625",
+        "625",
+        "625"
+    ],
+    "ground_truth": "625"
+}

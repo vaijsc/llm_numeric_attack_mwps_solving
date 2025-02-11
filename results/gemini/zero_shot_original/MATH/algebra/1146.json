@@ -1,0 +1,23 @@
+{
+    "problem": "Jo has given Aiden at least one toy car every birthday. The number of cars has corresponded to Aiden's age (one car for his first birthday, two cars for his second birthday, and so on). After receiving the cars for his 12th birthday, how many total toy cars will Aiden have received from Jo?",
+    "level": "Level 1",
+    "type": "Algebra",
+    "solution": "After his 12th birthday, Aiden has received $1+2+\\cdots+12$ cars.  This sum is equal to $1 + 2 + \\dots + 12 = 12 \\cdot 13/2 = \\boxed{78}$.",
+    "prompt": "### Instruction: Jo has given Aiden at least one toy car every birthday. The number of cars has corresponded to Aiden's age (one car for his first birthday, two cars for his second birthday, and so on). After receiving the cars for his 12th birthday, how many total toy cars will Aiden have received from Jo?\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "Here's how to solve this step-by-step:\n* **Aiden received 1 car for his first birthday, 2 cars for his second, and so on.**  This means he follows a pattern of adding one more car each year.\n* **We need to find the total number of cars he has after his 12th birthday.** This means we need to sum the number of cars he received each year from 1 to 12.\n**There's a handy formula for this:**\nThe sum of consecutive numbers from 1 to n is  n * (n + 1) / 2\n**Let's apply it:**\n* n = 12 (Aiden's age)\n* Total cars = 12 * (12 + 1) / 2\n* Total cars = 12 * 13 / 2\n* Total cars = 78\n**Therefore, Aiden will have received a total of 78 toy cars from Jo.** \n",
+        "Here's how to solve this step by step:\n* **Years:** Aiden has received cars for 12 birthdays.\n* **Cars per year:** Each year, he receives a number of cars equal to his age. \n* **Total cars:** To find the total, we need the sum of numbers from 1 to 12.\nThere's a formula for this:  The sum of numbers from 1 to n is (n * (n + 1)) / 2\n* **Applying the formula:**  (12 * (12 + 1)) / 2 = (12 * 13) / 2 = 156 / 2 = 78\n**Answer:** Aiden will have received a total of 78 toy cars from Jo. \n",
+        "Here's how to solve this step-by-step:\n* **Years:** Aiden has received cars for 12 years (from his 1st to his 12th birthday).\n* **Cars each year:** Each year, he gets a number of cars equal to his age. \n* **Total cars:** To find the total, we need to add up the number of cars he received each year: 1 + 2 + 3 + 4 + 5 + 6 + 7 + 8 + 9 + 10 + 11 + 12\n**There's a shortcut!** The sum of numbers from 1 to n is equal to n*(n+1)/2.  In this case, n=12.\n* **Total cars:** 12 * (12 + 1) / 2 = 12 * 13 / 2 = 78\n**Answer:** Aiden will have received a total of 78 toy cars from Jo. \n",
+        "Here's how we can solve this step-by-step:\n* **Aiden received 1 car for his 1st birthday, 2 cars for his 2nd, and so on.** This means he follows a pattern of adding one more car each year.\n* **To find the total number of cars, we need to add up the number of cars he received each year from age 1 to age 12.** This is the same as finding the sum of the numbers from 1 to 12.\n* **There's a handy formula to calculate the sum of consecutive numbers:**  Sum = (n * (n + 1)) / 2, where 'n' is the last number in the sequence.\n* **In this case, n = 12.** So, the sum = (12 * (12 + 1)) / 2 = (12 * 13) / 2 = 78.\n**Therefore, Aiden will have received a total of 78 toy cars from Jo.** \n",
+        "Here's how to solve this step by step:\n* **Years:** Aiden received cars for 12 birthdays.\n* **Cars per year:** Each year, he received a number of cars equal to his age.\n* **Total cars:**  To find the total, we need to add the number of cars from each birthday. This is the same as finding the sum of numbers from 1 to 12.\n**Formula for the sum of consecutive numbers:** \nThe sum of consecutive numbers from 1 to 'n' is (n * (n + 1)) / 2\n**Applying the formula:**\n* n = 12 (number of birthdays)\n* Total cars = (12 * (12 + 1)) / 2\n* Total cars = (12 * 13) / 2\n* Total cars = 156 / 2\n* Total cars = 78\n**Answer:** Aiden will have received a total of 78 toy cars from Jo. \n"
+    ],
+    "pred_answers": "78",
+    "final_pred_answer": [
+        "78",
+        "78",
+        "78",
+        "78",
+        "78"
+    ],
+    "ground_truth": "78"
+}

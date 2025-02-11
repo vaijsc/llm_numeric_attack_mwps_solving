@@ -1,0 +1,23 @@
+{
+    "problem": "What is the discriminant of $2x^2 - 8x + 15$?",
+    "level": "Level 3",
+    "type": "Algebra",
+    "solution": "We simply plug into $b^2 - 4ac = (-8)^2 - 4(2)(15) = 64 - 120 = \\boxed{-56},$ and that is our answer.",
+    "prompt": "### Instruction: What is the discriminant of $2x^2 - 8x + 15$?\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "To find the discriminant of the quadratic equation \\( ax^2 + bx + c = 0 \\), we use the formula:\n\\[\nD = b^2 - 4ac\n\\]\nIn the given quadratic \\( 2x^2 - 8x + 15 \\), we can identify the coefficients as follows:\n- \\( a = 2 \\)\n- \\( b = -8 \\)\n- \\( c = 15 \\)\nNow, we will substitute these values into the discriminant formula:\n1. Calculate \\( b^2 \\):\n   \\[\n   b^2 = (-8)^2 = 64\n   \\]\n2. Calculate \\( 4ac \\):\n   \\[\n   4ac = 4 \\cdot 2 \\cdot 15 = 120\n   \\]\n3. Now, plug these results into the equation for the discriminant:\n   \\[\n   D = b^2 - 4ac = 64 - 120\n   \\]\n4. Simplify the expression:\n   \\[\n   D = 64 - 120 = -56\n   \\]\nThus, the discriminant of the quadratic \\( 2x^2 - 8x + 15 \\) is \n\\[\n\\boxed{-56}\n\\]",
+        "To find the discriminant of the quadratic equation \\( ax^2 + bx + c \\), we use the formula for the discriminant given by:\n\\[\nD = b^2 - 4ac\n\\]\nFor the quadratic \\( 2x^2 - 8x + 15 \\), we can identify the coefficients as follows:\n- \\( a = 2 \\)\n- \\( b = -8 \\)\n- \\( c = 15 \\)\nNow, we can substitute these values into the discriminant formula.\n1. Calculate \\( b^2 \\):\n   \\[\n   b^2 = (-8)^2 = 64\n   \\]\n2. Calculate \\( 4ac \\):\n   \\[\n   4ac = 4 \\times 2 \\times 15 = 120\n   \\]\n3. Now, plug these values into the discriminant formula:\n   \\[\n   D = b^2 - 4ac = 64 - 120 = -56\n   \\]\nThus, the discriminant of the quadratic \\( 2x^2 - 8x + 15 \\) is \n\\[\n\\boxed{-56}\n\\]",
+        "To find the discriminant of the quadratic equation \\(2x^2 - 8x + 15\\), we can use the formula for the discriminant, which is given by:\n\\[\nD = b^2 - 4ac\n\\]\nIn this quadratic equation, the coefficients can be identified as:\n- \\(a = 2\\)\n- \\(b = -8\\)\n- \\(c = 15\\)\nSubstituting these values into the discriminant formula, we get:\n\\[\nD = (-8)^2 - 4 \\cdot 2 \\cdot 15\n\\]\nCalculating \\((-8)^2\\):\n\\[\n(-8)^2 = 64\n\\]\nNow calculating \\(4 \\cdot 2 \\cdot 15\\):\n\\[\n4 \\cdot 2 = 8\n\\]\n\\[\n8 \\cdot 15 = 120\n\\]\nNow substituting these results back into our expression for \\(D\\):\n\\[\nD = 64 - 120\n\\]\nCalculating \\(64 - 120\\):\n\\[\n64 - 120 = -56\n\\]\nTherefore, the discriminant of the quadratic equation \\(2x^2 - 8x + 15\\) is:\n\\[\n\\boxed{-56}\n\\]",
+        "To find the discriminant of the quadratic equation \\( ax^2 + bx + c = 0 \\), we can use the formula for the discriminant, which is given by:\n\\[\nD = b^2 - 4ac\n\\]\nIn our case, the quadratic equation is:\n\\[\n2x^2 - 8x + 15\n\\]\nFrom this equation, we can identify the coefficients:\n- \\( a = 2 \\)\n- \\( b = -8 \\)\n- \\( c = 15 \\)\nNow, we can substitute these values into the discriminant formula.\nFirst, we calculate \\( b^2 \\):\n\\[\nb^2 = (-8)^2 = 64\n\\]\nNext, we calculate \\( 4ac \\):\n\\[\n4ac = 4 \\cdot 2 \\cdot 15 = 120\n\\]\nNow we can find the discriminant \\( D \\):\n\\[\nD = b^2 - 4ac = 64 - 120\n\\]\nCalculating this gives:\n\\[\nD = 64 - 120 = -56\n\\]\nThus, the discriminant of the quadratic equation \\( 2x^2 - 8x + 15 \\) is \n\\[\n\\boxed{-56}\n\\]",
+        "To find the discriminant of the quadratic equation \\( ax^2 + bx + c \\), we use the formula:\n\\[\nD = b^2 - 4ac\n\\]\nwhere \\( a \\), \\( b \\), and \\( c \\) are the coefficients of the quadratic equation.\nFor the equation \\( 2x^2 - 8x + 15 \\):\n- The coefficient \\( a = 2 \\)\n- The coefficient \\( b = -8 \\)\n- The coefficient \\( c = 15 \\)\nNow we can substitute these values into the discriminant formula:\n\\[\nD = (-8)^2 - 4 \\cdot 2 \\cdot 15\n\\]\nCalculating \\( (-8)^2 \\):\n\\[\n(-8)^2 = 64\n\\]\nNext, calculate \\( 4 \\cdot 2 \\cdot 15 \\):\n\\[\n4 \\cdot 2 = 8\n\\]\n\\[\n8 \\cdot 15 = 120\n\\]\nNow we can substitute these results back into the discriminant formula:\n\\[\nD = 64 - 120\n\\]\nSubtracting gives:\n\\[\nD = -56\n\\]\nThus, the discriminant of the quadratic equation \\( 2x^2 - 8x + 15 \\) is \n\\[\n\\boxed{-56}\n\\]"
+    ],
+    "pred_answers": "-56",
+    "final_pred_answer": [
+        "-56",
+        "-56",
+        "-56",
+        "-56",
+        "-56"
+    ],
+    "ground_truth": "-56"
+}

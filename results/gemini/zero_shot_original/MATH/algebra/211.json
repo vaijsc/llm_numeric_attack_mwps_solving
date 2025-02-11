@@ -1,0 +1,23 @@
+{
+    "problem": "If $2x - 9y = 14$ and $6x = 42 +y$, what is the value of the product $xy$?",
+    "level": "Level 2",
+    "type": "Algebra",
+    "solution": "Multiplying the first equation by 3, we find that $6x - 27y = 42$, or $6x = 42 + 27y$.  But also $6x = 42 + y$.  Thus we see immediately that $27y = y$, or $y=0$.  Therefore $xy = \\boxed{0}$.",
+    "prompt": "### Instruction: If $2x - 9y = 14$ and $6x = 42 +y$, what is the value of the product $xy$?\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "Here's how to solve the problem step-by-step:\n**1. Solve for one variable in terms of the other:**\n* From the second equation,  $6x = 42 + y$, we can solve for  *y*: \n   *  $y = 6x - 42$ \n**2. Substitute to eliminate one variable:**\n* Substitute this expression for *y* into the first equation: \n   *  $2x - 9(6x - 42) = 14$\n**3. Simplify and solve for *x*: **\n* Expand the equation:  $2x - 54x + 378 = 14$\n* Combine like terms:  $-52x = -364$\n* Divide both sides by -52:  $x = 7$\n**4. Substitute to find *y*:**\n* Substitute the value of *x* back into either of the original equations. Let's use the second equation:\n   *  $6(7) = 42 + y$\n   *  $42 = 42 + y$\n   *  $y = 0$\n**5. Calculate the product *xy*: **\n* Now that we know *x* = 7 and *y* = 0, the product *xy* is:\n   *  $xy = (7)(0) = 0$\n**Therefore, the value of the product *xy* is 0.** \n",
+        "Here's how to solve the problem step-by-step:\n**1. Solve for one variable in terms of the other.**\n* From the second equation,  $6x = 42 + y$, we can solve for  'y':\n   *  $y = 6x - 42$\n**2. Substitute the expression for the variable into the other equation.**\n* Substitute the expression for 'y' ($6x-42$) into the first equation:\n   *  $2x - 9(6x - 42) = 14$\n**3. Solve for 'x'.**\n* Simplify the equation:\n    *  $2x - 54x + 378 = 14$\n    *  $-52x = -364$\n    *  $x = 7$\n**4. Substitute the value of 'x' to find 'y'.**\n*  Substitute  $x = 7$ into the equation  $y = 6x - 42$:\n   *  $y = 6(7) - 42$\n   *  $y = 42 - 42$\n   *  $y = 0$\n**5. Calculate the product 'xy'.**\n*  $xy = (7)(0) = 0$\n**Therefore, the value of the product  xy is 0.** \n",
+        "Here's how to solve the problem step-by-step:\n**1. Solve for one variable in terms of the other.**\n   Let's solve the second equation for *x*:\n   *  6x = 42 + y\n   *  x = (42 + y) / 6 \n   *  x = 7 + (1/6)y\n**2. Substitute the expression for *x* into the first equation.**\n   * 2 * (7 + (1/6)y) - 9y = 14\n   * 14 + (1/3)y - 9y = 14\n**3. Simplify and solve for *y*.**\n   * -(26/3)y = 0\n   * y = 0\n**4. Substitute the value of *y* back into either of the original equations to find *x*.**\n   Let's use the second equation:\n   * 6x = 42 + 0\n   * 6x = 42\n   * x = 7\n**5. Calculate the product *xy*.**\n   * xy = 7 * 0 = 0\n**Therefore, the value of the product *xy* is 0.** \n",
+        "Here's how to solve the problem step-by-step:\n**1. Solve for one variable in terms of the other.**\n   Let's solve the second equation for *x*:\n   *  6x = 42 + y\n   *  x = (42 + y) / 6\n   *  x = 7 + (y/6)\n**2. Substitute to eliminate one variable.**\n   Substitute this expression for *x* into the first equation:\n   * 2 * (7 + (y/6)) - 9y = 14\n**3. Simplify and solve for *y*.**\n   * 14 + (y/3) - 9y = 14\n   * (y/3) - 9y = 0\n   * y - 27y = 0\n   * -26y = 0\n   * y = 0\n**4. Substitute to find *x*.**\n   Now that we know *y* = 0, we can substitute it back into either of the original equations. Let's use the second equation:\n   * 6x = 42 + 0\n   * 6x = 42\n   * x = 7\n**5. Calculate the product *xy*.**\n   * xy = (7)(0) = 0\n**Therefore, the value of the product *xy* is 0.** \n",
+        "Here's how to solve the problem step-by-step:\n**1. Solve for one variable in terms of the other**\n*  From the second equation,  $6x = 42 + y$, we can solve for *x*:\n   *  $x = (42 + y) / 6$\n   *  $x = 7 + (y/6)$\n**2. Substitute to eliminate one variable**\n* Substitute the expression for *x* from step 1 into the first equation:\n   *  2 * (7 + (y/6)) - 9y = 14\n**3. Simplify and solve for the remaining variable**\n*  14 + (y/3) - 9y = 14\n*  (y/3) - 9y = 0\n*  y - 27y = 0\n*  -26y = 0\n*  y = 0\n**4. Substitute to find the other variable**\n* Substitute the value of *y* back into either of the original equations. Let's use the second equation:\n   * 6x = 42 + 0\n   * 6x = 42\n   * x = 7\n**5. Calculate the product**\n* Now that we know x = 7 and y = 0, we can find the product:\n   * xy = 7 * 0 = 0\n**Therefore, the value of the product xy is 0.** \n"
+    ],
+    "pred_answers": "0",
+    "final_pred_answer": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+    ],
+    "ground_truth": "0"
+}

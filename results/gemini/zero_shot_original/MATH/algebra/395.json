@@ -1,0 +1,23 @@
+{
+    "problem": "If $\\frac{\\sqrt[3]{2x-4}}{\\sqrt[3]{x+4}} = 2$, then find $x$.",
+    "level": "Level 4",
+    "type": "Algebra",
+    "solution": "First, multiply both sides by the denominator to obtain $\\sqrt[3]{2x-4} = 2\\sqrt[3]{x+4}$. Cubing both sides, $$2x-4 = 8 \\cdot (x+4) = 8x + 32.$$Thus, $6x = -36 \\Longrightarrow x = \\boxed{-6}$.",
+    "prompt": "### Instruction: If $\\frac{\\sqrt[3]{2x-4}}{\\sqrt[3]{x+4}} = 2$, then find $x$.\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "Here's how to solve the problem step-by-step:\n1. **Cube both sides:** To get rid of the cube roots, cube both sides of the equation: \n   \n   ```\n   [ (\u221a[3]{2x-4} / \u221a[3]{x+4} ) ]\u00b3 = 2\u00b3 \n   ```\n2. **Simplify:** This simplifies to:\n   ```\n   (2x - 4) / (x + 4) = 8\n   ```\n3. **Multiply both sides by (x + 4):**  \n   ```\n   2x - 4 = 8(x + 4) \n   ```\n4. **Distribute:**\n   ```\n   2x - 4 = 8x + 32\n   ```\n5. **Solve for x:** \n   * Subtract 2x from both sides:  -4 = 6x + 32\n   * Subtract 32 from both sides: -36 = 6x\n   * Divide both sides by 6: x = -6\n**Therefore, x = -6** \n",
+        "Here's how to solve the equation step-by-step:\n1. **Cube both sides:**  To get rid of the cube roots, cube both sides of the equation: \n   \n   ```\n   (\u221a[3]{2x-4} / \u221a[3]{x+4})^3 = 2^3\n   ```\n2. **Simplify:**  The cube of a fraction is the cube of the numerator divided by the cube of the denominator:\n   ```\n   (2x-4) / (x+4) = 8\n   ```\n3. **Multiply both sides by (x+4):**\n   ```\n   2x - 4 = 8(x + 4)\n   ```\n4. **Distribute:**\n   ```\n   2x - 4 = 8x + 32\n   ```\n5. **Solve for x:** \n   * Subtract 2x from both sides:  -4 = 6x + 32\n   * Subtract 32 from both sides: -36 = 6x\n   * Divide both sides by 6: x = -6\n**Therefore, x = -6** \n",
+        "Here's how to solve the equation step-by-step:\n1. **Cube both sides:** To get rid of the cube roots, cube both sides of the equation:\n   \n   ```\n   (\u221a[3]{2x-4} / \u221a[3]{x+4})^3 = 2^3\n   ```\n2. **Simplify:**  The cube of a quotient is the quotient of the cubes. This simplifies the equation:\n   ```\n   (2x-4) / (x+4) = 8\n   ```\n3. **Multiply both sides by (x+4):**  Get rid of the denominator:\n   ```\n   2x - 4 = 8(x + 4)\n   ```\n4. **Distribute and solve for x:** \n   ```\n   2x - 4 = 8x + 32\n   -36 = 6x\n   x = -6\n   ```\n**Therefore, the solution to the equation is x = -6.** \n",
+        "Here's how to solve the problem step-by-step:\n1. **Simplify the equation:** Since we have a cube root divided by a cube root, we can combine them under a single cube root:\n   \n   ```\n   \u221a[3]{(2x - 4) / (x + 4)} = 2 \n   ```\n2. **Cube both sides:** To get rid of the cube root, cube both sides of the equation:\n   ```\n   (2x - 4) / (x + 4) = 2^3 = 8\n   ```\n3. **Solve for x:** Now we have a simple equation to solve:\n   * Multiply both sides by (x + 4): \n      2x - 4 = 8(x + 4)\n   * Distribute the 8:\n      2x - 4 = 8x + 32\n   * Subtract 2x from both sides:\n      -4 = 6x + 32\n   * Subtract 32 from both sides:\n      -36 = 6x\n   * Divide both sides by 6:\n      x = -6\n**Therefore, the solution is x = -6.** \n",
+        "Here's how to solve the equation step-by-step:\n1. **Cube both sides:** To eliminate the cube roots, cube both sides of the equation:\n   \n   ```\n   (\u221a[3]{2x-4} / \u221a[3]{x+4})^3 = 2^3\n   ```\n2. **Simplify:**  The cube of a fraction is the cube of the numerator divided by the cube of the denominator. \n   ```\n   (2x-4) / (x+4) = 8\n   ```\n3. **Multiply both sides by (x+4):**\n   ```\n   2x - 4 = 8(x + 4)\n   ```\n4. **Distribute:**\n   ```\n   2x - 4 = 8x + 32\n   ```\n5. **Solve for x:** Combine like terms and isolate x.\n   ```\n   -36 = 6x\n   x = -6\n   ```\n**Therefore, the solution to the equation is x = -6.** \n"
+    ],
+    "pred_answers": "-6",
+    "final_pred_answer": [
+        "-6",
+        "-6",
+        "-6",
+        "-6",
+        "-6"
+    ],
+    "ground_truth": "-6"
+}

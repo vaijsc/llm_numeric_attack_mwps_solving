@@ -1,0 +1,23 @@
+{
+    "problem": "Sarah wants to order a pizza with 2 different toppings. She has 9 different toppings to choose from. How many different pizzas could she order?",
+    "level": "Level 1",
+    "type": "Counting & Probability",
+    "solution": "There are 9 choices of toppings, and we need to choose 2 distinct toppings. This is represented by the number of 2-element subsets of a 9-element set. We use the binomial coefficient ${9 \\choose 2} = \\boxed{36}$ to compute this.",
+    "prompt": "### Instruction: Sarah wants to order a pizza with 2 different toppings. She has 9 different toppings to choose from. How many different pizzas could she order?\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "Here's how to solve this problem:\n* **Step 1: Choosing the first topping** \n   Sarah has 9 different toppings to choose from for her first topping.\n* **Step 2: Choosing the second topping**\n   After choosing her first topping, she only has 8 toppings left to choose from for her second topping.\n* **Step 3: Finding the total combinations**\n   To find the total number of different pizzas, we multiply the number of choices for each topping: 9 toppings * 8 toppings = 72 different pizzas.\n**Answer:** Sarah could order 72 different pizzas. \n",
+        "Here's how to solve this problem:\n* **Step 1: Choosing the first topping** Sarah has 9 different topping options for her first choice.\n* **Step 2: Choosing the second topping** After choosing her first topping, she only has 8 toppings left to choose from.\n* **Step 3: Finding the total combinations** To find the total number of pizza combinations, we multiply the number of options for each step: 9 toppings * 8 toppings = 72 different pizzas.\n**Therefore, Sarah could order 72 different pizzas.** \n",
+        "Here's how to solve the problem:\n* **Step 1: Choosing the first topping** Sarah has 9 choices for her first topping.\n* **Step 2: Choosing the second topping** After choosing her first topping, she has 8 toppings left to choose from.\n* **Step 3:  Calculate the total combinations** To get the total number of pizza combinations, we multiply the number of choices for each step: 9 * 8 = 72\n**Answer:** Sarah could order 72 different pizzas. \n",
+        "Here's how to solve this problem:\n* **Step 1: Choosing the first topping.** Sarah has 9 different options for her first topping.\n* **Step 2: Choosing the second topping.**  After choosing the first topping, she only has 8 toppings left to choose from. \n* **Step 3:  Finding the total combinations.** To find the total number of different pizzas, we multiply the number of choices for each topping: 9 * 8 = 72.\n**Answer:** Sarah could order 72 different pizzas. \n",
+        "Here's how to solve this problem step-by-step:\n* **Step 1: Choosing the first topping** Sarah has 9 options for her first topping.\n* **Step 2: Choosing the second topping** After choosing her first topping, she only has 8 toppings left to choose from for her second topping.\n* **Step 3:  Calculating the total possibilities**  To find the total number of different pizzas, we multiply the number of options for each step: 9 toppings * 8 toppings = 72 different pizzas.\n**Answer:** Sarah could order 72 different pizzas. \n"
+    ],
+    "pred_answers": "72",
+    "final_pred_answer": [
+        "72",
+        "72",
+        "72",
+        "72",
+        "72"
+    ],
+    "ground_truth": "36"
+}

@@ -1,0 +1,23 @@
+{
+    "problem": "Simplify $(2-2i)(5+5i)$, where $i^2 = -1.$",
+    "level": "Level 3",
+    "type": "Algebra",
+    "solution": "$(2-2i)(5+5i) = 2(5) + 2(5i) -2i(5) -2i(5i) = 10+10i-10i +10 = \\boxed{20}$.",
+    "prompt": "### Instruction: Simplify $(2-2i)(5+5i)$, where $i^2 = -1.$\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "To simplify the expression \\((2-2i)(5+5i)\\), we will use the distributive property (also known as the FOIL method for binomials). \nWe start by multiplying these two complex numbers:\n\\[\n(2-2i)(5+5i)\n\\]\n**Step 1: Multiply the first terms**\n\\[\n2 \\cdot 5 = 10\n\\]\n**Step 2: Multiply the outer terms**\n\\[\n2 \\cdot 5i = 10i\n\\]\n**Step 3: Multiply the inner terms**\n\\[\n-2i \\cdot 5 = -10i\n\\]\n**Step 4: Multiply the last terms**\n\\[\n-2i \\cdot 5i = -10i^2\n\\]\nSince \\(i^2 = -1\\), we can substitute this into our expression:\n\\[\n-10i^2 = -10(-1) = 10\n\\]\n**Combining all the products**, we get:\n\\[\n10 + 10i - 10i + 10\n\\]\nNow, we can simplify this expression. The \\(10i\\) and \\(-10i\\) cancel each other out:\n\\[\n10 + 10 = 20\n\\]\nThus, the simplified result of the product \\((2-2i)(5+5i)\\) is \n\\[\n\\boxed{20}\n\\]",
+        "To simplify \\((2-2i)(5+5i)\\), we will use the distributive property (also known as the FOIL method for binomials) to multiply the two complex numbers.\n1. Start by distributing each term in the first complex number to each term in the second complex number:\n   \\[\n   (2-2i)(5+5i) = 2 \\cdot 5 + 2 \\cdot 5i - 2i \\cdot 5 - 2i \\cdot 5i\n   \\]\n2. Now perform the multiplications:\n   - The first term: \\(2 \\cdot 5 = 10\\)\n   - The second term: \\(2 \\cdot 5i = 10i\\)\n   - The third term: \\(-2i \\cdot 5 = -10i\\)\n   - The fourth term: \\(-2i \\cdot 5i = -10i^2\\)\n3. Recall that \\(i^2 = -1\\). Therefore, we can rewrite \\(-10i^2\\):\n   \\[\n   -10i^2 = -10(-1) = 10\n   \\]\n4. Now, combine all the terms:\n   \\[\n   10 + 10i - 10i + 10\n   \\]\n5. Notice that \\(10i\\) and \\(-10i\\) cancel each other out:\n   \\[\n   10 + 10 = 20\n   \\]\nThus, the simplified expression is:\n\\[\n\\boxed{20}\n\\]",
+        "To simplify the expression \\((2-2i)(5+5i)\\), we can use the distributive property (also known as the FOIL method for binomials).\n1. **Distribute the terms**:\n   \\[\n   (2-2i)(5+5i) = 2 \\cdot 5 + 2 \\cdot 5i - 2i \\cdot 5 - 2i \\cdot 5i\n   \\]\n2. **Calculate each individual product**:\n   - \\(2 \\cdot 5 = 10\\)\n   - \\(2 \\cdot 5i = 10i\\)\n   - \\(-2i \\cdot 5 = -10i\\)\n   - \\(-2i \\cdot 5i = -10i^2\\)\n3. **Combine the like terms**:\n   \\[\n   10 + 10i - 10i - 10i^2\n   \\]\n   Notice that \\(10i - 10i = 0\\), so we simplify further:\n   \\[\n   10 - 10i^2\n   \\]\n4. **Substitute \\(i^2 = -1\\)**:\n   \\[\n   -10i^2 = -10(-1) = 10\n   \\]\n5. **Combine everything together**:\n   \\[\n   10 + 10 = 20\n   \\]\nThus, the simplified expression is:\n\\[\n\\boxed{20}\n\\]",
+        "To simplify the expression \\((2 - 2i)(5 + 5i)\\), we can use the distributive property (also known as the FOIL method for binomials).\nFirst, let's apply the distributive property:\n\\[\n(2 - 2i)(5 + 5i) = 2 \\cdot 5 + 2 \\cdot 5i - 2i \\cdot 5 - 2i \\cdot 5i\n\\]\nNow, we will calculate each term:\n1. \\(2 \\cdot 5 = 10\\)\n2. \\(2 \\cdot 5i = 10i\\)\n3. \\(-2i \\cdot 5 = -10i\\)\n4. \\(-2i \\cdot 5i = -10i^2\\)\nNext, we need to simplify the term \\(-10i^2\\). Since \\(i^2 = -1\\), we have:\n\\[\n-10i^2 = -10(-1) = 10\n\\]\nNow, substituting back into our expression, we have:\n\\[\n(2 - 2i)(5 + 5i) = 10 + 10i - 10i + 10\n\\]\nNotice that the \\(10i\\) and \\(-10i\\) cancel each other out:\n\\[\n10 + 10 = 20\n\\]\nThus, the simplified expression is:\n\\[\n\\boxed{20}\n\\]",
+        "To simplify the expression \\((2 - 2i)(5 + 5i)\\), we will use the distributive property (also known as the FOIL method for binomials).\nFirst, let's break this down step by step:\n1. **Multiply the first terms:**\n   \\[\n   2 \\times 5 = 10\n   \\]\n2. **Multiply the outer terms:**\n   \\[\n   2 \\times 5i = 10i\n   \\]\n3. **Multiply the inner terms:**\n   \\[\n   -2i \\times 5 = -10i\n   \\]\n4. **Multiply the last terms:**\n   \\[\n   -2i \\times 5i = -10i^2\n   \\]\n   Since \\(i^2 = -1\\), this becomes:\n   \\[\n   -10(-1) = 10\n   \\]\nNow we combine all these results:\n\\[\n10 + 10i - 10i + 10\n\\]\nNotice that \\(10i\\) and \\(-10i\\) cancel each other out:\n\\[\n10 + 10 = 20\n\\]\nThus, the simplified result of the expression \\((2 - 2i)(5 + 5i)\\) is:\n\\[\n\\boxed{20}\n\\]"
+    ],
+    "pred_answers": "20",
+    "final_pred_answer": [
+        "20",
+        "20",
+        "20",
+        "20",
+        "20"
+    ],
+    "ground_truth": "20"
+}

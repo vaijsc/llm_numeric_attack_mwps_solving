@@ -1,0 +1,23 @@
+{
+    "problem": "If $70 + m + n - 20 = 80$ and $m = 2n$, then what is the value of $n$?",
+    "level": "Level 1",
+    "type": "Algebra",
+    "solution": "Substituting $m=2n$ into the first equation gives $70 + 2n + n - 20 = 80$.  Simplifying the left side gives $3n +50 = 80$.  Subtracting 50 from both sides gives $3n = 30$, so $n = \\boxed{10}$.",
+    "prompt": "### Instruction: If $70 + m + n - 20 = 80$ and $m = 2n$, then what is the value of $n$?\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "Here's how to solve the problem step-by-step:\n1. **Simplify the first equation:**\n   * Combine the constants:  70 - 20 = 50\n   * The equation becomes: 50 + m + n = 80\n2. **Isolate m + n:**\n   * Subtract 50 from both sides: m + n = 30\n3. **Substitute the value of m:**\n   * We know m = 2n, so substitute that into the equation: 2n + n = 30\n4. **Combine like terms:**\n   * 3n = 30\n5. **Solve for n:**\n   * Divide both sides by 3: n = 10\n**Therefore, the value of n is 10.** \n",
+        "Here's how to solve the problem step-by-step:\n1. **Simplify the first equation:** \n   * Combine the constants: 70 - 20 = 50\n   * The equation becomes: 50 + m + n = 80\n2. **Isolate the 'm' and 'n' terms:**\n   * Subtract 50 from both sides: m + n = 30\n3. **Substitute the value of 'm' from the second equation:**\n   * We know m = 2n, so substitute 2n for 'm' in the equation: 2n + n = 30\n4. **Combine like terms:**\n   * 3n = 30\n5. **Solve for 'n':**\n   * Divide both sides by 3: n = 10\n**Therefore, the value of n is 10.** \n",
+        "Here's how to solve the problem step-by-step:\n**1. Simplify the first equation:**\n* Combine the constants:  70 - 20 = 50\n* The equation becomes:  50 + m + n = 80\n**2. Isolate the terms with 'm' and 'n':**\n* Subtract 50 from both sides:  m + n = 30\n**3. Substitute 'm' with '2n' (from the second equation):**\n*  2n + n = 30\n**4. Combine 'n' terms:**\n* 3n = 30\n**5. Solve for 'n':**\n* Divide both sides by 3:  n = 10\n**Therefore, the value of 'n' is 10.** \n",
+        "Here's how to solve the problem step-by-step:\n1. **Simplify the first equation:**\n   * Combine the constants: 70 - 20 = 50\n   * The equation becomes: 50 + m + n = 80\n2. **Isolate m + n:**\n   * Subtract 50 from both sides: m + n = 30\n3. **Substitute the value of m:**\n   * Since m = 2n, substitute 2n for m in the equation: 2n + n = 30\n4. **Solve for n:**\n   * Combine like terms: 3n = 30\n   * Divide both sides by 3: n = 10\n**Therefore, the value of n is 10.** \n",
+        "Here's how to solve the problem step-by-step:\n1. **Simplify the first equation:**\n   70 + m + n - 20 = 80\n   50 + m + n = 80\n2. **Isolate 'm + n':**\n   m + n = 80 - 50\n   m + n = 30\n3. **Substitute 'm = 2n' into the equation:**\n   2n + n = 30\n4. **Combine like terms:**\n   3n = 30\n5. **Solve for 'n':**\n   n = 30 / 3\n   n = 10\n**Therefore, the value of n is 10.** \n"
+    ],
+    "pred_answers": "10",
+    "final_pred_answer": [
+        "10",
+        "10",
+        "10",
+        "10",
+        "10"
+    ],
+    "ground_truth": "10"
+}

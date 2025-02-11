@@ -1,0 +1,23 @@
+{
+    "problem": "The weight of $A$ is $40\\%$ greater than the weight of $B$ but $30\\%$ less than the weight of $C$. What is the ratio of the weight of $B$ to the weight of $C$ expressed as a common fraction?",
+    "level": "Level 5",
+    "type": "Algebra",
+    "solution": "We have $A=\\frac{140}{100}B=\\frac{70}{100}C$, or $A=1.4B=.7C$. Now we can solve for the ratio of $B$ to $C$. $$\\frac{B}{C}=\\frac{.7}{1.4}=\\frac{1}{2}$$ The ratio is $\\boxed{\\frac12}$.",
+    "prompt": "### Instruction: The weight of $A$ is $40\\%$ greater than the weight of $B$ but $30\\%$ less than the weight of $C$. What is the ratio of the weight of $B$ to the weight of $C$ expressed as a common fraction?\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "Here's how to solve the problem step-by-step:\n**1. Set up variables:**\n* Let  'x' represent the weight of B.\n* A's weight is 40% greater than B, so A weighs 1.4x.\n* A's weight is 30% less than C, so A weighs 0.7C.\n**2. Create an equation:**\nSince A's weight is expressed in terms of both B and C, we can set the two expressions equal:\n1.4x = 0.7C\n**3. Solve for the ratio of B to C:**\n* Divide both sides of the equation by 0.7:\n   2x = C\n* Divide both sides by C:\n   2x/C = 1\n* Divide both sides by 2:\n   x/C = 1/2\n**4. Express as a common fraction:**\nThe ratio of B's weight (x) to C's weight (C) is **1/2**. \n",
+        "Let's break down the problem step by step:\n**1. Set up variables:**\n* Let  'B' represent the weight of object B.\n* Let 'C' represent the weight of object C.\n**2. Translate the given information into equations:**\n* \"The weight of A is 40% greater than the weight of B\": This means A = B + 0.4B = 1.4B\n* \"The weight of A is 30% less than the weight of C\": This means A = C - 0.3C = 0.7C\n**3.  Combine the equations to find the ratio of B to C:**\n* Since we have two expressions for A, we can set them equal to each other:  1.4B = 0.7C \n* To find the ratio of B to C, divide both sides of the equation by 0.7C: \n   * (1.4B) / (0.7C) = (0.7C) / (0.7C)\n   * This simplifies to 2B/C = 1\n**4. Express the ratio as a fraction:**\n*  To get the ratio of B to C, we want C in the denominator. Divide both sides by 2:\n   * (2B/C) / 2 = 1/2\n   *  This gives us B/C = 1/2\n**Answer:** The ratio of the weight of B to the weight of C is **1/2**. \n",
+        "Let's break down the problem step by step:\n**1. Express the given information as equations:**\n*  Let  'x' represent the weight of B.\n*  The weight of A is 40% greater than B, meaning A weighs 1.4x.\n* The weight of A is 30% less than C, meaning A weighs 0.7C.\n**2. Set up a relationship between B and C:**\nWe have two expressions for the weight of A: 1.4x and 0.7C.  Since they represent the same weight, we can set them equal:\n1.4x = 0.7C\n**3. Solve for the ratio of B to C:**\n* Divide both sides of the equation by 0.7: 2x = C\n* Now, divide both sides by C:  2x/C = 1\n* Finally, divide both sides by 2: x/C = 1/2\n**4. Express the ratio as a fraction:**\nThe ratio of the weight of B (x) to the weight of C (C) is **1/2**. \n",
+        "Here's how to solve the problem step-by-step:\n**1. Set up variables:**\n* Let  'B' represent the weight of object B.\n* Let 'C' represent the weight of object C.\n**2. Express the given information as equations:**\n* \"The weight of A is 40% greater than the weight of B\":  A = B + 0.4B = 1.4B\n* \"The weight of A is 30% less than the weight of C\": A = C - 0.3C = 0.7C\n**3.  Combine the equations to eliminate A:**\nSince both equations equal A, we can set them equal to each other:\n1.4B = 0.7C\n**4. Solve for the ratio B/C:**\n* Divide both sides by 0.7C: (1.4B)/(0.7C) = 1\n* Simplify: 2B/C = 1\n* Multiply both sides by C/2: B/C = 1/2\n**Answer:** The ratio of the weight of B to the weight of C is **1/2**. \n",
+        "Let's break down the problem step by step:\n**1. Define Variables:**\n* Let  'x' represent the weight of B.\n* Since A is 40% greater than B, its weight is 1.4x.\n* Since A is 30% less than C, its weight is 0.7C.\n**2. Set Up Equations:**\nWe now have two expressions for the weight of A:\n* A = 1.4x \n* A = 0.7C\n**3. Solve for the Ratio:**\nSince both expressions represent the weight of A, we can set them equal to each other:\n1.4x = 0.7C\nNow, let's solve for the ratio of B (x) to C:\n* Divide both sides of the equation by 0.7: 2x = C\n* Rearrange the equation to find the ratio of B to C: x/C = 1/2\n**4. Express as a Common Fraction:**\nThe ratio of the weight of B to the weight of C is **1/2**. \n"
+    ],
+    "pred_answers": "2",
+    "final_pred_answer": [
+        "2",
+        "1",
+        "2",
+        "1",
+        "2"
+    ],
+    "ground_truth": "12"
+}

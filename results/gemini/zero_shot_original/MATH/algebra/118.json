@@ -1,0 +1,23 @@
+{
+    "problem": "If $x + y = 7$ and $x - y = 9$, find the product of $x$ and $y$.",
+    "level": "Level 1",
+    "type": "Algebra",
+    "solution": "It seems easiest to first solve for $x$ and then for $y$. We can solve for $x$ by adding the two equations together, giving $2x = 16$, or $x = 8$. Plugging $x$ into the first equation gives $8 + y = 7$, so $y = -1$. So, $x\\cdot y = \\boxed{-8}$.",
+    "prompt": "### Instruction: If $x + y = 7$ and $x - y = 9$, find the product of $x$ and $y$.\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "Here's how to solve the problem step-by-step:\n**1.  Solve for x and y**\n* **Add the equations together:** \n   (x + y) + (x - y) = 7 + 9\n   2x = 16\n   x = 8\n* **Substitute x = 8 into either of the original equations to solve for y:**\n   8 + y = 7\n   y = -1\n**2. Calculate the product of x and y**\n* x * y = 8 * (-1) = -8\n**Therefore, the product of x and y is -8.** \n",
+        "Here's how to solve the problem step-by-step:\n**1. Elimination Method:**\n* Notice that the 'y' terms have opposite signs in the two equations.  This makes them perfect for elimination. \n* Add the two equations together:\n   (x + y) + (x - y) = 7 + 9\n* This simplifies to:\n   2x = 16\n* Divide both sides by 2:\n   x = 8\n**2. Substitution:**\n* Now that we know x = 8, substitute this value into either of the original equations. Let's use the first equation:\n   8 + y = 7\n* Subtract 8 from both sides:\n   y = -1\n**3. Find the Product:**\n* We have found x = 8 and y = -1.\n* The product of x and y is:\n   x * y = 8 * (-1) = -8\n**Therefore, the product of x and y is -8.** \n",
+        "Here's how to solve the problem step by step:\n1. **Solve for x and y:** \n   * Add the two equations together:\n      (x + y) + (x - y) = 7 + 9\n      2x = 16\n      x = 8\n   * Substitute the value of x (8) into either of the original equations to solve for y. Let's use the first equation:\n      8 + y = 7\n      y = -1\n2. **Calculate the product:**\n   * Now that we know x = 8 and y = -1, multiply them:\n      x * y = 8 * (-1) = -8\n**Therefore, the product of x and y is -8.** \n",
+        "Here's how to solve the problem step-by-step:\n**1. Elimination Method:**\n* Notice that the 'y' terms have opposite signs in the two equations. \n* Add the two equations together: \n   (x + y) + (x - y) = 7 + 9\n* This simplifies to:\n   2x = 16\n* Solve for x:\n   x = 8\n**2. Substitute to Find y:**\n* Substitute the value of x (8) into either of the original equations. Let's use the first equation:\n   8 + y = 7\n* Solve for y:\n   y = -1\n**3. Calculate the Product:**\n* Now that you know x = 8 and y = -1, find their product:\n   x * y = 8 * (-1) = -8\n**Therefore, the product of x and y is -8.** \n",
+        "Here's how to solve the problem step-by-step:\n**1. Eliminate one variable:**\n* Notice that if we add the two equations together, the 'y' terms will cancel out:\n   (x + y) + (x - y) = 7 + 9\n   2x = 16\n**2. Solve for x:**\n* Divide both sides by 2:\n   x = 8\n**3. Substitute to find y:**\n* Substitute the value of x (8) into either of the original equations. Let's use the first one:\n   8 + y = 7\n   y = 7 - 8\n   y = -1\n**4. Calculate the product:**\n* Now that we know x = 8 and y = -1, we can find the product:\n   x * y = 8 * (-1) = -8\n**Therefore, the product of x and y is -8.** \n"
+    ],
+    "pred_answers": "-8",
+    "final_pred_answer": [
+        "-8",
+        "-8",
+        "-8",
+        "-8",
+        "-8"
+    ],
+    "ground_truth": "-8"
+}

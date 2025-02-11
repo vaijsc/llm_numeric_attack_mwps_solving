@@ -1,0 +1,23 @@
+{
+    "problem": "At each basketball practice last week, Jenny made twice as many free throws as she made at the previous practice.  At her fifth practice she made 48 free throws.  How many free throws did she make at the first practice?",
+    "level": "Level 1",
+    "type": "Algebra",
+    "solution": "At Jenny's fourth practice she made $\\frac{1}{2}(48)=24$ free throws. At her third practice she made 12, at her second practice she made 6, and at her first practice she made $\\boxed{3}$.",
+    "prompt": "### Instruction: At each basketball practice last week, Jenny made twice as many free throws as she made at the previous practice.  At her fifth practice she made 48 free throws.  How many free throws did she make at the first practice?\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "Here's how we can solve this problem step-by-step:\n* **Practice 5:** Jenny made 48 free throws.\n* **Practice 4:** She made half as many at practice 4 as she did at practice 5, so she made 48 / 2 = 24 free throws.\n* **Practice 3:** She made half as many at practice 3 as she did at practice 4, so she made 24 / 2 = 12 free throws.\n* **Practice 2:** She made half as many at practice 2 as she did at practice 3, so she made 12 / 2 = 6 free throws.\n* **Practice 1:** She made half as many at practice 1 as she did at practice 2, so she made 6 / 2 = **3 free throws**.\n**Answer:** Jenny made 3 free throws at her first practice. \n",
+        "Here's how to solve this problem step-by-step:\n* **Practice 5:** Jenny made 48 free throws.\n* **Practice 4:** She made half as many at practice 4 as practice 5, so she made 48 / 2 = 24 free throws.\n* **Practice 3:** She made half as many at practice 3 as practice 4, so she made 24 / 2 = 12 free throws.\n* **Practice 2:** She made half as many at practice 2 as practice 3, so she made 12 / 2 = 6 free throws.\n* **Practice 1:** She made half as many at practice 1 as practice 2, so she made 6 / 2 = **3 free throws**.\n**Answer:** Jenny made 3 free throws at her first practice. \n",
+        "Here's how to solve the problem step-by-step:\n* **Practice 4:** Since Jenny made twice as many free throws at each practice, she made 48 / 2 = 24 free throws at her fourth practice.\n* **Practice 3:**  She made 24 / 2 = 12 free throws at her third practice.\n* **Practice 2:** She made 12 / 2 = 6 free throws at her second practice.\n* **Practice 1:** She made 6 / 2 = **3** free throws at her first practice. \n**Answer:** Jenny made 3 free throws at her first practice. \n",
+        "Here's how to solve the problem step-by-step:\n* **Step 1: Work backwards.** Since Jenny made twice as many free throws at each practice, we need to work backward from her fifth practice.\n* **Step 2:  Divide by two.** At her fourth practice, Jenny made half the number of free throws she made at her fifth practice, so she made 48 / 2 = 24 free throws.\n* **Step 3: Continue dividing.** At her third practice, she made 24 / 2 = 12 free throws.\n   At her second practice, she made 12 / 2 = 6 free throws.\n* **Step 4: Final answer.**  At her first practice, she made 6 / 2 = **3 free throws**. \n",
+        "Here's how to solve this problem step by step:\n* **Work backward:** Since Jenny doubled her free throws each practice, we need to work backward from her fifth practice to find her first practice.\n* **Fifth to Fourth:**  At her fourth practice, she made half as many free throws as her fifth practice, so she made 48 / 2 = 24 free throws.\n* **Fourth to Third:**  At her third practice, she made half as many free throws as her fourth practice, so she made 24 / 2 = 12 free throws.\n* **Third to Second:** At her second practice, she made half as many free throws as her third practice, so she made 12 / 2 = 6 free throws.\n* **Second to First:** At her first practice, she made half as many free throws as her second practice, so she made 6 / 2 = **3** free throws.\n**Answer:** Jenny made 3 free throws at her first practice. \n"
+    ],
+    "pred_answers": "3",
+    "final_pred_answer": [
+        "3",
+        "3",
+        "3",
+        "3",
+        "3"
+    ],
+    "ground_truth": "3"
+}

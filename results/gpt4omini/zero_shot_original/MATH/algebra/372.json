@@ -1,0 +1,23 @@
+{
+    "problem": "Evaluate $(x+ y)(x-y)$ when $x= 15$ and $y= 5$.",
+    "level": "Level 1",
+    "type": "Algebra",
+    "solution": "We have $(x+y)(x-y) = (15+5)(15-5) = (20)(10) = \\boxed{200}$.",
+    "prompt": "### Instruction: Evaluate $(x+ y)(x-y)$ when $x= 15$ and $y= 5$.\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "To evaluate the expression \\((x + y)(x - y)\\) when \\(x = 15\\) and \\(y = 5\\), we can follow these steps:\n1. **Substitute the values of \\(x\\) and \\(y\\) into the expression.**\n   \n   We start with:\n   \\[\n   (x + y)(x - y)\n   \\]\n   Substituting \\(x = 15\\) and \\(y = 5\\):\n   \\[\n   (15 + 5)(15 - 5)\n   \\]\n2. **Calculate \\(x + y\\) and \\(x - y\\).**\n   - Calculate \\(x + y\\):\n     \\[\n     15 + 5 = 20\n     \\]\n   - Calculate \\(x - y\\):\n     \\[\n     15 - 5 = 10\n     \\]\n3. **Multiply the results from the previous step.**\n   \n   Now we substitute these results back into the expression:\n   \\[\n   (20)(10)\n   \\]\n   Next, we perform the multiplication:\n   \\[\n   20 \\times 10 = 200\n   \\]\nThus, the value of \\((x + y)(x - y)\\) when \\(x = 15\\) and \\(y = 5\\) is \\(\\boxed{200}\\).",
+        "To evaluate \\((x + y)(x - y)\\) when \\(x = 15\\) and \\(y = 5\\), we will follow these steps:\n1. **Substitute the values of \\(x\\) and \\(y\\)**:\n   \\[\n   x + y = 15 + 5 = 20\n   \\]\n   \\[\n   x - y = 15 - 5 = 10\n   \\]\n2. **Calculate the product \\((x + y)(x - y)\\)**:\n   \\[\n   (x + y)(x - y) = 20 \\times 10\n   \\]\n3. **Perform the multiplication**:\n   \\[\n   20 \\times 10 = 200\n   \\]\nThus, the value of \\((x + y)(x - y)\\) when \\(x = 15\\) and \\(y = 5\\) is \\(\\boxed{200}\\).",
+        "To evaluate \\((x + y)(x - y)\\) when \\(x = 15\\) and \\(y = 5\\), we can follow these steps:\n1. **Substitute the values of \\(x\\) and \\(y\\)**:\n   \\[\n   x + y = 15 + 5 = 20\n   \\]\n   \\[\n   x - y = 15 - 5 = 10\n   \\]\n2. **Now, multiply the results**:\n   \\[\n   (x + y)(x - y) = (20)(10)\n   \\]\n3. **Calculate the multiplication**:\n   \\[\n   20 \\times 10 = 200\n   \\]\nThus, the value of \\((x+y)(x-y)\\) when \\(x = 15\\) and \\(y = 5\\) is \\(\\boxed{200}\\).",
+        "To evaluate \\((x + y)(x - y)\\) when \\(x = 15\\) and \\(y = 5\\), we will follow these steps:\n1. **Calculate \\(x + y\\)**:\n   \\[\n   x + y = 15 + 5 = 20\n   \\]\n2. **Calculate \\(x - y\\)**:\n   \\[\n   x - y = 15 - 5 = 10\n   \\]\n3. **Now multiply the two results**:\n   \\[\n   (x + y)(x - y) = 20 \\times 10\n   \\]\n4. **Perform the multiplication**:\n   \\[\n   20 \\times 10 = 200\n   \\]\nThus, the value of \\((x + y)(x - y)\\) when \\(x = 15\\) and \\(y = 5\\) is \\(\\boxed{200}\\).",
+        "To evaluate the expression \\((x + y)(x - y)\\) when \\(x = 15\\) and \\(y = 5\\), we can follow these steps:\n1. Substitute the values of \\(x\\) and \\(y\\) into the expression.\n2. Calculate \\(x + y\\).\n3. Calculate \\(x - y\\).\n4. Multiply the results from step 2 and step 3.\nNow let's do it step by step.\n1. Substitute \\(x = 15\\) and \\(y = 5\\):\n   \\[\n   (x + y)(x - y) = (15 + 5)(15 - 5)\n   \\]\n2. Calculate \\(x + y\\):\n   \\[\n   15 + 5 = 20\n   \\]\n3. Calculate \\(x - y\\):\n   \\[\n   15 - 5 = 10\n   \\]\n4. Now multiply the results:\n   \\[\n   (20)(10) = 200\n   \\]\nThus, the value of \\((x + y)(x - y)\\) when \\(x = 15\\) and \\(y = 5\\) is \\(\\boxed{200}\\)."
+    ],
+    "pred_answers": "200",
+    "final_pred_answer": [
+        "200",
+        "200",
+        "200",
+        "200",
+        "200"
+    ],
+    "ground_truth": "200"
+}

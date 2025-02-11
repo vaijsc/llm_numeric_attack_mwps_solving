@@ -1,0 +1,23 @@
+{
+    "problem": "Evaluate $24-(2x-y)$ if $x=4$ and $y=3$.",
+    "level": "Level 1",
+    "type": "Algebra",
+    "solution": "We have $24 - (2x-y) = 24 - (2\\cdot 4 - 3) = 24 - (8-3) = 24 - 5 = \\boxed{19}$.",
+    "prompt": "### Instruction: Evaluate $24-(2x-y)$ if $x=4$ and $y=3$.\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "1. **Substitute the values:**\n   Replace 'x' with 4 and 'y' with 3 in the expression:\n   24 - (2 * 4 - 3)\n2. **Simplify inside the parentheses:**\n   24 - (8 - 3)\n3. **Continue simplifying inside the parentheses:**\n   24 - 5\n4. **Subtract:**\n   19\n**Therefore, the value of the expression is 19.** \n",
+        "1. **Substitute the values:** Replace *x* with 4 and *y* with 3 in the expression: \n   24 - (2 * 4 - 3)\n2. **Simplify inside the parentheses:**  Calculate 2 * 4 = 8, then 8 - 3 = 5.\n   24 - (5)\n3. **Final calculation:** Subtract 5 from 24:\n   24 - 5 = 19\nTherefore, the value of the expression $24 - (2x - y)$ when $x = 4$ and $y = 3$ is **19**. \n",
+        "1. **Substitute the values:** \n   We are given  x = 4 and y = 3. Substitute these values into the expression:\n   \n   24 - (2 * 4 - 3)\n2. **Simplify inside the parentheses:**\n   Calculate the value inside the parentheses first:\n   24 - (8 - 3) \n   24 - (5)\n3. **Solve the subtraction:**\n   Finally, subtract 5 from 24:\n   24 - 5 = 19\n**Therefore, the value of the expression 24 - (2x - y) when x = 4 and y = 3 is 19.** \n",
+        "1. **Substitute the values:** \n   We are given that x = 4 and y = 3. Substitute these values into the expression:\n   24 - (2 * 4 - 3)\n2. **Simplify inside the parentheses:**\n   Perform the multiplication and subtraction inside the parentheses:\n   24 - (8 - 3) = 24 - 5\n3. **Final Calculation:**\n   Subtract to get the final answer:\n   24 - 5 = **19**\nTherefore, the value of the expression 24 - (2x - y) when x = 4 and y = 3 is **19**. \n",
+        "1. **Substitute the values:** \n   Substitute  *x = 4* and *y = 3* into the expression:\n   24 - (2 * 4 - 3)\n2. **Simplify inside the parentheses:**\n   24 - (8 - 3)\n3. **Continue simplifying:**\n   24 - 5\n4. **Final calculation:**\n   19\n**Therefore, the value of the expression 24 - (2x - y) is 19 when x = 4 and y = 3.** \n"
+    ],
+    "pred_answers": "19",
+    "final_pred_answer": [
+        "19",
+        "19",
+        "19",
+        "19",
+        "3"
+    ],
+    "ground_truth": "19"
+}

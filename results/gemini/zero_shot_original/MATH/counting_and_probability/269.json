@@ -1,0 +1,23 @@
+{
+    "problem": "Tara rolls three standard dice once.  What is the probability that the sum of the numbers rolled will be three or more?  Express your answer as a percent.",
+    "level": "Level 2",
+    "type": "Counting & Probability",
+    "solution": "The smallest possible number that Tara can roll is a 3, by getting a 1 on each die. Thus, she will always get a sum of three or more. Our answer is $\\boxed{100\\%}$.",
+    "prompt": "### Instruction: Tara rolls three standard dice once.  What is the probability that the sum of the numbers rolled will be three or more?  Express your answer as a percent.\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "Here's how to solve this problem:\n**1.  Possible Outcomes:**\n* Each die has 6 sides (1, 2, 3, 4, 5, 6).\n* With three dice, there are 6 x 6 x 6 = 216 possible combinations.\n**2.  Unfavorable Outcomes:**\n* The only way to get a sum less than 3 is by rolling three 1s. There's only one way to do this.\n**3.  Favorable Outcomes:**\n*  Any combination other than three 1s will result in a sum of 3 or more.  This means there are 216 - 1 = 215 favorable outcomes.\n**4.  Calculate the Probability:**\n* Probability = (Favorable Outcomes) / (Total Possible Outcomes) \n* Probability = 215 / 216\n**5.  Convert to a Percentage:**\n* (215 / 216) * 100% \u2248 **99.5%** \n**Therefore, the probability of Tara rolling a sum of three or more is approximately 99.5%.** \n",
+        "Here's how to solve the problem step-by-step:\n**1. Total Possible Outcomes:**\n* Each die has 6 sides (1-6).\n* With three dice, there are 6 * 6 * 6 = 216 possible combinations.\n**2. Unfavorable Outcomes (Sum less than 3):**\n* The only way to get a sum less than 3 is to roll all 1s. \n**3. Favorable Outcomes (Sum of 3 or more):**\n*  Subtract the unfavorable outcomes from the total outcomes: 216 - 1 = 215\n**4. Calculate the Probability:**\n* Probability = (Favorable Outcomes) / (Total Possible Outcomes)\n* Probability = 215 / 216\n**5. Express as a Percentage:**\n* (215 / 216) * 100% \u2248 99.5%\n**Therefore, the probability of rolling a sum of three or more with three dice is approximately 99.5%.** \n",
+        "Here's how to solve the problem step-by-step:\n* **Possible Outcomes:** Each die has 6 sides, so there are 6 * 6 * 6 = 216 possible outcomes when rolling three dice.\n* **Unfavorable Outcomes:** The only way to get a sum less than three is to roll three ones.\n* **Favorable Outcomes:**  There are 216 - 1 = 215 ways to get a sum of three or more.\n* **Probability:** The probability of getting a sum of three or more is the number of favorable outcomes divided by the total number of outcomes: 215 / 216\n* **Percent:** To express this as a percent, multiply by 100: (215/216) * 100 \u2248 99.5%\n**Therefore, the probability of rolling a sum of three or more with three dice is approximately 99.5%.** \n",
+        "Here's how to solve this problem:\n**1. Total Possible Outcomes:**\n* Each die has 6 sides (1-6).\n* With three dice, there are 6 * 6 * 6 = 216 possible outcomes.\n**2. Unfavorable Outcomes (Sum less than 3):**\n* The only way to get a sum less than 3 is to roll three 1s.  \n**3. Favorable Outcomes (Sum of 3 or more):**\n*  Subtract the unfavorable outcomes from the total possible outcomes: 216 - 1 = 215\n**4. Probability:**\n* Probability = (Favorable Outcomes) / (Total Possible Outcomes)\n* Probability = 215 / 216\n**5. Express as a Percent:**\n* (215 / 216) * 100% \u2248 99.54%\n**Therefore, the probability of rolling a sum of three or more with three dice is approximately 99.54%.** \n",
+        "Here's how to solve the problem step-by-step:\n**1.  Total Possible Outcomes:**\n* Each die has 6 sides (1-6).\n* With three dice, the total number of possible outcomes is 6 * 6 * 6 = 216.\n**2.  Unfavorable Outcomes:**\n* The only way to get a sum less than 3 is to roll three 1s. \n**3.  Favorable Outcomes:**\n*  Any other combination of rolls will result in a sum of 3 or more.  \n*  To find the number of favorable outcomes, subtract the unfavorable outcomes from the total outcomes: 216 - 1 = 215\n**4.  Calculate the Probability:**\n* Probability = (Favorable Outcomes) / (Total Possible Outcomes)\n* Probability = 215 / 216\n**5.  Express as a Percentage:**\n* (215 / 216) * 100% \u2248 99.5%\n**Answer:** The probability of rolling a sum of three or more with three dice is approximately **99.5%**. \n"
+    ],
+    "pred_answers": "99.5",
+    "final_pred_answer": [
+        "99.5",
+        "99.5",
+        "99.5",
+        "99.54",
+        "99.5"
+    ],
+    "ground_truth": "100"
+}

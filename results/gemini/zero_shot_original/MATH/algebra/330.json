@@ -1,0 +1,23 @@
+{
+    "problem": "Without using a calculator, compute $1002^2-502^2+298^2-202^2$.",
+    "level": "Level 3",
+    "type": "Algebra",
+    "solution": "Using the difference of squares factorization individually on the first pair of terms and the second pair of terms, we have  \\begin{align*}\n1002^2&-502^2+298^2-202^2 \\\\\n&= (1002+502)(1002-502)+(298+202)(298-202) \\\\\n&= (1504)(500)+(500)(96)\\\\\n&= (500)(1504+96) \\\\\n&= (500)(1600) \\\\\n&= \\boxed{800000}.\n\\end{align*}",
+    "prompt": "### Instruction: Without using a calculator, compute $1002^2-502^2+298^2-202^2$.\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "We can use the difference of squares factorization to simplify this expression. \n* **Difference of Squares:**  a\u00b2 - b\u00b2 = (a + b)(a - b)\nLet's group the terms:\n* (1002\u00b2 - 202\u00b2) + (298\u00b2 - 502\u00b2)\nNow apply the difference of squares factorization:\n* [(1002 + 202)(1002 - 202)] + [(298 + 502)(298 - 502)]\nSimplify:\n* (1204 * 800) + (800 * -204)\nFactor out 800:\n* 800 * (1204 - 204)\nSimplify further:\n* 800 * 1000\nFinally:\n* **800,000** \n",
+        "We can use the difference of squares factorization to simplify this expression:\n* **Difference of Squares:**  a\u00b2 - b\u00b2 = (a + b)(a - b)\nLet's apply this to the first two terms and the last two terms:\n1. **First two terms:** \n   * 1002\u00b2 - 502\u00b2 = (1002 + 502)(1002 - 502) = 1504 * 500\n2. **Last two terms:**\n   * 298\u00b2 - 202\u00b2 = (298 + 202)(298 - 202) = 500 * 96\nNow our expression looks like this: 1504 * 500 + 500 * 96\n3. **Factor out 500:**\n   * 500 * (1504 + 96) = 500 * 1600\n4. **Simplify:**\n   * 500 * 1600 = 800,000\nTherefore,  1002\u00b2 - 502\u00b2 + 298\u00b2 - 202\u00b2 = **800,000** \n",
+        "We can simplify this expression by using the difference of squares factorization: $a^2 - b^2 = (a+b)(a-b)$.\nHere's how we can apply it:\n1. **Group the terms:**\n   (1002\u00b2 - 202\u00b2) + (298\u00b2 - 502\u00b2)\n2. **Apply the difference of squares:**\n   (1002 + 202)(1002 - 202) + (298 + 502)(298 - 502)\n3. **Simplify:**\n   (1204)(800) + (800)(-204)\n4. **Factor out 800:**\n   800 (1204 - 204)\n5. **Simplify:**\n   800 (1000)\n6. **Calculate:**\n   800,000\nTherefore, $1002^2 - 502^2 + 298^2 - 202^2 = \\boxed{800,000}$. \n",
+        "Here's how to solve the problem step-by-step without a calculator:\n**1. Recognize the Pattern:**\nNotice that the problem has a pattern of squares with differences that can be factored using the \"difference of squares\" pattern:  a\u00b2 - b\u00b2 = (a + b)(a - b)\n**2. Apply the Difference of Squares:**\n* **Step 1:**  Factor the first two terms: \n   1002\u00b2 - 502\u00b2 = (1002 + 502)(1002 - 502) = (1504)(500)\n* **Step 2:** Factor the last two terms:\n   298\u00b2 - 202\u00b2 = (298 + 202)(298 - 202) = (500)(96)\n**3. Simplify:**\nNow we have: (1504)(500) + (500)(96)\n**4. Factor out 500:**\n500(1504 + 96) = 500(1600)\n**5. Calculate:**\n500 * 1600 = **800,000**\n**Therefore, 1002\u00b2 - 502\u00b2 + 298\u00b2 - 202\u00b2 = 800,000** \n",
+        "We can use the difference of squares factorization to simplify this expression.  Recall that $a^2 - b^2 = (a+b)(a-b)$.\nLet's group the terms:\n$(1002^2 - 502^2) + (298^2 - 202^2)$\nNow apply the difference of squares factorization:\n$(1002 + 502)(1002 - 502) + (298 + 202)(298 - 202)$\nSimplify:\n$(1504)(500) + (500)(96)$\nFactor out 500:\n$500(1504 + 96)$\nSimplify:\n$500(1600)$\nFinally, we can easily calculate this product:\n$500(1600) = \\boxed{800,000}$ \n"
+    ],
+    "pred_answers": "800000",
+    "final_pred_answer": [
+        "800000",
+        "800000",
+        "800000",
+        "800000",
+        "800000"
+    ],
+    "ground_truth": "800000"
+}

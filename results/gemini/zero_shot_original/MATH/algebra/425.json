@@ -1,0 +1,23 @@
+{
+    "problem": "Suppose $c$ and $d$ are inversely proportional. If $c=9$ when $d=8$, find the value of $d$ when $c=6$.",
+    "level": "Level 2",
+    "type": "Algebra",
+    "solution": "If $c$ and $d$ are inversely proportional, then $c\\cdot{d}=k$ (where $k$ is a constant). We know that $c=9$ when $d=8$, so $(9)(8)=k$ or $k=72$. When $c=6$, $(6)(d)=72$.  Thus, $d$ must be equal to $\\frac{72}{6}$ or $\\boxed{12}$.",
+    "prompt": "### Instruction: Suppose $c$ and $d$ are inversely proportional. If $c=9$ when $d=8$, find the value of $d$ when $c=6$.\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "Here's how to solve the problem step-by-step:\n**1. Understand Inverse Proportionality**\nInverse proportionality means that as one quantity increases, the other decreases at a rate that keeps their product constant.  Mathematically, this can be represented as:\n*  c * d = k (where k is a constant)\n**2. Find the Constant (k)**\n* We're given that c = 9 when d = 8.  Substitute these values into the equation:\n   * 9 * 8 = k\n   * k = 72\n**3. Find d when c = 6**\n* Now we know k = 72.  Substitute c = 6 and k = 72 into the equation:\n   * 6 * d = 72\n* Solve for d:\n   * d = 72 / 6\n   * d = 12\n**Therefore, the value of d when c = 6 is 12.** \n",
+        "Here's how to solve the problem step-by-step:\n**1. Understand Inverse Proportionality:**\n   Inverse proportionality means that as one quantity increases, the other decreases at a rate that keeps their product constant.  Mathematically, we can write this as:\n   *  c * d = k  (where k is a constant)\n**2. Find the Constant (k):**\n   We are given that c = 9 when d = 8.  Substitute these values into the equation:\n   *  9 * 8 = k\n   *  k = 72\n**3. Find 'd' when c = 6:**\n   We know k = 72 and c = 6. Substitute these values into the equation:\n   * 6 * d = 72\n   * d = 72 / 6\n   * d = 12\n**Therefore, the value of d when c = 6 is 12.** \n",
+        "Here's how to solve the problem step-by-step:\n**1. Understand Inverse Proportionality**\nInverse proportionality means that as one quantity increases, the other decreases at a rate that keeps their product constant.  In mathematical terms, if *c* and *d* are inversely proportional, then:\n* c * d = k (where *k* is a constant)\n**2. Find the Constant of Proportionality (k)**\nWe know that *c* = 9 when *d* = 8.  Let's plug these values into the equation:\n* 9 * 8 = k\n* k = 72\n**3. Find *d* when *c* = 6**\nNow we know *k* = 72, and we want to find *d* when *c* = 6.  Let's plug these values into the equation:\n* 6 * d = 72\n**4. Solve for *d***\nDivide both sides of the equation by 6:\n* d = 72 / 6\n* d = 12\n**Therefore, when *c* = 6, *d* = 12.** \n",
+        "Here's how to solve the problem step-by-step:\n**1. Understand Inverse Proportionality:**\n* Inverse proportionality means that as one quantity increases, the other decreases proportionally.  \n* Mathematically, this relationship is expressed as:  c * d = k (where k is a constant).\n**2. Find the Constant of Proportionality (k):**\n* We know c = 9 when d = 8. Substitute these values into the equation: 9 * 8 = k\n* This gives us k = 72.\n**3. Find the Value of d when c = 6:**\n* Now we have the equation: 6 * d = 72 \n* Solve for d: d = 72 / 6\n* Therefore, d = 12\n**Answer:** When c = 6, the value of d is 12. \n",
+        "Here's how to solve the problem step-by-step:\n**1. Understand Inverse Proportionality**\nInverse proportionality means that as one quantity increases, the other decreases at a rate that keeps their product constant. In mathematical terms, if *c* and *d* are inversely proportional, then:\n*c * d = k* \nwhere *k* is a constant.\n**2. Find the Constant of Proportionality (k)**\nWe know that *c = 9* when *d = 8*.  Substitute these values into the equation:\n*9 * 8 = k*\n*k = 72*\n**3. Find the Value of d when c = 6**\nNow we know *k = 72*. We want to find *d* when *c = 6*. Substitute these values into the equation:\n*6 * d = 72*\n**4. Solve for d**\nDivide both sides of the equation by 6:\n*d = 72 / 6*\n*d = 12*\n**Therefore, when c = 6, the value of d is 12.** \n"
+    ],
+    "pred_answers": "12",
+    "final_pred_answer": [
+        "12",
+        "12",
+        "12",
+        "6",
+        "12"
+    ],
+    "ground_truth": "12"
+}

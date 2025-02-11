@@ -1,0 +1,23 @@
+{
+    "problem": "If $\\sqrt{400}=\\sqrt{81}+\\sqrt{n}$, then what is the value of $n$?",
+    "level": "Level 1",
+    "type": "Algebra",
+    "solution": "Not to be fooled by the square roots, we rewrite the equation as $20=9+\\sqrt{n}.$ Thus, $\\sqrt{n}=11$ and $n=\\boxed{121}.$",
+    "prompt": "### Instruction: If $\\sqrt{400}=\\sqrt{81}+\\sqrt{n}$, then what is the value of $n$?\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "Here's how to solve the problem step-by-step:\n1. **Simplify the square roots:**\n   *  \u221a400 = 20\n   *  \u221a81 = 9\n2. **Substitute the simplified values into the equation:**\n   * 20 = 9 + \u221an\n3. **Isolate the square root term:**\n   * 20 - 9 = \u221an\n   * 11 = \u221an\n4. **Solve for 'n' by squaring both sides:**\n   * 11\u00b2 = (\u221an)\u00b2\n   * 121 = n\n**Therefore, the value of 'n' is 121.** \n",
+        "Here's how to solve the problem step-by-step:\n1. **Simplify the square roots:** \n   *  \u221a400 = 20\n   *  \u221a81 = 9\n2. **Substitute the simplified values into the equation:**\n   * 20 = 9 + \u221an\n3. **Isolate the square root term:**\n   * 20 - 9 = \u221an\n   * 11 = \u221an\n4. **Square both sides to solve for n:**\n   * 11\u00b2 = (\u221an)\u00b2\n   * 121 = n\n**Therefore, the value of n is 121.** \n",
+        "Here's how to solve the problem step-by-step:\n1. **Simplify the square roots:** \n   *  \u221a400 = 20\n   *  \u221a81 = 9\n2. **Substitute the simplified values into the equation:**\n   * 20 = 9 + \u221an\n3. **Isolate the square root:**\n   * 20 - 9 = \u221an\n   * 11 = \u221an\n4. **Solve for n by squaring both sides:**\n   * 11\u00b2 = (\u221an)\u00b2\n   * 121 = n\n**Therefore, the value of n is 121.** \n",
+        "Here's how to solve the problem step-by-step:\n1. **Simplify the square roots:** \n   *  \u221a400 = 20\n   *  \u221a81 = 9\n2. **Substitute the simplified values into the equation:**\n   * 20 = 9 + \u221an\n3. **Isolate the square root term:**\n   * 20 - 9 = \u221an\n   * 11 = \u221an\n4. **Solve for 'n' by squaring both sides:**\n   * 11\u00b2 = (\u221an)\u00b2\n   * 121 = n\n**Therefore, the value of 'n' is 121.** \n",
+        "Here's how to solve the problem step-by-step:\n1. **Simplify the square roots:**\n   *  \u221a400 = 20\n   *  \u221a81 = 9\n2. **Substitute the simplified values into the equation:**\n   *  20 = 9 + \u221an\n3. **Isolate the square root term:**\n   *  20 - 9 = \u221an\n   *  11 = \u221an\n4. **Solve for n by squaring both sides:**\n   *  11\u00b2 = (\u221an)\u00b2\n   *  121 = n\n**Therefore, the value of n is 121.** \n"
+    ],
+    "pred_answers": "121",
+    "final_pred_answer": [
+        "121",
+        "121",
+        "121",
+        "121",
+        "121"
+    ],
+    "ground_truth": "121"
+}

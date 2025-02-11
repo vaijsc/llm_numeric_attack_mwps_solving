@@ -1,0 +1,23 @@
+{
+    "problem": "Find a non-zero value for $a$ such that $ax^2+8x+4=0$ has only one solution.",
+    "level": "Level 2",
+    "type": "Algebra",
+    "solution": "For a quadratic to have only one solution, the discriminant must be zero. Therefore, we have $8^2-4 \\cdot a \\cdot 4 = 0$. Solving, we get $8^2-4 \\cdot a \\cdot 4 = 64-16a = 0$. Thus, $64=16a$, so $a=\\boxed{4}$.",
+    "prompt": "### Instruction: Find a non-zero value for $a$ such that $ax^2+8x+4=0$ has only one solution.\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "Here's how to find the value of 'a':\n**Understanding the Concept**\nA quadratic equation has only one solution when its discriminant is equal to zero. The discriminant is the part of the quadratic formula under the square root: \n* **Discriminant:**  b\u00b2 - 4ac \n**Applying the Concept**\n1. **Identify the coefficients:** In the equation ax\u00b2 + 8x + 4 = 0, we have:\n   * a = a (unknown)\n   * b = 8\n   * c = 4\n2. **Set the discriminant to zero:** \n   * 8\u00b2 - 4 * a * 4 = 0\n3. **Solve for 'a':**\n   * 64 - 16a = 0\n   * 16a = 64\n   * a = 64 / 16\n   * a = 4\n**Therefore, the non-zero value of 'a' that makes the quadratic equation have only one solution is a = 4.** \n",
+        "Here's how to solve the problem step-by-step:\n**Understanding the Concept**\nA quadratic equation has only one solution when its discriminant is equal to zero. The discriminant is the part of the quadratic formula under the radical sign:\n* **Discriminant (\u0394) = b\u00b2 - 4ac** \nWhere:\n* a = coefficient of the x\u00b2 term\n* b = coefficient of the x term\n* c = constant term\n**Solving the Problem**\n1. **Identify the coefficients:** In the equation  *ax\u00b2 + 8x + 4 = 0*, we have:\n    * a = a (this is what we need to find)\n    * b = 8\n    * c = 4\n2. **Set the discriminant to zero:** We want the equation to have one solution, so:\n    * \u0394 = b\u00b2 - 4ac = 0\n3. **Substitute the values:**\n    * 8\u00b2 - 4 * a * 4 = 0\n4. **Solve for 'a':**\n    * 64 - 16a = 0\n    * 16a = 64\n    * a = 64 / 16\n    * a = 4\n**Answer:**\nTherefore, the non-zero value for *a* that makes the equation *ax\u00b2 + 8x + 4 = 0* have only one solution is **a = 4**. \n",
+        "Here's how to solve the problem step-by-step:\n**1. Understanding the Concept**\nA quadratic equation has only one solution when its discriminant is equal to zero. The discriminant is the part of the quadratic formula under the square root:  \n* **Discriminant (\u0394):**  \u0394 = b\u00b2 - 4ac \n**2. Applying the Concept**\n* In our equation, a = a (the unknown), b = 8, and c = 4.\n* We want \u0394 = 0.\n**3. Setting up the Equation**\n* Substitute the values into the discriminant formula: 8\u00b2 - 4 * a * 4 = 0\n**4. Solving for 'a'**\n* Simplify: 64 - 16a = 0\n* Subtract 64 from both sides: -16a = -64\n* Divide both sides by -16: a = 4\n**Answer:**\nTherefore, the non-zero value for 'a' that makes the equation  ax\u00b2 + 8x + 4 = 0 have only one solution is **a = 4**. \n",
+        "Here's how to find the value of 'a':\n**Understanding the Concept**\nA quadratic equation has only one solution when its discriminant is equal to zero. The discriminant is the part of the quadratic formula under the square root:\n* **Discriminant (\u0394):**  \u0394 = b\u00b2 - 4ac\n**Applying the Concept**\n1. **Identify a, b, and c:**\n   *  a = a (the coefficient of x\u00b2)\n   *  b = 8 (the coefficient of x)\n   *  c = 4 (the constant term)\n2. **Set the discriminant to zero:** \n   *  \u0394 = b\u00b2 - 4ac = 0\n3. **Substitute the values and solve for 'a':**\n   *  8\u00b2 - 4 * a * 4 = 0\n   *  64 - 16a = 0\n   *  16a = 64\n   *  a = 64/16\n   *  a = 4\n**Answer:**\nTherefore, the value of  'a' that makes the equation have only one solution is **a = 4**. \n",
+        "Here's how to find the value of 'a':\n**Understanding the Problem**\n* A quadratic equation has one solution when its discriminant is equal to zero. \n* The discriminant of the quadratic equation *ax\u00b2 + bx + c = 0* is given by  *b\u00b2 - 4ac*.\n**Solving for 'a'**\n1. **Identify coefficients:** In our equation,  *a* = *a*, *b* = 8, and *c* = 4.\n2. **Set the discriminant to zero:** \n   * b\u00b2 - 4ac = 0\n   * 8\u00b2 - 4 * a * 4 = 0\n3. **Solve for 'a':**\n   * 64 - 16a = 0\n   * 16a = 64\n   * a = 64 / 16\n   * a = 4\n**Therefore, the non-zero value of 'a' that makes the quadratic equation have only one solution is a = 4.** \n"
+    ],
+    "pred_answers": "4",
+    "final_pred_answer": [
+        "4",
+        "8",
+        "8",
+        "4",
+        "4"
+    ],
+    "ground_truth": "4"
+}

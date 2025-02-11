@@ -1,0 +1,23 @@
+{
+    "problem": "The point $A(3,3)$ is reflected across the $x$-axis to $A^{'}$. Then $A^{'}$ is translated two units to the left to $A^{''}$. The coordinates of $A^{''}$ are $(x,y)$. What is the value of $x+y$? [asy]\ndraw((-7,0)--(7,0),linewidth(1),Arrows);\ndraw((0,-7)--(0,7),linewidth(1),Arrows);\n\nfor(int i=-5; i<0; ++i)\n{\n\ndraw((i,-.5)--(i,.5),linewidth(1));\n}\n\nfor(int i=1; i<6; ++i)\n{\n\ndraw((i,-.5)--(i,.5),linewidth(1));\n}\n\nfor(int i=-5; i<0; ++i)\n{\n\ndraw((-.5,i)--(.5,i),linewidth(1));\n}\n\nfor(int i=-5; i<0; ++i)\n{\n\ndraw((-.5,-i)--(.5,-i),linewidth(1));\n}\n\nlabel(\"$x$\", (8,0));\nlabel(\"$y$\", (0,8));\n\n[/asy]",
+    "level": "Level 2",
+    "type": "Geometry",
+    "solution": "After reflection, the point $A(3,3)$ becomes $A'(3,-3)$. After translation, the point $A'(3,-3)$ becomes $A''(1,-3)$. Thus, $x+y$ is equal to $1+(-3)=\\boxed{-2}$. A picture of the transformations is below.\n\n[asy]\nLabel f;\n\nf.p=fontsize(6);\n\nxaxis(0,4,Ticks(f, 1.0));\n\nyaxis(-4,4,Ticks(f, 1.0));\n\ndot((3,3));\ndot((3,-3));\ndot((1,-3));\nlabel(\"$A$\", (3,3), W);\nlabel(\"$A'$\", (3,-3), W);\nlabel(\"$A''$\", (1,-3), W);\n[/asy]",
+    "prompt": "### Instruction: The point $A(3,3)$ is reflected across the $x$-axis to $A^{'}$. Then $A^{'}$ is translated two units to the left to $A^{''}$. The coordinates of $A^{''}$ are $(x,y)$. What is the value of $x+y$? [asy]\ndraw((-7,0)--(7,0),linewidth(1),Arrows);\ndraw((0,-7)--(0,7),linewidth(1),Arrows);\n\nfor(int i=-5; i<0; ++i)\n{\n\ndraw((i,-.5)--(i,.5),linewidth(1));\n}\n\nfor(int i=1; i<6; ++i)\n{\n\ndraw((i,-.5)--(i,.5),linewidth(1));\n}\n\nfor(int i=-5; i<0; ++i)\n{\n\ndraw((-.5,i)--(.5,i),linewidth(1));\n}\n\nfor(int i=-5; i<0; ++i)\n{\n\ndraw((-.5,-i)--(.5,-i),linewidth(1));\n}\n\nlabel(\"$x$\", (8,0));\nlabel(\"$y$\", (0,8));\n\n[/asy]\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "Here's how to solve the problem step-by-step:\n* **Reflecting across the x-axis:** When you reflect a point across the x-axis, the x-coordinate stays the same, and the y-coordinate becomes its opposite.  So, if  $A(3,3)$, then $A'(3,-3)$.\n* **Translating two units to the left:**  When you translate a point to the left, you subtract from the x-coordinate.  So, if $A'(3,-3)$, then $A''(3-2,-3) = (1,-3)$.\n* **Finding x + y:**  Finally, we have $x + y = 1 + (-3) = \\boxed{-2}$. \n",
+        "Here's how to solve the problem step-by-step:\n* **Reflection across the x-axis:**  Reflecting a point across the x-axis changes the sign of the y-coordinate.  So, if $A(3,3)$, then $A'$ has coordinates $(3,-3)$.\n* **Translation two units to the left:**  Translating a point to the left means subtracting from the x-coordinate.  Therefore, $A''$ has coordinates $(3-2, -3) = (1,-3)$.\n* **Finding x + y:** Finally, we add the x and y coordinates of $A''$:  $x+y = 1 + (-3) = \\boxed{-2}$. \n",
+        "Here's how to find the coordinates of A'' and solve for x + y:\n1. **Reflecting across the x-axis:**  When you reflect a point across the x-axis, the x-coordinate stays the same, and the y-coordinate changes sign. So, A' has coordinates (3, -3).\n2. **Translating two units to the left:**  Translating a point to the left means subtracting from the x-coordinate.  So, A'' has coordinates (3 - 2, -3) = (1, -3).\n3. **Calculating x + y:**  Therefore, x + y = 1 + (-3) = **-2**. \n",
+        "Here's how to solve the problem step by step:\n* **Reflecting across the x-axis:** When a point is reflected across the x-axis, the x-coordinate stays the same, and the y-coordinate changes sign.  Therefore, the coordinates of A' are (3, -3).\n* **Translating two units to the left:** When a point is translated to the left, the x-coordinate decreases. So, the coordinates of A'' are (3 - 2, -3) = (1, -3).\n* **Finding x + y:**  We have x = 1 and y = -3. Therefore, x + y = 1 + (-3) = **-2**. \n",
+        "1. **Reflecting across the x-axis:**  When you reflect a point across the x-axis, the x-coordinate stays the same, but the y-coordinate changes sign. So, reflecting  $A(3,3)$ across the x-axis gives us $A'(3,-3)$.\n2. **Translating two units to the left:**  Translating a point to the left means subtracting from its x-coordinate.  So, translating $A'(3,-3)$ two units to the left gives us $A''(3-2,-3) = A''(1,-3)$.\n3. **Finding x + y:**  Finally, we add the x- and y-coordinates of $A''$:  $x + y = 1 + (-3) = \\boxed{-2}$. \n"
+    ],
+    "pred_answers": "-2",
+    "final_pred_answer": [
+        "-2",
+        "-2",
+        "-2",
+        "-2",
+        "-2"
+    ],
+    "ground_truth": "-3"
+}

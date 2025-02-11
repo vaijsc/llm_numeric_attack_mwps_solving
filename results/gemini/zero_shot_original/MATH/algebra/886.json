@@ -1,0 +1,23 @@
+{
+    "problem": "Evaluate $\\left(\\frac{i}{2}\\right)^2$.",
+    "level": "Level 3",
+    "type": "Algebra",
+    "solution": "$(i/2)^2 = (i^2)/(2^2) = (-1)/4 = \\boxed{-\\frac{1}{4}}$",
+    "prompt": "### Instruction: Evaluate $\\left(\\frac{i}{2}\\right)^2$.\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "Here's how to evaluate  $\\left(\\frac{i}{2}\\right)^2$:\n**1. Remember the definition of 'i':** \n   *  *i* is the imaginary unit, defined as the square root of -1:  i\u00b2 = -1\n**2. Apply the exponent:**\n   *  $\\left(\\frac{i}{2}\\right)^2 = \\frac{i^2}{2^2}$ \n**3. Substitute i\u00b2 with -1:**\n   *  $\\frac{i^2}{2^2} = \\frac{-1}{4}$\n**Therefore,  $\\left(\\frac{i}{2}\\right)^2 = -\\frac{1}{4}$** \n",
+        "Here's how to evaluate  $\\left(\\frac{i}{2}\\right)^2$:\n**1. Understanding the problem:**\n* We need to square the complex number  $\\frac{i}{2}$. \n* Remember that 'squaring' means multiplying a number by itself.\n**2. Squaring the complex number:**\n*  $\\left(\\frac{i}{2}\\right)^2 = \\left(\\frac{i}{2}\\right) \\times \\left(\\frac{i}{2}\\right)$\n**3. Simplifying:**\n* Multiply the numerators and the denominators: \n   $\\frac{i \\times i}{2 \\times 2}$ = $\\frac{i^2}{4}$\n**4. Using the property of 'i':**\n* Recall that  $i^2 = -1$. Substitute this value:\n    $\\frac{-1}{4}$\n**Therefore,  $\\left(\\frac{i}{2}\\right)^2 = -\\frac{1}{4}$.** \n",
+        "Here's how to evaluate the expression step-by-step:\n**1. Understand the exponent:**  The exponent of 2 means we multiply the base by itself:\n   \n   (i/2)\u00b2 = (i/2) * (i/2)\n**2. Multiply the fractions:**\n   (i/2) * (i/2) = (i * i) / (2 * 2) \n**3. Simplify the numerator:** Remember that  i\u00b2 = -1\n   (i * i) / (2 * 2) = (-1) / 4\n**Therefore, (i/2)\u00b2 = -1/4** \n",
+        "Here's how to evaluate  $\\left(\\frac{i}{2}\\right)^2$:\n**1. Understand the Properties:**\n* **Squaring:**  Squaring a number means multiplying it by itself.\n* **Imaginary Unit:**  The imaginary unit 'i' is defined as the square root of -1 (i\u00b2 = -1).\n**2. Apply the Properties:**\n*  $\\left(\\frac{i}{2}\\right)^2 = \\left(\\frac{i}{2}\\right) \\times \\left(\\frac{i}{2}\\right)$\n*  Multiplying fractions: $\\frac{i}{2} \\times \\frac{i}{2} = \\frac{i \\times i}{2 \\times 2}$\n*  Simplifying:  $\\frac{i^2}{4}$\n**3. Substitute i\u00b2:**\n*  Since i\u00b2 = -1, we can substitute:  $\\frac{-1}{4}$\n**Therefore,  $\\left(\\frac{i}{2}\\right)^2 = \\boxed{-\\frac{1}{4}}$** \n",
+        "Here's how to evaluate the expression:\n**1. Understand the Properties**\n* **Exponents:**  The expression  (a/b)^n  means (a/b) multiplied by itself 'n' times.\n* **Imaginary Unit:**  'i' is the imaginary unit, where i\u00b2 = -1.\n**2. Apply the Properties**\n* **Simplify the exponent:**  (i/2)\u00b2  =  (i/2) * (i/2)\n* **Multiply:**  (i * i) / (2 * 2) = i\u00b2 / 4\n* **Substitute i\u00b2 = -1:** (-1) / 4\n**3. Solution**\nTherefore,  (i/2)\u00b2 = **-1/4** \n"
+    ],
+    "pred_answers": "4",
+    "final_pred_answer": [
+        "4",
+        "4",
+        "4",
+        "4",
+        "4"
+    ],
+    "ground_truth": "4"
+}

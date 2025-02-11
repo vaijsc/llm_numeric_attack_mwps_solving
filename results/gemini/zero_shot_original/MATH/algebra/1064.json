@@ -1,0 +1,23 @@
+{
+    "problem": "A set of four consecutive integers has a sum of 22. If each integer of the set is increased by 2 and then multiplied by 20, what is the sum of the new set of integers?",
+    "level": "Level 2",
+    "type": "Algebra",
+    "solution": "Increasing each integer by 2 will increase their sum by $2\\cdot 4 = 8$, meaning the sum after this step is $22 + 8 = 30$.  Multiplying each integer by 20 will multiply the entire sum by 20, leading to a final sum of $30\\cdot 20 = \\boxed{600}$.",
+    "prompt": "### Instruction: A set of four consecutive integers has a sum of 22. If each integer of the set is increased by 2 and then multiplied by 20, what is the sum of the new set of integers?\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "Here's how to solve this problem step by step:\n**1. Find the original integers:**\n* Let the first integer be represented by 'x'.\n* The four consecutive integers are: x, x + 1, x + 2, x + 3\n* Their sum is 22:  x + (x + 1) + (x + 2) + (x + 3) = 22\n* Simplify: 4x + 6 = 22\n* Solve for x: 4x = 16 \n* Therefore, x = 4\n* The original set of integers is: 4, 5, 6, 7\n**2. Increase each integer by 2:**\n* The new set is: 6, 7, 8, 9\n**3. Multiply each integer by 20:**\n* The final set is: 120, 140, 160, 180\n**4. Calculate the sum of the final set:**\n* 120 + 140 + 160 + 180 = **600**\n**Therefore, the sum of the new set of integers is 600.** \n",
+        "Here's how to solve this problem step-by-step:\n**1. Find the original integers:**\n* Let the first integer be represented by 'x'.\n* The four consecutive integers are then: x, x+1, x+2, x+3.\n* Their sum is 22: x + (x+1) + (x+2) + (x+3) = 22\n* Combine like terms: 4x + 6 = 22\n* Subtract 6 from both sides: 4x = 16\n* Divide both sides by 4: x = 4 \n* The original set of integers is: 4, 5, 6, 7\n**2. Increase each integer by 2:**\n* The new set of integers is: 6, 7, 8, 9\n**3. Multiply each integer by 20:**\n* The final set of integers is: 120, 140, 160, 180\n**4. Calculate the sum of the final set:**\n* 120 + 140 + 160 + 180 = **600**\n**Therefore, the sum of the new set of integers is 600.** \n",
+        "Here's how to solve this problem step-by-step:\n**1. Find the original integers:**\n* Let the first integer be represented by 'x'.\n* The next three consecutive integers are: x + 1, x + 2, and x + 3.\n* The sum of these integers is 22: x + (x + 1) + (x + 2) + (x + 3) = 22\n* Simplify: 4x + 6 = 22\n* Solve for x: 4x = 16,  x = 4\n* Therefore, the original set of integers is 4, 5, 6, and 7.\n**2. Increase each integer by 2:**\n* 4 + 2 = 6\n* 5 + 2 = 7\n* 6 + 2 = 8\n* 7 + 2 = 9\n**3. Multiply each increased integer by 20:**\n* 6 * 20 = 120\n* 7 * 20 = 140\n* 8 * 20 = 160\n* 9 * 20 = 180\n**4. Calculate the sum of the new set of integers:**\n* 120 + 140 + 160 + 180 = **600**\n**Therefore, the sum of the new set of integers is 600.** \n",
+        "Here's how to solve this problem step-by-step:\n**1. Find the original integers:**\n* Let the first integer be represented by 'x'.\n* The next three consecutive integers would be: x + 1, x + 2, and x + 3\n* The sum of these integers is 22: x + (x + 1) + (x + 2) + (x + 3) = 22\n* Simplify: 4x + 6 = 22\n* Solve for x: 4x = 16\n* x = 4 \n* Therefore, the original set of integers is 4, 5, 6, and 7.\n**2. Increase each integer by 2:**\n* 4 + 2 = 6\n* 5 + 2 = 7\n* 6 + 2 = 8\n* 7 + 2 = 9\n* The new set of integers is 6, 7, 8, and 9.\n**3. Multiply each integer by 20:**\n* 6 * 20 = 120\n* 7 * 20 = 140\n* 8 * 20 = 160\n* 9 * 20 = 180\n**4. Find the sum of the new set:**\n* 120 + 140 + 160 + 180 = **600**\n**Therefore, the sum of the new set of integers is 600.** \n",
+        "Here's how to solve this problem step-by-step:\n**1. Find the middle two integers:**\n* Since we have four consecutive integers, the sum of the middle two will be half the total sum: 22 / 2 = 11\n* The middle two integers must be 5 and 6 (since 5 + 6 = 11)\n**2. Determine the complete set:**\n* The four consecutive integers are: 4, 5, 6, 7\n**3. Increase each integer by 2:**\n* The new set becomes: 6, 7, 8, 9\n**4. Multiply each integer by 20:**\n* The new set becomes: 120, 140, 160, 180\n**5. Calculate the sum of the new set:**\n* The sum of the new set is 120 + 140 + 160 + 180 = **600**\n**Therefore, the sum of the new set of integers is 600.** \n"
+    ],
+    "pred_answers": "600",
+    "final_pred_answer": [
+        "600",
+        "600",
+        "600",
+        "600",
+        "600"
+    ],
+    "ground_truth": "600"
+}

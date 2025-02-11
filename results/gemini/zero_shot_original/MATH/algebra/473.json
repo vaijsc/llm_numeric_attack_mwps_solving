@@ -1,0 +1,23 @@
+{
+    "problem": "My usual workout consists of running 10 laps around a 400 meter track. If I go to a track that is only 250 meters long, how many laps will I need to run to get the same workout?",
+    "level": "Level 1",
+    "type": "Algebra",
+    "solution": "Since the total distance that I run is constant, the length of each lap and the total number of laps are inversely proportional. Consequently, if each lap is $\\frac{250}{400}=\\frac{5}{8}$ as long, I need to run $\\frac{8}{5}$ as many laps, so our answer is $\\frac{8}{5}\\cdot10=\\boxed{16}$ laps.",
+    "prompt": "### Instruction: My usual workout consists of running 10 laps around a 400 meter track. If I go to a track that is only 250 meters long, how many laps will I need to run to get the same workout?\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "Here's how to solve this:\n**1. Calculate the total distance of your usual workout:**\n* 10 laps * 400 meters/lap = 4000 meters\n**2. Determine how many laps you need on the shorter track:**\n* 4000 meters / 250 meters/lap = 16 laps\n**Answer:** You will need to run 16 laps on the 250-meter track to get the same workout. \n",
+        "Here's how to solve this step-by-step:\n1. **Calculate the total distance of your usual workout:** 10 laps * 400 meters/lap = 4000 meters\n2. **Determine how many laps you need on the shorter track:** 4000 meters / 250 meters/lap = 16 laps\n**Answer:** You will need to run **16 laps** on the 250-meter track to get the same workout as your usual 10 laps on the 400-meter track. \n",
+        "Here's how to figure that out step-by-step:\n1. **Calculate total distance on the 400m track:** You run 10 laps * 400 meters/lap = 4000 meters.\n2. **Find how many 250m laps equal 4000 meters:** 4000 meters / 250 meters/lap = 16 laps.\n**Answer:** You'll need to run 16 laps on the 250-meter track to get the same workout. \n",
+        "Here's how to figure that out step by step:\n1. **Calculate total distance:** Your usual workout is 10 laps * 400 meters/lap = 4000 meters.\n2. **Divide total distance by new track length:** 4000 meters / 250 meters/lap = 16 laps.\n**Answer:** You'll need to run 16 laps on the shorter track to get the same workout. \n",
+        "Here's how to figure that out:\n**1. Calculate the total distance of your usual workout:**\n* You run 10 laps * 400 meters/lap = 4000 meters\n**2. Determine how many laps you need on the shorter track:**\n* Divide the total distance by the length of the shorter track: 4000 meters / 250 meters/lap = 16 laps\n**Answer:** You will need to run 16 laps on the 250-meter track to get the same workout. \n"
+    ],
+    "pred_answers": "16",
+    "final_pred_answer": [
+        "16",
+        "16",
+        "16",
+        "16",
+        "16"
+    ],
+    "ground_truth": "16"
+}

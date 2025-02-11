@@ -1,0 +1,23 @@
+{
+    "problem": "If $|4x+2|=10$ and $x<0$, what is the value of $x$?",
+    "level": "Level 2",
+    "type": "Algebra",
+    "solution": "The absolute value of a number equals 10 if the number is either 10 or $-10$.  Setting $4x+2=10$ and $4x+2=-10$, we find solutions of $x=2$ and $x=-3$.  Only the solution $x=\\boxed{-3}$ satisfies $x<0$.",
+    "prompt": "### Instruction: If $|4x+2|=10$ and $x<0$, what is the value of $x$?\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "Here's how to solve the problem step-by-step:\n**1. Understand Absolute Value**\nThe absolute value of a number is its distance from zero, always represented as a positive number. So,  |4x + 2| = 10 means:\n*  4x + 2 = 10 \n* OR \n* 4x + 2 = -10\n**2. Solve for x in both cases**\n* **Case 1: 4x + 2 = 10**\n   * Subtract 2 from both sides: 4x = 8\n   * Divide both sides by 4: x = 2\n* **Case 2: 4x + 2 = -10**\n   * Subtract 2 from both sides: 4x = -12\n   * Divide both sides by 4: x = -3\n**3. Apply the Restriction**\nThe problem states that x < 0.  Therefore, the solution x = 2 is not valid. \n**4. Final Answer**\nThe value of x that satisfies the equation and the restriction is **x = -3**. \n",
+        "Here's how to solve the problem step-by-step:\n**1. Understand Absolute Value:**\nThe absolute value of a number is its distance from zero, always a positive value.  So,  |4x + 2| = 10 means:\n*  4x + 2 = 10 \n*  OR \n*  4x + 2 = -10\n**2. Solve for x in each case:**\n* **Case 1:** 4x + 2 = 10\n    * Subtract 2 from both sides: 4x = 8\n    * Divide both sides by 4: x = 2\n* **Case 2:** 4x + 2 = -10\n    * Subtract 2 from both sides: 4x = -12\n    * Divide both sides by 4: x = -3\n**3. Consider the Condition x < 0:**\nWe are given that x < 0.  Therefore, the solution x = 2 is not valid.\n**Answer:**\nThe value of x that satisfies the given conditions is **x = -3**. \n",
+        "Here's how to solve the problem step-by-step:\n**1. Understand Absolute Value:**\n* The absolute value of a number is its distance from zero, always a positive value. \n*  So,  |4x + 2| = 10 means  (4x + 2) is either 10 units to the right of zero or 10 units to the left of zero.\n**2. Set up Two Equations:**\n* **Case 1: (4x + 2) is positive**\n   * 4x + 2 = 10 \n* **Case 2: (4x + 2) is negative**\n   * -(4x + 2) = 10\n**3. Solve Each Equation:**\n* **Case 1:**\n   * 4x = 8\n   * x = 2 \n* **Case 2:**\n   * -4x - 2 = 10\n   * -4x = 12\n   * x = -3\n**4. Determine the Correct Solution:**\n* We are given that x < 0.  Therefore, the correct solution is x = **-3**. \n",
+        "Here's how to solve the problem step-by-step:\n**1. Understand Absolute Value**\nThe absolute value of a number is its distance from zero.  This means that  |4x + 2| = 10  has two possible solutions:\n* **Case 1:** 4x + 2 = 10\n* **Case 2:** 4x + 2 = -10\n**2. Solve for x in each case**\n* **Case 1:** \n   * 4x + 2 = 10\n   * 4x = 8\n   * x = 2 \n* **Case 2:**\n   * 4x + 2 = -10\n   * 4x = -12\n   * x = -3\n**3. Choose the correct solution**\nThe problem states that x < 0.  Therefore, the correct solution is **x = -3**. \n",
+        "Here's how to solve the problem step-by-step:\n1. **Understand Absolute Value:** The absolute value of a number is its distance from zero.  So,  |4x + 2| = 10 means that  4x + 2 is either 10 units away from zero in the positive direction or 10 units away from zero in the negative direction.\n2. **Set up Two Equations:**  We need to consider both possibilities:\n   * **Case 1:** 4x + 2 = 10\n   * **Case 2:** 4x + 2 = -10\n3. **Solve for x in Each Case:**\n   * **Case 1:** \n      * Subtract 2 from both sides: 4x = 8\n      * Divide both sides by 4: x = 2 \n   * **Case 2:**\n      * Subtract 2 from both sides: 4x = -12\n      * Divide both sides by 4: x = -3\n4. **Choose the Correct Solution:** Since we are given that x < 0, the solution x = -3 is the correct answer.\n**Therefore, the value of x is -3.** \n"
+    ],
+    "pred_answers": "-3",
+    "final_pred_answer": [
+        "-3",
+        "-3",
+        "-3",
+        "-3",
+        "-3"
+    ],
+    "ground_truth": "0"
+}

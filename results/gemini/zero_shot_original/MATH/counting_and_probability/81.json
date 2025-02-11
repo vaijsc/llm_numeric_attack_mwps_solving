@@ -1,0 +1,23 @@
+{
+    "problem": "What is the value of $82^3 + 3(82^2)(18) + 3(82)(18^2) + 18^3$?  (No calculators!  And see if you can do it in your head!)",
+    "level": "Level 2",
+    "type": "Counting & Probability",
+    "solution": "The given expression is the expansion of $(82+18)^3$.  In general, the cube of $(x+y)$ is \\[(x+y)^3 = 1x^3+3x^2y+3xy^2+1y^3.\\]The first and last terms in the given expression are cubes and the middle two terms both have coefficient 3, giving us a clue that this is a cube of a binomial and can be written in the form \\[(x+y)^3\\]In this case, $x=82$ and $y=18$, so our answer is\\[(82+18)^3\\ = 100^3 = \\boxed{1,\\!000,\\!000}\\]",
+    "prompt": "### Instruction: What is the value of $82^3 + 3(82^2)(18) + 3(82)(18^2) + 18^3$?  (No calculators!  And see if you can do it in your head!)\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "This expression looks complicated, but it has a very nice pattern!  Notice that it's almost the expansion of  $(82 + 18)^3$. Let's see why:\n* **The pattern:** The expression resembles the cube of a binomial: $(a + b)^3 = a^3 + 3a^2b + 3ab^2 + b^3$.\n* **Matching terms:**  If we let $a = 82$ and $b = 18$, the terms in our expression perfectly match the terms in the expansion of $(a + b)^3$.\n**Therefore:**\n$82^3 + 3(82^2)(18) + 3(82)(18^2) + 18^3 = (82 + 18)^3 = 100^3 = \\boxed{1,000,000}$. \n",
+        "This expression looks complicated, but it's actually a disguised form of a simple concept: **the cube of a binomial**.\n**Here's how to recognize it:**\n*  Notice the pattern of the exponents: 3, 2, 1, 0 for the first term, 82, and 0, 1, 2, 3 for the second term, 18.\n* The coefficients 3, 3, and 1 match the coefficients in the binomial cube expansion: (a + b)\u00b3 = a\u00b3 + 3a\u00b2b + 3ab\u00b2 + b\u00b3.\n**The Solution:**\nTherefore, the given expression is simply:\n(82 + 18)\u00b3 = 100\u00b3 = **1,000,000** \n",
+        "This problem is designed to be solved without a calculator by recognizing a pattern.  Notice that the expression looks very similar to the expansion of a cube:\n*  $(a + b)^3 = a^3 + 3a^2b + 3ab^2 + b^3$\nIf we let $a = 82$ and $b = 18$, we see that the given expression is exactly the expanded form of $(82 + 18)^3$.  Therefore:\n$82^3 + 3(82^2)(18) + 3(82)(18^2) + 18^3 = (82 + 18)^3 = 100^3 = \\boxed{1,\\!000,\\!000}$. \n",
+        "This expression looks complicated, but it's actually a disguised form of a familiar pattern.  Let's break it down:\n* **Recognize the pattern:** The expression resembles the expansion of a cube:  (a + b)\u00b3 = a\u00b3 + 3a\u00b2b + 3ab\u00b2 + b\u00b3\n* **Apply the pattern:** If we let a = 82 and b = 18, our expression becomes:\n    (82 + 18)\u00b3\n* **Simplify:**  (82 + 18)\u00b3 = 100\u00b3 = 1,000,000\n**Therefore, the value of the expression is 1,000,000.** \n",
+        "This expression looks complicated, but it's actually a disguised form of a simple pattern!  Here's how to solve it:\n**Recognize the Pattern**\nThe expression looks a lot like the expansion of a binomial cubed:\n*  (a + b)\u00b3 = a\u00b3 + 3a\u00b2b + 3ab\u00b2 + b\u00b3\n**Match the Variables**\nIf we let:\n* a = 82\n* b = 18\nWe can see that the given expression exactly matches the expanded form of (a + b)\u00b3.\n**Calculate the Result**\nTherefore:\n82\u00b3 + 3(82\u00b2)(18) + 3(82)(18\u00b2) + 18\u00b3 = (82 + 18)\u00b3 = 100\u00b3 = **1,000,000** \n"
+    ],
+    "pred_answers": "1000000",
+    "final_pred_answer": [
+        "1000000",
+        "1000000",
+        "000",
+        "1000000",
+        "1000000"
+    ],
+    "ground_truth": "000"
+}

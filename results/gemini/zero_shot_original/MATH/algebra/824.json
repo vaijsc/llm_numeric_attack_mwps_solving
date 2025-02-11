@@ -1,0 +1,23 @@
+{
+    "problem": "Compute $115^2$ in your head.",
+    "level": "Level 1",
+    "type": "Algebra",
+    "solution": "We have $115^2=(110 + 5)^2 = 110^2 + 2(110)(5) +5^2 = 12100 + 1100 + 25 = \\boxed{13225}$.",
+    "prompt": "### Instruction: Compute $115^2$ in your head.\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "Here's how to compute $115^2$ in your head:\n**1. Recognize the pattern:**\n* 115 is close to 100.  We can use this to our advantage.\n**2.  Break down the problem:**\n* Think of 115 as (100 + 15). \n* Squaring this: (100 + 15)\u00b2 = 100\u00b2 + 2(100)(15) + 15\u00b2\n**3. Calculate each part:**\n* 100\u00b2 = 10,000\n* 2(100)(15) = 3,000\n* 15\u00b2 = 225 \n**4. Add the parts together:**\n* 10,000 + 3,000 + 225 = 13,225\n**Therefore, 115\u00b2 = 13,225** \n",
+        "Here's how to compute 115\u00b2 in your head:\n**1. Recognize the pattern:** 115 is close to 100, which makes mental calculation easier.\n**2. Break it down:**\n   *  Think of 115 as (100 + 15)\n**3. Expand using the distributive property (or FOIL):**\n   * (100 + 15)\u00b2 = (100 + 15)(100 + 15)\n   * = 100 * 100 + 100 * 15 + 15 * 100 + 15 * 15\n**4. Simplify:**\n   * 10000 + 1500 + 1500 + 225\n**5. Combine terms:**\n   * 13225\n**Therefore, 115\u00b2 = 13225** \n",
+        "Here's how to compute 115\u00b2 in your head:\n**1. Recognize the Pattern:**\n* 115 is close to 100, and squaring numbers close to 100 has a nice pattern.\n**2. Break it Down:**\n*  115 = 100 + 15 \n**3. Apply the Pattern:**\n*  (100 + 15)\u00b2 = 100\u00b2 + (2 * 100 * 15) + 15\u00b2\n**4. Simplify:**\n*  100\u00b2 = 10,000\n*  2 * 100 * 15 = 3,000\n*  15\u00b2 = 225\n**5. Add the Parts:**\n*  10,000 + 3,000 + 225 = 13,225\n**Therefore, 115\u00b2 = 13,225** \n",
+        "Here's how to compute 115\u00b2 in your head:\n**1. Recognize the pattern:** 115 is close to 100, a number that's easy to square. \n**2.  Break it down:**\n   * 115 = 100 + 15\n**3. Square the sum:**\n   *  (100 + 15)\u00b2 = 100\u00b2 + (2 * 100 * 15) + 15\u00b2\n**4.  Calculate each term:**\n   * 100\u00b2 = 10,000\n   * 2 * 100 * 15 = 3,000\n   * 15\u00b2 = 225  (you might know this one, or use 15 * 15 = (10 + 5)(10 + 5) = 100 + 50 + 50 + 25)\n**5.  Add the terms:**\n   * 10,000 + 3,000 + 225 = 13,225\n**Therefore, 115\u00b2 = 13,225** \n",
+        "Here's how to compute 115\u00b2 in your head:\n**1.  Recognize the pattern:** 115 is close to 100, which makes this easier.\n**2. Break it down:**  \n   * Think of 115 as (100 + 15). \n**3. Expand the square:**\n   * (100 + 15)\u00b2 = 100\u00b2 + 2(100)(15) + 15\u00b2 \n**4. Simplify:**\n   * 100\u00b2 = 10,000\n   * 2(100)(15) = 3,000\n   * 15\u00b2 = 225\n**5. Add the parts:**\n   * 10,000 + 3,000 + 225 = 13,225\n**Therefore, 115\u00b2 = 13,225** \n"
+    ],
+    "pred_answers": "13225",
+    "final_pred_answer": [
+        "13225",
+        "13225",
+        "13225",
+        "13225",
+        "13225"
+    ],
+    "ground_truth": "13225"
+}

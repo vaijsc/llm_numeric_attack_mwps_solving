@@ -1,0 +1,23 @@
+{
+    "problem": "Evaluate $(x+ y)(x-y)$ when $x= 15$ and $y= 5$.",
+    "level": "Level 1",
+    "type": "Algebra",
+    "solution": "We have $(x+y)(x-y) = (15+5)(15-5) = (20)(10) = \\boxed{200}$.",
+    "prompt": "### Instruction: Evaluate $(x+ y)(x-y)$ when $x= 15$ and $y= 5$.\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "1. **Substitute the values:**  Since $x=15$ and $y=5$, we have:\n   (15 + 5)(15 - 5)\n2. **Simplify inside the parentheses:**\n   (20)(10)\n3. **Multiply:**\n   200\nTherefore, $(x+y)(x-y) = \\boxed{200}$ when $x=15$ and $y=5$. \n",
+        "Here's how to evaluate the expression step-by-step:\n1. **Substitute the values:**  Since we know  *x = 15* and *y = 5*, we can substitute them into the expression: \n   (15 + 5)(15 - 5)\n2. **Simplify inside the parentheses:**\n   (20)(10)\n3. **Multiply:**\n   200\n**Therefore, (x + y)(x - y) = 200 when x = 15 and y = 5.** \n",
+        "Here's how to evaluate the expression step-by-step:\n1. **Substitute the values:** \n   We are given that  x = 15 and y = 5. Substitute these values into the expression:\n   (15 + 5)(15 - 5)\n2. **Simplify inside the parentheses:**\n   (20)(10)\n3. **Multiply:**\n   200\n**Therefore,  (x + y)(x - y) = 200 when x = 15 and y = 5.** \n",
+        "Here's how to solve the problem step-by-step:\n1. **Substitute the values:**\n   We are given that  x = 15 and y = 5.  Substitute these values into the expression:\n   (15 + 5)(15 - 5)\n2. **Simplify inside the parentheses:**\n   (20)(10)\n3. **Multiply:**\n   200\n**Therefore, (x + y)(x - y) = 200 when x = 15 and y = 5.** \n",
+        "Here's how to evaluate the expression step-by-step:\n1. **Substitute:** Replace  *x* with 15 and *y* with 5 in the expression:\n   (15 + 5)(15 - 5)\n2. **Simplify inside the parentheses:**\n   (20)(10)\n3. **Multiply:**\n   200\n**Therefore, (x + y)(x - y) = 200 when x = 15 and y = 5.** \n"
+    ],
+    "pred_answers": "5",
+    "final_pred_answer": [
+        "5",
+        "5",
+        "5",
+        "5",
+        "5"
+    ],
+    "ground_truth": "200"
+}

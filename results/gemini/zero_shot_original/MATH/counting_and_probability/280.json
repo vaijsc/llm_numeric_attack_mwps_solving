@@ -1,0 +1,23 @@
+{
+    "problem": "Alyssa has four marbles: a red one, a blue one, a green one, and a yellow one. In how many different ways can she form a set consisting of some of the marbles if she must choose at least one marble?  (In a set of chosen marbles, it does not matter in what order she chose the marbles.)",
+    "level": "Level 3",
+    "type": "Counting & Probability",
+    "solution": "Each of the four marbles can either be in Alyssa's set, or not.  That gives two possibilities for each marble, for a total of $2^4=16$ possible sets.  However, we are told the set must have at least one marble.  We need to subtract one to eliminate the case of an empty set, which we counted.  Our final answer is $16-1=\\boxed{15}$ sets.",
+    "prompt": "### Instruction: Alyssa has four marbles: a red one, a blue one, a green one, and a yellow one. In how many different ways can she form a set consisting of some of the marbles if she must choose at least one marble?  (In a set of chosen marbles, it does not matter in what order she chose the marbles.)\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "Here's how to solve this problem step by step:\n* **Consider all possible subsets:**  Alyssa can choose 1 marble, 2 marbles, 3 marbles, or all 4 marbles. \n* **Calculate the number of choices for each case:**\n    * **1 marble:** She has 4 choices (red, blue, green, yellow).\n    * **2 marbles:** She has 6 choices (red-blue, red-green, red-yellow, blue-green, blue-yellow, green-yellow).\n    * **3 marbles:** She has 4 choices (red-blue-green, red-blue-yellow, red-green-yellow, blue-green-yellow).\n    * **4 marbles:** She has 1 choice (all four marbles).\n* **Add up the choices:**  4 + 6 + 4 + 1 = **15**\n**Therefore, Alyssa can form a set of marbles in 15 different ways.** \n",
+        "Here's how to solve this problem step-by-step:\n* **Consider all the possibilities:** Alyssa can choose 1, 2, 3, or all 4 marbles.\n* **Calculate the number of ways for each possibility:**\n    * **1 marble:** She has 4 choices (red, blue, green, yellow).\n    * **2 marbles:** She has 6 choices (red-blue, red-green, red-yellow, blue-green, blue-yellow, green-yellow).\n    * **3 marbles:** She has 4 choices (red-blue-green, red-blue-yellow, red-green-yellow, blue-green-yellow).\n    * **4 marbles:** She has 1 choice (red-blue-green-yellow).\n* **Add up the possibilities:** 4 + 6 + 4 + 1 = **15**\n**Therefore, Alyssa can form a set of marbles in 15 different ways.** \n",
+        "Here's how to solve this problem step-by-step:\n**1. Consider all possible subsets:**\n* **No marbles:** This isn't allowed because Alyssa must choose at least one.\n* **One marble:** She has 4 choices (red, blue, green, yellow).\n* **Two marbles:** She has 6 choices: \n    * Red-Blue, Red-Green, Red-Yellow\n    * Blue-Green, Blue-Yellow\n    * Green-Yellow\n* **Three marbles:** She has 4 choices: \n    * Red-Blue-Green, Red-Blue-Yellow\n    * Red-Green-Yellow\n    * Blue-Green-Yellow\n* **Four marbles:** She has 1 choice: Red-Blue-Green-Yellow\n**2. Count the total possibilities:**\nAlyssa has a total of 4 + 6 + 4 + 1 = **15** different ways to form a set of marbles. \n",
+        "Here's how to solve this problem step-by-step:\n**1.  Consider all possible subsets**\n* She can choose 1 marble (4 options: red, blue, green, yellow)\n* She can choose 2 marbles (6 options: red-blue, red-green, red-yellow, blue-green, blue-yellow, green-yellow)\n* She can choose 3 marbles (4 options: red-blue-green, red-blue-yellow, red-green-yellow, blue-green-yellow)\n* She can choose all 4 marbles (1 option: red-blue-green-yellow)\n**2. Calculate the total number of ways**\nAdd up the number of ways to choose each number of marbles: 4 + 6 + 4 + 1 = **15**\n**Therefore, Alyssa can form a set of marbles in 15 different ways.** \n",
+        "Here's how we can solve this step-by-step:\n* **Think about the possibilities:** Alyssa can choose 1 marble, 2 marbles, 3 marbles, or all 4 marbles.\n* **Calculate the possibilities for each case:**\n    * **1 marble:** She has 4 choices (red, blue, green, yellow).\n    * **2 marbles:** She has  \u2076C\u2082 = (4 * 3) / (2 * 1) = 6 choices. (This is a combination, not a permutation, since order doesn't matter).\n    * **3 marbles:** She has \u2074C\u2083 = (4 * 3 * 2) / (3 * 2 * 1) = 4 choices.\n    * **4 marbles:** She has \u2074C\u2084 = 1 choice (she has to choose all of them).\n* **Add up all the possibilities:** 4 + 6 + 4 + 1 = **15**\n**Therefore, Alyssa can form a set of marbles in 15 different ways.** \n"
+    ],
+    "pred_answers": "15",
+    "final_pred_answer": [
+        "15",
+        "15",
+        "15",
+        "15",
+        "15"
+    ],
+    "ground_truth": "15"
+}

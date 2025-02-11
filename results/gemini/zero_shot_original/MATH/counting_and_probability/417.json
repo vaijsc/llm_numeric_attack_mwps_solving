@@ -1,0 +1,23 @@
+{
+    "problem": "A teacher has made ten statements for a True-False test. Four statements are true and six are false. How many distinct answer keys could there be for the test?",
+    "level": "Level 3",
+    "type": "Counting & Probability",
+    "solution": "There are $\\binom{10}{4}=\\boxed{210\\text{ ways}}$ to choose four of the answers to be the true answers.",
+    "prompt": "### Instruction: A teacher has made ten statements for a True-False test. Four statements are true and six are false. How many distinct answer keys could there be for the test?\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "Here's how to solve this problem:\n**Understanding the Problem**\nWe need to figure out how many different ways we can arrange four \"T\" (True) and six \"F\" (False) to create answer keys.  \n**Solution**\n* **Total positions:** We have 10 statements, so there are 10 positions in our answer key.\n* **Choosing the true statements:** We need to choose 4 out of the 10 positions to be \"T\". This is a combination problem, represented by  \u00b9\u2070C\u2084 (10 choose 4).\n* **Calculating the combinations:** \n   *  \u00b9\u2070C\u2084 = 10! / (4! * 6!) = (10 * 9 * 8 * 7) / (4 * 3 * 2 * 1) = 210\n**Answer:** There are **210** distinct answer keys possible for the test. \n",
+        "Here's how to solve this problem:\n**1. Choosing True Statements:**\n* The teacher needs to select 4 true statements out of 10.  This is a combination problem, as the order doesn't matter.  We use the formula: \n   *  \u00b9\u2070C\u2084 = 10! / (4! * 6!) = 210\n**2.  The Rest are False:**\n* Once the 4 true statements are chosen, the remaining 6 statements automatically become false. \n**Therefore, there are 210 distinct answer keys possible for the test.** \n",
+        "Here's how to solve this problem:\n* **Choosing True Statements:**  The teacher needs to choose 4 statements out of 10 to be true.  This is a combination problem, as the order we choose the true statements doesn't matter. We use the formula: \u2081\u2080C\u2084 = (10!)/(4!6!) = 210. \n* **The Rest are False:** Once we've chosen the 4 true statements, the remaining 6 automatically become false.\n**Therefore, there are 210 distinct answer keys possible for this True-False test.** \n",
+        "Here's how to solve this problem:\n* **Choosing True Statements:** The teacher needs to choose 4 true statements out of 10.  This can be done in  \u00b9\u2070C\u2084 ways, which is calculated as: 10! / (4! * 6!) = 210\n* **Choosing False Statements:** The remaining 6 statements must be false.  Since we've already chosen the true statements, there's only one way to choose the false statements.\n* **Total Answer Keys:**  To get the total number of distinct answer keys, we multiply the number of ways to choose true statements by the number of ways to choose false statements: 210 * 1 = **210**\n**Therefore, there are 210 distinct answer keys possible for this True-False test.** \n",
+        "Here's how to solve this problem:\n**1. Choosing the True Statements:**\n* The teacher needs to choose 4 true statements out of 10.  This is a combination problem, as the order we choose the true statements doesn't matter.\n* The number of ways to choose 4 true statements out of 10 is given by:  \u00b9\u2070C\u2084 = (10!)/(4!6!) = 210\n**2. The Remaining Statements are False:**\n* Once we've chosen the 4 true statements, the remaining 6 statements must be false. There's only one way to do this.\n**3. Total Distinct Answer Keys:**\n* To get the total number of distinct answer keys, we multiply the number of ways to choose the true statements by the number of ways to determine the false statements: 210 * 1 = **210**\n**Therefore, there are 210 distinct answer keys possible for this True-False test.** \n"
+    ],
+    "pred_answers": "210",
+    "final_pred_answer": [
+        "210",
+        "210",
+        "210",
+        "210",
+        "210"
+    ],
+    "ground_truth": "210"
+}

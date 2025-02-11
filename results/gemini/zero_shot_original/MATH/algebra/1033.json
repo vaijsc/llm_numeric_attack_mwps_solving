@@ -1,0 +1,23 @@
+{
+    "problem": "The quadratic $x^2+(2.6)x+3.6$ can be written in the form $(x+b)^2+c$, where $b$ and $c$ are constants. What is $b+c$ (as a decimal)?",
+    "level": "Level 4",
+    "type": "Algebra",
+    "solution": "We complete the square.\n\nWe have $(x+1.3)^2 = x^2 + (2.6)x + 1.69$, and so\n\n\\begin{align*}\nx^2+(2.6)x+3.6 &= (x+1.3)^2 - 1.69 + 3.6 \\\\\n&= (x+1.3)^2 + 1.91.\n\\end{align*}Therefore, $b=1.3$ and $c=1.91$, which gives us $b+c = \\boxed{3.21}$.",
+    "prompt": "### Instruction: The quadratic $x^2+(2.6)x+3.6$ can be written in the form $(x+b)^2+c$, where $b$ and $c$ are constants. What is $b+c$ (as a decimal)?\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "Here's how to solve the problem step-by-step:\n**1. Expand the form (x + b)\u00b2 + c:**\n(x + b)\u00b2 + c = x\u00b2 + 2bx + b\u00b2 + c\n**2. Match coefficients with the original quadratic:**\nWe want this to equal our original quadratic: x\u00b2 + (2.6)x + 3.6\n* **Coefficients of x\u00b2:**  The coefficients match (1 on both sides).\n* **Coefficients of x:**  2bx = (2.6)x.  Therefore, 2b = 2.6, so b = 1.3.\n* **Constant terms:** b\u00b2 + c = 3.6\n**3. Solve for c:**\n* Substitute b = 1.3 into the equation b\u00b2 + c = 3.6:\n   (1.3)\u00b2 + c = 3.6\n   1.69 + c = 3.6\n   c = 1.91\n**4. Calculate b + c:**\nb + c = 1.3 + 1.91 = **3.21** \n",
+        "Here's how to solve the problem step-by-step:\n**1.  Expand the expression (x + b)^2 + c**\n   (x + b)^2 + c  =  x^2 + 2bx + b^2 + c\n**2.  Match coefficients**\n   We want this expression to be equal to x^2 + 2.6x + 3.6.  Matching coefficients, we get:\n   * 2b = 2.6 \n   * b^2 + c = 3.6\n**3. Solve for b**\n   From the equation 2b = 2.6, we get b = 1.3\n**4. Solve for c**\n   Substitute b = 1.3 into the equation b^2 + c = 3.6:\n   (1.3)^2 + c = 3.6\n   1.69 + c = 3.6\n   c = 1.91\n**5. Calculate b + c**\n   b + c = 1.3 + 1.91 = **3.21** \n",
+        "Here's how to solve the problem step-by-step:\n**1. Expanding the Target Form**\nStart by expanding the target form: \n  \n  (x + b)\u00b2 + c = x\u00b2 + 2bx + b\u00b2 + c\n**2. Matching Coefficients**\nNow we need to match the coefficients of the given quadratic (x\u00b2 + 2.6x + 3.6) with the expanded form:\n* **x\u00b2 term:**  The coefficient of x\u00b2 is 1 in both expressions, so we're good there.\n* **x term:** We have 2bx = 2.6x.  Therefore, 2b = 2.6, and b = 1.3.\n* **Constant term:**  We have b\u00b2 + c = 3.6.\n**3. Finding c**\nSince we know b = 1.3, we can substitute it into the equation b\u00b2 + c = 3.6:\n(1.3)\u00b2 + c = 3.6\n1.69 + c = 3.6\nc = 3.6 - 1.69\nc = 1.91\n**4. Calculating b + c**\nFinally,  b + c = 1.3 + 1.91 = **3.21** \n",
+        "Here's how to solve the problem step-by-step:\n**1. Expand the expression (x + b)\u00b2 + c**\nExpanding the square gives us: \n(x + b)\u00b2 + c = x\u00b2 + 2bx + b\u00b2 + c\n**2. Match coefficients**\nWe want to make this expression equal to our original quadratic:\nx\u00b2 + 2bx + b\u00b2 + c = x\u00b2 + (2.6)x + 3.6\nMatching the coefficients of the x terms, we have:\n2bx = (2.6)x\nTherefore, b = 2.6 / 2 = 1.3\n**3. Solve for c**\nMatching the constant terms, we have:\nb\u00b2 + c = 3.6\nSubstitute the value of b we found:\n(1.3)\u00b2 + c = 3.6\n1.69 + c = 3.6\nc = 3.6 - 1.69 = 1.91\n**4. Calculate b + c**\nFinally, add b and c:\nb + c = 1.3 + 1.91 = **3.21** \n",
+        "Here's how to solve the problem:\n**1. Expanding the Square**\nStart by expanding the expression $(x+b)^2+c$:\n$(x+b)^2+c = x^2 + 2bx + b^2 + c$\n**2. Matching Coefficients**\nWe want this expression to be equal to the given quadratic: \n  \n$x^2 + 2bx + b^2 + c = x^2 + (2.6)x + 3.6$\nFor these expressions to be equal, the coefficients of each term must match.  This gives us two equations:\n* **Equation 1:**  2b = 2.6 \n* **Equation 2:** b\u00b2 + c = 3.6\n**3. Solving for b and c**\n* **Solve for b:** Divide both sides of Equation 1 by 2: \n  b = 1.3\n* **Solve for c:** Substitute the value of b into Equation 2:\n   (1.3)\u00b2 + c = 3.6\n   1.69 + c = 3.6\n   c = 1.91\n**4. Finding b + c**\nFinally, calculate b + c:\nb + c = 1.3 + 1.91 = **3.21** \n"
+    ],
+    "pred_answers": "3.21",
+    "final_pred_answer": [
+        "3.21",
+        "3.21",
+        "3.21",
+        "3.21",
+        "3.21"
+    ],
+    "ground_truth": "3.21"
+}

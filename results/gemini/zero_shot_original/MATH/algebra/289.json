@@ -1,0 +1,23 @@
+{
+    "problem": "The ratio of teachers to students in a particular school is 1 to 11. The ratio of female students to the total number of students is 4 to 9. If there are 396 female students, how many teachers are there?",
+    "level": "Level 2",
+    "type": "Algebra",
+    "solution": "Since female students make up $\\frac{4}{9}$ of the total student body, multiply 396 by $\\frac{9}{4}$ to find how many students there are total.  That yields 891 students total, and since there are 11 times as many students, divide 891 by 11 to obtain $\\boxed{81\\text{ teachers}}$ total.",
+    "prompt": "### Instruction: The ratio of teachers to students in a particular school is 1 to 11. The ratio of female students to the total number of students is 4 to 9. If there are 396 female students, how many teachers are there?\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "Here's how to solve this problem step-by-step:\n**1. Find the total number of students:**\n* Since the ratio of female students to total students is 4:9, and there are 396 female students,  we can set up a proportion: \n   4/9 = 396/x  (where x is the total number of students)\n* Cross-multiply: 4 * x = 9 * 396\n* Simplify: 4x = 3564\n* Solve for x: x = 3564 / 4 = 891 \n**2. Find the number of teachers:**\n* The ratio of teachers to students is 1:11. \n* Set up a proportion: 1/11 = y/891 (where y is the number of teachers)\n* Cross-multiply: 1 * 891 = 11 * y\n* Simplify: 891 = 11y\n* Solve for y: y = 891 / 11 = 81\n**Therefore, there are 81 teachers at the school.** \n",
+        "Here's how to solve the problem step-by-step:\n**1. Find the total number of students:**\n* Since the ratio of female students to total students is 4:9, and there are 396 female students, we can set up a proportion: \n   4/9 = 396/x  (where x is the total number of students)\n* Cross-multiply: 4 * x = 9 * 396\n* Simplify: 4x = 3564\n* Solve for x: x = 3564 / 4 = 891\n**2. Find the number of teachers:**\n* The ratio of teachers to students is 1:11. \n* Since we know there are 891 students, we can set up another proportion:\n   1/11 = y/891 (where y is the number of teachers)\n* Cross-multiply: 1 * 891 = 11 * y\n* Simplify: 891 = 11y\n* Solve for y: y = 891 / 11 = 81\n**Therefore, there are 81 teachers in the school.** \n",
+        "Here's how to solve this problem step-by-step:\n**1. Find the total number of students:**\n* Since the ratio of female students to total students is 4:9, and we know there are 396 female students, we can set up a proportion: \n   4/9 = 396/x  (where x is the total number of students)\n* Cross-multiply: 4 * x = 9 * 396\n* Simplify: 4x = 3564\n* Solve for x: x = 3564 / 4 = 891\n**2. Find the number of teachers:**\n* The ratio of teachers to students is 1:11.  \n* We know there are 891 students, so we can set up another proportion:\n   1/11 = y/891 (where y is the number of teachers)\n* Cross-multiply: 1 * 891 = 11 * y\n* Simplify: 891 = 11y\n* Solve for y: y = 891 / 11 = 81\n**Therefore, there are 81 teachers in the school.** \n",
+        "Here's how to solve the problem step-by-step:\n**1. Find the total number of students:**\n* Since the ratio of female students to total students is 4:9, we can set up a proportion: 4/9 = 396/x  (where x is the total number of students)\n* Cross-multiply: 4 * x = 9 * 396\n* Simplify: 4x = 3564\n* Solve for x: x = 3564 / 4 = 891 \n**2. Find the number of teachers:**\n* The ratio of teachers to students is 1:11.\n* Set up a proportion: 1/11 = y/891 (where y is the number of teachers)\n* Cross-multiply: 1 * 891 = 11 * y\n* Simplify: 891 = 11y\n* Solve for y: y = 891 / 11 = 81\n**Therefore, there are 81 teachers in the school.** \n",
+        "Here's how to solve the problem step-by-step:\n**1. Find the total number of students:**\n* Since the ratio of female students to total students is 4:9, and there are 396 female students, we can set up a proportion: \n   * 4/9 = 396/x  (where 'x' is the total number of students)\n* Cross-multiply: 4 * x = 9 * 396\n* Simplify: 4x = 3564\n* Solve for x: x = 3564 / 4 = 891 total students\n**2. Find the number of teachers:**\n* The ratio of teachers to students is 1:11.\n* Set up another proportion: 1/11 = y/891 (where 'y' is the number of teachers)\n* Cross-multiply: 1 * 891 = 11 * y\n* Simplify: 891 = 11y\n* Solve for y: y = 891 / 11 = 81 teachers\n**Answer:** There are **81** teachers in the school. \n"
+    ],
+    "pred_answers": "81",
+    "final_pred_answer": [
+        "81",
+        "81",
+        "81",
+        "81",
+        "81"
+    ],
+    "ground_truth": "81"
+}

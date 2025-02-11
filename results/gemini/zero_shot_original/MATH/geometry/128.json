@@ -1,0 +1,23 @@
+{
+    "problem": "The diameter of a cone is 30 decimeters. If the height is two times the radius, what is the volume of the cone in cubic decimeters?",
+    "level": "Level 3",
+    "type": "Geometry",
+    "solution": "If the diameter of the cone is $30$ decimeters, then the radius is $r=30/2=15$ decimeters. The height is two times the radius, so the height is $h=30$ decimeters. The volume of the cones is $\\frac13 (\\pi r^2) h = \\frac13 (\\pi 15^2) \\cdot 30 = \\boxed{2250\\pi}$ cubic decimeters.",
+    "prompt": "### Instruction: The diameter of a cone is 30 decimeters. If the height is two times the radius, what is the volume of the cone in cubic decimeters?\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "Here's how to solve this problem step-by-step:\n**1. Find the radius:**\n* The diameter is 30 decimeters, so the radius is half of that: 30 dm / 2 = 15 dm\n**2. Find the height:**\n* The height is two times the radius: 15 dm * 2 = 30 dm\n**3. Calculate the volume:**\n* The formula for the volume of a cone is (1/3) * \u03c0 * r\u00b2 * h\n* Plug in the values: (1/3) * \u03c0 * (15 dm)\u00b2 * 30 dm \n* Simplify: (1/3) * \u03c0 * 225 dm\u00b2 * 30 dm \n* Calculate: 75\u03c0 dm\u00b3 \n**Therefore, the volume of the cone is 75\u03c0 cubic decimeters.** \n",
+        "Here's how to solve this problem step-by-step:\n**1. Find the radius:**\n* The diameter is 30 decimeters, so the radius is half of that: 30 dm / 2 = 15 dm\n**2. Find the height:**\n* The height is two times the radius: 15 dm * 2 = 30 dm\n**3. Calculate the volume:**\n* The formula for the volume of a cone is (1/3) * \u03c0 * r\u00b2 * h\n* Substitute the values: (1/3) * \u03c0 * (15 dm)\u00b2 * 30 dm \n* Simplify: (1/3) * \u03c0 * 225 dm\u00b2 * 30 dm\n* Calculate: 2250\u03c0 dm\u00b3 (approximately 7068.58 dm\u00b3)\n**Therefore, the volume of the cone is approximately 7068.58 cubic decimeters.** \n",
+        "Here's how to solve the problem step-by-step:\n**1. Find the radius:**\n* The diameter is 30 decimeters, so the radius is half of that: 30 decimeters / 2 = 15 decimeters.\n**2. Find the height:**\n* The height is twice the radius: 15 decimeters * 2 = 30 decimeters.\n**3. Calculate the volume:**\n* The formula for the volume of a cone is (1/3) * \u03c0 * r\u00b2 * h, where:\n    * r is the radius\n    * h is the height\n    * \u03c0 (pi) is approximately 3.14159\n* Substitute the values: (1/3) * 3.14159 * (15 decimeters)\u00b2 * 30 decimeters \n* Calculate: (1/3) * 3.14159 * 225 decimeters\u00b2 * 30 decimeters = 7068.58 cubic decimeters\n**Therefore, the volume of the cone is approximately 7068.58 cubic decimeters.** \n",
+        "Here's how to solve this problem step-by-step:\n**1. Find the radius:**\n* The diameter is 30 decimeters, so the radius is half of that: 30 decimeters / 2 = 15 decimeters.\n**2. Find the height:**\n* The height is twice the radius: 15 decimeters * 2 = 30 decimeters.\n**3. Calculate the volume:**\n* The formula for the volume of a cone is (1/3) * \u03c0 * r\u00b2 * h, where:\n    * r is the radius\n    * h is the height\n* Substitute the values we found: (1/3) * \u03c0 * (15 decimeters)\u00b2 * 30 decimeters\n* Simplify: (1/3) * \u03c0 * 225 square decimeters * 30 decimeters\n* Calculate: 2250\u03c0 cubic decimeters (approximately 7068.58 cubic decimeters)\n**Therefore, the volume of the cone is approximately 7068.58 cubic decimeters.** \n",
+        "Here's how to solve the problem step-by-step:\n**1. Find the radius:**\n* The diameter is 30 decimeters, so the radius is half of that: 30 decimeters / 2 = 15 decimeters\n**2. Find the height:**\n* The height is twice the radius: 15 decimeters * 2 = 30 decimeters\n**3. Calculate the volume:**\n* The formula for the volume of a cone is (1/3)\u03c0r\u00b2h, where:\n    * r is the radius\n    * h is the height\n    * \u03c0 (pi) is approximately 3.14159\n* Substitute the values: (1/3) * 3.14159 * (15 decimeters)\u00b2 * 30 decimeters \u2248 7068.58 cubic decimeters\n**Therefore, the volume of the cone is approximately 7068.58 cubic decimeters.** \n"
+    ],
+    "pred_answers": "7068.58",
+    "final_pred_answer": [
+        "75",
+        "7068.58",
+        "7068.58",
+        "7068.58",
+        "7068.58"
+    ],
+    "ground_truth": "2250"
+}

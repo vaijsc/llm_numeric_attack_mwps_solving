@@ -1,0 +1,23 @@
+{
+    "problem": "If $\\frac{1}{x} + \\frac{1}{y} = \\frac{1}{z}$, find the value of $y$ when $x = 25$ and $z = 24$.",
+    "level": "Level 2",
+    "type": "Algebra",
+    "solution": "We have $\\frac{1}{25} + \\frac{1}{y} = \\frac{1}{24}$, so  \\[\\frac{1}{y} = \\frac{1}{24} - \\frac{1}{25} = \\frac{25}{600} - \\frac{24}{600} = \\frac{1}{600},\\] which means $y=\\boxed{600}$.",
+    "prompt": "### Instruction: If $\\frac{1}{x} + \\frac{1}{y} = \\frac{1}{z}$, find the value of $y$ when $x = 25$ and $z = 24$.\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "Here's how to solve the problem step-by-step:\n1. **Substitute the given values:**\n   We're given that  *x* = 25 and *z* = 24. Substitute these values into the equation:\n   ```\n   1/25 + 1/y = 1/24\n   ```\n2. **Isolate the term with y:**\n   Subtract 1/25 from both sides of the equation:\n   ```\n   1/y = 1/24 - 1/25 \n   ```\n3. **Find a common denominator:**\n   The least common denominator for 24 and 25 is 600.  Rewrite the right side of the equation with this common denominator:\n   ```\n   1/y = (25 - 24)/600 \n   ```\n4. **Simplify:**\n   ```\n   1/y = 1/600\n   ```\n5. **Solve for y:**\n   Since the numerators are both 1, we can see that *y* must equal **600**. \n**Therefore, when x = 25 and z = 24, the value of y is 600.** \n",
+        "Here's how to solve the problem step-by-step:\n1. **Substitute the given values:** \n   We are given that $x = 25$ and $z = 24$. Substitute these values into the equation:\n   ```\n   1/25 + 1/y = 1/24\n   ```\n2. **Isolate the term with y:**\n   Subtract 1/25 from both sides of the equation:\n   ```\n   1/y = 1/24 - 1/25 \n   ```\n3. **Find a common denominator:**\n   The least common denominator for 24 and 25 is 600. Rewrite the right side of the equation with this denominator:\n   ```\n   1/y = (25 - 24) / 600\n   ```\n4. **Simplify:**\n   ```\n   1/y = 1/600 \n   ```\n5. **Solve for y:**\n   Since the numerators are both 1, we can conclude that the denominators must be equal:\n   ```\n   y = 600\n   ```\n**Therefore, the value of y is 600.** \n",
+        "Here's how to solve the problem step-by-step:\n1. **Substitute the given values:** We are given that $x = 25$ and $z = 24$.  Substitute these values into the equation:\n   ```\n   1/25 + 1/y = 1/24 \n   ```\n2. **Isolate the term with y:** Subtract 1/25 from both sides of the equation:\n   ```\n   1/y = 1/24 - 1/25\n   ```\n3. **Find a common denominator:** The least common denominator for 24 and 25 is 600.  Rewrite the right side of the equation with this denominator:\n   ```\n   1/y = (25 - 24) / 600\n   ```\n4. **Simplify:**\n   ```\n   1/y = 1/600\n   ```\n5. **Solve for y:**  Since the numerators are both 1, we can see that  *y = 600*. \n**Therefore, the value of y is 600.** \n",
+        "1. **Substitute the given values:** \n   Since we know  $x = 25$ and $z = 24$, we can substitute these values into the equation:\n   \n   ```\n   1/25 + 1/y = 1/24\n   ```\n2. **Solve for 1/y:**\n   * Subtract 1/25 from both sides of the equation:\n      ```\n      1/y = 1/24 - 1/25\n      ```\n   * Find a common denominator for the right side:\n      ```\n      1/y = (25 - 24) / (24 * 25)\n      ```\n   * Simplify:\n      ```\n      1/y = 1/600 \n      ```\n3. **Solve for y:**\n   * Since the reciprocals are equal, the values are also equal.  Therefore:\n      ```\n      y = 600 \n      ```\n**Therefore, when x = 25 and z = 24, the value of y is 600.** \n",
+        "Here's how to solve the problem step-by-step:\n1. **Substitute the given values:**\n   Since we know  x = 25 and z = 24, substitute these values into the equation:\n   \n   ```\n   1/25 + 1/y = 1/24\n   ```\n2. **Isolate the term with 'y':**\n   Subtract 1/25 from both sides of the equation:\n   ```\n   1/y = 1/24 - 1/25 \n   ```\n3. **Find a common denominator:**\n   The least common denominator for 24 and 25 is 600. Rewrite the fractions with this denominator:\n   ```\n   1/y = (25/600) - (24/600)\n   ```\n4. **Simplify the right side:**\n   ```\n   1/y = 1/600\n   ```\n5. **Solve for 'y':**\n   Since the numerators are both 1, we can see that *y = 600*.\n**Therefore, when x = 25 and z = 24, the value of y is 600.** \n"
+    ],
+    "pred_answers": "600",
+    "final_pred_answer": [
+        "600",
+        "600",
+        "600",
+        "600",
+        "600"
+    ],
+    "ground_truth": "600"
+}

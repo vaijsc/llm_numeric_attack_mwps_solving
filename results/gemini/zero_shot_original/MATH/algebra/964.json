@@ -1,0 +1,23 @@
+{
+    "problem": "Let \\[f(x) = \\begin{cases}\n-x^2 - 1 &\\text{if }x<0, \\\\\n2&\\text{if }0 \\le x< 4, \\\\\n\\sqrt{x}&\\text{if }x \\ge 4.\n\\end{cases}\n\\]Find $f(\\pi)$.",
+    "level": "Level 2",
+    "type": "Algebra",
+    "solution": "Since $\\pi$ is about 3.14, we use the second case, so $f(\\pi) = \\boxed{2}$.",
+    "prompt": "### Instruction: Let \\[f(x) = \\begin{cases}\n-x^2 - 1 &\\text{if }x<0, \\\\\n2&\\text{if }0 \\le x< 4, \\\\\n\\sqrt{x}&\\text{if }x \\ge 4.\n\\end{cases}\n\\]Find $f(\\pi)$.\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "Here's how to solve the problem step-by-step:\n1. **Identify the relevant case:** Since $\\pi$ is greater than 4, we use the third case of the piecewise function, where $f(x) = \\sqrt{x}$.\n2. **Substitute and evaluate:** Substitute $\\pi$ for $x$ in the expression: $f(\\pi) = \\sqrt{\\pi}$.\n3. **Result:**  Therefore, $f(\\pi) = \\sqrt{\\pi}$.  You can leave the answer in this form, or approximate it using a calculator if necessary. \n",
+        "**1. Determine the relevant case:**\n* Since $\\pi$ is greater than 4, the relevant case is  $x \\ge 4$.\n**2. Apply the corresponding function:**\n* For $x \\ge 4$, the function is defined as $f(x) = \\sqrt{x}$.\n**3. Calculate the result:**\n* Therefore, $f(\\pi) = \\sqrt{\\pi}$. \n**Final Answer:**  $f(\\pi) = \\sqrt{\\pi}$ \n",
+        "Here's how to find  *f*(*\u03c0*):\n1. **Determine which piece of the function applies:**  Since *\u03c0* is greater than 4, the function *f*(*x*) = \u221a*x* applies.\n2. **Substitute the value of x:** Substitute *\u03c0* for *x* in the function:  *f*(*\u03c0*) = \u221a*\u03c0*.\n3. **Result:** Therefore, *f*(*\u03c0*) = **\u221a*\u03c0***. \n",
+        "Here's how to find f(\u03c0) step-by-step:\n1. **Identify the relevant piece of the function:** Since \u03c0 is greater than 4, we use the third piece of the function definition:  f(x) = \u221ax for x \u2265 4.\n2. **Substitute the value:**  Substitute \u03c0 for x in the third piece of the function:  f(\u03c0) = \u221a\u03c0.\n3. **Final answer:** f(\u03c0) = \u221a\u03c0. \n",
+        "Since $\\pi$ is greater than 4, we use the third case of the piecewise function.  Therefore, $f(\\pi) = \\sqrt{\\pi}$. \n"
+    ],
+    "pred_answers": "3",
+    "final_pred_answer": [
+        "3",
+        "3",
+        "3",
+        "3",
+        "4"
+    ],
+    "ground_truth": "2"
+}

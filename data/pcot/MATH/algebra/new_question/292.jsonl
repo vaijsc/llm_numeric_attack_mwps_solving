@@ -1,0 +1,8 @@
+"f(x) = 5x + 2 and g(x) = 3x^2 - 4x, f(g(2)) - f(f(1))"
+"f(x) = 5x + 2 and g(x) = 3x^2 - 4x, evaluate f(f(3)) - g(g(2))."
+"f(x) = 5x + 2 and g(x) = 3x^2 - 4x, evaluate f(f(4)) - g(g(2))."
+"f(x) = 5x + 2 and g(x) = 3x^2 - 4x, evaluate f(f(5)) - g(g(2))."
+"f(x) = 5x + 2 and g(x) = 3x^2 - 4x, evaluate f(f(6)) - g(g(2))."
+"f(x) = 5x + 2 and g(x) = 3x^2 - 4x, f(f(1)) - g(g(2)) = ?"
+"f(x) = 5x + 2 and g(x) = 3x^2 - 4x, evaluate f(f(8)) - g(g(2))."
+"f(x) = 5x + 2 and g(x) = 3x^2 - 4x, evaluate f(f(9)) - g(g(2))."

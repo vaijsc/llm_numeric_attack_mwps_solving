@@ -1,0 +1,23 @@
+{
+    "problem": "Consider the function $g(x)=3x-4$.  What is $g(0)$?",
+    "level": "Level 1",
+    "type": "Algebra",
+    "solution": "We have $g(0) = 3\\cdot 0-4 =0-4=\\boxed{-4}$.",
+    "prompt": "### Instruction: Consider the function $g(x)=3x-4$.  What is $g(0)$?\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "To find  *g*(0), we substitute 0 for *x* in the function *g*(x) = 3*x* - 4:\n*g*(0) = 3(0) - 4 \nSimplify:\n*g*(0) = 0 - 4\nTherefore:\n*g*(0) = -4 \n",
+        "To find $g(0)$, we substitute $x = 0$ into the function:\n*  $g(0) = 3(0) - 4$\n*  $g(0) = 0 - 4$\n*  $g(0) = -4$\nTherefore, $g(0) = \\boxed{-4}$. \n",
+        "To find *g(0)*, we need to substitute *0* for *x* in the function *g(x)*.\nHere's how:\n* **Start with the function:**  *g(x) = 3x - 4*\n* **Substitute x = 0:** *g(0) = 3(0) - 4*\n* **Simplify:** *g(0) = 0 - 4*\n* **Final result:** *g(0) = -4* \nTherefore, *g(0) = -4*. \n",
+        "To find  *g*(0), we substitute 0 for *x* in the function *g(x)*:\n*g*(0) = 3(0) - 4\nSimplifying, we get:\n*g*(0) = 0 - 4\nTherefore:\n*g*(0) = **-4** \n",
+        "To find  $g(0)$, we substitute $x=0$ into the function:\n$g(0) = 3(0) - 4$\nSimplifying, we get:\n$g(0) = 0 - 4$\nTherefore:\n$g(0) = \\boxed{-4}$ \n"
+    ],
+    "pred_answers": "-4",
+    "final_pred_answer": [
+        "-4",
+        "-4",
+        "-4",
+        "-4",
+        "-4"
+    ],
+    "ground_truth": "-4"
+}

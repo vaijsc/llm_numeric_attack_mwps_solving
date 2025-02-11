@@ -1,0 +1,2 @@
+"Suppose that $c$ and $d$ are positive real numbers, and let \\[g(x) =\n\\begin{cases}\n\\frac{c}{d}x & \\text{ if }x\\le-5, \\\\\ncdx^2 & \\text{ if }x>-5.\n\\end{cases}\n\\]If $g(-5)=-\\frac{75}{17}$ and $g(5)=6300$, what is $c+d$?"
+"Suppose that $a$ and $b$ are positive real numbers, and let \\[f(x) =\n\\begin{cases}\n\\frac{a}{b}x & \\text{ if }x\\le-4, \\\\\nabx^2 & \\text{ if }x>-4.\n\\end{cases}\n\\]If $f(-4)=-\\frac{60}{13}$ and $f(4)=7020$, what is $a+b$?"

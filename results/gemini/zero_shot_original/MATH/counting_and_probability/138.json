@@ -1,0 +1,23 @@
+{
+    "problem": "How many positive integers are less than $100\\pi$?",
+    "level": "Level 1",
+    "type": "Counting & Probability",
+    "solution": "Based on our knowledge of the decimal expansion of $\\pi$, we can quickly estimate that $100 \\pi \\approx 314.15$. So the largest positive integer less than $100\\pi$ is 314. Therefore, the positive integers are 1, 2, 3, $\\ldots$, 313, 314, for a total of $\\boxed{314}$ positive integers.",
+    "prompt": "### Instruction: How many positive integers are less than $100\\pi$?\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "Here's how to solve the problem:\n**1. Approximate Pi:**\n   We know that  \u03c0 is approximately 3.14.\n**2. Calculate 100\u03c0:**\n   100 * 3.14 \u2248 314\n**3. Count the Integers:**\n   Since we're looking for positive integers less than 100\u03c0 (which is approximately 314), we need to count all the integers from 1 to 313.\n**4. The Answer:**\n   There are **313** positive integers less than 100\u03c0. \n",
+        "Here's how to solve the problem:\n**1. Approximate pi:**\n* We know that \u03c0 \u2248 3.14\n**2. Calculate the approximate value of 100\u03c0:**\n* 100\u03c0 \u2248 100 * 3.14 \u2248 314\n**3. Determine the largest integer less than 100\u03c0:**\n* The largest integer less than 314 is 313.\n**4. Count the positive integers:**\n* There are **313** positive integers less than 100\u03c0. \n",
+        "Here's how to solve this problem:\n**1. Approximate Pi:**\n* We know that pi (\u03c0) is approximately 3.14.\n**2. Calculate the approximate value:**\n* 100 * 3.14 \u2248 314\n**3. Determine the largest integer less than the value:**\n* The largest integer less than 314 is **313**.\n**Therefore, there are 313 positive integers less than 100\u03c0.** \n",
+        "Here's how to solve this problem step-by-step:\n**1.  Approximate pi:**\n* We know that  \u03c0 is approximately 3.14.\n**2.  Calculate 100\u03c0:**\n* 100\u03c0 \u2248 100 * 3.14 = 314\n**3.  Count the positive integers less than 314:**\n* Since we want positive integers *less* than 314, we count from 1 to 313.  \n**4.  The answer:**\n* There are **313** positive integers less than 100\u03c0. \n",
+        "Here's how to solve the problem step by step:\n**1. Approximate Pi**\n* We know that pi is approximately 3.14. \n**2. Calculate the Approximate Value**\n* Multiply the approximate value of pi by 100: 100 * 3.14 = 314\n**3. Find the Largest Integer Less Than the Value**\n* The largest integer less than 314 is **313**.\n**Therefore, there are 313 positive integers less than 100\u03c0.** \n"
+    ],
+    "pred_answers": "100",
+    "final_pred_answer": [
+        "313",
+        "100",
+        "100",
+        "100",
+        "100"
+    ],
+    "ground_truth": "314"
+}

@@ -1,0 +1,23 @@
+{
+    "problem": "How much greater than $27^2$ is $43^2$ ?",
+    "level": "Level 1",
+    "type": "Algebra",
+    "solution": "We factor this as a difference of squares: $43^2 - 27^2 = (43 + 27)(43 - 27) = (70)(16) = \\boxed{1120}$.",
+    "prompt": "### Instruction: How much greater than $27^2$ is $43^2$ ?\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "Here's how to solve the problem step-by-step:\n1. **Calculate the squares:**\n   *  $27^2 = 27 \\times 27 = 729$\n   *  $43^2 = 43 \\times 43 = 1849$\n2. **Find the difference:**\n   *  $1849 - 729 = 1120$\n**Answer:** $43^2$ is **1120** greater than $27^2$. \n",
+        "Here's how to solve the problem step-by-step:\n1. **Calculate 27\u00b2:** 27\u00b2 = 27 * 27 = 729\n2. **Calculate 43\u00b2:** 43\u00b2 = 43 * 43 = 1849\n3. **Find the difference:** 1849 - 729 = 1120\n**Answer:** 43\u00b2 is **1120** greater than 27\u00b2. \n",
+        "1. **Calculate the squares:**\n   *  27\u00b2 = 27 * 27 = 729\n   *  43\u00b2 = 43 * 43 = 1849\n2. **Find the difference:**\n   * 1849 - 729 = 1120\n**Answer:** 43\u00b2 is **1120** greater than 27\u00b2. \n",
+        "Here's how to solve the problem step-by-step:\n**1. Calculate the squares:**\n*  $27^2 = 27 \\times 27 = 729$\n*  $43^2 = 43 \\times 43 = 1849$\n**2. Find the difference:**\n*  $1849 - 729 = 1120$\n**Answer:** $43^2$ is **1120** greater than $27^2$. \n",
+        "1. **Calculate the squares:** \n   *  27\u00b2 = 27 * 27 = 729\n   *  43\u00b2 = 43 * 43 = 1849\n2. **Find the difference:**\n   * 1849 - 729 = 1120\n**Answer:** 43\u00b2 is **1120** greater than 27\u00b2. \n"
+    ],
+    "pred_answers": "43",
+    "final_pred_answer": [
+        "43",
+        "43",
+        "43",
+        "43",
+        "43"
+    ],
+    "ground_truth": "1120"
+}

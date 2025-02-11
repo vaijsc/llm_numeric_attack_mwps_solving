@@ -1,0 +1,23 @@
+{
+    "problem": "What is the value of $19^2 + 2(19) + 1$?",
+    "level": "Level 1",
+    "type": "Algebra",
+    "solution": "This is the square of a binomial: $19^2 + 2(19) + 1 = (19 + 1)^2 = 20^2 = \\boxed{400}$.",
+    "prompt": "### Instruction: What is the value of $19^2 + 2(19) + 1$?\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "Here's how to solve the problem step-by-step:\n**1. Exponents:**\n* Calculate 19\u00b2 (19 multiplied by itself): 19\u00b2 = 361\n**2. Multiplication:**\n* Multiply 2 by 19: 2(19) = 38\n**3. Addition:**\n* Add the results from steps 1 and 2: 361 + 38 = 399\n* Add 1 to the sum: 399 + 1 = 400\n**Therefore, the value of 19\u00b2 + 2(19) + 1 is 400.** \n",
+        "Here's how to solve the problem step-by-step:\n1. **Calculate the square:** 19\u00b2 = 19 * 19 = 361\n2. **Multiply:** 2 * 19 = 38\n3. **Add all the terms:** 361 + 38 + 1 = **400**\nTherefore, the value of 19\u00b2 + 2(19) + 1 is **400**. \n",
+        "Here's how to solve the problem step-by-step:\n**1. Calculate the square:**\n*  19\u00b2 = 19 * 19 = 361\n**2. Multiply:**\n* 2 * 19 = 38\n**3. Add the terms together:**\n* 361 + 38 + 1 = **400** \n**Therefore, the value of 19\u00b2 + 2(19) + 1 is 400.** \n",
+        "Here's how to solve the problem step-by-step:\n1. **Calculate the square:** 19\u00b2 = 19 * 19 = 361\n2. **Multiply:** 2(19) = 38\n3. **Add the terms:** 361 + 38 + 1 = 400\n**Therefore, the value of 19\u00b2 + 2(19) + 1 is 400.** \n",
+        "Here's how to solve the problem step-by-step:\n1. **Calculate the square:** 19\u00b2 = 19 * 19 = 361\n2. **Multiply:** 2 * 19 = 38\n3. **Add the results:** 361 + 38 + 1 = 400\nTherefore, the value of 19\u00b2 + 2(19) + 1 is **400**. \n"
+    ],
+    "pred_answers": "400",
+    "final_pred_answer": [
+        "400",
+        "400",
+        "400",
+        "400",
+        "400"
+    ],
+    "ground_truth": "400"
+}

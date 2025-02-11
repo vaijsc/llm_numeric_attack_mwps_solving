@@ -1,0 +1,23 @@
+{
+    "problem": "Suppose that $g(x)=f^{-1}(x)$. If $g(-15)=0$, $g(0)=3$, $g(3)=9$ and $g(9)=20$, what is $f(f(9))$?",
+    "level": "Level 4",
+    "type": "Algebra",
+    "solution": "Since $f$ and $g$ are inverses and $g(3) = 9$, we have $f(9) = 3$, so $f(f(9)) = f(3)$. Similarly, $g(0) = 3$, so $f(3) = \\boxed{0}$.",
+    "prompt": "### Instruction: Suppose that $g(x)=f^{-1}(x)$. If $g(-15)=0$, $g(0)=3$, $g(3)=9$ and $g(9)=20$, what is $f(f(9))$?\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "Here's how to solve this problem step by step:\n**1. Understand Inverse Functions**\n* If  *g(x)* is the inverse of *f(x)*, then  *f(g(x)) = x* for all values of *x* in the domain of *g(x)*.  Similarly, *g(f(x)) = x* for all values of *x* in the domain of *f(x)*.\n**2. Use the Given Information**\nWe are given that *g(-15) = 0*.  Applying the inverse property, this tells us:\n*  *f(g(-15)) = -15* \n*  *f(0) = -15*  (since *g(-15) = 0*)\nSimilarly, we can find:\n*  *f(3) = 0* (since *g(0) = 3*)\n*  *f(9) = 3* (since *g(3) = 9*)\n*  *f(20) = 9* (since *g(9) = 20*)\n**3. Calculate f(f(9))**\nWe know *f(9) = 3*.  Therefore:\n* *f(f(9)) = f(3)* \n* *f(f(9)) = 0*  (since *f(3) = 0*)\n**Answer:** *f(f(9)) = 0* \n",
+        "Here's how to solve the problem step-by-step:\n**Understanding Inverse Functions**\n* **Definition:**  If  *g(x)* is the inverse of *f(x)*, then  *f(g(x)) = x* and *g(f(x)) = x* for all values of *x* within their respective domains.\n**Using the Given Information**\n1. **g(9) = 20:** This tells us that *f(20) = 9* (because *g* and *f* are inverses).\n2. **g(3) = 9:** This tells us that *f(9) = 3* (again, because *g* and *f* are inverses).\n**Finding f(f(9))**\n1. We know  *f(9) = 3*.\n2. Substitute this into the expression *f(f(9))* to get *f(3)*.\n3. We don't have *f(3)* directly, but we know *g(3) = 9*.  This tells us *f(9) = 3*, and since *f* and *g* are inverses, we also know *f(3) = 9*.\n**Therefore, f(f(9)) = f(3) = 9.** \n",
+        "Here's how to solve the problem step-by-step:\n**Understanding Inverse Functions**\n* **Definition:**  If *g(x)* is the inverse of *f(x)*, then  *f(g(x)) = x* and *g(f(x)) = x* for all values of *x* within their domains.\n**Using the Given Information**\n1. **g(9) = 20:** This tells us that *f(20) = 9*  (because *g* is the inverse of *f*).\n2. **g(3) = 9:** This tells us that *f(9) = 3* (because *g* is the inverse of *f*).\n**Finding f(f(9))**\nNow we can use the information we've gathered:\n* We know *f(9) = 3*. \n* Therefore, *f(f(9)) = f(3)*. \nWe don't have the value of *f(3)* directly, but since *g* is the inverse of *f*, we know *f(3) = 9* because *g(9) = 3*.\n**The Answer**\nTherefore,  *f(f(9)) = f(3) = 9*. \n",
+        "Here's how to solve the problem step-by-step:\n**1. Understand Inverse Functions**\n* If  *g(x)* is the inverse of *f(x)*, this means that: \n    * *f(g(x)) = x* for all values of *x* in the domain of *g(x)*.\n    * *g(f(x)) = x* for all values of *x* in the domain of *f(x)*.\n**2. Use the Given Information**\n* We know *g(9) = 20*.  Since *g(x)* is the inverse of *f(x)*, this tells us that *f(20) = 9*.\n**3. Find f(9)**\n* We also know *g(3) = 9*. Using the inverse property, this means *f(9) = 3*.\n**4. Calculate f(f(9))**\n* We now know *f(9) = 3*.  Therefore:\n    * *f(f(9)) = f(3)*\n* Since *g(0) = 3*, we know *f(3) = 0*.\n**5. Solution**\n* Therefore, *f(f(9)) = f(3) = 0*. \n",
+        "Here's how to solve the problem step-by-step:\n**Understanding Inverse Functions**\n* **Definition:** If  g(x) is the inverse of f(x), then  f(g(x)) = x and g(f(x)) = x for all x in their respective domains.\n**Using the Given Information**\n1. **g(-15) = 0:**  This means f(0) = -15 (since g is the inverse of f)\n2. **g(0) = 3:** This means f(3) = 0\n3. **g(3) = 9:** This means f(9) = 3\n4. **g(9) = 20:** This means f(20) = 9\n**Finding f(f(9))**\n1. **Find f(9):**  We know f(9) = 3 from step 3.\n2. **Find f(f(9)) = f(3):** We know f(3) = 0 from step 2.\n**Therefore, f(f(9)) = 0** \n"
+    ],
+    "pred_answers": "9",
+    "final_pred_answer": [
+        "9",
+        "9",
+        "9",
+        "0",
+        "0"
+    ],
+    "ground_truth": "0"
+}

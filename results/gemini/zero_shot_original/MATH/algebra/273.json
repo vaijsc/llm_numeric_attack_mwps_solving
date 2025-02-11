@@ -1,0 +1,23 @@
+{
+    "problem": "Let  \\[ f(x) =\n\\begin{cases}\n-\\sqrt[3]x & \\text{if } x \\geq 0,\\\\\nx^2& \\text{if } x <0.\n\\end{cases}\n\\]Compute $f(f(f(f(512)))).$",
+    "level": "Level 3",
+    "type": "Algebra",
+    "solution": "\\begin{align*}\nf(f(f(f(512))))\n&=f(f(f(-8)))\\\\\n&=f(f(64))\\\\\n&=f(-4)\\\\\n&=\\boxed{16}.\n\\end{align*}",
+    "prompt": "### Instruction: Let  \\[ f(x) =\n\\begin{cases}\n-\\sqrt[3]x & \\text{if } x \\geq 0,\\\\\nx^2& \\text{if } x <0.\n\\end{cases}\n\\]Compute $f(f(f(f(512)))).$\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "Let's work our way inside out:\n* **Step 1:  f(512)** \n   Since 512 is greater than or equal to 0, we use the first part of the definition:  \n   * f(512) = -\u221b512 = -8\n* **Step 2: f(f(512)) = f(-8)**\n   Since -8 is less than 0, we use the second part of the definition:\n   * f(-8) = (-8)\u00b2 = 64\n* **Step 3: f(f(f(512))) = f(64)**\n   Since 64 is greater than or equal to 0, we use the first part of the definition:\n   * f(64) = -\u221b64 = -4\n* **Step 4: f(f(f(f(512)))) = f(-4)**\n   Since -4 is less than 0, we use the second part of the definition:\n   * f(-4) = (-4)\u00b2 = 16\n**Therefore, f(f(f(f(512)))) = 16** \n",
+        "Let's break down the computation step-by-step:\n1. **Start with the innermost function:**  We begin by finding  $f(512)$. Since 512 is greater than or equal to 0, we use the first part of the definition of $f(x)$: \n   \n   $f(512) = -\\sqrt[3]{512} = -8$\n2. **Work our way outwards:** Now we need to find $f(f(512))$, which is the same as $f(-8)$. Since -8 is less than 0, we use the second part of the definition of $f(x)$:\n   $f(-8) = (-8)^2 = 64$\n3. **Continue the process:** Next, we find $f(f(f(512)))$, which is $f(64)$. Since 64 is greater than or equal to 0, we use the first part of the definition:\n   $f(64) = -\\sqrt[3]{64} = -4$\n4. **Final step:** Finally, we find $f(f(f(f(512))))$, which is $f(-4)$. Since -4 is less than 0, we use the second part of the definition:\n   $f(-4) = (-4)^2 = 16$\nTherefore, $f(f(f(f(512)))) = \\boxed{16}$. \n",
+        "Here's how we can break down the calculation:\n* **Step 1:  Find f(512)** \n   Since 512 is greater than or equal to 0, we use the first part of the definition of f(x): \n   * f(512) = -\u221b512 = -8\n* **Step 2: Find f(f(512)) = f(-8)**\n   Since -8 is less than 0, we use the second part of the definition of f(x):\n   * f(-8) = (-8)\u00b2 = 64\n* **Step 3: Find f(f(f(512))) = f(f(-8)) = f(64)**\n   Since 64 is greater than or equal to 0, we use the first part of the definition of f(x):\n   * f(64) = -\u221b64 = -4\n* **Step 4: Find f(f(f(f(512)))) = f(f(64)) = f(-4)**\n   Since -4 is less than 0, we use the second part of the definition of f(x):\n   * f(-4) = (-4)\u00b2 = 16\n**Therefore, f(f(f(f(512)))) = 16** \n",
+        "Here's how to compute the nested function:\n* **Step 1: Find f(512)**\n   Since 512 is greater than or equal to 0, we use the first part of the definition: \n   \n   *  f(512) = -\u221b512 = -8\n* **Step 2: Find f(f(512)) which is f(-8)**\n   Since -8 is less than 0, we use the second part of the definition:\n   \n   * f(-8) = (-8)\u00b2 = 64\n* **Step 3: Find f(f(f(512))) which is f(64)**\n   Since 64 is greater than or equal to 0, we use the first part of the definition:\n   \n   * f(64) = -\u221b64 = -4\n* **Step 4: Find f(f(f(f(512)))) which is f(-4)**\n   Since -4 is less than 0, we use the second part of the definition:\n   \n   * f(-4) = (-4)\u00b2 = 16\n**Therefore, f(f(f(f(512)))) = 16** \n",
+        "Here's how to compute the nested function:\n**1. Start with the innermost function:**\n*  f(512): Since 512 is greater than or equal to 0, we use the first part of the definition: f(512) = -\u221b512 = -8\n**2. Work outwards:**\n* f(f(512)) = f(-8):  Since -8 is less than 0, we use the second part of the definition: f(-8) = (-8)\u00b2 = 64\n**3. Continue:**\n* f(f(f(512))) = f(64): Since 64 is greater than or equal to 0, we use the first part: f(64) = -\u221b64 = -4\n**4. Final step:**\n* f(f(f(f(512)))) = f(-4): Since -4 is less than 0, we use the second part: f(-4) = (-4)\u00b2 = 16\n**Therefore, f(f(f(f(512)))) = 16.** \n"
+    ],
+    "pred_answers": "16",
+    "final_pred_answer": [
+        "16",
+        "16",
+        "16",
+        "16",
+        "16"
+    ],
+    "ground_truth": "16"
+}

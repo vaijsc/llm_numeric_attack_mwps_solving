@@ -1,0 +1,23 @@
+{
+    "problem": "What is the value of $255^2 - 245^2$?",
+    "level": "Level 1",
+    "type": "Algebra",
+    "solution": "We recognize the expression as a difference of squares, so we can easily factor it.  $$255^2-245^2=(255+245)(255-245)=500(10)=\\boxed{5000}$$",
+    "prompt": "### Instruction: What is the value of $255^2 - 245^2$?\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "We can use the difference of squares factorization to simplify this calculation:\n* **Difference of Squares:**  a\u00b2 - b\u00b2 = (a + b)(a - b)\nApplying this to our problem:\n* 255\u00b2 - 245\u00b2 = (255 + 245)(255 - 245)\nNow, we can simplify:\n* (255 + 245)(255 - 245) = (500)(10) = **5000**\nTherefore, the value of 255\u00b2 - 245\u00b2 is **5000**. \n",
+        "We can use the difference of squares factorization:  a\u00b2 - b\u00b2 = (a + b)(a - b)\n1. **Identify a and b:**\n   * a = 255\n   * b = 245\n2. **Apply the formula:**\n   * 255\u00b2 - 245\u00b2 = (255 + 245)(255 - 245)\n3. **Simplify:**\n   * (255 + 245)(255 - 245) = (500)(10) = 5000\n**Therefore, the value of 255\u00b2 - 245\u00b2 is 5000.** \n",
+        "Here's how to solve this problem using a handy algebraic trick:\n**1. Difference of Squares**\nThe expression  $255^2 - 245^2$  fits the pattern of the difference of squares:  \n*  a\u00b2 - b\u00b2 = (a + b)(a - b)\n**2. Apply the Formula**\nIn this case, a = 255 and b = 245.  Let's substitute and solve:\n* (255 + 245)(255 - 245) = (500)(10) = **5000**\n**Therefore, the value of 255\u00b2 - 245\u00b2 is 5000.** \n",
+        "We can use the difference of squares factorization to solve this problem:\n* **Difference of Squares:**  a\u00b2 - b\u00b2 = (a + b)(a - b)\nApplying this to our problem:\n* 255\u00b2 - 245\u00b2 = (255 + 245)(255 - 245)\nSimplifying:\n* (255 + 245)(255 - 245) = (500)(10) \nTherefore:\n* 255\u00b2 - 245\u00b2 = **5000** \n",
+        "We can use the difference of squares factorization to solve this problem:\n* **Difference of Squares:**  a\u00b2 - b\u00b2 = (a + b)(a - b)\nLet's apply this to our problem:\n1. **Identify 'a' and 'b':** \n   * a = 255\n   * b = 245\n2. **Substitute into the formula:**\n   * (255 + 245)(255 - 245)\n3. **Simplify:**\n   * (500)(10) = 5000\n**Therefore, the value of 255\u00b2 - 245\u00b2 is 5000.** \n"
+    ],
+    "pred_answers": "5000",
+    "final_pred_answer": [
+        "5000",
+        "5000",
+        "5000",
+        "5000",
+        "5000"
+    ],
+    "ground_truth": "5000"
+}

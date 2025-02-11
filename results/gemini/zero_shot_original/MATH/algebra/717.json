@@ -1,0 +1,23 @@
+{
+    "problem": "Simplify $(5a)^3 \\cdot (2a^2)^2$.",
+    "level": "Level 2",
+    "type": "Algebra",
+    "solution": "$(5a)^3 \\cdot (2a^2)^2 = 125a^3 \\cdot 4a^4 = \\boxed{500a^7}$.",
+    "prompt": "### Instruction: Simplify $(5a)^3 \\cdot (2a^2)^2$.\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "Here's how to simplify the expression step-by-step:\n1. **Apply the exponent to each factor inside the parentheses:** \n   *  $(5a)^3 = 5^3 \\cdot a^3 = 125a^3$\n   *  $(2a^2)^2 = 2^2 \\cdot (a^2)^2 = 4a^4$\n2. **Substitute the simplified expressions back into the original problem:** \n   *  $(5a)^3 \\cdot (2a^2)^2 = 125a^3 \\cdot 4a^4$\n3. **Multiply the coefficients and add the exponents of the variables:**\n   *  $125a^3 \\cdot 4a^4 = (125 \\cdot 4) \\cdot (a^3 \\cdot a^4) = 500a^7$\n**Therefore, the simplified expression is  500a\u2077.** \n",
+        "Here's how to simplify the expression step-by-step:\n1. **Apply the exponent rules:**\n   *  $(ab)^n = a^n b^n$\n   *  $(a^m)^n = a^{m \\cdot n}$\n2. **Simplify the first part:**\n   *  $(5a)^3 = 5^3 \\cdot a^3 = 125a^3$\n3. **Simplify the second part:**\n   *  $(2a^2)^2 = 2^2 \\cdot (a^2)^2 = 4a^4$\n4. **Combine the simplified parts:**\n   *  $125a^3 \\cdot 4a^4 = (125 \\cdot 4)(a^3 \\cdot a^4)$\n5. **Simplify the result:**\n   *  $500a^7$\n**Therefore, the simplified expression is 500a\u2077.** \n",
+        "Here's how to simplify the expression step-by-step:\n**1. Apply the exponent rules:**\n* **Rule 1: (ab)^n = a^n * b^n**  \n   Apply this to both terms:\n   *  (5a)^3 = 5^3 * a^3 = 125a^3\n   *  (2a^2)^2 = 2^2 * (a^2)^2 = 4a^4 \n* **Rule 2: (a^m)^n = a^(m*n)**\n   Apply this to the second term:\n   *  (a^2)^2 = a^(2*2) = a^4\n**2. Substitute the simplified terms back into the original expression:**\n   (5a)^3 * (2a^2)^2 = 125a^3 * 4a^4\n**3. Combine the coefficients and the variables:**\n   125a^3 * 4a^4 = (125 * 4) * (a^3 * a^4)\n**4. Apply the rule: a^m * a^n = a^(m+n)**\n   (125 * 4) * (a^3 * a^4) = 500 * a^(3+4)\n**5. Simplify:**\n   500 * a^(3+4) = 500a^7\n**Therefore, the simplified expression is 500a^7.** \n",
+        "Here's how to simplify the expression step-by-step:\n1. **Apply the power of a product rule:** This rule states that (ab)^n = a^n * b^n. \n   -  (5a)^3 = 5^3 * a^3 = 125a^3\n   -  (2a^2)^2 = 2^2 * (a^2)^2 = 4a^4\n2. **Substitute the simplified terms back into the original expression:**\n   -  (5a)^3 * (2a^2)^2 = 125a^3 * 4a^4\n3. **Apply the product of powers rule:** This rule states that a^m * a^n = a^(m+n).\n   -  125a^3 * 4a^4 = 125 * 4 * a^(3+4)\n4. **Simplify:**\n   -  125 * 4 * a^(3+4) = 500a^7\n**Therefore, the simplified form of (5a)^3 * (2a^2)^2 is 500a^7.** \n",
+        "Here's how to simplify the expression step by step:\n1. **Apply the power of a product rule:** This rule states that  (ab)^n = a^n * b^n.\n   *  (5a)^3 = 5^3 * a^3 = 125a^3\n   *  (2a^2)^2 = 2^2 * (a^2)^2 = 4a^4\n2. **Substitute the simplified terms back into the original expression:** \n   *  (5a)^3 * (2a^2)^2  = 125a^3 * 4a^4\n3. **Apply the product of powers rule:** This rule states that a^m * a^n = a^(m+n). \n   * 125a^3 * 4a^4 = (125 * 4) * a^(3+4)\n4. **Simplify the expression:**\n   * (125 * 4) * a^(3+4) = 500a^7\n**Therefore, the simplified expression is 500a^7.** \n"
+    ],
+    "pred_answers": "7",
+    "final_pred_answer": [
+        "500",
+        "500",
+        "7",
+        "7",
+        "7"
+    ],
+    "ground_truth": "7"
+}

@@ -1,0 +1,23 @@
+{
+    "problem": "Find the total number of four-digit palindromes. (Recall that a palindrome is a nonnegative sequence of digits which reads the same forwards and backwards, such as 1331. Zero cannot be the first digit.)",
+    "level": "Level 2",
+    "type": "Counting & Probability",
+    "solution": "In a four-digit palindrome, the first digit is the same as the last, and the second digit is the same as the third digit.  There are 9 options for the first/last digit (1 through 9 -- the first digit cannot be 0), and there are 10 options for the second/third digit (0 through 9).  This gives us $9 \\cdot 10 = \\boxed{90}$ four-digit palindromes.",
+    "prompt": "### Instruction: Find the total number of four-digit palindromes. (Recall that a palindrome is a nonnegative sequence of digits which reads the same forwards and backwards, such as 1331. Zero cannot be the first digit.)\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "Here's how to find the total number of four-digit palindromes:\n**Understanding the Structure**\n* A four-digit palindrome has the form `ABBA`, where A and B represent digits.\n**Breaking it Down**\n1. **First Digit (A):**  We have 9 choices for the first digit (1 through 9, since it can't be zero).\n2. **Second Digit (B):** We have 10 choices for the second digit (0 through 9).\n**Calculating the Total**\nSince the first two digits determine the entire palindrome, the total number of four-digit palindromes is:\n9 choices for A * 10 choices for B = **90**\n**Therefore, there are 90 four-digit palindromes.** \n",
+        "Here's how to find the total number of four-digit palindromes:\n**Understanding the Structure**\nA four-digit palindrome has the form ABBA, where:\n* A is the thousands digit (and the units digit)\n* B is the hundreds digit (and the tens digit)\n**Choosing the Digits**\n* **A:** Since it's the first digit, it can be any of the digits 1 through 9 (9 choices).\n* **B:** It can be any of the digits 0 through 9 (10 choices).\n**Calculating the Possibilities**\nTo get the total number of palindromes, we multiply the number of choices for each digit:\n9 choices for A * 10 choices for B = **90**\n**Therefore, there are 90 four-digit palindromes.** \n",
+        "Here's how to find the total number of four-digit palindromes:\n**Understanding the Structure**\nA four-digit palindrome has the form ABBA, where A and B are digits.\n* **A:** The first digit can be anything from 1 to 9 (since zero cannot be the first digit).\n* **B:** The second digit can be any digit from 0 to 9.\n**Counting the Possibilities**\n* We have **9** choices for the first digit (A).\n* We have **10** choices for the second digit (B).\nSince the first two digits determine the entire palindrome, the total number of four-digit palindromes is:\n9 choices for A * 10 choices for B = **90**\n**Therefore, there are 90 four-digit palindromes.** \n",
+        "Here's how to find the total number of four-digit palindromes:\n**Understanding the Structure**\nA four-digit palindrome has the form ABBA, where:\n* **A** represents the thousands digit (and the units digit)\n* **B** represents the hundreds digit (and the tens digit)\n**Determining the Possibilities**\n* **A:**  The first digit (A) can be any of the digits 1 through 9 (since it can't be zero).  There are 9 possibilities for A.\n* **B:** The second digit (B) can be any of the digits 0 through 9. There are 10 possibilities for B.\n**Calculating the Total**\nSince the choices for A and B are independent, we multiply the possibilities together:\n9 possibilities for A * 10 possibilities for B = **90**\n**Therefore, there are 90 four-digit palindromes.** \n",
+        "Here's how to find the total number of four-digit palindromes:\n**Understanding the Structure**\nA four-digit palindrome has the form ABBA, where:\n* **A** is the first digit (and also the last)\n* **B** is the second digit (and also the third)\n**Step-by-Step Logic**\n1. **First Digit (A):** We have 9 choices for the first digit (1 to 9, since 0 cannot be the first digit).\n2. **Second Digit (B):**  We have 10 choices for the second digit (0 to 9).\n3. **Total Combinations:** Since the first two digits determine the entire palindrome, we multiply the number of choices for each digit: 9 choices * 10 choices = 90\n**Answer:** There are **90** four-digit palindromes. \n"
+    ],
+    "pred_answers": "90",
+    "final_pred_answer": [
+        "90",
+        "90",
+        "90",
+        "90",
+        "90"
+    ],
+    "ground_truth": "90"
+}

@@ -1,0 +1,23 @@
+{
+    "problem": "In the sequence 0, 1, 1, 3, 6, 9, 27, ..., the first term is 0.   Subsequent terms are produced by alternately adding and  multiplying by each successive integer beginning with 1.  For  instance, the second term is produced by adding  1 to the first term; the third term is produced by  multiplying the second term by 1; the fourth term  is produced by adding 2 to the third term; and so  on.  What is the value of the first term that is greater than 125?",
+    "level": "Level 4",
+    "type": "Algebra",
+    "solution": "Continuing this sequence from the 27, we add four to make 31, then multiply 31 by four to make 124, then add five to 124 to make 129. Thus, $\\boxed{129}$ is the first term that is greater than 125.",
+    "prompt": "### Instruction: In the sequence 0, 1, 1, 3, 6, 9, 27, ..., the first term is 0.   Subsequent terms are produced by alternately adding and  multiplying by each successive integer beginning with 1.  For  instance, the second term is produced by adding  1 to the first term; the third term is produced by  multiplying the second term by 1; the fourth term  is produced by adding 2 to the third term; and so  on.  What is the value of the first term that is greater than 125?\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "Here's how to solve the problem step-by-step:\n**Understanding the Pattern**\nThe sequence follows this pattern:\n* **Add:** Add the next integer to the previous term.\n* **Multiply:** Multiply the result by the next integer.\n**Finding the Pattern's Behavior**\nNotice that multiplying by an integer significantly increases the value of the term.  Let's look at a few terms:\n* **Term 1:** 0\n* **Term 2:** 0 + 1 = 1\n* **Term 3:** 1 * 1 = 1\n* **Term 4:** 1 + 2 = 3\n* **Term 5:** 3 * 2 = 6\n* **Term 6:** 6 + 3 = 9\n* **Term 7:** 9 * 3 = 27\n**Finding the Term Greater than 125**\nSince we're looking for a term greater than 125, let's see how the sequence grows:\n* **Term 7:** 27 \n* **Term 8:** 27 + 4 = 31\n* **Term 9:** 31 * 4 = 124\n* **Term 10:** 124 + 5 = 129 \n**Answer**\nThe first term greater than 125 is **Term 10**, which has a value of **129**. \n",
+        "Let's break down the sequence and find the first term greater than 125:\n**Understanding the Pattern:**\n* **Step 1:** Add the current integer to the previous term.\n* **Step 2:** Multiply the result by the current integer.\n**Continuing the Sequence:**\n* **7th term:** 27 * 7 = 189 \n* **8th term:** 189 + 8 = 197\n* **9th term:** 197 * 9 = 1773 \n**The answer:** The first term greater than 125 is **189**. \n",
+        "Let's break down the sequence and find the first term greater than 125:\n**Understanding the Pattern:**\n* **Term 1:** 0\n* **Term 2:** 0 + 1 = 1\n* **Term 3:** 1 * 1 = 1\n* **Term 4:** 1 + 2 = 3\n* **Term 5:** 3 * 2 = 6\n* **Term 6:** 6 + 3 = 9\n* **Term 7:** 9 * 3 = 27\n* **Term 8:** 27 + 4 = 31\n* **Term 9:** 31 * 4 = 124 \n* **Term 10:** 124 + 5 = 129\n**The Answer:**\nThe first term greater than 125 is **129**. \n",
+        "Here's how we can solve this problem step-by-step:\n**1. Understand the Pattern:**\n* The sequence alternates between adding and multiplying by consecutive integers.\n* **Adding:** 0 + 1 = 1, 1 + 2 = 3, 6 + 3 = 9\n* **Multiplying:** 1 * 1 = 1, 3 * 2 = 6, 9 * 3 = 27\n**2. Continue the Sequence:**\nLet's continue the sequence to find the first term greater than 125:\n* 27 * 4 = 108\n* 108 + 5 = 113\n* 113 * 6 = 678 \n**3. The Answer:**\nThe first term greater than 125 is **678**. \n",
+        "Let's break down the sequence and figure out the pattern:\n* **Term 1:** 0 \n* **Term 2:** 0 + 1 = 1 \n* **Term 3:** 1 * 1 = 1\n* **Term 4:** 1 + 2 = 3\n* **Term 5:** 3 * 2 = 6\n* **Term 6:** 6 + 3 = 9\n* **Term 7:** 9 * 3 = 27\n**The Pattern:**\nThe pattern alternates between adding the next consecutive integer and multiplying by the next consecutive integer. \n**Finding the Desired Term:**\nWe need to find the first term greater than 125. Let's continue the sequence:\n* **Term 8:** 27 + 4 = 31\n* **Term 9:** 31 * 4 = 124\n* **Term 10:** 124 + 5 = 129\n**Answer:** The first term greater than 125 is **129**, which is the 10th term in the sequence. \n"
+    ],
+    "pred_answers": "125",
+    "final_pred_answer": [
+        "129",
+        "189",
+        "125",
+        "125",
+        "125"
+    ],
+    "ground_truth": "125"
+}

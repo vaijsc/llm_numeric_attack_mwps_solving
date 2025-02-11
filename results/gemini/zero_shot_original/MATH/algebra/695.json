@@ -1,0 +1,23 @@
+{
+    "problem": "If $f(x)=ax^4-bx^2+x+5$ and $f(-3)=2,$ then what is the value of $f(3)$?",
+    "level": "Level 4",
+    "type": "Algebra",
+    "solution": "Evaluating $f(x)$ for $x=3$ and $x=-3$, we have \\[\\left\\{ \\begin{aligned} f(3)& = a \\cdot 3^4 - b \\cdot 3^2 + 3 + 5, \\\\ f(-3) &= a \\cdot (-3)^4 - b \\cdot (-3)^2 + (-3) + 5. \\end{aligned} \\right.\\]If we subtract the second equation from the first equation, all the terms but one cancel out, and we get \\[f(3) - f(-3) = 3 - (-3) = 6.\\]Thus, if $f(-3) = 2,$ then $f(3) = f(-3) + 6 = 2 + 6 = \\boxed{8}.$",
+    "prompt": "### Instruction: If $f(x)=ax^4-bx^2+x+5$ and $f(-3)=2,$ then what is the value of $f(3)$?\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "Here's how to solve this problem:\n**1. Substitute and Solve for Constants**\nSince we know f(-3) = 2, let's substitute x = -3 into the function:\n*  f(-3) = a(-3)^4 - b(-3)^2 + (-3) + 5 = 2\nSimplifying:\n* 81a - 9b - 3 + 5 = 2\n* 81a - 9b = 0 \n**2. Recognize the Symmetry**\nNotice that the function f(x) has even powers of x (x^4 and x^2).  This means the function is symmetrical about the y-axis. In other words:\n* f(-x) = f(x) \n**3. Apply Symmetry**\nSince f(-3) = 2, we know that f(3) must also equal 2 because of the symmetry.\n**Therefore, the value of f(3) is 2.** \n",
+        "Here's how to solve the problem step-by-step:\n1. **Substitute x = -3 into the equation:** \n   We know that f(-3) = 2.  Let's substitute x = -3 into the function:\n   ```\n   f(-3) = a(-3)^4 - b(-3)^2 + (-3) + 5 = 2\n   ```\n2. **Simplify the equation:**\n   ```\n   81a - 9b - 3 + 5 = 2\n   81a - 9b = 0 \n   ```\n3. **Notice the symmetry:**\n   The function f(x) is an even function because all the terms have even powers of x. This means that f(-x) = f(x) for all values of x.\n4. **Apply the symmetry property:**\n   Since f(-3) = 2, we know that f(3) must also be equal to 2.\n**Therefore, the value of f(3) is 2.** \n",
+        "Here's how to solve the problem step-by-step:\n**1.  Substitute x = -3 into the function:**\nSince we know f(-3) = 2, we can substitute -3 for x in the function:\n  *  2 = a(-3)^4 - b(-3)^2 + (-3) + 5\n**2. Simplify the equation:**\n* 2 = 81a - 9b - 3 + 5\n* 2 = 81a - 9b + 2\n**3.  Solve for a relationship between a and b:**\n* 0 = 81a - 9b \n* 9b = 81a\n* b = 9a \n**4.  Recognize the symmetry of the function:**\nThe function f(x) is an even function because all the terms have even exponents (x^4, x^2).  This means the graph of the function is symmetrical about the y-axis.\n**5.  Apply symmetry to find f(3):**\nSince the function is even, f(-3) = f(3).  Therefore, f(3) = 2.\n**Answer:**  f(3) = **2** \n",
+        "Here's how to solve the problem step-by-step:\n**1. Substitute and Solve for a and b:**\n* We know that  *f(-3) = 2*.  Let's substitute *x = -3* into the function:\n   *  *f(-3) = a(-3)^4 - b(-3)^2 + (-3) + 5 = 2*\n   *  *81a - 9b - 3 + 5 = 2*\n   *  *81a - 9b = 0*  \n**2.  Utilize Symmetry:**\n* Notice that the function *f(x)* has a special property: it's an even function. This means that *f(-x) = f(x)*. \n*  Since we know *f(-3) = 2*, we can immediately conclude that *f(3) = 2*. \n**3. Explanation of Symmetry:**\n* An even function has its graph symmetrical about the y-axis. This means that for every point (x, y) on the graph, the point (-x, y) is also on the graph. \n* The given function *f(x)* has only even powers of *x* (x\u2074 and x\u00b2) which guarantees that *f(-x) = f(x)*.\n**Therefore, the value of f(3) is 2.** \n",
+        "Here's how to solve the problem:\n**1. Use the given information to create an equation:**\n* We know  *f(-3) = 2*.  Let's substitute *x = -3* into the function:\n   *  *f(-3) = a(-3)^4 - b(-3)^2 + (-3) + 5 = 2*\n**2. Simplify the equation:**\n*  *81a - 9b - 3 + 5 = 2*\n*  *81a - 9b = 0*\n**3. Notice the symmetry:**\n*  The function *f(x)* is an even function. This means that  *f(-x) = f(x)* for all values of *x*. \n**4. Apply the symmetry:**\n* Since *f(-3) = 2*, we know that *f(3) = 2* as well.\n**Therefore, the value of *f(3) = 2*.** \n"
+    ],
+    "pred_answers": "2",
+    "final_pred_answer": [
+        "2",
+        "2",
+        "3",
+        "2",
+        "2"
+    ],
+    "ground_truth": "8"
+}

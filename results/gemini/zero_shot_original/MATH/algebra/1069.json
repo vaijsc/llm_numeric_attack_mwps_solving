@@ -1,0 +1,23 @@
+{
+    "problem": "If $192x^2 -16 = 0$, find the value of $\\frac{1}{x^4}$.",
+    "level": "Level 3",
+    "type": "Algebra",
+    "solution": "We solve for $x^2$: \\begin{align*}\n192x^2 -16 &= 0\\\\\n192x^2 &=16 \\\\\nx^2 &= \\frac{1}{12}.\n\\end{align*} Therefore, $x^4 = \\frac{1}{144}$ and $\\frac{1}{x^4} = \\boxed{144}$.",
+    "prompt": "### Instruction: If $192x^2 -16 = 0$, find the value of $\\frac{1}{x^4}$.\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "Here's how to solve the problem step-by-step:\n**1. Solve for x\u00b2**\n* Divide both sides of the equation by 16: \n   12x\u00b2 - 1 = 0\n* Add 1 to both sides:\n   12x\u00b2 = 1\n* Divide both sides by 12:\n   x\u00b2 = 1/12\n**2. Find x\u2074**\n* Square both sides of the equation x\u00b2 = 1/12:\n   (x\u00b2)\u00b2 = (1/12)\u00b2\n   x\u2074 = 1/144\n**3. Find 1/x\u2074**\n* Take the reciprocal of both sides:\n   1/x\u2074 = 144\n**Therefore, the value of 1/x\u2074 is 144.** \n",
+        "Here's how to solve the problem step-by-step:\n1. **Solve for x\u00b2:**\n   * Divide both sides of the equation by 16: \n      12x\u00b2 - 1 = 0\n   * Add 1 to both sides:\n      12x\u00b2 = 1\n   * Divide both sides by 12:\n      x\u00b2 = 1/12\n2. **Find 1/x\u2074:**\n   * Square both sides of the equation x\u00b2 = 1/12:\n      (x\u00b2)\u00b2 = (1/12)\u00b2\n      x\u2074 = 1/144\n   * Take the reciprocal of both sides:\n      1/x\u2074 = **144** \nTherefore, the value of 1/x\u2074 is **144**. \n",
+        "Here's how to solve the problem step-by-step:\n1. **Solve for x\u00b2:**\n   - Divide both sides of the equation by 16: \n     12x\u00b2 - 1 = 0\n   - Add 1 to both sides:\n     12x\u00b2 = 1\n   - Divide both sides by 12:\n     x\u00b2 = 1/12\n2. **Find x\u2074:**\n   - Square both sides of the equation:\n     (x\u00b2)\u00b2 = (1/12)\u00b2\n     x\u2074 = 1/144\n3. **Find 1/x\u2074:**\n   - Take the reciprocal of both sides:\n     1/x\u2074 = 144\n**Therefore, the value of 1/x\u2074 is 144.** \n",
+        "Here's how to solve the problem step-by-step:\n**1. Solve for x\u00b2:**\n* Divide both sides of the equation by 16: \n   12x\u00b2 - 1 = 0\n* Add 1 to both sides:\n   12x\u00b2 = 1\n* Divide both sides by 12:\n   x\u00b2 = 1/12\n**2. Find 1/x\u2074:**\n*  Since x\u2074 = (x\u00b2)\u00b2, we can substitute the value we found for x\u00b2:\n   1/x\u2074 = 1/((1/12)\u00b2)\n* Simplify:\n   1/x\u2074 = 1/(1/144) = **144** \n**Therefore, the value of 1/x\u2074 is 144.** \n",
+        "Here's how to solve the problem step-by-step:\n1. **Solve for x\u00b2:**\n   *  Start by isolating the x\u00b2 term:\n      192x\u00b2 = 16\n   * Divide both sides by 192:\n      x\u00b2 = 16/192 = 1/12\n2. **Find x\u2074:**\n   * Square both sides of the equation x\u00b2 = 1/12:\n      (x\u00b2)\u00b2 = (1/12)\u00b2\n      x\u2074 = 1/144\n3. **Find 1/x\u2074:**\n   * Take the reciprocal of both sides:\n      1/x\u2074 = 144\n**Therefore, the value of 1/x\u2074 is 144.** \n"
+    ],
+    "pred_answers": "144",
+    "final_pred_answer": [
+        "144",
+        "144",
+        "144",
+        "144",
+        "144"
+    ],
+    "ground_truth": "144"
+}

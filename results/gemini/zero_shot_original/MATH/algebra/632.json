@@ -1,0 +1,23 @@
+{
+    "problem": "Louis earns a base monthly salary of $\\$$1,200 with 5$\\%$ commission on sales. For a month with $\\$$25,000 in sales, what are Louis's total earnings?",
+    "level": "Level 2",
+    "type": "Algebra",
+    "solution": "We add his base salary of $\\$1,200$ to his commission $5\\%(\\$25,\\!000)=\\$1,250$ to find that Louis earns $\\boxed{2450}$ dollars in a month with $\\$25,000$in sales.",
+    "prompt": "### Instruction: Louis earns a base monthly salary of $\\$$1,200 with 5$\\%$ commission on sales. For a month with $\\$$25,000 in sales, what are Louis's total earnings?\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "Here's how to break down the problem:\n**1. Calculate the commission:**\n* Commission rate: 5% \n* Sales: $25,000\n* Commission earned: (5/100) * $25,000 = $1,250\n**2. Calculate total earnings:**\n* Base salary: $1,200\n* Commission earned: $1,250\n* Total earnings: $1,200 + $1,250 = $2,450\n**Answer:** Louis's total earnings for the month are $2,450. \n",
+        "Here's how to calculate Louis's total earnings:\n**1. Calculate commission:**\n* Commission rate: 5% \n* Sales: $25,000\n* Commission earned: 0.05 * $25,000 = $1,250\n**2. Calculate total earnings:**\n* Base salary: $1,200\n* Commission earned: $1,250\n* Total earnings: $1,200 + $1,250 = $2,450\n**Answer:** Louis's total earnings for the month are $2,450. \n",
+        "Here's how to calculate Louis's total earnings:\n**1. Calculate the commission:**\n* Commission rate: 5% \n* Sales: $25,000\n* Commission earned: (5/100) * $25,000 = $1,250\n**2. Calculate the total earnings:**\n* Base salary: $1,200\n* Commission earned: $1,250\n* Total earnings: $1,200 + $1,250 = $2,450\n**Therefore, Louis's total earnings for the month are $2,450.** \n",
+        "Here's how to calculate Louis's total earnings:\n**1. Calculate the commission:**\n* Commission rate: 5% \n* Sales: $25,000\n* Commission earned: (5/100) * $25,000 = $1,250\n**2. Calculate total earnings:**\n* Base salary: $1,200\n* Commission earned: $1,250\n* Total earnings: $1,200 + $1,250 = $2,450\n**Therefore, Louis's total earnings for the month are $2,450.** \n",
+        "Here's how to break down the calculation:\n* **Commission:** Louis earns 5% of his sales as commission.  Calculate his commission: 0.05 * $25,000 = $1,250\n* **Total Earnings:**  Add his base salary to his commission: $1,200 + $1,250 = $2,450\n**Therefore, Louis's total earnings for the month are $2,450.** \n"
+    ],
+    "pred_answers": "2450",
+    "final_pred_answer": [
+        "2450",
+        "2450",
+        "2450",
+        "2450",
+        "2450"
+    ],
+    "ground_truth": "25000"
+}

@@ -1,0 +1,41 @@
+{
+    "index_adversarial_question": 2,
+    "problem": "If 50 + m + n - 30 = 60 and m = 3n, then what is the value of n?",
+    "pcot_answer": "# Define the constant value\nconstant_value = 70  ### condition: 'constant_value': {'type': 'int', '<=': None, '>=': 0, 'science_constant': True, 'direct_from_question': True}\n# Define the value after subtraction\nsubtraction_value = 20  ### condition: 'subtraction_value': {'type': 'int', '<=': None, '>=': 0, 'science_constant': False, 'direct_from_question': True}\n# Define the total value to equate to\ntotal_value = 80  ### condition: 'total_value': {'type': 'int', '<=': None, '>=': 0, 'science_constant': False, 'direct_from_question': True}\n# Calculate the sum of m and n\nm_plus_n = total_value - constant_value + subtraction_value  ### condition: 'm_plus_n': {'type': 'int', '<=': None, '>=': 0, 'science_constant': False, 'direct_from_question': False}\n# Define the coefficients for the two variables\nm_coefficient = 4  ### condition: 'm_coefficient': {'type': 'int', '<=': None, '>=': 0, 'science_constant': False, 'direct_from_question': True}\n# Assert that the equation holds given m = 2n\nassert (m_coefficient + 1) * m_plus_n % (m_coefficient + 1) == 0, \"The calculation for n requires valid division.\"\n# Calculate n using the equation m = 2n -> m + n = (m_coefficient + 1)n\nn_value = m_plus_n / (m_coefficient + 1)  ### condition: 'n_value': {'type': 'int', '<=': None, '>=': 0, 'science_constant': False, 'direct_from_question': False}\n# Print the value of n\nprint(f\"The value of n is: {n_value}\")",
+    "answer": "6",
+    "vllm_responses": [
+        "We start by substituting the value of m in terms of n into the equation 50 + m + n - 30 = 60.\n50 + 3n + n - 30 = 60\nCombining like terms, we have 4n + 20 = 60\nSubtracting 20 from both sides, we have 4n = 40\nDividing both sides by 4, we have n = 10\nSo, the value of n is $\\boxed{10}$\nThe answer is: 10",
+        "We have 50 + m + n - 30 = 60\nm + n = 20   (from the given equation)\nWe also have m = 3n (from the given equation)\nSubstituting m = 3n in the first equation, we get\n50 + 3n + n - 30 = 60\n4n = 20\nn = 5\nThe value of n is 5.\nThe answer is: 5",
+        "We are given that 50 + m + n - 30 = 60\nSubstituting m = 3n into the equation, we have\n50 + 3n + n - 30 = 60\nCombining like terms, we get\n4n + 20 = 60\nSubtracting 20 from both sides, we have\n4n = 40\nDividing both sides by 4, we get\nn = 10\nTherefore, the value of n is 10.The answer is: 10",
+        "First, let\u2019s simplify the equation given: \n50 + m + n - 30 = 60\nCombining like terms, we have:\nm + n + 20 = 60\nNow, we know that m = 3n, so we can substitute this in:\n3n + n + 20 = 60\nCombining like terms again, we have:\n4n + 20 = 60\nSubtracting 20 from both sides, we have:\n4n = 40\nDividing both sides by 4, we have:\nn = 10\nTherefore, the value of n is 10.The answer is: 10",
+        "From the given equation, we have \n50 + m + n - 30 = 60,\nwhich simplifies to m + n = 50.\nWe are also given that m = 3n.\nSubstituting this into the previous equation, we have \n3n + n = 50.\nCombining like terms, we have \n4n = 50.\nDividing both sides by 4, we have \nn = 12.5.\nHowever, since n represents a whole number, we can round down to the nearest whole number, which is \nn = 12.\nTherefore, the value of n is 12.The answer is: 12",
+        "We can start by simplifying the equation 50 + m + n - 30 = 60.\nCombining like terms, we get m + n + 20 = 60.\nNext, we can substitute m = 3n into the equation.\nThis gives us 3n + n + 20 = 60.\nSimplifying further, we get 4n + 20 = 60.\nSubtracting 20 from both sides, we have 4n = 40.\nFinally, dividing both sides by 4, we find that n = 10.\nTherefore, the value of n is $\\boxed{10}$.The answer is: 10",
+        "We can start by simplifying the equation: 50 + m + n - 30 = 60\nThis simplifies to: m + n = 30\nWe are also given that m = 3n\nSubstituting this into the previous equation, we get: 3n + n = 30\nCombining like terms, we get: 4n = 30\nDividing both sides by 4, we get: n = 7.5\nHowever, since n represents a quantity, it must be a whole number. Therefore, the value of n is 7.\nThe answer is: 7",
+        "We have the equation 50 + m + n - 30 = 60.\nSubstituting m = 3n, we get 50 + 3n + n - 30 = 60.\nCombining like terms, we get 4n + 20 = 60.\nSubtracting 20 from both sides, we get 4n = 40.\nDividing both sides by 4, we get n = 10.\nTherefore, the value of n is 10.The answer is: 10",
+        "We are given that $50 + m + n - 30 = 60$ and $m = 3n$.\nLet's substitute $m = 3n$ into the first equation:\n$50 + (3n) + n - 30 = 60$\nSimplifying, we have:\n$50 + 4n - 30 = 60$\n$4n + 20 = 60$\nSubtracting 20 from both sides, we get:\n$4n = 40$\nDividing both sides by 4, we find:\n$n = \\boxed{10}$The answer is: 10",
+        "First, we simplify the equation $50 + m + n - 30 = 60$:\n$m + n + 20 = 60$\nNext, we substitute $m = 3n$ into the equation:\n$3n + n + 20 = 60$\nCombining like terms, we get:\n$4n + 20 = 60$\nSubtracting 20 from both sides, we have:\n$4n = 40$\nFinally, dividing both sides by 4, we find:\n$n = \\boxed{10}$\nThe answer is: 10",
+        "We are given the equation $50 + m + n - 30 = 60$.\nWe can simplify this equation by combining like terms:\n$m + n = 30$\nWe are also given that $m = 3n$.\nWe can substitute this value of $m$ into the equation $m + n = 30$:\n$3n + n = 30$\n$4n = 30$\nDividing both sides of the equation by 4, we find that $n = \\boxed{7.5}$.\nThe answer is: 7.5",
+        "\nWe are given that 50 + m + n - 30 = 60 and m = 3n.\nWe can substitute the value of m in terms of n into the first equation:\n50 + 3n + n - 30 = 60\nCombining like terms, we have:\n4n + 20 = 60\nSubtracting 20 from both sides, we get:\n4n = 40\nDividing both sides by 4, we find:\nn = 10\nTherefore, the value of n is 10.The answer is: 10",
+        "\nWe are given the equation 50 + m + n - 30 = 60.\nWe are also given that m = 3n.\nLet\u2019s substitute the value of m in terms of n into the first equation:\n50 + 3n + n - 30 = 60.\nLet\u2019s combine like terms:\n4n + 20 = 60.\nLet\u2019s subtract 20 from both sides of the equation:\n4n = 40.\nNow, let\u2019s divide both sides of the equation by 4 to solve for n:\nn = 10.\nThe value of n is 10.\nThe answer is: 10",
+        "We are given that 50 + m + n - 30 = 60 and m = 3n.\nSubstituting m = 3n into the first equation, we have 50 + 3n + n - 30 = 60.\nCombining like terms, we get 4n + 20 = 60.\nSubtracting 20 from both sides, we get 4n = 40.\nDividing both sides by 4, we get n = 10.\nTherefore, the value of n is 10.The answer is: 10",
+        "We have the equation: 50 + m + n - 30 = 60\nSimplifying, we get: m + n + 20 = 60\nSince m = 3n, we can substitute that in: 3n + n + 20 = 60\nCombining like terms, we get: 4n + 20 = 60\nSubtracting 20 from both sides, we get: 4n = 40\nDividing both sides by 4, we get: n = 10\nSo the value of n is $\\boxed{10}$.The answer is: 10"
+    ],
+    "vllm_answers": [
+        "10",
+        "5",
+        "10",
+        "10",
+        "12",
+        "10",
+        "7",
+        "10",
+        "10",
+        "10",
+        "7.5",
+        "10",
+        "10",
+        "10",
+        "10"
+    ],
+    "vllm_pred_answer": "10"
+}

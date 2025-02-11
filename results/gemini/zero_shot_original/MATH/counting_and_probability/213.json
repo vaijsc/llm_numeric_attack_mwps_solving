@@ -1,0 +1,23 @@
+{
+    "problem": "Evaluate $\\frac{7!+8!}{6!+7!}$. Express your answer as a common fraction.",
+    "level": "Level 2",
+    "type": "Counting & Probability",
+    "solution": "We notice that 6! is a common factor of the numerator and denominator and then simplify: \\begin{align*}\n\\frac{7!+8!}{6!+7!} &= \\frac{7\\cdot6!+8\\cdot7\\cdot6!}{6!+7\\cdot6!} \\\\\n&=\\frac{6!(7+8\\cdot7)}{6!(1+7)} \\\\\n&=\\frac{7+56}{1+7}\\\\\n&=\\boxed{\\frac{63}{8}}\\\\\n\\end{align*}",
+    "prompt": "### Instruction: Evaluate $\\frac{7!+8!}{6!+7!}$. Express your answer as a common fraction.\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "Here's how to solve the problem step-by-step:\n**1. Expand the factorials:**\n*  7! = 7 * 6 * 5 * 4 * 3 * 2 * 1 = 5040\n*  8! = 8 * 7 * 6 * 5 * 4 * 3 * 2 * 1 = 40320\n*  6! = 6 * 5 * 4 * 3 * 2 * 1 = 720\n**2. Substitute the values into the expression:**\n```\n(7! + 8!) / (6! + 7!)  = (5040 + 40320) / (720 + 5040) \n```\n**3. Simplify:**\n```\n= 45360 / 5760\n```\n**4. Reduce the fraction:**\nBoth the numerator and denominator are divisible by 720:\n```\n= (45360/720) / (5760/720) \n= 63 / 8 \n```\n**Therefore,  (7! + 8!) / (6! + 7!) = 63/8** \n",
+        "Here's how to evaluate the expression step-by-step:\n**1. Expand the factorials:**\n*  7! = 7 * 6 * 5 * 4 * 3 * 2 * 1 = 5040\n*  8! = 8 * 7 * 6 * 5 * 4 * 3 * 2 * 1 = 40320\n*  6! = 6 * 5 * 4 * 3 * 2 * 1 = 720\n**2. Substitute the values into the expression:**\n  (7! + 8!)/(6! + 7!) = (5040 + 40320) / (720 + 5040)\n**3. Simplify:**\n  (45360) / (5760)\n**4. Reduce to the lowest terms:**\n  (45360/720) / (5760/720) = **63/8** \nTherefore, the answer is **63/8**. \n",
+        "Here's how to evaluate the expression step-by-step:\n**1. Expand the factorials:**\n*  7! = 7 * 6 * 5 * 4 * 3 * 2 * 1 = 5040\n*  8! = 8 * 7 * 6 * 5 * 4 * 3 * 2 * 1 = 40320\n*  6! = 6 * 5 * 4 * 3 * 2 * 1 = 720\n**2. Substitute the values into the expression:**\n(7! + 8!) / (6! + 7!) = (5040 + 40320) / (720 + 5040)\n**3. Simplify:**\n= 45360 / 5760\n**4. Reduce the fraction:**\nBoth the numerator and denominator are divisible by 720. \n= (45360/720) / (5760/720) = **63/8** \n**Therefore, the expression evaluates to 63/8.** \n",
+        "Here's how to solve the problem step-by-step:\n**1. Expand the factorials:**\n*  7! = 7 * 6 * 5 * 4 * 3 * 2 * 1 \n*  8! = 8 * 7 * 6 * 5 * 4 * 3 * 2 * 1\n*  6! = 6 * 5 * 4 * 3 * 2 * 1\n*  7! = 7 * 6 * 5 * 4 * 3 * 2 * 1\n**2. Substitute the expanded factorials into the expression:**\n```\n(7! + 8!) / (6! + 7!) =  [(7 * 6 * 5 * 4 * 3 * 2 * 1) + (8 * 7 * 6 * 5 * 4 * 3 * 2 * 1)] / [(6 * 5 * 4 * 3 * 2 * 1) + (7 * 6 * 5 * 4 * 3 * 2 * 1)] \n```\n**3. Factor out common terms:**\nNotice that 6! is a common factor in both the numerator and denominator:\n```\n= [(6! * 7) + (6! * 8)] / [(6! * 1) + (6! * 7)]\n= 6! * (7 + 8) / 6! * (1 + 7)\n```\n**4. Simplify:**\n```\n= (15) / (8)\n```\n**Answer:** The simplified expression is **15/8**. \n",
+        "Here's how to evaluate the expression step-by-step:\n**1. Expand the factorials:**\n*  7! = 7 * 6 * 5 * 4 * 3 * 2 * 1 = 5040\n*  8! = 8 * 7 * 6 * 5 * 4 * 3 * 2 * 1 = 40320\n*  6! = 6 * 5 * 4 * 3 * 2 * 1 = 720\n**2. Substitute the values into the expression:**\n(7! + 8!) / (6! + 7!) = (5040 + 40320) / (720 + 5040)\n**3. Simplify:**\n= 45360 / 5760\n**4. Reduce the fraction (find the greatest common factor):**\nBoth the numerator and denominator are divisible by 720.\n= (45360 / 720) / (5760 / 720) \n= 63 / 8\n**Therefore, the answer is 63/8.** \n"
+    ],
+    "pred_answers": "8",
+    "final_pred_answer": [
+        "8",
+        "8",
+        "8",
+        "15",
+        "8"
+    ],
+    "ground_truth": "8"
+}

@@ -1,0 +1,23 @@
+{
+    "problem": "What is $1 + 2 + 3 + \\cdots + 98 + 99 + 100$?",
+    "level": "Level 2",
+    "type": "Algebra",
+    "solution": "For all $n$, $1 + 2 + \\dots + n = n(n + 1)/2$, so $1 + 2 + \\dots + 100 = 100 \\cdot 101/2 = \\boxed{5050}$.",
+    "prompt": "### Instruction: What is $1 + 2 + 3 + \\cdots + 98 + 99 + 100$?\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "To find the sum \\(1 + 2 + 3 + \\cdots + 98 + 99 + 100\\), we can use the formula for the sum of the first \\(n\\) natural numbers:\n\\[\nS_n = \\frac{n(n + 1)}{2}\n\\]\nIn this case, \\(n = 100\\). Plugging \\(100\\) into the formula:\n\\[\nS_{100} = \\frac{100(100 + 1)}{2}\n\\]\nCalculating it step by step:\n1. Compute \\(100 + 1\\):\n\\[\n100 + 1 = 101\n\\]\n2. Multiply \\(100\\) by \\(101\\):\n\\[\n100 \\times 101 = 10100\n\\]\n3. Divide \\(10100\\) by \\(2\\):\n\\[\n\\frac{10100}{2} = 5050\n\\]\nThus, the sum \\(1 + 2 + 3 + \\cdots + 100\\) is \n\\[\n\\boxed{5050}\n\\]",
+        "To find the sum of the first 100 natural numbers, we can use the formula for the sum of the first \\( n \\) integers:\n\\[\nS_n = \\frac{n(n + 1)}{2}\n\\]\nIn this case, \\( n = 100 \\). Plugging in the value:\n\\[\nS_{100} = \\frac{100(100 + 1)}{2}\n\\]\nCalculating the values inside the parentheses:\n\\[\n100 + 1 = 101\n\\]\nNow we substitute this back into the formula:\n\\[\nS_{100} = \\frac{100 \\times 101}{2}\n\\]\nNext, perform the multiplication:\n\\[\n100 \\times 101 = 10100\n\\]\nNow divide by 2:\n\\[\n\\frac{10100}{2} = 5050\n\\]\nThus, the sum of the first 100 natural numbers is:\n\\[\n\\boxed{5050}\n\\]",
+        "To find the sum \\(1 + 2 + 3 + \\cdots + 98 + 99 + 100\\), we can use the formula for the sum of the first \\(n\\) natural numbers:\n\\[\nS_n = \\frac{n(n+1)}{2}\n\\]\nIn this case, \\(n = 100\\). Plugging in the value:\n\\[\nS_{100} = \\frac{100(100 + 1)}{2}\n\\]\nCalculating \\(100 + 1\\):\n\\[\n100 + 1 = 101\n\\]\nNow substituting that value back into the sum formula:\n\\[\nS_{100} = \\frac{100 \\times 101}{2}\n\\]\nNow, compute \\(100 \\times 101\\):\n\\[\n100 \\times 101 = 10100\n\\]\nFinally, divide by 2:\n\\[\nS_{100} = \\frac{10100}{2} = 5050\n\\]\nTherefore, the sum \\(1 + 2 + 3 + \\cdots + 98 + 99 + 100\\) is:\n\\[\n\\boxed{5050}\n\\]",
+        "To find the sum \\(1 + 2 + 3 + \\cdots + 100\\), we can use the formula for the sum of the first \\(n\\) natural numbers:\n\\[\nS_n = \\frac{n(n + 1)}{2}\n\\]\nIn this case, \\(n = 100\\). Plugging this value into the formula, we get:\n\\[\nS_{100} = \\frac{100(100 + 1)}{2}\n\\]\nCalculating \\(100 + 1\\):\n\\[\n100 + 1 = 101\n\\]\nNow substitute this back into the formula:\n\\[\nS_{100} = \\frac{100 \\times 101}{2}\n\\]\nNext, we calculate \\(100 \\times 101\\):\n\\[\n100 \\times 101 = 10100\n\\]\nNow we divide by 2:\n\\[\nS_{100} = \\frac{10100}{2} = 5050\n\\]\nThus, the sum \\(1 + 2 + 3 + \\cdots + 100\\) is \n\\[\n\\boxed{5050}\n\\]",
+        "To calculate the sum \\( S = 1 + 2 + 3 + \\cdots + 100 \\), we can use the formula for the sum of the first \\( n \\) natural numbers:\n\\[\nS_n = \\frac{n(n+1)}{2}\n\\]\nIn our case, \\( n = 100 \\). Plugging this value into the formula gives:\n\\[\nS_{100} = \\frac{100(100+1)}{2}\n\\]\nCalculating inside the parentheses first:\n\\[\n100 + 1 = 101\n\\]\nNow, substituting back into the formula:\n\\[\nS_{100} = \\frac{100 \\times 101}{2}\n\\]\nNext, we multiply \\( 100 \\) and \\( 101 \\):\n\\[\n100 \\times 101 = 10100\n\\]\nNow we divide by \\( 2 \\):\n\\[\nS_{100} = \\frac{10100}{2} = 5050\n\\]\nThus, the sum \\( 1 + 2 + 3 + \\cdots + 100 \\) is \n\\[\n\\boxed{5050}\n\\]"
+    ],
+    "pred_answers": "5050",
+    "final_pred_answer": [
+        "5050",
+        "5050",
+        "5050",
+        "5050",
+        "5050"
+    ],
+    "ground_truth": "5050"
+}

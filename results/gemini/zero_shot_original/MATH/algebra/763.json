@@ -1,0 +1,23 @@
+{
+    "problem": "Find all values of $x$ such that $\\displaystyle\\frac{1}{x-1} + \\frac{2x}{x - 1} = 5$.",
+    "level": "Level 2",
+    "type": "Algebra",
+    "solution": "We can combine the two terms on the left side to get $\\dfrac{1+2x}{x-1} = 5$.  We then multiply both sides of this equation by $x-1$ to get rid of the fractions.   This gives us $1+2x = 5(x-1)$. Expanding the right side gives $1+2x = 5x -5$.  Subtracting $5x$ from both sides   gives $1-3x = -5$, and subtracting 1 from both sides of this equation yields $-3x = -6$.  Dividing both sides   of this equation by $-3$ gives us our answer, $x = \\boxed{2}$.",
+    "prompt": "### Instruction: Find all values of $x$ such that $\\displaystyle\\frac{1}{x-1} + \\frac{2x}{x - 1} = 5$.\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "1. **Combine the fractions on the left-hand side:** \n   Since the fractions have the same denominator, we can simply add the numerators:\n   ```\n   (1 + 2x) / (x - 1) = 5 \n   ```\n2. **Multiply both sides by (x - 1):** \n   This gets rid of the denominator:\n   ```\n   1 + 2x = 5(x - 1)\n   ```\n3. **Distribute on the right-hand side:**\n   ```\n   1 + 2x = 5x - 5\n   ```\n4. **Solve for x:**\n   - Subtract 2x from both sides: \n     ```\n     1 = 3x - 5\n     ```\n   - Add 5 to both sides:\n     ```\n     6 = 3x\n     ```\n   - Divide both sides by 3:\n     ```\n     x = 2\n     ```\n**Therefore, the only solution to the equation is x = 2.** \n",
+        "1. **Combine the terms on the left-hand side:** Since the fractions have the same denominator, we can combine them directly: \n   \n   ```\n   (1 + 2x) / (x - 1) = 5 \n   ```\n2. **Multiply both sides by (x - 1):**  This will eliminate the fraction:\n   ```\n   1 + 2x = 5(x - 1)\n   ```\n3. **Simplify and solve for x:**  Distribute the 5 on the right side and then combine like terms:\n   ```\n   1 + 2x = 5x - 5\n   ```\n   ```\n   6 = 3x\n   ```\n   ```\n   x = 2\n   ```\n**Therefore, the solution is x = 2.** \n",
+        "1. **Combine the fractions on the left side:** \n   Since the fractions have the same denominator, we can combine them directly:\n   \n   ```\n   (1 + 2x) / (x - 1) = 5\n   ```\n2. **Multiply both sides by (x - 1):**\n   This will eliminate the denominator:\n   ```\n   1 + 2x = 5(x - 1)\n   ```\n3. **Expand the right side:**\n   \n   ```\n   1 + 2x = 5x - 5 \n   ```\n4. **Solve for x:**\n   - Subtract 2x from both sides:\n     ```\n     1 = 3x - 5\n     ```\n   - Add 5 to both sides:\n     ```\n     6 = 3x\n     ```\n   - Divide both sides by 3:\n     ```\n     x = 2 \n     ```\n5. **Check for extraneous solutions:**\n   We need to make sure that our solution doesn't make the original denominator zero.  Since x = 2 doesn't make x - 1 equal to zero, our solution is valid.\n**Therefore, the only solution to the equation is x = 2.** \n",
+        "Here's how to solve the equation step-by-step:\n**1. Combine the fractions on the left side:**\nSince the fractions have the same denominator, we can combine them:\n  \n  $$\\frac{1 + 2x}{x - 1} = 5$$\n**2. Multiply both sides by (x - 1):**\nThis will eliminate the fraction:\n  $$1 + 2x = 5(x - 1)$$\n**3. Distribute on the right side:**\n  $$1 + 2x = 5x - 5$$\n**4. Solve for x:**\n* Subtract 2x from both sides:  \n   $$1 = 3x - 5$$\n* Add 5 to both sides:\n   $$6 = 3x$$\n* Divide both sides by 3:\n   $$x = 2$$\n**Therefore, the solution to the equation is x = 2.** \n",
+        "1. **Combine terms on the left side:** Since both terms have the same denominator, we can combine them: \n   \n   ```\n   (1 + 2x) / (x - 1) = 5 \n   ```\n2. **Multiply both sides by the denominator:**  To get rid of the fraction, multiply both sides of the equation by (x - 1):\n   ```\n   (1 + 2x) = 5(x - 1)\n   ```\n3. **Distribute and simplify:** Expand the right side of the equation and then combine like terms:\n   ```\n   1 + 2x = 5x - 5\n   ```\n   ```\n   6 = 3x\n   ```\n4. **Solve for x:** Divide both sides by 3 to isolate x:\n   ```\n   x = 2\n   ```\n5. **Check for extraneous solutions:** We need to make sure that our solution doesn't make the original denominator zero. In this case, plugging in x = 2 does not make the denominator zero, so our solution is valid.\n**Therefore, the solution to the equation is x = 2.** \n"
+    ],
+    "pred_answers": "2",
+    "final_pred_answer": [
+        "2",
+        "2",
+        "2",
+        "2",
+        "2"
+    ],
+    "ground_truth": "2"
+}

@@ -1,0 +1,23 @@
+{
+    "problem": "What is the slope of a line perpendicular to the line containing the points $(-1,2)$ and $(1,-2)$? Express your answer as a common fraction.",
+    "level": "Level 3",
+    "type": "Algebra",
+    "solution": "The slope of the line containing $(-1, 2)$ and $(1, -2)$ is $\\frac{2 - (-2)}{(-1) - 1} = -2$.  Since the other line is perpendicular to this one its slope is the negative reciprocal of $-2$ giving $\\boxed{\\frac{1}{2}}$.",
+    "prompt": "### Instruction: What is the slope of a line perpendicular to the line containing the points $(-1,2)$ and $(1,-2)$? Express your answer as a common fraction.\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "Here's how to find the slope of the perpendicular line:\n1. **Find the slope of the given line:**\n   The slope of a line passing through points $(x_1, y_1)$ and $(x_2, y_2)$ is given by:\n   ```\n   slope = (y_2 - y_1) / (x_2 - x_1)\n   ```\n   In our case,  $(x_1, y_1) = (-1, 2)$ and $(x_2, y_2) = (1, -2)$.  Substituting:\n   ```\n   slope = (-2 - 2) / (1 - (-1)) = -4 / 2 = -2\n   ```\n2. **Find the slope of the perpendicular line:**\n   Perpendicular lines have slopes that are negative reciprocals of each other.  This means:\n   ```\n   slope of perpendicular line = -1 / (slope of given line)\n   ```\n   Therefore, the slope of the perpendicular line is:\n   ```\n   -1 / (-2) = 1/2\n   ```\n**Answer:** The slope of the line perpendicular to the line containing the points $(-1,2)$ and $(1,-2)$ is **1/2**. \n",
+        "Here's how to solve the problem step-by-step:\n1. **Find the slope of the original line:**\n   The slope of a line passing through points $(x_1, y_1)$ and $(x_2, y_2)$ is given by:\n   \n   ```\n   slope = (y_2 - y_1) / (x_2 - x_1)\n   ```\n   Applying this to our points (-1, 2) and (1, -2):\n   ```\n   slope = (-2 - 2) / (1 - (-1)) = -4 / 2 = -2 \n   ```\n2. **Find the slope of the perpendicular line:**\n   Perpendicular lines have slopes that are negative reciprocals of each other.  To find the negative reciprocal, flip the fraction and change its sign. \n   The negative reciprocal of -2 is 1/2.\n**Therefore, the slope of the line perpendicular to the given line is 1/2.** \n",
+        "Here's how to solve the problem step-by-step:\n**1. Find the slope of the given line:**\n* The slope of a line passing through points (x1, y1) and (x2, y2) is given by: (y2 - y1) / (x2 - x1)\n* In this case, our points are (-1, 2) and (1, -2).  \n* So the slope is: (-2 - 2) / (1 - (-1)) = -4 / 2 = -2.\n**2. Understand perpendicular slopes:**\n* Perpendicular lines have slopes that are negative reciprocals of each other. This means if one slope is 'm', the perpendicular slope is '-1/m'.\n**3. Calculate the perpendicular slope:**\n* The slope of our given line is -2.\n* The slope of a line perpendicular to it is -1 / (-2) = 1/2.\n**Therefore, the slope of a line perpendicular to the line containing the points (-1, 2) and (1, -2) is 1/2.** \n",
+        "1. **Find the slope of the given line:**\n   - The slope formula is:  (y2 - y1) / (x2 - x1)\n   - Using the points (-1, 2) and (1, -2), we get: (-2 - 2) / (1 - (-1)) = -4 / 2 = -2\n2. **Find the slope of the perpendicular line:**\n   - Perpendicular lines have slopes that are negative reciprocals of each other.\n   - The negative reciprocal of -2 is 1/2.\n**Therefore, the slope of the line perpendicular to the given line is 1/2.** \n",
+        "Here's how to find the slope of the perpendicular line:\n**1. Find the slope of the original line:**\n* The slope of a line passing through points (x1, y1) and (x2, y2) is given by: (y2 - y1) / (x2 - x1)\n* Using the points (-1, 2) and (1, -2):  (-2 - 2) / (1 - (-1)) = -4 / 2 = -2\n**2. Find the negative reciprocal:**\n* Perpendicular lines have slopes that are negative reciprocals of each other.\n* The negative reciprocal of -2 is 1/2.\n**Answer:** The slope of the line perpendicular to the line containing the points (-1, 2) and (1, -2) is **1/2**. \n"
+    ],
+    "pred_answers": "2",
+    "final_pred_answer": [
+        "-12",
+        "2",
+        "2",
+        "2",
+        "-1"
+    ],
+    "ground_truth": "2"
+}

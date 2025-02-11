@@ -1,0 +1,23 @@
+{
+    "problem": "Find the greatest integer less than $10.3^3$ without using a calculator.",
+    "level": "Level 3",
+    "type": "Counting & Probability",
+    "solution": "In general, \\[(a+b)^3=a^3+3a^2b+3ab^2+b^3\\]\n\nConsider the decimal part separately, so we're trying to find the greatest integer less than $(10+0.3)^3$. By the Binomial Theorem in the above expansion, this is equal to  \\[10^3+3(10^2)(.3)+3(10)(.3^2)+.3^3\\] Expanding these terms, we have that $(10.3)^3=1000+90+2.7+.027$. From this, we find that the greatest integer less than this quantity is $\\boxed{1092}$.",
+    "prompt": "### Instruction: Find the greatest integer less than $10.3^3$ without using a calculator.\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "Here's how to solve this without a calculator:\n* **Understanding the problem:** We need to find the largest whole number that is smaller than 10.3 cubed (10.3 * 10.3 * 10.3).\n* **Estimating:** \n    * 10.3 is a little more than 10.\n    * 10 * 10 * 10 = 1000.\n    * Since 10.3 is a bit bigger than 10, 10.3 cubed will be a bit bigger than 1000.\n* **Finding the greatest integer:** Since 10.3 cubed is a bit larger than 1000, the greatest integer less than it is **1000**. \n",
+        "Here's how to find the greatest integer less than $10.3^3$ without a calculator:\n**1. Estimate the Cube:**\n* **Think of nearby perfect cubes:**  We know 10 cubed is 1000. Since 10.3 is slightly larger than 10, its cube will be slightly larger than 1000.\n**2.  Approximate the Difference:**\n* **Focus on the decimal:**  10.3 is 0.3 more than 10.  \n* **Cube the decimal:** 0.3 cubed is a small number, less than 1. \n**3. Combine the Information:**\n* Since 10.3 cubed is only slightly larger than 1000 (by less than 1), the greatest integer less than 10.3 cubed is **1000**. \n",
+        "Here's how to solve this problem:\n**1. Understand the Problem**\nWe need to find the largest whole number that is smaller than 10.3 cubed (10.3 * 10.3 * 10.3).\n**2. Estimate**\n* 10.3 is slightly bigger than 10.\n* 10 cubed (10 * 10 * 10) is 1000.\n* Since 10.3 is a little bigger than 10, 10.3 cubed will be slightly bigger than 1000.\n**3. Refine the Estimate**\n* Think about the difference between 10 and 10.3:  It's 0.3.\n* Since we're cubing, that small difference will be magnified. \n* 10.3 is about 3% bigger than 10. \n**4. Conclusion**\nSince 10.3 cubed is slightly bigger than 1000, the greatest integer less than 10.3 cubed is **1000**. \n",
+        "Here's how to find the greatest integer less than $10.3^3$ without a calculator:\n**1. Break down the exponent:**\n*  $10.3^3 = 10.3 \\times 10.3 \\times 10.3$\n**2. Estimate the first two multiplications:**\n*  $10.3 \\times 10.3$ is a bit more than $10 \\times 10 = 100$.  Since 10.3 is a little more than 10, the result will be a bit more than 100. \n*  Let's say it's roughly around 106 (you could be more precise, but we just need a reasonable estimate).\n**3. Estimate the final multiplication:**\n*  Now we need to multiply our estimate of 106 by 10.3.\n*  $106 \\times 10$ is 1060.\n*  Since 10.3 is slightly more than 10, our result will be slightly more than 1060.\n**4. Determine the greatest integer less than the result:**\n* Since our result is slightly more than 1060, the greatest integer less than $10.3^3$ is **1060**. \n",
+        "Here's how to find the greatest integer less than $10.3^3$ without a calculator:\n* **Estimate:**  Since $10.3$ is slightly larger than $10$, we know $10.3^3$ is slightly larger than $10^3 = 1000$. \n* **Consider the difference:** The difference between $10.3$ and $10$ is $0.3$.  When we cube this, we get $(0.3)^3 = 0.027$.  This means $10.3^3$ is only a little bit bigger than $1000$.\n* **Conclusion:** Since $10.3^3$ is just a bit bigger than $1000$, the greatest integer less than $10.3^3$ is **1000**. \n"
+    ],
+    "pred_answers": "1000",
+    "final_pred_answer": [
+        "1000",
+        "1000",
+        "1000",
+        "1060",
+        "1000"
+    ],
+    "ground_truth": "1092"
+}

@@ -1,0 +1,23 @@
+{
+    "problem": "Solve for $x$: $$\\left(\\frac{1}{9}\\right)^x = 3^{x+3}.$$",
+    "level": "Level 3",
+    "type": "Algebra",
+    "solution": "Writing the left side with 3 as the base, we have $\\left(\\frac{1}{9}\\right)^x = (3^{-2})^x = 3^{-2x}$, and thus our equation is: $$3^{-2x} = 3^{x + 3}.$$Then, by setting the exponents equal to each other, we obtain: $$-2x = x + 3.$$This gives us $\\boxed{x = -1}$",
+    "prompt": "### Instruction: Solve for $x$: $$\\left(\\frac{1}{9}\\right)^x = 3^{x+3}.$$\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "**1. Express both sides with the same base:**\n* Notice that  $\\frac{1}{9}$ is the same as $3^{-2}$. \n**2. Substitute and simplify:**\n* Substituting, we get:  $(3^{-2})^x = 3^{x+3}$\n* Using the rule $(a^m)^n = a^{m\\cdot n}$, we simplify: $3^{-2x} = 3^{x+3}$\n**3. Equate the exponents:**\n* Since the bases are the same, we can equate the exponents: $-2x = x + 3$\n**4. Solve for x:**\n* Combine like terms: $-3x = 3$\n* Divide both sides by -3: $x = \\boxed{-1}$ \n",
+        "Here's how to solve the equation step-by-step:\n1. **Express both sides with the same base:**  Since  9 is the square of 3, we can rewrite the left side: \n   \n   *  $\\left(\\frac{1}{9}\\right)^x = \\left(3^{-2}\\right)^x = 3^{-2x}$\n2. **Set the exponents equal:** Now we have:\n   *  $3^{-2x} = 3^{x+3}$\n3. **Solve for x:** Since the bases are the same, we can equate the exponents:\n   *  $-2x = x + 3$\n   *  $-3x = 3$\n   *  $x = \\boxed{-1}$ \n",
+        "Here's how to solve the equation step-by-step:\n1. **Rewrite the left side using exponents:**  Since $\\frac{1}{9} = 3^{-2}$, we can rewrite the equation as: \n   $$(3^{-2})^x = 3^{x+3}$$\n2. **Simplify the left side:** Using the rule of exponents  $(a^m)^n = a^{m\\cdot n}$, we get:\n   $$3^{-2x} = 3^{x+3}$$\n3. **Equate the exponents:** When the bases are the same, we can equate the exponents:\n   $$-2x = x + 3$$\n4. **Solve for x:** Combine like terms:\n   $$-3x = 3$$\n   Divide both sides by -3:\n   $$x = -1$$\n**Therefore, the solution to the equation is x = -1.** \n",
+        "Here's how to solve the equation step by step:\n**1. Express both sides with the same base:**\n* Notice that  $\\frac{1}{9}$ can be written as $3^{-2}$. \n**2. Substitute and simplify:**\n* Substitute $3^{-2}$ for $\\frac{1}{9}$ in the equation:  \n   $(3^{-2})^x = 3^{x+3}$\n* Using the power of a power rule [(a^m)^n = a^(m*n)], simplify the left side:\n   $3^{-2x} = 3^{x+3}$\n**3. Solve for x:**\n* Since the bases are now the same, we can equate the exponents:\n   -2x = x + 3\n* Solve for x:\n   -3x = 3\n   x = -1\n**Therefore, the solution to the equation is x = -1.** \n",
+        "Here's how to solve for *x* step-by-step:\n1. **Rewrite the bases:**  Recognize that both sides of the equation can be expressed with the same base, 3:\n   *  (1/9) can be written as 3\u207b\u00b2 \n   *  3 can be written as 3\u00b9 \n   This gives us: (3\u207b\u00b2)\u02e3 = 3\u00b9\u207d\u02e3\u207a\u00b3\u207e\n2. **Simplify the exponents:** Use the rule (a\u1d50)\u207f = a\u1d50\u207f to simplify the exponents: \n   *  3\u207b\u00b2\u02e3 = 3\u02e3\u207a\u00b3\n3. **Equate exponents:** Now that the bases are the same, we can equate the exponents:\n   *  -2x = x + 3\n4. **Solve for x:** Solve the linear equation:\n   *  -3x = 3\n   *  x = -1\n**Therefore, the solution is x = -1.** \n"
+    ],
+    "pred_answers": "-1",
+    "final_pred_answer": [
+        "-1",
+        "-1",
+        "-1",
+        "-1",
+        "-1"
+    ],
+    "ground_truth": "-1"
+}

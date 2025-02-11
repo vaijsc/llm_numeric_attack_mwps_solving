@@ -1,0 +1,23 @@
+{
+    "problem": "What is the greatest possible value of $a$ in the system of equations $5a + 2b = 0$ and $ab = -10$?",
+    "level": "Level 4",
+    "type": "Algebra",
+    "solution": "Though we can solve this by substitution, an easier way to solve the problem is to simply add the two equations. Then, $$ab + 5a + 2b = -10 \\Longrightarrow ab + 5a + 2b + 10 = 0.$$ This factors! Thus, $(a+2)(b+5) = 0$, from which it follows that at least one of the two statements $a = -2$, $b = -5$ is true. In the latter case, we obtain $a = \\boxed{2}$, which yields the largest possible value of $a$.",
+    "prompt": "### Instruction: What is the greatest possible value of $a$ in the system of equations $5a + 2b = 0$ and $ab = -10$?\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "Here's how to solve the problem step-by-step:\n**1. Solve for one variable in terms of the other:**\n* From the equation  5a + 2b = 0, we can solve for  'b':\n   2b = -5a\n   b = -5a/2\n**2. Substitute into the second equation:**\n* Substitute the expression for 'b' from step 1 into the equation ab = -10:\n   a * (-5a/2) = -10\n**3. Simplify and solve the quadratic:**\n* Multiply both sides by -2: 5a\u00b2 = 20\n* Divide both sides by 5: a\u00b2 = 4\n* Take the square root of both sides: a = \u00b12\n**4. Determine the greatest possible value:**\n* We have two possible solutions for 'a': a = 2 and a = -2.\n* The greatest possible value of 'a' is **2**. \n",
+        "Here's how to solve the problem step-by-step:\n**1. Solve for one variable in terms of the other**\n* From the first equation,  $5a + 2b = 0$, we can solve for  'b':\n   *  $2b = -5a$\n   *  $b = -\\frac{5}{2}a$\n**2. Substitute into the second equation**\n* Substitute the value of 'b' we found into the second equation, $ab = -10$:\n   *  $a \\left( -\\frac{5}{2}a \\right) = -10$\n**3. Simplify and solve for 'a'**\n*  $-\\frac{5}{2}a^2 = -10$\n*  $a^2 = 4$ \n*  $a = \\pm 2$\n**4. Determine the greatest value**\n* Since we want the greatest possible value of 'a', the answer is **a = 2**. \n",
+        "Here's how to solve the problem step-by-step:\n**1. Solve for one variable in terms of the other.**\n   From the equation $5a + 2b = 0$, we can solve for $b$:\n   \n   *  $2b = -5a$\n   *  $b = -\\frac{5}{2}a$\n**2. Substitute into the second equation.**\n   Substitute the expression for $b$ into the equation $ab = -10$:\n   *  $a \\left( -\\frac{5}{2}a \\right) = -10$\n**3. Simplify and solve for *a*.**\n   *  $-\\frac{5}{2}a^2 = -10$\n   *  $a^2 = 4$\n   *  $a = \\pm 2$\n**4. Determine the greatest value.**\n   The greatest possible value of *a* is **2**. \n",
+        "Here's how to find the greatest possible value of 'a':\n**1. Solve for 'b' in terms of 'a':**\n   From the first equation,  5a + 2b = 0, we can solve for 'b':\n   2b = -5a\n   b = -5a/2\n**2. Substitute into the second equation:**\n   Substitute this value of 'b' into the second equation, ab = -10:\n   a * (-5a/2) = -10\n**3. Simplify and solve for 'a':**\n   -5a\u00b2/2 = -10\n   a\u00b2 = 4\n   a = \u00b12\n**4. Determine the greatest value:**\n   We have two possible solutions for 'a': 2 and -2. The greatest value is **a = 2**. \n",
+        "Here's how to find the greatest possible value of 'a':\n**1. Solve for 'b' in terms of 'a':**\n   From the equation  5a + 2b = 0, we can solve for 'b':\n   2b = -5a\n   b = -5a/2\n**2. Substitute 'b' into the second equation:**\n   Substitute the value of 'b' we just found into the equation ab = -10:\n   a(-5a/2) = -10\n**3. Simplify and solve for 'a':**\n   -5a\u00b2/2 = -10\n   a\u00b2 = 4\n   a = \u00b12\n**4. Determine the greatest value:**\n   We have two possible solutions for 'a': 2 and -2. The greatest value of 'a' is **2**. \n**Therefore, the greatest possible value of 'a' is 2.** \n"
+    ],
+    "pred_answers": "2",
+    "final_pred_answer": [
+        "2",
+        "2",
+        "2",
+        "2",
+        "2"
+    ],
+    "ground_truth": "2"
+}

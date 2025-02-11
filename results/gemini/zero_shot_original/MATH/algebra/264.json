@@ -1,0 +1,23 @@
+{
+    "problem": "If $\\&x$ is defined as $\\&x = x + 5$ and $\\#x$ is defined as $\\#x = x^2$ , what is the value of $\\#(\\&4)$?",
+    "level": "Level 2",
+    "type": "Algebra",
+    "solution": "We have $ \\#(\\&4) = \\#(4+5) = \\#(9) = 9^2 = \\boxed{81}$.",
+    "prompt": "### Instruction: If $\\&x$ is defined as $\\&x = x + 5$ and $\\#x$ is defined as $\\#x = x^2$ , what is the value of $\\#(\\&4)$?\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "Here's how to solve this step-by-step:\n1. **Find the value of &4:** \n   *  &4 = 4 + 5 = 9\n2. **Find the value of #9:**\n   * #9 = 9\u00b2 = 81\n**Therefore, the value of #(&4) is 81.** \n",
+        "Here's how to solve this step-by-step:\n1. **Find the value of &4:** \n   Since &x = x + 5, then &4 = 4 + 5 = 9\n2. **Find the value of #9:**\n   Since #x = x\u00b2, then #9 = 9\u00b2 = 81\n**Therefore, the value of #(&4) is 81.** \n",
+        "Here's how to solve this problem step-by-step:\n1. **Find the value of &4:** \n   - We know that &x = x + 5.\n   - Substitute x = 4:  &4 = 4 + 5 = 9\n2. **Find the value of #9:**\n   - We know that #x = x\u00b2.\n   - Substitute x = 9:  #9 = 9\u00b2 = 81\n**Therefore, the value of #(&4) is 81.** \n",
+        "Here's how to solve the problem step-by-step:\n1. **Find the value of &4:** \n   *  &4 = 4 + 5 = 9\n2. **Find the value of #9:**\n   * #9 = 9\u00b2 = 81\n**Therefore, the value of #(&4) is 81.** \n",
+        "Here's how to solve the problem step-by-step:\n1. **Find the value of &4:** \n   Since &x = x + 5, then &4 = 4 + 5 = 9.\n2. **Find the value of #9:**\n   Since #x = x\u00b2, then #9 = 9\u00b2 = 81.\n**Therefore, the value of #(&4) is 81.** \n"
+    ],
+    "pred_answers": "81",
+    "final_pred_answer": [
+        "81",
+        "81",
+        "81",
+        "81",
+        "81"
+    ],
+    "ground_truth": "81"
+}

@@ -1,0 +1,23 @@
+{
+    "problem": "The ratio of $x$ to $y$ is $1$ to $2$. What is the value of $x$ if $y=4x-36$?",
+    "level": "Level 3",
+    "type": "Algebra",
+    "solution": "Let's write the first sentence as an equation: \\begin{align*}\n\\frac{x}{y} &= \\frac{1}{2}, \\\\\n2x &= y.\n\\end{align*}\n\nNow, we can substitute this into the given equation to find $x$: \\begin{align*}\n2x &= 4x - 36, \\\\\n36 &= 2x, \\\\\n\\boxed{18} &= x.\n\\end{align*}",
+    "prompt": "### Instruction: The ratio of $x$ to $y$ is $1$ to $2$. What is the value of $x$ if $y=4x-36$?\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "Here's how to solve the problem step-by-step:\n**1. Understand the Ratio:**\n* The ratio of  *x* to *y* is 1:2 means that for every 1 unit of *x*, there are 2 units of *y*. We can write this as the equation: \n   *x/y = 1/2*\n**2.  Solve for x:**\n* We are given that *y = 4x - 36*.  Let's substitute this into our ratio equation:\n   *x/(4x - 36) = 1/2*\n**3. Cross-Multiply:**\n* To solve for *x*, cross-multiply:\n   *2x = 4x - 36*\n**4. Isolate x:**\n* Subtract *2x* from both sides:\n   *0 = 2x - 36*\n* Add *36* to both sides:\n   *36 = 2x*\n* Divide both sides by 2:\n   *x = 18*\n**Therefore, the value of x is 18.** \n",
+        "Here's how to solve the problem step-by-step:\n**1. Understand the Ratio:**\nThe ratio of  *x* to *y* being 1 to 2 means: \n*  *x* is one part \n*  *y* is two parts\n**2. Set up an Equation:**\nSince the ratio is 1:2, we can write: \n*  *y* = 2*x* \n**3. Substitute the Value of y:**\nWe are given that *y* = 4*x* - 36.  Substitute this into the equation we just created:\n*  4*x* - 36 = 2*x*\n**4. Solve for x:**\n*  2*x* = 36 \n*  x = 18\n**Therefore, the value of x is 18.** \n",
+        "Here's how to solve the problem step-by-step:\n**1. Understand the Ratio:**\n* The ratio of  $x$ to $y$ is 1 to 2 means that for every 1 unit of $x$, there are 2 units of $y$. We can write this as a proportion: \n   *  $x/y = 1/2$\n**2. Substitute the Value of y:**\n* We are given that  $y = 4x - 36$. Substitute this into the proportion:\n   *  $x/(4x - 36) = 1/2$\n**3. Solve for x:**\n* Cross-multiply: \n   *  $2x = 4x - 36$\n* Combine like terms:\n   *  $-2x = -36$\n* Divide both sides by -2:\n   *  $x = 18$\n**Therefore, the value of x is 18.** \n",
+        "Here's how to solve the problem step-by-step:\n**1. Understand the Ratio**\nThe ratio of  *x* to *y* being 1 to 2 means:\n*  *x* is one part of the ratio.\n*  *y* is two parts of the ratio.\n**2. Set up a Proportion**\nWe can write this ratio as a proportion:\n*  *x* / *y* = 1 / 2\n**3. Substitute the Value of *y***\nWe're given that *y* = 4*x* - 36. Substitute this into the proportion:\n*  *x* / (4*x* - 36) = 1 / 2\n**4. Solve for *x***\nTo solve for *x*, cross-multiply:\n*  2*x* = 4*x* - 36\nNow, isolate *x*:\n*  -2*x* = -36\n*  *x* = 18\n**Therefore, the value of *x* is 18.** \n",
+        "Here's how to solve the problem step-by-step:\n**1. Understand the Ratio:**\nThe ratio of *x* to *y* is 1:2. This means for every 1 unit of *x*, there are 2 units of *y*. We can write this as a proportion: \n \n *x/y = 1/2*\n**2. Substitute the Value of y:**\nWe are given that *y = 4x - 36*.  Substitute this into the proportion:\n*x/(4x - 36) = 1/2*\n**3. Solve for x:**\nTo solve for *x*, cross-multiply:\n*2x = 4x - 36*\nSubtract *2x* from both sides:\n*0 = 2x - 36*\nAdd *36* to both sides:\n*36 = 2x*\nDivide both sides by 2:\n*x = 18*\n**Therefore, the value of x is 18.** \n"
+    ],
+    "pred_answers": "18",
+    "final_pred_answer": [
+        "18",
+        "18",
+        "18",
+        "18",
+        "18"
+    ],
+    "ground_truth": "18"
+}

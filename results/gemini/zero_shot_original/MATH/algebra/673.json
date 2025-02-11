@@ -1,0 +1,23 @@
+{
+    "problem": "If a snack-size tin of peaches has $40$ calories and is $2\\%$ of a person's daily caloric requirement, how many calories fulfill a person's daily caloric requirement?",
+    "level": "Level 1",
+    "type": "Algebra",
+    "solution": "If 40 calories is equal to $2\\%=\\frac{2}{100}=\\frac{1}{50}$ of a person's daily requirement, then a person's daily caloric requirement is: $$40\\cdot 50=\\boxed{2000}$$",
+    "prompt": "### Instruction: If a snack-size tin of peaches has $40$ calories and is $2\\%$ of a person's daily caloric requirement, how many calories fulfill a person's daily caloric requirement?\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "Here's how to solve the problem:\n* **Understanding Percentages:**  2% means that the tin of peaches represents 2 out of every 100 calories in the person's daily requirement.\n* **Setting up a Proportion:**  We can set up a proportion to find the total daily calories:\n   (2 calories from peaches) / (40 calories in the tin) = (100 calories) / (x total daily calories)\n* **Solving for x:**  Cross-multiply to solve for x:\n   2 * x = 40 * 100\n   2x = 4000\n   x = 4000 / 2\n   x = 2000\n**Answer:** A person's daily caloric requirement is **2000 calories**. \n",
+        "Here's how to solve the problem:\n* **Understand the relationship:** The snack-size tin of peaches represents 2% of the person's daily caloric needs. \n* **Set up a proportion:** We can set up a proportion to find the total daily caloric requirement: \n   *  (40 calories) / (2%) = (x calories) / (100%)\n* **Solve for x:** To solve for x (the total daily caloric requirement), we can cross-multiply:\n   * 40 calories * 100% = 2% * x calories\n   * 4000 calories = 0.02x calories\n* **Isolate x:** Divide both sides of the equation by 0.02:\n   * x = 4000 calories / 0.02 \n   * x = 200,000 calories\n**Therefore, a person's daily caloric requirement is 200,000 calories.** \n",
+        "Here's how to solve this problem step-by-step:\n* **Understand the Relationship:**  If the peach tin represents 2% of the daily caloric requirement, we need to find the total number of calories that make up 100%.\n* **Set up a Proportion:** We can use a proportion to solve this:\n   *  (2% / 40 calories) = (100% / x calories)\n* **Solve for x:** \n   * Cross-multiply: 2% * x = 100% * 40 calories\n   * Simplify: 0.02x = 4000\n   * Divide both sides by 0.02: x = 2000 calories\n**Answer:** A person's daily caloric requirement is **2000 calories**. \n",
+        "Here's how to solve the problem step-by-step:\n* **Understanding Percentages:**  If the peach tin represents 2% of the daily caloric requirement, that means 100% is the entire daily requirement.\n* **Finding the Whole:**  We can set up a proportion to find the total daily calories: \n    *  2% / 40 calories = 100% / x calories \n* **Solving for x:**  To solve for 'x', we can cross-multiply:\n    * 2% * x = 100% * 40 calories\n    * 0.02x = 4000\n* **Isolating x:** Divide both sides by 0.02:\n    * x = 4000 / 0.02\n    * x = 200,000\n**Therefore, a person's daily caloric requirement is 200,000 calories.** \n",
+        "Here's how to solve the problem step-by-step:\n* **Understanding the Relationship:** We know that the peach tin represents 2% of the person's daily caloric needs. \n* **Finding the Whole:** To find the total daily caloric requirement, we need to figure out what number the peach tin's calories (40) represent 2% of.\n* **Using Percentages:**  We can set up a proportion: \n   * 2% / 100% = 40 calories / x calories \n* **Solving for x:** Cross-multiply and solve for x:\n   * 2 * x = 40 * 100\n   * 2x = 4000\n   * x = 2000\n**Therefore, a person's daily caloric requirement is 2000 calories.** \n"
+    ],
+    "pred_answers": "2000",
+    "final_pred_answer": [
+        "2000",
+        "200000",
+        "2000",
+        "200000",
+        "2000"
+    ],
+    "ground_truth": "2000"
+}

@@ -1,0 +1,23 @@
+{
+    "problem": "Evaluate $\\left\\lceil -\\frac{7}{4}\\right\\rceil$.",
+    "level": "Level 3",
+    "type": "Algebra",
+    "solution": "$-\\frac{7}{4}$ is between $-1$ and $-2$, so $\\left\\lceil -\\frac{7}{4}\\right\\rceil=\\boxed{-1}$.",
+    "prompt": "### Instruction: Evaluate $\\left\\lceil -\\frac{7}{4}\\right\\rceil$.\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "Here's how to evaluate the expression:\n**1. Understand the Ceiling Function**\nThe ceiling function, denoted by  \u2308x\u2309,  gives the smallest integer greater than or equal to x.\n**2.  Find the Integer**\n*  -7/4 is equal to -1.75. \n*  The smallest integer greater than or equal to -1.75 is **-1**.\n**Therefore,  \u2308-7/4\u2309 = -1** \n",
+        "Here's how to evaluate the ceiling function of -7/4:\n**Understanding the Ceiling Function**\nThe ceiling function, denoted by $\\lceil x \\rceil$, gives the smallest integer greater than or equal to  *x*.\n**Applying the Ceiling Function**\n1. **Find the decimal representation:**  -7/4 = -1.75\n2. **Identify the smallest integer greater than or equal to -1.75:** This integer is **-1**.\n**Therefore, $\\left\\lceil -\\frac{7}{4}\\right\\rceil = -1$.** \n",
+        "Here's how to evaluate  $\\left\\lceil -\\frac{7}{4}\\right\\rceil$:\n* **Understanding the Ceiling Function:** The ceiling function, denoted by $\\lceil x \\rceil$, gives the smallest integer greater than or equal to *x*.\n* **Finding the Value:** \n    *  -7/4 is approximately -1.75.\n    * The smallest integer greater than or equal to -1.75 is **-1**.\n**Therefore,  $\\left\\lceil -\\frac{7}{4}\\right\\rceil = -1$.** \n",
+        "Here's how to evaluate the expression:\n**Understanding the Ceiling Function**\nThe ceiling function, denoted by $\\lceil x \\rceil$, gives the smallest integer greater than or equal to  *x*.\n**Applying to the Problem**\n1. **Find the decimal representation:**  -7/4 = -1.75\n2. **Identify the smallest integer greater than or equal to -1.75:** This integer is **-1**.\n**Therefore,  $\\left\\lceil -\\frac{7}{4}\\right\\rceil = -1$.** \n",
+        "Here's how to evaluate the expression:\n* **Understanding the Ceiling Function:** The ceiling function, denoted by $\\lceil x \\rceil$, gives the smallest integer greater than or equal to *x*.\n* **Applying the Ceiling Function:**  \n    * -7/4 is equal to -1.75.\n    * The smallest integer greater than or equal to -1.75 is **-1**.\nTherefore, $\\left\\lceil -\\frac{7}{4}\\right\\rceil = \\boxed{-1}$. \n"
+    ],
+    "pred_answers": "-1",
+    "final_pred_answer": [
+        "-1",
+        "-1",
+        "-1",
+        "-1",
+        "-1"
+    ],
+    "ground_truth": "-1"
+}

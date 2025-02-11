@@ -1,0 +1,23 @@
+{
+    "problem": "Let \\[f(n) = \\left\\{\n\\begin{array}{cl}\nn^3+2n-1 &\\text{ if }n>1, \\\\\nn-1 &\\text{ if }n \\le 1.\n\\end{array}\n\\right.\\]Find $f(0)+f(1)+f(2)$.",
+    "level": "Level 2",
+    "type": "Algebra",
+    "solution": "Since $0 \\leq 1$, we use the second case to find $f(0)=0-1=-1$. Since $1 \\le 1$, we again use the second case to find $f(1)=1-1=0$. Since $2>1$, we use the first case to find $f(2)=2^3+2(2)-1=11$. Therefore, $f(0)+f(1)+f(2)=-1+0+11=\\boxed{10}$.",
+    "prompt": "### Instruction: Let \\[f(n) = \\left\\{\n\\begin{array}{cl}\nn^3+2n-1 &\\text{ if }n>1, \\\\\nn-1 &\\text{ if }n \\le 1.\n\\end{array}\n\\right.\\]Find $f(0)+f(1)+f(2)$.\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "Here's how to solve the problem step-by-step:\n1. **Evaluate f(0):** Since 0 \u2264 1, we use the second part of the definition of f(n):\n   * f(0) = 0 - 1 = -1\n2. **Evaluate f(1):**  Since 1 \u2264 1, we again use the second part of the definition:\n   * f(1) = 1 - 1 = 0\n3. **Evaluate f(2):** Since 2 > 1, we use the first part of the definition:\n   * f(2) = 2\u00b3 + 2(2) - 1 = 8 + 4 - 1 = 11\n4. **Calculate the sum:**\n   * f(0) + f(1) + f(2) = -1 + 0 + 11 = **10**\nTherefore, f(0) + f(1) + f(2) = 10. \n",
+        "Here's how to find the solution step-by-step:\n1. **Evaluate f(0):** Since 0 \u2264 1, we use the second part of the definition:  \n   * f(0) = 0 - 1 = -1\n2. **Evaluate f(1):**  Since 1 \u2264 1, we again use the second part of the definition: \n   * f(1) = 1 - 1 = 0\n3. **Evaluate f(2):** Since 2 > 1, we use the first part of the definition:\n   * f(2) = 2\u00b3 + 2(2) - 1 = 8 + 4 - 1 = 11\n4. **Add the results:**\n   * f(0) + f(1) + f(2) = -1 + 0 + 11 = **10**\nTherefore, f(0) + f(1) + f(2) = 10. \n",
+        "Here's how to solve the problem step-by-step:\n1. **Find f(0):** Since 0 \u2264 1, we use the second part of the definition: \n   *  f(0) = 0 - 1 = -1\n2. **Find f(1):**  Since 1 \u2264 1, we use the second part of the definition again:\n   *  f(1) = 1 - 1 = 0\n3. **Find f(2):** Since 2 > 1, we use the first part of the definition:\n   * f(2) = 2\u00b3 + 2(2) - 1 = 8 + 4 - 1 = 11\n4. **Calculate the sum:**\n   * f(0) + f(1) + f(2) = -1 + 0 + 11 = **10** \nTherefore,  f(0) + f(1) + f(2) = 10. \n",
+        "Let\u2019s think step by step.\n* **Find f(0):** Since 0 \u2264 1, we use the second part of the definition:  f(0) = 0 - 1 = -1.\n* **Find f(1):**  Since 1 \u2264 1, we use the second part of the definition: f(1) = 1 - 1 = 0.\n* **Find f(2):** Since 2 > 1, we use the first part of the definition: f(2) = 2\u00b3 + 2(2) - 1 = 8 + 4 - 1 = 11.\n* **Calculate f(0) + f(1) + f(2):**  f(0) + f(1) + f(2) = -1 + 0 + 11 = **10**. \n",
+        "Here's how to solve the problem step-by-step:\n1. **Evaluate f(0):**  Since 0 \u2264 1, we use the second part of the definition: \n   *  f(0) = 0 - 1 = -1\n2. **Evaluate f(1):**  Again, 1 \u2264 1, so we use the second part of the definition:\n   * f(1) = 1 - 1 = 0\n3. **Evaluate f(2):** Since 2 > 1, we use the first part of the definition:\n   * f(2) = 2\u00b3 + 2(2) - 1 = 8 + 4 - 1 = 11\n4. **Add the results:**\n   * f(0) + f(1) + f(2) = -1 + 0 + 11 = **10**\nTherefore, f(0) + f(1) + f(2) = 10. \n"
+    ],
+    "pred_answers": "10",
+    "final_pred_answer": [
+        "10",
+        "10",
+        "10",
+        "10",
+        "10"
+    ],
+    "ground_truth": "10"
+}

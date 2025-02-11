@@ -1,0 +1,23 @@
+{
+    "problem": "Points $P$ and $R$ are located at (1, 3) and (7, 15) respectively. Point $M$ is the midpoint of segment $PR$. Segment $PR$ is reflected over the $x$-axis. What is the sum of the coordinates of the image of point $M$ (the midpoint of the reflected segment)?",
+    "level": "Level 3",
+    "type": "Geometry",
+    "solution": "Point $M$ has coordinates $(4,9)$. Therefore, its image has coordinates $(4,-9)$. Thus the sum is $\\boxed{-5}$.\n\nAlternatively, the image of point $M$ is the midpoint of the images of points $P$ and $R$ and thus is the midpoint of $(1,-3)$ and $(7,-15)$, which is also $(4,-9)$.",
+    "prompt": "### Instruction: Points $P$ and $R$ are located at (1, 3) and (7, 15) respectively. Point $M$ is the midpoint of segment $PR$. Segment $PR$ is reflected over the $x$-axis. What is the sum of the coordinates of the image of point $M$ (the midpoint of the reflected segment)?\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "Here's how to solve this problem step-by-step:\n**1. Find the midpoint M:**\n* The midpoint of a segment is found by averaging the x-coordinates and the y-coordinates of the endpoints.\n*  The x-coordinate of M is (1 + 7)/2 = 4\n* The y-coordinate of M is (3 + 15)/2 = 9\n* So, point M is located at (4, 9).\n**2. Reflect PR over the x-axis:**\n*  Reflecting a point over the x-axis means changing the sign of its y-coordinate.\n*  The image of P (1, 3) is P' (1, -3).\n* The image of R (7, 15) is R' (7, -15).\n**3. Find the midpoint of the reflected segment:**\n* The x-coordinate of the midpoint of P'R' is (1 + 7)/2 = 4.\n* The y-coordinate of the midpoint of P'R' is (-3 - 15)/2 = -9.\n* So, the image of point M is located at (4, -9).\n**4. Sum the coordinates of the image of M:**\n* The sum of the coordinates is 4 + (-9) = **-5**. \n",
+        "Here's how to solve the problem step-by-step:\n**1. Find the midpoint M:**\n* The midpoint of a segment is found by averaging the x-coordinates and the y-coordinates of the endpoints.\n* Midpoint M:  ((1 + 7)/2, (3 + 15)/2) = (4, 9)\n**2. Reflect point M over the x-axis:**\n* Reflecting a point over the x-axis means keeping the x-coordinate the same and negating the y-coordinate.\n* Image of M: (4, -9)\n**3. Find the sum of the coordinates of the image of M:**\n* Sum of coordinates: 4 + (-9) = **-5** \n**Therefore, the sum of the coordinates of the image of point M is -5.** \n",
+        "Here's how to solve this problem step-by-step:\n**1. Find the midpoint M:**\n* The midpoint of a segment is found by averaging the x-coordinates and averaging the y-coordinates.\n* Midpoint M:  ((1+7)/2, (3+15)/2) = (4, 9)\n**2. Reflect point M over the x-axis:**\n* Reflecting a point over the x-axis means keeping the x-coordinate the same and negating the y-coordinate.\n* Image of M: (4, -9)\n**3. Find the sum of the coordinates:**\n* Sum of coordinates of the image of M: 4 + (-9) = **-5** \n",
+        "Here's how to solve the problem step-by-step:\n**1. Find the midpoint M:**\n* The midpoint of a segment is found by averaging the x-coordinates and the y-coordinates of the endpoints. \n* Midpoint M:  ((1+7)/2, (3+15)/2) = (4, 9)\n**2. Reflect segment PR over the x-axis:**\n* Reflecting a point over the x-axis means keeping the x-coordinate the same and negating the y-coordinate.\n*  Point P' (reflection of P): (1, -3)\n*  Point R' (reflection of R): (7, -15)\n**3. Find the midpoint of the reflected segment:**\n* Midpoint of P'R': ((1+7)/2, (-3-15)/2) = (4, -9)\n**4. Sum the coordinates of the image of M:**\n* The sum of the coordinates of the image of M is 4 + (-9) = **-5** \n",
+        "Here's how to solve the problem step-by-step:\n**1. Find the midpoint M:**\n* The midpoint of a segment is found by averaging the x-coordinates and averaging the y-coordinates.\n* Midpoint M:  ((1+7)/2, (3+15)/2) = (4, 9)\n**2. Reflect segment PR over the x-axis:**\n* Reflecting a point over the x-axis means keeping the x-coordinate the same and negating the y-coordinate.\n* Point P' (1, -3)\n* Point R' (7, -15)\n**3. Find the midpoint of the reflected segment:**\n* The midpoint of segment P'R' is found using the same method as before.\n* Midpoint M': ((1+7)/2, (-3-15)/2) = (4, -9)\n**4. Sum the coordinates of M':**\n* Sum of coordinates: 4 + (-9) = -5\n**Answer:** The sum of the coordinates of the image of point M is **-5**. \n"
+    ],
+    "pred_answers": "-5",
+    "final_pred_answer": [
+        "-5",
+        "-5",
+        "-5",
+        "-5",
+        "-5"
+    ],
+    "ground_truth": "-9"
+}

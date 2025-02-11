@@ -1,0 +1,23 @@
+{
+    "problem": "A 12-slice pizza was made with only pepperoni and mushroom toppings, and every slice has at least one topping. Only five slices have pepperoni, and exactly eight slices have mushrooms. How many slices have both pepperoni and mushrooms?",
+    "level": "Level 1",
+    "type": "Counting & Probability",
+    "solution": "There are 12 total slices, and 5 of them have pepperoni and 8 have mushrooms. Let $n$ be the number that have both toppings. So, there are $5-n$ slices with only pepperoni and $8-n$ with only mushrooms.  So, there are a total of $n + (5-n) + (8-n)$ slices.  Since there are 12 slices, we have $(5-n) + (8-n) + n = 12$, from which we find that $n=\\boxed{1}$.",
+    "prompt": "### Instruction: A 12-slice pizza was made with only pepperoni and mushroom toppings, and every slice has at least one topping. Only five slices have pepperoni, and exactly eight slices have mushrooms. How many slices have both pepperoni and mushrooms?\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "Here's how to solve the problem step-by-step:\n* **Start with the total:** We know there are 12 slices of pizza.\n* **Slices with mushrooms:** 8 slices have mushrooms.\n* **Slices with pepperoni:** 5 slices have pepperoni.\n* **Overlapping:** If we simply add the number of slices with mushrooms and the number of slices with pepperoni (8 + 5 = 13), we get a number larger than the total number of slices. This means some slices must have both toppings. \n* **Calculate the overlap:** To find the overlap, subtract the number of slices with pepperoni from the number of slices with mushrooms and add the total number of slices: 8 + 12 - 5 = 15.  Then subtract the total number of slices from that number: 15 - 12 = 3.\n* **Answer:** Therefore, **3** slices have both pepperoni and mushrooms. \n",
+        "Here's how to solve this problem:\n* **Start with the total:** We know there are 12 slices in total.\n* **Pepperoni only:** 5 slices have pepperoni, and we know every slice has at least one topping, so 12 - 5 = 7 slices must have only mushrooms.\n* **Mushrooms only:**  We know 8 slices have mushrooms, and 7 of them have only mushrooms.  Therefore, 8 - 7 = 1 slice must have both pepperoni and mushrooms.\n**Answer:** 1 slice has both pepperoni and mushrooms. \n",
+        "Here's how to solve this problem step-by-step:\n1. **Start with the total:** We know there are 12 slices in total.\n2. **Slices with only mushrooms:** Since 8 slices have mushrooms and 5 have pepperoni, we know there are 8 - 5 = 3 slices with only mushrooms.\n3. **Slices with both:** We know 5 slices have pepperoni, and 3 have only mushrooms.  Therefore, 5 - 3 = 2 slices must have both pepperoni and mushrooms.\n**Answer:** There are **2** slices with both pepperoni and mushrooms. \n",
+        "Here's how to solve this problem:\n**1. Start with the total:**\n* We know there are 12 slices in total.\n**2. Consider the slices with mushrooms:**\n*  8 slices have mushrooms.\n**3.  Think about the overlap:**\n* Since 5 slices have pepperoni, and we know all slices have at least one topping, the remaining 3 slices (12 - 5 = 7, and 7 - 4 = 3) must only have mushrooms.\n**4. Find the slices with both:**\n* We know 8 slices have mushrooms, and 3 of those only have mushrooms.  \n* Therefore, 5 slices must have both pepperoni and mushrooms (8 - 3 = 5).\n**Answer:** There are **5** slices with both pepperoni and mushrooms. \n",
+        "Here's how we can solve this problem:\n* **Start with the total:** We know there are 12 slices in total.\n* **Slices with pepperoni:** 5 slices have pepperoni.\n* **Slices with mushrooms:** 8 slices have mushrooms.\n* **Overlapping slices:**  To find the number of slices with both toppings, we need to account for the fact that some slices with mushrooms might also have pepperoni. \n* **Logic:**  If we simply add the number of slices with pepperoni and the number of slices with mushrooms (5 + 8 = 13), we're counting some slices twice (the ones with both toppings). \n* **Calculation:** To find the number of slices with both toppings, subtract the total number of slices (12) from the sum of the slices with each topping (13): 13 - 12 = 1.\n**Therefore, 1 slice has both pepperoni and mushrooms.** \n"
+    ],
+    "pred_answers": "1",
+    "final_pred_answer": [
+        "3",
+        "1",
+        "2",
+        "5",
+        "1"
+    ],
+    "ground_truth": "1"
+}

@@ -1,0 +1,23 @@
+{
+    "problem": "If we express $-2x^2 + 4x + 5$ in the form $a(x - h)^2 + k$, then what is $k$?",
+    "level": "Level 5",
+    "type": "Algebra",
+    "solution": "We complete the square.  First, we factor $-2$ out of the terms $-2x^2 + 4x$ to get $-2(x^2 - 2x)$.  We can square $x - 1$ to get $x^2 - 2x + 1$, so $-2(x^2 - 2x) = -2[(x - 1)^2 - 1] = -2(x - 1)^2 + 2$, and \\[-2(x^2 - 2x) + 5 = -2(x - 1)^2 + 2 + 5 = -2(x - 1)^2 + 7.\\]We see that $k = \\boxed{7}$.",
+    "prompt": "### Instruction: If we express $-2x^2 + 4x + 5$ in the form $a(x - h)^2 + k$, then what is $k$?\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "Here's how to solve the problem step-by-step:\n**1. Complete the Square**\n* **Factor out a -2:** \n   -2(x\u00b2 - 2x) + 5\n* **Take half of the coefficient of the x term, square it, and add and subtract it inside the parentheses:** \n   - Half of -2 is -1, and (-1)\u00b2 = 1. \n   -2(x\u00b2 - 2x + 1 - 1) + 5\n* **Rewrite the expression inside the parentheses as a squared term:**\n   -2(x - 1)\u00b2 - 1(-2) + 5\n**2. Simplify**\n* **Distribute the -2 and combine constants:**\n   -2(x - 1)\u00b2 + 2 + 5\n   -2(x - 1)\u00b2 + 7\n**3. Identify k**\nNow the expression is in the form  a(x - h)\u00b2 + k.  We can see that **k = 7**. \n",
+        "Here's how to solve the problem step-by-step:\n1. **Complete the square:** \n   *  Factor out a -2 from the first two terms: \n      -2(x\u00b2 - 2x) + 5\n   *  Take half of the coefficient of the x term (-2), square it (1), and add and subtract it inside the parentheses:\n      -2(x\u00b2 - 2x + 1 - 1) + 5\n   *  Rewrite the perfect square trinomial:\n      -2(x - 1)\u00b2 - 2(-1) + 5\n2. **Simplify:**\n   -2(x - 1)\u00b2 + 2 + 5 \n   -2(x - 1)\u00b2 + 7\n3. **Identify k:**\n   Now the expression is in the form  *a(x - h)\u00b2 + k*.  We see that **k = 7**. \n",
+        "Here's how to solve the problem step-by-step:\n**1. Completing the Square**\n* **Factor out a -2:** \n   -  $-2x^2 + 4x + 5 = -2(x^2 - 2x) + 5$\n* **Complete the square inside the parentheses:** \n   - Take half of the coefficient of our *x* term (-2), square it (1), and add and subtract it inside the parentheses:\n     -  $-2(x^2 - 2x + 1 - 1) + 5$\n* **Rewrite the perfect square trinomial:**\n   - $-2[(x - 1)^2 - 1] + 5$\n* **Distribute and simplify:**\n   - $-2(x - 1)^2 + 2 + 5$\n   - $-2(x - 1)^2 + 7$\n**2. Identify k**\nNow we have the expression in the form  *a(x - h)\u00b2 + k*:\n*  -2(x - 1)\u00b2 + 7\nTherefore,  **k = 7**. \n",
+        "Here's how to solve the problem step-by-step:\n**1. Factor out a -2 from the first two terms:**\n   -2x\u00b2 + 4x + 5  =  -2(x\u00b2 - 2x) + 5\n**2. Complete the square inside the parentheses:**\n   * Take half of the coefficient of the x term (-2), square it (1), and add and subtract it inside the parentheses: \n      -2(x\u00b2 - 2x + 1 - 1) + 5\n   * Now we have a perfect square trinomial inside the parentheses:\n      -2(x - 1)\u00b2 - 1(-2) + 5\n**3. Simplify:**\n   -2(x - 1)\u00b2 + 2 + 5  =  -2(x - 1)\u00b2 + 7\n**Therefore, the expression in the form a(x - h)\u00b2 + k is -2(x - 1)\u00b2 + 7, and k = 7.** \n",
+        "Here's how to solve the problem step-by-step:\n**1. Factor out a -2 from the first two terms:**\n   -2x\u00b2 + 4x + 5  =  -2(x\u00b2 - 2x) + 5\n**2. Complete the square inside the parentheses:**\n   - Take half of the coefficient of the x term (-2), square it (1), and add and subtract it inside the parentheses:\n   -2(x\u00b2 - 2x + 1 - 1) + 5\n**3. Rewrite the expression inside the parentheses as a squared term:**\n   -2(x - 1)\u00b2 - 2 + 5\n**4. Simplify:**\n   -2(x - 1)\u00b2 + 3\n**Therefore, the expression in the form  a(x - h)\u00b2 + k is -2(x - 1)\u00b2 + 3, and k = 3.** \n"
+    ],
+    "pred_answers": "7",
+    "final_pred_answer": [
+        "7",
+        "7",
+        "7",
+        "7",
+        "3"
+    ],
+    "ground_truth": "7"
+}

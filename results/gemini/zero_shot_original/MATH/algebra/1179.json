@@ -1,0 +1,23 @@
+{
+    "problem": "Let \\[f(x) = \\left\\{\n\\begin{array}{cl}\n2x + 1 & \\text{if } x \\le 3, \\\\\n8 - 4x & \\text{if } x > 3.\n\\end{array}\n\\right.\\]Find the sum of all values of $x$ such that $f(x) = 0.$",
+    "level": "Level 4",
+    "type": "Algebra",
+    "solution": "We solve the equation $f(x) = 0$ on the domains $x \\le 3$ and $x > 3.$\n\nIf $x \\le 3,$ then $f(x) = 2x + 1,$ so we want to solve $2x + 1 = 0.$ The solution is $x = -1/2,$ which satisfies $x \\le 3.$\n\nIf $x > 3,$ then $f(x) = 8 - 4x,$ so we want to solve $8 - 4x = 0.$ The solution is $x = 2,$ but this value does not satisfy $x > 3.$\n\nTherefore, the only solution is $x = \\boxed{-\\frac{1}{2}}.$",
+    "prompt": "### Instruction: Let \\[f(x) = \\left\\{\n\\begin{array}{cl}\n2x + 1 & \\text{if } x \\le 3, \\\\\n8 - 4x & \\text{if } x > 3.\n\\end{array}\n\\right.\\]Find the sum of all values of $x$ such that $f(x) = 0.$\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "We need to find the values of *x* that make *f(x)* equal to 0.  Since *f(x)* is defined differently for *x \u2264 3* and *x > 3*, we need to consider each case separately.\n**Case 1: x \u2264 3**\nIn this case, *f(x) = 2x + 1*.  We want to find *x* such that:\n2*x* + 1 = 0\nSolving for *x*, we get:\n2*x* = -1\n*x* = -1/2\nSince -1/2 \u2264 3, this solution is valid.\n**Case 2: x > 3**\nIn this case, *f(x) = 8 - 4x*.  We want to find *x* such that:\n8 - 4*x* = 0\nSolving for *x*, we get:\n-4*x* = -8\n*x* = 2\nSince 2 \u2264 3, this solution is *not* valid because it does not satisfy the condition *x > 3*.\n**Conclusion:**\nThe only solution to *f(x) = 0* is *x = -1/2*.  The sum of all values of *x* that satisfy the equation is simply **-1/2**. \n",
+        "We need to find the values of $x$ that make $f(x) = 0$.  We'll do this by considering the two cases:\n**Case 1:** $x \\le 3$\nIn this case, $f(x) = 2x + 1$.  We want to solve the equation $2x + 1 = 0$.  Subtracting 1 from both sides, we get $2x = -1$, and dividing both sides by 2, we get $x = -\\frac{1}{2}$.  Since $-\\frac{1}{2} \\le 3$, this solution is valid.\n**Case 2:** $x > 3$\nIn this case, $f(x) = 8 - 4x$.  We want to solve the equation $8 - 4x = 0$.  Subtracting 8 from both sides, we get $-4x = -8$, and dividing both sides by $-4$, we get $x = 2$.  Since $2 \\le 3$, this solution is *not* valid.\nTherefore, the only solution to $f(x) = 0$ is $x = -\\frac{1}{2}$, and the sum of all solutions is $\\boxed{-\\frac{1}{2}}$. \n",
+        "**Step 1: Find the values of x where f(x) = 0 for each piece of the function.**\n* **For x \u2264 3:**  We need to solve the equation 2x + 1 = 0.\n   * Subtracting 1 from both sides gives 2x = -1.\n   * Dividing both sides by 2 gives x = -1/2.  Since -1/2 \u2264 3, this solution is valid.\n* **For x > 3:** We need to solve the equation 8 - 4x = 0.\n   * Subtracting 8 from both sides gives -4x = -8.\n   * Dividing both sides by -4 gives x = 2. Since 2 is not greater than 3, this solution is not valid.\n**Step 2: Sum the valid solutions.**\nThe only valid solution is x = -1/2.  Therefore, the sum of all values of x such that f(x) = 0 is simply **-1/2**. \n",
+        "We need to find the values of $x$ for which $f(x) = 0$.  We consider the two cases in the definition of $f(x)$ separately.\n**Case 1:** $x \\le 3$\nIn this case, $f(x) = 2x + 1$.  We want to solve the equation $2x + 1 = 0$.  Solving for $x$, we find $x = -\\frac{1}{2}$.  Since $-\\frac{1}{2} \\le 3$, this solution is valid.\n**Case 2:** $x > 3$\nIn this case, $f(x) = 8 - 4x$.  We want to solve the equation $8 - 4x = 0$.  Solving for $x$, we find $x = 2$.  Since $2 \\not> 3$, this solution is not valid.\nTherefore, the only solution to $f(x) = 0$ is $x = -\\frac{1}{2}$, and the sum of all solutions is $\\boxed{-\\frac{1}{2}}$. \n",
+        "We need to find the values of $x$ that make $f(x) = 0$.  We'll consider the two cases separately.\n**Case 1:** $x \\le 3$\nIf $x \\le 3$, then $f(x) = 2x + 1$.  We want to find the value of $x$ that makes $2x + 1 = 0$.  Solving, we find $x = -\\frac{1}{2}$.  Since $-\\frac{1}{2} \\le 3$, this solution is valid.\n**Case 2:** $x > 3$\nIf $x > 3$, then $f(x) = 8 - 4x$.  We want to find the value of $x$ that makes $8 - 4x = 0$.  Solving, we find $x = 2$.  Since $2 \\le 3$, this solution is not valid.\nTherefore, the only solution is $x = -\\frac{1}{2}$, and the sum of all solutions is $\\boxed{-\\frac{1}{2}}$. \n"
+    ],
+    "pred_answers": "2",
+    "final_pred_answer": [
+        "2",
+        "2",
+        "2",
+        "2",
+        "2"
+    ],
+    "ground_truth": "2"
+}

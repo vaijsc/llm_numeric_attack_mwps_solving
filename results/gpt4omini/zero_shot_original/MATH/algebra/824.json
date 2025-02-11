@@ -1,0 +1,23 @@
+{
+    "problem": "Compute $115^2$ in your head.",
+    "level": "Level 1",
+    "type": "Algebra",
+    "solution": "We have $115^2=(110 + 5)^2 = 110^2 + 2(110)(5) +5^2 = 12100 + 1100 + 25 = \\boxed{13225}$.",
+    "prompt": "### Instruction: Compute $115^2$ in your head.\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "To compute \\( 115^2 \\) in my head, I can use the formula for the square of a binomial:\n\\[\n(a + b)^2 = a^2 + 2ab + b^2\n\\]\nHere, I can express \\( 115 \\) as \\( 100 + 15 \\). Thus, I have:\n\\[\n115^2 = (100 + 15)^2\n\\]\nNow, applying the formula:\n1. \\( a = 100 \\) and \\( b = 15 \\)\n2. Calculate \\( a^2 \\):\n\\[\n100^2 = 10000\n\\]\n3. Calculate \\( b^2 \\):\n\\[\n15^2 = 225\n\\]\n4. Calculate \\( 2ab \\):\n\\[\n2 \\times 100 \\times 15 = 3000\n\\]\nNow, to find \\( 115^2 \\):\n\\[\n115^2 = 10000 + 3000 + 225\n\\]\nAdding these together step by step:\n1. \\( 10000 + 3000 = 13000 \\)\n2. \\( 13000 + 225 = 13225 \\)\nThus, the final result is:\n\\[\n\\boxed{13225}\n\\]",
+        "To calculate \\( 115^2 \\), we can use the formula for the square of a sum:\n\\[\n(a + b)^2 = a^2 + 2ab + b^2\n\\]\nIn this case, we can write \\( 115 \\) as \\( 100 + 15 \\). Thus, we have:\n\\[\n115^2 = (100 + 15)^2\n\\]\nNow applying the formula:\n1. \\( a = 100 \\) and \\( b = 15 \\)\n2. Calculate \\( a^2 = 100^2 = 10000 \\)\n3. Calculate \\( b^2 = 15^2 = 225 \\)\n4. Calculate \\( 2ab = 2 \\times 100 \\times 15 = 3000 \\)\nNow, we can combine these results:\n\\[\n115^2 = 10000 + 3000 + 225\n\\]\nAdding these values together:\n\\[\n10000 + 3000 = 13000\n\\]\n\\[\n13000 + 225 = 13225\n\\]\nThus, the final result is:\n\\[\n\\boxed{13225}\n\\]",
+        "To compute \\( 115^2 \\) in my head, I can use the formula for the square of a binomial, which is \\( (a + b)^2 = a^2 + 2ab + b^2 \\). \nHere, I can break \\( 115 \\) down as \\( 100 + 15 \\), where \\( a = 100 \\) and \\( b = 15 \\).\nNow, applying the formula:\n1. Calculate \\( a^2 \\):\n   \\[\n   100^2 = 10000\n   \\]\n2. Calculate \\( 2ab \\):\n   \\[\n   2 \\times 100 \\times 15 = 3000\n   \\]\n3. Calculate \\( b^2 \\):\n   \\[\n   15^2 = 225\n   \\]\nNow, combine these results:\n\\[\n115^2 = 10000 + 3000 + 225\n\\]\nNow, adding these together step by step:\n\\[\n10000 + 3000 = 13000\n\\]\n\\[\n13000 + 225 = 13225\n\\]\nThus, the final answer is:\n\\[\n115^2 = 13225\n\\]",
+        "To compute \\(115^2\\) in your head, we can use the formula for the square of a binomial:\n\\[\n(a + b)^2 = a^2 + 2ab + b^2\n\\]\nHere, we can let \\(a = 100\\) and \\(b = 15\\). Thus, we have:\n\\[\n115 = 100 + 15\n\\]\nNow, applying the formula:\n\\[\n115^2 = (100 + 15)^2 = 100^2 + 2 \\cdot 100 \\cdot 15 + 15^2\n\\]\nCalculating each term:\n1. \\(100^2 = 10000\\)\n2. \\(2 \\cdot 100 \\cdot 15 = 3000\\)\n3. \\(15^2 = 225\\)\nNow, we can add these results together:\n\\[\n115^2 = 10000 + 3000 + 225\n\\]\nAdding it step-by-step:\n\\[\n10000 + 3000 = 13000\n\\]\nThen, adding \\(225\\):\n\\[\n13000 + 225 = 13225\n\\]\nThus, we find:\n\\[\n115^2 = 13225\n\\]\nSo, the final answer is:\n\\[\n\\boxed{13225}\n\\]",
+        "To compute \\(115^2\\) in your head, we can use the formula for the square of a binomial: \n\\[\n(a + b)^2 = a^2 + 2ab + b^2\n\\]\nHere, we can express \\(115\\) as \\(100 + 15\\). So we have:\n- \\(a = 100\\)\n- \\(b = 15\\)\nWe can apply the formula:\n\\[\n115^2 = (100 + 15)^2 = 100^2 + 2 \\times 100 \\times 15 + 15^2\n\\]\nNow, we calculate each term:\n1. \\(100^2 = 10000\\)\n2. \\(2 \\times 100 \\times 15 = 3000\\)\n3. \\(15^2 = 225\\)\nNext, we add these results together:\n\\[\n115^2 = 10000 + 3000 + 225\n\\]\nAdding these step by step:\n- First, \\(10000 + 3000 = 13000\\)\n- Then, \\(13000 + 225 = 13225\\)\nThus, we find that \n\\[\n115^2 = 13225\n\\] \nTherefore, the final answer is \n\\[\n\\boxed{13225}\n\\]"
+    ],
+    "pred_answers": "13225",
+    "final_pred_answer": [
+        "13225",
+        "13225",
+        "13225",
+        "13225",
+        "13225"
+    ],
+    "ground_truth": "13225"
+}

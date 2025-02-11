@@ -1,0 +1,23 @@
+{
+    "problem": "The two lines $y = 2x - 13$ and $3x+y = 92$ intersect. What is the value of $x$ at the point of intersection?",
+    "level": "Level 3",
+    "type": "Algebra",
+    "solution": "At the intersection of two lines, the $x$'s are equal and the $y$'s are equal. We may set $2x - 13 = 92 - 3x$ to find an $x$, where the $y$'s are equal.\n\n\\begin{align*}\n2x - 13 &= 92 - 3x \\\\\n5x &= 105 \\\\\nx &= \\boxed{21}\n\\end{align*}",
+    "prompt": "### Instruction: The two lines $y = 2x - 13$ and $3x+y = 92$ intersect. What is the value of $x$ at the point of intersection?\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "Here's how to find the value of x at the point of intersection:\n**1.  Solve for y in terms of x in the second equation:**\n   *  Subtract 3x from both sides of the equation 3x + y = 92:\n      *  y = -3x + 92\n**2.  Set the two expressions for y equal to each other:**\n   *  Since both equations represent the same y-value at the intersection point, we can set them equal:\n      *  2x - 13 = -3x + 92\n**3.  Solve for x:**\n   *  Add 3x to both sides: \n      *  5x - 13 = 92\n   *  Add 13 to both sides:\n      *  5x = 105\n   *  Divide both sides by 5:\n      *  x = 21\n**Therefore, the value of x at the point of intersection is 21.** \n",
+        "Here's how to solve the problem step-by-step:\n**1.  Solve for y in the second equation:**\n   *  Subtract 3x from both sides:  y = 92 - 3x\n**2.  Set the two expressions for y equal to each other:**\n   *  Since both equations represent the same y-value at the point of intersection, we can set them equal: \n      2x - 13 = 92 - 3x\n**3.  Solve for x:**\n   *  Add 3x to both sides: 5x - 13 = 92\n   *  Add 13 to both sides: 5x = 105\n   *  Divide both sides by 5: x = 21\n**Therefore, the value of x at the point of intersection is 21.** \n",
+        "Here's how to solve the problem step-by-step:\n**1. Substitution**\n* Since we know y = 2x - 13, we can substitute this expression for 'y' in the second equation:\n   3x + (2x - 13) = 92\n**2. Simplify and Solve for x**\n* Combine like terms: 5x - 13 = 92\n* Add 13 to both sides: 5x = 105\n* Divide both sides by 5: x = 21\n**Therefore, the value of x at the point of intersection is 21.** \n",
+        "Here's how to solve this problem step-by-step:\n**1. Substitution:**\n* We have two equations, and we want to find the value of *x* where they intersect.  This means the *x* and *y* values are the same for both equations at that point.\n* We can use substitution to solve.  The first equation is already solved for *y*:  \n   *  *y = 2x - 13*\n* Substitute this expression for *y* into the second equation:\n   *  3*x* + (2*x* - 13) = 92\n**2. Simplify and Solve for *x*:**\n* Combine like terms:\n   * 5*x* - 13 = 92\n* Add 13 to both sides:\n   * 5*x* = 105\n* Divide both sides by 5:\n   * *x* = 21\n**Answer:** The value of *x* at the point of intersection is **21**. \n",
+        "Here's how to solve this problem step-by-step:\n**1. Substitution:**\n* We have two equations, and we want to find the value of *x* where they intersect. This means the *x* and *y* values are the same for both equations at that point.\n* We can use substitution.  Solve the first equation for *y*: \n   *  y = 2x - 13 \n* Substitute this expression for *y* into the second equation:\n   * 3x + (2x - 13) = 92\n**2. Solve for x:**\n* Simplify the equation:\n   * 5x - 13 = 92\n* Add 13 to both sides:\n   * 5x = 105\n* Divide both sides by 5:\n   * x = 21\n**Answer:** The value of *x* at the point of intersection is **21**. \n"
+    ],
+    "pred_answers": "21",
+    "final_pred_answer": [
+        "21",
+        "21",
+        "21",
+        "21",
+        "21"
+    ],
+    "ground_truth": "21"
+}

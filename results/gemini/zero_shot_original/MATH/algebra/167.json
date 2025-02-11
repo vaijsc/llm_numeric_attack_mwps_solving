@@ -1,0 +1,23 @@
+{
+    "problem": "If $x+\\frac{1}{x}=7$, then what is the value of $x^{2}+\\frac{1}{x^{2}} + 1$?",
+    "level": "Level 3",
+    "type": "Algebra",
+    "solution": "Squaring the equation provided, we get $x^2+2(x)\\left(\\frac{1}{x}\\right) +\\frac{1}{x^2} = x^2 + 2 + \\frac{1}{x^2}=49,$ so $x^2+\\frac{1}{x^2} + 1=\\boxed{48}.$",
+    "prompt": "### Instruction: If $x+\\frac{1}{x}=7$, then what is the value of $x^{2}+\\frac{1}{x^{2}} + 1$?\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "Here's how to solve the problem step-by-step:\n**1. Square the given equation:**\n   *  Squaring both sides of the equation  $x + \\frac{1}{x} = 7$, we get:\n      \n      $(x + \\frac{1}{x})^2 = 7^2$\n**2. Expand the left side:**\n   *  Expanding the left side using the FOIL method:\n      \n      $x^2 + 2(x)(\\frac{1}{x}) + \\frac{1}{x^2} = 49$\n**3. Simplify:**\n   *  Simplifying the middle term:\n      \n      $x^2 + 2 + \\frac{1}{x^2} = 49$\n**4. Isolate the desired expression:**\n   *  Subtracting 2 from both sides:\n      $x^2 + \\frac{1}{x^2} = 47$\n**5. Add 1:**\n   *  Adding 1 to both sides to get the final answer:\n      $x^2 + \\frac{1}{x^2} + 1 = \\boxed{48}$ \n",
+        "Here's how to solve this problem step-by-step:\n**1. Square the given equation:**\n   Since we want to find an expression involving  $x^2$ and  $1/x^2$, let's square both sides of the given equation:\n   $(x + \\frac{1}{x})^2 = 7^2$\n**2. Expand the left side:**\n   Expanding the left side using the FOIL method:\n   $x^2 + 2(x)(\\frac{1}{x}) + \\frac{1}{x^2} = 49$\n**3. Simplify the equation:**\n   $x^2 + 2 + \\frac{1}{x^2} = 49$\n**4. Isolate the desired expression:**\n   Subtract 2 from both sides to get the expression we're looking for:\n   $x^2 + \\frac{1}{x^2} = 47$\n**5. Add 1 to find the final answer:**\n   $x^2 + \\frac{1}{x^2} + 1 = 47 + 1 = \\boxed{48}$ \n",
+        "Here's how to solve the problem step-by-step:\n**1. Square the given equation:**\n  Squaring both sides of the equation  $x + \\frac{1}{x} = 7$, we get:\n  \n  $(x + \\frac{1}{x})^2 = 7^2$\n**2. Expand the left side:**\n  Expanding the left side using the formula $(a + b)^2 = a^2 + 2ab + b^2$, we have:\n  $x^2 + 2(x)(\\frac{1}{x}) + \\frac{1}{x^2} = 49$\n**3. Simplify:**\n  Simplifying the middle term, we get:\n  $x^2 + 2 + \\frac{1}{x^2} = 49$\n**4. Isolate the desired expression:**\n  Subtracting 2 from both sides to isolate the expression we're looking for:\n  $x^2 + \\frac{1}{x^2} = 47$\n**5. Add 1:**\n  Finally, adding 1 to both sides:\n  $x^2 + \\frac{1}{x^2} + 1 = 47 + 1 = \\boxed{48}$ \n",
+        "Here's how to solve the problem step-by-step:\n**1. Square the given equation:**\n*  Square both sides of the equation  $x + \\frac{1}{x} = 7$:\n   \n   (x + 1/x)\u00b2 = 7\u00b2\n**2. Expand the squared term:**\n*  Use the FOIL method (First, Outer, Inner, Last) to expand the left side:\n   x\u00b2 + 2(x)(1/x) + (1/x)\u00b2 = 49\n**3. Simplify:**\n*  Simplify the middle term:\n   x\u00b2 + 2 + (1/x)\u00b2 = 49\n**4. Isolate the desired term:**\n* Subtract 2 from both sides:\n   x\u00b2 + (1/x)\u00b2 = 47\n**5. Add 1 to both sides:**\n* This gives us the desired expression:\n   x\u00b2 + (1/x)\u00b2 + 1 = 48\n**Therefore, the value of  x\u00b2 + 1/x\u00b2 + 1 is 48.** \n",
+        "Here's how to solve the problem step-by-step:\n**1. Square the given equation:**\n   Since we want to find an expression with  $x^2$ and  $1/x^2$, let's square both sides of the given equation:\n   ```\n   (x + 1/x)\u00b2 = 7\u00b2 \n   ```\n**2. Expand the squared term:**\n   ```\n   x\u00b2 + 2(x)(1/x) + 1/x\u00b2 = 49\n   ```\n**3. Simplify:**\n   ```\n   x\u00b2 + 2 + 1/x\u00b2 = 49\n   ```\n**4. Isolate the desired expression:**\n   Subtract 2 from both sides:\n   ```\n   x\u00b2 + 1/x\u00b2 = 47\n   ```\n**5. Add 1 to find the final answer:**\n   ```\n   x\u00b2 + 1/x\u00b2 + 1 = 47 + 1 = 48\n   ```\n**Therefore, the value of  x\u00b2 + 1/x\u00b2 + 1 is 48.** \n"
+    ],
+    "pred_answers": "48",
+    "final_pred_answer": [
+        "48",
+        "48",
+        "48",
+        "48",
+        "48"
+    ],
+    "ground_truth": "48"
+}

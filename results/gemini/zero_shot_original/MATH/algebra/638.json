@@ -1,0 +1,23 @@
+{
+    "problem": "To calculate $42^2$, Emily mentally figures the value $40^2$ and adds $164$. Emily subtracts a number from $40^2$ to calculate $38^2$. What number does she subtract?",
+    "level": "Level 2",
+    "type": "Algebra",
+    "solution": "We see that $38^2 = (40 - 2)^2 = 40^2 - 4\\cdot 40 +4 = 40^2 - 156$. Therefore, Emily subtracts $\\boxed{156}$.",
+    "prompt": "### Instruction: To calculate $42^2$, Emily mentally figures the value $40^2$ and adds $164$. Emily subtracts a number from $40^2$ to calculate $38^2$. What number does she subtract?\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "Here's how to break down Emily's calculations:\n* **Calculating 42\u00b2:**\n   * Emily starts with 40\u00b2, which is 1600.\n   * She then adds 164 to get 1764 (which is 42\u00b2).  This works because:\n      * (40 + 2)\u00b2 = 40\u00b2 + 2(40)(2) + 2\u00b2 \n      * 42\u00b2 = 1600 + 160 + 4 = 1764\n* **Calculating 38\u00b2:**\n    * Emily starts with 40\u00b2, which is 1600.\n    * She needs to find the difference between 40\u00b2 and 38\u00b2. This difference is  (40 + 38)(40 - 38) = 78 x 2 = 156.\n    * Therefore, Emily subtracts **156** from 1600 to get 1444 (which is 38\u00b2). \n**So the answer is 156.** \n",
+        "Here's how to break down Emily's mental calculations:\n**1.  Calculating 42\u00b2**\n* **Emily starts with 40\u00b2:**  She knows 40\u00b2 = 1600\n* **She adds 164:**  This is because 42\u00b2 = (40 + 2)\u00b2 = 40\u00b2 + 2(40)(2) + 2\u00b2 = 1600 + 160 + 4 = 1764\n**2. Calculating 38\u00b2**\n* **Emily starts with 40\u00b2:**  Again, she knows 40\u00b2 = 1600\n* **She needs to subtract a number:** This is because 38\u00b2 = (40 - 2)\u00b2 = 40\u00b2 - 2(40)(2) + 2\u00b2 = 1600 - 160 + 4 \n**The number Emily subtracts is 160 - 4 = 156.** \n",
+        "Here's how we can break down Emily's mental calculations:\n**Calculating 42\u00b2**\n* **Emily starts with 40\u00b2:**  40 * 40 = 1600\n* **She adds 164:** This is because 42\u00b2 = (40 + 2)\u00b2 = 40\u00b2 + 2 * 40 * 2 + 2\u00b2 = 1600 + 160 + 4 = 1764\n**Calculating 38\u00b2**\n* **Emily starts with 40\u00b2:**  40 * 40 = 1600\n* **She needs to subtract a number:**  This is because 38\u00b2 = (40 - 2)\u00b2 = 40\u00b2 - 2 * 40 * 2 + 2\u00b2 = 1600 - 160 + 4 = 1444\n**The number Emily subtracts is 160 - 4 = 156** \n",
+        "Here's how we can break down Emily's mental calculations:\n**Calculating 42\u00b2:**\n* **Emily starts with 40\u00b2:**  40 * 40 = 1600\n* **She adds 164:**  1600 + 164 = 1764\nThis works because:\n* (42)\u00b2 = (40 + 2)\u00b2 = 40\u00b2 + 2(40)(2) + 2\u00b2 = 1600 + 160 + 4 = 1764\n**Calculating 38\u00b2:**\n* **Emily starts with 40\u00b2:**  40 * 40 = 1600\n* **She needs to subtract a number:**  We need to find the difference between 40\u00b2 and 38\u00b2\nLet's think about this:\n* (38)\u00b2 = (40 - 2)\u00b2 = 40\u00b2 - 2(40)(2) + 2\u00b2 = 1600 - 160 + 4 = 1444\n**The number Emily subtracts is 160 - 4 = 156** \n",
+        "Here's how we can break down Emily's calculations:\n**1. Calculating 42\u00b2**\n* **Emily starts with 40\u00b2:**  40 * 40 = 1600\n* **She adds 164:** This represents the additional area from two rectangles: one with sides 40 and 2 (two extra units in the length of 42), and another with sides 2 and 42 (two extra units in the width of 42). \n   * The area of each rectangle is 40 * 2 = 80\n   * The total additional area is 80 + 80 = 160\n   * However, Emily also needs to add the area of the 2x2 square in the corner (2 * 2 = 4)\n   * Therefore, she adds 160 + 4 = 164 to 40\u00b2\n**2. Calculating 38\u00b2**\n* **Emily starts with 40\u00b2:** Again, 40 * 40 = 1600\n* **She subtracts a number:** This number represents the area removed by taking away two rectangles: one with sides 40 and 2, and another with sides 2 and 38.\n   * The area of each rectangle is 40 * 2 = 80\n   * The total area removed is 80 + 80 = 160\n   * However, Emily also needs to subtract the area of the 2x2 square in the corner.\n   * Therefore, she subtracts 160 + 4 = **164** from 40\u00b2.\n**Answer:** Emily subtracts **164** from 40\u00b2 to calculate 38\u00b2. \n"
+    ],
+    "pred_answers": "156",
+    "final_pred_answer": [
+        "156",
+        "156",
+        "156",
+        "156",
+        "164"
+    ],
+    "ground_truth": "156"
+}

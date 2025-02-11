@@ -1,0 +1,23 @@
+{
+    "problem": "What is the largest possible value of $x$ such that $x^2-5x-36=0$?",
+    "level": "Level 2",
+    "type": "Algebra",
+    "solution": "Factoring gives us $(x - 9)(x + 4) = 0$, which means our roots are 9 and -4. Therefore, the largest possible value of $x$ is $\\boxed{9}$.",
+    "prompt": "### Instruction: What is the largest possible value of $x$ such that $x^2-5x-36=0$?\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "**Step 1: Factor the quadratic**\nThe quadratic equation $x^2 - 5x - 36 = 0$ can be factored as:\n(x - 9)(x + 4) = 0\n**Step 2: Solve for x**\nFor the product of two factors to be zero, at least one of the factors must be zero.  Therefore:\n* x - 9 = 0  or  x + 4 = 0\nSolving for x in each case, we get:\n* x = 9   or  x = -4\n**Step 3: Determine the largest value**\nThe larger of the two solutions is **x = 9**. \n**Therefore, the largest possible value of x is 9.** \n",
+        "**1. Factor the quadratic equation:**\nThe quadratic equation $x^2 - 5x - 36 = 0$ can be factored as:\n(x - 9)(x + 4) = 0\n**2. Solve for x:**\nFor the product of two factors to be zero, at least one of them must be zero.  Therefore, we have two possible solutions:\n* x - 9 = 0  =>  x = 9\n* x + 4 = 0  =>  x = -4\n**3. Determine the largest value:**\nThe largest value of x from the solutions we found is **x = 9**. \n",
+        "Here's how to solve the problem step-by-step:\n**1. Factor the quadratic:**\nThe quadratic equation  $x^2 - 5x - 36 = 0$ can be factored as:\n  \n  (x - 9)(x + 4) = 0\n**2. Find the solutions:**\nFor the product of two factors to be zero, at least one of the factors must be zero.  So we have two possibilities:\n* x - 9 = 0  =>  x = 9\n* x + 4 = 0  => x = -4\n**3. Determine the largest value:**\nThe two possible solutions are 9 and -4.  The larger of these two is **9**.\n**Therefore, the largest possible value of x that satisfies the equation is 9.** \n",
+        "Here's how to solve the problem step-by-step:\n**1. Factor the quadratic equation:**\n* We need to find two numbers that multiply to -36 and add up to -5. \n* These numbers are -9 and 4:  (-9) * (4) = -36 and (-9) + (4) = -5\n* So, we can factor the equation as: (x - 9)(x + 4) = 0\n**2. Solve for x:**\n* For the product of two factors to be zero, at least one of them must be zero.\n* Therefore, either (x - 9) = 0 or (x + 4) = 0\n* Solving for x in each case:\n    * x - 9 = 0  =>  x = 9\n    * x + 4 = 0  =>  x = -4\n**3. Determine the largest value:**\n* We have two possible solutions for x: 9 and -4.\n* The largest value is **x = 9**. \n",
+        "Here's how to solve the problem step-by-step:\n1. **Factor the quadratic:**\n   The quadratic equation $x^2 - 5x - 36 = 0$ factors as $(x-9)(x+4) = 0$.\n2. **Solve for x:**\n   For the product of two factors to be zero, at least one of them must be zero. So we have two possibilities:\n     *  x - 9 = 0  -->  x = 9\n     *  x + 4 = 0  -->  x = -4\n3. **Identify the largest value:**\n   The largest value of x is **9**. \n"
+    ],
+    "pred_answers": "9",
+    "final_pred_answer": [
+        "9",
+        "9",
+        "9",
+        "9",
+        "9"
+    ],
+    "ground_truth": "9"
+}

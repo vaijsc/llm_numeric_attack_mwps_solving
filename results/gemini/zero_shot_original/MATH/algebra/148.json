@@ -1,0 +1,23 @@
+{
+    "problem": "Let $f(x)=2x-4$ and $g(x)=x^2+3$. What is $f(g(2))$?",
+    "level": "Level 2",
+    "type": "Algebra",
+    "solution": "We note that $g(2)=2^2+3=7$, so $f(g(2))=f(7)=2\\cdot7-4=10.$ Therefore our answer is $\\boxed{10}$.",
+    "prompt": "### Instruction: Let $f(x)=2x-4$ and $g(x)=x^2+3$. What is $f(g(2))$?\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "Here's how to solve the problem step-by-step:\n1. **Find the value of the inner function:**  We start with  *g(2)*. Substitute *x = 2* into the function *g(x)*:\n   *g(2) = (2)^2 + 3 = 4 + 3 = 7*\n2. **Find the value of the outer function:** Now we have *g(2) = 7*. Substitute this value into the function *f(x)*:\n   *f(g(2)) = f(7) = 2(7) - 4 = 14 - 4 = 10*\n**Therefore,  f(g(2)) = 10** \n",
+        "Here's how to solve this problem step-by-step:\n**1. Find the value of the inner function, g(2):**\n* Substitute 2 for *x* in the expression for *g(x)*: \n   * g(2) = (2)^2 + 3 = 4 + 3 = 7\n**2. Find the value of the outer function, f(g(2)), which is f(7):**\n* Substitute 7 for *x* in the expression for *f(x)*:\n   * f(7) = 2(7) - 4 = 14 - 4 = 10\n**Therefore, f(g(2)) = 10** \n",
+        "Here's how to solve this problem step by step:\n1. **Find g(2):** \n   Substitute 2 for *x* in the function *g(x)*:\n   * g(2) = (2)\u00b2 + 3 = 4 + 3 = 7\n2. **Find f(g(2)), which is f(7):**\n   Now substitute 7 for *x* in the function *f(x)*:\n   * f(7) = 2(7) - 4 = 14 - 4 = 10\n**Therefore, f(g(2)) = 10** \n",
+        "Here's how to solve this problem step-by-step:\n**1. Find the value of the inner function,  g(2):**\n* Substitute 2 for *x* in the expression for *g(x)*:\n   *  g(2) = (2)\u00b2 + 3 = 4 + 3 = 7\n**2.  Find the value of the outer function, f(g(2)) which is f(7):**\n* Substitute 7 for *x* in the expression for *f(x)*:\n   * f(7) = 2(7) - 4 = 14 - 4 = 10\n**Therefore, f(g(2)) = 10** \n",
+        "Here's how to solve the problem step-by-step:\n1. **Find g(2):** \n   Substitute 2 for *x* in the function *g(x)*:\n   *g(2) = (2)^2 + 3 = 4 + 3 = 7*\n2. **Find f(g(2)), which is f(7):**\n   Now substitute 7 for *x* in the function *f(x)*:\n   *f(7) = 2(7) - 4 = 14 - 4 = 10*\n**Therefore, f(g(2)) = 10** \n"
+    ],
+    "pred_answers": "10",
+    "final_pred_answer": [
+        "10",
+        "10",
+        "10",
+        "10",
+        "10"
+    ],
+    "ground_truth": "10"
+}

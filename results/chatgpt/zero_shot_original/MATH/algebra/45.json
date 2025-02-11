@@ -1,0 +1,23 @@
+{
+    "problem": "Evaluate $(1+2i)6-3i$.",
+    "level": "Level 3",
+    "type": "Algebra",
+    "solution": "Distribute the factor of 6 and simplify to obtain $(1+2i)6-3i=6+12i-3i=\\boxed{6+9i}$.",
+    "prompt": "### Instruction: Evaluate $(1+2i)6-3i$.\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "To evaluate the expression \\((1 + 2i)6 - 3i\\), we follow these steps:\n1. **Distribute the multiplication over the complex number \\( 1 + 2i \\) and 6:**\n   \\[\n   (1 + 2i)6 = 1 \\times 6 + 2i \\times 6\n   \\]\n   Calculate each term:\n   \\[\n   1 \\times 6 = 6\n   \\]\n   \\[\n   2i \\times 6 = 12i\n   \\]\n   Combine these results:\n   \\[\n   (1 + 2i)6 = 6 + 12i\n   \\]\n2. **Subtract \\( 3i \\) from the result:**\n   Now we take the result \\( 6 + 12i \\) and subtract \\( 3i \\):\n   \\[\n   6 + 12i - 3i\n   \\]\n   Combine the imaginary parts:\n   \\[\n   12i - 3i = 9i\n   \\]\n   The expression becomes:\n   \\[\n   6 + 9i\n   \\]\nThus, the value of the expression \\((1 + 2i)6 - 3i\\) is \\(\\boxed{6 + 9i}\\).",
+        "To evaluate \\((1+2i)6 - 3i\\), we will follow these steps:\n1. Distribute the \\(6\\) across the terms within the parentheses:\n   \\[\n   (1+2i)6 = 1 \\cdot 6 + 2i \\cdot 6 = 6 + 12i\n   \\]\n2. Subtract \\(3i\\) from the resulting expression:\n   \\[\n   6 + 12i - 3i\n   \\]\n3. Combine the imaginary components:\n   \\[\n   12i - 3i = 9i\n   \\]\n4. Therefore, the final expression simplifies to:\n   \\[\n   6 + 9i\n   \\]\nSo, the evaluated result is \\(\\boxed{6 + 9i}\\).",
+        "To evaluate the expression \\((1+2i)6-3i\\), we follow these steps:\n1. **Distribute \\(6\\) to \\((1 + 2i)\\):**\n   \\[\n   6(1 + 2i) = 6 \\cdot 1 + 6 \\cdot 2i = 6 + 12i\n   \\]\n2. **Subtract \\(3i\\) from the result:**\n   \\[\n   6 + 12i - 3i = 6 + (12i - 3i) = 6 + 9i\n   \\]\nTherefore, the evaluated expression is \\(\\boxed{6 + 9i}\\).",
+        "To evaluate the expression \\((1+2i)6 - 3i\\), we can follow these steps:\n1. **Distribute** the 6 into the complex number \\(1 + 2i\\):\n   \\[\n   (1+2i)6 = 6 \\cdot 1 + 6 \\cdot 2i = 6 + 12i\n   \\]\n2. **Subtract** the \\(3i\\) from the result obtained in step 1:\n   \\[\n   6 + 12i - 3i\n   \\]\n3. **Combine like terms** (combine the imaginary parts):\n   - The real part remains \\(6\\).\n   - The imaginary part: \\(12i - 3i = 9i\\).\nSo the expression simplifies to:\n\\[\n6 + 9i\n\\]\nThus, the answer is \\(6 + 9i\\).",
+        "To evaluate the expression \\((1+2i)6 - 3i\\), we start by distributing the scalar \\(6\\) across the complex number \\(1+2i\\).\nFirst, distribute \\(6\\):\n\\[\n6 \\times (1 + 2i) = 6 \\times 1 + 6 \\times 2i = 6 + 12i\n\\]\nNext, we have the expression:\n\\[\n6 + 12i - 3i\n\\]\nCombine the imaginary terms:\n\\[\n12i - 3i = 9i\n\\]\nNow, we have:\n\\[\n6 + 9i\n\\]\nThus, the evaluated expression is:\n\\[\n\\boxed{6 + 9i}\n\\]"
+    ],
+    "pred_answers": "9",
+    "final_pred_answer": [
+        "9",
+        "9",
+        "9",
+        "9",
+        "9"
+    ],
+    "ground_truth": "9"
+}

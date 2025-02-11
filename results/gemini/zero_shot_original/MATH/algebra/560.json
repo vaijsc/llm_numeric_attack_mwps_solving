@@ -1,0 +1,23 @@
+{
+    "problem": "The vertex of the parabola described by the equation $y=-2x^2-12x-15$ is $(m,n)$. What is $m+n$?",
+    "level": "Level 4",
+    "type": "Algebra",
+    "solution": "We will complete the square on the given quadratic expression to find the vertex. Factoring $-2$ from the first two terms, we have \\[y=-2(x^2+6x)-15\\]In order to make the expression inside the parentheses a perfect square, we need to add and subtract $(6/2)^2=9$ inside the parentheses. Doing this, we get \\[y=-2(x^2+6x+9-9)-15 \\Rightarrow -2(x+3)^2+3\\]The graph of an equation of the form $y=a(x-h)^2+k$ is a parabola with vertex at $(h,k)$, so the vertex of our parabola is at $(-3,3)$. Thus, $m+n=-3+3=\\boxed{0}$.",
+    "prompt": "### Instruction: The vertex of the parabola described by the equation $y=-2x^2-12x-15$ is $(m,n)$. What is $m+n$?\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "Here's how to find the vertex and solve the problem:\n**1. Finding the x-coordinate of the vertex:**\n* The x-coordinate of the vertex of a parabola in the form  *y = ax\u00b2 + bx + c* is given by *x = -b / 2a*. \n* In our equation, *a = -2* and *b = -12*.\n* Substitute these values: *x = -(-12) / (2 * -2) = 12 / -4 = -3*. \nTherefore, *m = -3*.\n**2. Finding the y-coordinate of the vertex:**\n* Substitute *x = -3* into the original equation to find the corresponding *y*-value.\n*  *y = -2(-3)\u00b2 - 12(-3) - 15 = -18 + 36 - 15 = 3*\nTherefore, *n = 3*.\n**3. Calculate m + n:**\n* *m + n = -3 + 3 = 0*\n**Answer:**  *m + n = 0* \n",
+        "Here's how to solve the problem step-by-step:\n**1. Find the x-coordinate of the vertex (m):**\n* The x-coordinate of the vertex of a parabola in the form  *y = ax\u00b2 + bx + c* is given by:  *x = -b / 2a*\n* In our equation, *a = -2* and *b = -12*.\n* Substitute these values into the formula:  *m = -(-12) / (2 * -2) = 12 / -4 = -3*\n**2. Find the y-coordinate of the vertex (n):**\n* Substitute the value of *m* (which is -3) back into the original equation to find *n*:\n* *n = -2(-3)\u00b2 - 12(-3) - 15 = -18 + 36 - 15 = 3*\n**3. Calculate m + n:**\n* *m + n = -3 + 3 = 0*\n**Therefore, m + n = 0** \n",
+        "Here's how to find the vertex and solve the problem:\n**1.  Complete the Square**\n* **Factor out a -2:** \n   y = -2(x\u00b2 + 6x) - 15\n* **Complete the square inside the parentheses:**  Take half of the coefficient of the x term (which is 6), square it (36), and add and subtract it inside the parentheses:\n   y = -2(x\u00b2 + 6x + 36 - 36) - 15\n* **Rewrite as a squared term:**\n   y = -2(x + 3)\u00b2 + 72 - 15\n* **Simplify:**\n   y = -2(x + 3)\u00b2 + 57\n**2.  Identify the Vertex**\n* The equation is now in vertex form:  y = a(x - h)\u00b2 + k, where the vertex is (h, k).\n* In our equation, h = -3 and k = 57.  Therefore, the vertex is **(-3, 57)**.\n**3.  Calculate m + n**\n*  m = -3 and n = 57\n*  m + n = -3 + 57 = **54** \n",
+        "Here's how to solve the problem step-by-step:\n**1. Find the x-coordinate of the vertex (m):**\n* The x-coordinate of the vertex of a parabola in the form  y = ax\u00b2 + bx + c is given by:  x = -b / 2a\n* In our equation, a = -2 and b = -12.\n* Substitute these values into the formula:  x = -(-12) / (2 * -2) = 12 / -4 = -3\n* Therefore, m = -3\n**2. Find the y-coordinate of the vertex (n):**\n* Substitute the value of m (x = -3) back into the original equation to find the corresponding y-value:\n   y = -2(-3)\u00b2 - 12(-3) - 15\n   y = -18 + 36 - 15\n   y = 3\n* Therefore, n = 3\n**3. Calculate m + n:**\n* m + n = -3 + 3 = 0\n**Answer:** m + n = **0** \n",
+        "Here's how to solve the problem step-by-step:\n**1. Finding the Vertex:**\n* **Complete the square:**  To find the vertex, we'll rewrite the equation in vertex form:  *y = a(x - h)^2 + k*, where (h, k) is the vertex. \n    * Start by factoring out a -2 from the first two terms: \n      *y = -2(x^2 + 6x) - 15*\n    * Take half of the coefficient of the *x* term (which is 6), square it (36), and add and subtract it inside the parentheses.  \n      *y = -2(x^2 + 6x + 36 - 36) - 15*\n    * Rewrite the expression in parentheses as a squared term:\n      *y = -2(x + 3)^2 + 72 - 15*\n    * Simplify:\n      *y = -2(x + 3)^2 + 57*\n* **Identify the vertex:** Now the equation is in vertex form.  The vertex is at (h, k) = **(-3, 57)**.\n**2. Calculate m + n:**\n* Since the vertex is (m, n), we have m = -3 and n = 57.\n* Therefore, m + n = -3 + 57 = **54**. \n"
+    ],
+    "pred_answers": "0",
+    "final_pred_answer": [
+        "0",
+        "0",
+        "54",
+        "0",
+        "54"
+    ],
+    "ground_truth": "0"
+}

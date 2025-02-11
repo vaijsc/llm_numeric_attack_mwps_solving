@@ -1,0 +1,23 @@
+{
+    "problem": "How many different rectangles are in the figure? [asy]\ndefaultpen(linewidth(0.8));\ndraw((0,0)--(0,5)--(8,5)--(8,0)--cycle);\ndraw((0,3)--(8,3));\ndraw((6,5)--(6,0));\n[/asy]",
+    "level": "Level 2",
+    "type": "Counting & Probability",
+    "solution": "We start off with $\\emph{1}$ large rectangle. Then the horizontal and vertical lines together split the large rectangle into $\\emph{4}$ smaller rectangles. In addition, the vertical line by itself splits the large rectangle into $\\emph{2}$ rectangles and the horizontal line by itself splits the large rectangle into $\\emph{2}$ other rectangles. There are $1+4+2+2=\\boxed{9}$ different rectangles in the figure.",
+    "prompt": "### Instruction: How many different rectangles are in the figure? [asy]\ndefaultpen(linewidth(0.8));\ndraw((0,0)--(0,5)--(8,5)--(8,0)--cycle);\ndraw((0,3)--(8,3));\ndraw((6,5)--(6,0));\n[/asy]\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "Here's how we can count the rectangles:\n* **Large Rectangle:** There's one large rectangle encompassing the entire figure.\n* **Medium Rectangles:** There are two medium rectangles created by the horizontal and vertical lines.\n* **Small Rectangles:** There are four small rectangles formed within the medium rectangles.\n**Total:** 1 + 2 + 4 = **7 different rectangles** \n",
+        "Here's how to break down counting the rectangles:\n* **Large Rectangle:** There's one large rectangle encompassing the entire figure.\n* **Medium Rectangles:**  There are two medium rectangles: one above the horizontal line and one below.\n* **Small Rectangles:** Within each of the medium rectangles, we have:\n    * One horizontal rectangle along the top.\n    * One horizontal rectangle along the bottom.\n    * One vertical rectangle on the left.\n    * One vertical rectangle on the right.\n* **Total:** 1 (large) + 2 (medium) + 4 (small) * 2 (sections) = **9 rectangles** \n",
+        "Here's how to break down the problem:\n**1. Identify the basic rectangles:**\n* The largest rectangle:  8 units wide, 5 units high\n* Two smaller rectangles: Each is 6 units wide and 3 units high\n**2. Look for rectangles within rectangles:**\n* Within the largest rectangle, there are two smaller rectangles that are each 2 units wide and 5 units high.\n**3. Count all the rectangles:**\n* **1** large rectangle\n* **2** smaller rectangles (6 units wide by 3 units high)\n* **2** even smaller rectangles (2 units wide by 5 units high)\n**Total: 1 + 2 + 2 = 5 different rectangles** \n",
+        "Here's how to count the rectangles step-by-step:\n* **Start with the largest rectangle:**  There's one big rectangle encompassing the entire figure.\n* **Look for rectangles formed by horizontal and vertical lines:** There are two smaller rectangles formed by the horizontal and vertical lines (one above the horizontal line, and one below).\n* **Look for rectangles formed by combining lines:**  There are two more rectangles formed by combining the vertical line with the horizontal line.\n**Total:** 1 + 2 + 2 = **5 different rectangles** \n",
+        "Here's how to break down counting the rectangles:\n**1.  Identify the basic building blocks:**\n* **Horizontal lines:** There are 3 horizontal lines.\n* **Vertical lines:** There are 3 vertical lines.\n**2.  Form rectangles by choosing two horizontal lines and two vertical lines:**\n* **Choosing two horizontal lines:**  You have 3 options for the top line and 2 options remaining for the bottom line. This gives you 3 * 2 = 6 ways to choose two horizontal lines.\n* **Choosing two vertical lines:** You have 3 options for the left side and 2 options remaining for the right side. This gives you 3 * 2 = 6 ways to choose two vertical lines.\n**3.  Total Rectangles:** \nTo get the total number of rectangles, multiply the number of ways to choose horizontal lines by the number of ways to choose vertical lines: 6 * 6 = **36** \n**Therefore, there are 36 different rectangles in the figure.** \n"
+    ],
+    "pred_answers": "5",
+    "final_pred_answer": [
+        "7",
+        "9",
+        "5",
+        "5",
+        "36"
+    ],
+    "ground_truth": "9"
+}

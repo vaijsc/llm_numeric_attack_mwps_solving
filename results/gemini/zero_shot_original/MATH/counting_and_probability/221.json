@@ -1,0 +1,23 @@
+{
+    "problem": "How many integers between 200 and 300 are perfect squares?",
+    "level": "Level 1",
+    "type": "Counting & Probability",
+    "solution": "Let $m$ be a positive integer. $200\\le m^2\\le300\\Rightarrow 15\\le m\\le17$. Therefore, exactly $\\boxed{3}$ integers ($15^2$, $16^2$, and $17^2$) are perfect squares between 200 and 300.",
+    "prompt": "### Instruction: How many integers between 200 and 300 are perfect squares?\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "Here's how to solve this problem:\n**1. Find the relevant squares:**\n* The smallest perfect square greater than 200 is 14\u00b2 = 196.\n* The largest perfect square less than 300 is 17\u00b2 = 289.\n**2. Count the squares:**\n* The perfect squares between 200 and 300 are: 15\u00b2, 16\u00b2, and 17\u00b2. \n* There are **three** perfect squares between 200 and 300. \n",
+        "Here's how to solve this problem:\n**1. Find the Relevant Squares:**\n* The smallest perfect square greater than 200 is 15\u00b2 = 225.\n* The largest perfect square less than 300 is 17\u00b2 = 289.\n**2. Count the Squares:**\n* The perfect squares between 200 and 300 are 15\u00b2, 16\u00b2, and 17\u00b2.\n**3. The Answer:**\n* There are **three** perfect squares between 200 and 300. \n",
+        "Here's how to solve this problem:\n**1. Find the Relevant Squares:**\n* The smallest perfect square greater than 200 is 14\u00b2 = 196.\n* The largest perfect square less than 300 is 17\u00b2 = 289.\n**2. Count the Squares:**\n* The perfect squares between 200 and 300 are 15\u00b2, 16\u00b2, and 17\u00b2. \n* There are **three** perfect squares between 200 and 300. \n",
+        "Here's how to solve the problem:\n**1. Find the relevant squares:**\n* The smallest perfect square greater than 200 is 14\u00b2 = 196.\n* The largest perfect square less than 300 is 17\u00b2 = 289.\n**2. Count the squares:**\n* We need to count the perfect squares from 14\u00b2 to 17\u00b2.  \n* There are four squares in this range: 14\u00b2, 15\u00b2, 16\u00b2, and 17\u00b2.\n**Answer:** There are **four** integers between 200 and 300 that are perfect squares. \n",
+        "Here's how to find the perfect squares between 200 and 300:\n**1. Find the Relevant Squares:**\n* **Lower Bound:**  The smallest perfect square greater than 200 is 14\u00b2 = 196. \n* **Upper Bound:** The largest perfect square less than 300 is 17\u00b2 = 289.\n**2. Count the Squares:**\n* The perfect squares between 200 and 300 are 15\u00b2, 16\u00b2, and 17\u00b2. \n* This gives us a total of **3** perfect squares. \n"
+    ],
+    "pred_answers": "300",
+    "final_pred_answer": [
+        "300",
+        "200",
+        "300",
+        "200",
+        "3"
+    ],
+    "ground_truth": "300"
+}

@@ -1,0 +1,41 @@
+{
+    "index_adversarial_question": 6,
+    "problem": "At her track meet, Alice ran at a speed of $9\\ \\text{m/s}$ for $82$ seconds. How many meters did she run?",
+    "pcot_answer": "# Define the speed at which Alice ran\nspeed_m_per_s = 9.0  ### condition: 'speed_m_per_s': {'type': 'float', '<=': None, '>=': 0, 'science_constant': False, 'direct_from_question': True}\n# Define the time for which Alice ran\ntime_seconds = 82  ### condition: 'time_seconds': {'type': 'int', '<=': None, '>=': 0, 'science_constant': False, 'direct_from_question': True}\n# Calculate the distance ran by Alice using the formula distance = speed * time\ndistance_meters = speed_m_per_s * time_seconds  ### condition: 'distance_meters': {'type': 'float', '<=': None, '>=': 0, 'science_constant': False, 'direct_from_question': False}\n# Print the distance Alice ran\nprint(f\"Distance ran by Alice: {distance_meters} meters\")",
+    "answer": "738",
+    "vllm_responses": [
+        " We can use the formula distance = speed \u00d7 time.\n#### 1. Calculate distance:\nDistance = speed \u00d7 time\nDistance = $9\\ \\text{m/s}$ \u00d7 $82\\ \\text{s}$\nDistance = $748\\ \\text{m}$\n#### 2. Answer:\nAlice ran $748$ meters.\nThe answer is: 748",
+        " To find out how many meters Alice ran, you can simply multiply her speed by the time it took her to run. In this case, her speed is $9\\ \\text{m/s}$ and she ran for $82$ seconds. To get the total distance, you would multiply her speed and the time it took her to run: $9\\ \\text{m/s} \\cdot 82\\ \\text{s}$. This will give you the distance in meters. \nSo the answer is: 748",
+        " To find the distance Alice ran, we need to multiply her speed by the time she ran. \nDistance = Speed \u00d7 Time \nDistance = $9\\ \\text{m/s} \\times 82$ \nDistance = $748\\ \\text{m}$\nTherefore, Alice ran $748$ meters.",
+        " Since speed = distance/time and distance = speed \u00d7 time, then distance = speed \u00d7 time = $9\\ \\text{m/s} \\times 82\\ \\text{seconds}$.\n### Explanation: The answer is: 748",
+        " Step 1: Calculate Alice's total distance.\nWe can calculate Alice's total distance by multiplying her speed by the time she ran.\n Her speed is $9\\ \\text{m/s}$ and she ran for $82$ seconds.\nSo her total distance is $9\\ \\text{m/s} \\times 82\\ \\text{s} = 748\\ \\text{m}$.\nTherefore, Alice ran $\\boxed{748}$ meters.",
+        "\nFirst, we need to convert the time from seconds to minutes. Since there are $60$ seconds in a minute, $82$ seconds is $\\frac{82}{60}=\\frac{41}{30}$ minutes.\nNext, we can calculate the distance by multiplying the speed and time. Since Alice ran at a speed of $9\\ \\text{m/s}$, and she ran for $\\frac{41}{30}$ minutes, we get \\[9\\ \\text{m/s} \\times \\frac{41}{30}\\ \\text{minutes} = \\frac{363}{30}\\ \\text{m}.\\] \nFinally, we simplify the fraction to get \\[\\frac{363}{30}\\ \\text{m} = \\frac{363\\div30}{30\\div30}\\ \\text{m} = \\frac{12}{1}\\ \\text{m} = \\boxed{12}\\ \\text{m}.\\]\nThe answer is: 12",
+        " We can use the formula distance = speed \u00d7 time to find the distance Alice ran.\n### Explanation: The formula distance = speed \u00d7 time can help us find the distance she ran. In this case, her speed is $9\\ \\text{m/s}$ and she ran for $82$ seconds.\n### Solution: To find the distance, we multiply her speed by the time she ran: $9\\ \\text{m/s} \\times 82\\ \\text{s} = 738\\ \\text{m}$.\nSo, Alice ran $\\boxed{738\\ \\text{m}}$. The answer is: 738",
+        " To find out how many meters Alice ran, we can multiply her speed by the time it took her to run.\nHer speed is $9 \\text{ m/s}$ and she ran for $82$ seconds, so she covered a distance of $9 \\times 82 = \\boxed{748}$ meters.\nThe answer is: 748",
+        " To calculate the distance that Alice ran, we need to multiply her speed (in meters per second) by the time it took her to run (in seconds). Since Alice ran at a speed of $9\\ \\text{m/s}$ for $82$ seconds, the distance she ran can be calculated by multiplying these values:\nDistance = speed \\* time\nDistance = $9\\ \\text{m/s} \\* 82\\ \\text{s}$\nDistance = $748\\ \\text{m}$\nSo, Alice ran $748$ meters.",
+        " To find the distance Alice ran, we can use the formula distance = speed \u00d7 time.\nDistance = 9 \u00d7 82\nDistance = 748 meters\nThe distance Alice ran is 748 meters.",
+        " We know that speed is distance divided by time.\nfrom the given information, we know that Alice ran at a speed of $9\\ \\text{m/s}$.\nSo, the distance she ran is $9\\ \\text{m/s}\\times 82\\ \\text{s}$.\nLet\u2019s calculate it. from the calculation, the distance she ran is $748\\ \\text{m}$.\nSo, Alice ran $\\boxed{748\\ \\text{m}}$.",
+        "\nFirst, we need to find out how far Alice ran in terms of meters per second. Let's call it $d$. \nTo find the distance, we need to multiply Alice's speed by the time she ran. \nSince her speed is $9\\ \\text{m/s}$ and she ran for $82$ seconds, the distance Alice ran is $d = 9\\ \\text{m/s} \\times 82\\ \\text{seconds}$.\nLet's calculate the distance for $d$.\nAdditionally, on a numerical front, we can also use the direct multiplication to get $d = 9\\ \\text{m/s} \\times 82\\ \\text{seconds} = 738\\ \\text{meters}$.\n### Answer:\nAlice ran a total of $738\\ \\text{meters}$.",
+        " To find out how far Alice ran, we need to use the formula: \\text{Distance} = \\text{Speed} \\times \\text{Time}.\nGiven that Alice ran at a speed of $9\\ \\text{m/s}$ for $82$ seconds, we can substitute these values into the formula:\n\\text{Distance} = $9\\ \\text{m/s} \\times 82\\ \\text{seconds}$\nLet's calculate:  \n\\begin{align*}\n9\\ \\text{m/s} \\times 82\\ \\text{seconds} &= 82\\ \\text{meters} \\times 9\\ \\text{m/s} \\\\\n&= \\boxed{748\\ \\text{meters}}.\n\\end{align*}\nThe answer is: 748",
+        " To find out how many meters Alice ran, we can multiply her speed by the number of seconds she ran.\nHer speed is $9\\ \\text{m/s}$ and she ran for $82$ seconds.\nSo, the total distance she ran is $9\\ \\text{m/s} \\times 82\\ \\text{seconds} = \\boxed{748}\\ \\text{meters}$.",
+        "\nAlice ran at a speed of $9\\ \\text{m/s}$ for $82$ seconds. To find out how many meters she ran, we can multiply her speed by the duration of her run.\n$$\\text{distance} = \\text{speed} \\times \\text{time}$$\nIn this case, the distance Alice ran is $9\\ \\text{m/s} \\times 82\\ \\text{s}$. Let's calculate.\n$$\\text{distance} = 9\\ \\text{m/s} \\times 82\\ \\text{s} = 748\\ \\text{m}$$\nTherefore, Alice ran $748$ meters."
+    ],
+    "vllm_answers": [
+        "748",
+        "748",
+        "748",
+        "748",
+        "748",
+        "12",
+        "738",
+        "748",
+        "748",
+        "748",
+        "748",
+        "738",
+        "748",
+        "748",
+        "748"
+    ],
+    "vllm_pred_answer": "748"
+}

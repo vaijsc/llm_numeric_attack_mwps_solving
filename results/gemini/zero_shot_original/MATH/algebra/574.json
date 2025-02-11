@@ -1,0 +1,23 @@
+{
+    "problem": "Simplify $7a^3(3a^2 - a) - 8a(2a - 4)$.",
+    "level": "Level 3",
+    "type": "Algebra",
+    "solution": "Simplifying, we have: \\begin{align*}\n&\\ \\ \\ \\ 7a^3(3a^2 - a) - 8a(2a - 4) \\\\&= 7a^3(3a^2) + 7a^3(-a) - 8a(2a) - 8a(-4) \\\\\n&= \\boxed{21a^5 - 7a^4 - 16a^2 + 32a}.\\end{align*}",
+    "prompt": "### Instruction: Simplify $7a^3(3a^2 - a) - 8a(2a - 4)$.\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "Here's how to simplify the expression step by step:\n1. **Distribute the 7a\u00b3:**\n   \n   ```\n   7a\u00b3(3a\u00b2 - a) - 8a(2a - 4) = 21a\u2075 - 7a\u2074 - 8a(2a - 4)\n   ```\n2. **Distribute the -8a:**\n   ```\n   21a\u2075 - 7a\u2074 - 8a(2a - 4) = 21a\u2075 - 7a\u2074 - 16a\u00b2 + 32a\n   ```\n**Therefore, the simplified expression is 21a\u2075 - 7a\u2074 - 16a\u00b2 + 32a** \n",
+        "1. **Distribute** the $7a^3$ into the first set of parentheses: \n   \n   $7a^3(3a^2 - a) = 21a^5 - 7a^4$\n2. **Distribute** the $-8a$ into the second set of parentheses:\n   $-8a(2a - 4) = -16a^2 + 32a$\n3. **Combine** the results:\n   $21a^5 - 7a^4 - 16a^2 + 32a$\nTherefore, the simplified expression is **$21a^5 - 7a^4 - 16a^2 + 32a$**. \n",
+        "1. **Distribute:**  \n   - In the first term, distribute the $7a^3$ inside the parentheses: \n      $7a^3(3a^2 - a) = 21a^5 - 7a^4$\n   - In the second term, distribute the $-8a$ inside the parentheses:\n      $-8a(2a - 4) = -16a^2 + 32a$\n2. **Combine the terms:** Now we have:\n   $21a^5 - 7a^4 - 16a^2 + 32a$\n3. **Simplify:** Since there are no like terms to combine further, the simplified expression is:\n   **$21a^5 - 7a^4 - 16a^2 + 32a$** \n",
+        "1. **Distribute the $7a^3$:** \n   $7a^3(3a^2 - a) = 21a^5 - 7a^4$\n2. **Distribute the $-8a$:**\n   $-8a(2a - 4) = -16a^2 + 32a$\n3. **Combine the results:**\n   $21a^5 - 7a^4 - 16a^2 + 32a$\n**Therefore, the simplified expression is  $21a^5 - 7a^4 - 16a^2 + 32a$.** \n",
+        "1. **Distribute the 7a\u00b3:**\n   7a\u00b3 * 3a\u00b2 = 21a\u2075\n   7a\u00b3 * -a = -7a\u2074\n   So, the first part becomes: 21a\u2075 - 7a\u2074\n2. **Distribute the -8a:**\n   -8a * 2a = -16a\u00b2\n   -8a * -4 = 32a\n   So, the second part becomes: -16a\u00b2 + 32a\n3. **Combine the terms:**\n   (21a\u2075 - 7a\u2074) + (-16a\u00b2 + 32a) = 21a\u2075 - 7a\u2074 - 16a\u00b2 + 32a\n**Therefore, the simplified expression is 21a\u2075 - 7a\u2074 - 16a\u00b2 + 32a.** \n"
+    ],
+    "pred_answers": "32",
+    "final_pred_answer": [
+        "32",
+        "32",
+        "32",
+        "32",
+        "32"
+    ],
+    "ground_truth": "32"
+}

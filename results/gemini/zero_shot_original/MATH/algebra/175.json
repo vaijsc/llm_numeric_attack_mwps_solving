@@ -1,0 +1,23 @@
+{
+    "problem": "Because of redistricting, Liberty Middle School's enrollment increased to 598 students. This is an increase of $4\\%$ over last year's enrollment. What was last year's enrollment?",
+    "level": "Level 2",
+    "type": "Algebra",
+    "solution": "If we knew last year's enrollment at Liberty Middle School, we would multiply by $1.04$ to get the new enrollment of $598$ students. Working backward, we can divide $598$ by $1.04$ to get $\\boxed{575\\text{ students}}$. Alternatively, we could solve the equation $x + 0.04x = 598$, where $x$ is last year's enrollment.",
+    "prompt": "### Instruction: Because of redistricting, Liberty Middle School's enrollment increased to 598 students. This is an increase of $4\\%$ over last year's enrollment. What was last year's enrollment?\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "Here's how to solve the problem step-by-step:\n**1. Understand the Relationship**\n* The current enrollment (598 students) represents 104% of last year's enrollment (because it's a 4% increase).\n**2. Set up a Proportion**\n* Let 'x' represent last year's enrollment.  We can set up a proportion: \n   * 104% / 100% = 598 students / x \n**3. Solve for x**\n* Cross-multiply: 104% * x = 100% * 598 students\n* Simplify: 1.04x = 598\n* Divide both sides by 1.04: x = 598 / 1.04\n**4. Calculate**\n* x \u2248 575\n**Answer:** Last year's enrollment at Liberty Middle School was approximately 575 students. \n",
+        "Here's how to solve the problem step-by-step:\n**1.  Represent the unknown:**\n* Let 'x' represent last year's enrollment.\n**2.  Set up the equation:**\n*  This year's enrollment is 4% more than last year's, so we can write the equation:  x + 0.04x = 598\n**3.  Combine like terms:**\n* 1.04x = 598\n**4.  Solve for x (last year's enrollment):**\n*  x = 598 / 1.04 \n*  x \u2248 575\n**Answer:** Last year's enrollment at Liberty Middle School was approximately 575 students. \n",
+        "Here's how to solve the problem step-by-step:\n**1. Understand the Relationship:**\n* The current enrollment (598 students) represents 104% of last year's enrollment (because it's a 4% increase).\n**2. Set up a Proportion:**\n* Let 'x' represent last year's enrollment. We can set up a proportion: \n   104% / 100% = 598 / x\n**3. Solve for x:**\n* Cross-multiply: 104% * x = 100% * 598\n* Simplify: 1.04x = 598\n* Divide both sides by 1.04: x = 598 / 1.04\n* Calculate: x \u2248 575\n**Answer:** Last year's enrollment at Liberty Middle School was approximately **575 students**. \n",
+        "Here's how to solve this problem step-by-step:\n**1. Understand the Relationship:**\n* We know that the current enrollment (598 students) represents a 4% increase from last year's enrollment.\n**2.  Represent the Increase:**\n* Let \"x\" represent last year's enrollment.\n* A 4% increase means the current enrollment is 100% + 4% = 104% of last year's enrollment.\n* We can express this as a decimal: 104% = 1.04\n**3. Set up an Equation:**\n* Current enrollment = 1.04 * Last year's enrollment\n* 598 = 1.04 * x\n**4. Solve for x:**\n* Divide both sides of the equation by 1.04: 598 / 1.04 = x\n*  x \u2248 575\n**Answer:** Last year's enrollment at Liberty Middle School was approximately **575 students**. \n",
+        "Here's how to solve this problem step-by-step:\n**1. Understand the Relationship:**\n* The current enrollment (598 students) represents 104% of last year's enrollment because it's a 4% increase.\n**2. Set up a Proportion:**\n* Let \"x\" represent last year's enrollment. We can set up the following proportion: \n   104% / 100% = 598 / x\n**3. Solve for x (Last Year's Enrollment):**\n* Cross-multiply: 104% * x = 100% * 598\n* Simplify: 1.04x = 598\n* Divide both sides by 1.04: x = 598 / 1.04\n* Calculate: x \u2248 575\n**Answer:** Last year's enrollment at Liberty Middle School was approximately **575 students**. \n"
+    ],
+    "pred_answers": "575",
+    "final_pred_answer": [
+        "575",
+        "575",
+        "575",
+        "575",
+        "575"
+    ],
+    "ground_truth": "598"
+}

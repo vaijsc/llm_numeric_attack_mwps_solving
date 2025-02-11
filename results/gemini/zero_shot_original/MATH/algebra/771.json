@@ -1,0 +1,23 @@
+{
+    "problem": "Melanie ran at $5$ m/s for $400$ meters, then ran at $4$ m/s for the next $800$ meters, and finally ran at $8$ m/s for the final $400$ meters. What was her average speed, in meters per second, for the $1600$ meter run?  Express your answer as an improper fraction.",
+    "level": "Level 4",
+    "type": "Algebra",
+    "solution": "The average speed is the total distance traveled, namely $1600\\ \\text{m}$, divided by the total time of the run. It took Melanie $\\frac{400}{5}=80$ seconds to run the first $400$ meters, $\\frac{800}{4}=200$ seconds to run the next $800$ meters, and $\\frac{400}{8}=50$ seconds to run the final $400$ meters. Thus the total time of her run was $80+200+50=330$ seconds, and so her average speed for the run was $\\frac{1600}{330}=\\boxed{\\frac{160}{33}}$ meters per second.",
+    "prompt": "### Instruction: Melanie ran at $5$ m/s for $400$ meters, then ran at $4$ m/s for the next $800$ meters, and finally ran at $8$ m/s for the final $400$ meters. What was her average speed, in meters per second, for the $1600$ meter run?  Express your answer as an improper fraction.\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "Here's how to solve the problem step-by-step:\n**1. Calculate the time for each segment:**\n* **Segment 1:** Time = Distance / Speed = 400 meters / 5 m/s = 80 seconds\n* **Segment 2:** Time = Distance / Speed = 800 meters / 4 m/s = 200 seconds\n* **Segment 3:** Time = Distance / Speed = 400 meters / 8 m/s = 50 seconds\n**2. Calculate the total time:**\n* Total time = 80 seconds + 200 seconds + 50 seconds = 330 seconds\n**3. Calculate the average speed:**\n* Average speed = Total distance / Total time\n* Average speed = 1600 meters / 330 seconds \n* Average speed = **16/33 m/s** \n",
+        "Here's how to solve the problem step-by-step:\n**1. Calculate the time for each segment:**\n* **Segment 1:**  Time = Distance / Speed = 400 meters / 5 m/s = 80 seconds\n* **Segment 2:** Time = Distance / Speed = 800 meters / 4 m/s = 200 seconds\n* **Segment 3:** Time = Distance / Speed = 400 meters / 8 m/s = 50 seconds\n**2. Calculate the total time:**\n* Total time = 80 seconds + 200 seconds + 50 seconds = 330 seconds\n**3. Calculate the average speed:**\n* Average speed = Total distance / Total time \n* Average speed = 1600 meters / 330 seconds \n* Average speed = **16/33 m/s** \n",
+        "Here's how to solve the problem step-by-step:\n**1. Calculate the time for each segment:**\n* **Segment 1:** Time = Distance / Speed = 400 meters / 5 m/s = 80 seconds\n* **Segment 2:** Time = Distance / Speed = 800 meters / 4 m/s = 200 seconds\n* **Segment 3:** Time = Distance / Speed = 400 meters / 8 m/s = 50 seconds\n**2. Calculate the total time:**\n* Total time = 80 seconds + 200 seconds + 50 seconds = 330 seconds\n**3. Calculate the average speed:**\n* Average speed = Total distance / Total time\n* Average speed = 1600 meters / 330 seconds \n* **Average speed = 16/33 m/s** \n",
+        "Here's how to solve the problem step-by-step:\n**1. Calculate the time for each segment:**\n* **Segment 1:** Time = Distance / Speed = 400 meters / 5 m/s = 80 seconds\n* **Segment 2:** Time = Distance / Speed = 800 meters / 4 m/s = 200 seconds\n* **Segment 3:** Time = Distance / Speed = 400 meters / 8 m/s = 50 seconds\n**2. Calculate the total time:**\n* Total time = 80 seconds + 200 seconds + 50 seconds = 330 seconds\n**3. Calculate the average speed:**\n* Average speed = Total distance / Total time \n* Average speed = 1600 meters / 330 seconds = **16/33 m/s** \n",
+        "Here's how to solve the problem step-by-step:\n**1. Calculate the time for each segment:**\n* **Segment 1:** Time = Distance / Speed = 400 meters / 5 m/s = 80 seconds\n* **Segment 2:** Time = Distance / Speed = 800 meters / 4 m/s = 200 seconds\n* **Segment 3:** Time = Distance / Speed = 400 meters / 8 m/s = 50 seconds\n**2. Calculate the total time:**\n* Total time = 80 seconds + 200 seconds + 50 seconds = 330 seconds\n**3. Calculate the average speed:**\n* Average speed = Total distance / Total time \n* Average speed = 1600 meters / 330 seconds = **16/3 m/s** \n"
+    ],
+    "pred_answers": "33",
+    "final_pred_answer": [
+        "33",
+        "33",
+        "33",
+        "33",
+        "3"
+    ],
+    "ground_truth": "33"
+}

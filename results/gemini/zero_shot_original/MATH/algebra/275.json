@@ -1,0 +1,23 @@
+{
+    "problem": "Find $\\left\\lceil \\sqrt[3]{-25}\\right\\rceil$.",
+    "level": "Level 4",
+    "type": "Algebra",
+    "solution": "We notice that $-27 = (-3)^3 < -25 < -8 = (-2)^3$. Thus, $-3 < \\sqrt[3]{-25} < -2$. The ceiling of this value will be the smallest integer greater than $\\sqrt[3]{-25}$, which is $\\boxed{-2}$.",
+    "prompt": "### Instruction: Find $\\left\\lceil \\sqrt[3]{-25}\\right\\rceil$.\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "Here's how to solve this problem:\n**1. Find the cube root:**\n* The cube root of -25 is a bit tricky, but we know it's between -3 and -4. This is because:\n    *  (-3)\u00b3 = -27\n    *  (-4)\u00b3 = -64\n**2. Understand the ceiling function:**\n* The ceiling function, denoted by  \u2308x\u2309, gives the smallest integer greater than or equal to x.\n**3. Apply the ceiling function:**\n* Since the cube root of -25 is between -3 and -4, the smallest integer greater than or equal to it is **-3**.\n**Therefore,  \u2308\u221a[3]{-25}\u2309 = -3.** \n",
+        "Here's how to solve the problem step-by-step:\n1. **Calculate the cube root:**  The cube root of -25 is a negative number, since an odd power of a negative number is negative.  We know that  $-3^3 = -27$ and $-2^3 = -8$. Since -25 falls between -27 and -8, the cube root of -25 will be between -3 and -2. \n2. **Understand the ceiling function:** The ceiling function, denoted by  $\\lceil x \\rceil$, gives the smallest integer greater than or equal to $x$. \n3. **Apply the ceiling function:** Since $\\sqrt[3]{-25}$ is between -3 and -2, the smallest integer greater than or equal to it is **-2**.\nTherefore, $\\left\\lceil \\sqrt[3]{-25}\\right\\rceil = \\boxed{-2}$. \n",
+        "Here's how to find the solution step-by-step:\n1. **Find the cube root:**  The cube root of -25 is a bit less than -3, since -3 x -3 x -3 = -27.\n2. **Understanding the ceiling function:**  The ceiling function, denoted by $\\lceil x \\rceil$, gives the smallest integer greater than or equal to *x*.\n3. **Apply the ceiling function:** Since the cube root of -25 is slightly less than -3, the smallest integer greater than or equal to it is -3.\nTherefore,  $\\left\\lceil \\sqrt[3]{-25}\\right\\rceil = \\boxed{-3}$. \n",
+        "1. **Cube Root:** Find the cube root of -25.  Since -25 is negative, its cube root will also be negative.  The cube root of 25 is slightly less than 3 (since 3 cubed is 27), so the cube root of -25 is slightly less than -3.\n2. **Ceiling Function:** The ceiling function, denoted by $\\lceil x \\rceil$, gives the smallest integer greater than or equal to *x*.  Since the cube root of -25 is slightly less than -3, the smallest integer greater than or equal to it is **-3**.\nTherefore, $\\left\\lceil \\sqrt[3]{-25}\\right\\rceil = \\boxed{-3}$. \n",
+        "Here's how to find the solution:\n1. **Find the cube root of -25:**  The cube root of -25 is a bit more than -3, since (-3)\u00b3 = -27.\n2. **Understand the ceiling function:** The ceiling function, denoted by  \u2308  \u2309, rounds a number up to the nearest integer.\n3. **Apply the ceiling function:** Since the cube root of -25 is slightly greater than -3, the ceiling function will round it up to **-3**. \nTherefore,  $\\left\\lceil \\sqrt[3]{-25}\\right\\rceil = \\boxed{-3}$. \n"
+    ],
+    "pred_answers": "-3",
+    "final_pred_answer": [
+        "-3",
+        "-2",
+        "-3",
+        "-3",
+        "-3"
+    ],
+    "ground_truth": "-2"
+}

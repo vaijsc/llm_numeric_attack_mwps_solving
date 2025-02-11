@@ -1,0 +1,23 @@
+{
+    "problem": "Two identical blue boxes together weigh the same as three identical red boxes together. Each red box weighs 15.2 ounces. How much does one blue box weigh in ounces?",
+    "level": "Level 1",
+    "type": "Algebra",
+    "solution": "Since one red box weighs 15.2 ounces, three red boxes weigh 45.6 ounces.  This is the same as two blue boxes, so  we have the equation $2b=45.6$ where $b$ represents the weight of the blue box. Solving the equation by multiplying both sides by $\\frac{1}{2}$ to isolate $b$ gives us $b=\\boxed{22.8}$ ounces.",
+    "prompt": "### Instruction: Two identical blue boxes together weigh the same as three identical red boxes together. Each red box weighs 15.2 ounces. How much does one blue box weigh in ounces?\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "Here's how to solve this problem step-by-step:\n1. **Find the total weight of three red boxes:** Since each red box weighs 15.2 ounces, three red boxes weigh 15.2 ounces/box * 3 boxes = 45.6 ounces.\n2. **Determine the weight of one blue box:** We know that two blue boxes weigh the same as three red boxes, which is 45.6 ounces.  Therefore, one blue box weighs 45.6 ounces / 2 boxes = 22.8 ounces.\n**Answer:** One blue box weighs 22.8 ounces. \n",
+        "Here's how to solve this problem step-by-step:\n1. **Find the total weight of the red boxes:** Since each red box weighs 15.2 ounces, and we have three of them, their total weight is 15.2 ounces/box * 3 boxes = 45.6 ounces.\n2. **The blue boxes weigh the same as the red boxes:**  We know that two blue boxes weigh the same as three red boxes, which means they weigh 45.6 ounces.\n3. **Find the weight of one blue box:**  To find the weight of one blue box, we divide the total weight of the blue boxes by the number of blue boxes: 45.6 ounces / 2 boxes = 22.8 ounces/box.\n**Therefore, one blue box weighs 22.8 ounces.** \n",
+        "Here's how to solve the problem step-by-step:\n**1. Find the total weight of three red boxes:**\n* Since each red box weighs 15.2 ounces, three red boxes weigh 3 * 15.2 = 45.6 ounces.\n**2. Understand the relationship:**\n* We know that the weight of two blue boxes is equal to the weight of three red boxes.\n**3. Find the weight of one blue box:**\n* Since two blue boxes weigh 45.6 ounces, one blue box weighs 45.6 / 2 = 22.8 ounces.\n**Answer:** One blue box weighs 22.8 ounces. \n",
+        "Here's how to solve the problem step-by-step:\n1. **Find the total weight of three red boxes:** Since each red box weighs 15.2 ounces, three red boxes weigh 3 * 15.2 = 45.6 ounces.\n2. **Two blue boxes equal the weight of three red boxes:** This means two blue boxes together weigh 45.6 ounces.\n3. **Find the weight of one blue box:** To find the weight of one blue box, divide the total weight of two blue boxes by 2: 45.6 / 2 = 22.8 ounces.\n**Therefore, one blue box weighs 22.8 ounces.** \n",
+        "Here's how to solve the problem step-by-step:\n1. **Find the total weight of three red boxes:** Since each red box weighs 15.2 ounces, three red boxes weigh 3 * 15.2 = 45.6 ounces.\n2. **The weight of two blue boxes:**  We know two blue boxes weigh the same as three red boxes, so two blue boxes weigh 45.6 ounces.\n3. **Find the weight of one blue box:** To find the weight of one blue box, divide the total weight of two blue boxes by 2: 45.6 / 2 = 22.8 ounces.\n**Therefore, one blue box weighs 22.8 ounces.** \n"
+    ],
+    "pred_answers": "22.8",
+    "final_pred_answer": [
+        "22.8",
+        "22.8",
+        "22.8",
+        "22.8",
+        "22.8"
+    ],
+    "ground_truth": "22.8"
+}

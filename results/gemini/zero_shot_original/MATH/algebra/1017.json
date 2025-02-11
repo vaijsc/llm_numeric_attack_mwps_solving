@@ -1,0 +1,23 @@
+{
+    "problem": "If $F(a, b, c, d) = a^b + c ^ d$, what is the value of $b$ such that $F(4, b, 2, 3) = 12$?",
+    "level": "Level 2",
+    "type": "Algebra",
+    "solution": "Plugging in, we have that $4^b + 2^3 = 12$.  This rearranges to $4^b = 4$, or $b = \\boxed{1}$.",
+    "prompt": "### Instruction: If $F(a, b, c, d) = a^b + c ^ d$, what is the value of $b$ such that $F(4, b, 2, 3) = 12$?\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "Here's how to solve the problem step-by-step:\n1. **Substitute the given values:** We are given that  F(4, b, 2, 3) = 12. Substitute these values into the function: \n   \n   4^b + 2^3 = 12\n2. **Simplify:**  Simplify the equation:\n   4^b + 8 = 12\n3. **Isolate the term with the unknown:** Subtract 8 from both sides:\n   4^b = 4\n4. **Solve for b:** Since 4^1 = 4, we have:\n   b = **1** \n**Therefore, the value of b is 1.** \n",
+        "Here's how we can solve this problem step-by-step:\n1. **Substitute the values:** We are given that  F(4, b, 2, 3) = 12.  Let's substitute these values into the function: \n   \n   4^b + 2^3 = 12\n2. **Simplify:** 2^3 = 8, so we have:\n   4^b + 8 = 12\n3. **Isolate the exponent:** Subtract 8 from both sides:\n   4^b = 4\n4. **Solve for the exponent:**  We know that 4^1 = 4. Therefore, \n   b = **1** \n",
+        "Here's how to solve the problem step-by-step:\n1. **Substitute the given values:** We know  F(4, b, 2, 3) = 12.  Substitute these values into the function: \n   \n   4^b + 2^3 = 12\n2. **Simplify:** Calculate 2^3:\n   4^b + 8 = 12\n3. **Isolate the term with 'b':** Subtract 8 from both sides:\n   4^b = 4\n4. **Solve for 'b':**  Since 4^1 = 4, we have:\n   b = **1** \n**Therefore, the value of b that satisfies the equation is 1.** \n",
+        "Here's how to solve the problem step-by-step:\n1. **Substitute the given values:** \n   We are given that  F(4, b, 2, 3) = 12. Substitute these values into the function:\n   4^b + 2^3 = 12\n2. **Simplify:**\n   * 2^3 = 8\n   * The equation becomes: 4^b + 8 = 12\n3. **Isolate the term with the variable:**\n   * Subtract 8 from both sides: 4^b = 4\n4. **Solve for b:**\n   *  Since 4^1 = 4, we have b = **1**. \n**Therefore, the value of b is 1.** \n",
+        "Here's how to solve the problem step-by-step:\n1. **Substitute the given values:**  We're given  F(4, b, 2, 3) = 12.  Substitute these values into the function:\n   \n   ```\n   4^b + 2^3 = 12\n   ```\n2. **Simplify:** \n   \n   ```\n   4^b + 8 = 12\n   ```\n3. **Isolate the term with the unknown (b):**\n   ```\n   4^b = 4\n   ```\n4. **Solve for b:**  Since 4 is the base and 4 is the result, we know that  b must equal **1**.\n**Therefore, the value of b is 1.** \n"
+    ],
+    "pred_answers": "1",
+    "final_pred_answer": [
+        "1",
+        "1",
+        "1",
+        "1",
+        "1"
+    ],
+    "ground_truth": "1"
+}

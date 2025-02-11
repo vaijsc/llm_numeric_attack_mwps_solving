@@ -1,0 +1,23 @@
+{
+    "problem": "If $2ab = 12$, evaluate $8a^2b^2$.",
+    "level": "Level 2",
+    "type": "Algebra",
+    "solution": "Since $2ab=12$, $ab=6$.  Thus $a^2b^2=6^2=36$.  So $8a^2b^2=8(36)=\\boxed{288}$.",
+    "prompt": "### Instruction: If $2ab = 12$, evaluate $8a^2b^2$.\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "We start with the given equation:\n\\[\n2ab = 12\n\\]\nTo find \\( ab \\), we can divide both sides of the equation by 2:\n\\[\nab = \\frac{12}{2} = 6\n\\]\nNext, we want to find the value of \\( 8a^2b^2 \\). We can express \\( 8a^2b^2 \\) in terms of \\( ab \\) as follows:\n\\[\n8a^2b^2 = 8(ab)^2\n\\]\nNow, we substitute \\( ab = 6 \\) into the expression:\n\\[\n8a^2b^2 = 8(6)^2\n\\]\nNext, we calculate \\( (6)^2 \\):\n\\[\n(6)^2 = 36\n\\]\nNow substituting this value back into our expression:\n\\[\n8a^2b^2 = 8 \\times 36\n\\]\nWe now perform the multiplication:\n\\[\n8 \\times 36 = 288\n\\]\nThus, the value of \\( 8a^2b^2 \\) is:\n\\[\n\\boxed{288}\n\\]",
+        "We start with the equation \\(2ab = 12\\). Our goal is to evaluate \\(8a^2b^2\\).\nFirst, we can simplify the given equation to find the value of \\(ab\\):\n\\[\nab = \\frac{12}{2} = 6\n\\]\nNow, we need to express \\(8a^2b^2\\) in terms of \\(ab\\). Notice that \\(a^2b^2\\) can be expressed as:\n\\[\na^2b^2 = (ab)^2\n\\]\nSubstituting \\(ab = 6\\) into the expression gives:\n\\[\na^2b^2 = (6)^2 = 36\n\\]\nNext, we multiply this result by 8 to find \\(8a^2b^2\\):\n\\[\n8a^2b^2 = 8 \\times 36\n\\]\nCalculating this gives:\n\\[\n8 \\times 36 = 288\n\\]\nThus, the value of \\(8a^2b^2\\) is:\n\\[\n\\boxed{288}\n\\]",
+        "We start with the given equation:\n\\[\n2ab = 12.\n\\]\nTo solve for \\( ab \\), we divide both sides of the equation by 2:\n\\[\nab = \\frac{12}{2} = 6.\n\\]\nNext, we want to evaluate \\( 8a^2b^2 \\). We can express \\( 8a^2b^2 \\) in terms of \\( ab \\):\n\\[\n8a^2b^2 = 8(ab)^2.\n\\]\nNow substituting \\( ab = 6 \\):\n\\[\n8a^2b^2 = 8(6)^2.\n\\]\nCalculating \\( 6^2 \\):\n\\[\n6^2 = 36.\n\\]\nNow, substituting back into our equation:\n\\[\n8a^2b^2 = 8 \\times 36.\n\\]\nCalculating \\( 8 \\times 36 \\):\n\\[\n8 \\times 36 = 288.\n\\]\nThus, the value of \\( 8a^2b^2 \\) is \n\\[\n\\boxed{288}.\n\\]",
+        "We start with the equation given:\n\\[\n2ab = 12\n\\]\nTo isolate \\( ab \\), we can divide both sides by 2:\n\\[\nab = \\frac{12}{2} = 6\n\\]\nNow we need to evaluate \\( 8a^2b^2 \\). We notice that \\( 8a^2b^2 \\) can be rewritten using the identity \\( (ab)^2 \\):\n\\[\n8a^2b^2 = 8(ab)^2\n\\]\nSince we already found \\( ab = 6 \\), we substitute this value into the equation:\n\\[\n(ab)^2 = 6^2 = 36\n\\]\nNow we substitute \\( (ab)^2 \\) back into the expression we are evaluating:\n\\[\n8a^2b^2 = 8 \\times 36\n\\]\nCalculating this gives:\n\\[\n8 \\times 36 = 288\n\\]\nThus, the value of \\( 8a^2b^2 \\) is:\n\\[\n\\boxed{288}\n\\]",
+        "To evaluate \\( 8a^2b^2 \\) given that \\( 2ab = 12 \\), we can start by simplifying the expression \\( 8a^2b^2 \\).\nWe can rewrite \\( 8a^2b^2 \\) as follows:\n\\[\n8a^2b^2 = 4 \\cdot 2a^2b^2\n\\]\nNext, we can express \\( a^2b^2 \\) in terms of \\( (ab)^2 \\):\n\\[\na^2b^2 = (ab)^2\n\\]\nFrom the given \\( 2ab = 12 \\), we can solve for \\( ab \\):\n\\[\nab = \\frac{12}{2} = 6\n\\]\nNow we can substitute \\( ab \\) in our expression for \\( a^2b^2 \\):\n\\[\na^2b^2 = (ab)^2 = 6^2 = 36\n\\]\nNow we can substitute this value back into our equation for \\( 8a^2b^2 \\):\n\\[\n8a^2b^2 = 4 \\cdot 2a^2b^2 = 4 \\cdot 2 \\cdot 36 = 8 \\cdot 36 = 288\n\\]\nThus, the value of \\( 8a^2b^2 \\) is \n\\[\n\\boxed{288}\n\\]"
+    ],
+    "pred_answers": "288",
+    "final_pred_answer": [
+        "288",
+        "288",
+        "288",
+        "288",
+        "288"
+    ],
+    "ground_truth": "288"
+}

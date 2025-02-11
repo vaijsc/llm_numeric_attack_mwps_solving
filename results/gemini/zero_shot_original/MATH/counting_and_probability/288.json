@@ -1,0 +1,23 @@
+{
+    "problem": "How many integers in the list $25,$ $26,$ $27,$ $\\dots,$ $250$ are not perfect cubes?",
+    "level": "Level 2",
+    "type": "Counting & Probability",
+    "solution": "There are $250-25+1 = 226$ numbers in the list $25, 26, \\ldots, 250$.  We can find four perfect cubes in the list, namely $3^3,\\ldots,6^3$.  So the number of non-perfect-cubes in the list is $226-4=\\boxed{222}$.",
+    "prompt": "### Instruction: How many integers in the list $25,$ $26,$ $27,$ $\\dots,$ $250$ are not perfect cubes?\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "Here's how to solve the problem step-by-step:\n**1. Find the perfect cubes within the range:**\n* The smallest perfect cube greater than 25 is 27 (3 cubed).\n* The largest perfect cube less than 250 is 216 (6 cubed).\n**2. Determine the number of perfect cubes:**\n* The perfect cubes within the range are 27, 64, 125, and 216. There are **4** perfect cubes.\n**3. Calculate the total number of integers:**\n* The list contains 250 - 25 + 1 = **226** integers.\n**4. Subtract the perfect cubes:**\n* The number of integers that are *not* perfect cubes is 226 - 4 = **222**.\n**Answer:** There are **222** integers in the list that are not perfect cubes. \n",
+        "**1. Find the perfect cubes within the range:**\n* The smallest perfect cube greater than 25 is  $3^3 = 27$.\n* The largest perfect cube less than 250 is $6^3 = 216$.\n**2. Count the perfect cubes:**\n* The perfect cubes in the range are: 27, 64, 125, and 216. There are **four** perfect cubes.\n**3. Count the total integers:**\n* There are 250 - 25 + 1 = **226** integers in the list.\n**4.  Subtract to find the non-perfect cubes:**\n* There are 226 - 4 = **222** integers in the list that are not perfect cubes. \n",
+        "Here's how to solve the problem:\n**1. Find the Perfect Cubes**\n* The smallest perfect cube greater than 25 is 27 (3\u00b3).\n* The largest perfect cube less than 250 is 216 (6\u00b3).\n**2. Count the Perfect Cubes**\n* The perfect cubes in the list are: 27, 64, 125, and 216.\n* There are **4** perfect cubes.\n**3. Find the Integers That Are Not Perfect Cubes**\n* The list has 250 - 25 + 1 = 226 integers.\n* Since there are 4 perfect cubes, there are 226 - 4 = **222** integers that are not perfect cubes.\n**Answer:** There are **222** integers in the list that are not perfect cubes. \n",
+        "Here's how to solve the problem step-by-step:\n**1. Find the Perfect Cubes:**\n* The smallest perfect cube greater than 25 is $3^3 = 27$.\n* The largest perfect cube less than 250 is $6^3 = 216$.\n**2. Count the Perfect Cubes:**\n* The perfect cubes between 27 and 216 are:  $3^3$, $4^3$, $5^3$, and $6^3$. That's a total of **4** perfect cubes.\n**3. Count the Total Integers:**\n* There are 250 - 25 + 1 = 226 integers in the list from 25 to 250.\n**4. Calculate the Non-Perfect Cubes:**\n* Subtract the number of perfect cubes from the total number of integers: 226 - 4 = **222**\n**Answer:** There are **222** integers in the list that are not perfect cubes. \n",
+        "Here's how to solve the problem step-by-step:\n**1. Find the range of perfect cubes:**\n* The smallest perfect cube greater than 25 is  $3^3 = 27$.\n* The largest perfect cube less than 250 is  $6^3 = 216$.\n**2. Count the perfect cubes in the range:**\n* The perfect cubes in the range are: 27, 64, 125, and 216.  There are **4** perfect cubes.\n**3. Count the total integers:**\n* The list has 250 - 25 + 1 = **226** integers.\n**4. Calculate the integers that are not perfect cubes:**\n* Subtract the number of perfect cubes from the total number of integers: 226 - 4 = **222**\n**Answer:** There are **222** integers in the list that are not perfect cubes. \n"
+    ],
+    "pred_answers": "222",
+    "final_pred_answer": [
+        "222",
+        "222",
+        "222",
+        "222",
+        "222"
+    ],
+    "ground_truth": "222"
+}

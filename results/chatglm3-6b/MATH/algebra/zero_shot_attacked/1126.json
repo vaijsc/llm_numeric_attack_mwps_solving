@@ -1,0 +1,41 @@
+{
+    "index_adversarial_question": 2,
+    "problem": "If 50 + m + n - 30 = 60 and m = 3n, then what is the value of n?",
+    "pcot_answer": "# Define the constant value\nconstant_value = 70  ### condition: 'constant_value': {'type': 'int', '<=': None, '>=': 0, 'science_constant': True, 'direct_from_question': True}\n# Define the value after subtraction\nsubtraction_value = 20  ### condition: 'subtraction_value': {'type': 'int', '<=': None, '>=': 0, 'science_constant': False, 'direct_from_question': True}\n# Define the total value to equate to\ntotal_value = 80  ### condition: 'total_value': {'type': 'int', '<=': None, '>=': 0, 'science_constant': False, 'direct_from_question': True}\n# Calculate the sum of m and n\nm_plus_n = total_value - constant_value + subtraction_value  ### condition: 'm_plus_n': {'type': 'int', '<=': None, '>=': 0, 'science_constant': False, 'direct_from_question': False}\n# Define the coefficients for the two variables\nm_coefficient = 4  ### condition: 'm_coefficient': {'type': 'int', '<=': None, '>=': 0, 'science_constant': False, 'direct_from_question': True}\n# Assert that the equation holds given m = 2n\nassert (m_coefficient + 1) * m_plus_n % (m_coefficient + 1) == 0, \"The calculation for n requires valid division.\"\n# Calculate n using the equation m = 2n -> m + n = (m_coefficient + 1)n\nn_value = m_plus_n / (m_coefficient + 1)  ### condition: 'n_value': {'type': 'int', '<=': None, '>=': 0, 'science_constant': False, 'direct_from_question': False}\n# Print the value of n\nprint(f\"The value of n is: {n_value}\")",
+    "answer": "6",
+    "vllm_responses": [
+        "\nWe have two equations to solve for m and n:\n1. m + n = 60 - 50\n2. m = 3n\nLet\u2019s solve the first equation for n:\nm + n = 60 - 50\nn = 10\nNow, let's substitute the value of n in the second equation:\nm = 3(10)\nm = 30\nSo, the value of n is 10.",
+        "\nTo solve this problem, we can engage in a systematic approach. First, we need to solve for either m or n since we are given two equations, and not both. We will solve the first equation for m: m = 60 - 50 + n - 30. Then, we will substitute m = 3n into the equation to isolate n.\nm = 60 - 50 + n - 30\nm = 20 + n\nNow that we have m in terms of n, we can substitute it into the second equation to solve for n:\nm = 3n\n20 + n = 3n\nTo isolate n, we can subtract n from both sides:\n20 = 2n\nFinally, we can divide both sides by 2 to solve for n:\nn = 20 / 2\nn = 10\nThe value of x is 10.",
+        " \nWe need to solve the given equations:\n50 + m + n - 30 = 60\nm = 3n\nFirst, let's substitute m = 3n into the first equation to get:\n50 + 3n + n - 30 = 60\nCombine like terms:\n4n + 20 = 60\nNow, let's isolate n by subtracting 20 from both sides:\n4n = 60 - 20\n4n = 40\nFinally, divide both sides by 4 to solve for n:\nn = 40 / 4\nn = 10\nThe value of n is 10.",
+        "\n1. Combine like terms on the left side of the equation: 50 + m + n - 30 = 60\n\t*\u8c34\u8d23\u5f0f(binomial)  = m + n = 80\n2. Substitute m = 3n into the equation: 3n + n = 80\n\t* pigeonhole(quadratic)  = 4n = 80\n3. Divide both sides of the equation by 4: n = 20\nThe value of n is 20.",
+        " \nTo solve this problem, we need to follow the given steps.\nStep 1: Combine like terms.\n50 + m + n - 30 = 60\nCombining like terms, we have:\nm + n = 30\nStep 2: Substitute the value of m in terms of n.\nm = 3n\nStep 3: Substitute the value of m in the equation m + n = 30.\n3n + n = 30\nCombining like terms, we have:\n4n = 30\nStep 4: Divide both sides of the equation by 4.\nn = 30 / 4\nStep 5: Simplify the fraction.\nn = 7.5\nTherefore, the value of n is 7.5.",
+        " To solve this problem, we need to isolate the variable `n` on one side of the equation. We'll start by adding 30 to both sides of the equation: \n```\n50 + m + n - 30 + 30 = 60 + 30\n```\nThis simplifies to: \n```\nm + n = 90\n```\nWe know that `m` is equal to 3 times `n` (`m = 3n`). Let's substitute this expression into the previous equation:\n```\n3n + n = 90\n```\nCombine like terms:\n```\n4n = 90\n```\nDivide both sides by 4:\n```\n4n / 4 = 90 / 4\n```\nThis simplifies to:\n```\nn = 22.5\n```\nTherefore, the value of `n` is 22.5.",
+        " To solve this problem, we need to determine the value of n, which is one of the variables in the equation.\nGiven:\n50 + m + n - 30 = 60\nm = 3n\nLet's substitute the value of m in terms of n:\n50 + 3n + n - 30 = 60\nCombine like terms:\n4n + 20 = 60\nNow, let's isolate n by subtracting 20 from both sides of the equation:\n4n + 20 - 20 = 60 - 20\n4n = 40\nFinally, divide both sides of the equation by 4 to solve for n:\nn = 40 / 4\nn = 10\nTherefore, the value of n is 10.",
+        "\nFirst, we can simplify the given equation: 50 + m + n - 30 = 60\nNow, we substitute the given value of m in terms of n: 50 + 3n + n - 30 = 60\nCombine like terms: 4n + 20 = 60\nNext, we isolate n by subtracting 20 from both sides of the equation: 4n = 60 - 20\nNow, we simplify the right side of the equation: 4n = 40\nFinally, we divide both sides of the equation by 4 to solve for n: n = 40 / 4\nSo, the value of n is 10.\n#### 10\nThe answer is: 10",
+        "\nWe are given the following equations:\n50 + m + n - 30 = 60 (Equation 1)\nm = 3n (Equation 2)\nWe can solve the second equation for m in terms of n and substitute it into the first equation.\n experimenting with the equation 50 + m + n - 30 = 60, we find that m = 80 - n.   So, substituting 3n for m in the second equation, we have 3n = 80 - n.\nAdding n to both sides and simplifying, we get 4n = 80.\nDividing both sides by 4, we get n = 20.",
+        "\nWe are given that 50 + m + n - 30 = 60, and we also know that m = 3n.\nWe can substitute the expression m = 3n into the first equation to simplify it.\nSo, we have 50 + 3n + n - 30 = 60.\nCombining like terms, we get 4n + 20 = 60.\nNext, we can subtract 20 from both sides of the equation to isolate the variable.\nSo, 4n = 40.\nFinally, we can divide both sides of the equation by 4 to solve for n.\nThis gives us n = 10.\n#### 10\nThe answer is: 10",
+        " Step 1: Combine like terms on the left side of the equation\nIn the given equation, we have: 50 + m + n - 30 = 60\nCombining like terms on the left side, we get: m + n + 20 = 60\nStep 2: Isolate the variable n by\u79fb\u9879\nNow, we want to isolate n on one side of the equation. To do this, we need to subtract m from both sides:\nm + n + 20 - m = 60 - m\nn + 20 = 60 - m\nStep 3: Solve for n\nSubtracting 20 from both sides, we have: n = 60 - m - 20\nStep 4: Substitute m = 3n\nSubstitute the value of m in terms of n into the equation:\nn = 60 - 3n - 20\nStep 5: Simplify and solve for n\nCombining like terms, we have: 4n = 40\nDividing both sides by 4, we get: n = 10\nTherefore, the value of n is 10.",
+        "",
+        " \nFirst, we can simplify the given equation by combining like terms:\n50 + m + n - 30 = 60\nm + n + 20 = 60\nNow, we can rearrange the equation to isolate m on one side:\nm + n = 60 - 20\nm + n = 40\nNext, we can substitute the value of m in terms of n:\nm = 3n\n3n + n = 40\nCombining like terms, we get:\n4n = 40\nFinally, we can solve for n by dividing both sides of the equation by 4:\nn = 40 / 4\nn = 10\nThe value of n is 10.",
+        "\nTo solve the equation, we can start by combining like terms on the left side of the equation. \nFrom the given equation, we have:\n50 + m + n - 30 = 60\nCombining like terms, we get:\nm + n = 30\nNext, we can substitute the value of m in terms of n, which is given by the equation m = 3n. \nSubstituting this, we have:\n3n + n = 30\nCombining like terms, we get:\n4n = 30\nDividing both sides by 4, we find that:\nn = 7.5\nSo, the value of n is 7.5.",
+        " To find the value of n, we need to solve the equation:\n50 + m + n - 30 = 60\nSince we know that m = 3n, we can substitute this value into the equation:\n50 + (3n) + n - 30 = 60\nCombine like terms:\n50 + 4n - 30 = 60\nSimplify:\n4n + 20 = 60\nSubtract 20 from both sides:\n4n = 40\nDivide both sides by 4:\nn = 10\nThe value of n is 10."
+    ],
+    "vllm_answers": [
+        "10",
+        "10",
+        "10",
+        "20",
+        "7.5",
+        "22.5",
+        "10",
+        "10",
+        "20",
+        "10",
+        "10",
+        "",
+        "10",
+        "7.5",
+        "10"
+    ],
+    "vllm_pred_answer": "10"
+}

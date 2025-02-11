@@ -1,0 +1,23 @@
+{
+    "problem": "Krista put 1 cent into her new bank on a Sunday morning.  On Monday she put 2 cents into her bank.  On Tuesday she put 4 cents into her bank, and she continued to double the amount of money she put into her bank each day for two weeks.  On what day of the week did the total amount of money in her bank first exceed $\\$5$?",
+    "level": "Level 5",
+    "type": "Algebra",
+    "solution": "If $n$ days have passed since Sunday, then the total number of cents in her bank account is $1+2+\\cdots+2^n$. This is a geometric series with first term 1, common ratio 2 and $n+1$ terms. Hence the sum is: $$1+2+\\cdots+2^n = \\frac{1-2^{n+1}}{1-2} = 2^{n+1}-1.$$If this is greater than $500$ (i.e. if the total amount of money in the account is more than $\\$5$) then $2^{n+1}-1\\ge 500$, so $2^{n+1}\\ge 501$. The smallest power of 2 that is greater than 501 is $2^9$. Thus the first time there is more than $\\$5$ in the bank account occurs after $n=8$ days. This is 8 days away from Sunday, so the day of the week is $\\boxed{\\text{Monday}}$.",
+    "prompt": "### Instruction: Krista put 1 cent into her new bank on a Sunday morning.  On Monday she put 2 cents into her bank.  On Tuesday she put 4 cents into her bank, and she continued to double the amount of money she put into her bank each day for two weeks.  On what day of the week did the total amount of money in her bank first exceed $\\$5$?\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "Here's how we can solve this problem step by step:\n**1. Calculate the daily amounts:**\n* Sunday: $0.01\n* Monday: $0.02\n* Tuesday: $0.04\n* Wednesday: $0.08\n* Thursday: $0.16\n* Friday: $0.32\n* Saturday: $0.64\n* Sunday: $1.28\n* Monday: $2.56\n* Tuesday: $5.12\n**2. Determine the day the amount exceeds $5:**\n* The total amount in the bank first exceeds $5 on **Tuesday** of the second week. \n**Therefore, the answer is Tuesday.** \n",
+        "Here's how we can solve this problem step-by-step:\n**1. Calculate the daily deposits:**\n* Sunday: $0.01\n* Monday: $0.02\n* Tuesday: $0.04\n* Wednesday: $0.08\n* Thursday: $0.16\n* Friday: $0.32\n* Saturday: $0.64\n* Sunday: $1.28\n* Monday: $2.56\n* Tuesday: $5.12\n**2. Determine the day the total exceeds $5:**\n* By Tuesday of the second week, Krista has deposited a total of $0.01 + $0.02 + $0.04 + ... + $5.12 = $10.23. \n**3. Answer:**\nThe total amount of money in Krista's bank first exceeded $5 on **Tuesday** of the second week. \n",
+        "Here's how we can solve this problem step-by-step:\n**1. Calculate the daily deposits:**\n* Sunday: 1 cent\n* Monday: 2 cents\n* Tuesday: 4 cents\n* Wednesday: 8 cents\n* Thursday: 16 cents\n* Friday: 32 cents\n* Saturday: 64 cents\n**2. Calculate the total amount for the first week:**\n* Total for the first week: 1 + 2 + 4 + 8 + 16 + 32 + 64 = 127 cents = $1.27\n**3. Continue calculating deposits for the second week:**\n* Sunday: 128 cents ($1.28)\n* Monday: 256 cents ($2.56)\n* Tuesday: 512 cents ($5.12)\n**4. Determine the day the amount exceeds $5:**\n* On Tuesday of the second week, the total amount in Krista's bank reaches $5.12, which is greater than $5.\n**Answer:** The total amount of money in Krista's bank first exceeded $5 on **Tuesday** of the second week. \n",
+        "Here's how we can solve this problem step-by-step:\n**1. Calculate the daily deposits:**\n* Sunday: $0.01\n* Monday: $0.02\n* Tuesday: $0.04\n* Wednesday: $0.08\n* Thursday: $0.16\n* Friday: $0.32\n* Saturday: $0.64\n* Sunday: $1.28\n* Monday: $2.56\n* Tuesday: $5.12\n**2.  Determine the day the total exceeds $5:**\n* The total amount in the bank on Monday is $0.01 + $0.02 + $0.04 + ... + $2.56 = $5.11\n**3.  Answer:**\n* The total amount in Krista's bank first exceeded $5 on **Tuesday**. \n",
+        "Here's how to solve this problem step-by-step:\n**1. Calculate the daily deposits:**\n* Sunday: $0.01\n* Monday: $0.02\n* Tuesday: $0.04\n* Wednesday: $0.08\n* Thursday: $0.16\n* Friday: $0.32\n* Saturday: $0.64\n* Sunday: $1.28\n* Monday: $2.56\n* Tuesday: $5.12\n**2. Determine the day the total exceeds $5:**\n* The total on Monday is $0.01 + $0.02 + $0.04 + $0.08 + $0.16 + $0.32 + $0.64 + $1.28 + $2.56 = $5.01\n**3. Answer:**\n* The total amount of money in Krista's bank first exceeded $5 on **Tuesday** of the second week. \n"
+    ],
+    "pred_answers": "5",
+    "final_pred_answer": [
+        "5",
+        "5",
+        "5",
+        "5",
+        "5"
+    ],
+    "ground_truth": "8"
+}

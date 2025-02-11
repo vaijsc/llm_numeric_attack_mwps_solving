@@ -1,0 +1,23 @@
+{
+    "problem": "If $j$, $k$, and $l$ are positive with $jk=24$, $jl = 48$, and $kl=18$, find $j+k+l$.",
+    "level": "Level 2",
+    "type": "Algebra",
+    "solution": "Since $$j=\\frac{24}{k}=\\frac{48}{l}$$we have $l = 2k$. So $18\n= 2k^2$, which means that $9 = k^2$. Since $k$ has to be positive, this implies that $k = 3$. This means that $j = 8$, and $l = 6$. Hence $j+k+l = \\boxed{17}$.\n\nOR\n\nTake the product of the equations to get $jk\\cdot jl\n\\cdot kl = 24 \\cdot 48 \\cdot 18$. Thus $$(jkl)^2 = 20736.$$So $(jkl)^2 =\n(144)^2$, and we have $jkl = 144$. Therefore, $$j = \\frac{jkl}{kl} = \\frac{144}{18} = 8.$$From this it follows that $k=3$ and $l=6$, so the sum is $8+3+6=\\boxed{17}$.",
+    "prompt": "### Instruction: If $j$, $k$, and $l$ are positive with $jk=24$, $jl = 48$, and $kl=18$, find $j+k+l$.\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "Here's how to solve the problem step-by-step:\n**1. Find a common factor:**\n* Notice that all three equations have two of the variables in common. Let's try to find a common factor for the numbers involved:\n   * 24 = 2 x 2 x 2 x 3\n   * 48 = 2 x 2 x 2 x 2 x 3\n   * 18 = 2 x 3 x 3\n* We see that 2 x 3 = 6 is a common factor.\n**2. Express the equations using the common factor:**\n*  We can rewrite the equations:\n    *  jk = 24 = 6 x 4\n    *  jl = 48 = 6 x 8\n    *  kl = 18 = 6 x 3\n**3. Solve for the variables:**\n* Comparing the equations, we can see that:\n   * j = 4  (from jk = 6 x 4)\n   * l = 8  (from jl = 6 x 8)\n   * k = 3  (from kl = 6 x 3)\n**4. Calculate the sum:**\n*  Finally, find j + k + l:\n    * j + k + l = 4 + 3 + 8 = **15**\n**Therefore, j + k + l = 15** \n",
+        "Here's how to solve the problem step-by-step:\n**1. Find the individual values of j, k, and l:**\n* **Multiply all three equations together:** \n   (jk) * (jl) * (kl) = 24 * 48 * 18\n   j\u00b2k\u00b2l\u00b2 = 20736\n* **Take the square root of both sides:**\n   jkl = \u221a20736 = 144\n* **Divide the equation (jkl = 144) by each of the original equations to find the individual values:**\n    * j = (jkl) / (kl) = 144 / 18 = 8\n    * k = (jkl) / (jl) = 144 / 48 = 3\n    * l = (jkl) / (jk) = 144 / 24 = 6\n**2. Calculate j + k + l:**\n* j + k + l = 8 + 3 + 6 = **17** \n**Therefore, j + k + l = 17** \n",
+        "Here's how to solve the problem step-by-step:\n**1. Find a common factor:**\n* Notice that all three products have a common factor.  Let's find the greatest common factor (GCF) of 24, 48, and 18.  The GCF is 6.\n**2. Express each product using the GCF:**\n*  We can rewrite the given equations:\n    *  `jk = 24` becomes `jk = 6 * 4`\n    *  `jl = 48` becomes `jl = 6 * 8`\n    *  `kl = 18` becomes `kl = 6 * 3`\n**3. Identify the individual values:**\n* By comparing the factors on the right side of the equations, we can deduce:\n    * `j = 6` \n    * `k = 4`\n    * `l = 8`\n**4. Calculate the sum:**\n* Finally, `j + k + l = 6 + 4 + 8 = 18`\n**Therefore, j + k + l = 18** \n",
+        "Here's how to solve the problem step-by-step:\n1. **Multiply the equations together:** \n   (jk)(jl)(kl) = 24 * 48 * 18\n2. **Simplify:** \n   j\u00b2k\u00b2l\u00b2 = 20736\n3. **Take the square root of both sides:**\n   jkl = \u221a20736 = 144\n4. **Find the value of j, k, and l individually:**\n   * Divide the equation jkl = 144 by the given equations:\n     * j = (jkl)/(kl) = 144/18 = 8\n     * k = (jkl)/(jl) = 144/48 = 3\n     * l = (jkl)/(jk) = 144/24 = 6\n5. **Calculate j + k + l:**\n   j + k + l = 8 + 3 + 6 = **17** \n",
+        "Here's how to solve the problem step-by-step:\n**1.  Find a common factor:**\n* Notice that all three equations have two of the variables in common. This suggests we can find a common factor by multiplying the equations together.\n**2. Multiply the equations:**\n* (jk)(jl)(kl) = (24)(48)(18)\n* j\u00b2k\u00b2l\u00b2 = 20736\n**3. Take the square root:**\n* \u221a(j\u00b2k\u00b2l\u00b2) = \u221a20736\n* jkl = 144\n**4.  Find the value of each variable:**\n* Divide the equation jkl = 144 by each of the original equations to find the individual values:\n    * j = (jkl)/(kl) = 144/18 = 8\n    * k = (jkl)/(jl) = 144/48 = 3\n    * l = (jkl)/(jk) = 144/24 = 6\n**5. Calculate the sum:**\n* j + k + l = 8 + 3 + 6 = **17** \n"
+    ],
+    "pred_answers": "17",
+    "final_pred_answer": [
+        "15",
+        "17",
+        "18",
+        "17",
+        "17"
+    ],
+    "ground_truth": "17"
+}

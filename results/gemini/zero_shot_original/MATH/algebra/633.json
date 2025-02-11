@@ -1,0 +1,23 @@
+{
+    "problem": "A line segment has one endpoint at $(6,8)$ and midpoint at $(1,1)$. What is the sum of the coordinates of the other endpoint?",
+    "level": "Level 3",
+    "type": "Algebra",
+    "solution": "Let the other endpoint have coordinates $(x,y)$. We have the equations $(x+6)/2=1$ and $(y+8)/2=1$, or $x=-4$ and $y=-6$. The sum of the coordinates is thus $-4+(-6)=\\boxed{-10}$.",
+    "prompt": "### Instruction: A line segment has one endpoint at $(6,8)$ and midpoint at $(1,1)$. What is the sum of the coordinates of the other endpoint?\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "Here's how to solve the problem step-by-step:\n**1. Understand the Midpoint Formula**\nThe midpoint of a line segment is the average of the x-coordinates and the average of the y-coordinates of the endpoints.  \n**2. Set up the Equations**\nLet the other endpoint be (x, y). Using the midpoint formula:\n*  (1) = (6 + x) / 2  (The x-coordinate of the midpoint)\n*  (1) = (8 + y) / 2  (The y-coordinate of the midpoint)\n**3. Solve for x and y**\n*  2 = 6 + x \n*  x = -4\n*  2 = 8 + y\n*  y = -6\n**4. Find the Sum**\nThe other endpoint is (-4, -6). The sum of its coordinates is -4 + (-6) = **-10**. \n",
+        "Here's how to solve the problem step-by-step:\n**1. Understand Midpoint Formula:**\nThe midpoint of a line segment is found by averaging the x-coordinates and the y-coordinates of the endpoints.  Let the other endpoint be (x, y).  The midpoint formula gives us:\n*  Midpoint x-coordinate:  (6 + x) / 2 = 1\n*  Midpoint y-coordinate:  (8 + y) / 2 = 1\n**2. Solve for x and y:**\n*  From the x-coordinate equation:  6 + x = 2  =>  x = -4\n*  From the y-coordinate equation:  8 + y = 2  =>  y = -6\n**3. Find the Sum:**\nThe other endpoint is (-4, -6).  The sum of its coordinates is -4 + (-6) = **-10**. \n",
+        "Here's how to solve the problem step-by-step:\n**1. Understand Midpoint Formula:**\nThe midpoint of a line segment is found by averaging the x-coordinates and the y-coordinates of the endpoints.  \n**2. Set up Equations:**\nLet the other endpoint be (x, y).  Using the midpoint formula, we can write:\n*  (1) = (6 + x) / 2  (The x-coordinate of the midpoint)\n*  (1) = (8 + y) / 2  (The y-coordinate of the midpoint)\n**3. Solve for x and y:**\n*  Multiply both sides of the first equation by 2: 2 = 6 + x\n*  Subtract 6 from both sides: -4 = x\n*  Multiply both sides of the second equation by 2: 2 = 8 + y\n*  Subtract 8 from both sides: -6 = y\n**4. Find the Sum of Coordinates:**\nThe other endpoint is (-4, -6).  The sum of its coordinates is -4 + (-6) = **-10**. \n",
+        "Here's how to solve the problem step-by-step:\n**1. Understand the Midpoint Formula**\nThe midpoint of a line segment is found by averaging the x-coordinates and the y-coordinates of the endpoints.  Let the other endpoint be (x, y).  The midpoint formula tells us:\n*  Midpoint x-coordinate:  (6 + x) / 2 = 1\n*  Midpoint y-coordinate: (8 + y) / 2 = 1\n**2. Solve for the Coordinates of the Other Endpoint**\n* **Solve for x:**\n   *  (6 + x) / 2 = 1\n   *  6 + x = 2\n   *  x = -4\n* **Solve for y:**\n   * (8 + y) / 2 = 1\n   * 8 + y = 2\n   * y = -6\n**3. Find the Sum of the Coordinates**\nThe other endpoint is (-4, -6).  The sum of its coordinates is -4 + (-6) = **-10**. \n",
+        "Here's how to solve the problem step-by-step:\n**1. Understand the Midpoint Formula**\nThe midpoint of a line segment is found by averaging the x-coordinates and the y-coordinates of the endpoints.  Let's say the other endpoint has coordinates (x, y).  The midpoint formula gives us:\n* Midpoint x-coordinate: (6 + x) / 2 = 1\n* Midpoint y-coordinate: (8 + y) / 2 = 1\n**2. Solve for x and y**\n* **Solving for x:**\n   * (6 + x) / 2 = 1\n   * 6 + x = 2\n   * x = -4\n* **Solving for y:**\n   * (8 + y) / 2 = 1\n   * 8 + y = 2\n   * y = -6\n**3. Calculate the Sum of the Coordinates**\nThe other endpoint is (-4, -6).  The sum of its coordinates is -4 + (-6) = **-10**. \n"
+    ],
+    "pred_answers": "-10",
+    "final_pred_answer": [
+        "-10",
+        "-10",
+        "-10",
+        "-10",
+        "-10"
+    ],
+    "ground_truth": "-10"
+}

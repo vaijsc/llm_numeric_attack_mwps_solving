@@ -1,0 +1,23 @@
+{
+    "problem": "Compute the square of 9997 without a calculator.",
+    "level": "Level 3",
+    "type": "Algebra",
+    "solution": "\\[9997^2=(10^4-3)^2=10^8-2\\cdot3\\cdot10^4+9.\\]We can factor out $10^4$ from the first two terms to make the computation easier: \\[9997^2=10^4(10^4-6)+9=10^4\\cdot9994+9=\\boxed{99940009}.\\]",
+    "prompt": "### Instruction: Compute the square of 9997 without a calculator.\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "Here's how to compute the square of 9997 without a calculator:\n**Understanding the Pattern**\n*  9997 is very close to 10000.  We can use this fact to our advantage.\n*  Think of 9997 as (10000 - 3).\n**The Calculation**\n1. **Square the first term:**  10000\u00b2 = 100,000,000\n2. **Double the product of the two terms:** 2 * 10000 * 3 = 60,000\n3. **Square the second term:** 3\u00b2 = 9\n**Putting it together**\n*  (10000 - 3)\u00b2 = 100,000,000 - 60,000 + 9 \n*  Therefore, 9997\u00b2 = 99,940,009\n**Explanation**\nThis method uses the algebraic identity: (a - b)\u00b2 = a\u00b2 - 2ab + b\u00b2 \nWe've essentially expanded the square of (10000 - 3) using this identity. \n",
+        "Here's how to compute the square of 9997 without a calculator:\n**Understanding the Pattern**\nNotice that 9997 is very close to 10000.  We can use this to our advantage:\n* 9997 = 10000 - 3\n**Using the Difference of Squares**\nRecall the difference of squares factorization: a\u00b2 - b\u00b2 = (a + b)(a - b)\n* Let a = 10000 and b = 3\n* (10000 - 3)\u00b2 = (10000 + 3)(10000 - 3)\n**Simplifying**\n* (10000 + 3)(10000 - 3) = 10003 * 9997\n**Final Calculation**\n* 10003 * 9997 = (10000 + 3) * (10000 - 3) = 10000\u00b2 - 3\u00b2 \n* 10000\u00b2 - 3\u00b2 = 100,000,000 - 9 = 99,999,991\n**Therefore, 9997\u00b2 = 99,999,991** \n",
+        "Here's how to compute the square of 9997 without a calculator:\n**Understanding the Problem:**\nWe want to find 9997 * 9997.  We can use a bit of cleverness to make this calculation easier.\n**The Trick:**\n* **Rewrite 9997:**  Think of 9997 as (10000 - 3).\n* **Expand using the difference of squares:**  (a - b)^2 = a^2 - 2ab + b^2\n* **Apply:** (10000 - 3)^2 = 10000^2 - 2(10000)(3) + 3^2\n**Calculation:**\n1. **10000^2:** This is easy \u2013 it's 100,000,000.\n2. **2(10000)(3):** This is 60,000.\n3. **3^2:** This is 9.\n**Final Step:**\n* 100,000,000 - 60,000 + 9 = 99,940,009\n**Therefore, the square of 9997 is 99,940,009.** \n",
+        "Here's how to compute the square of 9997 without a calculator:\n**1. Recognize the pattern:**\n9997 is very close to 10000.  We can use this to our advantage.\n**2. Express 9997 as a difference:**\n9997 = 10000 - 3\n**3. Use the \"difference of squares\" pattern:**\n* (a - b)\u00b2 = a\u00b2 - 2ab + b\u00b2 \n**4. Apply the pattern:**\n* (10000 - 3)\u00b2 = 10000\u00b2 - 2(10000)(3) + 3\u00b2\n**5. Simplify:**\n* 10000\u00b2 = 100,000,000\n* 2(10000)(3) = 60,000\n* 3\u00b2 = 9\n**6. Calculate:**\n* 100,000,000 - 60,000 + 9 = 99,940,009\n**Therefore, 9997\u00b2 = 99,940,009** \n",
+        "Here's how to compute the square of 9997 without a calculator:\n**Understanding the Problem**\nWe want to find 9997 * 9997.  Notice that 9997 is very close to 10000. We can use this to our advantage.\n**Step 1:  Rewrite 9997**\n* 9997 = 10000 - 3\n**Step 2:  Expand the Square**\n* (10000 - 3)\u00b2 = 10000\u00b2 - (2 * 10000 * 3) + 3\u00b2 \n**Step 3:  Simplify**\n* 10000\u00b2 = 100,000,000 \n* 2 * 10000 * 3 = 60,000\n* 3\u00b2 = 9\n**Step 4:  Combine the terms**\n* 100,000,000 - 60,000 + 9 = 99,940,009\n**Therefore, 9997\u00b2 = 99,940,009** \n"
+    ],
+    "pred_answers": "99940009",
+    "final_pred_answer": [
+        "3",
+        "99999991",
+        "99940009",
+        "99940009",
+        "99940009"
+    ],
+    "ground_truth": "99940009"
+}

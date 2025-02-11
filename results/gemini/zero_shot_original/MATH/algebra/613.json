@@ -1,0 +1,23 @@
+{
+    "problem": "If $x$ is a positive integer such that $1^x + 2^x + 5^x = 642$, what is the value of $x$?",
+    "level": "Level 1",
+    "type": "Algebra",
+    "solution": "We first note that the $5^x$ term grows much faster than the other two terms. Indeed, for $n\\geq2$, $5^x \\geq 5(2^x + 1^x)$. Consequently, we focus on that term. The first four powers of $5$ are $5^1=5, 5^2=25, 5^3=125,$ and $5^4=625$. The last of these is close to $642$ so we check $x=4$ and get that $1^x+2^x+5^x = 1 + 16 + 625 = 642$, as desired, so $x=\\boxed{4}$.",
+    "prompt": "### Instruction: If $x$ is a positive integer such that $1^x + 2^x + 5^x = 642$, what is the value of $x$?\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "Here's how to solve the problem:\n**1. Analyze the equation:**\n* Notice that the left side of the equation involves powers of 1, 2, and 5. \n* The right side is 642, which is a relatively small number.\n**2. Test values of x:**\n* **Start with small values of x:**\n    * If x = 1, then  1\u00b9 + 2\u00b9 + 5\u00b9 = 8 (too small)\n    * If x = 2, then 1\u00b2 + 2\u00b2 + 5\u00b2 = 30 (too small)\n* **Increase x gradually:**\n    * If x = 3, then 1\u00b3 + 2\u00b3 + 5\u00b3 = 156 (too small)\n    * If x = 4, then 1\u2074 + 2\u2074 + 5\u2074 = 642 (We found our solution!)\n**3. Solution:**\nTherefore, the value of x that satisfies the equation is **x = 4**. \n",
+        "Here's how to solve this problem:\n**1. Recognize the Pattern**\nNotice that the left side of the equation has a pattern: it's the sum of cubes. Specifically:\n*  1^3 = 1\n*  2^3 = 8\n*  5^3 = 125\n**2. Test for a Solution**\nLet's see if adding these cubes gives us 642:\n1 + 8 + 125 = 134  \nThis is not 642. Let's try a slightly larger number.\n**3.  Increase the Exponent**\nIf we increase the exponent to 4, we get:\n1^4 + 2^4 + 5^4 = 1 + 16 + 625 = 642 \n**4. The Solution**\nTherefore, the value of  *x* that satisfies the equation is **x = 4**. \n",
+        "Here's how to solve the problem:\n**1. Understand the Problem:**\nWe need to find a positive integer value for 'x' that makes the equation  1^x + 2^x + 5^x = 642 true.\n**2.  Trial and Error (with a bit of reasoning):**\n* **Start with small values of x:** \n    * If x = 1, the equation becomes 1 + 2 + 5 = 8, which is too small.\n    * If x = 2, the equation becomes 1 + 4 + 25 = 30, still too small.\n* **Notice the growth:** As x increases, the terms 2^x and 5^x grow much faster than 1^x (which is always 1).\n* **Estimate:**  Since 642 is a relatively large number, we can guess that 'x' is probably greater than 2.  Let's try a few more values.\n    * If x = 3, the equation becomes 1 + 8 + 125 = 134, still too small.\n    * If x = 4, the equation becomes 1 + 16 + 625 = 642.  This is the solution!\n**3. Solution:**\nTherefore, the value of x that satisfies the equation is **x = 4**. \n",
+        "Here's how to solve the problem:\n**1.  Consider the possibilities:**\n* Since 642 is relatively small, we can start by trying small values of *x*.\n* Notice that 5^2 = 25, which is already greater than a significant portion of 642. This suggests *x* might be a small number.\n**2.  Try values of *x*:**\n* **If x = 1:**  1^1 + 2^1 + 5^1 = 8, which is too small.\n* **If x = 2:** 1^2 + 2^2 + 5^2 = 30, still too small.\n* **If x = 3:** 1^3 + 2^3 + 5^3 = 152, still too small.\n* **If x = 4:** 1^4 + 2^4 + 5^4 = 642, this works!\n**3.  Solution:**\nTherefore, the value of *x* is **4**. \n",
+        "Here's how to solve the problem:\n**1.  Estimate the range of x:**\n* Notice that 5^2 = 25 and 5^3 = 125. Since 642 is closer to 125, we can guess that x is likely 3 or smaller. \n**2.  Test the possible values of x:**\n* **If x = 1:**  1^1 + 2^1 + 5^1 = 8 \n* **If x = 2:** 1^2 + 2^2 + 5^2 = 30\n* **If x = 3:** 1^3 + 2^3 + 5^3 = 150\n**3.  The Solution:**\nSince none of the values of x from 1 to 3 work, we need to consider larger values.  However, we can see that the sum is increasing rapidly.  If we try x = 4:\n* **If x = 4:** 1^4 + 2^4 + 5^4 = 650\nThis is too large.  Therefore, there is **no positive integer solution** for x that satisfies the equation 1^x + 2^x + 5^x = 642. \n"
+    ],
+    "pred_answers": "4",
+    "final_pred_answer": [
+        "4",
+        "4",
+        "4",
+        "4",
+        "642"
+    ],
+    "ground_truth": "4"
+}

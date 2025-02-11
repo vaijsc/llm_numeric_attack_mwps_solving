@@ -1,0 +1,23 @@
+{
+    "problem": "Determine the number of ways to arrange the letters of the word GAMMAS.",
+    "level": "Level 2",
+    "type": "Counting & Probability",
+    "solution": "There are two A's, two M's, and six total letters, so the answer is $\\dfrac{6!}{2! \\times 2!} = \\boxed{180}$.",
+    "prompt": "### Instruction: Determine the number of ways to arrange the letters of the word GAMMAS.\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "Here's how to determine the number of ways to arrange the letters of the word \"GAMMAS\":\n**1. Count the letters:**\n* There are 6 letters in the word \"GAMMAS\".\n**2. Identify repetitions:**\n* The letter \"A\" appears twice.\n* The letter \"M\" appears twice.\n**3. Calculate the arrangements:**\n* **If all letters were unique:**  There would be 6! (6 factorial) ways to arrange them, which is 6 * 5 * 4 * 3 * 2 * 1 = 720.\n* **Since there are repetitions:** We need to adjust for overcounting.  We divide the total arrangements by the factorial of the number of times each letter repeats.\n* **Calculation:** (6!)/(2! * 2!) = (720) / (2 * 2) = 720 / 4 = **180**\n**Therefore, there are 180 ways to arrange the letters of the word \"GAMMAS\".** \n",
+        "Here's how to determine the number of ways to arrange the letters of the word GAMMAS:\n**1. Count the letters:**\n* There are 6 letters in the word GAMMAS.\n**2. Consider repetitions:**\n* The letter 'A' appears twice.\n**3. Formula:**\nThe number of ways to arrange *n* objects, where some are identical, is given by:\nn! / (r1! * r2! * ... * rk!)\nwhere:\n* n is the total number of objects\n* r1, r2, ... rk are the counts of each type of identical object.\n**4. Apply the formula:**\n* n = 6 (total letters)\n* r1 = 2 (number of 'A's)\nTherefore, the number of arrangements is: 6! / (2!) = 720 / 2 = 360\n**Answer:** There are **360** ways to arrange the letters of the word GAMMAS. \n",
+        "Here's how to determine the number of ways to arrange the letters of the word GAMMAS:\n**1. Count the Letters:**\n* There are 6 letters in the word \"GAMMAS\".\n**2. Identify Repeating Letters:**\n* The letter \"A\" repeats twice. \n* The letter \"M\" repeats twice.\n**3. Calculate the Arrangements with Repetition:**\n* **Total arrangements if all letters were unique:** 6! (6 factorial) = 6 * 5 * 4 * 3 * 2 * 1 = 720\n* **Adjust for repetitions:** Since we have repetitions, we need to divide by the factorial of the number of times each letter repeats.\n    * For \"A\": 2! = 2 * 1 = 2\n    * For \"M\": 2! = 2 * 1 = 2\n**4. Final Calculation:**\n* Number of arrangements = (Total arrangements) / (Repetitions of \"A\" factorial * Repetitions of \"M\" factorial)\n* Number of arrangements = 720 / (2! * 2!) = 720 / (2 * 2) = 720 / 4 = 180\n**Therefore, there are 180 ways to arrange the letters of the word \"GAMMAS\".** \n",
+        "Here's how to determine the number of ways to arrange the letters of the word GAMMAS:\n**1. Count the letters:**\n* The word \"GAMMAS\" has 6 letters.\n**2. Identify repeated letters:**\n* The letter \"A\" appears twice. \n**3. Calculate the arrangements:**\n* If all letters were unique, there would be 6! (6 factorial) ways to arrange them, which is 6 * 5 * 4 * 3 * 2 * 1 = 720.\n* However, we need to account for the repeated \"A\".  We divide the total number of arrangements by 2! (2 factorial) to correct for overcounting.\n**4. Final Calculation:**\n* Number of arrangements = 6! / 2! = 720 / 2 = 360\n**Therefore, there are 360 ways to arrange the letters of the word \"GAMMAS\".** \n",
+        "Here's how to determine the number of ways to arrange the letters of the word GAMMAS:\n**1. Count the Letters:**\n* The word GAMMAS has 6 letters.\n**2. Identify Repeating Letters:**\n* The letter 'A' appears twice.\n**3. Calculate the Arrangements:**\n* If all letters were unique, there would be 6! (6 factorial) ways to arrange them. \n* However, since we have repeating 'A's, we need to adjust for overcounting.  \n* Divide the total possible arrangements by the factorial of the number of times each letter repeats.\n**Calculation:**\n* Total arrangements without considering repetitions: 6! = 6 * 5 * 4 * 3 * 2 * 1 = 720\n* Divide by 2! (2 factorial) to account for the repeating 'A's: 720 / 2! = 720 / 2 = 360\n**Answer:** There are **360** ways to arrange the letters of the word GAMMAS. \n"
+    ],
+    "pred_answers": "360",
+    "final_pred_answer": [
+        "180",
+        "360",
+        "180",
+        "360",
+        "360"
+    ],
+    "ground_truth": "180"
+}

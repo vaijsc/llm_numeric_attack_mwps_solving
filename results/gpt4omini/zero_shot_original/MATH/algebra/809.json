@@ -1,0 +1,23 @@
+{
+    "problem": "Expand $(x+5)^2$",
+    "level": "Level 2",
+    "type": "Algebra",
+    "solution": "$(x+5)^2 = x^2 + 2(x)(5) + 5^2 = \\boxed{x^2 + 10x + 25}$.",
+    "prompt": "### Instruction: Expand $(x+5)^2$\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "To expand \\((x+5)^2\\), we can use the formula for the square of a binomial, which is given by:\n\\[\n(a + b)^2 = a^2 + 2ab + b^2\n\\]\nIn this case, we have \\(a = x\\) and \\(b = 5\\). Now, we will substitute \\(a\\) and \\(b\\) into the formula.\n1. Calculate \\(a^2\\):\n   \\[\n   a^2 = x^2\n   \\]\n2. Calculate \\(2ab\\):\n   \\[\n   2ab = 2 \\cdot x \\cdot 5 = 10x\n   \\]\n3. Calculate \\(b^2\\):\n   \\[\n   b^2 = 5^2 = 25\n   \\]\nNow, combining all these results, we get:\n\\[\n(x+5)^2 = x^2 + 10x + 25\n\\]\nThus, the expanded form of \\((x+5)^2\\) is:\n\\[\n\\boxed{x^2 + 10x + 25}\n\\]",
+        "To expand \\((x + 5)^2\\), we can use the formula for squaring a binomial, which is:\n\\[\n(a + b)^2 = a^2 + 2ab + b^2\n\\]\nIn our case, \\(a = x\\) and \\(b = 5\\). \nNow, let's apply the formula step by step:\n1. **Square the first term (\\(a^2\\)):**\n   \\[\n   x^2\n   \\]\n2. **Multiply the two terms together and then double it (\\(2ab\\)):**\n   \\[\n   2 \\cdot x \\cdot 5 = 10x\n   \\]\n3. **Square the second term (\\(b^2\\)):**\n   \\[\n   5^2 = 25\n   \\]\nNow, we can combine all these results together:\n\\[\n(x + 5)^2 = x^2 + 10x + 25\n\\]\nThus, the expanded form of \\((x + 5)^2\\) is:\n\\[\n\\boxed{x^2 + 10x + 25}\n\\]",
+        "To expand \\((x + 5)^2\\), we can use the formula for the square of a binomial, which is:\n\\[\n(a + b)^2 = a^2 + 2ab + b^2\n\\]\nIn this case, we have:\n- \\(a = x\\)\n- \\(b = 5\\)\nNow, we will apply the formula:\n1. **Calculate \\(a^2\\)**:\n   \\[\n   a^2 = x^2\n   \\]\n2. **Calculate \\(2ab\\)**:\n   \\[\n   2ab = 2(x)(5) = 10x\n   \\]\n3. **Calculate \\(b^2\\)**:\n   \\[\n   b^2 = 5^2 = 25\n   \\]\nNow, combine all these results together:\n\\[\n(x + 5)^2 = a^2 + 2ab + b^2 = x^2 + 10x + 25\n\\]\nSo, the expanded form of \\((x + 5)^2\\) is:\n\\[\n\\boxed{x^2 + 10x + 25}\n\\]",
+        "To expand \\((x + 5)^2\\), we will use the formula for the square of a binomial, which is given by:\n\\[\n(a + b)^2 = a^2 + 2ab + b^2\n\\]\nIn our case, \\(a = x\\) and \\(b = 5\\). Now, let's apply the formula step by step.\n1. **Calculate \\(a^2\\)**:\n   \\[\n   a^2 = x^2\n   \\]\n2. **Calculate \\(2ab\\)**:\n   \\[\n   2ab = 2 \\cdot x \\cdot 5 = 10x\n   \\]\n3. **Calculate \\(b^2\\)**:\n   \\[\n   b^2 = 5^2 = 25\n   \\]\nNow, we put all these results together:\n\\[\n(x + 5)^2 = a^2 + 2ab + b^2 = x^2 + 10x + 25\n\\]\nThus, the expansion of \\((x + 5)^2\\) is:\n\\[\n\\boxed{x^2 + 10x + 25}\n\\]",
+        "To expand \\((x+5)^2\\), we can use the formula for the square of a binomial, which states that \\((a + b)^2 = a^2 + 2ab + b^2\\).\nFor the expression \\((x+5)^2\\), we identify:\n- \\(a = x\\)\n- \\(b = 5\\)\nNow we apply the formula:\n1. First, calculate \\(a^2\\):\n   \\[\n   x^2\n   \\]\n2. Next, calculate \\(2ab\\):\n   \\[\n   2 \\cdot x \\cdot 5 = 10x\n   \\]\n3. Finally, calculate \\(b^2\\):\n   \\[\n   5^2 = 25\n   \\]\nNow, combine all these results:\n\\[\n(x+5)^2 = x^2 + 10x + 25\n\\]\nThus, the expanded form of \\((x+5)^2\\) is:\n\\[\n\\boxed{x^2 + 10x + 25}\n\\]"
+    ],
+    "pred_answers": "25",
+    "final_pred_answer": [
+        "25",
+        "25",
+        "25",
+        "25",
+        "25"
+    ],
+    "ground_truth": "25"
+}

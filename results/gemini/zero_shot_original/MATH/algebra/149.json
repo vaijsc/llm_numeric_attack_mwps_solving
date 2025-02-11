@@ -1,0 +1,23 @@
+{
+    "problem": "What is the difference between the positive square root of 64 and the cube root of 64?",
+    "level": "Level 1",
+    "type": "Algebra",
+    "solution": "The positive square root of 64 is $\\sqrt{64}=8$. The cube root of 64 is $\\sqrt[3]{64}=4$. The difference is $8-4=\\boxed{4}$.",
+    "prompt": "### Instruction: What is the difference between the positive square root of 64 and the cube root of 64?\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "Here's how to break down the problem:\n* **Positive square root of 64:**  This is the number that, when multiplied by itself, equals 64.  The positive square root of 64 is 8 (since 8 * 8 = 64).\n* **Cube root of 64:** This is the number that, when multiplied by itself three times, equals 64. The cube root of 64 is 4 (since 4 * 4 * 4 = 64).\n**The difference:** 8 - 4 = 4\n**Therefore, the difference between the positive square root of 64 and the cube root of 64 is 4.** \n",
+        "Here's how to break down the problem:\n**1. Positive Square Root of 64**\n* The square root of a number is the value that, when multiplied by itself, equals the original number. \n* The positive square root of 64 is 8, because 8 * 8 = 64.\n**2. Cube Root of 64**\n* The cube root of a number is the value that, when multiplied by itself three times, equals the original number.\n* The cube root of 64 is 4, because 4 * 4 * 4 = 64.\n**3. The Difference**\n* The difference between the positive square root of 64 (8) and the cube root of 64 (4) is 8 - 4 = **4**. \n",
+        "Here's how to break down the problem:\n* **Positive Square Root:** The positive square root of a number is the value that, when multiplied by itself, equals the original number.  The positive square root of 64 is 8 because 8 * 8 = 64.\n* **Cube Root:** The cube root of a number is the value that, when multiplied by itself three times, equals the original number. The cube root of 64 is 4 because 4 * 4 * 4 = 64.\n* **The Difference:** The difference between the positive square root of 64 (8) and the cube root of 64 (4) is 8 - 4 = **4**. \n",
+        "Here's how to break down the problem:\n**1. Positive Square Root of 64**\n* The square root of a number is a value that, when multiplied by itself, equals the original number.\n* The positive square root of 64 is 8, because 8 * 8 = 64.\n**2. Cube Root of 64**\n* The cube root of a number is a value that, when multiplied by itself three times, equals the original number.\n* The cube root of 64 is 4, because 4 * 4 * 4 = 64.\n**3. The Difference**\n* The difference between the positive square root of 64 (8) and the cube root of 64 (4) is 8 - 4 = **4**. \n",
+        "Here's how to break down the problem:\n* **Positive square root of 64:** This means finding a number that, when multiplied by itself, equals 64. That number is 8 (8 * 8 = 64).\n* **Cube root of 64:**  This means finding a number that, when multiplied by itself three times, equals 64. That number is 4 (4 * 4 * 4 = 64).\n**The difference:**\nThe positive square root of 64 (8) is **4** greater than the cube root of 64 (4). \n"
+    ],
+    "pred_answers": "4",
+    "final_pred_answer": [
+        "4",
+        "4",
+        "4",
+        "4",
+        "4"
+    ],
+    "ground_truth": "4"
+}

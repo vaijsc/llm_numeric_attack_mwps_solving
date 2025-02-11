@@ -1,0 +1,23 @@
+{
+    "problem": "In the diagram, what is the area of $\\triangle ABC$? [asy]\nsize(5cm);\nreal xmax = 15; real ymax = 13; real xmin = -3; real ymin = -3;\npair a = (4, 9); pair b = (0, 0); pair c = (12, 0); draw(b--a--c);\ndraw((xmin, 0)--(xmax, 0), Arrow); label(\"$x$\", (xmax, 0), E);\ndraw((0, ymin)--(0, ymax), Arrow); label(\"$y$\", (0, ymax), N);\nlabel(\"$B(0, 0)$\", b, SW);\nlabel(\"$C(12, 0)$\", c, S);\nlabel(\"$A(4, 9)$\", a, N);\n[/asy]",
+    "level": "Level 1",
+    "type": "Geometry",
+    "solution": "We think of $BC$ as the base of $\\triangle ABC$. Its length is $12$.\n\nSince the $y$-coordinate of $A$ is $9$, then the height of $\\triangle ABC$ from base $BC$ is $9$.\n\nTherefore, the area of $\\triangle ABC$ is $\\frac12 (12)(9) = \\boxed{54}.$",
+    "prompt": "### Instruction: In the diagram, what is the area of $\\triangle ABC$? [asy]\nsize(5cm);\nreal xmax = 15; real ymax = 13; real xmin = -3; real ymin = -3;\npair a = (4, 9); pair b = (0, 0); pair c = (12, 0); draw(b--a--c);\ndraw((xmin, 0)--(xmax, 0), Arrow); label(\"$x$\", (xmax, 0), E);\ndraw((0, ymin)--(0, ymax), Arrow); label(\"$y$\", (0, ymax), N);\nlabel(\"$B(0, 0)$\", b, SW);\nlabel(\"$C(12, 0)$\", c, S);\nlabel(\"$A(4, 9)$\", a, N);\n[/asy]\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "1. **Identify the base and height:**\n   - The base of the triangle is BC, which has length 12.\n   - The height of the triangle is the perpendicular distance from point A to line BC. Since A is directly above B, this height is simply the y-coordinate of point A, which is 9.\n2. **Apply the area formula:**\n   - The area of a triangle is given by (1/2) * base * height.\n   - In this case, the area is (1/2) * 12 * 9 = 54.\n**Therefore, the area of triangle ABC is 54 square units.** \n",
+        "Here's how to find the area of triangle ABC:\n**1. Identify the Base and Height**\n* **Base:** The base of the triangle can be BC, which lies along the x-axis.  The length of BC is 12 units (from x = 0 to x = 12).\n* **Height:** The height is the perpendicular distance from point A to the base BC. This distance is 9 units (the y-coordinate of point A).\n**2. Apply the Area Formula**\nThe area of a triangle is given by:\nArea = (1/2) * base * height\n**3. Calculate**\nArea = (1/2) * 12 * 9 = 54 square units\n**Therefore, the area of triangle ABC is 54 square units.** \n",
+        "Here's how to find the area of triangle ABC:\n**1. Identify the Base and Height:**\n* **Base:** The base of the triangle is BC, which lies along the x-axis.  The length of BC is 12 units (from x = 0 to x = 12).\n* **Height:** The height is the perpendicular distance from point A to the base BC.  Since A is at (4, 9), the height is 9 units.\n**2. Calculate the Area:**\n* **Area of a triangle = (1/2) * base * height**\n* Area of triangle ABC = (1/2) * 12 * 9 = 54 square units\n**Therefore, the area of triangle ABC is 54 square units.** \n",
+        "Here's how to find the area of triangle ABC:\n**1. Identify the Base and Height**\n* **Base:**  The base of the triangle can be BC, which lies along the x-axis. The length of BC is 12 units (from x = 0 to x = 12).\n* **Height:** The height is the perpendicular distance from point A to the base BC. Since A has a y-coordinate of 9, the height is 9 units.\n**2. Area Formula**\nThe area of a triangle is given by:\nArea = (1/2) * base * height\n**3. Calculate the Area**\nSubstitute the values we found:\nArea = (1/2) * 12 * 9 = 54 square units\n**Therefore, the area of triangle ABC is 54 square units.** \n",
+        "1. **Identify the base and height:** \n   - The base of the triangle is the segment BC, which lies along the x-axis.  The length of BC is 12 - 0 = 12 units.\n   - The height of the triangle is the perpendicular distance from point A to the base BC. This distance is 9 units (the y-coordinate of point A).\n2. **Use the area formula:**\n   - The area of a triangle is given by: (1/2) * base * height.\n3. **Calculate the area:**\n   - Area of triangle ABC = (1/2) * 12 * 9 = **54 square units** \n"
+    ],
+    "pred_answers": "54",
+    "final_pred_answer": [
+        "54",
+        "54",
+        "54",
+        "54",
+        "54"
+    ],
+    "ground_truth": "54"
+}

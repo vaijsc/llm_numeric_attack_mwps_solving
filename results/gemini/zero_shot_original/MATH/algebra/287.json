@@ -1,0 +1,23 @@
+{
+    "problem": "An amusement park charges an entry fee of $\\$2.25$ plus $\\$1.50$ for each ride. If Simon spent a total of $\\$12.75$, how many rides did he pay for?",
+    "level": "Level 1",
+    "type": "Algebra",
+    "solution": "Let $x$ be the number of rides for which Simon paid. Then $12.75=2.25+1.50x\\implies 1.50x=10.50\\implies x=\\boxed{7}$.",
+    "prompt": "### Instruction: An amusement park charges an entry fee of $\\$2.25$ plus $\\$1.50$ for each ride. If Simon spent a total of $\\$12.75$, how many rides did he pay for?\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "Here's how to solve the problem step-by-step:\n1. **Subtract the entry fee:** Simon spent $12.75 total and the entry fee was $2.25, so he spent $12.75 - $2.25 = $10.50 on rides.\n2. **Calculate the number of rides:** Each ride costs $1.50, and he spent $10.50 on rides, so he went on $10.50 / $1.50 = 7 rides.\n**Answer:** Simon paid for 7 rides. \n",
+        "Here's how to solve this problem step-by-step:\n1. **Calculate the cost of the rides:** Subtract the entry fee from the total amount spent: $12.75 - $2.25 = $10.50\n2. **Find the number of rides:** Divide the cost of the rides by the price per ride: $10.50 / $1.50 = 7\n**Answer:** Simon paid for 7 rides. \n",
+        "Here's how to solve this problem step-by-step:\n**1.  Subtract the entry fee:**\n* Simon spent $12.75 total, and the entry fee was $2.25, so he spent $12.75 - $2.25 = $10.50 on rides.\n**2.  Divide the ride cost by the cost per ride:**\n* Each ride costs $1.50, and he spent $10.50 on rides, so he rode $10.50 / $1.50 = 7 rides.\n**Answer:** Simon paid for 7 rides. \n",
+        "Here's how to solve the problem step-by-step:\n1. **Subtract the entry fee:** Simon spent $12.75 - $2.25 = $10.50 on rides.\n2. **Divide the cost of rides by the price per ride:** $10.50 / $1.50 per ride = 7 rides.\n**Answer:** Simon paid for 7 rides. \n",
+        "Here's how to solve the problem step-by-step:\n1. **Find the cost of the rides:** Subtract the entry fee from the total amount spent: $12.75 - $2.25 = $10.50\n2. **Divide the cost of the rides by the cost per ride:** $10.50 / $1.50 = 7\n**Answer:** Simon paid for 7 rides. \n"
+    ],
+    "pred_answers": "7",
+    "final_pred_answer": [
+        "7",
+        "7",
+        "7",
+        "7",
+        "7"
+    ],
+    "ground_truth": "7"
+}

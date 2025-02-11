@@ -1,0 +1,41 @@
+{
+    "index_adversarial_question": 1,
+    "problem": "If (x,y) = (1,9), what is y^2 - 3xy + 8?",
+    "pcot_answer": "# Define the values of x and y\nx = 1  ### condition: 'x': {'type': 'int', '<=': None, '>=': 0, 'science_constant': False, 'direct_from_question': True}\ny = 9  ### condition: 'y': {'type': 'int', '<=': None, '>=': 0, 'science_constant': False, 'direct_from_question': True}\n# Calculate y squared\ny_squared = y ** 2  ### condition: 'y_squared': {'type': 'int', '<=': None, '>=': 0, 'science_constant': False, 'direct_from_question': False}\n# Calculate the product of 3, x, and y\nthree_xy = 3 * x * y  ### condition: 'three_xy': {'type': 'int', '<=': None, '>=': 0, 'science_constant': False, 'direct_from_question': False}\n# Calculate the final expression y^2 - 3xy + 8\nresult = y_squared - three_xy + 8  ### condition: 'result': {'type': 'int', '<=': None, '>=': 0, 'science_constant': False, 'direct_from_question': False}\n# Print the final result\nprint(f\"The result of the expression is: {result}\")",
+    "answer": "62",
+    "vllm_responses": [
+        " 81 - 27 + 8\nThe expression y^2 - 3xy + 8 has inputs (x,y) = (1,9). \nWe substitute these values into the expression: y^2 - 3xy + 8 = 9^2 - 3(1)(9) + 8.\nEvaluating this expression further: y^2 - 3xy + 8 = 81 - 27 + 8.\nCombining like terms: y^2 - 3xy + 8 = 52.\nTherefore, y^2 - 3xy + 8 = 52.",
+        " To solve this problem, we need to substitute the given values of x and y into the expression y^2 - 3xy + 8. Since x = 1 and y = 9, we can substitute these values into the expression:\ny^2 - 3xy + 8 = 9^2 - 3(1)(9) + 8\nLet's perform the calculations:\n9^2 = 81\n-3(1)(9) = -27\nSubstituting these values back into the expression:\n81 - 27 + 8\nLet's simplify the expression:\n100\nTherefore, y^2 - 3xy + 8 = 100.",
+        "\nWe are given (x,y) = (1,9).\nWe need to calculate y^2 - 3xy + 8.\nSubstituting the values of (x,y), we get 9^2 - 3(1)(9) + 8.\nSimplifying, we have 81 - 27 + 8.\nCalculating, we get 92.\nTherefore, y^2 - 3xy + 8 = 92.\n#### 92\nThe answer is: 92",
+        "\n#### Step 1: Plug in the given values\nIn this case, we have (x,y) = (1,9). So, we can plug in these values into the expression, y^2 - 3xy + 8.",
+        " \nSince (x,y) = (1,9), we can substitute the values of x and y into the expression y^2 - 3xy + 8.\ny^2 = 9^2 = 81\n-3xy = -3(1)(9) = -27\nSubstituting these values into the expression, we get:\ny^2 - 3xy + 8 = 81 - 27 + 8 = 52\nTherefore, y^2 - 3xy + 8 = 52.\n#### 52\nThe answer is: 52",
+        "\n#### Step 1:\nWe are given that (x, y) = (1, 9).",
+        "\nFirst, we need to substitute the given values of (x, y) = (1, 9) into the expression y^2 - 3xy + 8.\nSubstituting the values, we get:\n9^2 - 3(1)(9) + 8\nNext, we will calculate the subtractions and the addition:\n81 - 27 + 8\nFinally, we will perform the addition to find the value of the expression:\n81 - 27 + 8 = 81 - 27 + 8\n76 + 8 = 84\nTherefore, the value of the expression y^2 - 3xy + 8 when (x, y) = (1, 9) is 84.",
+        " \n- Since x = 1 and y = 9, we can substitute these values into the expression y^2 - 3xy + 8.\n- y^2 - 3xy + 8 = 9^2 - 3(1)(9) + 8.\n- Solving this expression, we get 81 - 27 + 8 = 92.\n- Therefore, y^2 - 3xy + 8 = 92 when x = 1 and y = 9.\n#### 92\nThe answer is: 92",
+        "\n#### Step 1: Substitute x = 1 and y = 9 into the expression y^2 - 3xy + 8\ny^2 - 3xy + 8 = 9^2 - 3(1)(9) + 8\ny^2 - 3xy + 8 = 81 - 27 + 8\ny^2 - 3xy + 8 = 52\n#### Step 2: y^2 - 3xy + 8 = 52\n#### Step 3:\u52a0\u901f\u5b8c\u6210\n\u6700\u7ec8\u7b54\u6848: 52",
+        " \nSince we are given that (x,y) = (1,9), we can substitute these values into the expression y^2 - 3xy + 8.\nSo, y^2 - 3xy + 8 = 9^2 - 3(1)(9) + 8.\nSimplifying this expression, we get 9 - 27 + 8 = -15 + 8 = -7.\nTherefore, when (x,y) = (1,9), y^2 - 3xy + 8 = -7.\n#### 7\nThe answer is: 7",
+        " \nWe have the equation y^2 - 3xy + 8, and we are given the values x = 1 and y = 9.\nFirst, we can substitute the given values into the equation to get:\ny^2 - 3(1)(9) + 8\nSimplifying this expression, we have:\n9 - 27 + 8\nCombining like terms, we get:\n0\nTherefore, the value of y^2 - 3xy + 8 is 0.",
+        " Let's first substitute the given values of x and y into the expression y^2 - 3xy + 8.\ny^2 - 3xy + 8 for (x,y) = (1,9) becomes:\n(9)^2 - 3(1)(9) + 8\n= 81 - 27 + 8\n= 92\nTherefore, y^2 - 3xy + 8 = 92 when (x,y) = (1,9).\nSo, the answer to the given problem is 92.",
+        " Since (x,y) = (1,9), we can substitute these values into the expression: y^2 - 3xy + 8 = 9^2 - 3(1)(9) + 8\nTo simplify this expression, we can calculate: 9^2 = 81, and (1)(9) = 9. \nSo, y^2 - 3xy + 8 = 81 - 27 + 8\n = 90\nTherefore, when (x,y) = (1,9), y^2 - 3xy + 8 = 90.",
+        " We have (x,y) = (1,9), so we can substitute these values into the expression y^2 - 3xy + 8.\n### Solution: Substituting the values, we get (9)^2 - 3(1)(9) + 8.\nSimplifying this expression, we get 81 - 27 + 8.\nCombining like terms, we get 62.\nTherefore, y^2 - 3xy + 8 is equal to 62.\n#### 62\nThe answer is: 62",
+        " \nWhen (x,y) = (1,9), we can substitute these values into y^2 - 3xy + 8.\n=> y^2 - 3(1)(9) + 8\nInstead of calculating the values, we can also use the shortcuts available in Python.\nPython code: \ny^2 - 3*x*y + 8\ny^2 - 3*1*9 + 8\ny^2 - 27 + 8\nThe answer is: 1"
+    ],
+    "vllm_answers": [
+        "52",
+        "100",
+        "92",
+        "8",
+        "52",
+        "9",
+        "84",
+        "92",
+        "52",
+        "7",
+        "0",
+        "92",
+        "90",
+        "62",
+        "1"
+    ],
+    "vllm_pred_answer": "52"
+}

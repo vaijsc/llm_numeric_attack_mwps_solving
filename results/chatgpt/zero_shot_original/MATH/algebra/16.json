@@ -1,0 +1,23 @@
+{
+    "problem": "Let \\[f(x) =\n\\begin{cases}\n3x + 5 &\\text{if }x<-3, \\\\\n7-4x&\\text{if }x\\ge -3.\n\\end{cases}\n\\]Find $f(-10)$.",
+    "level": "Level 2",
+    "type": "Algebra",
+    "solution": "Because $-10<-3$, we use the first case to determine that $f(-10) = 3(-10) + 5 = \\boxed{-25}$.",
+    "prompt": "### Instruction: Let \\[f(x) =\n\\begin{cases}\n3x + 5 &\\text{if }x<-3, \\\\\n7-4x&\\text{if }x\\ge -3.\n\\end{cases}\n\\]Find $f(-10)$.\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "To find \\( f(-10) \\) using the piecewise function, we need to determine which part of the function to use based on the value of \\( x = -10 \\).\nThe function is defined as:\n\\[\nf(x) =\n\\begin{cases}\n3x + 5 & \\text{if } x < -3, \\\\\n7 - 4x & \\text{if } x \\ge -3.\n\\end{cases}\n\\]\nSince \\(-10 < -3\\), we use the first part of the function:\n\\[\nf(x) = 3x + 5.\n\\]\nNow substitute \\( x = -10 \\) into this expression:\n\\[\nf(-10) = 3(-10) + 5.\n\\]\nCalculate:\n\\[\nf(-10) = -30 + 5 = -25.\n\\]\nTherefore, \\( f(-10) = -25 \\).",
+        "To find \\( f(-10) \\), we need to determine which part of the piecewise function applies.\nThe function \\( f(x) \\) is defined as follows:\n\\[\nf(x) =\n\\begin{cases}\n3x + 5 & \\text{if } x < -3, \\\\\n7 - 4x & \\text{if } x \\ge -3.\n\\end{cases}\n\\]\nSince \\(-10 < -3\\), we use the first part of the piecewise function: \\( 3x + 5 \\).\nNow, substitute \\( x = -10 \\) into the equation:\n\\[\nf(-10) = 3(-10) + 5\n\\]\nCalculate inside the parentheses first:\n\\[\n3 \\times (-10) = -30\n\\]\nSo the expression becomes:\n\\[\nf(-10) = -30 + 5\n\\]\nNext, perform the addition:\n\\[\n-30 + 5 = -25\n\\]\nThus, the value of \\( f(-10) \\) is \\(-25\\). Therefore, \\( f(-10) = -25 \\).",
+        "To find \\( f(-10) \\), we need to determine which part of the piecewise function to use. The function \\( f(x) \\) is defined as:\n\\[\nf(x) =\n\\begin{cases}\n3x + 5 & \\text{if } x < -3, \\\\\n7 - 4x & \\text{if } x \\ge -3.\n\\end{cases}\n\\]\nSince \\(-10 < -3\\), we use the first part of the function, \\( 3x + 5 \\).\nNow, substitute \\( x = -10 \\) into \\( 3x + 5 \\):\n\\[\nf(-10) = 3(-10) + 5 \n\\]\nCalculate the expression:\n\\[\n3(-10) = -30\n\\]\n\\[\n-30 + 5 = -25\n\\]\nThus, \\( f(-10) = -25 \\).",
+        "To find \\( f(-10) \\), we first identify which condition of the piecewise function \\( f(x) \\) the input \\( x = -10 \\) falls under.\nThe function \\( f(x) \\) is defined as:\n\\[\nf(x) =\n\\begin{cases}\n3x + 5 & \\text{if } x < -3, \\\\\n7 - 4x & \\text{if } x \\ge -3.\n\\end{cases}\n\\]\nSince \\(-10 < -3\\), we use the formula given by the first condition:\n\\[ f(x) = 3x + 5. \\]\nSubstituting \\( x = -10 \\) into this expression, we compute:\n\\[\nf(-10) = 3(-10) + 5.\n\\]\nCalculate step-by-step:\n1. Multiply: \\( 3 \\times (-10) = -30 \\).\n2. Add: \\( -30 + 5 = -25 \\).\nThus, \\( f(-10) = -25 \\).\nThe final answer is \\( \\boxed{-25} \\).",
+        "To find \\( f(-10) \\), we need to determine which case of the piecewise function applies to \\( x = -10 \\).\nGiven the function:\n\\[ \nf(x) =\n\\begin{cases} \n3x + 5 & \\text{if } x < -3, \\\\\n7 - 4x & \\text{if } x \\ge -3.\n\\end{cases}\n\\]\nFirst, check where \\( x = -10 \\) falls in the conditions:\n- The condition \\( x < -3 \\) is met because \\(-10 < -3\\).\nSince \\(-10\\) satisfies the condition \\( x < -3 \\), we use the first case of the function:\n\\[ f(x) = 3x + 5 \\]\nPlug in \\( x = -10 \\) into this expression:\n\\[ f(-10) = 3(-10) + 5 \\]\nCalculate the expression step by step:\n1. Compute \\( 3 \\times (-10) = -30 \\).\n2. Add 5 to \\(-30\\): \\(-30 + 5 = -25\\).\nThus, the value of \\( f(-10) \\) is \\(-25\\).\nTherefore, \\( f(-10) = -25 \\)."
+    ],
+    "pred_answers": "-25",
+    "final_pred_answer": [
+        "-25",
+        "-25",
+        "-25",
+        "-25",
+        "-25"
+    ],
+    "ground_truth": "-25"
+}

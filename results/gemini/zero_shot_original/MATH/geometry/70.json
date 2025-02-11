@@ -1,0 +1,23 @@
+{
+    "problem": "Compute $\\cos 225^\\circ$.",
+    "level": "Level 3",
+    "type": "Geometry",
+    "solution": "Let $P$ be the point on the unit circle that is $225^\\circ$ counterclockwise from $(1,0)$, and let $D$ be the foot of the altitude from $P$ to the $x$-axis, as shown below.\n\n[asy]\n\npair A,C,P,O,D;\n\ndraw((0,-1.2)--(0,1.2),p=black+1.2bp,Arrows(0.15cm));\n\ndraw((-1.2,0)--(1.2,0),p=black+1.2bp,Arrows(0.15cm));\n\nA = (1,0);\n\nO= (0,0);\n\nlabel(\"$x$\",(1.2,0),SE);\n\nlabel(\"$y$\",(0,1.2),NE);\n\nP = rotate(225)*A;\n\nD = foot(P,A,-A);\n\ndraw(O--P--D);\n\ndraw(rightanglemark(O,D,P,2));\n\ndraw(Circle(O,1));\n\nlabel(\"$O$\",O,NE);\n\nlabel(\"$P$\",P,SW);\n\n//label(\"$A$\",A,SE);\n\nlabel(\"$D$\",D,N);\n\n[/asy]\n\nTriangle $POD$ is a 45-45-90 triangle, so $DO = DP = \\frac{\\sqrt{2}}{2}$.  Therefore, the coordinates of $P$ are $\\left(-\\frac{\\sqrt{2}}{2}, -\\frac{\\sqrt{2}}{2}\\right)$, so $\\cos 225^\\circ = \\boxed{-\\frac{\\sqrt{2}}{2}}$.",
+    "prompt": "### Instruction: Compute $\\cos 225^\\circ$.\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "Here's how to compute  $\\cos 225^\\circ$:\n**1. Find the Reference Angle:**\n*  The reference angle is the acute angle formed between the terminal side of the angle and the x-axis. \n*  Since 225\u00b0 is in the third quadrant, subtract 180\u00b0 to find the reference angle: 225\u00b0 - 180\u00b0 = 45\u00b0\n**2. Determine the Sign:**\n*  Cosine is negative in the third quadrant.\n**3. Use the Unit Circle (or Trig Values):**\n*  We know that  cos 45\u00b0 = \u221a2 / 2\n**4. Combine the Information:**\n*  Since cosine is negative in the third quadrant,  cos 225\u00b0 = - cos 45\u00b0 = **-\u221a2 / 2** \n",
+        "**1. Find the reference angle:**\n*  The reference angle is the acute angle formed between the terminal side of the angle and the x-axis.\n*  Since 225\u00b0 is in the third quadrant, we subtract 180\u00b0:  225\u00b0 - 180\u00b0 = 45\u00b0. \n**2. Determine the cosine of the reference angle:**\n*  We know that cos 45\u00b0 = \u221a2 / 2.\n**3. Consider the quadrant:**\n*  Cosine is negative in the third quadrant.\n**4. Combine the information:**\n*  Since cos 45\u00b0 = \u221a2 / 2 and cosine is negative in the third quadrant, we have:  cos 225\u00b0 = **-\u221a2 / 2**. \n",
+        "Here's how to compute  cos 225\u00b0 step by step:\n1. **Find the reference angle:**  The reference angle is the acute angle formed between the terminal side of the angle and the x-axis. Since 225\u00b0 is in the third quadrant, we find the reference angle by subtracting 180\u00b0: 225\u00b0 - 180\u00b0 = 45\u00b0.\n2. **Determine the sign:** Cosine is negative in the third quadrant.\n3. **Evaluate the cosine of the reference angle:**  cos 45\u00b0 = \u221a2 / 2\n4. **Apply the sign:** Since cosine is negative in the third quadrant, cos 225\u00b0 = **-\u221a2 / 2**. \n",
+        "Here's how to compute  cos 225\u00b0 step by step:\n**1. Find the Reference Angle:**\n*  The reference angle is the acute angle formed between the terminal side of the angle and the x-axis. \n*  Since 225\u00b0 is in the third quadrant, subtract 180\u00b0 to find the reference angle: 225\u00b0 - 180\u00b0 = 45\u00b0.\n**2. Determine the Sign of Cosine in the Third Quadrant:**\n*  In the third quadrant, cosine is negative.\n**3. Evaluate Cosine of the Reference Angle:**\n*  cos 45\u00b0 = \u221a2 / 2 \n**4. Combine the Sign and Value:**\n*  Since cosine is negative in the third quadrant,  cos 225\u00b0 = -\u221a2 / 2\n**Therefore, cos 225\u00b0 = -\u221a2 / 2** \n",
+        "**1. Find the Reference Angle:**\n*  The reference angle is the acute angle formed between the terminal side of the angle and the x-axis. \n*  Since 225\u00b0 lies in the third quadrant, subtract 180\u00b0 from it to find the reference angle: 225\u00b0 - 180\u00b0 = 45\u00b0.\n**2. Determine the Sign:**\n*  Cosine is negative in the third quadrant.\n**3. Find the Cosine of the Reference Angle:**\n*  We know that cos 45\u00b0 = \u221a2 / 2\n**4. Combine the Sign and the Cosine of the Reference Angle:**\n*  Since cosine is negative in the third quadrant, cos 225\u00b0 = -cos 45\u00b0\n**Therefore, cos 225\u00b0 = -\u221a2 / 2** \n"
+    ],
+    "pred_answers": "2",
+    "final_pred_answer": [
+        "2",
+        "2",
+        "2",
+        "2",
+        "2"
+    ],
+    "ground_truth": "2"
+}

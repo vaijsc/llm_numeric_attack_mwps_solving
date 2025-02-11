@@ -1,0 +1,23 @@
+{
+    "problem": "$441+2(21)(19)+361=x$. Solve for $x$.",
+    "level": "Level 1",
+    "type": "Algebra",
+    "solution": "We note that $361=19^2$ and $441=21^2$, so $x=21^2+2(21)(19)+19^2$. This is just the binomial expansion of $(21+19)^2=40^2=\\boxed{1600}$.",
+    "prompt": "### Instruction: $441+2(21)(19)+361=x$. Solve for $x$.\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "Here's how to solve for *x* step-by-step:\n1. **Multiplication:**  Calculate 2(21)(19) = 819\n2. **Addition:**  Add the remaining numbers: 441 + 819 + 361 = 1621\n**Therefore, x = 1621** \n",
+        "Here's how to solve the equation step-by-step:\n1. **Multiplication:**  First, multiply the numbers inside the parentheses: \n   2(21)(19) = 812\n2. **Addition:** Now, add the numbers together:\n   441 + 812 + 361 = x\n3. **Final Calculation:** Calculate the sum:\n   x = 1614\n**Therefore, x = 1614** \n",
+        "Here's how to solve for *x* step-by-step:\n1. **Multiplication:**  First, perform the multiplication inside the parentheses:\n   2(21)(19) = 896\n2. **Addition:** Now, add all the terms together:\n   441 + 896 + 361 = 1698\n3. **Solution:** Therefore, *x* equals **1698**. \n",
+        "Here's how to solve the equation step-by-step:\n1. **Simplify the multiplication:** 2(21)(19) = 819\n2. **Rewrite the equation:**  441 + 819 + 361 = x\n3. **Add the numbers:** 1621 = x\n**Therefore, x = 1621** \n",
+        "Here's how to solve the equation step-by-step:\n1. **Multiplication:**  First, multiply 21 and 19: \n   21 * 19 = 399\n2. **Multiplication:** Next, multiply the result by 2:\n   2 * 399 = 798\n3. **Addition:** Now, add the numbers together:\n   441 + 798 + 361 = 1600\n**Therefore, x = 1600** \n"
+    ],
+    "pred_answers": "1621",
+    "final_pred_answer": [
+        "1621",
+        "1614",
+        "1698",
+        "1621",
+        "1600"
+    ],
+    "ground_truth": "1600"
+}

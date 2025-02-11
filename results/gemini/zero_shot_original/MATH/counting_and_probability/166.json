@@ -1,0 +1,23 @@
+{
+    "problem": "Compute $\\dbinom{12}{9}$.",
+    "level": "Level 2",
+    "type": "Counting & Probability",
+    "solution": "$\\dbinom{12}{9}=\\dbinom{12}{12-9}=\\dbinom{12}{3}=\\dfrac{12\\times 11\\times 10}{3\\times 2\\times 1}=\\boxed{220}. $",
+    "prompt": "### Instruction: Compute $\\dbinom{12}{9}$.\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "We know that $\\binom{n}{k} = \\frac{n!}{k!(n-k)!}$.  Therefore,\n\\[\\binom{12}{9} = \\frac{12!}{9!3!} = \\frac{12 \\times 11 \\times 10}{3 \\times 2 \\times 1} = \\boxed{220}.\\]",
+        "**Step 1: Understand the notation.**\nThe notation $\\binom{12}{9}$ represents a binomial coefficient, which is read as \"12 choose 9\". It tells us the number of ways to choose 9 items from a set of 12 distinct items.\n**Step 2:  Apply the formula.**\nThe formula for binomial coefficients is:\n$$\\binom{n}{k} = \\frac{n!}{k!(n-k)!}$$\nWhere:\n* n is the total number of items\n* k is the number of items being chosen\n* ! represents the factorial (e.g., 5! = 5 * 4 * 3 * 2 * 1)\n**Step 3: Substitute the values.**\nIn our case, n = 12 and k = 9. So, we have:\n$$\\binom{12}{9} = \\frac{12!}{9!(12-9)!}$$\n**Step 4: Simplify.**\n$$\\binom{12}{9} = \\frac{12!}{9!3!}$$\n$$\\binom{12}{9} = \\frac{12 \\times 11 \\times 10 \\times 9!}{9! \\times 3 \\times 2 \\times 1}$$\n$$\\binom{12}{9} = \\frac{12 \\times 11 \\times 10}{3 \\times 2 \\times 1}$$\n**Step 5: Calculate.**\n$$\\binom{12}{9} = \\frac{1320}{6} = 220$$\n**Therefore,  $\\binom{12}{9} = 220$.** \n",
+        "We know that $\\binom{n}{k} = \\dfrac{n!}{k!(n-k)!}$. \nLet's apply this to our problem:\n*  **n = 12** (the total number of items)\n*  **k = 9** (the number of items we're choosing)\nSubstituting these values into the formula, we get:\n$$\\binom{12}{9} = \\dfrac{12!}{9!(12-9)!}$$\nLet's simplify:\n$$\\binom{12}{9} = \\dfrac{12!}{9!3!}$$\nNow, let's expand the factorials:\n$$\\binom{12}{9} = \\dfrac{12 \\times 11 \\times 10 \\times 9 \\times 8 \\times 7 \\times 6 \\times 5 \\times 4 \\times 3 \\times 2 \\times 1}{(9 \\times 8 \\times 7 \\times 6 \\times 5 \\times 4 \\times 3 \\times 2 \\times 1) (3 \\times 2 \\times 1)}$$\nCancel out the common terms:\n$$\\binom{12}{9} = \\dfrac{12 \\times 11 \\times 10}{3 \\times 2 \\times 1}$$\nFinally, calculate the result:\n$$\\binom{12}{9} = \\dfrac{1320}{6} = \\boxed{220}$$ \n",
+        "We have that \n\\[\\binom{12}{9} = \\frac{12!}{9!3!} = \\frac{12 \\times 11 \\times 10}{3 \\times 2 \\times 1} = \\boxed{220}.\\]",
+        "**Step 1: Understand the binomial coefficient**\nThe binomial coefficient $\\binom{n}{k}$ represents the number of ways to choose $k$ objects from a set of $n$ distinct objects, without regard to order. \n**Step 2: Apply the formula**\nThe formula for calculating the binomial coefficient is:\n$$\\binom{n}{k} = \\frac{n!}{k!(n-k)!}$$\n**Step 3: Substitute the values**\nIn our case, we have $n = 12$ and $k = 9$. Substituting these values into the formula, we get:\n$$\\binom{12}{9} = \\frac{12!}{9!(12-9)!}$$\n**Step 4: Simplify**\n$$\\binom{12}{9} = \\frac{12!}{9!3!}$$\n$$\\binom{12}{9} = \\frac{12 \\times 11 \\times 10 \\times 9!}{9! \\times 3 \\times 2 \\times 1}$$\n$$\\binom{12}{9} = \\frac{12 \\times 11 \\times 10}{3 \\times 2 \\times 1}$$\n**Step 5: Calculate**\n$$\\binom{12}{9} = \\frac{1320}{6} = \\boxed{220}$$\n**Therefore, $\\binom{12}{9} = 220$.** \n"
+    ],
+    "pred_answers": "220",
+    "final_pred_answer": [
+        "220",
+        "220",
+        "220",
+        "220",
+        "220"
+    ],
+    "ground_truth": "220"
+}

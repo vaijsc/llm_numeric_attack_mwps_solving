@@ -1,0 +1,23 @@
+{
+    "problem": "If $2ab = 12$, evaluate $8a^2b^2$.",
+    "level": "Level 2",
+    "type": "Algebra",
+    "solution": "Since $2ab=12$, $ab=6$.  Thus $a^2b^2=6^2=36$.  So $8a^2b^2=8(36)=\\boxed{288}$.",
+    "prompt": "### Instruction: If $2ab = 12$, evaluate $8a^2b^2$.\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "Here's how to solve the problem step-by-step:\n1. **Square both sides of the equation:**  Since we want to find the value of  $8a^2b^2$, let's square both sides of the given equation:\n   \n   (2ab)\u00b2 = 12\u00b2 \n2. **Simplify:**  This gives us:\n   4a\u00b2b\u00b2 = 144\n3. **Isolate  a\u00b2b\u00b2:**  Divide both sides by 4:\n   a\u00b2b\u00b2 = 36\n4. **Multiply by 8:**  Finally, multiply both sides by 8 to find the value of 8a\u00b2b\u00b2:\n   8a\u00b2b\u00b2 = 8 * 36 = **288**\n**Therefore, 8a\u00b2b\u00b2 = 288** \n",
+        "Here's how to solve the problem:\n**1.  Square the equation:**\n   Since we know  2ab = 12, let's square both sides of the equation:\n   (2ab)\u00b2 = (12)\u00b2\n**2. Simplify:**\n   This gives us:  4a\u00b2b\u00b2 = 144\n**3. Isolate a\u00b2b\u00b2:**\n   Divide both sides of the equation by 4: \n   a\u00b2b\u00b2 = 36\n**4. Calculate 8a\u00b2b\u00b2:**\n   Now, multiply both sides by 8:\n   8a\u00b2b\u00b2 = 8 * 36 \n   8a\u00b2b\u00b2 = 288\n**Therefore, the value of 8a\u00b2b\u00b2 is 288.** \n",
+        "Here's how to solve the problem step-by-step:\n1. **Square both sides of the given equation:**\n   Since  2ab = 12, squaring both sides gives us: \n   (2ab)\u00b2 = 12\u00b2\n2. **Simplify:**\n   Expanding the left side, we get: 4a\u00b2b\u00b2 = 144\n3. **Isolate the term we want:**\n   To get 8a\u00b2b\u00b2, we need to multiply both sides by 2:\n   2 * (4a\u00b2b\u00b2) = 2 * 144\n4. **Calculate the final answer:**\n   This simplifies to:  8a\u00b2b\u00b2 = **288** \n",
+        "Here's how to solve the problem step-by-step:\n1. **Square the equation:**  Start by squaring both sides of the given equation, $2ab = 12$. This gives us:\n   \n   (2ab)\u00b2 = 12\u00b2\n2. **Simplify:** Expand both sides of the equation:\n   4a\u00b2b\u00b2 = 144\n3. **Isolate a\u00b2b\u00b2:**  Divide both sides of the equation by 4 to isolate a\u00b2b\u00b2:\n   a\u00b2b\u00b2 = 36\n4. **Multiply to find the answer:**  Multiply both sides of the equation by 8:\n   8a\u00b2b\u00b2 = 8 * 36 = **288**\n**Therefore, 8a\u00b2b\u00b2 = 288** \n",
+        "Here's how to solve the problem:\n**1. Find the square of the given equation:**\nSince we know that  2ab = 12, squaring both sides gives us: \n(2ab)\u00b2 = 12\u00b2 \n**2. Simplify:**\nExpanding the left side: 4a\u00b2b\u00b2 = 144\n**3. Isolate the desired term:**\nDivide both sides by 4 to isolate 8a\u00b2b\u00b2: \na\u00b2b\u00b2 = 36\nFinally, multiply both sides by 8 to get: \n**8a\u00b2b\u00b2 = 288** \n"
+    ],
+    "pred_answers": "288",
+    "final_pred_answer": [
+        "288",
+        "288",
+        "288",
+        "288",
+        "288"
+    ],
+    "ground_truth": "288"
+}

@@ -1,0 +1,23 @@
+{
+    "problem": "Given $f(x)=cx^3-9x+3$ and $f(2)=9$, find the value of $c$.",
+    "level": "Level 3",
+    "type": "Algebra",
+    "solution": "Plugging $x=2$ into the expression for $f(x)$, we find $f(2)=c(2^3)-9(2)+3=8c-18+3=8c-15$. Since we know that $f(2)=9$, \\begin{align*} f(2)&= 9\n\\\\\\Rightarrow\\qquad8c-15&=9\n\\\\\\Rightarrow\\qquad8c&=24\n\\\\\\Rightarrow\\qquad c&=\\boxed{3}\n\\end{align*}",
+    "prompt": "### Instruction: Given $f(x)=cx^3-9x+3$ and $f(2)=9$, find the value of $c$.\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "Here's how to find the value of c step-by-step:\n1. **Substitute the known values:** We know that f(2) = 9. This means when x = 2, the function's output is 9. Let's substitute these values into the function: \n   \n   9 = c(2)\u00b3 - 9(2) + 3\n2. **Simplify the equation:**\n   9 = 8c - 18 + 3\n   9 = 8c - 15\n3. **Solve for c:** \n   9 + 15 = 8c\n   24 = 8c\n   c = 24/8 \n   c = 3\n**Therefore, the value of c is 3.** \n",
+        "Here's how to solve the problem step-by-step:\n1. **Substitute the given information:** We know that  *f(2) = 9*. This means that when *x = 2*, the function *f(x)* equals 9.  Let's substitute these values into the function:\n   *  9 = c(2)\u00b3 - 9(2) + 3\n2. **Simplify the equation:**\n   * 9 = 8c - 18 + 3\n   * 9 = 8c - 15\n3. **Solve for *c*:**\n   * 24 = 8c\n   * c = 3\n**Therefore, the value of *c* is 3.** \n",
+        "1. **Substitute the value of x:**  Since we know f(2) = 9, we can substitute x = 2 into the equation: \n   \n   ```\n   f(2) = c(2)^3 - 9(2) + 3 \n   ```\n2. **Simplify the equation:**\n   \n   ```\n   9 = 8c - 18 + 3\n   ```\n3. **Solve for c:**\n   ```\n   9 = 8c - 15\n   24 = 8c\n   c = 3\n   ```\n**Therefore, the value of c is 3.** \n",
+        "1. **Substitute the given value:** We know that $f(2) = 9$. This means when we plug in $x=2$ into the function, we should get 9. So let's substitute: \n   \n   $f(2) = c(2)^3 - 9(2) + 3 = 9$\n2. **Simplify the equation:**  Let's simplify the equation:\n   $8c - 18 + 3 = 9$\n3. **Solve for c:** Now we have a simple equation to solve for $c$:\n   $8c - 15 = 9$\n   $8c = 24$\n   $c = \\boxed{3}$ \n",
+        "1. **Substitute the given values:** Since we know f(2) = 9, we can substitute x = 2 into the function:\n   \n   c(2)^3 - 9(2) + 3 = 9\n2. **Simplify the equation:**\n   8c - 18 + 3 = 9\n   8c - 15 = 9\n3. **Solve for c:**\n   8c = 24\n   c = 24/8\n   c = 3\n**Therefore, the value of c is 3.** \n"
+    ],
+    "pred_answers": "3",
+    "final_pred_answer": [
+        "3",
+        "3",
+        "3",
+        "3",
+        "3"
+    ],
+    "ground_truth": "3"
+}

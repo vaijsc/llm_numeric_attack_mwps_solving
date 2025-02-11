@@ -1,0 +1,23 @@
+{
+    "problem": "Rationalize the denominator of $\\displaystyle\\frac{33}{\\sqrt{33}}$.",
+    "level": "Level 2",
+    "type": "Algebra",
+    "solution": "$\\dfrac{33}{\\sqrt{33}} = \\dfrac{33}{\\sqrt{33}} \\cdot \\dfrac{\\sqrt{33}}{\\sqrt{33}} = \\dfrac{33\\sqrt{33}}{33} = \\boxed{\\!\\sqrt{33}}$.",
+    "prompt": "### Instruction: Rationalize the denominator of $\\displaystyle\\frac{33}{\\sqrt{33}}$.\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "To rationalize the denominator, we want to get rid of the radical in the denominator. We can do this by multiplying both the numerator and denominator by $\\sqrt{33}$:\n$$\\frac{33}{\\sqrt{33}} \\cdot \\frac{\\sqrt{33}}{\\sqrt{33}} = \\frac{33\\sqrt{33}}{(\\sqrt{33})^2}$$\nSimplifying the denominator:\n$$\\frac{33\\sqrt{33}}{33}$$\nFinally, canceling the common factor of 33:\n$$\\boxed{\\sqrt{33}}$$ \n",
+        "To rationalize the denominator, we want to get rid of the square root in the denominator. We can do this by multiplying both the numerator and denominator by $\\sqrt{33}$:\n$$\\frac{33}{\\sqrt{33}} \\cdot \\frac{\\sqrt{33}}{\\sqrt{33}} = \\frac{33\\sqrt{33}}{(\\sqrt{33})^2}$$\nSimplifying the denominator:\n$$\\frac{33\\sqrt{33}}{33} = \\boxed{\\sqrt{33}}$$ \n",
+        "Here's how to rationalize the denominator:\n**1. Multiply by 1 (in a clever way):**\nSince we want to get rid of the radical in the denominator, we'll multiply both the numerator and denominator by $\\sqrt{33}$:\n  *  \n  $\\frac{33}{\\sqrt{33}} \\cdot \\frac{\\sqrt{33}}{\\sqrt{33}}$ \n**2. Simplify:**\n* The numerator becomes $33\\sqrt{33}$.\n* The denominator becomes $\\sqrt{33} \\cdot \\sqrt{33} = 33$\n**3. The final answer:**\nThis gives us: \n  *  $\\frac{33\\sqrt{33}}{33} = \\boxed{\\sqrt{33}}$ \n",
+        "**1. Multiply by 1:**\nTo rationalize the denominator, we need to get rid of the square root.  We can do this by multiplying both the numerator and denominator by $\\sqrt{33}$:\n$$\\frac{33}{\\sqrt{33}} \\cdot \\frac{\\sqrt{33}}{\\sqrt{33}}$$\n**2. Simplify:**\n* The numerator becomes $33\\sqrt{33}$.\n* The denominator becomes $(\\sqrt{33})^2 = 33$.\n**3. Final Result:**\nThis gives us:\n$$\\frac{33\\sqrt{33}}{33} = \\boxed{\\sqrt{33}}$$ \n",
+        "1. **Multiply by 1:**  The key to rationalizing a denominator is to multiply by a form of 1 that will eliminate the radical in the denominator.  In this case, we multiply by $\\frac{\\sqrt{33}}{\\sqrt{33}}$:\n   $$\\frac{33}{\\sqrt{33}} \\cdot \\frac{\\sqrt{33}}{\\sqrt{33}}$$\n2. **Simplify:**  Multiply the numerators and the denominators:\n   $$\\frac{33\\sqrt{33}}{33}$$\n3. **Cancel:** The 33 in the numerator and denominator cancel, leaving:\n   $$\\boxed{\\sqrt{33}}$$ \n"
+    ],
+    "pred_answers": "33",
+    "final_pred_answer": [
+        "33",
+        "33",
+        "33",
+        "33",
+        "33"
+    ],
+    "ground_truth": "33"
+}

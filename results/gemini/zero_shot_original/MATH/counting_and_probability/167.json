@@ -1,0 +1,23 @@
+{
+    "problem": "Ms. Hamilton's eighth-grade class wants to participate in the annual three-person-team basketball tournament.  Lance, Sally, Joy, and Fred are chosen for the team.  In how many ways can the three starters be chosen?",
+    "level": "Level 2",
+    "type": "Counting & Probability",
+    "solution": "When three players start, one is the alternate.  Because any of the four players might be the alternate, there are four ways to select a starting team: Lance-Sally-Joy, Lance-Sally-Fred, Lance-Joy-Fred, and Sally-Joy-Fred.  Or, we can simply note that we have $\\boxed{4}$ choices for who to leave out!",
+    "prompt": "### Instruction: Ms. Hamilton's eighth-grade class wants to participate in the annual three-person-team basketball tournament.  Lance, Sally, Joy, and Fred are chosen for the team.  In how many ways can the three starters be chosen?\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "Here's how to solve this problem step-by-step:\n* **Step 1: Choosing the first starter** \n   There are 4 students who could be chosen as the first starter.\n* **Step 2: Choosing the second starter**\n   After choosing the first starter, there are only 3 students left who could be the second starter.\n* **Step 3: Choosing the third starter**\n   Now, only 2 students remain who could be the third starter.\n* **Step 4: Calculate the total possibilities**\n   To find the total number of ways to choose the three starters, we multiply the possibilities at each step: 4 * 3 * 2 = 24\n**Therefore, there are 24 different ways to choose the three starters for Ms. Hamilton's basketball team.** \n",
+        "Here's how to solve this problem:\n* **Step 1: Choosing the first starter** \n   There are 4 students to choose from for the first starting spot.\n* **Step 2: Choosing the second starter**\n   After choosing the first starter, there are only 3 students left to choose from for the second starting spot.\n* **Step 3: Choosing the third starter**\n   With two starters already chosen, there are only 2 students left to choose from for the third starting spot.\n* **Step 4: Finding the total number of ways**\n   To find the total number of ways to choose the three starters, we multiply the number of choices at each step: 4 * 3 * 2 = 24\n**Answer:** There are 24 different ways to choose the three starters. \n",
+        "Here's how to solve this problem:\n**Step 1: Choosing the first starter**\n* There are 4 students who could be chosen as the first starter.\n**Step 2: Choosing the second starter**\n* After choosing the first starter, there are only 3 students left who could be the second starter.\n**Step 3: Choosing the third starter**\n* After choosing the first two starters, there are only 2 students left who could be the third starter.\n**Step 4: Calculating the total number of ways**\nTo find the total number of ways to choose the three starters, we multiply the number of possibilities at each step: 4 * 3 * 2 = 24\n**Answer:** There are 24 different ways to choose the three starters. \n",
+        "Here's how to solve the problem step-by-step:\n* **Step 1: Choosing the first starter** \n   - There are 4 students to choose from for the first starting position.\n* **Step 2: Choosing the second starter**\n   - After choosing the first starter, there are only 3 students left to choose from for the second starting position.\n* **Step 3: Choosing the third starter**\n   -  With the first two starters chosen, there are 2 students remaining for the final starting position.\n* **Step 4: Calculating the total number of ways**\n   - To get the total number of ways to choose the starters, we multiply the number of choices at each step: 4 * 3 * 2 = 24\n**Answer:** There are **24** different ways to choose the three starters. \n",
+        "Here's how to solve the problem step-by-step:\n* **Step 1: Choosing the first starter** \n   There are 4 students to choose from for the first starting position.\n* **Step 2: Choosing the second starter**\n   After choosing the first starter, there are only 3 students left to choose from for the second starting position.\n* **Step 3: Choosing the third starter**\n   After choosing the first two starters, there are only 2 students left to choose from for the third starting position.\n* **Step 4: Calculating the total number of ways**\n   To find the total number of ways to choose the three starters, we multiply the number of choices at each step: 4 * 3 * 2 = 24\n**Therefore, there are 24 different ways to choose the three starters.** \n"
+    ],
+    "pred_answers": "24",
+    "final_pred_answer": [
+        "24",
+        "24",
+        "24",
+        "24",
+        "24"
+    ],
+    "ground_truth": "4"
+}

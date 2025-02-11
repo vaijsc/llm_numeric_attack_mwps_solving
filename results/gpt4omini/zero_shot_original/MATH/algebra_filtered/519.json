@@ -1,0 +1,23 @@
+{
+    "problem": "What is the value of $\\sqrt{1,\\!000,\\!000} - \\sqrt[3]{1,\\!000,\\!000}$?",
+    "level": "Level 1",
+    "type": "Algebra",
+    "solution": "We have   \\begin{align*}\n\\sqrt{1,\\!000,\\!000} - \\sqrt[3]{1,\\!000,\\!000}&= \\sqrt{10^6} - \\sqrt[3]{10^6} \\\\\n&= (10^6)^{\\frac{1}{2}} - (10^6)^{\\frac{1}{3}}\\\\\n&=10^{6\\cdot \\frac{1}{2}} - 10^{6\\cdot \\frac{1}{3}} \\\\\n&= 10^3 - 10^2 = 1000-100 =\\boxed{900}.\n\\end{align*}",
+    "prompt": "### Instruction: What is the value of $\\sqrt{1,\\!000,\\!000} - \\sqrt[3]{1,\\!000,\\!000}$?\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "To find the value of \\(\\sqrt{1,000,000} - \\sqrt[3]{1,000,000}\\), we will first calculate each term separately.\n1. **Calculate \\(\\sqrt{1,000,000}\\)**:\n   \\[\n   \\sqrt{1,000,000} = \\sqrt{10^6} = 10^{6/2} = 10^3 = 1000\n   \\]\n2. **Calculate \\(\\sqrt[3]{1,000,000}\\)**:\n   \\[\n   \\sqrt[3]{1,000,000} = \\sqrt[3]{10^6} = 10^{6/3} = 10^2 = 100\n   \\]\n3. **Subtract the second term from the first term**:\n   \\[\n   \\sqrt{1,000,000} - \\sqrt[3]{1,000,000} = 1000 - 100 = 900\n   \\]\nThus, the value of \\(\\sqrt{1,000,000} - \\sqrt[3]{1,000,000}\\) is \\(\\boxed{900}\\).",
+        "To solve the expression \\(\\sqrt{1,000,000} - \\sqrt[3]{1,000,000}\\), we first evaluate each part separately.\n1. **Calculate \\(\\sqrt{1,000,000}\\)**:\n   \\[\n   1,000,000 = 10^6\n   \\]\n   Therefore,\n   \\[\n   \\sqrt{1,000,000} = \\sqrt{10^6} = 10^{6/2} = 10^3 = 1000\n   \\]\n2. **Calculate \\(\\sqrt[3]{1,000,000}\\)**:\n   \\[\n   \\sqrt[3]{1,000,000} = 1,000,000^{1/3} = (10^6)^{1/3} = 10^{6/3} = 10^2 = 100\n   \\]\n3. **Now, subtract the two results**:\n   \\[\n   \\sqrt{1,000,000} - \\sqrt[3]{1,000,000} = 1000 - 100 = 900\n   \\]\nThus, the value of \\(\\sqrt{1,000,000} - \\sqrt[3]{1,000,000}\\) is \n\\[\n\\boxed{900}\n\\]",
+        "Let's evaluate the expression \\(\\sqrt{1,000,000} - \\sqrt[3]{1,000,000}\\) step by step.\n1. **Calculate \\(\\sqrt{1,000,000}\\)**:\n   \\[\n   \\sqrt{1,000,000} = \\sqrt{10^6} = 10^{6/2} = 10^3 = 1000.\n   \\]\n2. **Calculate \\(\\sqrt[3]{1,000,000}\\)**:\n   \\[\n   \\sqrt[3]{1,000,000} = \\sqrt[3]{10^6} = 10^{6/3} = 10^2 = 100.\n   \\]\n3. **Subtract the two results**:\n   \\[\n   \\sqrt{1,000,000} - \\sqrt[3]{1,000,000} = 1000 - 100.\n   \\]\n4. **Perform the subtraction**:\n   \\[\n   1000 - 100 = 900.\n   \\]\nThus, the final value of \\(\\sqrt{1,000,000} - \\sqrt[3]{1,000,000}\\) is \\(\\boxed{900}\\).",
+        "To find the value of \\(\\sqrt{1,000,000} - \\sqrt[3]{1,000,000}\\), we start by calculating each component separately.\n1. **Calculate \\(\\sqrt{1,000,000}\\)**:\n   \\[\n   \\sqrt{1,000,000} = \\sqrt{10^6} = 10^{6/2} = 10^3 = 1000\n   \\]\n2. **Calculate \\(\\sqrt[3]{1,000,000}\\)**:\n   \\[\n   \\sqrt[3]{1,000,000} = \\sqrt[3]{10^6} = 10^{6/3} = 10^2 = 100\n   \\]\n3. **Subtract the results**:\n   \\[\n   \\sqrt{1,000,000} - \\sqrt[3]{1,000,000} = 1000 - 100 = 900\n   \\]\nThus, the value of \\(\\sqrt{1,000,000} - \\sqrt[3]{1,000,000}\\) is \\(\\boxed{900}\\).",
+        "To solve for the value of \\( \\sqrt{1,000,000} - \\sqrt[3]{1,000,000} \\), we first need to calculate \\( \\sqrt{1,000,000} \\) and \\( \\sqrt[3]{1,000,000} \\).\n1. **Calculating the square root**:\n   \\[\n   \\sqrt{1,000,000} = \\sqrt{10^6} = 10^{6/2} = 10^3 = 1000\n   \\]\n2. **Calculating the cube root**:\n   \\[\n   \\sqrt[3]{1,000,000} = \\sqrt[3]{10^6} = 10^{6/3} = 10^2 = 100\n   \\]\n3. **Now we will subtract the two results**:\n   \\[\n   \\sqrt{1,000,000} - \\sqrt[3]{1,000,000} = 1000 - 100\n   \\]\n4. **Perform the subtraction**:\n   \\[\n   1000 - 100 = 900\n   \\]\nTherefore, the final answer is:\n\\[\n\\boxed{900}\n\\]"
+    ],
+    "pred_answers": "900",
+    "final_pred_answer": [
+        "900",
+        "900",
+        "900",
+        "900",
+        "900"
+    ],
+    "ground_truth": "900"
+}

@@ -1,0 +1,23 @@
+{
+    "problem": "If $3a+2b=5$ and $a+b=2$, what is the ordered pair $(a,b)$ that satisfies both equations?",
+    "level": "Level 1",
+    "type": "Algebra",
+    "solution": "We wish to solve for $a$ and $b$. First, multiply the second equation by $2$ and subtract it from the first. This gives $(3a - 2a) + (2b - 2b) = (5 - 4)$, or $a = 1$. Then, plugging $a = 1$ into the second equation yields $1 + b = 2$, so $b = 1$. Thus, the ordered pair $(a,b)$ that satisfies both equations is $\\boxed{(1,1)}$.",
+    "prompt": "### Instruction: If $3a+2b=5$ and $a+b=2$, what is the ordered pair $(a,b)$ that satisfies both equations?\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "Here's how to solve for the ordered pair (a, b):\n**1. Solve for one variable in terms of the other:**\n   * From the equation  a + b = 2, we can solve for 'a':\n     a = 2 - b\n**2. Substitute into the other equation:**\n   * Substitute the expression for 'a' (2 - b) into the first equation:\n     3(2 - b) + 2b = 5\n**3. Simplify and solve for 'b':**\n   * Distribute the 3: 6 - 3b + 2b = 5\n   * Combine like terms: 6 - b = 5\n   * Subtract 6 from both sides: -b = -1\n   * Multiply both sides by -1: b = 1\n**4. Substitute the value of 'b' to find 'a':**\n   * Use the equation a + b = 2 and substitute b = 1:\n     a + 1 = 2\n   * Subtract 1 from both sides: a = 1\n**Solution:**\nThe ordered pair (a, b) that satisfies both equations is **(1, 1)**. \n",
+        "Here's how to solve the system of equations:\n**1. Elimination Method:**\n* **Multiply the second equation by -2:** This will allow us to eliminate 'b' when we add the equations together. \n   -2(a + b) = -2(2) \n   -2a - 2b = -4\n* **Add the modified second equation to the first equation:**\n   (3a + 2b) + (-2a - 2b) = 5 + (-4)\n   a = 1\n* **Substitute the value of 'a' back into either of the original equations to solve for 'b'. Let's use the second equation:**\n   1 + b = 2\n   b = 1\n**2. Solution:**\nTherefore, the ordered pair (a, b) that satisfies both equations is **(1, 1)**. \n",
+        "Here's how to solve the system of equations step-by-step:\n**1. Solve for one variable in terms of the other:**\n* From the second equation,  `a + b = 2`, we can solve for 'a':\n   * `a = 2 - b`\n**2. Substitute the expression into the first equation:**\n* Substitute `a = 2 - b` into the equation `3a + 2b = 5`:\n   * `3(2 - b) + 2b = 5`\n**3. Simplify and solve for 'b':**\n* Expand the equation: `6 - 3b + 2b = 5`\n* Combine like terms: `6 - b = 5`\n* Isolate 'b': `-b = -1`\n* Solve for 'b': `b = 1`\n**4. Substitute the value of 'b' to find 'a':**\n* Substitute `b = 1` back into either of the original equations. Let's use `a + b = 2`:\n   * `a + 1 = 2`\n* Solve for 'a': `a = 1`\n**5. The Solution:**\n* The ordered pair that satisfies both equations is  **(a, b) = (1, 1)** \n",
+        "Here's how to solve the system of equations step-by-step:\n**1. Solve for one variable in terms of the other**\n* From the second equation, we can easily solve for *a*: \n   *  *a* = 2 - *b*\n**2. Substitute**\n* Substitute the expression for *a* (2 - *b*) into the first equation:\n   * 3(2 - *b*) + 2*b* = 5\n**3. Simplify and solve for *b***\n* Expand: 6 - 3*b* + 2*b* = 5\n* Combine like terms: 6 - *b* = 5\n* Subtract 6 from both sides: -*b* = -1\n* Divide both sides by -1: *b* = 1\n**4. Substitute to find *a***\n* Now that you know *b* = 1, substitute it back into either of the original equations. Let's use the second equation:\n   * *a* + 1 = 2\n   * Subtract 1 from both sides: *a* = 1\n**5. The solution**\n* You have found that *a* = 1 and *b* = 1. Therefore, the ordered pair that satisfies both equations is (1, 1). \n",
+        "Here's how to solve the system of equations step-by-step:\n**1. Solve for one variable in terms of the other:**\n* Look at the second equation:  $a + b = 2$ \n* Solve for 'a':   $a = 2 - b$\n**2. Substitute:**\n* Substitute the expression for 'a' (from step 1) into the first equation:\n   *  3(2 - b) + 2b = 5\n**3. Simplify and solve for 'b':**\n* Expand: 6 - 3b + 2b = 5\n* Combine like terms: -b = -1\n* Solve for 'b': b = 1\n**4. Substitute to find 'a':**\n* Use either of the original equations. Let's use the second one: a + b = 2\n* Substitute b = 1:  a + 1 = 2\n* Solve for 'a': a = 1\n**5. The solution:**\n* The ordered pair (a, b) that satisfies both equations is **(1, 1)**. \n"
+    ],
+    "pred_answers": "1",
+    "final_pred_answer": [
+        "1",
+        "1",
+        "1",
+        "1",
+        "1"
+    ],
+    "ground_truth": "11"
+}

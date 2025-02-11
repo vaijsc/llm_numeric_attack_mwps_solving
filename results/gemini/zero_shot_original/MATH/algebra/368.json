@@ -1,0 +1,23 @@
+{
+    "problem": "The sum of two numbers $x$ and $y$ is 153, and the value of the fraction $\\frac{x}{y}$ is 0.7. What is the value of $y - x$?",
+    "level": "Level 2",
+    "type": "Algebra",
+    "solution": "We have the system of equations:\n\n\\begin{align*}\nx + y &= 153 \\\\\n\\frac{x}{y} &= 0.7 \\\\\n\\end{align*}\n\nFrom the second equation, multiplying both sides by $y$ gives $x=.7y$. Next, substituting the second equation into the first to eliminate $x$ gives $.7y+y=153$, or $y=90$. Plugging in this value into the first equation in the original system of equations gives $x+90=153$ or $x=63$. Thus, $y-x=90-63=\\boxed{27}$.",
+    "prompt": "### Instruction: The sum of two numbers $x$ and $y$ is 153, and the value of the fraction $\\frac{x}{y}$ is 0.7. What is the value of $y - x$?\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "Here's how to solve the problem step-by-step:\n**1. Set up equations from the given information:**\n*  We know  x + y = 153 \n*  We know x/y = 0.7\n**2. Solve for one variable in terms of the other:**\n* From the second equation, we can solve for x:  x = 0.7y\n**3. Substitute to eliminate one variable:**\n* Substitute the value of x from step 2 into the first equation: 0.7y + y = 153\n**4. Simplify and solve for y:**\n* Combine like terms: 1.7y = 153\n* Divide both sides by 1.7: y = 90\n**5. Substitute the value of y to find x:**\n* Use either of the original equations. Let's use x + y = 153.\n* Substitute y = 90: x + 90 = 153\n* Solve for x: x = 63\n**6. Calculate y - x:**\n* y - x = 90 - 63 = 27\n**Therefore, the value of y - x is 27.** \n",
+        "Here's how to solve the problem step-by-step:\n**1. Set up the equations:**\n* We know  x + y = 153 \n* We also know x/y = 0.7\n**2. Solve for one variable in terms of the other:**\n* From the second equation, we can solve for x: \n   x = 0.7y\n**3. Substitute to eliminate one variable:**\n* Substitute the value of x (0.7y) into the first equation:\n   0.7y + y = 153\n**4. Solve for y:**\n* Combine like terms: 1.7y = 153\n* Divide both sides by 1.7: y = 90\n**5. Solve for x:**\n* Substitute the value of y (90) back into either of the original equations. Let's use x + y = 153\n* x + 90 = 153\n* Subtract 90 from both sides: x = 63\n**6. Calculate y - x:**\n* y - x = 90 - 63 = 27\n**Therefore, the value of y - x is 27.** \n",
+        "Here's how to solve the problem step-by-step:\n**1. Set up the equations:**\n* We know that  x + y = 153 \n* We also know that x/y = 0.7\n**2. Solve for one variable in terms of the other:**\n* From the second equation, we can solve for x: x = 0.7y\n**3. Substitute into the first equation:**\n* Substitute the value of x (0.7y) into the first equation: 0.7y + y = 153\n**4. Simplify and solve for y:**\n* Combine like terms: 1.7y = 153\n* Divide both sides by 1.7: y = 90\n**5. Substitute y back to find x:**\n* Using the equation x = 0.7y, substitute y = 90: x = 0.7 * 90 = 63\n**6. Calculate y - x:**\n* y - x = 90 - 63 = 27\n**Therefore, the value of y - x is 27.** \n",
+        "Here's how to solve this problem step-by-step:\n**1. Set up the equations:**\n* We know that  x + y = 153 \n* We also know that x/y = 0.7\n**2. Solve for one variable in terms of the other:**\n* From the second equation, we can solve for x:  x = 0.7y\n**3. Substitute to eliminate one variable:**\n* Substitute the value of x (0.7y) into the first equation: 0.7y + y = 153\n* Combine like terms: 1.7y = 153\n**4. Solve for y:**\n* Divide both sides by 1.7: y = 90\n**5. Solve for x:**\n* Substitute the value of y (90) back into either of the original equations. Let's use x + y = 153:\n* x + 90 = 153\n* Subtract 90 from both sides: x = 63\n**6. Find the value of y - x:**\n* y - x = 90 - 63 = 27\n**Therefore, the value of y - x is 27.** \n",
+        "Here's how to solve the problem step-by-step:\n**1. Set up the equations:**\n*  We know  x + y = 153 \n*  We know x/y = 0.7\n**2. Solve for one variable:**\n* From the second equation, we can rewrite it as x = 0.7y\n**3. Substitute:**\n* Substitute the value of x (0.7y) into the first equation: \n   0.7y + y = 153\n**4. Simplify and solve for y:**\n* Combine like terms: 1.7y = 153\n* Divide both sides by 1.7: y = 90\n**5. Solve for x:**\n* Substitute the value of y (90) back into either of the original equations. Let's use x + y = 153:\n   x + 90 = 153\n* Subtract 90 from both sides: x = 63\n**6. Calculate y - x:**\n* y - x = 90 - 63 = 27\n**Therefore, the value of y - x is 27.** \n"
+    ],
+    "pred_answers": "27",
+    "final_pred_answer": [
+        "27",
+        "27",
+        "27",
+        "27",
+        "27"
+    ],
+    "ground_truth": "27"
+}

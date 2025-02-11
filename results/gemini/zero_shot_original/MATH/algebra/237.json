@@ -1,0 +1,23 @@
+{
+    "problem": "What is $1 + 2 + 3 + \\cdots + 98 + 99 + 100$?",
+    "level": "Level 2",
+    "type": "Algebra",
+    "solution": "For all $n$, $1 + 2 + \\dots + n = n(n + 1)/2$, so $1 + 2 + \\dots + 100 = 100 \\cdot 101/2 = \\boxed{5050}$.",
+    "prompt": "### Instruction: What is $1 + 2 + 3 + \\cdots + 98 + 99 + 100$?\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "Here's how to find the sum of the numbers from 1 to 100:\n**Understanding the Pattern**\nNotice that if you pair the first and last numbers (1 + 100), the second and second-to-last numbers (2 + 99), and so on, you get a consistent sum:\n* 1 + 100 = 101\n* 2 + 99 = 101\n* 3 + 98 = 101\n* ...\n**The Calculation**\n* You have 50 pairs of numbers that each add up to 101.\n* Therefore, the total sum is 50 * 101 = **5050**\n**Formula**\nThere's a handy formula for this kind of sum:\n* Sum of 1 to n = n(n + 1) / 2\nIn our case, n = 100, so the sum is 100(100 + 1) / 2 = 5050. \n",
+        "Here's how to solve this problem:\n**Understanding the Pattern**\nThe sum $1 + 2 + 3 + \\cdots + 98 + 99 + 100$ represents the sum of all the whole numbers from 1 to 100. There's a clever trick to calculate this quickly.\n**The Trick**\n1. **Pair the numbers:** Notice that if you pair the first and last number (1 + 100), the second and second-to-last number (2 + 99), and so on, each pair adds up to 101. \n2. **Count the pairs:**  There are 50 pairs in total (100 numbers / 2 numbers per pair).\n3. **Multiply:**  The sum of all the pairs is 50 pairs * 101 per pair = 5050\n**Therefore, 1 + 2 + 3 + ... + 98 + 99 + 100 = 5050** \n",
+        "Here's how to solve this problem:\n**Understanding the Pattern**\nNotice that if you pair the first and last numbers (1 + 100), the second and second-to-last numbers (2 + 99), and so on, you get a consistent sum:\n* 1 + 100 = 101\n* 2 + 99 = 101\n* 3 + 98 = 101\n* ...\n**Finding the Number of Pairs**\nThere are 100 numbers in the sequence, so you have 50 pairs.\n**Calculating the Sum**\nSince each pair sums to 101, the total sum is:\n50 pairs * 101 per pair = 5050\n**Therefore, 1 + 2 + 3 + ... + 98 + 99 + 100 = 5050** \n",
+        "Here's how to find the sum of the numbers from 1 to 100:\n**1. The Pattern:**\nNotice that if you pair the numbers from the beginning and end, you get a constant sum:\n* 1 + 100 = 101\n* 2 + 99 = 101\n* 3 + 98 = 101\n* ...\n**2.  How many pairs?**\nSince we have 100 numbers, there are 50 pairs.\n**3. The Calculation:**\n* Each pair sums to 101.\n* We have 50 pairs.\n* Therefore, the total sum is 101 * 50 = **5050**\n**Formula:**\nThere's a handy formula for this:\nThe sum of the first *n* natural numbers is given by:  n * (n + 1) / 2\nIn our case, n = 100, so the sum is: 100 * (100 + 1) / 2 = 5050 \n",
+        "Here's how to solve this problem, using a clever trick:\n**1. Pair the Numbers**\nNotice that if you pair the first and last number, the second and second-to-last number, and so on, you get the same sum each time:\n* 1 + 100 = 101\n* 2 + 99 = 101\n* 3 + 98 = 101\n* ...\n**2.  Count the Pairs**\nSince there are 100 numbers, you have 50 pairs.\n**3. Calculate the Total**\nEach pair sums to 101, and there are 50 pairs, so the total sum is:\n50 * 101 = **5050** \n**Therefore, 1 + 2 + 3 + ... + 98 + 99 + 100 = 5050** \n"
+    ],
+    "pred_answers": "5050",
+    "final_pred_answer": [
+        "5050",
+        "5050",
+        "5050",
+        "5050",
+        "5050"
+    ],
+    "ground_truth": "5050"
+}

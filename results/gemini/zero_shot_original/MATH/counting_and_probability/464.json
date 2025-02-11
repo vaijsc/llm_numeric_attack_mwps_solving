@@ -1,0 +1,23 @@
+{
+    "problem": "Find the value of $2\\left(\\frac{7!}{3!4!}\\right)$",
+    "level": "Level 1",
+    "type": "Counting & Probability",
+    "solution": "We can simplify directly\n\n\\begin{align*}\n2\\left(\\frac{7!}{3!4!}\\right) &= 2\\left(\\frac{7\\cdot 6 \\cdot 5}{3 \\cdot 2 \\cdot 1}\\right) \\\\\n&= \\frac{7 \\cdot 6 \\cdot 5}{3 \\cdot 1} \\\\\n&= 7 \\cdot 2 \\cdot 5 \\\\\n&= \\boxed{70}\n\\end{align*}",
+    "prompt": "### Instruction: Find the value of $2\\left(\\frac{7!}{3!4!}\\right)$\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "Here's how to solve the problem step-by-step:\n**1. Understand Factorials:**\n* A factorial (represented by the exclamation mark \"!\") means multiplying a number by all the positive whole numbers less than it.  \n* For example, 5! = 5 * 4 * 3 * 2 * 1 = 120\n**2. Calculate the Factorials:**\n* 7! = 7 * 6 * 5 * 4 * 3 * 2 * 1 = 5040\n* 3! = 3 * 2 * 1 = 6\n* 4! = 4 * 3 * 2 * 1 = 24\n**3. Substitute and Simplify:**\n*  2 * (7! / (3! * 4!)) = 2 * (5040 / (6 * 24))\n*  = 2 * (5040 / 144)\n*  = 2 * 35\n*  = **70**\n**Therefore, the value of 2 * (7! / (3! * 4!)) is 70.** \n",
+        "Here's how to solve the problem step-by-step:\n**1. Understand Factorials**\n* A factorial (denoted by !) means multiplying a number by all the positive whole numbers less than it. For example: 5! = 5 * 4 * 3 * 2 * 1 = 120\n**2. Calculate the Factorials**\n* 7! = 7 * 6 * 5 * 4 * 3 * 2 * 1 = 5040\n* 3! = 3 * 2 * 1 = 6\n* 4! = 4 * 3 * 2 * 1 = 24\n**3. Substitute the Factorials**\n*  The problem becomes: 2 * (5040 / (6 * 24))\n**4. Simplify**\n* 2 * (5040 / 144)\n* 2 * 35 = **70**\n**Therefore, the value of 2(7!/3!4!) is 70.** \n",
+        "Here's how to solve the problem step-by-step:\n**1. Understand Factorials**\n* A factorial (denoted by !) means multiplying a number by all the positive whole numbers less than it. For example: \n    * 5! = 5 * 4 * 3 * 2 * 1 = 120\n**2. Calculate the Factorials**\n* 7! = 7 * 6 * 5 * 4 * 3 * 2 * 1 = 5040\n* 3! = 3 * 2 * 1 = 6\n* 4! = 4 * 3 * 2 * 1 = 24\n**3. Substitute and Simplify**\n*  2 * (7! / (3! * 4!)) = 2 * (5040 / (6 * 24))\n*  = 2 * (5040 / 144)\n*  = 2 * 35\n*  = **70**\n**Therefore, the value of 2(7! / (3! * 4!)) is 70.** \n",
+        "Here's how to find the value step-by-step:\n1. **Calculate the factorials:**\n   * 7! = 7 * 6 * 5 * 4 * 3 * 2 * 1 = 5040\n   * 3! = 3 * 2 * 1 = 6\n   * 4! = 4 * 3 * 2 * 1 = 24\n2. **Substitute the factorials into the expression:**\n   *  2 * (7!/3!4!) = 2 * (5040 / (6 * 24))\n3. **Simplify:**\n   * 2 * (5040 / (6 * 24)) = 2 * (5040 / 144) \n   * 2 * (5040 / 144) = 2 * 35 \n   * 2 * 35 = 70\n**Therefore, the value of 2(7!/3!4!) is 70.** \n",
+        "Here's how to find the value step-by-step:\n1. **Calculate the factorials:**\n   *  7! = 7 * 6 * 5 * 4 * 3 * 2 * 1 = 5040\n   *  3! = 3 * 2 * 1 = 6\n   *  4! = 4 * 3 * 2 * 1 = 24\n2. **Substitute the factorials into the expression:**\n   * 2 * (7! / (3! * 4!)) = 2 * (5040 / (6 * 24))\n3. **Simplify the expression:**\n   * 2 * (5040 / (6 * 24)) = 2 * (5040 / 144) \n   * 2 * (5040 / 144) = 2 * 35 \n4. **Calculate the final result:**\n   * 2 * 35 = **70** \nTherefore, the value of  2 * (7! / (3! * 4!)) is **70**. \n"
+    ],
+    "pred_answers": "70",
+    "final_pred_answer": [
+        "70",
+        "70",
+        "70",
+        "70",
+        "70"
+    ],
+    "ground_truth": "70"
+}

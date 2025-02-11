@@ -1,0 +1,23 @@
+{
+    "problem": "Suppose $2a-3b = -23$. Given that $a$ and $b$ are consecutive integers, and $a<b$, what is the value of $a$?",
+    "level": "Level 3",
+    "type": "Algebra",
+    "solution": "Note that $b = a+1$. Substituting, we obtain $2a-3(a+1) = -23$. Note that $2a-3(a+1) = 2a-3a-3 = -a-3$. Since $-a-3 = -23$, we have that $a = \\boxed{20}$.",
+    "prompt": "### Instruction: Suppose $2a-3b = -23$. Given that $a$ and $b$ are consecutive integers, and $a<b$, what is the value of $a$?\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "Here's how to solve the problem step-by-step:\n**1. Define consecutive integers:**\nSince  *a* and *b* are consecutive integers and *a* < *b*, we can express them as:\n*  *a* = *x*\n*  *b* = *x* + 1 \n**2. Substitute into the equation:**\nSubstitute these expressions for *a* and *b* into the given equation:\n2(*x*) - 3(*x* + 1) = -23\n**3. Simplify and solve for x:**\n* 2*x* - 3*x* - 3 = -23\n* -*x* - 3 = -23\n* -*x* = -20\n* *x* = 20\n**4. Find the value of a:**\nSince *a* = *x*,  *a* = 20.\n**Therefore, the value of a is 20.** \n",
+        "Here's how to solve the problem step-by-step:\n**1. Define consecutive integers:**\nSince *a* and *b* are consecutive integers and *a* < *b*, we can write:\n*  *b* = *a* + 1\n**2. Substitute into the equation:**\nSubstitute *b* = *a* + 1 into the given equation:\n* 2*a* - 3(*a* + 1) = -23\n**3. Simplify and solve for *a*:**\n* 2*a* - 3*a* - 3 = -23\n* -*a* - 3 = -23\n* -*a* = -20\n* *a* = 20\n**Therefore, the value of *a* is 20.** \n",
+        "Here's how to solve the problem step-by-step:\n**1. Express 'b' in terms of 'a'**\nSince 'a' and 'b' are consecutive integers and  a < b, we know:\n* b = a + 1\n**2. Substitute 'b' into the equation**\nSubstitute (a + 1) for 'b' in the given equation:\n* 2a - 3(a + 1) = -23\n**3. Simplify the equation**\n* 2a - 3a - 3 = -23\n* -a - 3 = -23\n**4. Solve for 'a'**\n* -a = -20\n* a = 20\n**Therefore, the value of 'a' is 20.** \n",
+        "Here's how to solve the problem step-by-step:\n**1. Define consecutive integers:**\nSince  *a* and *b* are consecutive integers and *a* < *b*, we can write:\n*  *b* = *a* + 1\n**2. Substitute into the equation:**\nSubstitute *b* = *a* + 1 into the equation 2*a* - 3*b* = -23:\n* 2*a* - 3(*a* + 1) = -23\n**3. Simplify and solve for *a*:**\n* 2*a* - 3*a* - 3 = -23\n* -*a* - 3 = -23\n* -*a* = -20\n* *a* = 20\n**Therefore, the value of *a* is 20.** \n",
+        "Here's how to solve the problem step-by-step:\n**1. Define consecutive integers:**\nSince  *a* and *b* are consecutive integers and *a* < *b*, we can express them as:\n*  *a* = *x*\n*  *b* = *x* + 1\n**2. Substitute into the equation:**\nSubstitute these expressions for *a* and *b* into the given equation:\n2(*x*) - 3(*x* + 1) = -23\n**3. Simplify and solve for x:**\n* 2*x* - 3*x* - 3 = -23\n* -*x* - 3 = -23\n* -*x* = -20\n* *x* = 20\n**4. Find the value of a:**\nSince *a* = *x*, we have *a* = **20**. \n"
+    ],
+    "pred_answers": "20",
+    "final_pred_answer": [
+        "20",
+        "20",
+        "20",
+        "20",
+        "20"
+    ],
+    "ground_truth": "20"
+}

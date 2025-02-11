@@ -1,0 +1,23 @@
+{
+    "problem": "Simplify $(9-4i)-(-3-4i)$.",
+    "level": "Level 2",
+    "type": "Algebra",
+    "solution": "$(9-4i)- (-3-4i) = 9-4i +3 +4i = (9+3) + (-4i+4i) = \\boxed{12}$.",
+    "prompt": "### Instruction: Simplify $(9-4i)-(-3-4i)$.\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "1. **Distribute the negative sign:** \n   (9 - 4i) + (3 + 4i)\n2. **Combine real and imaginary terms separately:**\n   (9 + 3) + (-4i + 4i)\n3. **Simplify:**\n   12 + 0i\n4. **Final result:**\n   **12** \n",
+        "1. **Distribute the negative sign:**  \n   The minus sign in front of the second set of parentheses means we multiply each term inside the parentheses by -1: \n   (9 - 4i) + (3 + 4i)\n2. **Combine real and imaginary terms:**\n   Group the real terms together and the imaginary terms together:\n   (9 + 3) + (-4i + 4i)\n3. **Simplify:**\n   (9 + 3) + (-4i + 4i) = 12 + 0i\n4. **Final result:**\n   Since 0i is simply 0, the simplified expression is **12**. \n",
+        "1. **Distribute the negative sign:** \n   The minus sign in front of the parentheses means we multiply each term inside the second parentheses by -1. This gives us:\n   \n   (9 - 4i) + (3 + 4i)\n2. **Combine real and imaginary terms:**\n   Now we can combine the real terms (9 and 3) and the imaginary terms (-4i and 4i):\n   (9 + 3) + (-4i + 4i)\n3. **Simplify:**\n   Finally, we add the real terms and the imaginary terms:\n   12 + 0i\n4. **Final answer:**\n   Since 0i is just zero, our simplified answer is **12**. \n",
+        "1. **Distribute the negative sign:**  Since we're subtracting a complex number, we distribute the negative sign:\n   (9 - 4i) + (3 + 4i)\n2. **Combine real and imaginary terms:** Now we group the real terms and the imaginary terms:\n   (9 + 3) + (-4 + 4)i\n3. **Simplify:** Perform the addition:\n   12 + 0i \n4. **Final result:**  The simplified form is **12**. \n",
+        "1. **Distribute the negative sign:**  The minus sign in front of the parentheses means we multiply each term inside the second parentheses by -1. This gives us: \n   (9 - 4i) + (3 + 4i)\n2. **Combine real and imaginary terms:** Group the real terms (9 and 3) and the imaginary terms (-4i and 4i) together:\n   (9 + 3) + (-4i + 4i)\n3. **Simplify:** \n   12 + 0i\n4. **Final answer:** \n   **12** \n"
+    ],
+    "pred_answers": "12",
+    "final_pred_answer": [
+        "12",
+        "12",
+        "12",
+        "12",
+        "12"
+    ],
+    "ground_truth": "12"
+}

@@ -1,0 +1,23 @@
+{
+    "problem": "Let $f(x) = x + 2$ and $g(x) = 1/f(x)$. What is $g(f(-3))$?",
+    "level": "Level 4",
+    "type": "Algebra",
+    "solution": "First, we find that $f(-3) = (-3) + 2 = -1$. Then, $$g(f(-3)) = g(-1) = 1/f(-1) = 1/(-1 + 2) = \\boxed{1}.$$",
+    "prompt": "### Instruction: Let $f(x) = x + 2$ and $g(x) = 1/f(x)$. What is $g(f(-3))$?\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "To find \\( g(f(-3)) \\), we will follow these steps:\n1. **Calculate \\( f(-3) \\)**.\n   \\[\n   f(x) = x + 2\n   \\]\n   Plugging in \\(-3\\):\n   \\[\n   f(-3) = -3 + 2 = -1\n   \\]\n2. **Calculate \\( g(f(-3)) \\)**, which is \\( g(-1) \\).\n   From the definition of \\( g(x) \\):\n   \\[\n   g(x) = \\frac{1}{f(x)}\n   \\]\n   We need to compute \\( g(-1) \\), so first we calculate \\( f(-1) \\):\n   \\[\n   f(-1) = -1 + 2 = 1\n   \\]\n3. Now using the value of \\( f(-1) \\) to find \\( g(-1) \\):\n   \\[\n   g(-1) = \\frac{1}{f(-1)} = \\frac{1}{1} = 1\n   \\]\nThus, the value of \\( g(f(-3)) \\) is:\n\\[\n\\boxed{1}\n\\]",
+        "To find \\( g(f(-3)) \\), we first need to calculate \\( f(-3) \\) and then apply the function \\( g \\) to that result.\n1. **Calculate \\( f(-3) \\)**:\n   \\[\n   f(x) = x + 2\n   \\]\n   Substituting \\( x = -3 \\):\n   \\[\n   f(-3) = -3 + 2 = -1\n   \\]\n2. **Now apply \\( g \\) to the result from step 1**:\n   We know that \\( g(x) = \\frac{1}{f(x)} \\). Here, we need to compute \\( g(f(-3)) = g(-1) \\).\n3. **Calculate \\( g(-1) \\)**:\n   First, we need to calculate \\( f(-1) \\) since \\( g(-1) = \\frac{1}{f(-1)} \\):\n   \\[\n   f(-1) = -1 + 2 = 1\n   \\]\n   Then we can find \\( g(-1) \\):\n   \\[\n   g(-1) = \\frac{1}{f(-1)} = \\frac{1}{1} = 1\n   \\]\nFinally, we have:\n\\[\ng(f(-3)) = g(-1) = 1\n\\]\nThus, the answer is:\n\\[\n\\boxed{1}\n\\]",
+        "To find \\( g(f(-3)) \\), we need to follow these steps:\n1. **Calculate \\( f(-3) \\)** using the function \\( f(x) = x + 2 \\):\n   \\[\n   f(-3) = -3 + 2 = -1\n   \\]\n2. **Now calculate \\( g(f(-3)) \\)**, which is \\( g(-1) \\) using the function \\( g(x) = \\frac{1}{f(x)} \\):\n   We first need to find \\( f(-1) \\):\n   \\[\n   f(-1) = -1 + 2 = 1\n   \\]\n3. **Now substitute \\( f(-1) \\) into \\( g(-1) \\)**:\n   \\[\n   g(-1) = \\frac{1}{f(-1)} = \\frac{1}{1} = 1\n   \\]\nFinally, we have:\n\\[\ng(f(-3)) = g(-1) = 1\n\\]\nThus, the final answer is:\n\\[\n\\boxed{1}\n\\]",
+        "To find \\( g(f(-3)) \\), we will follow these steps:\n1. **Calculate \\( f(-3) \\)** using the function \\( f(x) = x + 2 \\):\n   \\[\n   f(-3) = -3 + 2 = -1\n   \\]\n2. **Calculate \\( g(f(-3)) = g(-1) \\)** using the function \\( g(x) = \\frac{1}{f(x)} \\):\n   First, we need to find \\( f(-1) \\):\n   \\[\n   f(-1) = -1 + 2 = 1\n   \\]\n3. Now we will evaluate \\( g(-1) \\):\n   \\[\n   g(-1) = \\frac{1}{f(-1)} = \\frac{1}{1} = 1\n   \\]\nThus, the final answer is:\n\\[\ng(f(-3)) = 1\n\\]",
+        "To find \\( g(f(-3)) \\), we need to first find \\( f(-3) \\) and then use that value to find \\( g(f(-3)) \\).\n1. **Calculate \\( f(-3) \\)**:\n   Given the function \\( f(x) = x + 2 \\), we can substitute \\( -3 \\) into the function:\n   \\[\n   f(-3) = -3 + 2 = -1\n   \\]\n2. **Now calculate \\( g(-1) \\)**:\n   The function \\( g(x) \\) is given as \\( g(x) = \\frac{1}{f(x)} \\). We first need to calculate \\( f(-1) \\):\n   \\[\n   f(-1) = -1 + 2 = 1\n   \\]\n   Next, we can find \\( g(-1) \\):\n   \\[\n   g(-1) = \\frac{1}{f(-1)} = \\frac{1}{1} = 1\n   \\]\nThus, we have found that:\n\\[\ng(f(-3)) = g(-1) = 1\n\\]\nTherefore, the final answer is:\n\\[\n\\boxed{1}\n\\]"
+    ],
+    "pred_answers": "1",
+    "final_pred_answer": [
+        "1",
+        "1",
+        "1",
+        "1",
+        "1"
+    ],
+    "ground_truth": "1"
+}

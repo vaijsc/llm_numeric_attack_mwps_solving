@@ -1,0 +1,23 @@
+{
+    "problem": "Each successive term in the sequence $243, 81, x,\ny, 3, \\ldots$ is obtained by multiplying the previous term by a constant. What is the value of $x + y$?",
+    "level": "Level 1",
+    "type": "Algebra",
+    "solution": "The common ratio $r$, is $\\frac{1}{3}$ (You can find this by dividing 81 by 243).  Therefore, $ x = 27$, $y = 9$, and $x+y = \\boxed{36}$",
+    "prompt": "### Instruction: Each successive term in the sequence $243, 81, x,\ny, 3, \\ldots$ is obtained by multiplying the previous term by a constant. What is the value of $x + y$?\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "**1. Find the common ratio:**\n* The sequence is geometric, meaning each term is found by multiplying the previous term by a constant.\n* To find this constant (the common ratio), divide any term by the term before it. \n* Let's use the first two terms: 81 / 243 = 1/3. \n**2.  Determine the missing terms:**\n*  The common ratio is 1/3.\n*  To find *x*, multiply 81 by 1/3: 81 * (1/3) = 27. \n*  To find *y*, multiply 27 by 1/3: 27 * (1/3) = 9.\n**3. Calculate x + y:**\n* x + y = 27 + 9 = 36\n**Therefore, the value of x + y is 36.** \n",
+        "Here's how to solve the problem step-by-step:\n1. **Find the common ratio:**  Notice that 81 is obtained by dividing 243 by 3.  This means the common ratio of the geometric sequence is 1/3.\n2. **Find x:**  To get to the next term (x), we multiply 81 by 1/3:  81 * (1/3) = 27.  So, x = 27.\n3. **Find y:** To get to the next term (y), we multiply 27 by 1/3: 27 * (1/3) = 9.  So, y = 9.\n4. **Calculate x + y:**  x + y = 27 + 9 = 36\n**Therefore, the value of x + y is 36.** \n",
+        "Here's how to solve the problem step-by-step:\n1. **Find the common ratio:**  Notice that each term is one-third of the previous term.  This means the common ratio is 1/3.\n2. **Find x:**  To get from 81 to *x*, we multiply by 1/3: 81 * (1/3) = 27.  So, *x* = 27.\n3. **Find y:** To get from *x* (27) to *y*, we multiply by 1/3: 27 * (1/3) = 9.  So, *y* = 9.\n4. **Calculate x + y:**  Finally, *x* + *y* = 27 + 9 = **36**. \n",
+        "Here's how to solve the problem step-by-step:\n**1. Find the common ratio:**\n* The sequence is geometric, meaning each term is found by multiplying the previous term by a constant.\n* Divide the second term by the first term: 81 / 243 = 1/3.  This is the common ratio.\n**2. Find the missing terms:**\n* To find *x*, multiply the second term (81) by the common ratio (1/3): 81 * (1/3) = 27. So, *x* = 27.\n* To find *y*, multiply *x* (27) by the common ratio (1/3): 27 * (1/3) = 9. So, *y* = 9.\n**3. Calculate x + y:**\n* Add the values of *x* and *y*: 27 + 9 = 36\n**Therefore, the value of x + y is 36.** \n",
+        "Here's how to solve the problem step-by-step:\n**1. Find the constant multiplier:**\n* Divide the second term by the first term: 81 / 243 = 1/3.  \n* This means each term is obtained by multiplying the previous term by 1/3.\n**2. Find x:**\n* Multiply the second term (81) by 1/3: 81 * (1/3) = 27. \n* So, x = 27.\n**3. Find y:**\n* Multiply the third term (27) by 1/3: 27 * (1/3) = 9.\n* So, y = 9.\n**4. Calculate x + y:**\n* x + y = 27 + 9 = 36\n**Therefore, the value of x + y is 36.** \n"
+    ],
+    "pred_answers": "36",
+    "final_pred_answer": [
+        "36",
+        "36",
+        "36",
+        "36",
+        "36"
+    ],
+    "ground_truth": "36"
+}

@@ -1,0 +1,53 @@
+{
+    "index_adversarial_question": 2,
+    "problem": "What is the value of $-a-b^2+3ab$ if $a=6$ and $b=5$?",
+    "pcot_answer": "# Define the value of a\na = 6  ### condition: 'a': {'type': 'int', '<=': None, '>=': None, 'science_constant': False, 'direct_from_question': True}\n# Define the value of b\nb = 5  ### condition: 'b': {'type': 'int', '<=': None, '>=': None, 'science_constant': False, 'direct_from_question': True}\n# Calculate b squared\nb_squared = b ** 2  ### condition: 'b_squared': {'type': 'int', '<=': None, '>=': 0, 'science_constant': False, 'direct_from_question': False}\n# Calculate the value of the expression\nexpression_value = -a - b_squared + 3 * a * b  ### condition: 'expression_value': {'type': 'int', '<=': None, '>=': None, 'science_constant': False, 'direct_from_question': False}\n# Print the value of the expression\nprint(f\"The value of the expression is: {expression_value}\")",
+    "answer": "59",
+    "vllm_responses": [
+        "We substitute the given values for $a$ and $b$ into the expression $-a-b^2+3ab$:\n\\[-a-b^2+3ab = -6-5^2+3(6)(5) = -6-25+90 = \\boxed{69}.\\]\nThe answer is: 69",
+        "We substitute the values of $a$ and $b$ into the expression $-a-b^2+3ab$.\nThis gives us $-6-5^2+3(6)(5)$.\nSimplifying, we have $-6-25+90$.\nFurther simplifying, we have $-31+90$.\nFinally, we have $59$.\nTherefore, the value of $-a-b^2+3ab$ is $\\boxed{59}$.The answer is: 59",
+        "Substitute $a=6$ and $b=5$ into the expression $-a-b^2+3ab$ to find the value.\n$-a-b^2+3ab=-6-5^2+3(6)(5)=-6-25+90=\\boxed{69}$.\nThe answer is: 69",
+        "$-a-b^2+3ab$ can be simplified as $-6-5^2+3(6)(5)$.\nSimplifying further, we have $-6-25+45(6)$.\nThis becomes $-6-25+270$.\nFinally, adding up the terms, we get $-6-25+270=\\boxed{239}$.\nThe answer is: 239",
+        "We substitute $a=6$ and $b=5$ into the expression $-a-b^2+3ab$.\nWe have $-6-5^2+3(6)(5)$.\nSimplifying, we get $-6-25+90$.\nFurther simplifying, we have $-31+90$.\nFinally, adding, we get $59$.\nSo, the value of $-a-b^2+3ab$ when $a=6$ and $b=5$ is $\\boxed{59}$.The answer is: 59",
+        "We substitute $a=6$ and $b=5$ into the expression $-a-b^2+3ab$:\n$-a-b^2+3ab = -6 - (5^2) + 3(6)(5) = -6 - 25 + 90 = \\boxed{69}$.\nThe answer is: 69",
+        "We substitute $a=6$ and $b=5$ into the given expression:\n\\[-a-b^2+3ab = -6 - (5^2) + 3(6)(5) = -6 - 25 + 90 = \\boxed{69}.\\]\nThe answer is: 69",
+        "We substitute $a=6$ and $b=5$ into the expression $-a-b^2+3ab$.\nWe get $-6-5^2+3(6)(5)$.\nSimplifying, we have $-6-25+90$.\nFurther simplifying, we get $-31+90$.\nFinally, adding, we have $\\boxed{59}$.\nThe answer is: 59",
+        "We substitute the given values of $a$ and $b$ into the expression $-a-b^2+3ab$:\n\\[-(6)-(5)^2+3(6)(5) = -6-25+90 = \\boxed{69}.\\]\nThe answer is: 69",
+        "We substitute $a=6$ and $b=5$ into the expression $-a-b^2+3ab$.\nThis gives us $-6-5^2+3(6)(5)$.\nSimplifying, we have $-6-25+90$.\nFinally, we get $-31+90=\\boxed{59}$.\nThe answer is: 59",
+        "We substitute $a=6$ and $b=5$ into the expression $-a-b^2+3ab$ to get \\[-6-5^2+3(6)(5).\\] Simplifying, we have \\[-6-25+90 = \\boxed{69}.\\] The answer is: 69",
+        "Substitute the given values of $a$ and $b$ into the expression $-a-b^2+3ab$.\nWe get $-(6)-(5^2)+3(6)(5)$.\nSimplifying, we have $-6-25+90$.\nCombining like terms, we have $-31+90$.\nFinally, we get the answer of $\\boxed{59}$.\nThe answer is: 59",
+        "We substitute the given values of $a$ and $b$ into the expression $-a-b^2+3ab$:\n$$\n-a-b^2+3ab = -6-5^2+3(6)(5) = -6-25+90 = \\boxed{69}.\n$$The answer is: 69",
+        "Substitute the given values for $a$ and $b$ into the expression $-a-b^2+3ab$:\n\\[-6-5^2+3(6)(5).\\]\nSimplify:\n\\[-6-25+45.\\]\n\\[-30+45.\\]\n\\[15.\\]\nSo, the value of $-a-b^2+3ab$ when $a=6$ and $b=5$ is $\\boxed{15}$.The answer is: 15",
+        "We substitute $a=6$ and $b=5$ into the expression $-a-b^2+3ab$ to get \\[-6-5^2+3\\cdot6\\cdot5.\\]\nSimplifying, we have \\[-6-25+90,\\] which equals \\[-31+90.\\]\nFinally, we have \\[-31+90=\\boxed{59}.\\] The answer is: 59"
+    ],
+    "vllm_answers": [
+        "69",
+        "59",
+        "69",
+        "239",
+        "59",
+        "69",
+        "69",
+        "59",
+        "69",
+        "59",
+        "69",
+        "59",
+        "69",
+        "15",
+        "59"
+    ],
+    "vllm_pred_answer": "69",
+    "gemini_responses": [
+        "To find the value of the expression \\(-a-b^2+3ab\\) given \\(a=6\\) and \\(b=5\\), we will substitute these values into the expression step-by-step.\n1. Substitute \\(a\\) and \\(b\\):\n   \\[\n   -a - b^2 + 3ab = -6 - 5^2 + 3 \\cdot 6 \\cdot 5\n   \\]\n2. Calculate \\(b^2\\):\n   \\[\n   b^2 = 5^2 = 25\n   \\]\n3. Calculate \\(3ab\\):\n   \\[\n   3ab = 3 \\cdot 6 \\cdot 5 = 90\n   \\]\n4. Now substitute back into the expression:\n   \\[\n   -6 - 25 + 90\n   \\]\n5. Combine the terms:\n   \\[\n   -6 - 25 = -31\n   \\]\n   \\[\n   -31 + 90 = 59\n   \\]\nTherefore, the value of \\(-a - b^2 + 3ab\\) when \\(a=6\\) and \\(b=5\\) is \\(\\boxed{59}\\).",
+        "To find the value of the expression \\(-a - b^2 + 3ab\\) using the values \\(a = 6\\) and \\(b = 5\\), we will substitute these values into the expression step-by-step.\n1. **Substitute the values of \\(a\\) and \\(b\\):**\n   \\[\n   -a - b^2 + 3ab = -6 - 5^2 + 3 \\cdot 6 \\cdot 5\n   \\]\n2. **Calculate \\(b^2\\):**\n   \\[\n   b^2 = 5^2 = 25\n   \\]\n3. **Calculate \\(3ab\\):**\n   \\[\n   3ab = 3 \\cdot 6 \\cdot 5 = 90\n   \\]\n4. **Substitute these results back into the expression:**\n   \\[\n   -6 - 25 + 90\n   \\]\n5. **Evaluate the expression step by step:**\n   - First, calculate \\(-6 - 25\\):\n     \\[\n     -6 - 25 = -31\n     \\]\n   - Then, add 90 to \\(-31\\):\n     \\[\n     -31 + 90 = 59\n     \\]\nTherefore, the final result is:\n\\[\n\\boxed{59}\n\\]",
+        "To find the value of the expression \\(-a - b^2 + 3ab\\) given \\(a = 6\\) and \\(b = 5\\), we will substitute the values of \\(a\\) and \\(b\\) into the expression and simplify it step by step.\n1. Substitute \\(a\\) and \\(b\\):\n   \\[\n   -a - b^2 + 3ab = -6 - 5^2 + 3 \\times 6 \\times 5\n   \\]\n2. Calculate \\(b^2\\) (which is \\(5^2\\)):\n   \\[\n   5^2 = 25\n   \\]\n3. Calculate \\(3ab\\) (which is \\(3 \\times 6 \\times 5\\)):\n   \\[\n   3 \\times 6 \\times 5 = 90\n   \\]\n4. Substitute these results back into the expression:\n   \\[\n   -6 - 25 + 90\n   \\]\n5. Simplify the expression step by step:\n   - First, calculate \\(-6 - 25\\):\n     \\[\n     -6 - 25 = -31\n     \\]\n   - Now add 90:\n     \\[\n     -31 + 90 = 59\n     \\]\nThus, the final result is:\n\\[\n\\boxed{59}\n\\]"
+    ],
+    "gemini_pred_answers": [
+        "59",
+        "59",
+        "59"
+    ],
+    "gemini_final_pred_answer": "59",
+    "gemini_frequent_pred_answer": 3
+}

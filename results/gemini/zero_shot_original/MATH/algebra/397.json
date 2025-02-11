@@ -1,0 +1,23 @@
+{
+    "problem": "The parabolas defined by the equations $y=-x^2-x+1$ and $y=2x^2-1$ intersect at points $(a,b)$ and $(c,d)$, where $c\\ge a$. What is $c-a$? Express your answer as a common fraction.",
+    "level": "Level 5",
+    "type": "Algebra",
+    "solution": "The graph of the two parabolas is shown below:\n\n[asy]\nLabel f;\n\nreal a = -2;\nreal b = 2;\nf.p=fontsize(4);\n\nxaxis(a,b,Ticks(f, 2.0));\n\nyaxis(-8,8,Ticks(f, 2.0));\nreal f(real x)\n\n{\n\nreturn -x^2-x+1;\n\n}\n\ndraw(graph(f,a,b),linewidth(1));\nreal g(real x)\n\n{\n\nreturn 2x^2-1;\n\n}\n\ndraw(graph(g,a,b),linewidth(1));\n[/asy]\n\nThe graphs intersect when $y$ equals both $-x^2 -x +1$ and $2x^2-1$, so we have $-x^2-x+1=2x^2-1$. Combining like terms, we get $3x^2+x-2$. Factoring the quadratic we have  $(3x-2)(x+1)=0$. So either $x=2/3$ or $x=-1$, which are the two $x$ coordinates of the points of intersection. Thus, $c=2/3$ and $a=-1$, giving $c-a=\\boxed{\\frac{5}{3}}$.",
+    "prompt": "### Instruction: The parabolas defined by the equations $y=-x^2-x+1$ and $y=2x^2-1$ intersect at points $(a,b)$ and $(c,d)$, where $c\\ge a$. What is $c-a$? Express your answer as a common fraction.\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "To find the points of intersection, we need to solve the system of equations:\n*  $y = -x^2 - x + 1$\n*  $y = 2x^2 - 1$\nSince both equations equal $y$, we can set them equal to each other:\n$$-x^2 - x + 1 = 2x^2 - 1$$\nNow, let's solve for $x$:\n*  Add $x^2$ and $x$ to both sides: $1 = 3x^2 + x - 1$\n*  Add 1 to both sides: $2 = 3x^2 + x$\n*  Rearrange: $3x^2 + x - 2 = 0$\n*  Factor the quadratic: $(3x - 2)(x + 1) = 0$\nThis gives us two possible solutions for $x$:\n*  $3x - 2 = 0 \\Rightarrow x = \\frac{2}{3}$\n*  $x + 1 = 0 \\Rightarrow x = -1$\nSince we are given that $c \\ge a$, we know that $c = \\frac{2}{3}$ and $a = -1$.  Therefore, $c - a = \\frac{2}{3} - (-1) = \\boxed{\\frac{5}{3}}$. \n",
+        "To find the points of intersection, we need to solve the system of equations: \n*  $y = -x^2 - x + 1$\n*  $y = 2x^2 - 1$\nSince both equations are equal to *y*, we can set them equal to each other:\n$-x^2 - x + 1 = 2x^2 - 1$\nNow, we can solve for *x*:\n* Add $x^2$ and $x$ to both sides:  $1 = 3x^2 + x - 1$\n* Subtract 1 from both sides: $0 = 3x^2 + x - 2$\n* Factor the quadratic: $0 = (3x - 2)(x + 1)$\n* Solve for *x*: $x = \\frac{2}{3}$ or $x = -1$\nSince we are given that $c \\ge a$, we know that $c = \\frac{2}{3}$ and $a = -1$. Therefore, $c - a = \\frac{2}{3} - (-1) = \\boxed{\\frac{5}{3}}$. \n",
+        "To find the points of intersection, we set the two equations equal to each other: \n  \n  -x\u00b2 - x + 1 = 2x\u00b2 - 1\n  \nCombining like terms, we get: \n  \n  3x\u00b2 + x - 2 = 0\n  \nThis factors as:\n  \n  (3x - 2)(x + 1) = 0\n  \nSo, x = 2/3 or x = -1.  Since we are given that c \u2265 a, we have c = 2/3 and a = -1.  Therefore, c - a = 2/3 - (-1) = **5/3**. \n",
+        "To find the points of intersection, we need to solve the system of equations: \n \n  \n $$y = -x^2 - x + 1$$\n $$y = 2x^2 - 1$$\n  \n  \n Setting the right-hand sides equal to each other, we get:\n  \n  \n $$-x^2 - x + 1 = 2x^2 - 1$$\n  \n  \n Combining like terms, we have:\n  \n  \n $$3x^2 + x - 2 = 0$$\n  \n  \n This factors as:\n  \n  \n $$(3x - 2)(x + 1) = 0$$\n  \n  \n So, $x = \\frac{2}{3}$ or $x = -1$.  Since $c \\ge a$, we have $c = \\frac{2}{3}$ and $a = -1$.  Therefore, $c - a = \\frac{2}{3} - (-1) = \\boxed{\\frac{5}{3}}$. \n",
+        "To find the points of intersection, we need to solve the system of equations:\n```\ny = -x^2 - x + 1\ny = 2x^2 - 1 \n```\nSince both equations equal *y*, we can set them equal to each other:\n```\n-x^2 - x + 1 = 2x^2 - 1 \n```\nNow we have a quadratic equation. Let's rearrange it to standard form:\n```\n3x^2 + x - 2 = 0\n```\nWe can factor this quadratic:\n```\n(3x - 2)(x + 1) = 0\n```\nThis gives us two possible solutions for *x*:\n```\n3x - 2 = 0  =>  x = 2/3\nx + 1 = 0  =>  x = -1\n```\nSince we know *c* \u2265 *a*, we can assign *c* = 2/3 and *a* = -1. \nTherefore, *c - a* = (2/3) - (-1) = **5/3**. \n"
+    ],
+    "pred_answers": "3",
+    "final_pred_answer": [
+        "3",
+        "3",
+        "3",
+        "3",
+        "3"
+    ],
+    "ground_truth": "3"
+}

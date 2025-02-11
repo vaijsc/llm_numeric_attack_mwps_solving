@@ -1,0 +1,23 @@
+{
+    "problem": "If $2x = 5y$ and $7y = 10z$, what is the value of $\\frac{z}{x}$ expressed as a common fraction?",
+    "level": "Level 4",
+    "type": "Algebra",
+    "solution": "$\\frac{y}{x}=\\frac25$ and $\\frac{z}{y}=\\frac{7}{10}$. Multiplying these, \\[\n\\frac25\\cdot\\frac{7}{10}=\\frac y x\\cdot\\frac z y=\\frac z x=\\boxed{\\frac{7}{25}}\n\\]",
+    "prompt": "### Instruction: If $2x = 5y$ and $7y = 10z$, what is the value of $\\frac{z}{x}$ expressed as a common fraction?\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "Here's how to solve the problem step-by-step:\n**1. Express 'y' in terms of 'x' and 'z':**\n* From the equation  $2x = 5y$, we get  $y = \\frac{2x}{5}$.\n* From the equation $7y = 10z$, we get $y = \\frac{10z}{7}$.\n**2. Set the two expressions for 'y' equal to each other:**\n* Since both expressions represent the same value of 'y', we can write: \n   $\\frac{2x}{5} = \\frac{10z}{7}$\n**3. Solve for the ratio z/x:**\n* Multiply both sides of the equation by 5 and 7 to get rid of the denominators: \n   $14x = 50z$\n* Divide both sides by 14x and 50z to isolate z/x:\n   $\\frac{z}{x} = \\frac{14}{50}$\n**4. Simplify the fraction:**\n* Both 14 and 50 are divisible by 2.  Simplify to get:\n   $\\frac{z}{x} = \\boxed{\\frac{7}{25}}$ \n",
+        "Here's how to solve the problem step-by-step:\n1. **Solve for y in terms of x:**\n   From the equation  2x = 5y, we can solve for y:\n   y = (2/5)x\n2. **Solve for y in terms of z:**\n   From the equation 7y = 10z, we can solve for y:\n   y = (10/7)z\n3. **Equate the two expressions for y:**\n   Since both expressions equal y, we can set them equal to each other:\n   (2/5)x = (10/7)z\n4. **Solve for z/x:**\n   To get z/x, we can multiply both sides by 7/10 and then by 5/2:\n   (7/10) * (2/5)x = (7/10) * (10/7)z\n   (7/25)x = z\n   z/x = **7/25** \nTherefore, the value of z/x expressed as a common fraction is **7/25**. \n",
+        "Here's how to solve the problem step-by-step:\n1. **Solve for y in terms of x:** \n   From the equation  2x = 5y, we get  y = (2/5)x\n2. **Solve for y in terms of z:**\n   From the equation 7y = 10z, we get y = (10/7)z\n3. **Equate the expressions for y:**\n   Since both expressions equal y, we can set them equal to each other:  (2/5)x = (10/7)z\n4. **Solve for z/x:**\n   To isolate z/x, multiply both sides by 7/10 and then by 5/2:\n   * (7/10) * (2/5)x = (7/10) * (10/7)z\n   * (7/25)x = z\n   * (z/x) = **7/25**\nTherefore, the value of z/x is **7/25**. \n",
+        "Here's how to solve the problem step-by-step:\n**1. Isolate a Common Variable:**\n* We want to find the ratio of *z* to *x*.  Notice that both equations have *y* in them. Let's solve for *y* in both equations.\n* From the first equation,  $2x = 5y$, we get  $y = \\frac{2}{5}x$.\n* From the second equation, $7y = 10z$, we get $y = \\frac{10}{7}z$.\n**2. Set the Expressions for *y* Equal:**\n* Since both expressions equal *y*, we can set them equal to each other:\n   \n   $\\frac{2}{5}x = \\frac{10}{7}z$\n**3. Solve for the Ratio z/x:**\n* To get *z/x* by itself, multiply both sides by  $\\frac{7}{10x}$:\n   $\\frac{7}{10x} \\cdot \\frac{2}{5}x = \\frac{7}{10x} \\cdot \\frac{10}{7}z$\n* Simplify:\n   $\\frac{14}{50} = \\frac{z}{x}$\n* Reduce the fraction:\n   $\\boxed{\\frac{7}{25}} = \\frac{z}{x}$ \n",
+        "Here's how to solve the problem step-by-step:\n1. **Solve for y in terms of x:** \n   From the equation  2x = 5y, we can divide both sides by 5 to get:\n   y = (2/5)x\n2. **Solve for y in terms of z:**\n   From the equation 7y = 10z, we can divide both sides by 7 to get:\n   y = (10/7)z\n3. **Equate the expressions for y:**\n   Since both expressions equal y, we can set them equal to each other:\n   (2/5)x = (10/7)z\n4. **Solve for z/x:**\n   To isolate z/x, we can:\n   - Multiply both sides by 7: (14/5)x = 10z\n   - Divide both sides by 10x: (14/50) = z/x\n   - Simplify the fraction: **z/x = 7/25**\nTherefore, the value of z/x expressed as a common fraction is **7/25**. \n"
+    ],
+    "pred_answers": "25",
+    "final_pred_answer": [
+        "25",
+        "25",
+        "25",
+        "25",
+        "25"
+    ],
+    "ground_truth": "25"
+}

@@ -1,0 +1,23 @@
+{
+    "problem": "Let $f(x) = 5x+3$ and $g(x)=x^2-2$. What is $g(f(-1))$?",
+    "level": "Level 2",
+    "type": "Algebra",
+    "solution": "We note that $f(-1)=5\\cdot(-1)+3=-2$, so substituting that in we get $g(f(-1))=g(-2)=(-2)^2-2=2$. Therefore our answer is $\\boxed{2}$.",
+    "prompt": "### Instruction: Let $f(x) = 5x+3$ and $g(x)=x^2-2$. What is $g(f(-1))$?\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "To find \\( g(f(-1)) \\), we will first calculate \\( f(-1) \\) and then use that result to find \\( g(f(-1)) \\).\n1. Calculate \\( f(-1) \\):\n   \\[\n   f(x) = 5x + 3\n   \\]\n   Substituting \\( x = -1 \\):\n   \\[\n   f(-1) = 5(-1) + 3 = -5 + 3 = -2\n   \\]\n2. Now we need to calculate \\( g(f(-1)) = g(-2) \\):\n   \\[\n   g(x) = x^2 - 2\n   \\]\n   Substituting \\( x = -2 \\):\n   \\[\n   g(-2) = (-2)^2 - 2 = 4 - 2 = 2\n   \\]\nThus, the final answer is:\n\\[\ng(f(-1)) = 2\n\\]",
+        "To find \\( g(f(-1)) \\), we first need to calculate \\( f(-1) \\) using the function \\( f(x) = 5x + 3 \\).\n1. **Calculate \\( f(-1) \\)**:\n   \\[\n   f(-1) = 5(-1) + 3 = -5 + 3 = -2\n   \\]\n2. **Now, we need to calculate \\( g(f(-1)) = g(-2) \\)** using the function \\( g(x) = x^2 - 2 \\).\n3. **Calculate \\( g(-2) \\)**:\n   \\[\n   g(-2) = (-2)^2 - 2 = 4 - 2 = 2\n   \\]\nFinally, we have:\n\\[\ng(f(-1)) = g(-2) = 2\n\\]\nThus, the answer is \\(\\boxed{2}\\).",
+        "To find \\( g(f(-1)) \\), we will first compute \\( f(-1) \\), and then we will use that result to find \\( g(f(-1)) \\).\n1. **Calculate \\( f(-1) \\)**:\n   The function \\( f(x) \\) is given by \n   \\[\n   f(x) = 5x + 3.\n   \\]\n   Substituting \\( -1 \\) for \\( x \\):\n   \\[\n   f(-1) = 5(-1) + 3.\n   \\]\n   This simplifies to:\n   \\[\n   f(-1) = -5 + 3 = -2.\n   \\]\n2. **Calculate \\( g(f(-1)) = g(-2) \\)**:\n   Next, we use the value we found for \\( f(-1) \\) to compute \\( g(-2) \\). The function \\( g(x) \\) is defined as:\n   \\[\n   g(x) = x^2 - 2.\n   \\]\n   Substituting \\( -2 \\) for \\( x \\):\n   \\[\n   g(-2) = (-2)^2 - 2.\n   \\]\n   This simplifies to:\n   \\[\n   g(-2) = 4 - 2 = 2.\n   \\]\nPutting it all together, we find:\n\\[\ng(f(-1)) = g(-2) = 2.\n\\]\nThus, the final answer is:\n\\[\n\\boxed{2}.\n\\]",
+        "To find \\( g(f(-1)) \\), we need to follow these steps:\n1. **Calculate \\( f(-1) \\)** using the function \\( f(x) = 5x + 3 \\).\n   \\[\n   f(-1) = 5(-1) + 3\n   \\]\n   \\[\n   f(-1) = -5 + 3 = -2\n   \\]\n2. **Now, calculate \\( g(f(-1)) = g(-2) \\)** using the function \\( g(x) = x^2 - 2 \\).\n   \\[\n   g(-2) = (-2)^2 - 2\n   \\]\n   \\[\n   g(-2) = 4 - 2 = 2\n   \\]\nPutting it all together, we have:\n\\[\ng(f(-1)) = g(-2) = 2\n\\]\nThus, the final answer is:\n\\[\n\\boxed{2}\n\\]",
+        "To find \\( g(f(-1)) \\), we will follow these steps:\n1. **Calculate \\( f(-1) \\)** using the function \\( f(x) = 5x + 3 \\).\n\\[\nf(-1) = 5(-1) + 3 = -5 + 3 = -2\n\\]\n2. **Next, we compute \\( g(f(-1)) = g(-2) \\)** using the function \\( g(x) = x^2 - 2 \\).\n\\[\ng(-2) = (-2)^2 - 2 = 4 - 2 = 2\n\\]\nThus, the value of \\( g(f(-1)) \\) is \n\\[\n\\boxed{2}\n\\]"
+    ],
+    "pred_answers": "2",
+    "final_pred_answer": [
+        "2",
+        "2",
+        "2",
+        "2",
+        "2"
+    ],
+    "ground_truth": "2"
+}

@@ -1,0 +1,23 @@
+{
+    "problem": "Let $m$ and $n$ satisfy $mn=7$ and $m+n=8$. What is $|m-n|$?",
+    "level": "Level 1",
+    "type": "Algebra",
+    "solution": "We have two equations and two variables, so it's possible to solve for $m$ and $n$ directly and then calculate $|m-n|$. However, doing so is messy, so we look for an alternative approach. We square the second equation to get $(m+n)^2 = m^2 + 2mn +n^2 = 64$. We know that $mn=7$, so we can subtract the equation $4mn=28$ to get that $m^2 -2mn + n^2 = (m-n)^2 = 36$. This gives us that $m-n=\\pm 6$ so $|m-n|=\\boxed{6}$.",
+    "prompt": "### Instruction: Let $m$ and $n$ satisfy $mn=7$ and $m+n=8$. What is $|m-n|$?\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "Here's how to solve the problem step-by-step:\n**1. Recognize the Relationship**\nWe have two equations: \n*  *mn = 7*  (This tells us *m* and *n* are factors of 7)\n*  *m + n = 8* (This tells us *m* and *n* add up to 8)\n**2. Find the Factors**\nThe only factors of 7 are 1 and 7.  Since *m* and *n* must be factors of 7, we have two possibilities:\n*  *m = 1* and *n = 7*\n*  *m = 7* and *n = 1*\n**3. Calculate |m - n|**\nLet's calculate |m - n| for each possibility:\n* If *m = 1* and *n = 7*, then |m - n| = |1 - 7| = |-6| = 6\n* If *m = 7* and *n = 1*, then |m - n| = |7 - 1| = |6| = 6\n**Answer:**\nIn both cases, |m - n| = **6**. \n",
+        "Here's how to solve the problem step-by-step:\n1. **Recognize the relationship:** The equations $mn = 7$ and $m + n = 8$ suggest that we're dealing with two numbers whose product is 7 and whose sum is 8.\n2. **Find the numbers:** Think of the factors of 7. The only factors are 1 and 7.  Since their sum is 8, we know that $m = 7$ and $n = 1$ (or vice versa).\n3. **Calculate |m - n|:**\n   *  If $m = 7$ and $n = 1$, then  |m - n| = |7 - 1| = 6\n   *  If $m = 1$ and $n = 7$, then |m - n| = |1 - 7| = 6\n**Therefore, |m - n| = 6.** \n",
+        "Here's how to solve this problem step-by-step:\n**1. Recognize the Relationship**\nThe given equations represent a system of equations. We can use these equations to find the values of *m* and *n*.\n**2. Solve for m and n**\n* **Method 1: Substitution**\n   - Solve one equation for one variable (let's solve the second equation for *m*): \n      *  m = 8 - n \n   - Substitute this expression for *m* into the first equation:\n      * (8 - n) * n = 7\n   - Simplify and solve the quadratic:\n      * 8n - n\u00b2 = 7\n      * n\u00b2 - 8n + 7 = 0\n      * (n - 7)(n - 1) = 0\n      * n = 7 or n = 1\n   - Substitute each value of *n* back into either of the original equations to find the corresponding values of *m*:\n      * If n = 7, then m = 1 \n      * If n = 1, then m = 7\n* **Method 2:  Factoring**\n   - Notice that the product of *m* and *n* is 7, and the sum is 8.  The factors of 7 are 1 and 7. \n   - Since 1 + 7 = 8, we know that m = 7 and n = 1 (or vice versa).\n**3. Calculate |m - n|**\n* We found that *m* = 7 and *n* = 1 (or vice versa).  \n* |m - n| = |7 - 1| = |6| = **6**\n**Therefore, |m - n| = 6** \n",
+        "Here's how to solve the problem step-by-step:\n**1. Express one variable in terms of the other**\n* From the equation  *m + n = 8*, we can solve for *n*: \n   *n = 8 - m*\n**2. Substitute into the other equation**\n* Substitute this expression for *n* into the equation *mn = 7*:\n   *m(8 - m) = 7*\n**3. Solve the quadratic equation**\n* Expand and rearrange the equation: \n   *8m - m\u00b2 = 7*\n   *m\u00b2 - 8m + 7 = 0*\n* Factor the quadratic:\n   *(m - 7)(m - 1) = 0*\n* This gives us two possible solutions for *m*:\n   *m = 7* or *m = 1*\n**4. Find the corresponding values of n**\n* If *m = 7*, then *n = 8 - 7 = 1*\n* If *m = 1*, then *n = 8 - 1 = 7*\n**5. Calculate |m - n|**\n* For either solution, *|m - n| = |7 - 1| = |1 - 7| = **6** \n**Therefore, |m - n| = 6** \n",
+        "Here's how to solve the problem step-by-step:\n**1. Express one variable in terms of the other:**\n* From the equation  *m + n = 8*, we can solve for *n*:\n   *n = 8 - m*\n**2. Substitute into the other equation:**\n* Substitute this expression for *n* into the equation *mn = 7*:\n   *m(8 - m) = 7*\n**3. Simplify and solve the quadratic equation:**\n* Expand: 8m - m\u00b2 = 7\n* Rearrange: m\u00b2 - 8m + 7 = 0\n* Factor: (m - 7)(m - 1) = 0\n* Solve for *m*: m = 7 or m = 1\n**4. Find the corresponding values of *n*:**\n* If m = 7, then n = 8 - 7 = 1\n* If m = 1, then n = 8 - 1 = 7\n**5. Calculate |m - n|:**\n*  For m = 7 and n = 1:  |7 - 1| = 6\n*  For m = 1 and n = 7: |1 - 7| = 6\n**Therefore, |m - n| = 6** \n"
+    ],
+    "pred_answers": "6",
+    "final_pred_answer": [
+        "6",
+        "6",
+        "6",
+        "6",
+        "6"
+    ],
+    "ground_truth": "6"
+}

@@ -1,0 +1,23 @@
+{
+    "problem": "If $p (x) = 2-x^2$ and $q(x) = \\frac{6}{x}$, what is the value of $p (q(2))$?",
+    "level": "Level 1",
+    "type": "Algebra",
+    "solution": "Since $q(2) = \\frac62 = 3$, we have $p(q(2)) = p(3) = 2-3^2 = \\boxed{-7}$.",
+    "prompt": "### Instruction: If $p (x) = 2-x^2$ and $q(x) = \\frac{6}{x}$, what is the value of $p (q(2))$?\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "To find the value of \\( p(q(2)) \\), we first need to calculate \\( q(2) \\).\nGiven that \\( q(x) = \\frac{6}{x} \\), we can substitute \\( x = 2 \\):\n\\[\nq(2) = \\frac{6}{2} = 3\n\\]\nNext, we need to find \\( p(q(2)) \\), which is \\( p(3) \\).\nGiven that \\( p(x) = 2 - x^2 \\), we substitute \\( x = 3 \\):\n\\[\np(3) = 2 - (3^2)\n\\]\n\\[\np(3) = 2 - 9\n\\]\n\\[\np(3) = -7\n\\]\nTherefore, the value of \\( p(q(2)) \\) is \n\\[\n\\boxed{-7}\n\\]",
+        "To find the value of \\( p(q(2)) \\), we need to first evaluate \\( q(2) \\) using the function \\( q(x) = \\frac{6}{x} \\).\nFirst, we calculate \\( q(2) \\):\n\\[\nq(2) = \\frac{6}{2} = 3\n\\]\nNow that we have \\( q(2) = 3 \\), we can substitute this value into the function \\( p(x) = 2 - x^2 \\) to find \\( p(q(2)) \\):\n\\[\np(q(2)) = p(3)\n\\]\nNext, we calculate \\( p(3) \\):\n\\[\np(3) = 2 - 3^2 = 2 - 9 = -7\n\\]\nThus, the final value of \\( p(q(2)) \\) is:\n\\[\n\\boxed{-7}\n\\]",
+        "First, we need to evaluate \\( q(2) \\) using the function \\( q(x) = \\frac{6}{x} \\).\n\\[\nq(2) = \\frac{6}{2} = 3\n\\]\nNow that we have \\( q(2) = 3 \\), we will evaluate \\( p(q(2)) \\), which means we will find \\( p(3) \\) using the function \\( p(x) = 2 - x^2 \\).\n\\[\np(3) = 2 - (3^2) = 2 - 9 = -7\n\\]\nThus, the value of \\( p(q(2)) \\) is \n\\[\n\\boxed{-7}\n\\]",
+        "To find \\( p(q(2)) \\), we first need to evaluate \\( q(2) \\). \nGiven the function \\( q(x) = \\frac{6}{x} \\), we can substitute \\( x \\) with \\( 2 \\):\n\\[\nq(2) = \\frac{6}{2} = 3\n\\]\nNow that we have \\( q(2) = 3 \\), we can find \\( p(q(2)) \\) which is \\( p(3) \\).\nNext, we need to evaluate \\( p(3) \\) using the function \\( p(x) = 2 - x^2 \\).\nSubstituting \\( x \\) with \\( 3 \\):\n\\[\np(3) = 2 - (3)^2\n\\]\nCalculating \\( (3)^2 \\):\n\\[\n(3)^2 = 9\n\\]\nNow substituting back into the expression for \\( p(3) \\):\n\\[\np(3) = 2 - 9 = -7\n\\]\nThus, the value of \\( p(q(2)) \\) is\n\\[\n\\boxed{-7}\n\\]",
+        "To find the value of \\( p(q(2)) \\), we need to follow these steps:\n1. **Calculate \\( q(2) \\)** using the function \\( q(x) = \\frac{6}{x} \\).\n   \\[\n   q(2) = \\frac{6}{2} = 3\n   \\]\n2. **Now we need to substitute \\( q(2) = 3 \\) into the function \\( p(x) \\)**, where \\( p(x) = 2 - x^2 \\).\n   \\[\n   p(3) = 2 - 3^2\n   \\]\n3. **Calculate \\( 3^2 \\)**:\n   \\[\n   3^2 = 9\n   \\]\n4. **Substitute this result into \\( p(3) \\)**:\n   \\[\n   p(3) = 2 - 9 = -7\n   \\]\nThus, the value of \\( p(q(2)) \\) is \n\\[\n\\boxed{-7}.\n\\]"
+    ],
+    "pred_answers": "-7",
+    "final_pred_answer": [
+        "-7",
+        "-7",
+        "-7",
+        "-7",
+        "-7"
+    ],
+    "ground_truth": "-7"
+}

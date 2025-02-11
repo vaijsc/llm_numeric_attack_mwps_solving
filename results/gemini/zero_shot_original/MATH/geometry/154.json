@@ -1,0 +1,23 @@
+{
+    "problem": "A particular cubic box has edge length two inches. If the box has no top, what is the external surface area of the box?",
+    "level": "Level 1",
+    "type": "Geometry",
+    "solution": "The box has five square faces, each of which has edge length 2 inches.  Hence each square has an area of 4 square inches, and our total area is $5\\cdot 4 = \\boxed{20}$ square inches.",
+    "prompt": "### Instruction: A particular cubic box has edge length two inches. If the box has no top, what is the external surface area of the box?\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "Here's how to solve the problem step-by-step:\n**1. Identify the shapes:**\n* The box has 5 sides: a square base and four rectangular sides.\n**2. Calculate the area of each shape:**\n* **Base:**  Area of a square = side * side = 2 inches * 2 inches = 4 square inches\n* **Side:** Area of a rectangle = length * width = 2 inches * 2 inches = 4 square inches \n**3. Calculate the total surface area:**\n* Total surface area = (area of base) + (4 * area of a side) \n* Total surface area = 4 square inches + (4 * 4 square inches) = 20 square inches\n**Answer:** The external surface area of the box is **20 square inches**. \n",
+        "Here's how to solve this problem step-by-step:\n**1. Identify the Faces:**\n* A cube has 6 faces.\n* Since the box has no top, it has 5 faces.\n**2. Calculate the Area of One Face:**\n* Each face is a square with side length 2 inches.\n* Area of one face = side * side = 2 inches * 2 inches = 4 square inches\n**3. Calculate the Total Surface Area:**\n* Total surface area = Area of one face * Number of faces\n* Total surface area = 4 square inches * 5 = 20 square inches\n**Answer:** The external surface area of the box is **20 square inches**. \n",
+        "Here's how to solve the problem step-by-step:\n**1. Identify the shapes:**\n* The box consists of five faces: \n    * Four square sides\n    * One square bottom\n**2. Calculate the area of one square face:**\n* Area of a square = side * side\n* Area of one square face = 2 inches * 2 inches = 4 square inches\n**3. Calculate the total area of the four sides:**\n* Total area of sides = 4 square faces * 4 square inches/face = 16 square inches\n**4. Calculate the area of the bottom:**\n* Area of the bottom = 2 inches * 2 inches = 4 square inches\n**5. Calculate the total external surface area:**\n* Total surface area = area of sides + area of bottom\n* Total surface area = 16 square inches + 4 square inches = 20 square inches\n**Therefore, the external surface area of the box is 20 square inches.** \n",
+        "Here's how to solve the problem step-by-step:\n**1. Identify the Shapes:**\n* The box has five sides: four square sides and one square base.\n**2. Calculate the Area of Each Side:**\n* Each side is a square with a side length of 2 inches.\n* The area of a square is side * side, so each side has an area of 2 inches * 2 inches = 4 square inches.\n**3. Calculate the Total Surface Area:**\n* There are four sides, each with an area of 4 square inches, for a total of 4 sides * 4 square inches/side = 16 square inches.\n* The base also has an area of 4 square inches.\n**4. Add the Areas:**\n* The total external surface area is 16 square inches + 4 square inches = 20 square inches.\n**Therefore, the external surface area of the box is 20 square inches.** \n",
+        "Here's how to solve the problem step-by-step:\n**1. Identify the shapes:**\n* The box has 5 sides: 4 sides and a bottom.\n* Each side is a square.\n**2. Calculate the area of one side:**\n*  The side length is 2 inches.\n*  The area of a square is side * side.\n*  Area of one side = 2 inches * 2 inches = 4 square inches\n**3. Calculate the total area of the sides:**\n* There are 4 sides.\n* Total area of sides = 4 sides * 4 square inches/side = 16 square inches\n**4. Calculate the area of the bottom:**\n* The bottom is a square with side length 2 inches.\n* Area of the bottom = 2 inches * 2 inches = 4 square inches\n**5. Calculate the total external surface area:**\n* Total surface area = area of sides + area of bottom\n* Total surface area = 16 square inches + 4 square inches = 20 square inches\n**Therefore, the external surface area of the box is 20 square inches.** \n"
+    ],
+    "pred_answers": "20",
+    "final_pred_answer": [
+        "20",
+        "20",
+        "20",
+        "20",
+        "20"
+    ],
+    "ground_truth": "20"
+}

@@ -1,0 +1,23 @@
+{
+    "problem": "Consider the function $g(x)=3x-4$.  What is $g(0)$?",
+    "level": "Level 1",
+    "type": "Algebra",
+    "solution": "We have $g(0) = 3\\cdot 0-4 =0-4=\\boxed{-4}$.",
+    "prompt": "### Instruction: Consider the function $g(x)=3x-4$.  What is $g(0)$?\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "To find \\( g(0) \\) for the function \\( g(x) = 3x - 4 \\), we will substitute \\( x = 0 \\) into the function.\n1. Start with the function definition: \n   \\[\n   g(x) = 3x - 4\n   \\]\n2. Substitute \\( x = 0 \\):\n   \\[\n   g(0) = 3(0) - 4\n   \\]\n3. Calculate \\( 3(0) \\):\n   \\[\n   3(0) = 0\n   \\]\n4. Now substitute this value into the equation:\n   \\[\n   g(0) = 0 - 4\n   \\]\n5. Finally, calculate \\( 0 - 4 \\):\n   \\[\n   g(0) = -4\n   \\]\nThus, the value of \\( g(0) \\) is \\( \\boxed{-4} \\).",
+        "To find \\( g(0) \\) for the function \\( g(x) = 3x - 4 \\), we will substitute \\( x = 0 \\) into the function.\n1. Start with the given function:\n   \\[\n   g(x) = 3x - 4\n   \\]\n2. Substitute \\( x = 0 \\):\n   \\[\n   g(0) = 3(0) - 4\n   \\]\n3. Calculate \\( 3(0) \\):\n   \\[\n   3(0) = 0\n   \\]\n4. Now substitute this back into the equation:\n   \\[\n   g(0) = 0 - 4\n   \\]\n5. Finally, simplify:\n   \\[\n   g(0) = -4\n   \\]\nThus, the value of \\( g(0) \\) is \\(\\boxed{-4}\\).",
+        "To find \\( g(0) \\) for the function \\( g(x) = 3x - 4 \\), we will substitute \\( x = 0 \\) into the function.\n1. Start with the function: \n   \\[\n   g(x) = 3x - 4\n   \\]\n2. Substitute \\( x = 0 \\):\n   \\[\n   g(0) = 3(0) - 4\n   \\]\n3. Calculate the terms:\n   \\[\n   g(0) = 0 - 4\n   \\]\n4. Simplify the result:\n   \\[\n   g(0) = -4\n   \\]\nThus, the value of \\( g(0) \\) is \\(\\boxed{-4}\\).",
+        "To find \\( g(0) \\) for the function \\( g(x) = 3x - 4 \\), we need to substitute \\( 0 \\) into the function in place of \\( x \\).\n1. Start with the function:\n   \\[\n   g(x) = 3x - 4\n   \\]\n2. Substitute \\( x = 0 \\):\n   \\[\n   g(0) = 3(0) - 4\n   \\]\n3. Calculate \\( 3(0) \\):\n   \\[\n   3(0) = 0\n   \\]\n4. Now, substitute \\( 0 \\) back into the equation:\n   \\[\n   g(0) = 0 - 4\n   \\]\n5. Finally, simplify:\n   \\[\n   g(0) = -4\n   \\]\nTherefore, the value of \\( g(0) \\) is \\(\\boxed{-4}\\).",
+        "To find \\( g(0) \\), we start with the function given:\n\\[\ng(x) = 3x - 4\n\\]\nNext, we substitute \\( x = 0 \\) into the function:\n\\[\ng(0) = 3(0) - 4\n\\]\nCalculating \\( 3(0) \\):\n\\[\n3(0) = 0\n\\]\nNow, we substitute this back into the equation:\n\\[\ng(0) = 0 - 4\n\\]\nThis simplifies to:\n\\[\ng(0) = -4\n\\]\nThus, the value of \\( g(0) \\) is \n\\[\n\\boxed{-4}\n\\]"
+    ],
+    "pred_answers": "-4",
+    "final_pred_answer": [
+        "-4",
+        "-4",
+        "-4",
+        "-4",
+        "-4"
+    ],
+    "ground_truth": "-4"
+}

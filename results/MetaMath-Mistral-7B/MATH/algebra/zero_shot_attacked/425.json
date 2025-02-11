@@ -1,0 +1,41 @@
+{
+    "index_adversarial_question": 0,
+    "problem": "Suppose $c$ and $d$ are inversely proportional. If $c=12$ when $d=9$, find the value of $d$ when $c=4$.",
+    "pcot_answer": "# Define the initial value of c when d is known\nc_initial = 9  ### condition: 'c_initial': {'type': 'float', '<=': None, '>=': 0, 'science_constant': False, 'direct_from_question': True}\n# Define the initial value of d when c is known\nd_initial = 8  ### condition: 'd_initial': {'type': 'float', '<=': None, '>=': 0, 'science_constant': False, 'direct_from_question': True}\n# Define the new value of c for which we want to find d\nc_new = 8  ### condition: 'c_new': {'type': 'float', '<=': None, '>=': 0, 'science_constant': False, 'direct_from_question': True}\n# Calculate the constant of proportionality (k) using the initial values\nk = c_initial * d_initial  ### condition: 'k': {'type': 'float', '<=': None, '>=': 0, 'science_constant': False, 'direct_from_question': False}\n# Calculate the value of d when c equals c_new\nd_new = k / c_new  ### condition: 'd_new': {'type': 'float', '<=': None, '>=': 0, 'science_constant': False, 'direct_from_question': False}\n# Print the value of d when c=6\nprint(f\"The value of d when c=6 is: {d_new}\")",
+    "answer": "9",
+    "vllm_responses": [
+        "If $c$ and $d$ are inversely proportional, then we can write the equation $c \\cdot d = k$, where $k$ is a constant.\nWe are given that $c=12$ when $d=9$, so we can substitute these values into the equation to find $k$:\n$12 \\cdot 9 = k$.\nSimplifying, we find that $k=108$.\nNow, we can use this value of $k$ to find the value of $d$ when $c=4$:\n$4 \\cdot d = 108$.\nDividing both sides by 4, we find that $d = \\boxed{27}$.\nThe answer is: 27",
+        "If $c$ and $d$ are inversely proportional, then $c \\cdot d = k$ for some constant $k$.\nWe are given that $c=12$ when $d=9$. Plugging these values into the equation, we get $12 \\cdot 9 = k$, so $k=108$.\nWe want to find the value of $d$ when $c=4$. Plugging these values into the equation, we get $4 \\cdot d = 108$, so $d = \\boxed{27}$.The answer is: 27",
+        "If $c$ and $d$ are inversely proportional, then their product is always constant.\nLet\u2019s denote this constant as $k$.\nSo, $cd=k$.\nWe are given that $c=12$ when $d=9$.\nSubstituting these values into the equation $cd=k$, we get $12\\cdot 9=k$.\nSimplifying, we find that $k=108$.\nNow, we need to find the value of $d$ when $c=4$.\nUsing the equation $cd=k$, we have $4d=108$.\nSimplifying, we find that $d=\\boxed{27}$.\nThe answer is: 27",
+        "Since $c$ and $d$ are inversely proportional, we have $c \\cdot d = k$ for some constant $k$.\nWe are given that $c = 12$ when $d = 9$, so we can substitute these values into the equation to solve for $k$:\n$12 \\cdot 9 = k$\n$k = 108$\nNow we can use this value of $k$ to find $d$ when $c = 4$:\n$4 \\cdot d = 108$\n$d = \\frac{108}{4}$\n$d = \\boxed{27}$\nThe answer is: 27",
+        "If $c$ and $d$ are inversely proportional, then $c \\cdot d = k$ for some constant $k$.\nWe're given that when $c=12$, $d=9$. So using this information, we can find the value of $k$.\n$12 \\cdot 9 = k$, so $k=108$.\nNow we can use this value of $k$ to find the value of $d$ when $c=4$.\n$4 \\cdot d = 108$, so $d = \\boxed{27}$.The answer is: 27",
+        "Since $c$ and $d$ are inversely proportional, their product is always constant.\nSo, we can write $c \\cdot d = k$, where $k$ is some constant.\nWe are given that $c=12$ when $d=9$, so we can find the value of $k$:\n$12 \\cdot 9 = k$,\n$k = 108$.\nNow we can use this value of $k$ to find the value of $d$ when $c=4$:\n$4 \\cdot d = 108$,\n$d = \\frac{108}{4}$,\n$d = \\boxed{27}$.\nThe answer is: 27",
+        "If $c$ and $d$ are inversely proportional, then $cd=k$ for some constant $k$.\nWe can find the value of $k$ by plugging in the given values:\n$12\\cdot9=k$,\nso $k=108$.\nNow we can use this value to find $d$ when $c=4$:\n$4d=108$,\nso $d=\\boxed{27}$.\nThe answer is: 27",
+        "If $c$ and $d$ are inversely proportional, then their product is constant.\nSo, we have $c \\cdot d = k$, where $k$ is a constant.\nWe are given that when $c=12$, $d=9$. So, we have $12 \\cdot 9 = k$, which implies that $k=108$.\nTo find the value of $d$ when $c=4$, we can use the equation $c \\cdot d = k$.\nSubstituting $c=4$ and $k=108$, we get $4 \\cdot d = 108$, which implies that $d = \\boxed{27}$.\nThe answer is: 27",
+        "c$ and $d$ are inversely proportional, we know that their product remains constant. Let\u2019s call this constant $k$. So we have the equation $c \\cdot d = k$. We are given that when $c=12$, $d=9$. So we can substitute these values into the equation to find $k$: $12 \\cdot 9 = k$, which gives us $k=108$. Now we can use this constant to find the value of $d$ when $c=4$: $4 \\cdot d = 108$, which gives us $d = \\frac{108}{4} = \\boxed{27}$. The answer is: 27",
+        "If $c$ and $d$ are inversely proportional,\nthis means that $c$ and $d$ have a product of a constant, say $k$.\nWe can write this relationship as $cd=k$.\nWe are given that $c=12$ when $d=9$,\nso we can substitute these values into the equation to find $k$:\n$12\\cdot9=k$, so $k=108$.\nNow, we can use this value of $k$ to find the value of $d$ when $c=4$:\n$4\\cdot d=108$, so $d=\\frac{108}{4}=\\boxed{27}$.\nThe answer is: 27",
+        "When $c$ and $d$ are inversely proportional, we can write the equation as $cd = k$ for some constant $k$.\nWe are given that $c = 12$ when $d = 9$, so we can use this information to find the value of $k$.\nPlugging in the values, we have $12 \\cdot 9 = k$, so $k = 108$.\nNow we can use this value of $k$ to find the value of $d$ when $c = 4$.\nWe have $4 \\cdot d = 108$, so $d = \\frac{108}{4} = \\boxed{27}$.\nThe answer is: 27",
+        "Since $c$ and $d$ are inversely proportional, we can write the equation $c \\cdot d = k$, where $k$ is a constant.\nWe are given that $c = 12$ when $d = 9$, so we can substitute these values into the equation to solve for $k$:\n$12 \\cdot 9 = k$,\n$k = 108$.\nNow we can use this value of $k$ to find the value of $d$ when $c = 4$:\n$4 \\cdot d = 108$,\n$d = \\boxed{27}$.The answer is: 27",
+        "Since $c$ and $d$ are inversely proportional, we can write the equation $c \\cdot d = k$, where $k$ is a constant.\nTo find the value of $k$, we can substitute the given values of $c$ and $d$ into the equation.\nWhen $c=12$ and $d=9$, we have $12 \\cdot 9 = k$, so $k=108$.\nNow we can use this value of $k$ to find the value of $d$ when $c=4$.\nWe have $4 \\cdot d = 108$, so $d = \\frac{108}{4} = \\boxed{27}$.\nThe answer is: 27",
+        "If $c$ and $d$ are inversely proportional, then we can write an equation of the form $cd = k$, where $k$ is a constant.\nWe are given that $c=12$ when $d=9$, so we can plug these values into the equation to find $k$: $12 \\cdot 9 = k$, $k=108$.\nNow we can use this value of $k$ to find the value of $d$ when $c=4$: $4 \\cdot d = 108$, $d = \\frac{108}{4}$, $d = \\boxed{27}$.\nThe answer is: 27",
+        "Since $c$ and $d$ are inversely proportional, their product is constant.\nLet's call this constant $k$.\nSo, we have $c \\cdot d = k$.\nWhen $c=12$ and $d=9$, we can solve for $k$:\n$12 \\cdot 9 = k$,\n$k=108$.\nNow, we can use this value of $k$ to find $d$ when $c=4$:\n$4 \\cdot d = 108$,\n$d = \\frac{108}{4}$,\n$d = \\boxed{27}$.The answer is: 27"
+    ],
+    "vllm_answers": [
+        "27",
+        "27",
+        "27",
+        "27",
+        "27",
+        "27",
+        "27",
+        "27",
+        "27",
+        "27",
+        "27",
+        "27",
+        "27",
+        "27",
+        "27"
+    ],
+    "vllm_pred_answer": "27"
+}

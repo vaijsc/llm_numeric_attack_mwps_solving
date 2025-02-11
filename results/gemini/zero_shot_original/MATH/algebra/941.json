@@ -1,0 +1,23 @@
+{
+    "problem": "Evaluate $\\lceil{\\sqrt{20}}\\rceil^2$.",
+    "level": "Level 3",
+    "type": "Algebra",
+    "solution": "Since $\\sqrt{16}<\\sqrt{20}<\\sqrt{25}$, or, equivalently, $4<\\sqrt{20}<5$, the smallest integer greater than or equal to $\\sqrt{20}$ must be $5$. Thus, $\\lceil{\\sqrt{20}}\\rceil^2=5^2=\\boxed{25}$.",
+    "prompt": "### Instruction: Evaluate $\\lceil{\\sqrt{20}}\\rceil^2$.\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "Here's how to evaluate the expression step-by-step:\n1. **Find the square root:**  \u221a20 is between 4 and 5, since 4\u00b2 = 16 and 5\u00b2 = 25. \n2. **Apply the ceiling function:**  The ceiling function, denoted by  \u2308  \u2309 , gives the smallest integer greater than or equal to the input. Since \u221a20 is between 4 and 5,  \u2308\u221a20\u2309 = 5.\n3. **Square the result:** 5\u00b2 = 25\nTherefore,  \u2308\u221a20\u2309\u00b2 = **25**. \n",
+        "Here's how to evaluate the expression step-by-step:\n1. **Find the square root:**  \u221a20 is between 4 and 5 (since 4\u00b2 = 16 and 5\u00b2 = 25). \n2. **Apply the ceiling function:** The ceiling function, denoted by  \u2308  \u2309, rounds a number up to the nearest integer. Since \u221a20 is between 4 and 5,  \u2308\u221a20\u2309 = 5.\n3. **Square the result:** 5\u00b2 = 25\n**Therefore, \u2308\u221a20\u2309\u00b2 = 25** \n",
+        "Here's how to evaluate the expression step-by-step:\n1. **Find the square root of 20:**  The square root of 20 is between 4 and 5, since 4\u00b2 = 16 and 5\u00b2 = 25.  \n2. **Apply the ceiling function:** The ceiling function, denoted by $\\lceil x \\rceil$, rounds a number *up* to the nearest integer. Since the square root of 20 is between 4 and 5,  $\\lceil{\\sqrt{20}}\\rceil = 5$.\n3. **Square the result:**  5\u00b2 = 25\n**Therefore,  $\\lceil{\\sqrt{20}}\\rceil^2 = 25$** \n",
+        "Here's how to evaluate the expression step-by-step:\n1. **Find the square root:**  \u221a20 is between 4 and 5, since 4\u00b2 = 16 and 5\u00b2 = 25. \n2. **Apply the ceiling function:**  The ceiling function, denoted by  \u2308  \u2309, rounds a number up to the nearest integer. Since \u221a20 is between 4 and 5,  \u2308\u221a20\u2309 = 5.\n3. **Square the result:** 5\u00b2 = 25\n**Therefore,  \u2308\u221a20\u2309\u00b2 = 25** \n",
+        "Here's how to evaluate the expression step-by-step:\n1. **Find the square root:**  \u221a20 is between 4 and 5, since 4\u00b2 = 16 and 5\u00b2 = 25. \n2. **Apply the ceiling function:** The ceiling function, denoted by  \u2308  \u2309 , rounds a number up to the nearest integer. Since \u221a20 is between 4 and 5,  \u2308\u221a20\u2309 = 5.\n3. **Square the result:** 5\u00b2 = 25.\n**Therefore,  \u2308\u221a20\u2309\u00b2 = 25.** \n"
+    ],
+    "pred_answers": "25",
+    "final_pred_answer": [
+        "25",
+        "25",
+        "25",
+        "25",
+        "25"
+    ],
+    "ground_truth": "25"
+}

@@ -1,0 +1,41 @@
+{
+    "index_adversarial_question": 1,
+    "problem": "If $h(x) = \\sqrt{\\frac{x+3}{2}}$, what is the value of $h(2)$?",
+    "pcot_answer": "# Define the input value for x\nx = -1  ### condition: 'x': {'type': 'int', '<=': None, '>=': -3, 'science_constant': False, 'direct_from_question': True}\n# Calculate the value of the function h(x)\nnumerator = x + 3  ### condition: 'numerator': {'type': 'int', '<=': None, '>=': 0, 'science_constant': False, 'direct_from_question': False}\n# Define the denominator constant\ndenominator = 2  ### condition: 'denominator': {'type': 'int', '<=': None, '>=': 1, 'science_constant': True, 'direct_from_question': True}\n# Assert that the numerator is non-negative before calculating the square root\nassert numerator % 1 == 0, \"The numerator must be a whole number for the function to be valid.\"\n# Calculate the value of h(x)\nh_x = (numerator / denominator) ** 0.5  ### condition: 'h_x': {'type': 'float', '<=': None, '>=': 0, 'science_constant': False, 'direct_from_question': False}\n# Print the value of h(-1)\nprint(f\"The value of h(-1) is: {h_x}\")",
+    "answer": "1",
+    "vllm_responses": [
+        "To find $h(2)$, we substitute $x=2$ into the expression for $h(x)$.\n$h(2) = \\sqrt{\\frac{2+3}{2}}$\n$h(2) = \\sqrt{\\frac{5}{2}}$\n$h(2) = \\sqrt{\\frac{5}{2}} \\cdot \\frac{\\sqrt{2}}{\\sqrt{2}}$\n$h(2) = \\frac{\\sqrt{10}}{\\sqrt{2}}$\n$h(2) = \\frac{\\sqrt{10}}{\\sqrt{2}} \\cdot \\frac{\\sqrt{2}}{\\sqrt{2}}$\n$h(2) = \\frac{\\sqrt{20}}{2}$\n$h(2) = \\frac{\\sqrt{4 \\cdot 5}}{2}$\n$h(2) = \\frac{2\\sqrt{5}}{2}$\n$h(2) = \\boxed{\\sqrt{5}}$\nThe answer is: \\sqrt{5}",
+        "To find $h(2)$, we substitute $x=2$ into the function $h(x)$.\n$h(2) = \\sqrt{\\frac{2+3}{2}} = \\sqrt{\\frac{5}{2}}$.\nSimplifying further, $h(2) = \\sqrt{\\frac{5}{2}} = \\frac{\\sqrt{5}}{\\sqrt{2}} = \\frac{\\sqrt{5}}{\\sqrt{2}} \\cdot \\frac{\\sqrt{2}}{\\sqrt{2}} = \\frac{\\sqrt{10}}{2}$.\nTherefore, the value of $h(2)$ is $\\boxed{\\frac{\\sqrt{10}}{2}}$.\nThe answer is: \\frac{\\sqrt{10}}{2}",
+        "To find $h(2)$, we substitute $x=2$ into the expression for $h(x)$.\nWe have $h(2) = \\sqrt{\\frac{2+3}{2}}$.\nSimplifying the expression inside the square root, we get $h(2) = \\sqrt{\\frac{5}{2}}$.\nTo simplify this further, we can write $\\frac{5}{2}$ as $\\left(\\frac{5}{2}\\right)^2$.\nTherefore, $h(2) = \\sqrt{\\left(\\frac{5}{2}\\right)^2} = \\frac{5}{2}$.\nSo the value of $h(2)$ is $\\boxed{\\frac{5}{2}}$.\nThe answer is: \\frac{5}{2}",
+        "To find $h(2)$, we substitute $x=2$ into the expression for $h(x)$.\nWe have \\[h(2) = \\sqrt{\\frac{2+3}{2}} = \\sqrt{\\frac{5}{2}} = \\boxed{\\frac{\\sqrt{5}}{2}}.\\]\nThe answer is: \\frac{\\sqrt{5}}{2}",
+        "o find $h(2)$.\nWe substitute $x = 2$ into the function $h(x) = \\sqrt{\\frac{x+3}{2}}$.\nThis gives us $h(2) = \\sqrt{\\frac{2+3}{2}}$.\nSimplifying the expression inside the square root, we have $h(2) = \\sqrt{\\frac{5}{2}}$.\nTo simplify further, we can rationalize the denominator by multiplying both the numerator and denominator by $\\sqrt{2}$.\nThis gives us $h(2) = \\frac{\\sqrt{5}}{\\sqrt{2}}$.\nSince $\\sqrt{2}$ can be simplified to $\\frac{\\sqrt{4}}{\\sqrt{1}}$, we have $h(2) = \\frac{\\sqrt{5}}{1}$.\nFinally, simplifying $\\frac{\\sqrt{5}}{1}$ gives us $h(2) = \\boxed{\\sqrt{5}}$.\nThe answer is: \\sqrt{5}",
+        "To find $h(2)$, we substitute $x = 2$ into the expression for $h(x)$.\n\\begin{align*}\nh(2) &= \\sqrt{\\frac{2 + 3}{2}} \\\\\n&= \\sqrt{\\frac{5}{2}} \\\\\n&= \\frac{\\sqrt{5}}{\\sqrt{2}} \\\\\n&= \\frac{\\sqrt{5}}{\\sqrt{2}} \\cdot \\frac{\\sqrt{2}}{\\sqrt{2}} \\\\\n&= \\frac{\\sqrt{5} \\cdot \\sqrt{2}}{\\sqrt{2} \\cdot \\sqrt{2}} \\\\\n&= \\frac{\\sqrt{10}}{2} \\\\\n&= \\boxed{\\frac{\\sqrt{10}}{2}}.\n\\end{align*}\nThe answer is: \\frac{\\sqrt{10}}{2}",
+        "$h(2)$ means we are plugging 2 into the function $h(x)$.\nSo we have $h(2) = \\sqrt{\\frac{2+3}{2}}$\nSimplifying inside the square root, we have $h(2) = \\sqrt{\\frac{5}{2}}$\nSimplifying further, we have $h(2) = \\frac{\\sqrt{5}}{sqrt{2}}$\nRationalizing the denominator, we have $h(2) = \\frac{\\sqrt{5}}{\\sqrt{2}}\\cdot\\frac{\\sqrt{2}}{\\sqrt{2}}$\nSimplifying, we have $h(2) = \\frac{\\sqrt{10}}{2}$\nTherefore, the value of $h(2)$ is $\\boxed{\\frac{\\sqrt{10}}{2}}$.The answer is: \\frac{\\sqrt{10}}{2}",
+        "To find $h(2)$, we substitute 2 for $x$ in the expression for $h(x)$.\n$$h(2) = \\sqrt{\\frac{2+3}{2}}$$\n$$h(2) = \\sqrt{\\frac{5}{2}}$$\n$$h(2) = \\sqrt{\\frac{5}{2}}$$\nTherefore, the value of $h(2)$ is $\\sqrt{\\frac{5}{2}}$.\nThe answer is: \\frac{\\sqrt{5}}{sqrt{2}}",
+        "To find $h(2)$, we substitute $x=2$ into the function $h(x)$.\n\\begin{align*}\nh(2)&=\\sqrt{\\frac{2+3}{2}} \\\\\n&=\\sqrt{\\frac{5}{2}} \\\\\n&=\\frac{\\sqrt{5}}{\\sqrt{2}} \\\\\n&= \\frac{\\sqrt{5}}{\\sqrt{2}} \\cdot \\frac{\\sqrt{2}}{\\sqrt{2}} \\\\\n&= \\frac{\\sqrt{10}}{2}.\n\\end{align*}\nTherefore, $h(2) = \\boxed{\\frac{\\sqrt{10}}{2}}$.The answer is: \\frac{\\sqrt{10}}{2}",
+        "To find $h(2)$, we substitute $x=2$ into the equation $h(x) = \\sqrt{\\frac{x+3}{2}}$.\nWe have $h(2) = \\sqrt{\\frac{2+3}{2}} = \\sqrt{\\frac{5}{2}}$.\nSimplifying, we get $\\sqrt{\\frac{5}{2}} = \\frac{\\sqrt{5}}{\\sqrt{2}} = \\frac{\\sqrt{5}}{\\sqrt{2}} \\cdot \\frac{\\sqrt{2}}{\\\u221a{2}} = \\frac{\\sqrt{10}}{2}$.\nTherefore, the value of $h(2)$ is $\\boxed{\\frac{\\sqrt{10}}{2}}$.\nThe answer is: \\frac{\\sqrt{10}}{2}",
+        "To find $h(2)$, we plug in $x=2$ into the expression for $h(x)$:\n\\[h(2) = \\sqrt{\\frac{2+3}{2}} = \\sqrt{\\frac{5}{2}}.\\]\nWe can simplify this expression by factoring out the largest perfect square from the numerator:\n\\[h(2) = \\sqrt{\\frac{5}{2}} = \\sqrt{\\frac{25}{4}}.\\]\nFinally, we simplify further by taking the square root of the numerator and denominator separately:\n\\[h(2) = \\sqrt{\\frac{25}{4}} = \\frac{\\sqrt{25}}{\\sqrt{4}} = \\frac{5}{2}.\\]\nSo, the value of $h(2)$ is $\\boxed{\\frac{5}{2}}$.\nThe answer is: \\frac{5}{2}",
+        "To find $h(2)$, we substitute $x = 2$ into the expression for $h(x)$.\n$h(2) = \\sqrt{\\frac{2+3}{2}} = \\sqrt{\\frac{5}{2}} = \\frac{\\sqrt{5}}{\\sqrt{2}} = \\frac{\\sqrt{5}}{\\sqrt{2}} \\cdot \\frac{\\sqrt{2}}{\\sqrt{2}} = \\frac{\\sqrt{10}}{2}$\nSo, the value of $h(2)$ is $\\boxed{\\frac{\\sqrt{10}}{2}}$.The answer is: \\frac{\\sqrt{10}}{2}",
+        "To find $h(2)$, we substitute $x=2$ into the expression for $h(x)$.\n$$h(2) = \\sqrt{\\frac{2+3}{2}} = \\sqrt{\\frac{5}{2}} = \\frac{\\sqrt{5}}{\\sqrt{2}} = \\frac{\\sqrt{5}\\sqrt{2}}{\\sqrt{2}\\sqrt{2}} = \\frac{\\sqrt{10}}{2}.$$\nSo, the value of $h(2)$ is $\\boxed{\\frac{\\sqrt{10}}{2}}$.\nThe answer is: \\frac{\\sqrt{10}}{2}",
+        "\nTo find $h(2)$, we substitute $x=2$ into the expression for $h(x)$.\nWe have:\n$h(2) = \\sqrt{\\frac{2+3}{2}} = \\sqrt{\\frac{5}{2}} = \\sqrt{\\frac{5}{2}} \\cdot \\frac{\\sqrt{2}}{\\sqrt{2}} = \\frac{\\sqrt{10}}{\\sqrt{2}} = \\frac{\\sqrt{10}}{\\sqrt{2}} \\cdot \\frac{\\sqrt{2}}{\\sqrt{2}} = \\frac{\\sqrt{20}}{2}$\nSimplifying, we get:\n$h(2) = \\frac{\\sqrt{20}}{2} = \\frac{\\sqrt{4 \\cdot 5}}{2} = \\frac{2\\sqrt{5}}{2} = \\boxed{\\sqrt{5}}$\nThe answer is: \\sqrt{5}",
+        "To find the value of $h(2)$, we substitute $x=2$ into the given expression for $h(x)$.\nWe have $h(2) = \\sqrt{\\frac{2+3}{2}}$.\nSimplifying inside the square root, we get $h(2) = \\sqrt{\\frac{5}{2}}$.\nTo simplify the square root, we can write $\\frac{5}{2}$ as $\\frac{1}{2}^2 \\cdot 5$.\nTaking the square root of $\\frac{1}{2}^2$, we get $\\frac{1}{2}$.\nSo, $h(2) = \\frac{1}{2} \\cdot \\sqrt{5}$.\nTherefore, the value of $h(2)$ is $\\boxed{\\frac{\\sqrt{5}}{2}}$.The answer is: \\frac{\\sqrt{5}}{2}"
+    ],
+    "vllm_answers": [
+        "5",
+        "2",
+        "2",
+        "2",
+        "5",
+        "2",
+        "2",
+        "2",
+        "2",
+        "2",
+        "2",
+        "2",
+        "2",
+        "5",
+        "2"
+    ],
+    "vllm_pred_answer": "2"
+}

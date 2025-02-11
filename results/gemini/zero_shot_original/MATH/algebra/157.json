@@ -1,0 +1,23 @@
+{
+    "problem": "If $f (x) = x + 2$ and $g (x) = x^2$, then for what value of $x$ does $f(g(x)) = g(f(x))$? Express your answer as a common fraction.",
+    "level": "Level 4",
+    "type": "Algebra",
+    "solution": "We have that $f(g(x)) = f(x^2) = x^2 + 2$ and $g(f(x)) = g(x + 2) = (x + 2)^2 = x^2 + 4x + 4,$ so we want to solve\n\\[x^2 + 2 = x^2 + 4x + 4.\\]This simplifies to $4x = -2,$ so $x = \\boxed{-\\frac{1}{2}}.$",
+    "prompt": "### Instruction: If $f (x) = x + 2$ and $g (x) = x^2$, then for what value of $x$ does $f(g(x)) = g(f(x))$? Express your answer as a common fraction.\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "Here's how to solve the problem step-by-step:\n**1. Find  f(g(x))**\n* Substitute the expression for *g(x)* into *f(x)*:\n   *  f(g(x)) = f(x\u00b2) = x\u00b2 + 2\n**2. Find g(f(x))**\n* Substitute the expression for *f(x)* into *g(x)*:\n   * g(f(x)) = g(x + 2) = (x + 2)\u00b2 = x\u00b2 + 4x + 4\n**3. Set the expressions equal to each other and solve for x**\n* We want to find the value of *x* where f(g(x)) = g(f(x)):\n   * x\u00b2 + 2 = x\u00b2 + 4x + 4\n**4. Simplify and solve**\n* Subtract x\u00b2 from both sides:\n   * 2 = 4x + 4\n* Subtract 4 from both sides:\n   * -2 = 4x\n* Divide both sides by 4:\n   * x = **-1/2** \nTherefore, the value of *x* that satisfies the equation is **-1/2**. \n",
+        "Here's how to solve the problem step-by-step:\n1. **Find  f(g(x))**: \n   * Substitute *g(x)* into the function *f(x)*:\n     *  f(g(x)) = f(x\u00b2) = x\u00b2 + 2\n2. **Find g(f(x))**:\n   * Substitute *f(x)* into the function *g(x)*:\n     * g(f(x)) = g(x + 2) = (x + 2)\u00b2 = x\u00b2 + 4x + 4\n3. **Set the expressions equal**:\n   * We want to find the value of *x* where f(g(x)) = g(f(x)). So:\n     * x\u00b2 + 2 = x\u00b2 + 4x + 4\n4. **Solve for x**:\n   * Subtract x\u00b2 from both sides:\n     * 2 = 4x + 4\n   * Subtract 4 from both sides:\n     * -2 = 4x\n   * Divide both sides by 4:\n     * x = **-1/2** \nTherefore, the value of *x* that satisfies the equation is **-1/2**. \n",
+        "Here's how to solve the problem step-by-step:\n**1. Find  f(g(x))**\n*  Substitute  *g(x)* into the function *f(x)*:\n   *  *f(g(x)) = g(x) + 2 = x\u00b2 + 2*\n**2. Find g(f(x))**\n* Substitute *f(x)* into the function *g(x)*:\n   * *g(f(x)) = (f(x))\u00b2 = (x + 2)\u00b2 = x\u00b2 + 4x + 4*\n**3. Set the two expressions equal to each other**\n* *f(g(x)) = g(f(x))*\n* *x\u00b2 + 2 = x\u00b2 + 4x + 4*\n**4. Solve for x**\n* Subtract *x\u00b2* from both sides: *2 = 4x + 4*\n* Subtract *4* from both sides: *-2 = 4x*\n* Divide both sides by *4*: *x = -1/2*\n**Therefore, the value of x that makes *f(g(x)) = g(f(x))* is  x = -1/2.** \n",
+        "Here's how to solve the problem step-by-step:\n**1. Find f(g(x))**\n*  Substitute  `g(x) = x^2` into the function `f(x) = x + 2`:\n   *  `f(g(x)) = f(x^2) = x^2 + 2`\n**2. Find g(f(x))**\n* Substitute `f(x) = x + 2` into the function `g(x) = x^2`:\n   * `g(f(x)) = g(x + 2) = (x + 2)^2`\n**3. Set the expressions equal to each other**\n* We want to find the value of *x* where `f(g(x)) = g(f(x))`.  So:\n   * `x^2 + 2 = (x + 2)^2`\n**4. Solve the equation**\n* Expand the right side: `x^2 + 2 = x^2 + 4x + 4`\n* Subtract `x^2` from both sides: `2 = 4x + 4`\n* Subtract 4 from both sides: `-2 = 4x`\n* Divide both sides by 4: `x = -1/2`\n**Answer:** The value of *x* that satisfies the equation is **-1/2**. \n",
+        "Here's how to solve the problem step-by-step:\n**1. Find  f(g(x))**\n* Substitute  g(x) into the function f(x):\n   *  f(g(x)) = f(x\u00b2) = x\u00b2 + 2\n**2. Find g(f(x))**\n* Substitute f(x) into the function g(x):\n   * g(f(x)) = g(x + 2) = (x + 2)\u00b2 = x\u00b2 + 4x + 4\n**3. Set the expressions equal to each other**\n* We want to find the value of x where f(g(x)) = g(f(x)), so:\n   * x\u00b2 + 2 = x\u00b2 + 4x + 4\n**4. Solve for x**\n* Subtract x\u00b2 from both sides:\n   * 2 = 4x + 4\n* Subtract 4 from both sides:\n   * -2 = 4x\n* Divide both sides by 4:\n   * x = **-1/2** \nTherefore, the value of x that satisfies the equation is **-1/2**. \n"
+    ],
+    "pred_answers": "2",
+    "final_pred_answer": [
+        "2",
+        "2",
+        "2",
+        "-1",
+        "2"
+    ],
+    "ground_truth": "2"
+}

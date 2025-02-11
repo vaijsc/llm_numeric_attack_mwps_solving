@@ -1,0 +1,23 @@
+{
+    "problem": "Compute $\\displaystyle \\binom{11}{4}$.",
+    "level": "Level 2",
+    "type": "Counting & Probability",
+    "solution": "By the equation $$ \\dbinom{n}{r} = \\frac{n!}{r!(n-r)!} $$we have $$ \\binom{11}{4} = \\frac{11!}{4!7!}. $$$$ \\binom{11}{4} = \\frac{11 \\times 10 \\times 9 \\times 8 \\times 7 \\times 6 \\times 5 \\times 4 \\times 3 \\times 2 \\times1}{(4 \\times 3 \\times 2 \\times 1)\\times (7 \\times 6 \\times 5 \\times 4 \\times 3 \\times 2 \\times1)}. $$This leaves us with just the first 4 terms of $11!$ in the numerator, and $4!$ in the denominator.  Thus: $$ \\binom{11}{4} = \\frac{11!}{4!7!} = \\frac{11 \\times 10 \\times 9 \\times 8}{4 \\times 3 \\times 2 \\times 1} = \\boxed{330}. $$",
+    "prompt": "### Instruction: Compute $\\displaystyle \\binom{11}{4}$.\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "Here's how to compute  $\\binom{11}{4}$ step-by-step:\n**Understanding the Notation**\n* $\\binom{n}{k}$ represents the binomial coefficient, which counts the number of ways to choose *k* items from a set of *n* items. It's read as \"n choose k\".\n**The Formula**\nThe formula for the binomial coefficient is:\n  $$\\binom{n}{k} = \\frac{n!}{k!(n-k)!}$$\nwhere \"!\" denotes the factorial (e.g., 5! = 5 * 4 * 3 * 2 * 1).\n**Calculation**\n1. **Substitute the values:**\n   In our case,  n = 11 and k = 4.  So we have:\n   $$\\binom{11}{4} = \\frac{11!}{4!(11-4)!}$$\n2. **Simplify the factorials:**\n   $$\\binom{11}{4} = \\frac{11!}{4!7!}$$\n   $$\\binom{11}{4} = \\frac{11 \\times 10 \\times 9 \\times 8 \\times 7!}{4 \\times 3 \\times 2 \\times 1 \\times 7!}$$\n3. **Cancel out the 7!:**\n   $$\\binom{11}{4} = \\frac{11 \\times 10 \\times 9 \\times 8}{4 \\times 3 \\times 2 \\times 1}$$\n4. **Calculate the result:**\n   $$\\binom{11}{4} = \\frac{7920}{24} = \\boxed{330}$$\n**Therefore, $\\binom{11}{4} = 330$.** \n",
+        "Here's how to compute $\\binom{11}{4}$ step-by-step:\n**Understanding the Formula**\nThe binomial coefficient $\\binom{n}{k}$ represents the number of ways to choose a group of *k* items from a set of *n* distinct items.  It's calculated using the following formula:\n$$\\binom{n}{k} = \\frac{n!}{k!(n-k)!}$$\nwhere \"!\" denotes the factorial (e.g., 5! = 5 * 4 * 3 * 2 * 1).\n**Applying the Formula**\n1. **Substitute:** In our case, we have  *n* = 11 and *k* = 4. So, we get:\n   $$\\binom{11}{4} = \\frac{11!}{4!(11-4)!}$$\n2. **Simplify:**\n   $$\\binom{11}{4} = \\frac{11!}{4!7!}$$\n3. **Calculate factorials:**\n   $$\\binom{11}{4} = \\frac{11 \\times 10 \\times 9 \\times 8 \\times 7!}{4 \\times 3 \\times 2 \\times 1 \\times 7!}$$\n4. **Cancel common factors:**\n   $$\\binom{11}{4} = \\frac{11 \\times 10 \\times 9 \\times 8}{4 \\times 3 \\times 2 \\times 1}$$\n5. **Calculate:**\n   $$\\binom{11}{4} = \\frac{7920}{24} = \\boxed{330}$$\n**Therefore, $\\binom{11}{4} = 330$.** \n",
+        "We have that  \\[\\binom{11}{4} = \\frac{11!}{4!7!} = \\frac{11 \\times 10 \\times 9 \\times 8}{4 \\times 3 \\times 2 \\times 1} = \\boxed{330}.\\]",
+        "We have that \n\\[\\binom{11}{4} = \\frac{11!}{4!7!} = \\frac{11 \\times 10 \\times 9 \\times 8}{4 \\times 3 \\times 2 \\times 1} = \\boxed{330}.\\]",
+        "We know that $\\binom{n}{k} = \\frac{n!}{k!(n-k)!}$.\nSo, $\\binom{11}{4} = \\frac{11!}{4!(11-4)!} = \\frac{11!}{4!7!}$.\nLet's compute the factorials:\n* $11! = 11 \\times 10 \\times 9 \\times 8 \\times 7! = 3991680$\n* $4! = 4 \\times 3 \\times 2 \\times 1 = 24$\n* $7! = 7 \\times 6 \\times 5 \\times 4 \\times 3 \\times 2 \\times 1 = 5040$\nNow we can plug these values back into our equation:\n$\\binom{11}{4} = \\frac{11!}{4!7!} = \\frac{3991680}{24 \\times 5040} = \\boxed{330}$. \n"
+    ],
+    "pred_answers": "330",
+    "final_pred_answer": [
+        "330",
+        "330",
+        "330",
+        "330",
+        "330"
+    ],
+    "ground_truth": "330"
+}

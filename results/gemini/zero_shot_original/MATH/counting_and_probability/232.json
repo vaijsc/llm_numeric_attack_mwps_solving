@@ -1,0 +1,23 @@
+{
+    "problem": "By what integer factor must 9! be multiplied to equal 11!?",
+    "level": "Level 1",
+    "type": "Counting & Probability",
+    "solution": "We can divide the two factorials: $\\frac{11!}{9!} = \\frac{11\\cdot 10\\cdot 9!}{9!} = \\boxed{110}$.",
+    "prompt": "### Instruction: By what integer factor must 9! be multiplied to equal 11!?\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "Here's how to solve this step-by-step:\n**Understanding Factorials**\n* A factorial (denoted by !) means multiplying a number by all the positive whole numbers less than it. \n* For example, 5! = 5 * 4 * 3 * 2 * 1 = 120\n**Setting up the Problem**\nWe want to find the integer factor that makes this equation true:\n9! * x = 11!\n**Expanding the Factorials**\nLet's write out the factorials:\n(9 * 8 * 7 * 6 * 5 * 4 * 3 * 2 * 1) * x = (11 * 10 * 9 * 8 * 7 * 6 * 5 * 4 * 3 * 2 * 1)\n**Simplifying**\nNotice that 9! appears on both sides of the equation.  We can cancel it out:\nx = 11 * 10\n**Solution**\nTherefore, x = 110.\n**Answer:** 9! must be multiplied by **110** to equal 11!. \n",
+        "Here's how to solve this step-by-step:\n**Understanding Factorials**\n* A factorial (represented by the exclamation mark \"!\") means multiplying a number by all the positive whole numbers less than it.\n* For example: 5! = 5 * 4 * 3 * 2 * 1 = 120\n**Finding the Factor**\n1. **Expand 11!:** 11! = 11 * 10 * 9 * 8 * 7 * 6 * 5 * 4 * 3 * 2 * 1\n2. **Expand 9!:** 9! = 9 * 8 * 7 * 6 * 5 * 4 * 3 * 2 * 1 \n3. **Notice the pattern:**  11! is the same as 9! multiplied by 11 * 10 \n**The Answer**\nTherefore, you need to multiply 9! by **110** to get 11! \n",
+        "Here's how to solve this step-by-step:\n**1. Understand Factorials:**\n* A factorial (represented by the exclamation mark \"!\") means multiplying a number by all the positive whole numbers less than it. \n* For example, 5! = 5 * 4 * 3 * 2 * 1 = 120.\n**2. Expand the Factorials:**\n* 9! = 9 * 8 * 7 * 6 * 5 * 4 * 3 * 2 * 1\n* 11! = 11 * 10 * 9 * 8 * 7 * 6 * 5 * 4 * 3 * 2 * 1\n**3. Identify the Difference:**\nNotice that 11! includes all the factors of 9! plus the extra factors of 11, 10.\n**4. Calculate the Factor:**\nTo get from 9! to 11!, we need to multiply by 11 * 10 = 110.\n**Answer:** You must multiply 9! by **110** to equal 11!. \n",
+        "Here's how to solve this step-by-step:\n**Understanding Factorials**\n* A factorial (denoted by !) means multiplying a number by all the positive whole numbers less than it. \n* For example, 5! = 5 * 4 * 3 * 2 * 1 = 120\n**Breaking Down the Problem**\n* 11! = 11 * 10 * 9 * 8 * 7 * 6 * 5 * 4 * 3 * 2 * 1\n* 9! = 9 * 8 * 7 * 6 * 5 * 4 * 3 * 2 * 1\n**Finding the Factor**\nNotice that 11! has the same factors as 9! plus the extra factors of 11 and 10.  \nTherefore, to get from 9! to 11!, we need to multiply by 11 * 10.\n**Calculation**\n11 * 10 = 110\n**Answer:** 9! must be multiplied by **110** to equal 11!. \n",
+        "Here's how to solve this step-by-step:\n**Understanding Factorials**\n* A factorial (denoted by !) means multiplying a number by all the positive whole numbers less than it. \n* For example: 5! = 5 * 4 * 3 * 2 * 1 = 120\n**Breaking down the problem:**\n* 11! = 11 * 10 * 9 * 8 * 7 * 6 * 5 * 4 * 3 * 2 * 1\n* 9! = 9 * 8 * 7 * 6 * 5 * 4 * 3 * 2 * 1\n**Finding the missing factor:**\nNotice that 11! includes all the factors of 9! plus the extra factors 11 and 10.\nTherefore, to get from 9! to 11!, we need to multiply by 11 * 10.\n**Answer:** 9! must be multiplied by **110** to equal 11!. \n"
+    ],
+    "pred_answers": "9",
+    "final_pred_answer": [
+        "9",
+        "11",
+        "9",
+        "9",
+        "9"
+    ],
+    "ground_truth": "110"
+}

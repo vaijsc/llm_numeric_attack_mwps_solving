@@ -1,0 +1,23 @@
+{
+    "problem": "Given $x = -2$ find the value of $2x^2+3x+4$.",
+    "level": "Level 1",
+    "type": "Algebra",
+    "solution": "We substitute the value of $x$ into the expression. $$2(-2)^2+3(-2)+4=2(4)-6+4=\\boxed{6}$$",
+    "prompt": "### Instruction: Given $x = -2$ find the value of $2x^2+3x+4$.\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "1. **Substitute:** Replace every 'x' in the expression with -2: \n   2(-2)^2 + 3(-2) + 4\n2. **Simplify exponents:**  (-2)^2 = 4\n   2(4) + 3(-2) + 4\n3. **Multiply:** \n   8 - 6 + 4\n4. **Add:**\n   8 - 6 + 4 = 6\n**Therefore, the value of the expression 2x\u00b2 + 3x + 4 when x = -2 is 6.** \n",
+        "1. **Substitute:**  Replace 'x' with -2 in the expression: \n   2(-2)^2 + 3(-2) + 4\n2. **Simplify the exponent:**  (-2)^2 = 4\n   2(4) + 3(-2) + 4\n3. **Multiply:**\n   8 - 6 + 4\n4. **Add:**\n   8 - 6 + 4 = 6\n**Therefore, when x = -2, the value of 2x^2 + 3x + 4 is 6.** \n",
+        "Here's how to solve the problem step-by-step:\n1. **Substitute:** Replace every 'x' in the expression with '-2':\n   \n   2 * (-2)^2 + 3 * (-2) + 4\n2. **Simplify exponents:** Calculate (-2)^2, which is (-2) * (-2) = 4\n   2 * 4 + 3 * (-2) + 4\n3. **Multiplication:** Multiply the coefficients:\n   8 - 6 + 4\n4. **Addition:** Add the numbers together:\n   8 - 6 + 4 = 6\n**Therefore, when x = -2, the value of 2x\u00b2 + 3x + 4 is 6.** \n",
+        "1. **Substitute:** Replace every 'x' in the expression with -2:\n   \n   2*(-2)^2 + 3*(-2) + 4\n2. **Simplify exponents:**  Calculate (-2)^2 = 4\n   2*4 + 3*(-2) + 4\n3. **Multiplication:** Multiply the coefficients: \n   8 - 6 + 4\n4. **Addition and subtraction:**  Add and subtract from left to right:\n   8 - 6 = 2\n   2 + 4 = 6\n**Therefore, the value of 2x^2 + 3x + 4 when x = -2 is 6.** \n",
+        "Here's how to solve it step by step:\n1. **Substitute:** Replace every 'x' in the expression with '-2': \n   2 * (-2)^2 + 3 * (-2) + 4\n2. **Simplify exponents:**  (-2)^2 = 4\n   2 * 4 + 3 * (-2) + 4\n3. **Multiply:**\n   8 - 6 + 4\n4. **Add and subtract from left to right:**\n   2 + 4 = 6\n**Therefore, when x = -2, the value of 2x^2 + 3x + 4 is 6.** \n"
+    ],
+    "pred_answers": "6",
+    "final_pred_answer": [
+        "6",
+        "6",
+        "6",
+        "6",
+        "6"
+    ],
+    "ground_truth": "6"
+}

@@ -1,0 +1,23 @@
+{
+    "problem": "Write $\\cfrac{\\cfrac{3}{8}+\\cfrac{7}{8}}{\\cfrac{4}{5}}$ as a simplified fraction.",
+    "level": "Level 1",
+    "type": "Algebra",
+    "solution": "$\\cfrac{3}{8}+\\cfrac{7}{8}=\\cfrac{10}{8}=\\cfrac{5}{4}$. Therefore, $\\cfrac{5}{4}\\div\\cfrac{4}{5}=\\cfrac{5}{4}\\cdot\n\\cfrac{5}{4}=\\boxed{\\cfrac{25}{16}}$.",
+    "prompt": "### Instruction: Write $\\cfrac{\\cfrac{3}{8}+\\cfrac{7}{8}}{\\cfrac{4}{5}}$ as a simplified fraction.\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "### Step 1: Simplify the numerator.\nThe numerator is $\\frac{3}{8} + \\frac{7}{8}$. Since they have the same denominator, we can simply add the numerators:\n$\\frac{3}{8} + \\frac{7}{8} = \\frac{10}{8}$\n### Step 2: Simplify the fraction in the numerator.\nThe fraction $\\frac{10}{8}$ can be simplified by dividing both the numerator and denominator by their greatest common factor, which is 2:\n$\\frac{10}{8} = \\frac{10 \\div 2}{8 \\div 2} = \\frac{5}{4}$\n### Step 3: Divide the simplified numerator by the denominator.\nNow we have the expression: $\\frac{5}{4} \\div \\frac{4}{5}$. Dividing by a fraction is the same as multiplying by its reciprocal. The reciprocal of $\\frac{4}{5}$ is $\\frac{5}{4}$.  So:\n$\\frac{5}{4} \\div \\frac{4}{5} = \\frac{5}{4} \\times \\frac{5}{4}$\n### Step 4: Multiply the fractions.\nMultiplying fractions is done by multiplying the numerators and the denominators:\n$\\frac{5}{4} \\times \\frac{5}{4} = \\frac{5 \\times 5}{4 \\times 4} = \\frac{25}{16}$\n### Final Answer:\nTherefore, $\\cfrac{\\cfrac{3}{8}+\\cfrac{7}{8}}{\\cfrac{4}{5}}$ simplified to a fraction is $\\boxed{\\frac{25}{16}}$. \n",
+        "**1. Simplify the numerator:**\n*  The numerator is a sum of fractions with the same denominator.  \n*  Add the numerators and keep the denominator: (3 + 7)/8 = 10/8\n**2. Simplify the fraction in the numerator:**\n*  The fraction 10/8 can be simplified by dividing both the numerator and denominator by their greatest common factor, which is 2. \n*  This gives us 10/8 = 5/4\n**3. Divide the numerator by the denominator:**\n*  Dividing by a fraction is the same as multiplying by the reciprocal of that fraction.\n*  The reciprocal of 4/5 is 5/4.\n**4. Multiply the numerator and the reciprocal of the denominator:**\n*  (5/4) * (5/4) = 25/16\n**Therefore, the simplified fraction is 25/16.** \n",
+        "1. **Simplify the numerator:**  \n   Since the fractions in the numerator have the same denominator, we can simply add their numerators:\n   \n   ```\n   (3/8) + (7/8) = 10/8\n   ```\n2. **Rewrite the expression:** \n   Now we have:\n   \n   ```\n   (10/8) / (4/5) \n   ```\n3. **Dividing by a fraction is the same as multiplying by its reciprocal:**\n   The reciprocal of 4/5 is 5/4. So we can rewrite the expression as:\n   ```\n   (10/8) * (5/4)\n   ```\n4. **Multiply the numerators and denominators:**\n   \n   ```\n   (10 * 5) / (8 * 4) = 50/32\n   ```\n5. **Simplify the fraction:**\n   Both 50 and 32 are divisible by 2.  \n   ```\n   50/32 = 25/16 \n   ```\n**Therefore, the simplified fraction is 25/16.** \n",
+        "**1. Simplify the numerator:**\n*  The numerator is a sum of fractions with the same denominator.  We can add them directly: \n   \n   (3/8) + (7/8) = 10/8 \n**2. Simplify the fraction in the numerator:**\n* The fraction 10/8 can be simplified by dividing both numerator and denominator by their greatest common factor, which is 2:\n   (10/8) = (5/4)\n**3. Divide the simplified numerator by the denominator:**\n* Dividing by a fraction is the same as multiplying by its reciprocal.  The reciprocal of 4/5 is 5/4.\n   (5/4) / (4/5) = (5/4) * (5/4) \n**4. Multiply the fractions:**\n* Multiply the numerators and the denominators:\n   (5/4) * (5/4) = 25/16\n**Therefore, the simplified fraction is 25/16.** \n",
+        "Here's how to simplify the complex fraction step-by-step:\n**1. Simplify the numerator:**\n*  $\\frac{3}{8} + \\frac{7}{8} = \\frac{10}{8}$ \n**2. Rewrite the complex fraction:**\n*  $\\frac{\\frac{10}{8}}{\\frac{4}{5}}$\n**3. Divide by a fraction is the same as multiplying by its reciprocal:**\n*  $\\frac{10}{8} \\times \\frac{5}{4}$\n**4. Multiply the numerators and denominators:**\n*  $\\frac{10 \\times 5}{8 \\times 4} = \\frac{50}{32}$\n**5. Simplify by dividing both numerator and denominator by their greatest common factor (2):**\n*  $\\frac{50}{32} = \\boxed{\\frac{25}{16}}$ \n"
+    ],
+    "pred_answers": "16",
+    "final_pred_answer": [
+        "3",
+        "16",
+        "16",
+        "16",
+        "16"
+    ],
+    "ground_truth": "16"
+}

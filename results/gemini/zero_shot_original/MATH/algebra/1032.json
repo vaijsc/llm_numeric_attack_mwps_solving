@@ -1,0 +1,23 @@
+{
+    "problem": "Kelly and Avril chose complex numbers to represent their songs' popularities. Kelly chose $508+1749i$. Avril chose $-1322+1949i$. What is the sum of their numbers?",
+    "level": "Level 3",
+    "type": "Algebra",
+    "solution": "Adding the real and imaginary parts separately, we have $(508-1322)+(1949+1749)i$, which is $\\boxed{-814+3698i}$.",
+    "prompt": "### Instruction: Kelly and Avril chose complex numbers to represent their songs' popularities. Kelly chose $508+1749i$. Avril chose $-1322+1949i$. What is the sum of their numbers?\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "Here's how to find the sum of the complex numbers:\n**1. Understand Complex Numbers**\n* Complex numbers have a real part and an imaginary part.\n* The imaginary part is denoted by the letter 'i', where i\u00b2 = -1.\n* Example:  508 + 1749i has a real part of 508 and an imaginary part of 1749.\n**2. Add the Real Parts**\n* Add the real parts of Kelly's and Avril's numbers: 508 + (-1322) = -814\n**3. Add the Imaginary Parts**\n* Add the imaginary parts of Kelly's and Avril's numbers: 1749 + 1949 = 3698\n**4. Combine the Results**\n* The sum of the complex numbers is -814 + 3698i\n**Therefore, the sum of Kelly's and Avril's numbers is -814 + 3698i.** \n",
+        "Here's how to find the sum of the complex numbers:\n**1. Understand Complex Numbers**\nComplex numbers are written in the form *a + bi*, where *a* and *b* are real numbers, and *i* is the imaginary unit (where *i*\u00b2 = -1).\n**2. Add Real and Imaginary Parts Separately**\nTo add complex numbers, we add the real parts and the imaginary parts separately:\n* **Real parts:** 508 + (-1322) = -814\n* **Imaginary parts:** 1749 + 1949 = 3698\n**3. Combine the Results**\nThe sum of the two complex numbers is **-814 + 3698i**. \n",
+        "Here's how to find the sum of the complex numbers:\n**1. Understand Complex Numbers**\nComplex numbers have two parts: a real part and an imaginary part. They are written in the form  *a + bi*, where:\n*  *a* is the real part\n*  *b* is the imaginary part\n*  *i* is the imaginary unit, where *i*\u00b2 = -1\n**2. Add the Real Parts**\n* Kelly's real part: 508\n* Avril's real part: -1322\n* Sum of real parts: 508 + (-1322) = -814\n**3. Add the Imaginary Parts**\n* Kelly's imaginary part: 1749\n* Avril's imaginary part: 1949\n* Sum of imaginary parts: 1749 + 1949 = 3698\n**4. Combine the Results**\nThe sum of the complex numbers is the sum of the real parts plus the sum of the imaginary parts, multiplied by *i*:\n* Sum: **-814 + 3698i** \n",
+        "Here's how to find the sum of the complex numbers:\n**1. Understand Complex Numbers**\nComplex numbers have a real part and an imaginary part.  They are written in the form *a + bi*, where:\n*  *a* is the real part\n*  *b* is the imaginary part\n*  *i* is the imaginary unit, where *i*\u00b2 = -1\n**2. Add the Real Parts**\nAdd the real parts of Kelly's and Avril's numbers: 508 + (-1322) = -814\n**3. Add the Imaginary Parts**\nAdd the imaginary parts of Kelly's and Avril's numbers: 1749 + 1949 = 3698\n**4. Combine the Results**\nThe sum of the complex numbers is the real part plus the imaginary part multiplied by *i*: \n -814 + 3698*i\n**Answer:** The sum of Kelly's and Avril's numbers is **-814 + 3698*i**. \n",
+        "To add complex numbers, we add the real parts and the imaginary parts separately.\n* **Real parts:** 508 + (-1322) = -814\n* **Imaginary parts:** 1749 + 1949 = 3698\nTherefore, the sum of their numbers is **-814 + 3698i**. \n"
+    ],
+    "pred_answers": "3698",
+    "final_pred_answer": [
+        "3698",
+        "3698",
+        "3698",
+        "-814",
+        "3698"
+    ],
+    "ground_truth": "3698"
+}

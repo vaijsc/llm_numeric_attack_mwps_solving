@@ -1,0 +1,23 @@
+{
+    "problem": "Factor the following expression: $7x^2-63$.",
+    "level": "Level 4",
+    "type": "Algebra",
+    "solution": "We can factor out a $7$ from both terms, giving $7(x^2-9)$. Then we can factor the second expression as a difference of squares, giving our answer of $\\boxed{7(x+3) (x-3)}$.",
+    "prompt": "### Instruction: Factor the following expression: $7x^2-63$.\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "1. **Find the Greatest Common Factor (GCF):** The GCF of 7 and 63 is 7. \n2. **Factor out the GCF:**  \n   *  We can rewrite the expression as:  7(x\u00b2 - 9)\n3. **Recognize the pattern:** The expression inside the parentheses (x\u00b2 - 9) is a difference of squares. \n4. **Factor the difference of squares:**\n   *  Recall the pattern: a\u00b2 - b\u00b2 = (a + b)(a - b)\n   *  In our case, a = x and b = 3\n   *  Therefore, x\u00b2 - 9 = (x + 3)(x - 3)\n**Final Factored Expression:** \nThe completely factored expression is: **7(x + 3)(x - 3)** \n",
+        "**1. Find the Greatest Common Factor (GCF):**\n* The greatest common factor of 7 and 63 is 7.\n**2. Factor out the GCF:**\n*  7x\u00b2 - 63 = 7(x\u00b2 - 9)\n**3. Factor the difference of squares:**\n* The expression inside the parentheses is a difference of squares (x\u00b2 - 3\u00b2).\n* Recall the difference of squares pattern: a\u00b2 - b\u00b2 = (a + b)(a - b)\n**4. Apply the pattern:**\n* 7(x\u00b2 - 9) = 7(x + 3)(x - 3)\n**Therefore, the factored expression is 7(x + 3)(x - 3).** \n",
+        "Here's how to factor the expression step by step:\n1. **Find the Greatest Common Factor (GCF):** The greatest common factor of 7 and 63 is 7.\n2. **Factor out the GCF:** \n   *  Divide each term in the expression by 7: \n      *  7x\u00b2 / 7 = x\u00b2\n      *  -63 / 7 = -9\n3. **Rewrite the expression:**  The factored expression is: 7(x\u00b2 - 9)\n4. **Recognize the difference of squares:** The expression inside the parentheses (x\u00b2 - 9) is a difference of squares because:\n   * x\u00b2 is a perfect square (x * x)\n   * 9 is a perfect square (3 * 3)\n5. **Factor the difference of squares:**  The difference of squares pattern is: a\u00b2 - b\u00b2 = (a + b)(a - b)\n   * In our case, a = x and b = 3\n6. **Final factored expression:**  The fully factored expression is: 7(x + 3)(x - 3) \n",
+        "1. **Find the Greatest Common Factor (GCF):** The greatest common factor of 7 and 63 is 7.\n2. **Factor out the GCF:**  \n   *  Divide each term in the expression by 7: \n      *  $7x^2 / 7 = x^2$\n      *  $-63 / 7 = -9$\n3. **Rewrite the expression:** The factored expression is:  **7(x\u00b2 - 9)**\n4. **Further factoring (optional):**  Notice that (x\u00b2 - 9) is a difference of squares. We can factor it further:\n   *  (x\u00b2 - 9) = (x + 3)(x - 3)\n5. **Final factored expression:** The fully factored expression is: **7(x + 3)(x - 3)** \n",
+        "**1. Find the Greatest Common Factor (GCF):**\n* The greatest common factor of 7 and 63 is 7. \n**2. Factor out the GCF:**\n*  We can rewrite the expression as:  7(x\u00b2 - 9)\n**3. Recognize the Difference of Squares:**\n*  The expression inside the parentheses (x\u00b2 - 9) is a difference of squares.  This is because:\n    *  x\u00b2 is the square of x.\n    *  9 is the square of 3.\n**4. Factor the Difference of Squares:**\n* The difference of squares pattern is: a\u00b2 - b\u00b2 = (a + b)(a - b)\n* Applying this to our expression, we get: 7(x + 3)(x - 3)\n**Therefore, the factored form of the expression 7x\u00b2 - 63 is 7(x + 3)(x - 3).** \n"
+    ],
+    "pred_answers": "3",
+    "final_pred_answer": [
+        "3",
+        "3",
+        "3",
+        "3",
+        "3"
+    ],
+    "ground_truth": "-3"
+}

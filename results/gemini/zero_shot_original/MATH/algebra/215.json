@@ -1,0 +1,23 @@
+{
+    "problem": "If $a+b=8$, $b+c=-3$, and $a+c= -5$, what is the value of the product $abc$?",
+    "level": "Level 3",
+    "type": "Algebra",
+    "solution": "Adding the first given equation to the second, we have $a+2b+c=5$. Then, subtracting the third given equation from this last equation, we get $2b=10$, so $b=5$. Plugging this value of $b$ into the first given equation, we find that $a=3$. Plugging this value of $a$ into the third given equation, we find that $c=-8$. Thus, the product $abc=3\\cdot5\\cdot-8=\\boxed{-120}$.",
+    "prompt": "### Instruction: If $a+b=8$, $b+c=-3$, and $a+c= -5$, what is the value of the product $abc$?\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "Here's how to solve the problem step-by-step:\n**1.  Isolate Variables:**\n   * Add the first two equations together: \n      (a + b) + (b + c) = 8 + (-3) \n      a + 2b + c = 5\n   * Add the first and third equations together:\n      (a + b) + (a + c) = 8 + (-5)\n      2a + b + c = 3\n**2.  Solve for a and b:**\n   * Subtract the equation from step 1 from the equation in step 2:\n      (2a + b + c) - (a + 2b + c) = 3 - 5\n      a - b = -2\n   * Add this new equation to the first given equation:\n      (a - b) + (a + b) = -2 + 8\n      2a = 6\n      a = 3\n   * Substitute the value of a (3) back into the equation a - b = -2:\n      3 - b = -2\n      b = 5\n**3.  Solve for c:**\n   * Substitute the values of a (3) and b (5) into any of the original equations. Let's use the first equation:\n      3 + 5 = 8 \n**4.  Calculate the product abc:**\n   * Now that you know a = 3, b = 5, and c = 0, calculate the product:\n      abc = (3)(5)(0) = 0\n**Therefore, the value of the product abc is 0.** \n",
+        "Here's how to solve the problem step-by-step:\n**1.  Add all three equations together:**\n   (a + b) + (b + c) + (a + c) = 8 + (-3) + (-5)\n   This simplifies to: 2a + 2b + 2c = 0\n**2. Divide both sides by 2:**\n   a + b + c = 0\n**3. Isolate 'c':**\n   c = -a - b\n**4. Substitute the value of 'c' into the equation 'a + c = -5':**\n   a + (-a - b) = -5\n   This simplifies to: -b = -5\n   Therefore, b = 5\n**5. Substitute the value of 'b' into the equation 'a + b = 8':**\n   a + 5 = 8\n   Therefore, a = 3\n**6. Substitute the values of 'a' and 'b' into the equation 'c = -a - b':**\n   c = -3 - 5\n   Therefore, c = -8\n**7. Calculate the product abc:**\n   abc = (3)(5)(-8) = -120\n**Therefore, the value of the product abc is -120.** \n",
+        "Here's how to solve the problem step-by-step:\n1. **Add all three equations together:**\n   (a + b) + (b + c) + (a + c) = 8 + (-3) + (-5)\n   2a + 2b + 2c = 0\n2. **Divide both sides by 2:**\n   a + b + c = 0\n3. **Solve for one variable:**\n   Since we know a + b = 8, we can substitute that into the equation from step 2:\n   8 + c = 0\n   c = -8\n4. **Solve for another variable:**\n   Substitute the value of c back into either a + c = -5 or b + c = -3. Let's use a + c = -5:\n   a + (-8) = -5\n   a = 3\n5. **Solve for the remaining variable:**\n   Substitute the values of a and c back into a + b = 8:\n   3 + b = 8\n   b = 5\n6. **Calculate abc:**\n   abc = (3)(5)(-8) = **-120**\nTherefore, the value of the product abc is **-120**. \n",
+        "Here's how to solve the problem step-by-step:\n1. **Add all three equations together:** \n   (a + b) + (b + c) + (a + c) = 8 + (-3) + (-5)\n   This simplifies to 2a + 2b + 2c = 0\n2. **Divide both sides by 2:**\n   a + b + c = 0\n3. **Solve for 'a':**\n   Since we know a + b = 8, we can substitute to find a:\n   a + 8 + c = 0\n   a + c = -8\n4. **Compare to the given equation:**\n   We are given that a + c = -5.  This contradicts our result from step 3. \n**Conclusion:**\nThere is no solution that satisfies all three given equations simultaneously. Therefore, we cannot determine the value of the product abc. \n",
+        "Here's how to solve this problem step-by-step:\n**1.  Isolate one variable:**\n* Add the first two equations: \n   (a + b) + (b + c) = 8 + (-3)\n   a + 2b + c = 5 \n*  Subtract the third equation from this result:\n   (a + 2b + c) - (a + c) = 5 - (-5)\n   2b = 10\n   b = 5\n**2. Find the other variables:**\n* Substitute b = 5 into the first equation:\n   a + 5 = 8\n   a = 3\n* Substitute b = 5 into the second equation:\n   5 + c = -3\n   c = -8\n**3. Calculate the product:**\n* Now that we know a = 3, b = 5, and c = -8, we can find the product:\n   abc = (3)(5)(-8) = -120\n**Therefore, the value of the product abc is -120.** \n"
+    ],
+    "pred_answers": "-120",
+    "final_pred_answer": [
+        "0",
+        "-120",
+        "-120",
+        "3",
+        "-120"
+    ],
+    "ground_truth": "-120"
+}

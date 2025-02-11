@@ -1,0 +1,23 @@
+{
+    "problem": "If $x$, $y$, and $z$ are real numbers for which  \\begin{align*}\nx+y-z &= -8, \\\\\nx-y+z &= 18,\\text{ and} \\\\\n-x+y+z &= 30, \\\\\n\\end{align*} then what is $xyz$?",
+    "level": "Level 3",
+    "type": "Algebra",
+    "solution": "Noticing that the left-hand sides are symmetric in $x$, $y$, and $z$ (in that any relabelling of the variables leads to one of the given left-hand sides), we sum all three equations to obtain $x+y+z=40$. Subtracting the first equation from $x+y+z=40$ gives $2z=48\\implies z=24$. Similarly, subtracting the second equation from $x+y+z=40$ gives $y=11$. Finally, subtracting the third equation from $x+y+z=40$ gives $x=5$ so that $xyz=(5)(11)(24)=\\boxed{1320}$.",
+    "prompt": "### Instruction: If $x$, $y$, and $z$ are real numbers for which  \\begin{align*}\nx+y-z &= -8, \\\\\nx-y+z &= 18,\\text{ and} \\\\\n-x+y+z &= 30, \\\\\n\\end{align*} then what is $xyz$?\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "### Response:\n**Step 1: Eliminate variables to find the value of x, y, and z.**\nNotice that if we add the first and second equations together, we get:\n(x + y - z) + (x - y + z) = -8 + 18 \nSimplifying, we get:\n2x = 10\nTherefore, x = 5.\nNow, add the second and third equations together:\n(x - y + z) + (-x + y + z) = 18 + 30\nSimplifying, we get:\n2z = 48\nTherefore, z = 24.\nFinally, add the first and third equations together:\n(x + y - z) + (-x + y + z) = -8 + 30\nSimplifying, we get:\n2y = 22\nTherefore, y = 11.\n**Step 2: Calculate xyz.**\nNow that we have the values of x, y, and z, we can simply multiply them together:\nxyz = (5)(11)(24) = **1320**\nTherefore, xyz = **1320**. \n",
+        "Here's how to solve the problem step-by-step:\n**1. Eliminate Variables**\n* **Add the first and second equations:**\n   (x + y - z) + (x - y + z) = -8 + 18\n   2x = 10\n   x = 5\n* **Add the second and third equations:**\n   (x - y + z) + (-x + y + z) = 18 + 30\n   2z = 48\n   z = 24\n* **Substitute the values of x and z into the first equation:**\n   5 + y - 24 = -8\n   y = 11\n**2. Calculate xyz**\nNow that we know x = 5, y = 11, and z = 24, we can calculate xyz:\nxyz = (5)(11)(24) = **1320** \n",
+        "Here's how to solve the problem step-by-step:\n**1. Eliminate Variables**\n* **Add the first and second equations:** \n   (x + y - z) + (x - y + z) = -8 + 18\n   2x = 10\n   x = 5\n* **Add the second and third equations:**\n   (x - y + z) + (-x + y + z) = 18 + 30\n   2z = 48\n   z = 24\n* **Add the first and third equations:**\n   (x + y - z) + (-x + y + z) = -8 + 30\n   2y = 22\n   y = 11\n**2. Calculate xyz**\nNow that we know x = 5, y = 11, and z = 24, we can find xyz:\nxyz = (5)(11)(24) = **1320** \n",
+        "Here's how to solve this problem step-by-step:\n**1. Eliminate Variables**\n* **Add equations (1) and (2):** \n   (x + y - z) + (x - y + z) = -8 + 18\n   2x = 10\n   x = 5\n* **Add equations (1) and (3):**\n   (x + y - z) + (-x + y + z) = -8 + 30\n   2y = 22\n   y = 11\n* **Add equations (2) and (3):**\n   (x - y + z) + (-x + y + z) = 18 + 30\n   2z = 48\n   z = 24\n**2. Calculate xyz**\nNow that we know x = 5, y = 11, and z = 24, we can find xyz:\nxyz = (5)(11)(24) = **1320** \n",
+        "Here's how to solve the system of equations to find the value of $xyz$:\n**1. Elimination Method**\n* **Eliminate z:** Add the first two equations together:\n   (x + y - z) + (x - y + z) = -8 + 18 \n   This simplifies to 2x = 10, so x = 5.\n* **Eliminate y:** Add the first and third equations together:\n   (x + y - z) + (-x + y + z) = -8 + 30\n   This simplifies to 2y = 22, so y = 11.\n* **Eliminate x:** Add the second and third equations together:\n   (x - y + z) + (-x + y + z) = 18 + 30\n   This simplifies to 2z = 48, so z = 24.\n**2. Calculate xyz**\nNow that we know x = 5, y = 11, and z = 24, we can calculate xyz:\nxyz = (5)(11)(24) = **1320** \n"
+    ],
+    "pred_answers": "1320",
+    "final_pred_answer": [
+        "1320",
+        "1320",
+        "1320",
+        "1320",
+        "1320"
+    ],
+    "ground_truth": "1320"
+}

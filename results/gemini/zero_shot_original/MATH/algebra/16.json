@@ -1,0 +1,23 @@
+{
+    "problem": "Let \\[f(x) =\n\\begin{cases}\n3x + 5 &\\text{if }x<-3, \\\\\n7-4x&\\text{if }x\\ge -3.\n\\end{cases}\n\\]Find $f(-10)$.",
+    "level": "Level 2",
+    "type": "Algebra",
+    "solution": "Because $-10<-3$, we use the first case to determine that $f(-10) = 3(-10) + 5 = \\boxed{-25}$.",
+    "prompt": "### Instruction: Let \\[f(x) =\n\\begin{cases}\n3x + 5 &\\text{if }x<-3, \\\\\n7-4x&\\text{if }x\\ge -3.\n\\end{cases}\n\\]Find $f(-10)$.\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "Since $-10 < -3$, we use the first part of the piecewise function definition:  \n  \n  $f(x) = 3x + 5$ for $x < -3$ \n  \nTherefore,  \n  \n  $f(-10) = 3(-10) + 5 = -30 + 5 = \\boxed{-25}$. \n",
+        "Since -10 is less than -3, we use the first part of the piecewise function:\n*  *f(x) = 3x + 5*  when *x < -3*\nTherefore, to find *f(-10)*, we substitute *x = -10* into the first equation:\n* *f(-10) = 3(-10) + 5* \n* *f(-10) = -30 + 5*\n* *f(-10) = -25*\n**So, f(-10) = -25** \n",
+        "Since -10 is less than -3, we use the first part of the piecewise function: \n \n *  f(x) = 3x + 5  when x < -3\nLet's substitute x = -10 into this equation:\n* f(-10) = 3(-10) + 5\nSimplify the expression:\n* f(-10) = -30 + 5 \nTherefore:\n* **f(-10) = -25** \n",
+        "Since -10 is less than -3, we use the first part of the piecewise function:  \n  \n  *  *f(-10) = 3(-10) + 5 = -30 + 5 = -25*  \n  \nTherefore, *f(-10) = -25*. \n",
+        "Since -10 is less than -3, we use the first part of the piecewise function: \n \n $f(x) = 3x + 5$\n \n Therefore, \n \n $f(-10) = 3(-10) + 5$\n \n  $f(-10) = -30 + 5$\n \n  $f(-10) = -25$ \n \n  So, $f(-10) = \\boxed{-25}$. \n"
+    ],
+    "pred_answers": "-25",
+    "final_pred_answer": [
+        "-25",
+        "-25",
+        "-25",
+        "-25",
+        "-25"
+    ],
+    "ground_truth": "-25"
+}

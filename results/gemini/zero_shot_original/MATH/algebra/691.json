@@ -1,0 +1,23 @@
+{
+    "problem": "Evaluate $\\left\\lceil\\left(\\frac{7}{4}\\right)^2\\right\\rceil^2$",
+    "level": "Level 3",
+    "type": "Algebra",
+    "solution": "Because $\\left(\\frac{7}{4}\\right)^2$ equals $\\frac{49}{16}$, the expression can be rewritten as $\\left\\lceil\\frac{49}{16}\\right\\rceil^2$. The smallest integer greater than $\\frac{49}{16}$ is $4$, and $4^2=\\boxed{16}$.",
+    "prompt": "### Instruction: Evaluate $\\left\\lceil\\left(\\frac{7}{4}\\right)^2\\right\\rceil^2$\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "Here's how to evaluate the expression step-by-step:\n1. **Calculate the square inside the parentheses:** \n   (7/4)^2 = 49/16\n2. **Find the ceiling of the fraction:**\n   The ceiling function, denoted by  \u2308  \u2309, gives the smallest integer greater than or equal to the input. Since 49/16 is between 3 and 4, its ceiling is 4. \n   \u230849/16\u2309 = 4\n3. **Square the result:** \n   4^2 = 16\nTherefore,  $\\left\\lceil\\left(\\frac{7}{4}\\right)^2\\right\\rceil^2 = \\boxed{16}$. \n",
+        "Here's how to evaluate the expression step-by-step:\n1. **Calculate the square:**  (7/4)\u00b2 = 49/16\n2. **Find the ceiling:** The ceiling function, denoted by  \u2308  \u2309, gives the smallest integer greater than or equal to the input. Since 49/16 is between 3 and 4,  \u230849/16\u2309 = 4.\n3. **Square the result:** 4\u00b2 = 16\nTherefore,  $\\left\\lceil\\left(\\frac{7}{4}\\right)^2\\right\\rceil^2 = \\boxed{16}$. \n",
+        "Here's how to evaluate the expression step-by-step:\n1. **Calculate the square:**  \n   (7/4)^2 = 49/16\n2. **Find the ceiling:**\n   The ceiling function, denoted by  \u2308 \u2309, gives the smallest integer greater than or equal to the input. Since 49/16 is between 3 and 4,  \u230849/16\u2309 = 4.\n3. **Square the result:**\n   4^2 = 16\nTherefore,  $\\left\\lceil\\left(\\frac{7}{4}\\right)^2\\right\\rceil^2 = \\boxed{16}$. \n",
+        "Here's how to evaluate the expression step-by-step:\n1. **Calculate the square inside the parentheses:** \n   (7/4)^2 = 49/16\n2. **Find the ceiling of the result:** \n   The ceiling function, denoted by  \u2308x\u2309, gives the smallest integer greater than or equal to x. Since 49/16 is between 3 and 4,  \u230849/16\u2309 = 4\n3. **Square the result:**\n   4^2 = 16\nTherefore,  $\\left\\lceil\\left(\\frac{7}{4}\\right)^2\\right\\rceil^2 = \\boxed{16}$. \n",
+        "Here's how to evaluate the expression step-by-step:\n1. **Calculate the square:**  \n   (7/4)^2 = 49/16\n2. **Find the ceiling:**\n   The ceiling function, denoted by  \u2308x\u2309, rounds a number *up* to the nearest integer. Since 49/16 is between 3 and 4,  \u230849/16\u2309 = 4.\n3. **Square the result:**\n   4^2 = 16\nTherefore,  **  $\\left\\lceil\\left(\\frac{7}{4}\\right)^2\\right\\rceil^2 = 16$** \n"
+    ],
+    "pred_answers": "16",
+    "final_pred_answer": [
+        "16",
+        "16",
+        "16",
+        "16",
+        "16"
+    ],
+    "ground_truth": "16"
+}

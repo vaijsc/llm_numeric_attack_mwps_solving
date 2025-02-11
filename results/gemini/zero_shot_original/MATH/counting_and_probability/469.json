@@ -1,0 +1,23 @@
+{
+    "problem": "Your math club has 20 members.  In how many ways can it select a president, a vice-president, and a treasurer if no member can hold more than one office?",
+    "level": "Level 1",
+    "type": "Counting & Probability",
+    "solution": "There are $20$ potential members that could be president. Once the president is chosen, there are $19$ that could be vice-president. Finally, once those two offices are filled, there are $18$ that could be treasurer. Thus, there are $20 \\cdot 19 \\cdot 18 = \\boxed{6840}$ ways in which the math club can select the officers.",
+    "prompt": "### Instruction: Your math club has 20 members.  In how many ways can it select a president, a vice-president, and a treasurer if no member can hold more than one office?\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "Here's how to solve this problem step-by-step:\n* **Step 1: Choosing the President**\n   * There are 20 members, so there are 20 different choices for who can be president.\n* **Step 2: Choosing the Vice-President**\n   * After choosing the president, there are only 19 members left. So, there are 19 different choices for vice-president.\n* **Step 3: Choosing the Treasurer**\n   * Now, there are 18 members remaining, so there are 18 different choices for treasurer.\n* **Step 4: Total Combinations**\n   * To find the total number of ways to choose the officers, we multiply the number of choices at each step: 20 * 19 * 18 = 6840\n**Therefore, there are 6840 different ways to select a president, vice-president, and treasurer from the math club.** \n",
+        "Here's how to solve this problem step-by-step:\n* **Step 1: Choosing the President** \n   * There are 20 members, so there are 20 different people who could be president.\n* **Step 2: Choosing the Vice-President**\n   * After choosing the president, there are only 19 members left who could be vice-president.\n* **Step 3: Choosing the Treasurer**\n   * Now there are 18 members left who could be treasurer.\n* **Step 4: Multiplying the Possibilities**\n   * To find the total number of ways to select the officers, we multiply the number of possibilities at each step: 20 * 19 * 18 = 6840\n**Answer:** There are 6840 ways to select a president, vice-president, and treasurer. \n",
+        "Here's how to solve this problem step-by-step:\n* **Step 1: Choosing the President**\n   * There are 20 members who could be chosen as president.\n* **Step 2: Choosing the Vice-President**\n   * Since one person is already president, there are only 19 members left who could be vice-president.\n* **Step 3: Choosing the Treasurer**\n   * Now, with the president and vice-president chosen, there are 18 members remaining who could be treasurer.\n* **Step 4: Finding the Total Number of Ways**\n   * To find the total number of ways to choose these officers, we multiply the number of options at each step: 20 * 19 * 18 = **6840**\n**Therefore, there are 6840 ways to select a president, vice-president, and treasurer from the math club.** \n",
+        "Here's how to solve this problem step-by-step:\n* **Step 1: Choosing the President** \n   * There are 20 members, so there are 20 different choices for president.\n* **Step 2: Choosing the Vice-President**\n   * After choosing the president, there are only 19 members left. So, there are 19 different choices for vice-president.\n* **Step 3: Choosing the Treasurer**\n   * Now there are 18 members remaining, giving us 18 different choices for treasurer.\n* **Step 4: Total Number of Ways**\n   * To find the total number of ways to choose the officers, we multiply the number of choices at each step: 20 * 19 * 18 = 6840\n**Therefore, there are 6840 ways to select a president, vice-president, and treasurer.** \n",
+        "Here's how to solve this problem step-by-step:\n* **Step 1: Choosing the President** \n   * There are 20 different members who could be chosen as president.\n* **Step 2: Choosing the Vice-President**\n   * After choosing the president, there are only 19 members left who could be vice-president.\n* **Step 3: Choosing the Treasurer**\n   * With the president and vice-president chosen, there are 18 members remaining who could be treasurer.\n* **Step 4: Multiplying the Possibilities**\n   * To find the total number of ways to select the three officers, we multiply the number of choices at each step: 20 * 19 * 18 = 6840\n**Therefore, there are 6840 ways to select a president, vice-president, and treasurer from a club of 20 members.** \n"
+    ],
+    "pred_answers": "6840",
+    "final_pred_answer": [
+        "6840",
+        "6840",
+        "6840",
+        "6840",
+        "20"
+    ],
+    "ground_truth": "6840"
+}

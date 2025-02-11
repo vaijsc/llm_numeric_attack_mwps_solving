@@ -1,0 +1,23 @@
+{
+    "problem": "A drawer contains 3 white balls and 6 black balls.  Two balls are drawn out of the box at random.  What is the probability that they both are white?",
+    "level": "Level 2",
+    "type": "Counting & Probability",
+    "solution": "There are $\\binom{9}{2} = 36$ combinations of two balls that can be drawn.  There are $\\binom{3}{2} = 3$ combinations of two white balls that can be drawn.  So the probability that two balls pulled out are both white is $\\dfrac{3}{36} = \\boxed{\\dfrac{1}{12}}$.",
+    "prompt": "### Instruction: A drawer contains 3 white balls and 6 black balls.  Two balls are drawn out of the box at random.  What is the probability that they both are white?\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "Here's how to solve this problem step-by-step:\n**Step 1: Probability of the first ball being white**\n* There are 3 white balls and 9 total balls.\n* The probability of drawing a white ball first is 3/9 = 1/3.\n**Step 2: Probability of the second ball being white (given the first was white)**\n* After taking out one white ball, there are only 2 white balls left and 8 total balls.\n* The probability of drawing another white ball is 2/8 = 1/4.\n**Step 3: Probability of both events happening**\n* To get the probability of both events happening, we multiply the probabilities from step 1 and step 2: (1/3) * (1/4) = 1/12\n**Therefore, the probability of drawing two white balls in a row is 1/12.** \n",
+        "Here's how to solve this problem step-by-step:\n**1. Probability of the first ball being white:**\n* There are 3 white balls and a total of 9 balls.\n* The probability of drawing a white ball first is 3/9 = 1/3.\n**2. Probability of the second ball being white (given the first was white):**\n* After taking out one white ball, there are only 2 white balls left and 8 total balls.\n* The probability of drawing another white ball is now 2/8 = 1/4.\n**3. Probability of both events happening:**\n* To get the probability of both events happening, we multiply the individual probabilities:\n   (1/3) * (1/4) = 1/12\n**Therefore, the probability of drawing two white balls in a row is 1/12.** \n",
+        "Here's how to solve this step-by-step:\n**Step 1: Probability of drawing one white ball**\n* There are 3 white balls and 9 total balls.\n* The probability of drawing a white ball on the first draw is 3/9 = 1/3.\n**Step 2: Probability of drawing another white ball (given the first was white)**\n* After taking out one white ball, there are only 2 white balls left and 8 total balls.\n* The probability of drawing another white ball is now 2/8 = 1/4.\n**Step 3: Multiply the probabilities**\n* To get the probability of both events happening, we multiply the individual probabilities: (1/3) * (1/4) = 1/12\n**Therefore, the probability of drawing two white balls in a row is 1/12.** \n",
+        "Here's how to solve this problem step-by-step:\n**Step 1: Probability of drawing a white ball on the first draw**\n* There are 3 white balls and 9 total balls.\n* The probability of drawing a white ball first is 3/9 = 1/3.\n**Step 2: Probability of drawing another white ball on the second draw (given that the first was white)**\n* After taking out one white ball, there are only 2 white balls left and 8 total balls.\n* The probability of drawing another white ball is now 2/8 = 1/4.\n**Step 3: Probability of both events happening**\n* To get the probability of both events happening, we multiply the individual probabilities: (1/3) * (1/4) = 1/12\n**Answer:** The probability of drawing two white balls in a row is **1/12**. \n",
+        "Here's how to solve this problem step by step:\n**Step 1: Probability of drawing one white ball**\n* There are 3 white balls and 9 total balls.\n* The probability of drawing a white ball on the first draw is 3/9 = 1/3.\n**Step 2: Probability of drawing another white ball (given the first was white)**\n* After taking out one white ball, there are only 2 white balls left and 8 total balls.\n* The probability of drawing another white ball is now 2/8 = 1/4.\n**Step 3: Probability of both events happening**\n* To get the probability of both events happening, we multiply the probabilities from each step: \n   (1/3) * (1/4) = 1/12\n**Therefore, the probability of drawing two white balls in a row is 1/12.** \n"
+    ],
+    "pred_answers": "12",
+    "final_pred_answer": [
+        "12",
+        "12",
+        "12",
+        "1",
+        "12"
+    ],
+    "ground_truth": "12"
+}

@@ -1,0 +1,41 @@
+{
+    "index_adversarial_question": 5,
+    "problem": "$50\\%$ of $200\\%$ of $70$?",
+    "pcot_answer": "# Define the total amount to calculate percentage from\ntotal_amount = 70  ### condition: 'total_amount': {'type': 'float', '<=': None, '>=': 0, 'science_constant': False, 'direct_from_question': True}\n# Define the first percentage to apply\nfirst_percentage = 200 / 100  ### condition: 'first_percentage': {'type': 'float', '<=': None, '>=': 0, 'science_constant': False, 'direct_from_question': False}\n# Calculate 200% of the total amount\nfirst_calculation = first_percentage * total_amount  ### condition: 'first_calculation': {'type': 'float', '<=': None, '>=': 0, 'science_constant': False, 'direct_from_question': False}\n# Define the second percentage to apply\nsecond_percentage = 50 / 100  ### condition: 'second_percentage': {'type': 'float', '<=': None, '>=': 0, 'science_constant': False, 'direct_from_question': False}\n# Calculate 50% of the first calculation\nfinal_result = second_percentage * first_calculation  ### condition: 'final_result': {'type': 'float', '<=': None, '>=': 0, 'science_constant': False, 'direct_from_question': False}\n# Print the final result\nprint(f\"$50% of $200% of $10 is: ${final_result}\")",
+    "answer": "70",
+    "vllm_responses": [
+        " 700 ### Explanation: The expression is\u7684\u4e00\u500d\u3002\u56e0\u6b64\uff0c$50\\%$ \u7684 $200\\%$ \u7b49\u4e8e $1$ \uff08\u56e0\u4e3a $50\\%$ \u52a0\u4e0a $200\\%$ \u7b49\u4e8e $2$\uff09\u3002\u7136\u540e\u6211\u4eec\u5c06 $2$ \u4e58\u4ee5 $70$\u3002\u8ba1\u7b97\u7ed3\u679c\u662f $2 \\times 70 = 140$\u3002\u6240\u4ee5\uff0c$50\\%$ of $200\\%$ of $70$ \u7684\u503c\u7b49\u4e8e $140$\u3002",
+        " \nTo solve this problem, we need to use the order of operations, which states that we should simplify the expression inside the parentheses first, and then the expression inside the second set of parentheses.\n\u3002\nThe expression inside the first set of parentheses is $50\\%$ of $200\\%$.\nTo calculate this, we need to multiply the percentages, so $50\\% = \\frac{50}{100} = \\frac{1}{2}$ and $200\\% = \\frac{200}{100} = 2$.\nNow we can multiply these two values together: $\\frac{1}{2} \\times 2 = 1$.\nSo, $50\\%$ of $200\\%$ is equal to $1$.\nNext, we need to calculate $200\\%$ of $70$.\nTo do this, we need to multiply the percentages: $200\\% = \\frac{200}{100} = 2$.\nNow we can multiply this value by $70$: $2 \\times 70 = 140$.\nSo, $200\\%$ of $70$ is equal to $140$.\nFinally, we need to calculate $50\\%$ of $70$: $\\frac{1}{2} \\times 70 = 35$.\nThus, $50\\%$ of $200\\%$ of $70$ is equal to $\\boxed{140}$.",
+        " \n",
+        "\nFirst, we simplify $200\\%$ by dividing both the numerator and denominator by $100$. This gives us $\\frac{200}{100}=2$.\nNext, we can calculate $50\\%$ of $2$ by multiplying the numerator and denominator of $50\\%$, which is $\\frac{50}{100}=\\frac{1}{2}$.\nFinally, to get the final answer, we multiply $2$ by $70$ which is $2 \\cdot 70 = \\boxed{140}$.",
+        "\nbody {\n color: #000000;\n background-color: #ffffff;\n}\n times \u00d7 of means \n\u5360\u6bd4\u5982\u8bf4\uff0c$50\\%$ \u900f\u8fc7\u7684 $200\\%$ \u900f\u8fc7\u7684 $70\\%$ \u7684 $50\\%$  \n\u5360\u6bd4\u5982\u8bf4\uff0c$50\\%$ \u900f\u8fc7\u7684 $200\\%$ \u900f\u8fc7\u7684 $70\\%$  \n\n times. Then, divide the result by 1 to get your answer.\n\n times.\u7136\u540e\u9664\u4ee51\uff0c\u5f97\u5230\u7b54\u6848\u3002\n\ntimes\\*\u2019\n\ntimes\\*2.\u5c06\u4e24\u4e2a\u7ed3\u679c\u76f8\u4e58\uff0c\u518d\u9664\u4ee57\uff0c\u5f97\u5230\u6700\u7ec8\u7b54\u6848\u3002\n\ntimes\\*\n",
+        " To find $50\\%$ of $200\\%$ of $70$, we can use the following steps:\n1. Calculate $200\\%$ of $70$. \n$200\\%$ of $70$ is the same as $2 \\times 70$, which is $140$.\n2. Calculate $50\\%$ of $140$.\n$50\\%$ of $140$ is the same as $\\frac{1}{2} \\times 140$, which is $70$.\nTherefore, $50\\%$ of $200\\%$ of $70$ is equal to $70$.",
+        " To solve this problem, we need to calculate $50\\%$ of $200\\%$ of $70$. \nFirst, we need to find $50\\%$ of $70$. To do this, we multiply $70$ by $0.50$. \n$50\\%$ of $70$ is $0.50 \\times 70 = 35$.\nNext, we need to find $200\\%$ of $35$. To do this, we multiply $35$ by $2$. \n$200\\%$ of $35$ is $2 \\times 35 = 70$.\nFinally, we need to find $70$ percent of $70$ which is $0.70 \\times 70 = 49$.\nTherefore, $50\\%$ of $200\\%$ of $70$ is $49$.",
+        " \nWe can simplify the expression by multiplying the percentages together and then multiplying the result by $70$.\n$\n50\\% \\text{ of } 200\\% \\text{ of } 70 = (0.5 \\times 2 \\times 0.7) \\times 70 = \\boxed{340}\n$\nThe answer is: 340",
+        " To find $50\\%$ of $200\\%$ of $70$, we can first calculate $200\\%$ of $70$ and then take $50\\%$ of the result.\n$$\n200\\% \\text{ of } 70 = \\frac{200}{100} \\cdot 70 = 1.4 \\cdot 70 = 98\n$$\nThen we take $50\\%$ of $98$ which is $\\frac{50}{100} \\cdot 98 = 0.5 \\cdot 98 = 49$\nTherefore, $50\\%$ of $200\\%$ of $70$ is $49$.",
+        "",
+        "\nFirst, we calculate 200% of 70:\n$200\\%$ of 70 = $\\frac{200}{100} \\times 70 = 140$\nThen, we calculate 50% of 140:\n$50\\%$ of 140 = $\\frac{50}{100} \\times 140 = 70$\nSo, $50\\%$ of $200\\%$ of 70 is 70.",
+        " To find $50\\%$ of $200\\%$ of $70$, we can rewrite that expression as: \\begin{align*}\n50\\%\\cdot 200\\%\\cdot 70 &= (0.5\\cdot2)\\cdot(0.2\\cdot70)\\\\\n&= (1\\cdot0.2)\\cdot(0.4\\cdot7)\\\\\n&= 0.2\\cdot 0.4\\cdot 7\\\\\n&= \\boxed{0.064}\n\\end{align*}",
+        " To find $50\\%$ of $200\\%$ of $70$, we need to multiply these fractions together.\n```\n50% of 200% of 70\n------\n50/100 * 200/100 * 70\n```\nNow we can simplify the multiplication:\n```\n50/100 * 200/100 * 70\n= 70 * 50\n= 3500\n```\nSo $50\\%$ of $200\\%$ of $70$ is $\\boxed{3500}$.The answer is: 3500",
+        " \nTo find $50\\%$ of $200\\%$ of $70$, we first need to calculate $200\\%$ of $70$. \n$200\\%$ of $70$ is equal to $(200/100) \\cdot 70 = 1.4 \\cdot 70 = 98$. \nNow, we can find $50\\%$ of $98$. \n$50\\%$ of $98$ is equal to $(50/100) \\cdot 98 = 0.5 \\cdot 98 = 49$. \nTherefore, $50\\%$ of $200\\%$ of $70$ is equal to $49$.",
+        "\nFirst, we need to find $200\\%$ of $70$. \nTo do this, we multiply $70$ by $2.0$: \n$200\\% = \\frac{200}{100} = 2$\n$200\\% \\times 70 = 2 \\times 70 = 140$\nNext, we need to find $50\\%$ of $140$. \nTo do this, we multiply $140$ by $0.5$: \n$50\\% = \\frac{50}{100} = 0.5$\n$0.5 \\times 140 = 70$\nTherefore, $50\\%$ of $200\\%$ of $70$ is $\\boxed{70}$."
+    ],
+    "vllm_answers": [
+        "140",
+        "140",
+        "",
+        "140",
+        "7",
+        "70",
+        "49",
+        "340",
+        "49",
+        "",
+        "70",
+        "064",
+        "3500",
+        "49",
+        "70"
+    ],
+    "vllm_pred_answer": "140"
+}

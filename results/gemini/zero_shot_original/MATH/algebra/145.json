@@ -1,0 +1,23 @@
+{
+    "problem": "Consider the function $g(x) = 3$.  Find $g(2)$.",
+    "level": "Level 3",
+    "type": "Algebra",
+    "solution": "Because $g(x) = 3$, no matter what we input to $g$, the output is 3.  So, $g(2) = \\boxed{3}$.",
+    "prompt": "### Instruction: Consider the function $g(x) = 3$.  Find $g(2)$.\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "The function $g(x) = 3$ means that no matter what value we put in for *x*, the output will always be 3. \nTherefore,  $g(2) = \\boxed{3}$. \n",
+        "The function $g(x) = 3$ means that no matter what value of *x* you plug in, the output will always be 3.  \nTherefore,  $g(2) = \\boxed{3}$. \n",
+        "The function  $g(x) = 3$ means that no matter what value of  $x$ you plug in, the output will always be 3.  \nTherefore,  $g(2) = \\boxed{3}$. \n",
+        "The function  $g(x) = 3$ means that for any input value of $x$, the output is always 3. \nTherefore,  $g(2) = \\boxed{3}$. \n",
+        "The function $g(x) = 3$ means that no matter what value of $x$ you plug in, the output is always 3. \nTherefore,  $g(2) = \\boxed{3}$. \n"
+    ],
+    "pred_answers": "3",
+    "final_pred_answer": [
+        "3",
+        "3",
+        "3",
+        "3",
+        "3"
+    ],
+    "ground_truth": "3"
+}

@@ -1,0 +1,23 @@
+{
+    "problem": "Suzanne walks four miles every third day. What is the fewest number of miles she can walk in February?",
+    "level": "Level 3",
+    "type": "Algebra",
+    "solution": "February has 28 days with one extra day during leap years. We want the fewest number of miles, so we go with 28 days in February. The fewest number of days she can walk is $\\left\\lfloor\\frac{28}{3}\\right\\rfloor=9$. So the fewest number of miles she can walk is $9\\cdot4=\\boxed{36}$ miles.",
+    "prompt": "### Instruction: Suzanne walks four miles every third day. What is the fewest number of miles she can walk in February?\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "Here's how to solve this problem:\n**1. Days in February:** February has 28 days.\n**2. Walking days:** Suzanne walks every third day, so we need to figure out how many times 3 goes into 28.  28 divided by 3 is about 9.33.  Since we can't have a fraction of a day, Suzanne will walk on 9 days in February.\n**3. Total miles:**  Suzanne walks 4 miles each time, so in February she'll walk 9 days * 4 miles/day = 36 miles.\n**Answer:** The fewest number of miles Suzanne can walk in February is **36 miles**. \n",
+        "Here's how to solve the problem step-by-step:\n* **February has 28 days.**\n* **Suzanne walks every third day.**  This means she walks on the 1st, 4th, 7th, 10th, 13th, 16th, 19th, 22nd, 25th, and 28th. That's a total of 10 days in February.\n* **She walks 4 miles each time.** \n* **To find the total miles, multiply the number of walks by the miles per walk: 10 walks * 4 miles/walk = 40 miles**\n**Therefore, the fewest number of miles Suzanne can walk in February is 40 miles.** \n",
+        "Here's how to solve this problem step-by-step:\n* **February has 28 days.**\n* **Suzanne walks every third day, so we need to figure out how many groups of 3 days are in February.**  28 days / 3 days/group = 9 groups with a remainder of 1 day.\n* **She walks 4 miles each time, so she walks 9 groups * 4 miles/group = 36 miles.**\n* **Even though there's one extra day, she doesn't walk on it. Therefore, the fewest miles she can walk in February is 36 miles.** \n",
+        "Here's how to solve this problem step-by-step:\n* **February has 28 days.**\n* **Suzanne walks every 3rd day.**  This means she'll walk on days 3, 6, 9, 12, 15, 18, 21, 24, and 27.\n* **She walks 4 miles each time.** \nTherefore, the fewest number of miles she can walk in February is 9 days * 4 miles/day = **36 miles**. \n",
+        "Here's how to solve this problem:\n* **February has 28 days.**\n* **Suzanne walks every third day.**  This means she'll walk on days 3, 6, 9, 12, 15, 18, 21, 24, and 27. That's a total of 9 days.\n* **She walks 4 miles each day she walks.** \n* **To find the total miles, multiply the number of days she walks by the miles per day:** 9 days * 4 miles/day = 36 miles\n**Therefore, the fewest number of miles Suzanne can walk in February is 36 miles.** \n"
+    ],
+    "pred_answers": "36",
+    "final_pred_answer": [
+        "36",
+        "40",
+        "36",
+        "36",
+        "36"
+    ],
+    "ground_truth": "36"
+}

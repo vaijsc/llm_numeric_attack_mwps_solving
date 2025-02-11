@@ -1,0 +1,23 @@
+{
+    "problem": "Solve for $x$: $$\\left(\\frac{1}{25}\\right)^{x + 2} = 125^{-x}.$$",
+    "level": "Level 4",
+    "type": "Algebra",
+    "solution": "Rewriting both sides with $5$ as the base, we have $\\left(\\frac{1}{25}\\right)^{x + 2} = (5^{-2})^{x+2} = 5^{-2x - 4}$, and $125^{-x} = (5^3)^{-x} = 5^{-3x}$, which means our equation is: $$5^{-2x - 4} = 5^{-3x}.$$Then, by setting the exponents equal to each other, we obtain $$-2x - 4 = -3x.$$This yields our solution $\\boxed{x = 4}$",
+    "prompt": "### Instruction: Solve for $x$: $$\\left(\\frac{1}{25}\\right)^{x + 2} = 125^{-x}.$$\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "1. **Express both sides with the same base:**  Notice that both 25 and 125 are powers of 5.  We can write:\n   *  $\\frac{1}{25} = 5^{-2}$ \n   *  $125 = 5^3$\n2. **Substitute and simplify:**  Now we can rewrite the equation:\n   *  $(5^{-2})^{x+2} = (5^3)^{-x}$\n   *  $5^{-2x-4} = 5^{-3x}$\n3. **Equate exponents:** Since the bases are the same, we can equate the exponents:\n   *  $-2x - 4 = -3x$\n4. **Solve for x:**\n   *  $x = \\boxed{4}$ \n",
+        "1. **Express both sides with the same base:**  Notice that both 25 and 125 can be expressed as powers of 5: \n   *  $25 = 5^2$\n   *  $125 = 5^3$\n   Substitute these into the equation:\n   \n   $$(5^{-2})^{x+2} = (5^3)^{-x}$$\n2. **Simplify using exponent rules:**  Remember that $(a^m)^n = a^{m \\cdot n}$.  Apply this to both sides:\n   $$5^{-2(x+2)} = 5^{-3x}$$\n3. **Equate the exponents:** Since the bases are now the same, we can equate the exponents:\n   $$-2(x+2) = -3x$$\n4. **Solve for x:**  Expand and solve the linear equation:\n   $$-2x - 4 = -3x$$\n   $$x = \\boxed{4}$$ \n",
+        "Here's how to solve the equation step-by-step:\n**1. Express both sides with the same base:**\n* Notice that both 25 and 125 can be expressed as powers of 5: \n   * 25 = 5\u00b2\n   * 125 = 5\u00b3\nSubstitute these into the equation:\n  (5\u207b\u00b2)\u207d\u02e3\u207a\u00b2\u207e = (5\u00b3)\u207b\u02e3\n**2. Simplify using exponent rules:**\n*  (a\u1d50)\u207f = a\u1d50\u207f\n  5\u207b\u00b2\u207d\u02e3\u207a\u00b2\u207e = 5\u207b\u00b3\u02e3\n**3. Equate the exponents:**\nSince the bases are now the same, we can equate the exponents:\n -2(x + 2) = -3x\n**4. Solve for x:**\n* Expand: -2x - 4 = -3x\n* Add 3x to both sides: x - 4 = 0\n* Add 4 to both sides: x = 4\n**Therefore, the solution to the equation is x = 4.** \n",
+        "1. **Express both sides with the same base:**  Notice that both 25 and 125 are powers of 5.  We can rewrite the equation as: \n   \n   *  (5\u207b\u00b2)\u207d\u02e3\u207a\u00b2\u207e = (5\u00b3)\u207d\u207b\u02e3\u207e \n2. **Simplify using exponent rules:**  Using the rule (a\u1d50)\u207f = a\u1d50\u207f, we get:\n   *  5\u207b\u00b2\u02e3\u207b\u2074 = 5\u207b\u00b3\u02e3\n3. **Equate the exponents:**  Since the bases are now the same, we can equate the exponents:\n   *  -2x - 4 = -3x\n4. **Solve for x:** \n   *  x = -4\nTherefore, the solution is  **x = -4**. \n",
+        "Here's how to solve the equation step-by-step:\n1. **Express both sides with the same base:** \n   * Notice that both 25 and 125 are powers of 5:\n     *  25 = 5\u00b2\n     *  125 = 5\u00b3\n   * Substitute these into the equation:\n     * (5\u207b\u00b2)\u207d\u02e3\u207a\u00b2\u207e = (5\u00b3)\u207d\u207b\u02e3\u207e\n2. **Simplify using exponent rules:**\n   *  (a\u1d50)\u207f = a\u1d50\u207f\n   *  5\u207b\u00b2\u207d\u02e3\u207a\u00b2\u207e = 5\u207b\u00b2\u02e3\u207b\u2074\n   *  5\u207b\u00b3\u02e3 = 5\u207b\u00b2\u02e3\u207b\u2074\n3. **Equate the exponents:**\n   * Since the bases are now the same, we can equate the exponents:\n   * -3x = -2x - 4\n4. **Solve for x:**\n   * -x = -4\n   * x = 4\n**Therefore, the solution is x = 4.** \n"
+    ],
+    "pred_answers": "4",
+    "final_pred_answer": [
+        "4",
+        "4",
+        "4",
+        "-4",
+        "4"
+    ],
+    "ground_truth": "4"
+}

@@ -1,0 +1,23 @@
+{
+    "problem": "How many ways are there to put 5 balls in 3 boxes if the balls are distinguishable and the boxes are distinguishable?",
+    "level": "Level 3",
+    "type": "Counting & Probability",
+    "solution": "There are 3 different boxes, so each of the 5 balls can be placed in three different locations.  So the answer is $3^5 = \\boxed{243}$.",
+    "prompt": "### Instruction: How many ways are there to put 5 balls in 3 boxes if the balls are distinguishable and the boxes are distinguishable?\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "Here's how to break down the problem:\n**Understanding the Problem**\n* **Distinguishable balls:**  Each ball is unique (e.g., they could be different colors).\n* **Distinguishable boxes:** Each box is different (e.g., they could be labeled A, B, and C).\n**Solution**\n1. **Consider the first ball:** It has 3 choices (it can go into box A, B, or C).\n2. **Consider the second ball:** It also has 3 choices (it can go into box A, B, or C).\n3. **Continue for the remaining balls:**  Each ball has 3 choices.\n4. **Total possibilities:** Since we have 5 balls, we multiply the number of choices for each ball: 3 * 3 * 3 * 3 * 3 = 3^5 = 243\n**Therefore, there are 243 ways to put 5 distinguishable balls into 3 distinguishable boxes.** \n",
+        "Here's how to solve this problem:\n**Understanding the Problem**\n* **Distinguishable balls:** Each ball is unique (e.g., they could be different colors).\n* **Distinguishable boxes:** Each box is different (e.g., they could be labeled A, B, and C).\n**Solution**\nSince we have 5 balls and each ball has 3 choices (box A, box B, or box C), the total number of ways to arrange the balls is:\n3 * 3 * 3 * 3 * 3 = 3\u2075 = **243**\n**Therefore, there are 243 ways to put 5 distinguishable balls into 3 distinguishable boxes.** \n",
+        "Here's how to solve this problem step by step:\n**Understanding the Problem**\n* **Distinguishable balls:**  Each ball is unique (e.g., they could be different colors).\n* **Distinguishable boxes:**  The boxes are different (e.g., they could be labeled A, B, and C).\n**Solution**\nSince we have 5 balls, and each ball can go into one of 3 boxes, we have 3 choices for each ball:\n* Ball 1: 3 choices\n* Ball 2: 3 choices\n* Ball 3: 3 choices\n* Ball 4: 3 choices\n* Ball 5: 3 choices\nTo find the total number of ways to arrange the balls, we multiply the number of choices for each ball:\n3 * 3 * 3 * 3 * 3 = 3^5 = **243**\n**Therefore, there are 243 ways to put 5 distinguishable balls into 3 distinguishable boxes.** \n",
+        "Here's how to solve this problem step by step:\n**Understanding the Problem**\n* **Distinguishable balls:** Each ball is unique (e.g., they could be different colors).\n* **Distinguishable boxes:** The boxes are different (e.g., they could be labeled A, B, and C).\n**Solution**\n1. **Consider the first ball:** We have 3 choices for where to put the first ball (box A, box B, or box C).\n2. **Consider the second ball:** We also have 3 choices for the second ball (again, box A, box B, or box C).\n3. **Continue for all balls:**  We have 3 choices for each of the 5 balls.\n4. **Total possibilities:**  Since we have 3 choices for each of the 5 balls, the total number of ways to put the balls in the boxes is 3 * 3 * 3 * 3 * 3 = 3\u2075 = **243**.\n**Therefore, there are 243 ways to put 5 distinguishable balls into 3 distinguishable boxes.** \n",
+        "Here's how to solve this problem step-by-step:\n**Understanding the Problem**\n* **Distinguishable balls:** Each ball is unique (e.g., they might be different colors).\n* **Distinguishable boxes:** The boxes are different (e.g., they might be labeled A, B, and C).\n**Solution**\n1. **Consider the first ball:** It has 3 choices of boxes to go into (box A, box B, or box C).\n2. **Consider the second ball:** It also has 3 choices of boxes.\n3. **Continue for all balls:** Each of the 5 balls has 3 choices of boxes.\n4. **Total possibilities:**  Since each ball's placement is independent, we multiply the number of choices for each ball: 3 * 3 * 3 * 3 * 3 = 3^5 = 243\n**Therefore, there are 243 ways to put 5 distinguishable balls into 3 distinguishable boxes.** \n"
+    ],
+    "pred_answers": "3",
+    "final_pred_answer": [
+        "3",
+        "3",
+        "3",
+        "3",
+        "3"
+    ],
+    "ground_truth": "243"
+}

@@ -1,0 +1,23 @@
+{
+    "problem": "If $n = 11$, then what is $\\left(\\frac{1}{4}\\right)^{n+1} \\cdot 2^{2n}$?",
+    "level": "Level 2",
+    "type": "Algebra",
+    "solution": "By simplifying exponents, we have $2^{2n} = 4^n$.  So, our overall expression is $\\frac{4^n}{4^{n+1}}$.  This simplifies to $\\boxed{\\frac{1}{4}}$.  Throughout the course of this calculation, we did not have to plug in the value of 11 for $n$, but the answer may be similarly obtained with this substitution.",
+    "prompt": "### Instruction: If $n = 11$, then what is $\\left(\\frac{1}{4}\\right)^{n+1} \\cdot 2^{2n}$?\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "Here's how to solve the problem step-by-step:\n1. **Substitute the value of n:**  Since we know  n = 11, substitute it into the expression: \n   \n   (1/4)^(11+1) * 2^(2*11)\n2. **Simplify the exponents:**\n   (1/4)^12 * 2^22\n3. **Rewrite 1/4 as a power of 2:**\n   (2^-2)^12 * 2^22\n4. **Apply the power of a power rule:**\n   2^(-2*12) * 2^22\n5. **Simplify the exponents:**\n   2^-24 * 2^22\n6. **Apply the product of powers rule:**\n   2^(-24 + 22)\n7. **Simplify:**\n   2^-2\n8. **Express as a fraction:**\n   1/2^2\n9. **Calculate the final result:**\n   1/4\n**Therefore, if n = 11, then  (1/4)^(n+1) * 2^(2n) = 1/4** \n",
+        "Here's how to solve this step-by-step:\n1. **Substitute the value of n:** Since n = 11, we can substitute it into the expression:\n   \n   (1/4)^(11+1) * 2^(2*11)\n2. **Simplify the exponents:** \n   \n   (1/4)^12 * 2^22\n3. **Rewrite 1/4 as a power of 2:** 1/4 is the same as 2^(-2).\n   2^(-2)^12 * 2^22\n4. **Apply the power of a power rule:** When raising a power to another power, you multiply the exponents.\n   2^(-24) * 2^22\n5. **Apply the product of powers rule:** When multiplying powers with the same base, you add the exponents.\n   2^(-24 + 22)\n6. **Simplify:**\n   2^(-2)\n7. **Rewrite as a fraction:**\n   1/2^2\n8. **Calculate:**\n   1/4\n**Therefore, if n = 11, then (1/4)^(n+1) * 2^(2n) = 1/4.** \n",
+        "1. **Substitute n:** Since we know *n = 11*, let's substitute that into the expression: \n   \n   (1/4)^(11+1) * 2^(2*11)\n2. **Simplify exponents:** Simplify the exponents:\n   (1/4)^12 * 2^22\n3. **Rewrite fractions as exponents:**  We can rewrite (1/4) as 4^-1:\n   (4^-1)^12 * 2^22\n4. **Apply exponent rules:**  When raising a power to another power, we multiply the exponents:\n   4^(-1*12) * 2^22\n   4^-12 * 2^22\n5. **Rewrite 4 as 2^2:**  We can rewrite 4 as 2^2:\n   (2^2)^-12 * 2^22\n6. **Apply exponent rules again:**\n   2^(2*-12) * 2^22\n   2^-24 * 2^22\n7. **Combine exponents:** When multiplying powers with the same base, we add the exponents:\n   2^(-24+22)\n   2^-2\n8. **Simplify:**  We can rewrite 2^-2 as 1/2^2:\n   1/2^2 = 1/4\n**Therefore,  (1/4)^(n+1) * 2^(2n) = 1/4 when n = 11** \n",
+        "Here's how to solve the problem step-by-step:\n1. **Substitute the value of n:** \n   Since n = 11, we have: \n   (1/4)^(11+1) * 2^(2*11)\n2. **Simplify the exponents:**\n   (1/4)^12 * 2^22\n3. **Rewrite the fractions with common bases:**\n   (2^-2)^12 * 2^22\n4. **Apply the power of a power rule:**\n   2^(-24) * 2^22\n5. **Use the product of powers rule:**\n   2^(-24 + 22)\n6. **Simplify:**\n   2^-2\n7. **Rewrite with a positive exponent:**\n   1/2^2\n8. **Calculate:**\n   1/4\n**Therefore, if n = 11, then (1/4)^(n+1) * 2^(2n) = 1/4** \n",
+        "Here's how to solve the problem step-by-step:\n1. **Substitute the value of n:**  Since we're given n = 11, we substitute it into the expression: \n   \n   (1/4)^(11+1) * 2^(2*11)\n2. **Simplify the exponents:**\n   (1/4)^12 * 2^22\n3. **Rewrite 1/4 as a power of 2:**\n   (2^-2)^12 * 2^22\n4. **Apply the power of a power rule:**\n   2^(-2*12) * 2^22\n5. **Simplify:**\n   2^-24 * 2^22\n6. **Apply the product of powers rule:**\n   2^(-24 + 22)\n7. **Simplify:**\n   2^-2\n8. **Evaluate:**\n   1/2^2 = 1/4\n**Therefore,  (1/4)^(n+1) * 2^(2n) = 1/4 when n = 11.** \n"
+    ],
+    "pred_answers": "4",
+    "final_pred_answer": [
+        "4",
+        "4",
+        "11",
+        "4",
+        "11"
+    ],
+    "ground_truth": "11"
+}

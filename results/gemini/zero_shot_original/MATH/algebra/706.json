@@ -1,0 +1,23 @@
+{
+    "problem": "Compute: $\\dfrac{2^{10}-2^8}{2^7-2^6}$. Express your answer in simplest form.",
+    "level": "Level 2",
+    "type": "Algebra",
+    "solution": "Cancel some factors of 2 before subtracting: \\begin{align*}\n\\frac{2^{10}-2^8}{2^7-2^6}&=\\frac{2^8(2^{2}-1)}{2^6(2^1-1)} \\\\\n&=2^2\\left(\\frac{3}{1}\\right) \\\\\n&=\\boxed{12}.\n\\end{align*}",
+    "prompt": "### Instruction: Compute: $\\dfrac{2^{10}-2^8}{2^7-2^6}$. Express your answer in simplest form.\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "**1. Factor out common factors:**\n* In the numerator, we can factor out $2^8$:  $2^{10} - 2^8 = 2^8(2^2 - 1)$.\n* In the denominator, we can factor out $2^6$: $2^7 - 2^6 = 2^6(2 - 1)$.\n**2. Simplify:**\n* Now we have: $\\dfrac{2^8(2^2 - 1)}{2^6(2 - 1)}$\n* Simplify further: $\\dfrac{2^8 \\cdot 3}{2^6 \\cdot 1}$\n**3. Divide:**\n* Divide the numerator and denominator by their common factor, $2^6$: $\\dfrac{2^2 \\cdot 3}{1}$\n**4. Calculate:**\n* This gives us: $4 \\cdot 3 = \\boxed{12}$ \n",
+        "Here's how to compute the expression step-by-step:\n1. **Factor out common factors:**\n   * In the numerator, we can factor out $2^8$:  $2^{10} - 2^8 = 2^8(2^2 - 1)$\n   * In the denominator, we can factor out $2^6$: $2^7 - 2^6 = 2^6(2 - 1)$\n2. **Simplify:**\n   *  $\\dfrac{2^8(2^2 - 1)}{2^6(2 - 1)}$\n3. **Cancel common factors:**\n   * $\\dfrac{2^8 \\cancel{(2^2 - 1)}}{2^6 \\cancel{(2 - 1)}} = \\dfrac{2^8}{2^6}$\n4. **Use exponent rules:** \n   * $\\dfrac{2^8}{2^6} = 2^{8-6} = 2^2$\n5. **Calculate:**\n   * $2^2 = 4$\nTherefore, $\\dfrac{2^{10}-2^8}{2^7-2^6} = \\boxed{4}$. \n",
+        "Here's how to solve the problem step-by-step:\n1. **Factor out common factors:**\n   * In the numerator,  both terms have $2^8$ as a common factor: \n      *  $2^{10} - 2^8 = 2^8 (2^2 - 1)$\n   * In the denominator, both terms have $2^6$ as a common factor:\n      * $2^7 - 2^6 = 2^6 (2 - 1)$\n2. **Simplify:**\n   * $\\dfrac{2^8 (2^2 - 1)}{2^6 (2 - 1)}$\n3. **Cancel common factors:**\n   *  Notice that $2^6$ is a common factor in both the numerator and denominator.  Cancel these: \n      * $\\dfrac{2^2 (2^2 - 1)}{2 - 1}$\n4. **Calculate remaining values:**\n   *  $\\dfrac{4 (4 - 1)}{1}$ = $\\dfrac{4 \\cdot 3}{1}$\n5. **Final answer:**\n   * $\\dfrac{2^{10}-2^8}{2^7-2^6} = \\boxed{12}$ \n",
+        "**1. Factor out common powers:**\n* In the numerator, both terms have $2^8$ in common.\n* In the denominator, both terms have $2^6$ in common.\nThis gives us: \n  \n  $\\dfrac{2^{10}-2^8}{2^7-2^6} = \\dfrac{2^8(2^2 - 1)}{2^6(2 - 1)}$\n**2. Simplify:**\n*  Cancel the common factor of $2^6$ in the numerator and denominator.\nThis gives us: \n  $\\dfrac{2^8(2^2 - 1)}{2^6(2 - 1)} = \\dfrac{2^2(2^2 - 1)}{(2 - 1)}$\n**3. Calculate the remaining powers:**\n*  $2^2 = 4$\n*  $2^2 - 1 = 3$\n*  $2 - 1 = 1$\nThis gives us: \n  $\\dfrac{2^2(2^2 - 1)}{(2 - 1)} = \\dfrac{4(3)}{1}$\n**4. Final calculation:**\n*  $\\dfrac{4(3)}{1} = \\boxed{12}$ \n",
+        "**1. Factor out common factors:**\n* In the numerator, both terms have a factor of 2\u2078:  \n  2\u00b9\u2070 - 2\u2078 = 2\u2078(2\u00b2 - 1)\n* In the denominator, both terms have a factor of 2\u2076:\n  2\u2077 - 2\u2076 = 2\u2076(2\u00b9 - 1)\n**2. Simplify the expression:**\n*  Now we have: (2\u2078(2\u00b2 - 1)) / (2\u2076(2\u00b9 - 1)) \n*  Cancel the common factor of 2\u2076: (2\u00b2(2\u00b2 - 1)) / (2\u00b9 - 1)\n**3. Evaluate the remaining terms:**\n* (2\u00b2(2\u00b2 - 1)) / (2\u00b9 - 1) = (4(4 - 1)) / (2 - 1) = (4 * 3) / 1 = 12\n**Therefore, the answer is 12.** \n"
+    ],
+    "pred_answers": "12",
+    "final_pred_answer": [
+        "12",
+        "4",
+        "12",
+        "12",
+        "12"
+    ],
+    "ground_truth": "12"
+}

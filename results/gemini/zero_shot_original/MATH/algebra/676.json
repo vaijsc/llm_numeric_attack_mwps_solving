@@ -1,0 +1,23 @@
+{
+    "problem": "William runs at a constant speed of 8 miles per hour. Running at this constant speed, it takes William 75 seconds to run from his house to school. How many miles did William run?",
+    "level": "Level 3",
+    "type": "Algebra",
+    "solution": "William ran for 75 seconds, which we will have to convert to miles. We know have conversion factors to get from seconds to hours, namely $\\frac{1\\text{ minute}}{60 \\text{ seconds}} = 1$ and $\\frac{1\\text{ hour}}{60 \\text{ minutes}} = 1$. We are also given William's running speed, so $\\frac{8\\text{ miles}}{1 \\text{ hour}} = 1$. Thus, we can find that William ran \\[ 75\\text{ seconds}\\cdot \\frac{1\\text{ minute}}{60 \\text{ seconds}} \\cdot \\frac{1\\text{ hour}}{60 \\text{ minutes}} \\cdot \\frac{8\\text{ miles}}{1 \\text{ hour}} = \\boxed{\\frac{1}{6}}\\text{ miles.}\\]",
+    "prompt": "### Instruction: William runs at a constant speed of 8 miles per hour. Running at this constant speed, it takes William 75 seconds to run from his house to school. How many miles did William run?\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "Here's how to solve this problem step-by-step:\n**1. Convert time to hours:**\n* There are 60 minutes in an hour and 60 seconds in a minute.\n* William's running time in hours is 75 seconds / 60 seconds/minute / 60 minutes/hour = 0.020833 hours (approximately).\n**2. Use the formula: distance = speed x time**\n* Speed = 8 miles per hour\n* Time = 0.020833 hours\n* Distance = 8 miles/hour * 0.020833 hours = **0.166664 miles** (approximately)\n**Therefore, William ran approximately 0.166664 miles.** \n",
+        "Here's how to solve this problem step-by-step:\n**1. Convert Time to Hours:**\n* There are 60 minutes in an hour, and 60 seconds in a minute. \n* So, 75 seconds is equal to 75/60 = 1.25 minutes.\n* And 1.25 minutes is equal to 1.25/60 = 0.0208333 hours (approximately).\n**2. Use the Formula: Distance = Speed x Time**\n* William's speed is 8 miles per hour.\n* The time he ran is 0.0208333 hours.\n* Distance = 8 miles/hour * 0.0208333 hours = 0.1666664 miles (approximately)\n**Answer:** William ran approximately **0.1667 miles**. \n",
+        "Here's how to solve the problem step-by-step:\n**1. Convert time to hours:**\n* There are 60 minutes in an hour and 60 seconds in a minute.\n* William's time in hours is 75 seconds / 60 seconds/minute / 60 minutes/hour = 0.020833 hours\n**2. Use the formula: distance = speed x time**\n*  Speed = 8 miles per hour\n*  Time = 0.020833 hours\n*  Distance = 8 miles/hour * 0.020833 hours = **0.166664 miles**\n**Therefore, William ran approximately 0.17 miles.** \n",
+        "Here's how to solve this problem step-by-step:\n**1. Convert Time to Hours:**\n* There are 60 minutes in an hour and 60 seconds in a minute.\n*  75 seconds is equal to 75/60/60 = 0.020833 hours (approximately).\n**2. Use the Formula: Distance = Speed x Time**\n* Distance = 8 miles/hour * 0.020833 hours\n* Distance \u2248 0.1667 miles\n**Answer:** William ran approximately **0.1667 miles** to get to school. \n",
+        "Here's how to solve this problem step-by-step:\n**1. Convert time to hours:**\n* There are 60 minutes in an hour, and 60 seconds in a minute.\n*  Therefore, 75 seconds is equal to 75/60/60 = 0.020833 hours (approximately).\n**2. Use the formula: distance = speed x time**\n* We know:\n    * Speed = 8 miles per hour\n    * Time = 0.020833 hours\n* Distance = 8 miles/hour * 0.020833 hours \n* Distance = **0.166664 miles** (approximately)\n**Answer:** William ran approximately 0.166664 miles. \n"
+    ],
+    "pred_answers": "0.166664",
+    "final_pred_answer": [
+        "0.166664",
+        "0.1667",
+        "0.17",
+        "0.1667",
+        "0.166664"
+    ],
+    "ground_truth": "6"
+}

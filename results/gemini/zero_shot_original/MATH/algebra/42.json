@@ -1,0 +1,23 @@
+{
+    "problem": "Find the sum of all values of $x$ such that $|x-1| = 7$.",
+    "level": "Level 2",
+    "type": "Algebra",
+    "solution": "We must have either $x-1 = 7$ or $x-1=-7$.  If $x-1=7$, we have $x=8$, and if $x-1 = -7$, we have $x= -6$, so the sum of the possible values of $x$ is $8+(-6) = \\boxed{2}$.",
+    "prompt": "### Instruction: Find the sum of all values of $x$ such that $|x-1| = 7$.\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "Here's how to solve the problem step by step:\n**1. Understand Absolute Value**\nThe absolute value of a number is its distance from zero. So,  |x - 1| represents the distance between the number *x* and the number 1.\n**2. Set Up Two Equations**\nSince the distance can be either positive or negative, we need to consider two cases:\n* **Case 1:** x - 1 = 7\n* **Case 2:** x - 1 = -7\n**3. Solve for x in Each Case**\n* **Case 1:** \n   x - 1 = 7\n   x = 7 + 1\n   x = 8\n* **Case 2:**\n   x - 1 = -7\n   x = -7 + 1\n   x = -6\n**4. Find the Sum**\nThe solutions are x = 8 and x = -6.  Their sum is:\n8 + (-6) = **2**\n**Therefore, the sum of all values of x that satisfy the equation |x - 1| = 7 is 2.** \n",
+        "Here's how to solve the problem step-by-step:\n**1. Understand Absolute Value:**\nThe absolute value of a number is its distance from zero.  So,  |x-1| represents the distance between *x* and 1.\n**2. Set Up Two Equations:**\nSince the distance can be either positive or negative, we need to consider both cases:\n* **Case 1:**  x - 1 = 7 \n* **Case 2:** x - 1 = -7\n**3. Solve for x in Each Case:**\n* **Case 1:** Add 1 to both sides:  x = 8\n* **Case 2:** Add 1 to both sides: x = -6\n**4. Find the Sum:**\nThe sum of the two solutions is 8 + (-6) = **2**. \n",
+        "Here's how to solve the problem step-by-step:\n**Understanding Absolute Value**\nThe absolute value of a number is its distance from zero.  So,  |x - 1| represents the distance between *x* and 1 on the number line.\n**Solving the Equation**\nSince the absolute value is 7,  *x* must be 7 units away from 1.  This gives us two possibilities:\n* **Case 1:**  x - 1 = 7\n   * Solving for *x*, we get x = 8\n* **Case 2:**  x - 1 = -7\n   * Solving for *x*, we get x = -6\n**Finding the Sum**\nThe two solutions are 8 and -6.  Their sum is:\n8 + (-6) = **2** \n",
+        "Here's how to solve the problem step-by-step:\n**Understanding Absolute Value**\nThe absolute value of a number is its distance from zero.  This means that:\n*  If a number is positive, its absolute value is the number itself. \n*  If a number is negative, its absolute value is the positive version of that number.\n**Solving the Equation**\n1. **Consider the positive case:**  \n   If  |x - 1| = 7, then (x - 1) could be equal to 7.\n   Solving for x:\n   x - 1 = 7\n   x = 8\n2. **Consider the negative case:**\n   If |x - 1| = 7, then (x - 1) could also be equal to -7.\n   Solving for x:\n   x - 1 = -7\n   x = -6\n**Finding the Sum**\nWe found two solutions for x: x = 8 and x = -6.  Their sum is:\n8 + (-6) = **2** \n",
+        "Here's how to solve the problem step by step:\n**Understanding Absolute Value**\nThe absolute value of a number is its distance from zero.  So,  |x| represents the distance of x from zero on the number line.\n**Solving the Equation**\n1. **Two Cases:** The equation |x - 1| = 7 means that the distance between x and 1 is 7 units. This gives us two possibilities:\n    * **Case 1:** x - 1 = 7\n    * **Case 2:** x - 1 = -7\n2. **Solve for x in each case:**\n    * **Case 1:** x - 1 = 7  =>  x = 8\n    * **Case 2:** x - 1 = -7  =>  x = -6\n3. **Sum the Solutions:** The solutions are x = 8 and x = -6. Their sum is 8 + (-6) = **2**. \n**Therefore, the sum of all values of x that satisfy the equation |x - 1| = 7 is 2.** \n"
+    ],
+    "pred_answers": "2",
+    "final_pred_answer": [
+        "2",
+        "2",
+        "2",
+        "2",
+        "2"
+    ],
+    "ground_truth": "2"
+}

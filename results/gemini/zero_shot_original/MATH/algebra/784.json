@@ -1,0 +1,23 @@
+{
+    "problem": "Find all values of $r$ such that $5^{2r-3} = 25$.",
+    "level": "Level 2",
+    "type": "Algebra",
+    "solution": "We write both sides with the same base, 5.  This gives us $5^{2r-3} = 5^2$.  Since the bases of both sides are the same, the exponents must be equal.  Therefore, we have $2r-3=2$, so $r=\\boxed{\\frac{5}{2}}$.",
+    "prompt": "### Instruction: Find all values of $r$ such that $5^{2r-3} = 25$.\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "Here's how to solve the equation step-by-step:\n1. **Rewrite 25 as a power of 5:**  We know that $25 = 5^2$.\n2. **Substitute and simplify:** Now we have: \n   $5^{2r-3} = 5^2$\n3. **Equate the exponents:**  Since the bases are the same, we can equate the exponents:\n   $2r - 3 = 2$\n4. **Solve for r:**\n   * Add 3 to both sides:  $2r = 5$\n   * Divide both sides by 2:  $r = \\boxed{\\frac{5}{2}}$ \n",
+        "Here's how to solve the problem step-by-step:\n1. **Rewrite 25 as a power of 5:**  We know that 25 is the same as 5 squared (5\u00b2). \n2. **Set the exponents equal:** Now we have: \n   5^(2r-3) = 5\u00b2\n3. **Solve for r:** Since the bases are the same, we can equate the exponents:\n   2r - 3 = 2\n4. **Isolate r:** \n   * Add 3 to both sides: 2r = 5\n   * Divide both sides by 2: r = 5/2\n**Therefore, the only value of r that satisfies the equation is r = 5/2.** \n",
+        "Here's how to solve the problem step by step:\n1. **Express 25 as a power of 5:**  Since 25 is the square of 5, we can write  25 as  $5^2$.\n2. **Substitute and simplify:**  Now our equation becomes: \n   $5^{2r-3} = 5^2$\n3. **Equate the exponents:**  When the bases of an equation are the same, we can equate the exponents: \n   $2r-3 = 2$\n4. **Solve for r:**  Now we have a simple linear equation:\n   * Add 3 to both sides:  $2r = 5$\n   * Divide both sides by 2:  $r = \\boxed{\\frac{5}{2}}$ \n",
+        "Here's how to solve the problem step-by-step:\n**1. Express 25 as a power of 5:**\n*  We know that 25 is the same as 5 squared:  25 = 5\u00b2 \n**2. Substitute and simplify:**\n* Now our equation becomes: 5^(2r-3) = 5\u00b2\n**3. Equate exponents:**\n* Since the bases are the same, we can equate the exponents: 2r - 3 = 2\n**4. Solve for r:**\n* Add 3 to both sides: 2r = 5\n* Divide both sides by 2: r = 5/2\n**Therefore, the only value of r that satisfies the equation is r = 5/2.** \n",
+        "Here's how to solve the problem step-by-step:\n**1. Express 25 as a power of 5:**\n*  Since 25 is the square of 5, we can write:  25 = 5\u00b2\n**2. Substitute and simplify:**\n* Now our equation becomes: 5^(2r-3) = 5\u00b2\n**3. Equate the exponents:**\n* When the bases are the same, we can equate the exponents: 2r - 3 = 2\n**4. Solve for r:**\n* Add 3 to both sides: 2r = 5\n* Divide both sides by 2: r = 5/2\n**Therefore, the value of r that satisfies the equation is r = 5/2.** \n"
+    ],
+    "pred_answers": "2",
+    "final_pred_answer": [
+        "2",
+        "2",
+        "2",
+        "2",
+        "2"
+    ],
+    "ground_truth": "2"
+}

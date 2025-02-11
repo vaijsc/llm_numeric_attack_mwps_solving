@@ -1,0 +1,23 @@
+{
+    "problem": "Expand the following product: $\\frac{1}{4}\\left(\\frac{4}{y} + 4y\\right)$.",
+    "level": "Level 2",
+    "type": "Algebra",
+    "solution": "We apply the distributive property to get\\begin{align*}\n\\frac{1}{4}\\left(\\frac{4}{y}+4y\\right)&= \\frac{1}{4}\\cdot\\frac{4}{y}+\\frac{1}{4}\\cdot 4y\\\\\n&= \\boxed{\\frac{1}{y} + y}.\n\\end{align*}",
+    "prompt": "### Instruction: Expand the following product: $\\frac{1}{4}\\left(\\frac{4}{y} + 4y\\right)$.\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "To expand the given expression \\(\\frac{1}{4}\\left(\\frac{4}{y} + 4y\\right)\\), we will follow these steps:\n1. **Distribute \\(\\frac{1}{4}\\)** into the parentheses.\n   The expression inside the parentheses is \\(\\frac{4}{y} + 4y\\). We will distribute \\(\\frac{1}{4}\\) to both terms:\n   \\[\n   \\frac{1}{4} \\cdot \\frac{4}{y} + \\frac{1}{4} \\cdot 4y\n   \\]\n2. **Perform the multiplication for each term**:\n   - For the first term:\n     \\[\n     \\frac{1}{4} \\cdot \\frac{4}{y} = \\frac{4}{4y} = \\frac{1}{y}\n     \\]\n   - For the second term:\n     \\[\n     \\frac{1}{4} \\cdot 4y = \\frac{4y}{4} = y\n     \\]\n3. **Combine the results**:\n   Now, we combine the two results from step 2:\n   \\[\n   \\frac{1}{y} + y\n   \\]\nThus, the expanded product is:\n\\[\n\\frac{1}{y} + y\n\\]",
+        "To expand the product \\(\\frac{1}{4}\\left(\\frac{4}{y} + 4y\\right)\\), we can start by distributing \\(\\frac{1}{4}\\) to each term inside the parentheses.\n1. We have two terms in the parentheses: \\(\\frac{4}{y}\\) and \\(4y\\).\n2. We'll distribute \\(\\frac{1}{4}\\) to each term:\n   a. For the first term: \n   \\[\n   \\frac{1}{4} \\cdot \\frac{4}{y} = \\frac{4}{4y} = \\frac{1}{y}\n   \\]\n   b. For the second term:\n   \\[\n   \\frac{1}{4} \\cdot 4y = \\frac{4y}{4} = y\n   \\]\n3. Now, we combine the results from both terms:\n   \\[\n   \\frac{1}{4}\\left(\\frac{4}{y} + 4y\\right) = \\frac{1}{y} + y\n   \\]\nThus, the final expanded form of the given expression is:\n\\[\n\\frac{1}{y} + y\n\\]",
+        "To expand the product \\(\\frac{1}{4}\\left(\\frac{4}{y} + 4y\\right)\\), we will follow these steps:\n1. **Distribute \\(\\frac{1}{4}\\)** across the terms inside the parentheses.\n2. **Calculate each multiplication separately**.\nStarting with the expression:\n\\[\n\\frac{1}{4}\\left(\\frac{4}{y} + 4y\\right)\n\\]\nWe can distribute \\(\\frac{1}{4}\\):\n\\[\n= \\frac{1}{4} \\cdot \\frac{4}{y} + \\frac{1}{4} \\cdot 4y\n\\]\nNow, let's compute each term:\n1. **For the first term**:\n\\[\n\\frac{1}{4} \\cdot \\frac{4}{y} = \\frac{4}{4y} = \\frac{1}{y}\n\\]\n2. **For the second term**:\n\\[\n\\frac{1}{4} \\cdot 4y = \\frac{4y}{4} = y\n\\]\nNow combine both results:\n\\[\n\\frac{1}{y} + y\n\\]\nThus, the expanded expression is:\n\\[\n\\frac{1}{y} + y\n\\] \nThis is the final result:\n\\[\n\\boxed{\\frac{1}{y} + y}\n\\]",
+        "To expand the product \\(\\frac{1}{4}\\left(\\frac{4}{y} + 4y\\right)\\), we will follow these steps:\n1. **Distribute \\(\\frac{1}{4}\\)** to each term in the parentheses.\n2. **Simplify the expressions.**\nNow, let\u2019s break it down:\nStep 1: Distribute \\(\\frac{1}{4}\\):\n\\[\n\\frac{1}{4} \\cdot \\left(\\frac{4}{y} + 4y\\right) = \\frac{1}{4} \\cdot \\frac{4}{y} + \\frac{1}{4} \\cdot 4y\n\\]\nStep 2: Calculate each term:\n- For the first term:\n\\[\n\\frac{1}{4} \\cdot \\frac{4}{y} = \\frac{4}{4y} = \\frac{1}{y}\n\\]\n- For the second term:\n\\[\n\\frac{1}{4} \\cdot 4y = \\frac{4y}{4} = y\n\\]\nStep 3: Combine the results from both terms:\n\\[\n\\frac{1}{y} + y\n\\]\nThus, the expanded product is:\n\\[\n\\frac{1}{y} + y\n\\]",
+        "To expand the product \\(\\frac{1}{4}\\left(\\frac{4}{y} + 4y\\right)\\), we will follow these steps:\n1. **Distribute \\(\\frac{1}{4}\\)** to each term inside the parentheses:\n   \\[\n   \\frac{1}{4} \\left(\\frac{4}{y} + 4y\\right) = \\frac{1}{4} \\cdot \\frac{4}{y} + \\frac{1}{4} \\cdot 4y\n   \\]\n2. **Calculate each term separately**:\n   - For the first term:\n     \\[\n     \\frac{1}{4} \\cdot \\frac{4}{y} = \\frac{4}{4y} = \\frac{1}{y}\n     \\]\n   - For the second term:\n     \\[\n     \\frac{1}{4} \\cdot 4y = \\frac{4y}{4} = y\n     \\]\n3. **Combine the results**:\n   Now we combine both terms:\n   \\[\n   \\frac{1}{y} + y\n   \\]\nThus, the expanded form of the original expression \\(\\frac{1}{4}\\left(\\frac{4}{y} + 4y\\right)\\) is:\n\\[\n\\frac{1}{y} + y\n\\]"
+    ],
+    "pred_answers": "1",
+    "final_pred_answer": [
+        "1",
+        "1",
+        "1",
+        "1",
+        "1"
+    ],
+    "ground_truth": "1"
+}

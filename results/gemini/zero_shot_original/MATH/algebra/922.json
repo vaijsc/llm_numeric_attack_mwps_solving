@@ -1,0 +1,23 @@
+{
+    "problem": "Five plus $500\\%$ of $10$ is the same as $110\\%$ of what number?",
+    "level": "Level 1",
+    "type": "Algebra",
+    "solution": "We have $5+\\frac{500}{100}\\cdot10=5+5\\cdot10=55$ equal to $110\\%$ of the number $x$. $$\\frac{110}{100}x=\\frac{11}{10}x=55\\qquad\\Rightarrow x=55\\cdot\\frac{10}{11}=5\\cdot10=50$$ The number is $\\boxed{50}$.",
+    "prompt": "### Instruction: Five plus $500\\%$ of $10$ is the same as $110\\%$ of what number?\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "Here's how to solve the problem step-by-step:\n**1. Calculate 500% of 10:**\n*  500% is equivalent to 5 (since 100% = 1, then 500% = 5).\n*  500% of 10 is 5 * 10 = 50\n**2. Calculate Five plus 500% of 10:**\n*  5 + 50 = 55\n**3. Set up an equation:**\n* Let \"x\" represent the unknown number.\n* 110% of x is the same as 55. \n* We can write this as: 1.10 * x = 55 (since 110% = 1.10)\n**4. Solve for x:**\n* Divide both sides of the equation by 1.10:\n    * x = 55 / 1.10\n    * x = 50\n**Answer:** Five plus 500% of 10 is the same as 110% of **50**. \n",
+        "Here's how to solve the problem step-by-step:\n1. **Calculate 500% of 10:** \n   *  500% is equivalent to 5 (since 100% = 1).\n   *  500% of 10 is 5 * 10 = 50\n2. **Calculate five plus 500% of 10:**\n   *  5 + 50 = 55\n3. **Convert 110% to a decimal:**\n   * 110% = 1.10\n4. **Set up an equation:**\n   * Let \"x\" represent the unknown number.\n   *  1.10 * x = 55\n5. **Solve for x:**\n   * Divide both sides of the equation by 1.10:\n     * x = 55 / 1.10 = 50\n**Therefore, five plus 500% of 10 is the same as 110% of 50.** \n",
+        "Here's how to solve the problem step-by-step:\n**1. Calculate 500% of 10:**\n* 500% is the same as 5 (since 100% = 1). \n* 5 * 10 = 50\n**2. Calculate five plus 500% of 10:**\n* 5 + 50 = 55\n**3.  Calculate 110% of an unknown number (let's call it \"x\"):**\n* 110% is the same as 1.10 (since 100% = 1).\n* 1.10 * x = 55 \n**4. Solve for x:**\n* Divide both sides of the equation by 1.10:\n   * x = 55 / 1.10 \n   * x = 50\n**Answer:** Five plus 500% of 10 is the same as 110% of **50**. \n",
+        "Here's how to solve the problem step-by-step:\n**1. Calculate 500% of 10:**\n*  500% is equivalent to 5 (since 100% = 1, 500% = 5).\n*  500% of 10 is 5 * 10 = 50\n**2. Calculate Five plus 500% of 10:**\n*  Five plus 50 is 5 + 50 = 55\n**3. Convert 110% to a decimal:**\n*  110% is equivalent to 1.10 (divide by 100).\n**4. Set up an equation:**\n*  Let \"x\" represent the unknown number.\n*  The problem states that 55 is equal to 110% of \"x\".  This translates to the equation: 55 = 1.10x\n**5. Solve for x:**\n*  Divide both sides of the equation by 1.10: 55 / 1.10 = x\n*  Therefore, x = 50\n**Answer:** Five plus 500% of 10 is the same as 110% of **50**. \n",
+        "Here's how to solve this problem step-by-step:\n**1. Calculate 500% of 10:**\n* 500% is the same as 5 (since 100% = 1, then 500% = 5).\n* 5 * 10 = 50\n**2. Calculate five plus 500% of 10:**\n* 5 + 50 = 55\n**3. Convert 110% to a decimal:**\n* 110% = 1.10 (divide by 100)\n**4. Let 'x' represent the unknown number:**\n* 1.10 * x = 55\n**5. Solve for 'x':**\n* x = 55 / 1.10\n* x = 50\n**Therefore, five plus 500% of 10 is the same as 110% of 50.** \n"
+    ],
+    "pred_answers": "500",
+    "final_pred_answer": [
+        "500",
+        "50",
+        "500",
+        "500",
+        "50"
+    ],
+    "ground_truth": "50"
+}

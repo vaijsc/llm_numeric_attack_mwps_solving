@@ -1,0 +1,23 @@
+{
+    "problem": "On the student government ballot at Dusable High School, the six candidates for president are listed first, followed by the four candidates for vice president, followed by the five candidates for secretary and ending with the three candidates for treasurer. In how many ways can the candidates be listed on the ballot?",
+    "level": "Level 4",
+    "type": "Counting & Probability",
+    "solution": "Since there are six candidates for president, the presidential candidates can be ordered in $6! = 720$ ways. Likewise, there are $4! = 24$ vice presidential permutations. And $5! = 120$ secretarial permutations. Finally, $3! = 6$ treasurer permutations. We must multiply the number of permutations for each position, since each ballot includes all the position permutations: $720 \\cdot 24 \\cdot 120 \\cdot 6 = \\boxed{12441600}$.",
+    "prompt": "### Instruction: On the student government ballot at Dusable High School, the six candidates for president are listed first, followed by the four candidates for vice president, followed by the five candidates for secretary and ending with the three candidates for treasurer. In how many ways can the candidates be listed on the ballot?\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "Here's how to solve this problem step-by-step:\n* **President:** There are 6 choices for who can be listed first for president.\n* **Vice President:** After the president is chosen, there are 4 choices left for vice president.\n* **Secretary:**  With the president and vice president chosen, there are 5 choices for secretary.\n* **Treasurer:** Finally, there are 3 choices for treasurer.\nTo find the total number of ways to list the candidates, we multiply the number of choices at each step:\n6 * 4 * 5 * 3 = **360**\nTherefore, there are **360** different ways to list the candidates on the ballot. \n",
+        "Here's how to solve this problem step-by-step:\n* **President:** There are 6 choices for who can be listed first. \n* **Vice President:** After the president is chosen, there are 4 choices left for vice president.\n* **Secretary:**  With the president and vice president decided, there are 5 choices left for secretary.\n* **Treasurer:**  Finally, there are 3 choices for treasurer.\nTo find the total number of ways to list the candidates, we multiply the number of choices at each step:\n6 * 4 * 5 * 3 = **360**\nTherefore, there are **360** different ways to list the candidates on the ballot. \n",
+        "Here's how to solve this problem step-by-step:\n* **President:** There are 6 choices for who can be listed first as president.\n* **Vice President:** After the president is chosen, there are 4 choices for vice president.\n* **Secretary:**  There are 5 choices for secretary.\n* **Treasurer:**  Finally, there are 3 choices for treasurer.\nTo get the total number of ways to list the candidates, we multiply the number of choices at each step:\n6 * 4 * 5 * 3 = **360**\n**Therefore, there are 360 different ways to list the candidates on the ballot.** \n",
+        "Here's how to solve this problem:\n* **President:** There are 6 choices for the first spot on the ballot (for president).\n* **Vice President:** Once the president is chosen, there are 4 choices for the vice president spot.\n* **Secretary:** Now there are 5 choices for the secretary position.\n* **Treasurer:** Finally, there are 3 choices for the treasurer position.\nTo find the total number of ways to list the candidates, we multiply the number of choices at each step:\n6 * 4 * 5 * 3 = **360**\n**Therefore, there are 360 different ways the candidates can be listed on the ballot.** \n",
+        "Here's how to solve this problem step-by-step:\n* **President:** There are 6 choices for the first position (president).\n* **Vice President:** After choosing the president, there are 4 choices left for vice president.\n* **Secretary:**  With the president and vice president chosen, there are 5 choices for secretary.\n* **Treasurer:**  Finally, there are 3 choices for treasurer.\nTo find the total number of ways to list the candidates, we multiply the number of choices at each step:\n6 choices * 4 choices * 5 choices * 3 choices = **360 ways** \n"
+    ],
+    "pred_answers": "360",
+    "final_pred_answer": [
+        "360",
+        "360",
+        "360",
+        "360",
+        "360"
+    ],
+    "ground_truth": "12441600"
+}

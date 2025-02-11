@@ -1,0 +1,23 @@
+{
+    "problem": "The points $(1,-2)$ and $(-4,10)$ are adjacent vertices of a square. What is the perimeter of the square?",
+    "level": "Level 3",
+    "type": "Algebra",
+    "solution": "The side length of the square is the distance between the given points, or $\\sqrt{(1 - (-4))^2 + ((-2) - 10)^2} = \\sqrt{5^2 + 12^2} = 13$. The perimeter of the square is four times the side length, or $4 \\times 13 = \\boxed{52}$.",
+    "prompt": "### Instruction: The points $(1,-2)$ and $(-4,10)$ are adjacent vertices of a square. What is the perimeter of the square?\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "Here's how to solve this problem:\n**1. Understand the Geometry**\n* A square has four equal sides and four right angles. \n* Adjacent vertices mean the points are next to each other on the square.\n**2. Find the Side Length**\n* The distance between the two given points represents one side of the square.\n* Use the distance formula:  \u221a[(x\u2082 - x\u2081)\u00b2 + (y\u2082 - y\u2081)\u00b2]\n   *  Let (1, -2) be (x\u2081, y\u2081) and (-4, 10) be (x\u2082, y\u2082)\n   *  Distance = \u221a[(-4 - 1)\u00b2 + (10 - (-2))\u00b2] = \u221a[(-5)\u00b2 + (12)\u00b2] = \u221a(169) = 13\n**3. Calculate the Perimeter**\n* Perimeter of a square is 4 times the side length.\n* Perimeter = 4 * 13 = 52\n**Therefore, the perimeter of the square is 52.** \n",
+        "Here's how to solve the problem step-by-step:\n**1. Find the length of one side of the square**\n* **Distance Formula:**  The distance between two points (x1, y1) and (x2, y2) is given by: \u221a[(x2 - x1)\u00b2 + (y2 - y1)\u00b2] \n* **Apply the formula:**  Let (1, -2) be (x1, y1) and (-4, 10) be (x2, y2).\n    * Distance = \u221a[(-4 - 1)\u00b2 + (10 - (-2))\u00b2] \n    * Distance = \u221a[(-5)\u00b2 + (12)\u00b2]\n    * Distance = \u221a(25 + 144)\n    * Distance = \u221a169 = 13\n**2. Calculate the perimeter**\n* **Perimeter of a square:**  Perimeter = 4 * side length\n* **Substitute the side length:** Perimeter = 4 * 13 = 52\n**Answer:** The perimeter of the square is **52**. \n",
+        "Here's how to solve this problem step-by-step:\n**1. Find the side length of the square:**\n* **Distance formula:** The distance between two points (x1, y1) and (x2, y2) is given by: \u221a((x2 - x1)\u00b2 + (y2 - y1)\u00b2)\n* **Apply the formula:**  Let (1, -2) be (x1, y1) and (-4, 10) be (x2, y2).  \n   *  \u221a((-4 - 1)\u00b2 + (10 - (-2))\u00b2) = \u221a((-5)\u00b2 + (12)\u00b2) = \u221a(25 + 144) = \u221a169 = 13\n**2. Calculate the perimeter:**\n* **Perimeter of a square:**  Perimeter = 4 * side length\n* **Substitute:** Perimeter = 4 * 13 = 52\n**Therefore, the perimeter of the square is 52.** \n",
+        "Here's how to solve the problem step-by-step:\n**1. Find the side length of the square:**\n* **Distance Formula:** The distance between two points (x1, y1) and (x2, y2) is given by: \u221a((x2 - x1)\u00b2 + (y2 - y1)\u00b2)\n* **Apply to our points:**  \n    *  Distance between (1, -2) and (-4, 10) = \u221a((-4 - 1)\u00b2 + (10 - (-2))\u00b2) \n    *  = \u221a((-5)\u00b2 + (12)\u00b2) = \u221a(25 + 144) = \u221a169 = 13\n**2. Calculate the perimeter:**\n* **Perimeter of a square:** Perimeter = 4 * side length\n* **Substitute:** Perimeter = 4 * 13 = 52\n**Therefore, the perimeter of the square is 52.** \n",
+        "Here's how to solve this problem step-by-step:\n**1. Find the Length of a Side**\n* **Distance Formula:** Since the two given points are adjacent vertices of a square, the distance between them represents the length of one side of the square. We can use the distance formula to find this:\n   \n   Distance = \u221a[(x\u2082 - x\u2081)\u00b2 + (y\u2082 - y\u2081)\u00b2] \n* **Apply the Formula:** \n   Let (1, -2) be (x\u2081, y\u2081) and (-4, 10) be (x\u2082, y\u2082). Substitute these values into the distance formula:\n   Distance = \u221a[(-4 - 1)\u00b2 + (10 - (-2))\u00b2] \n            = \u221a[(-5)\u00b2 + (12)\u00b2]\n            = \u221a(25 + 144)\n            = \u221a169\n            = 13\n**2. Calculate the Perimeter**\n* **Perimeter of a Square:**  The perimeter of a square is the total length of all its sides. Since all sides of a square are equal, the perimeter is 4 times the length of one side.\n* **Calculate:** Perimeter = 4 * side length = 4 * 13 = 52\n**Answer:** The perimeter of the square is **52**. \n"
+    ],
+    "pred_answers": "52",
+    "final_pred_answer": [
+        "52",
+        "52",
+        "52",
+        "52",
+        "52"
+    ],
+    "ground_truth": "52"
+}

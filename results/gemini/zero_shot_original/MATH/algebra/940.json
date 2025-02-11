@@ -1,0 +1,23 @@
+{
+    "problem": "Let $f(x) = 3\\sqrt{2x - 7} - 8$.  Find $f(8)$.",
+    "level": "Level 3",
+    "type": "Algebra",
+    "solution": "$f(8) = 3\\sqrt{2\\cdot 8 - 7} - 8 = 3\\sqrt{9} - 8 =\\boxed{1}$.",
+    "prompt": "### Instruction: Let $f(x) = 3\\sqrt{2x - 7} - 8$.  Find $f(8)$.\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "1. **Substitute:**  We're asked to find the value of the function when *x* = 8.  So, we substitute 8 for *x* in the function:\n   \n   *f(8) = 3\u221a(2 * 8 - 7) - 8*\n2. **Simplify inside the radical:** \n   \n   *f(8) = 3\u221a(16 - 7) - 8*\n   *f(8) = 3\u221a9 - 8*\n3. **Calculate the square root:**\n   *f(8) = 3 * 3 - 8*\n4. **Finish the calculation:**\n   *f(8) = 9 - 8*\n   *f(8) = 1*\n**Therefore, f(8) = 1** \n",
+        "**1. Substitute the value of x into the function:**\nSince we need to find *f(8)*, we replace *x* with *8* in the function:\n  *f(8) = 3\u221a(2 * 8 - 7) - 8*\n**2. Simplify inside the square root:**\n  *f(8) = 3\u221a(16 - 7) - 8*\n  *f(8) = 3\u221a9 - 8*\n**3. Calculate the square root:**\n  *f(8) = 3 * 3 - 8*\n**4. Perform the multiplication and subtraction:**\n  *f(8) = 9 - 8*\n  *f(8) = 1*\n**Therefore, f(8) = 1** \n",
+        "1. **Substitute:** Replace every 'x' in the function with the value 8:\n   \n   *  $f(8) = 3\\sqrt{2(8) - 7} - 8$\n2. **Simplify inside the square root:**\n   *  $f(8) = 3\\sqrt{16 - 7} - 8$\n   *  $f(8) = 3\\sqrt{9} - 8$\n3. **Calculate the square root:**\n   *  $f(8) = 3(3) - 8$\n4. **Perform the multiplication and subtraction:**\n   *  $f(8) = 9 - 8$\n   *  $f(8) = 1$\n**Therefore, f(8) = 1** \n",
+        "**1. Substitute:** Replace the 'x' in the function with the value 8.\n   So, we have:  *f(8) = 3\u221a(2 * 8 - 7) - 8*\n**2. Simplify inside the radical:**\n   *f(8) = 3\u221a(16 - 7) - 8*\n   *f(8) = 3\u221a9 - 8*\n**3. Calculate the square root:**\n   *f(8) = 3 * 3 - 8*\n**4. Perform the remaining operations:**\n   *f(8) = 9 - 8*\n   *f(8) = 1*\n**Therefore, f(8) = 1** \n",
+        "1. **Substitute:** We need to find the value of the function when *x* is 8. So, we substitute 8 for *x* in the function:\n   \n   *f(8) = 3\u221a(2 * 8 - 7) - 8*\n2. **Simplify inside the radical:**\n   \n   *f(8) = 3\u221a(16 - 7) - 8*\n   *f(8) = 3\u221a9 - 8*\n3. **Calculate the square root:**\n   *f(8) = 3 * 3 - 8*\n4. **Complete the calculation:**\n   *f(8) = 9 - 8*\n   *f(8) = 1*\n**Therefore, f(8) = 1** \n"
+    ],
+    "pred_answers": "1",
+    "final_pred_answer": [
+        "1",
+        "1",
+        "1",
+        "1",
+        "1"
+    ],
+    "ground_truth": "1"
+}

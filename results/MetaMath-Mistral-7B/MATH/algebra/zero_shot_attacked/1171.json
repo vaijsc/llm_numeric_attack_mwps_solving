@@ -1,0 +1,41 @@
+{
+    "index_adversarial_question": 19,
+    "problem": "Compute: $113+276-63-26$.",
+    "pcot_answer": "# Define the first number\nnumber1 = 113  ### condition: 'number1': {'type': 'int', '<=': None, '>=': 0, 'science_constant': False, 'direct_from_question': True}\n# Define the second number\nnumber2 = 276  ### condition: 'number2': {'type': 'int', '<=': None, '>=': 0, 'science_constant': False, 'direct_from_question': True}\n# Define the third number\nnumber3 = 63  ### condition: 'number3': {'type': 'int', '<=': None, '>=': 0, 'science_constant': False, 'direct_from_question': True}\n# Define the fourth number\nnumber4 = 26  ### condition: 'number4': {'type': 'int', '<=': None, '>=': 0, 'science_constant': False, 'direct_from_question': True}\n# Calculate the result of the expression\nresult = number1 + number2 - number3 - number4  ### condition: 'result': {'type': 'int', '<=': None, '>=': 0, 'science_constant': False, 'direct_from_question': False}\n# Print the result\nprint(f\"Computed result: {result}\")",
+    "answer": "300",
+    "vllm_responses": [
+        "We can simplify the problem by performing the operations in the order of operations: parentheses, exponents, multiplication and division (from left to right), and addition and subtraction (from left to right).\nThere are no parentheses or exponents in this problem, so we move on to multiplication and division.\nThere are no multiplication or division operations in this problem, so we move on to addition and subtraction.\nWe can start by adding 113 and 276: 113 + 276 = 389.\nNext, we can subtract 63 from 389: 389 - 63 = 326.\nFinally, we subtract 26 from 326: 326 - 26 = 299.\nTherefore, the answer is $\\boxed{299}$.The answer is: 299",
+        "To compute this expression, we follow the order of operations, which is parentheses, exponents, multiplication and division (from left to right), and addition and subtraction (from left to right).\nThere are no parentheses or exponents in this expression.\nNext, we perform any multiplication or division from left to right.\nThere are no multiplication or division operations in this expression.\nFinally, we perform any addition or subtraction from left to right.\nStarting from the left, we have $113 + 276 = 389$.\nNext, we subtract $63$ from $389$ to get $326$.\nFinally, we subtract $26$ from $326$ to get the final answer of $\\boxed{300}$.\nThe answer is: 300",
+        "We follow the order of operations, which tells us to perform the addition and subtraction from left to right.\n$113 + 276 = 389$\n$389 - 63 = 326$\n$326 - 26 = \\boxed{299}$The answer is: 299",
+        "Following the order of operations (PEMDAS/BODMAS), we perform multiplication and division before addition and subtraction.\n$113+276-63-26$\nThere are no multiplication or division operations in this expression, so we can move on to addition and subtraction.\n$113+276-63-26=113+276-63-26$\nPerforming addition and subtraction from left to right, we have:\n$113+276-63-26=179-63-26$\n$=116-26$\n$=90$\nTherefore, $113+276-63-26=\\boxed{90}$.\nThe answer is: 90",
+        "$113+276-63-26 = (113+276) - (63+26) = 389 - 89 = \\boxed{300}$.The answer is: 300",
+        "We follow the order of operations (parentheses, exponents, multiplication and division, from left to right, and addition and subtraction, from left to right) to compute the expression.\n$113 + 276 - 63 - 26 = 113 + (276 - 63) - 26$\n$= 113 + 213 - 26$\n$= (113 + 213) - 26$\n$= 326 - 26$\n$= \\boxed{292}$The answer is: 292",
+        "First, perform the addition: $113+276=389$.\nThen, perform the subtraction: $389-63=326$ and $326-26=298$.\nTherefore, $113+276-63-26=298$.The answer is: 298",
+        "We can start by simplifying the addition and subtraction within the parentheses:\n$113 + 276 - 63 - 26$\n$= 113 + (276 - 63) - 26$\n$= 113 + 213 - 26$\nNow we can simplify the remaining addition and subtraction:\n$= 326 - 26$\n$= \\boxed{276}$.\nThe answer is: 276",
+        "Using the order of operations (PEMDAS), we first perform the addition and subtraction within each parentheses:\n$113+276 = 389$ and $389-63 = 326$.\nFinally, we subtract 26 from 326 to get the final answer:\n$326-26 = \\boxed{290}$.\nThe answer is: 290",
+        "Computing first to last, we have:\n$113 + 276 - 63 - 26$\n$= 113 + 276 - 63 - 26$\n$= 389 - 63 - 26$\n$= 326 - 26$\n$= \\boxed{270}$.\nThe answer is: 270",
+        "Following the order of operations, we perform the addition and subtraction from left to right:\n$113 + 276 = 389$\n$389 - 63 = 326$\n$326 - 26 = \\boxed{290}$\nThe answer is: 290",
+        "We follow the order of operations, which tells us to perform the addition and subtraction from left to right.\n$113 + 276 = 389$\n$389 - 63 = 326$\n$326 - 26 = \\boxed{297}$\nThe answer is: 297",
+        "First, we perform the addition and subtraction within each pair of parentheses: $113+276-63-26 = 113+276-(63+26)$.\nThen, we perform the addition and subtraction within the second pair of parentheses: $113+276-(63+26) = 113+276-89$.\nFinally, we perform the addition and subtraction from left to right: $113+276-89 = 392-89 = \\boxed{303}$.\nThe answer is: 303",
+        "First, we add 113 and 276:\n$$113 + 276 = 389.$$\nNext, we subtract 63 from 389:\n$$389 - 63 = 326.$$\nFinally, we subtract 26 from 326:\n$$326 - 26 = \\boxed{299}.$$\nThe answer is: 299",
+        "First, we add: $113 + 276 = 389$.\nNext, we subtract: $389 - 63 = 326$.\nFinally, we subtract again: $326 - 26 = \\boxed{290}$.\nThe answer is: 290"
+    ],
+    "vllm_answers": [
+        "299",
+        "300",
+        "299",
+        "90",
+        "300",
+        "292",
+        "298",
+        "276",
+        "290",
+        "270",
+        "290",
+        "297",
+        "303",
+        "299",
+        "290"
+    ],
+    "vllm_pred_answer": "299"
+}

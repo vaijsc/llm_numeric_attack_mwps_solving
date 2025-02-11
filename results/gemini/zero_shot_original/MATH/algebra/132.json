@@ -1,0 +1,23 @@
+{
+    "problem": "If $x+y=12$ and $x-y=8$, what is the value of $2x-xy$?",
+    "level": "Level 1",
+    "type": "Algebra",
+    "solution": "First, notice $2x - xy = x(2 - y)$. So this problem reduces to finding the values of $x$ and $y$.\n\nAdd the two equations together to find $x$: \\begin{align*}\n2x &= 20, \\\\\nx &= 10.\n\\end{align*}\nSubtract the two equations to find $y$: \\begin{align*}\n2y &= 4, \\\\\ny &= 2.\n\\end{align*}\nSince $y = 2$ and $x = 10$, $x(2 - y) = 10(2 - 2) = \\boxed{0}$.",
+    "prompt": "### Instruction: If $x+y=12$ and $x-y=8$, what is the value of $2x-xy$?\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "Here's how to solve the problem step-by-step:\n**1. Solve for x and y**\n* **Add the two equations together:** \n   (x + y) + (x - y) = 12 + 8\n   2x = 20\n   x = 10\n* **Substitute the value of x (10) into either original equation to solve for y:**\n   10 + y = 12\n   y = 2\n**2. Substitute the values of x and y into the expression 2x - xy**\n* 2(10) - (10)(2) = 20 - 20 = 0\n**Therefore, the value of 2x - xy is 0.** \n",
+        "Here's how to solve the problem step-by-step:\n**1. Solve for x and y**\n* **Add the two equations together:** \n   (x + y) + (x - y) = 12 + 8\n   2x = 20\n   x = 10\n* **Substitute the value of x back into either equation to solve for y:**\n   10 + y = 12\n   y = 2\n**2. Substitute the values of x and y into the expression 2x - xy**\n* 2(10) - (10)(2) = 20 - 20 = 0\n**Therefore, the value of 2x - xy is 0.** \n",
+        "Here's how to solve this problem step-by-step:\n**1. Solve for x and y**\n* **Add the two equations together:** \n   (x + y) + (x - y) = 12 + 8\n   2x = 20\n   x = 10\n* **Substitute the value of x back into either original equation to solve for y:**\n   10 + y = 12\n   y = 2\n**2. Substitute the values of x and y into the expression 2x - xy**\n* 2(10) - (10)(2) \n* 20 - 20 = 0\n**Therefore, the value of 2x - xy is 0.** \n",
+        "Here's how to solve the problem step-by-step:\n**1. Solve for x and y**\n* **Add the two equations together:** \n   (x + y) + (x - y) = 12 + 8\n   2x = 20\n   x = 10\n* **Substitute the value of x back into either original equation to solve for y:**\n   10 + y = 12\n   y = 2\n**2. Substitute the values of x and y into the expression 2x - xy**\n* 2(10) - (10)(2) = 20 - 20 = 0\n**Therefore, the value of 2x - xy is 0.** \n",
+        "Here's how to solve this problem step-by-step:\n**1. Solve for x and y**\n* **Add the two equations together:** \n   (x + y) + (x - y) = 12 + 8\n   2x = 20\n   x = 10\n* **Substitute the value of x (10) into either of the original equations to solve for y:**\n   10 + y = 12\n   y = 2\n**2. Substitute the values of x and y into the expression 2x - xy**\n* 2(10) - (10)(2) \n* 20 - 20 \n* 0\n**Therefore, the value of 2x - xy is 0.** \n"
+    ],
+    "pred_answers": "0",
+    "final_pred_answer": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+    ],
+    "ground_truth": "0"
+}

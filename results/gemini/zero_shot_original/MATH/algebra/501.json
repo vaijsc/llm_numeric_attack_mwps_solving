@@ -1,0 +1,23 @@
+{
+    "problem": "What is the distance, in units, between the points $(2, -6)$ and $(-4, 3)$? Express your answer in simplest radical form.",
+    "level": "Level 3",
+    "type": "Algebra",
+    "solution": "We use the distance formula:  \\begin{align*}\n\\sqrt{(2 - (-4))^2 + ((-6) - 3)^2} &= \\sqrt{6^2 + (-9)^2}\\\\\n& = \\sqrt{36 + 81}\\\\\n& = \\sqrt{117} = \\boxed{3\\sqrt{13}}.\n\\end{align*}",
+    "prompt": "### Instruction: What is the distance, in units, between the points $(2, -6)$ and $(-4, 3)$? Express your answer in simplest radical form.\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "Here's how to find the distance between the points:\n**1. Understand the Distance Formula**\nThe distance formula is derived from the Pythagorean theorem. It states that the distance between two points (x\u2081, y\u2081) and (x\u2082, y\u2082) is:\n\u221a[(x\u2082 - x\u2081)\u00b2 + (y\u2082 - y\u2081)\u00b2]\n**2. Apply the Formula**\n* Let (x\u2081, y\u2081) = (2, -6)\n* Let (x\u2082, y\u2082) = (-4, 3)\nSubstitute the values into the distance formula:\n\u221a[(-4 - 2)\u00b2 + (3 - (-6))\u00b2] \n**3. Simplify**\n\u221a[(-6)\u00b2 + (9)\u00b2] \n\u221a[36 + 81]\n\u221a117\n**4. Express in Simplest Radical Form**\n* Find the prime factorization of 117: 117 = 3 \u00d7 3 \u00d7 13 = 3\u00b2 \u00d7 13\n* Simplify the radical: \u221a117 = \u221a(3\u00b2 \u00d7 13) = 3\u221a13\n**Answer:** The distance between the points (2, -6) and (-4, 3) is **3\u221a13 units**. \n",
+        "Here's how to find the distance between the two points:\n**1. Understand the Distance Formula**\nThe distance formula is derived from the Pythagorean theorem and helps us calculate the distance between two points in a coordinate plane:\n*  Distance =  \u221a[(x\u2082 - x\u2081)\u00b2 + (y\u2082 - y\u2081)\u00b2]\n**2. Label Your Points**\nLet's label our points:\n* (x\u2081, y\u2081) = (2, -6)\n* (x\u2082, y\u2082) = (-4, 3)\n**3. Plug the Values into the Formula**\nDistance = \u221a[(-4 - 2)\u00b2 + (3 - (-6))\u00b2]\n**4. Simplify**\nDistance = \u221a[(-6)\u00b2 + (9)\u00b2]\nDistance = \u221a(36 + 81)\nDistance = \u221a117\n**5. Simplify the Radical**\n\u221a117 can be simplified since 117 is divisible by 9:\nDistance = \u221a(9 * 13)\nDistance = 3\u221a13\n**Answer:** The distance between the points (2, -6) and (-4, 3) is **3\u221a13** units. \n",
+        "We can use the distance formula to find the distance between two points.  The distance formula is derived from the Pythagorean Theorem:\n**Distance Formula:**  \nThe distance between points $(x_1, y_1)$ and $(x_2, y_2)$ is: \n  \n  \u221a[(x\u2082 - x\u2081)\u00b2 + (y\u2082 - y\u2081)\u00b2]\nLet's apply this to our problem:\n*  (x\u2081, y\u2081) = (2, -6)\n*  (x\u2082, y\u2082) = (-4, 3)\nSubstitute the values into the distance formula:\n\u221a[(-4 - 2)\u00b2 + (3 - (-6))\u00b2]\nSimplify:\n\u221a[(-6)\u00b2 + (9)\u00b2] \n\u221a[36 + 81] \n\u221a117\nSimplify the radical:\n\u221a(9 * 13) = **3\u221a13** \nTherefore, the distance between the points (2, -6) and (-4, 3) is **3\u221a13 units**. \n",
+        "1. **Visualize the Points:** Imagine the points (2, -6) and (-4, 3) plotted on a coordinate plane.  \n2. **Distance Formula:** The distance between two points is the length of the line segment connecting them. We can use the distance formula:\n   \u221a[(x\u2082 - x\u2081)\u00b2 + (y\u2082 - y\u2081)\u00b2]\n3. **Plug in the Coordinates:** Let (2, -6) be (x\u2081, y\u2081) and (-4, 3) be (x\u2082, y\u2082). Substitute these values into the distance formula:\n   \u221a[(-4 - 2)\u00b2 + (3 - (-6))\u00b2]\n4. **Simplify:** \n   \u221a[(-6)\u00b2 + (9)\u00b2]\n   \u221a[36 + 81]\n   \u221a117\n5. **Simplify the Radical:** \n   \u221a(9 * 13) = 3\u221a13\n**Therefore, the distance between the points (2, -6) and (-4, 3) is 3\u221a13 units.** \n",
+        "Here's how to find the distance between the points (2, -6) and (-4, 3):\n**1. Use the Distance Formula:**\nThe distance formula is derived from the Pythagorean theorem:\nDistance =  \u221a[(x\u2082 - x\u2081)\u00b2 + (y\u2082 - y\u2081)\u00b2]\n**2.  Plug in the Coordinates:**\n*  (x\u2081, y\u2081) = (2, -6)\n*  (x\u2082, y\u2082) = (-4, 3)\nDistance = \u221a[(-4 - 2)\u00b2 + (3 - (-6))\u00b2] \n**3. Simplify:**\nDistance = \u221a[(-6)\u00b2 + (9)\u00b2]\nDistance = \u221a(36 + 81)\nDistance = \u221a117\n**4. Simplify the Radical:**\nDistance = \u221a(9 * 13) \nDistance = **3\u221a13**\n**Therefore, the distance between the points (2, -6) and (-4, 3) is 3\u221a13 units.** \n"
+    ],
+    "pred_answers": "13",
+    "final_pred_answer": [
+        "2",
+        "2",
+        "13",
+        "13",
+        "13"
+    ],
+    "ground_truth": "13"
+}

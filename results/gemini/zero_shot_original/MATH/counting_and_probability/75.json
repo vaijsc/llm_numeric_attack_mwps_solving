@@ -1,0 +1,23 @@
+{
+    "problem": "Two candidates, Dan and Donald, run for class president. Two other candidates, Freddie and Bernie, run for vice president. Each candidate has a 50$\\%$ chance of winning. What is the probability that both Dan and Freddie win? (Express your answer as a fraction.)",
+    "level": "Level 1",
+    "type": "Counting & Probability",
+    "solution": "The probability that Dan wins is $\\frac12$. The probability that Freddie wins is also $\\frac12$. Therefore, the probability that both win is $\\frac12 \\cdot \\frac12 =\\boxed{\\frac14}$.",
+    "prompt": "### Instruction: Two candidates, Dan and Donald, run for class president. Two other candidates, Freddie and Bernie, run for vice president. Each candidate has a 50$\\%$ chance of winning. What is the probability that both Dan and Freddie win? (Express your answer as a fraction.)\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "Here's how to solve the problem:\n* **Independent Events:** The outcome of the president election is independent of the outcome of the vice president election. This means the results of one don't affect the other.\n* **Probability of Dan Winning:**  Dan has a 1/2 (50%) chance of winning the president election.\n* **Probability of Freddie Winning:** Freddie has a 1/2 (50%) chance of winning the vice president election.\n* **Probability of Both Winning:** To find the probability of both events happening, we multiply the probabilities of each individual event:\n   (1/2) * (1/2) = **1/4**\n**Therefore, the probability of both Dan and Freddie winning is 1/4.** \n",
+        "Here's how to solve the problem:\n* **Independent Events:** The outcome of the president election is independent of the outcome of the vice president election.  This means that one election doesn't affect the other.\n* **Probability of Dan Winning:** Dan has a 1/2 chance of winning the president election.\n* **Probability of Freddie Winning:** Freddie has a 1/2 chance of winning the vice president election.\n* **Probability of Both Winning:** To find the probability of both events happening, we multiply the individual probabilities:\n   (1/2) * (1/2) = **1/4** \n**Therefore, the probability that both Dan and Freddie win is 1/4.** \n",
+        "Here's how to solve the problem step-by-step:\n* **Independent Events:**  The outcome of the president election (Dan or Donald winning) is independent of the outcome of the vice president election (Freddie or Bernie winning). This means the results don't affect each other.\n* **Probability of Dan Winning:** Dan has a 1/2 chance of winning the president election.\n* **Probability of Freddie Winning:** Freddie has a 1/2 chance of winning the vice president election.\n* **Probability of Both Winning:** To find the probability of both events happening, we multiply the individual probabilities:\n   (1/2) * (1/2) = **1/4**\n**Therefore, the probability of both Dan and Freddie winning is 1/4.** \n",
+        "Here's how to solve the problem step by step:\n* **Dan's Chances:** Dan has a 1/2 chance of winning the presidency.\n* **Freddie's Chances:** Freddie has a 1/2 chance of winning the vice presidency.\n* **Independent Events:** These are independent events, meaning the outcome of one doesn't affect the outcome of the other. \n* **Probability of Both:** To find the probability of both events happening, we multiply the probabilities of each individual event: (1/2) * (1/2) = **1/4**\n**Therefore, the probability that both Dan and Freddie win is 1/4.** \n",
+        "Here's how to solve the problem:\n* **Independent Events:**  The outcome of the president election doesn't affect the outcome of the vice president election. These are independent events.\n* **Probability of Independent Events:** To find the probability of two independent events happening, we multiply the probabilities of each event.\n* **Individual Probabilities:**\n    * Dan has a 1/2 chance of winning president.\n    * Freddie has a 1/2 chance of winning vice president.\n* **Combined Probability:** The probability of both Dan and Freddie winning is: (1/2) * (1/2) = **1/4** \n"
+    ],
+    "pred_answers": "4",
+    "final_pred_answer": [
+        "4",
+        "4",
+        "4",
+        "4",
+        "4"
+    ],
+    "ground_truth": "14"
+}

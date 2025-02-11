@@ -1,0 +1,23 @@
+{
+    "problem": "Find the constant coefficient when the polynomial $3(x - 4) + 2(x^2 - x + 7) - 5(x - 1)$ is simplified.",
+    "level": "Level 4",
+    "type": "Algebra",
+    "solution": "The constant coefficient in $3(x - 4) + 2(x^2 - x + 7) - 5(x - 1)$ is $3 \\cdot (-4) + 2 \\cdot 7 - 5 \\cdot (-1) = \\boxed{7}$.",
+    "prompt": "### Instruction: Find the constant coefficient when the polynomial $3(x - 4) + 2(x^2 - x + 7) - 5(x - 1)$ is simplified.\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "Here's how to find the constant coefficient step-by-step:\n1. **Distribute:** Expand each term by multiplying the constant outside the parentheses by each term inside:\n   *  3(x - 4) = 3x - 12\n   *  2(x\u00b2 - x + 7) = 2x\u00b2 - 2x + 14\n   *  -5(x - 1) = -5x + 5\n2. **Combine like terms:** Group together the terms with the same variable and exponent:\n    * (3x - 2x - 5x) + (-12 + 14 + 5) \n3. **Simplify:** Perform the arithmetic:\n    * -4x + 7\n4. **Identify the constant coefficient:** The constant coefficient is the term without a variable.  **Therefore, the constant coefficient is 7.** \n",
+        "Here's how to find the constant coefficient step-by-step:\n1. **Distribute:** \n   *  Expand the first term:  $3(x - 4) = 3x - 12$\n   *  Expand the second term: $2(x^2 - x + 7) = 2x^2 - 2x + 14$\n   *  Expand the third term: $-5(x - 1) = -5x + 5$\n2. **Combine like terms:**\n   *  Combine the $x^2$ terms: $2x^2$\n   *  Combine the $x$ terms: $3x - 2x - 5x = -4x$\n   *  Combine the constant terms: $-12 + 14 + 5 = 7$\n3. **Simplified polynomial:** The simplified polynomial is  $2x^2 - 4x + 7$\n**Therefore, the constant coefficient is 7.** \n",
+        "1. **Distribute:** Expand each part of the expression:\n   *  $3(x - 4) = 3x - 12$\n   *  $2(x^2 - x + 7) = 2x^2 - 2x + 14$\n   *  $5(x - 1) = 5x - 5$\n2. **Combine Like Terms:** Combine the terms with the same power of $x$:\n   *  $2x^2 + (3x - 2x - 5x) + (-12 + 14 - 5)$\n3. **Simplify:** \n   *  $2x^2 - 4x - 3$\n4. **Identify the Constant Coefficient:** The constant coefficient is the term without any variable, which is **-3**. \n",
+        "Here's how to find the constant coefficient:\n1. **Distribute:** Expand each of the expressions in the polynomial:\n   *  $3(x - 4) = 3x - 12$\n   *  $2(x^2 - x + 7) = 2x^2 - 2x + 14$\n   *  $-5(x - 1) = -5x + 5$\n2. **Combine terms:** Now we have: \n   $3x - 12 + 2x^2 - 2x + 14 - 5x + 5$\n3. **Simplify:** Combine like terms:\n   $2x^2 + (3 - 2 - 5)x + (-12 + 14 + 5)$\n   $2x^2 - 4x + 7$\n4. **Identify the constant:** The constant coefficient is the term without any variables, which is **7**.\n**Therefore, the constant coefficient of the simplified polynomial is 7.** \n",
+        "Here's how to find the constant coefficient step-by-step:\n1. **Distribute:** \n   * Expand the first term:  3(x - 4) = 3x - 12\n   * Expand the second term: 2(x\u00b2 - x + 7) = 2x\u00b2 - 2x + 14\n   * Expand the third term: -5(x - 1) = -5x + 5\n2. **Combine like terms:**\n   * **x\u00b2 terms:** 2x\u00b2\n   * **x terms:** 3x - 2x - 5x = -4x\n   * **Constant terms:** -12 + 14 + 5 = 7\n3. **Simplified polynomial:** The simplified polynomial is **2x\u00b2 - 4x + 7**\n4. **Constant coefficient:**  The constant coefficient is the term without any variables, which is **7**. \n"
+    ],
+    "pred_answers": "7",
+    "final_pred_answer": [
+        "7",
+        "7",
+        "-3",
+        "7",
+        "7"
+    ],
+    "ground_truth": "7"
+}

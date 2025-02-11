@@ -1,0 +1,23 @@
+{
+    "problem": "What is $50\\%$ of $200\\%$ of $10$?",
+    "level": "Level 1",
+    "type": "Algebra",
+    "solution": "Turning words into math, we want the value of $.5\\cdot2\\cdot10$, which is $\\boxed{10}$.",
+    "prompt": "### Instruction: What is $50\\%$ of $200\\%$ of $10$?\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "To solve the problem, we will work through it step by step.\n1. **Calculate \\(200\\%\\) of \\(10\\)**:\n   \\[\n   200\\% = 2 \\text{ (since } 200\\% \\text{ means } 200 \\text{ out of } 100\\text{)} \n   \\]\n   To find \\(200\\%\\) of \\(10\\):\n   \\[\n   200\\% \\text{ of } 10 = 2 \\times 10 = 20\n   \\]\n2. **Calculate \\(50\\%\\) of \\(20\\)**:\n   \\[\n   50\\% = 0.5\n   \\]\n   To find \\(50\\%\\) of \\(20\\):\n   \\[\n   50\\% \\text{ of } 20 = 0.5 \\times 20 = 10\n   \\]\nFinally, we put it all together:\n\\[\n\\text{Therefore, } 50\\% \\text{ of } 200\\% \\text{ of } 10 = 10\n\\]\nThe answer is \\( \\boxed{10} \\).",
+        "To find \\(50\\%\\) of \\(200\\%\\) of \\(10\\), we can break it down step by step.\n1. **Calculate \\(200\\%\\) of \\(10\\)**:\n   \\[\n   200\\% \\text{ of } 10 = \\frac{200}{100} \\times 10 = 2 \\times 10 = 20\n   \\]\n2. **Calculate \\(50\\%\\) of \\(20\\)**:\n   \\[\n   50\\% \\text{ of } 20 = \\frac{50}{100} \\times 20 = 0.5 \\times 20 = 10\n   \\]\nPutting it all together, \\(50\\%\\) of \\(200\\%\\) of \\(10\\) is \\(10\\).\nTherefore, the final answer is \\(\\boxed{10}\\).",
+        "To find \\( 50\\% \\) of \\( 200\\% \\) of \\( 10 \\), we will break this down into steps.\n1. **Calculate \\( 200\\% \\) of \\( 10 \\)**:\n   \\[\n   200\\% \\text{ of } 10 = \\frac{200}{100} \\times 10 = 2 \\times 10 = 20\n   \\]\n2. **Now, calculate \\( 50\\% \\) of the result from step 1**:\n   \\[\n   50\\% \\text{ of } 20 = \\frac{50}{100} \\times 20 = 0.5 \\times 20 = 10\n   \\]\nThus, \\( 50\\% \\) of \\( 200\\% \\) of \\( 10 \\) is \\( \\boxed{10} \\).",
+        "To find \\( 50\\% \\) of \\( 200\\% \\) of \\( 10 \\), we can break this down step by step.\n1. **Calculate \\( 200\\% \\) of \\( 10 \\)**:\n   \\[\n   200\\% \\text{ of } 10 = \\frac{200}{100} \\times 10 = 2 \\times 10 = 20\n   \\]\n2. **Next, calculate \\( 50\\% \\) of the result from step 1 (which is \\( 20 \\))**:\n   \\[\n   50\\% \\text{ of } 20 = \\frac{50}{100} \\times 20 = 0.5 \\times 20 = 10\n   \\]\nTherefore, \\( 50\\% \\) of \\( 200\\% \\) of \\( 10 \\) is \\( \\boxed{10} \\).",
+        "To find \\( 50\\% \\) of \\( 200\\% \\) of \\( 10 \\), we can break the problem down into two main steps.\n1. **Calculate \\( 200\\% \\) of \\( 10 \\)**:\n   \\( 200\\% \\) means \\( \\frac{200}{100} = 2 \\). Therefore, to find \\( 200\\% \\) of \\( 10 \\):\n   \\[\n   200\\% \\text{ of } 10 = 2 \\times 10 = 20\n   \\]\n2. **Calculate \\( 50\\% \\) of \\( 20 \\)**:\n   \\( 50\\% \\) means \\( \\frac{50}{100} = 0.5 \\). Thus, to find \\( 50\\% \\) of \\( 20 \\):\n   \\[\n   50\\% \\text{ of } 20 = 0.5 \\times 20 = 10\n   \\]\nPutting it all together, we find that \\( 50\\% \\) of \\( 200\\% \\) of \\( 10 \\) is:\n\\[\n\\boxed{10}\n\\]"
+    ],
+    "pred_answers": "10",
+    "final_pred_answer": [
+        "10",
+        "10",
+        "10",
+        "10",
+        "10"
+    ],
+    "ground_truth": "10"
+}

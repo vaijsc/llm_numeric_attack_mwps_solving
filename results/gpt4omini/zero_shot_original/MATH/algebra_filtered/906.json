@@ -1,0 +1,23 @@
+{
+    "problem": "Let $f(x) = 2x-3$ and $g(x) = x+1$. What is the value of $g(f(5)-1)$?",
+    "level": "Level 2",
+    "type": "Algebra",
+    "solution": "We have $f(5) = 2(5) -3 = 7$, so $g(f(5)-1) = g(7-1) = g(6) = 6+1 = \\boxed{7}$.",
+    "prompt": "### Instruction: Let $f(x) = 2x-3$ and $g(x) = x+1$. What is the value of $g(f(5)-1)$?\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "First, we need to evaluate \\( f(5) \\) using the function \\( f(x) = 2x - 3 \\).\n1. Calculate \\( f(5) \\):\n   \\[\n   f(5) = 2(5) - 3 = 10 - 3 = 7.\n   \\]\nNext, we will compute \\( f(5) - 1 \\):\n2. Calculate \\( f(5) - 1 \\):\n   \\[\n   f(5) - 1 = 7 - 1 = 6.\n   \\]\nNow, we will use this result to evaluate \\( g(f(5) - 1) \\) which is \\( g(6) \\) using the function \\( g(x) = x + 1 \\).\n3. Calculate \\( g(6) \\):\n   \\[\n   g(6) = 6 + 1 = 7.\n   \\]\nThus, the value of \\( g(f(5) - 1) \\) is \\( \\boxed{7} \\).",
+        "To find the value of \\( g(f(5)-1) \\), we first need to compute \\( f(5) \\).\nThe given function \\( f(x) = 2x - 3 \\). Plugging in \\( x = 5 \\):\n\\[\nf(5) = 2(5) - 3\n\\]\n\\[\nf(5) = 10 - 3\n\\]\n\\[\nf(5) = 7\n\\]\nNext, we calculate \\( f(5) - 1 \\):\n\\[\nf(5) - 1 = 7 - 1 = 6\n\\]\nNow we need to evaluate \\( g(6) \\) using the function \\( g(x) = x + 1 \\):\n\\[\ng(6) = 6 + 1 = 7\n\\]\nFinally, the value of \\( g(f(5) - 1) \\) is \n\\[\n\\boxed{7}\n\\]",
+        "First, we need to compute \\( f(5) \\) using the function \\( f(x) = 2x - 3 \\).\n\\[\nf(5) = 2(5) - 3\n\\]\nCalculating this step-by-step:\n1. \\( 2(5) = 10 \\)\n2. \\( 10 - 3 = 7 \\)\nSo, \\( f(5) = 7 \\).\nNext, we need to find \\( f(5) - 1 \\):\n\\[\nf(5) - 1 = 7 - 1 = 6\n\\]\nNow we will use this result to compute \\( g(6) \\) using the function \\( g(x) = x + 1 \\):\n\\[\ng(6) = 6 + 1\n\\]\nCalculating this gives:\n\\[\ng(6) = 7\n\\]\nThus, the value of \\( g(f(5) - 1) \\) is \n\\[\n\\boxed{7}\n\\]",
+        "First, we need to evaluate \\( f(5) \\). The function \\( f(x) = 2x - 3 \\). Substituting \\( x = 5 \\):\n\\[\nf(5) = 2(5) - 3\n\\]\n\\[\n= 10 - 3 = 7\n\\]\nNow, we calculate \\( f(5) - 1 \\):\n\\[\nf(5) - 1 = 7 - 1 = 6\n\\]\nNext, we need to evaluate \\( g(6) \\) using the function \\( g(x) = x + 1 \\):\n\\[\ng(6) = 6 + 1 = 7\n\\]\nThus, the value of \\( g(f(5) - 1) \\) is:\n\\[\n\\boxed{7}\n\\]",
+        "First, we need to find the value of \\( f(5) \\).\nGiven the function \\( f(x) = 2x - 3 \\), we can plug in \\( 5 \\) for \\( x \\):\n\\[\nf(5) = 2(5) - 3\n\\]\n\\[\n= 10 - 3\n\\]\n\\[\n= 7\n\\]\nNext, we need to calculate \\( f(5) - 1 \\):\n\\[\nf(5) - 1 = 7 - 1 = 6\n\\]\nNow, we will find \\( g(f(5) - 1) \\) which is \\( g(6) \\).\nGiven the function \\( g(x) = x + 1 \\), we can plug in \\( 6 \\) for \\( x \\):\n\\[\ng(6) = 6 + 1\n\\]\n\\[\n= 7\n\\]\nThus, the value of \\( g(f(5) - 1) \\) is\n\\[\n\\boxed{7}\n\\]"
+    ],
+    "pred_answers": "7",
+    "final_pred_answer": [
+        "7",
+        "7",
+        "7",
+        "7",
+        "7"
+    ],
+    "ground_truth": "7"
+}

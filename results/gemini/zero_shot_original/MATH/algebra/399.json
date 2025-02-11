@@ -1,0 +1,23 @@
+{
+    "problem": "For the nonzero numbers $a$, $b$, and $c$, define \\[\\text{{D}}(a,b,c)=\\frac{abc}{a+b+c}.\\]Find $\\text{{D}}(2,4,6)$.",
+    "level": "Level 1",
+    "type": "Algebra",
+    "solution": "We have \\[\\text{{ D}}(2,4,6)=\\frac{2\\cdot 4\\cdot 6}{2+4+6}=\\frac{48}{12}=\\boxed{4}.\\]",
+    "prompt": "### Instruction: For the nonzero numbers $a$, $b$, and $c$, define \\[\\text{{D}}(a,b,c)=\\frac{abc}{a+b+c}.\\]Find $\\text{{D}}(2,4,6)$.\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "We are given the function $\\text{D}(a,b,c) = \\frac{abc}{a+b+c}$ and we need to find $\\text{D}(2,4,6)$.\nLet's substitute the values of $a$, $b$, and $c$ into the function:\n$\\text{D}(2,4,6) = \\frac{2 \\cdot 4 \\cdot 6}{2 + 4 + 6}$\nNow, let's simplify the expression:\n$\\text{D}(2,4,6) = \\frac{48}{12}$\nFinally, divide to find the answer:\n$\\text{D}(2,4,6) = \\boxed{4}$ \n",
+        "1. **Substitute the values:** We are asked to find D(2, 4, 6). This means we need to substitute *a* = 2, *b* = 4, and *c* = 6 into the formula.\n2. **Apply the formula:**  \n   D(2, 4, 6) = (2 * 4 * 6) / (2 + 4 + 6)\n3. **Simplify:**\n   D(2, 4, 6) = 48 / 12\n4. **Calculate:**\n   D(2, 4, 6) = 4\n**Therefore, D(2, 4, 6) = 4** \n",
+        "We have that \n\\[\\text{D}(2,4,6)=\\frac{2\\cdot4\\cdot6}{2+4+6}=\\frac{48}{12}=\\boxed{4}.\\]",
+        "Here's how to solve the problem step-by-step:\n1. **Identify the values:** We are given that  *a* = 2, *b* = 4, and *c* = 6.\n2. **Substitute the values:** Substitute these values into the formula for D(a, b, c):\n   \n   D(2, 4, 6) = (2 * 4 * 6) / (2 + 4 + 6)\n3. **Simplify:** Perform the calculations:\n   D(2, 4, 6) = 48 / 12\n4. **Calculate the final result:**\n   D(2, 4, 6) = **4** \n",
+        "Here's how to solve the problem step-by-step:\n1. **Substitute the values:** We are given D(2, 4, 6), so we substitute  *a* = 2, *b* = 4, and *c* = 6 into the formula:\n   ```\n   D(2, 4, 6) = (2 * 4 * 6) / (2 + 4 + 6) \n   ```\n2. **Simplify:**  Calculate the numerator and denominator:\n   ```\n   D(2, 4, 6) = 48 / 12\n   ```\n3. **Final Calculation:**  Divide to find the result:\n   ```\n   D(2, 4, 6) = 4 \n   ```\n**Therefore, D(2, 4, 6) = 4** \n"
+    ],
+    "pred_answers": "4",
+    "final_pred_answer": [
+        "4",
+        "4",
+        "4",
+        "4",
+        "4"
+    ],
+    "ground_truth": "4"
+}

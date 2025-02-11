@@ -1,0 +1,23 @@
+{
+    "problem": "A certain organism begins as two cells. Each cell splits and becomes two cells at the end of three days. At the end of another three days, every cell of the organism splits and becomes two cells. This process lasts for a total of 15 days, and no cells die during this time. How many cells are there at the end of the $15^\\text{th}$ day?",
+    "level": "Level 4",
+    "type": "Algebra",
+    "solution": "This is a geometric sequence with a first term of $2$ and a common ratio of $2$. At the end of the fifteenth day, we are at the 6th term of this sequence, so there are $2\\cdot2^5=\\boxed{64}$ cells then.",
+    "prompt": "### Instruction: A certain organism begins as two cells. Each cell splits and becomes two cells at the end of three days. At the end of another three days, every cell of the organism splits and becomes two cells. This process lasts for a total of 15 days, and no cells die during this time. How many cells are there at the end of the $15^\\text{th}$ day?\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "Here's how we can solve this problem step-by-step:\n* **Day 3:** The organism starts with 2 cells. After 3 days, each cell splits, so there are 2 * 2 = 4 cells.\n* **Day 6:**  Each of the 4 cells splits, resulting in 4 * 2 = 8 cells.\n* **Day 9:**  Each of the 8 cells splits, resulting in 8 * 2 = 16 cells.\n* **Day 12:** Each of the 16 cells splits, resulting in 16 * 2 = 32 cells.\n* **Day 15:** Each of the 32 cells splits, resulting in 32 * 2 = **64 cells**.\nTherefore, there are **64** cells at the end of the 15th day. \n",
+        "Here's how to break down the problem:\n* **Start:** The organism begins with 2 cells.\n* **Day 3:** Each of the 2 cells splits, resulting in 2 * 2 = 4 cells.\n* **Day 6:**  Each of the 4 cells splits, resulting in 4 * 2 = 8 cells.\n* **Day 9:** Each of the 8 cells splits, resulting in 8 * 2 = 16 cells.\n* **Day 12:** Each of the 16 cells splits, resulting in 16 * 2 = 32 cells.\n* **Day 15:** Each of the 32 cells splits, resulting in 32 * 2 = **64 cells**.\n**Therefore, there are 64 cells at the end of the 15th day.** \n",
+        "Here's how we can solve this problem step-by-step:\n* **Day 3:** The organism starts with 2 cells. After 3 days, each cell splits, so there are 2 * 2 = 4 cells.\n* **Day 6:**  Each of the 4 cells splits, resulting in 4 * 2 = 8 cells.\n* **Day 9:** Each of the 8 cells splits, resulting in 8 * 2 = 16 cells.\n* **Day 12:** Each of the 16 cells splits, resulting in 16 * 2 = 32 cells.\n* **Day 15:** Each of the 32 cells splits, resulting in 32 * 2 = **64 cells**.\n**Therefore, there are 64 cells at the end of the 15th day.** \n",
+        "Here's how to solve this problem step-by-step:\n* **Day 0:** The organism begins with 2 cells.\n* **Day 3:** Each of the 2 cells splits, resulting in 2 * 2 = 4 cells.\n* **Day 6:** Each of the 4 cells splits, resulting in 4 * 2 = 8 cells.\n* **Day 9:** Each of the 8 cells splits, resulting in 8 * 2 = 16 cells.\n* **Day 12:** Each of the 16 cells splits, resulting in 16 * 2 = 32 cells.\n* **Day 15:** Each of the 32 cells splits, resulting in 32 * 2 = **64 cells**.\nTherefore, there are **64** cells at the end of the 15th day. \n",
+        "Here's how we can solve this problem step-by-step:\n* **Day 0:** The organism starts with 2 cells.\n* **Day 3:** Each of the 2 cells splits, resulting in 2 * 2 = 4 cells.\n* **Day 6:** Each of the 4 cells splits, resulting in 4 * 2 = 8 cells.\n* **Day 9:** Each of the 8 cells splits, resulting in 8 * 2 = 16 cells.\n* **Day 12:** Each of the 16 cells splits, resulting in 16 * 2 = 32 cells.\n* **Day 15:** Each of the 32 cells splits, resulting in 32 * 2 = **64 cells**.\n**Therefore, there are 64 cells at the end of the 15th day.** \n"
+    ],
+    "pred_answers": "15",
+    "final_pred_answer": [
+        "15",
+        "15",
+        "15",
+        "15",
+        "15"
+    ],
+    "ground_truth": "64"
+}

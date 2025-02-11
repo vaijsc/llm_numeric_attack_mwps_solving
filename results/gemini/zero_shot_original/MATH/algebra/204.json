@@ -1,0 +1,23 @@
+{
+    "problem": "If $f(x) = x + 1$ and $g(x) = x^2 + 3$, what is the value of $f(g(2))$?",
+    "level": "Level 2",
+    "type": "Algebra",
+    "solution": "We are asked to apply the function $f$ to the number $g(2)$.  First, we need to find $g(2)$.  We substitute $x=2$ into the expression given for $g$ to find that $g(2)=2^2+3=7$.  Then we substitute $x=7$ into the expression for $f$ to find $f(7)=7+1=\\boxed{8}$.",
+    "prompt": "### Instruction: If $f(x) = x + 1$ and $g(x) = x^2 + 3$, what is the value of $f(g(2))$?\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "Here's how to solve this problem step-by-step:\n1. **Find the value of the inner function, g(2):** \n   * Substitute *x* = 2 into the expression for *g(x)*:\n     *  g(2) = (2)^2 + 3 = 4 + 3 = 7\n2. **Find the value of the outer function, f(g(2)) = f(7):**\n   * Now that we know g(2) = 7, substitute *x* = 7 into the expression for *f(x)*:\n     * f(7) = 7 + 1 = 8\n**Therefore, the value of f(g(2)) is 8.** \n",
+        "Here's how to solve the problem step-by-step:\n1. **Find g(2):** Substitute  *x* = 2 into the expression for *g(x)*:\n   * g(2) = (2)^2 + 3 = 4 + 3 = 7\n2. **Find f(g(2)), which is f(7):** Substitute *x* = 7 into the expression for *f(x)*:\n   * f(7) = 7 + 1 = 8\n**Therefore, the value of f(g(2)) is 8.** \n",
+        "Here's how to solve the problem step-by-step:\n1. **Find g(2):**  Substitute 2 for *x* in the function *g(x)*:\n   * g(2) = 2\u00b2 + 3 = 4 + 3 = 7\n2. **Find f(g(2)), which is f(7):** Now substitute 7 for *x* in the function *f(x)*:\n   * f(7) = 7 + 1 = 8\n**Therefore, the value of f(g(2)) is 8.** \n",
+        "Here's how to solve this step-by-step:\n1. **Find the value of the inner function, g(2):**\n   * Substitute *x* = 2 into the function *g(x)*:\n     *  *g(2) = (2)^2 + 3 = 4 + 3 = 7*\n2. **Find the value of the outer function, f(g(2)), which is f(7):**\n   * Substitute *x* = 7 into the function *f(x)*:\n     * *f(7) = 7 + 1 = 8*\n**Therefore, the value of f(g(2)) is 8.** \n",
+        "Here's how to solve the problem step-by-step:\n1. **Find the value of the inner function, g(2):** \n   * Substitute 2 for *x* in the expression for *g(x)*: \n     *  g(2) = (2)^2 + 3 = 4 + 3 = 7\n2. **Find the value of the outer function, f(g(2)) which is f(7):**\n   * Substitute 7 for *x* in the expression for *f(x)*:\n     * f(7) = 7 + 1 = 8\n**Therefore, the value of f(g(2)) is 8.** \n"
+    ],
+    "pred_answers": "8",
+    "final_pred_answer": [
+        "8",
+        "8",
+        "8",
+        "8",
+        "8"
+    ],
+    "ground_truth": "8"
+}

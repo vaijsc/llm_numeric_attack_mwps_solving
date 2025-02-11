@@ -1,0 +1,23 @@
+{
+    "problem": "Suppose $c$ and $d$ are inversely proportional. If $c=9$ when $d=8$, find the value of $d$ when $c=6$.",
+    "level": "Level 2",
+    "type": "Algebra",
+    "solution": "If $c$ and $d$ are inversely proportional, then $c\\cdot{d}=k$ (where $k$ is a constant). We know that $c=9$ when $d=8$, so $(9)(8)=k$ or $k=72$. When $c=6$, $(6)(d)=72$.  Thus, $d$ must be equal to $\\frac{72}{6}$ or $\\boxed{12}$.",
+    "prompt": "### Instruction: Suppose $c$ and $d$ are inversely proportional. If $c=9$ when $d=8$, find the value of $d$ when $c=6$.\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "When two quantities are inversely proportional, it means that their product is constant. We can express this relationship mathematically as:\n\\[\nc \\cdot d = k\n\\]\nwhere \\( k \\) is a constant.\nGiven that \\( c = 9 \\) when \\( d = 8 \\), we can find the value of \\( k \\):\n\\[\nk = c \\cdot d = 9 \\cdot 8 = 72\n\\]\nNow, we need to find the value of \\( d \\) when \\( c = 6 \\). We can use the relationship \\( c \\cdot d = k \\) again:\n\\[\n6 \\cdot d = k\n\\]\nSubstituting the value of \\( k \\):\n\\[\n6 \\cdot d = 72\n\\]\nTo find \\( d \\), we can divide both sides of the equation by 6:\n\\[\nd = \\frac{72}{6} = 12\n\\]\nThus, when \\( c = 6 \\), the value of \\( d \\) is:\n\\[\n\\boxed{12}\n\\]",
+        "When two quantities \\( c \\) and \\( d \\) are inversely proportional, it means that their product is a constant. This can be expressed mathematically as:\n\\[\nc \\cdot d = k\n\\]\nwhere \\( k \\) is a constant.\n### Step 1: Determine the constant \\( k \\)\nWe know that when \\( c = 9 \\) and \\( d = 8 \\):\n\\[\n9 \\cdot 8 = k\n\\]\nCalculating this gives:\n\\[\nk = 72\n\\]\n### Step 2: Use the constant to find \\( d \\) when \\( c = 6 \\)\nNow we want to find the value of \\( d \\) when \\( c = 6 \\). According to our formula:\n\\[\nc \\cdot d = k\n\\]\nwe can substitute \\( c = 6 \\) and \\( k = 72 \\):\n\\[\n6 \\cdot d = 72\n\\]\n### Step 3: Solve for \\( d \\)\nTo find \\( d \\), we divide both sides by 6:\n\\[\nd = \\frac{72}{6} = 12\n\\]\n### Conclusion\nThe value of \\( d \\) when \\( c = 6 \\) is:\n\\[\n\\boxed{12}\n\\]",
+        "To address the problem, we need to establish the relationship between \\( c \\) and \\( d \\) since they are said to be inversely proportional. This means that:\n\\[\nc \\times d = k\n\\]\nfor some constant \\( k \\).\n### Step 1: Find the constant \\( k \\)\nWe know that when \\( c = 9 \\), \\( d = 8 \\). We can substitute these values into the equation to find \\( k \\):\n\\[\n9 \\times 8 = k\n\\]\nCalculating this gives:\n\\[\nk = 72\n\\]\n### Step 2: Use \\( k \\) to find \\( d \\) when \\( c = 6 \\)\nNow we need to find \\( d \\) when \\( c = 6 \\). Using the relationship we have established:\n\\[\nc \\times d = k \\implies 6 \\times d = 72\n\\]\n### Step 3: Solve for \\( d \\)\nTo find \\( d \\), we can rearrange the equation:\n\\[\nd = \\frac{72}{6}\n\\]\nCalculating this gives:\n\\[\nd = 12\n\\]\n### Conclusion\nThus, the value of \\( d \\) when \\( c = 6 \\) is \n\\[\n\\boxed{12}\n\\]",
+        "Since \\( c \\) and \\( d \\) are inversely proportional, we can express their relationship mathematically as:\n\\[\nc \\cdot d = k\n\\]\nwhere \\( k \\) is a constant.\nFrom the information given, when \\( c = 9 \\) and \\( d = 8 \\), we can find the value of \\( k \\):\n\\[\nk = c \\cdot d = 9 \\cdot 8 = 72\n\\]\nNow we need to find the value of \\( d \\) when \\( c = 6 \\). Using the relationship \\( c \\cdot d = k \\), we can substitute \\( c = 6 \\) and \\( k = 72 \\):\n\\[\n6 \\cdot d = 72\n\\]\nTo solve for \\( d \\), we divide both sides of the equation by 6:\n\\[\nd = \\frac{72}{6} = 12\n\\]\nThus, when \\( c = 6 \\), the value of \\( d \\) is \n\\[\n\\boxed{12}\n\\]",
+        "When two quantities \\( c \\) and \\( d \\) are inversely proportional, we can express their relationship mathematically as:\n\\[\nc \\cdot d = k\n\\]\nwhere \\( k \\) is a constant.\nGiven that \\( c = 9 \\) when \\( d = 8 \\), we can find the value of \\( k \\) by substituting these values into the equation:\n\\[\n9 \\cdot 8 = k\n\\]\n\\[\nk = 72\n\\]\nNow we know the constant \\( k \\) is 72. We need to find the value of \\( d \\) when \\( c = 6 \\). Using the relationship \\( c \\cdot d = k \\), we can set up the equation:\n\\[\n6 \\cdot d = 72\n\\]\nTo find \\( d \\), we can solve for it by dividing both sides by 6:\n\\[\nd = \\frac{72}{6}\n\\]\n\\[\nd = 12\n\\]\nThus, when \\( c = 6 \\), the value of \\( d \\) is \\( \\boxed{12} \\)."
+    ],
+    "pred_answers": "12",
+    "final_pred_answer": [
+        "12",
+        "12",
+        "12",
+        "12",
+        "12"
+    ],
+    "ground_truth": "12"
+}

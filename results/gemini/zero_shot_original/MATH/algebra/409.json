@@ -1,0 +1,23 @@
+{
+    "problem": "Ohm's law states that $V=IR$ for a simple circuit, where $V$ is the total voltage, $I$ is the amount of current running through the resistor and $R$ is the resistance of the resistor. If $I=40$ amperes when $R=3$ ohms, find the amount of current (in amperes) when the resistor has a resistance of $20$ ohms. Assume voltage remains constant.",
+    "level": "Level 3",
+    "type": "Algebra",
+    "solution": "If $V=IR$ for a constant voltage $V$, then the total voltage of the circuit can be expressed as $V=(40)(3)=120$. Thus, when the resistance $R$ is $20$ ohms, the equation becomes: \\begin{align*} 120& =(I)(20)\n\\\\\\Rightarrow\\qquad I& =\\frac{120}{20}\n\\\\ I& =\\boxed{6}\n\\end{align*}",
+    "prompt": "### Instruction: Ohm's law states that $V=IR$ for a simple circuit, where $V$ is the total voltage, $I$ is the amount of current running through the resistor and $R$ is the resistance of the resistor. If $I=40$ amperes when $R=3$ ohms, find the amount of current (in amperes) when the resistor has a resistance of $20$ ohms. Assume voltage remains constant.\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "Here's how to solve the problem step-by-step:\n**1. Find the voltage:**\n* We know that  V = IR \n* Substitute the given values: V = (40 amperes)(3 ohms) = 120 volts\n**2. Use the constant voltage to find the new current:**\n* Since the voltage remains constant, we can use the same voltage value (120 volts) and the new resistance (20 ohms) to find the new current.\n* Rearrange Ohm's Law to solve for current: I = V/R\n* Substitute the values: I = 120 volts / 20 ohms = 6 amperes\n**Answer:** The amount of current when the resistor has a resistance of 20 ohms is **6 amperes**. \n",
+        "Here's how to solve this problem step-by-step:\n1. **Find the voltage:** We know that  V = IR and we're given I = 40 amperes and R = 3 ohms.  Substituting these values, we get V = (40 amperes)(3 ohms) = 120 volts.\n2. **Voltage remains constant:**  The problem states that the voltage stays the same. This means the voltage is still 120 volts even when the resistance changes.\n3. **Calculate the new current:** Now we need to find the current (I) when the resistance (R) is 20 ohms. We can use Ohm's Law again: V = IR. \n   *  We know V = 120 volts and R = 20 ohms.\n   *  Solving for I, we get: I = V/R = 120 volts / 20 ohms = 6 amperes.\n**Therefore, the amount of current when the resistor has a resistance of 20 ohms is 6 amperes.** \n",
+        "Here's how to solve the problem step-by-step:\n**1. Find the voltage:**\n* We know  *I* = 40 amperes and *R* = 3 ohms.\n* Using Ohm's Law (V = IR), we can find the voltage:\n   * V = (40 amperes) * (3 ohms) = 120 volts\n**2.  Find the current with the new resistance:**\n* Now we know the voltage is constant at 120 volts and the new resistance is *R* = 20 ohms.\n* Using Ohm's Law again, we can find the new current:\n   * I = V / R = 120 volts / 20 ohms = 6 amperes\n**Answer:** The amount of current when the resistor has a resistance of 20 ohms is **6 amperes**. \n",
+        "Here's how to solve this problem step-by-step:\n**1. Find the Voltage:**\n* We know that  V = IR.\n* Substitute the given values: V = (40 amperes)(3 ohms) = 120 volts.\n**2.  Calculate the Current with the New Resistance:**\n* Since the voltage remains constant, we can use V = IR again, but this time we'll use the new resistance.\n*  We know V = 120 volts and R = 20 ohms.\n*  Solve for I: I = V/R = 120 volts / 20 ohms = 6 amperes.\n**Answer:** The amount of current when the resistor has a resistance of 20 ohms is **6 amperes**. \n",
+        "Here's how to solve the problem step-by-step:\n1. **Find the voltage:** Since the voltage remains constant, we can use the initial values of current and resistance to find the voltage. Using Ohm's Law:\n   \n   *  V = I * R \n   *  V = 40 amperes * 3 ohms = 120 volts\n2. **Find the new current:**  Now that we know the voltage (120 volts), we can use Ohm's Law again with the new resistance to find the new current:\n   *  V = I * R\n   *  120 volts = I * 20 ohms\n   *  I = 120 volts / 20 ohms = 6 amperes\n**Therefore, the amount of current when the resistor has a resistance of 20 ohms is 6 amperes.** \n"
+    ],
+    "pred_answers": "20",
+    "final_pred_answer": [
+        "20",
+        "6",
+        "20",
+        "20",
+        "6"
+    ],
+    "ground_truth": "6"
+}

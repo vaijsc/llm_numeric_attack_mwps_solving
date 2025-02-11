@@ -1,0 +1,23 @@
+{
+    "problem": "Find $x$ if $\\displaystyle \\frac{2}{x} - \\frac{3}{5} + \\frac{1}{x} = \\frac{1}{5}$.",
+    "level": "Level 2",
+    "type": "Algebra",
+    "solution": "We first combine the two fractions with $x$ in the denominator to give $\\frac{3}{x} - \\frac{3}{5} = \\frac{1}{5}$.  Adding $\\frac{3}{5}$ to both sides gives us $\\frac{3}{x} = \\frac{4}{5}$.  Cross-multiplying this equation (or multiplying both sides by $5x$) gives $4x = 15$.  Dividing both sides of this equation by $4$ gives us $x =\\boxed{\\frac{15}{4}}$.",
+    "prompt": "### Instruction: Find $x$ if $\\displaystyle \\frac{2}{x} - \\frac{3}{5} + \\frac{1}{x} = \\frac{1}{5}$.\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "1. **Combine like terms on the left side of the equation:** \n   \n   (2/x) + (1/x) - (3/5) = (1/5)\n   \n   (3/x) - (3/5) = (1/5)\n2. **Add (3/5) to both sides of the equation:**\n   (3/x) = (1/5) + (3/5)\n   (3/x) = (4/5)\n3. **Multiply both sides of the equation by x:**\n   3 = (4/5)x\n4. **Multiply both sides of the equation by (5/4):**\n   x = 3 * (5/4)\n5. **Simplify:**\n   x = **15/4** \n",
+        "1. **Combine terms with x:**\n   The terms with 'x' in the denominator are $\\frac{2}{x}$ and $\\frac{1}{x}$. Combining them, we get: \n   \n   $$\\frac{2}{x} + \\frac{1}{x} = \\frac{3}{x}$$\n2. **Rewrite the equation:**\n   Now the equation becomes:\n   $$\\frac{3}{x} - \\frac{3}{5} = \\frac{1}{5}$$\n3. **Isolate the term with x:**\n   To isolate the term with 'x', add $\\frac{3}{5}$ to both sides:\n   $$\\frac{3}{x} = \\frac{1}{5} + \\frac{3}{5}$$\n4. **Simplify the right side:**\n   \n   $$\\frac{3}{x} = \\frac{4}{5}$$\n5. **Solve for x:**\n   To get 'x' by itself, multiply both sides by 'x' and then multiply both sides by $\\frac{5}{4}$:\n   $$x = \\frac{3}{x} \\cdot \\frac{5}{4} = \\boxed{\\frac{15}{4}}$$ \n",
+        "1. **Combine like terms:**  The terms with $x$ in the denominator can be combined:\n   \n   $$\\frac{2}{x} + \\frac{1}{x} - \\frac{3}{5} = \\frac{1}{5}$$\n   $$\\frac{3}{x} - \\frac{3}{5} = \\frac{1}{5}$$\n2. **Isolate the term with $x$:** Add $\\frac{3}{5}$ to both sides of the equation:\n   $$\\frac{3}{x} = \\frac{1}{5} + \\frac{3}{5}$$\n   $$\\frac{3}{x} = \\frac{4}{5}$$\n3. **Solve for $x$:**  To get $x$ by itself, multiply both sides of the equation by $x$ and then multiply both sides by $\\frac{5}{4}$:\n   $$3 = \\frac{4}{5}x$$\n   $$x = 3 \\cdot \\frac{5}{4}$$\n4. **Simplify:**\n   $$x = \\boxed{\\frac{15}{4}}$$ \n",
+        "1. **Combine terms with x:**\n   The terms with  'x' in the denominator are  2/x and 1/x.  Combine them: \n   \n   (2/x) + (1/x) = 3/x\n2. **Rewrite the equation:**\n   Now the equation looks like this:\n   \n   3/x - 3/5 = 1/5\n3. **Isolate the x term:**\n   Add 3/5 to both sides of the equation:\n   3/x = 1/5 + 3/5 = 4/5\n4. **Solve for x:**\n   Multiply both sides of the equation by x:\n   3 = (4/5)x\n   Multiply both sides by 5/4:\n   x = (3)(5/4) = 15/4\n**Therefore, x = 15/4** \n",
+        "Here's how to solve for *x*:\n1. **Combine like terms:**  The terms with *x* in the denominator can be combined:\n   \n   ```\n   (2/x) + (1/x) - (3/5) = 1/5\n   ```\n   This simplifies to:\n   ```\n   3/x - 3/5 = 1/5\n   ```\n2. **Isolate the x term:** Add 3/5 to both sides of the equation:\n   ```\n   3/x = 1/5 + 3/5\n   ```\n   This simplifies to:\n   ```\n   3/x = 4/5\n   ```\n3. **Solve for x:**  Multiply both sides of the equation by *x* and then by 5:\n   ```\n   3 = (4/5) * x \n   3 * (5/4) = x\n   ```\n4. **Simplify:**\n   ```\n   x = 15/4 \n   ```\n**Therefore, x = 15/4** \n"
+    ],
+    "pred_answers": "4",
+    "final_pred_answer": [
+        "4",
+        "4",
+        "4",
+        "4",
+        "4"
+    ],
+    "ground_truth": "4"
+}

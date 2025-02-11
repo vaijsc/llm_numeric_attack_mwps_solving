@@ -1,0 +1,52 @@
+{
+    "index_adversarial_question": 10,
+    "problem": "Given $x = -3$ find the value of $2x^2+3x+4$.",
+    "pcot_answer": "# Define the value of x\nx = -3  ### condition: 'x': {'type': 'int', '<=': None, '>=': None, 'science_constant': False, 'direct_from_question': True}\n# Calculate 2 * x^2\nterm1 = 2 * (x ** 2)  ### condition: 'term1': {'type': 'int', '<=': None, '>=': 0, 'science_constant': False, 'direct_from_question': False}\n# Calculate 3 * x\nterm2 = 3 * x  ### condition: 'term2': {'type': 'int', '<=': None, '>=': None, 'science_constant': False, 'direct_from_question': False}\n# Define the constant term\nconstant_term = 4  ### condition: 'constant_term': {'type': 'int', '<=': None, '>=': 0, 'science_constant': False, 'direct_from_question': True}\n# Calculate the final value\nfinal_value = term1 + term2 + constant_term  ### condition: 'final_value': {'type': 'int', '<=': None, '>=': None, 'science_constant': False, 'direct_from_question': False}\n# Print the final value\nprint(f\"The value of 2x^2 + 3x + 4 is: {final_value}\")",
+    "gemini_responses": [
+        "To find the value of \\(2x^2 + 3x + 4\\) when \\(x = -3\\), we will substitute \\(-3\\) into the equation and evaluate it step by step.\n1. Calculate \\(x^2\\):\n   \\[\n   x^2 = (-3)^2 = 9\n   \\]\n2. Calculate \\(2x^2\\):\n   \\[\n   2x^2 = 2 \\cdot 9 = 18\n   \\]\n3. Calculate \\(3x\\):\n   \\[\n   3x = 3 \\cdot (-3) = -9\n   \\]\n4. Now, plug these values into the expression \\(2x^2 + 3x + 4\\):\n   \\[\n   2x^2 + 3x + 4 = 18 - 9 + 4\n   \\]\n5. Simplify the expression step by step:\n   \\[\n   18 - 9 = 9\n   \\]\n   Then add \\(4\\):\n   \\[\n   9 + 4 = 13\n   \\]\nThus, the final result of \\(2x^2 + 3x + 4\\) when \\(x = -3\\) is:\n\\[\n\\boxed{13}\n\\]",
+        "To find the value of the expression \\(2x^2 + 3x + 4\\) when \\(x = -3\\), we will follow these steps:\n1. First, substitute \\(x\\) with \\(-3\\):\n   \\[\n   2(-3)^2 + 3(-3) + 4\n   \\]\n2. Calculate \\((-3)^2\\):\n   \\[\n   (-3)^2 = 9\n   \\]\n3. Substitute \\(9\\) back into the expression:\n   \\[\n   2(9) + 3(-3) + 4\n   \\]\n4. Now calculate \\(2(9)\\):\n   \\[\n   2(9) = 18\n   \\]\n5. Next, calculate \\(3(-3)\\):\n   \\[\n   3(-3) = -9\n   \\]\n6. Now, substitute these values back into the expression:\n   \\[\n   18 + (-9) + 4\n   \\]\n7. Combine the terms:\n   \\[\n   18 - 9 + 4\n   \\]\n   First, \\(18 - 9 = 9\\).\n   Then, \\(9 + 4 = 13\\).\nTherefore, the final result is:\n\\[\n\\boxed{13}\n\\]",
+        "To find the value of the expression \\(2x^2 + 3x + 4\\) when \\(x = -3\\), we will substitute \\(-3\\) for \\(x\\) and calculate step by step.\n1. Substitute \\(x\\) with \\(-3\\):\n   \\[\n   2(-3)^2 + 3(-3) + 4\n   \\]\n2. Calculate \\((-3)^2\\):\n   \\[\n   (-3)^2 = 9\n   \\]\n3. Now substitute back into the expression:\n   \\[\n   2(9) + 3(-3) + 4\n   \\]\n4. Calculate \\(2(9)\\):\n   \\[\n   2(9) = 18\n   \\]\n5. Calculate \\(3(-3)\\):\n   \\[\n   3(-3) = -9\n   \\]\n6. Now combine all parts of the expression:\n   \\[\n   18 - 9 + 4\n   \\]\n7. First combine \\(18 - 9\\):\n   \\[\n   18 - 9 = 9\n   \\]\n8. Then add \\(4\\):\n   \\[\n   9 + 4 = 13\n   \\]\nThus, the final result of the expression \\(2x^2 + 3x + 4\\) when \\(x = -3\\) is:\n\\[\n\\text{Final result: } 13\n\\]"
+    ],
+    "gemini_pred_answers": [
+        "13",
+        "13",
+        "13"
+    ],
+    "gemini_final_pred_answer": "13",
+    "gemini_frequent_pred_answer": 3,
+    "vllm_responses": [
+        "Substitute $x = -3$ into the expression $2x^2+3x+4$:\n$2(-3)^2+3(-3)+4 = 2(9) - 9 + 4 = 18 - 9 + 4 = \\boxed{11}$.\nThe answer is: 11",
+        "Using the given value of $x$, we can substitute $-3$ for $x$ in the expression $2x^2+3x+4$.\n\\[2(-3)^2+3(-3)+4=2(9)+3(-3)+4=18-9+4=\\boxed{11}\\]\nThe answer is: 11",
+        "Substitute $x=-3$ into the expression $2x^2+3x+4$.\nWe get $2(-3)^2+3(-3)+4$.\nSimplifying, we have $2(9)-9+4$.\nFurther simplifying, we get $18-9+4$.\nFinally, we have $11$.\nSo, the value of $2x^2+3x+4$ when $x=-3$ is $\\boxed{11}$.The answer is: 11",
+        "We substitute $x=-3$ into the expression $2x^2+3x+4$ to find the value.\nWe get $2(-3)^2+3(-3)+4=2(9)-9+4=18-9+4=\\boxed{11}$.\nThe answer is: 11",
+        "We substitute $x = -3$ into the expression $2x^2+3x+4$.\nWe get $2(-3)^2+3(-3)+4 = 2(9) - 9 + 4 = 18 - 9 + 4 = \\boxed{11}$.\nThe answer is: 11",
+        "We substitute $x = -3$ into the expression $2x^2+3x+4$:\n$2(-3)^2+3(-3)+4 = 2(9)-9+4 = 18-9+4 = \\boxed{11}$.\nThe answer is: 11",
+        "We substitute $x=-3$ into the expression $2x^2+3x+4$:\n\\[2(-3)^2+3(-3)+4 = 2(9) - 9 + 4 = 18 - 9 + 4 = \\boxed{11}.\\]\nThe answer is: 11",
+        "We substitute $x = -3$ into the expression $2x^2 + 3x + 4$ to find the value.\n$2x^2 + 3x + 4 = 2(-3)^2 + 3(-3) + 4 = 2(9) - 9 + 4 = 18 - 9 + 4 = \\boxed{11}$\nThe answer is: 11",
+        "= -3$ into the expression $2x^2+3x+4$,\n\\[2(-3)^2 + 3(-3) + 4.\\]\nSimplifying,\n\\[2(9) - 9 + 4 = 18 - 9 + 4 = \\boxed{11}.\\]\nThe answer is: 11",
+        "We substitute $x = -3$ into the expression $2x^2+3x+4$.\nWe get $2(-3)^2+3(-3)+4$.\nSimplifying, we have $2(9)-9+4$.\nFurther simplifying, we get $18-9+4$.\nFinally, we have $11$.\nSo, the value of $2x^2+3x+4$ when $x = -3$ is $\\boxed{11}$.\nThe answer is: 11",
+        "Substitute $x = -3$ into the expression $2x^2+3x+4$. \nWe get $2(-3)^2+3(-3)+4 = 2(9)-9+4 = 18-9+4 = \\boxed{11}$. \nThe answer is: 11",
+        "We substitute $x = -3$ into the expression $2x^2 + 3x + 4$ and simplify.\n$2(-3)^2 + 3(-3) + 4 = 2(9) - 9 + 4 = 18 - 9 + 4 = \\boxed{11}$.\nThe answer is: 11",
+        "We substitute -3 for x in the expression $2x^2+3x+4$.\nWe get $2(-3)^2+3(-3)+4$.\nSimplifying, we get $2(9)+3(-3)+4$.\nThis is equal to $18-9+4$.\nFinally, we have $18-9+4 = \\boxed{11}$.\nThe answer is: 11",
+        "We substitute $x = -3$ into the expression $2x^2+3x+4$.\n$2x^2+3x+4 = 2(-3)^2+3(-3)+4 = 2(9)-9+4 = 18-9+4 = \\boxed{11}$.\nThe answer is: 11",
+        "Substitute $x=-3$ into the expression $2x^2+3x+4$.\n$2(-3)^2+3(-3)+4 = 2(9) - 9 + 4 = 18 - 9 + 4 = \\boxed{11}$.\nThe answer is: 11"
+    ],
+    "vllm_answers": [
+        "11",
+        "11",
+        "11",
+        "11",
+        "11",
+        "11",
+        "11",
+        "11",
+        "11",
+        "11",
+        "11",
+        "11",
+        "11",
+        "11",
+        "11"
+    ],
+    "vllm_pred_answer": "11"
+}

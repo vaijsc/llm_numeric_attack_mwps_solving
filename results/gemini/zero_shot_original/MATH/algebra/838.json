@@ -1,0 +1,23 @@
+{
+    "problem": "What is $50\\%$ of $200\\%$ of $10$?",
+    "level": "Level 1",
+    "type": "Algebra",
+    "solution": "Turning words into math, we want the value of $.5\\cdot2\\cdot10$, which is $\\boxed{10}$.",
+    "prompt": "### Instruction: What is $50\\%$ of $200\\%$ of $10$?\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "Here's how to solve this step-by-step:\n1. **Calculate 200% of 10:** \n   * 200% is equivalent to 2, so 200% of 10 is 2 * 10 = 20\n2. **Calculate 50% of 20:**\n   * 50% is equivalent to 0.5, so 50% of 20 is 0.5 * 20 = 10\n**Therefore, 50% of 200% of 10 is 10.** \n",
+        "Here's how to solve this step-by-step:\n1. **Calculate 200% of 10:**\n   * 200% is equivalent to 2 (since 100% = 1).\n   * 2 * 10 = 20\n2. **Calculate 50% of 20:**\n   * 50% is equivalent to 0.5 (since 100% = 1).\n   * 0.5 * 20 = 10\n**Therefore, 50% of 200% of 10 is 10.** \n",
+        "Here's how to solve this step-by-step:\n1. **Calculate 200% of 10:** \n   *  200% is the same as 2.00 (divide by 100 to convert percentage to a decimal)\n   *  2.00 * 10 = 20\n2. **Calculate 50% of 20:**\n   * 50% is the same as 0.50 (divide by 100 to convert percentage to a decimal)\n   * 0.50 * 20 = 10\n**Therefore, 50% of 200% of 10 is 10.** \n",
+        "Here's how to solve this problem step-by-step:\n* **Step 1:  Find 200% of 10**\n   *  200% is the same as 2 times 100%, so 200% of 10 is (2 * 100%) * 10 = 2 * 10 = 20.\n* **Step 2: Find 50% of 20**\n   * 50% is the same as half, so 50% of 20 is 20 / 2 = 10.\n**Therefore, 50% of 200% of 10 is 10.** \n",
+        "Here's how to solve this step-by-step:\n* **Step 1:  Find 200% of 10**\n   * 200% is the same as 2 times the original value.\n   * 200% of 10 is (2 * 10) = 20\n* **Step 2: Find 50% of 20**\n   * 50% is the same as half the original value.\n   * 50% of 20 is (20 / 2) = 10\n**Therefore, 50% of 200% of 10 is 10.** \n"
+    ],
+    "pred_answers": "10",
+    "final_pred_answer": [
+        "10",
+        "10",
+        "10",
+        "10",
+        "10"
+    ],
+    "ground_truth": "10"
+}

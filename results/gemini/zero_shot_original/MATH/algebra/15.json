@@ -1,0 +1,23 @@
+{
+    "problem": "What is the smallest real number $x$ in the domain of the function $$g(x) = \\sqrt{(x-3)^2-(x-8)^2}~?$$",
+    "level": "Level 5",
+    "type": "Algebra",
+    "solution": "A real number $x$ is in the domain of $g$ if and only if $$(x-3)^2 - (x-8)^2 \\ge 0.$$ Expanding this out and simplifying, we get $$10x - 55\\ge 0;$$ the smallest solution is $x=\\frac{55}{10}=\\boxed{\\frac{11}{2}}$.\n\nAlternatively, once we have the quadratic equation $$(x-3)^2 - (x-8)^2 \\ge 0,$$ instead of expanding it out, we can observe that $(x-3)^2$ is the square of the distance from $x$ to $3$ on the number line, while $(x-8)^2$ is the square of the distance from $x$ to $8$. Thus, $(x-3)^2-(x-8)^2\\ge 0$ is true if $x$ is closer to $8$ than to $3$, which is true if and only if $x\\ge \\frac{8+3}{2} = \\boxed{\\frac{11}{2}}$.",
+    "prompt": "### Instruction: What is the smallest real number $x$ in the domain of the function $$g(x) = \\sqrt{(x-3)^2-(x-8)^2}~?$$\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "The function $g(x)$ is defined only when the expression under the square root is non-negative.  So we need to solve the inequality:\n$$(x-3)^2-(x-8)^2 \\ge 0.$$\nExpanding, we get:\n$$x^2 - 6x + 9 - (x^2 - 16x + 64) \\ge 0.$$\nSimplifying, we have:\n$$10x - 55 \\ge 0.$$\nAdding 55 to both sides and dividing by 10, we get:\n$$x \\ge \\frac{11}{2}.$$\nTherefore, the smallest real number in the domain of $g(x)$ is $\\boxed{\\frac{11}{2}}$. \n",
+        "The function $g(x)$ is defined only when the expression under the square root is non-negative.  So we need to find the values of $x$ that satisfy:\n$$(x-3)^2-(x-8)^2 \\ge 0$$\nExpanding the squares, we get:\n$$x^2 - 6x + 9 - (x^2 - 16x + 64) \\ge 0$$\nSimplifying, we have:\n$$10x - 55 \\ge 0$$\nSolving for $x$, we get:\n$$x \\ge \\frac{55}{10} = \\frac{11}{2}$$\nTherefore, the smallest real number in the domain of $g(x)$ is $\\boxed{\\frac{11}{2}}$. \n",
+        "Here's how to solve the problem step-by-step:\n**1. Understand the Domain**\nThe function $g(x)$ involves a square root.  The square root of a negative number is not real, so we need the expression under the radical to be non-negative.  In other words, we need:\n$$(x-3)^2 - (x-8)^2 \\ge 0$$\n**2. Simplify the Expression**\nWe can simplify the expression using the difference of squares factorization:\n$$a^2 - b^2 = (a+b)(a-b)$$\nApplying this to our inequality, we get:\n$$[(x-3) + (x-8)][(x-3) - (x-8)] \\ge 0$$\n$$(2x - 11)(5) \\ge 0$$\n$$2x - 11 \\ge 0$$\n**3. Solve the Inequality**\nSolving for *x*, we get:\n$$x \\ge \\frac{11}{2}$$\n**4. Determine the Smallest Real Number**\nThe smallest real number that satisfies the inequality  $x \\ge \\frac{11}{2}$ is  **x = 11/2**. \n**Therefore, the smallest real number in the domain of the function g(x) is 11/2.** \n",
+        "Here's how to find the smallest real number in the domain of the function:\n**1. Understand the Domain**\nThe function $g(x) = \\sqrt{(x-3)^2 - (x-8)^2}$ involves a square root.  The square root of a negative number is not a real number. Therefore, for the function to be defined, the expression inside the square root must be non-negative.\n**2. Set up the Inequality**\nWe need to solve the inequality:\n  \n  $(x - 3)^2 - (x - 8)^2 \\ge 0$\n**3. Simplify the Inequality**\n* Expand the squares:  \n  $x^2 - 6x + 9 - (x^2 - 16x + 64) \\ge 0$\n* Combine like terms:\n  $10x - 55 \\ge 0$\n* Isolate x:\n  $10x \\ge 55$\n  $x \\ge 5.5$\n**4.  Interpret the Result**\nThe inequality $x \\ge 5.5$ tells us that the function is defined for all real numbers greater than or equal to 5.5.\n**5.  Smallest Real Number**\nTherefore, the smallest real number in the domain of the function is **x = 5.5**. \n",
+        "The function $g(x)$ is defined only when the radicand (the expression under the square root) is non-negative.  So we need to solve the inequality\n\\[(x - 3)^2 - (x - 8)^2 \\ge 0.\\]We can factor the left-hand side as a difference of squares:\n\\[[(x - 3) + (x - 8)][(x - 3) - (x - 8)] \\ge 0.\\]This simplifies to\n\\[(2x - 11)(5) \\ge 0.\\]Since 5 is positive, we can divide both sides by 5, to get\n\\[2x - 11 \\ge 0.\\]Then $2x \\ge 11,$ so $x \\ge \\frac{11}{2}.$  The smallest such real number is $\\boxed{\\frac{11}{2}}.$"
+    ],
+    "pred_answers": "2",
+    "final_pred_answer": [
+        "2",
+        "2",
+        "2",
+        "5.5",
+        "2"
+    ],
+    "ground_truth": "2"
+}

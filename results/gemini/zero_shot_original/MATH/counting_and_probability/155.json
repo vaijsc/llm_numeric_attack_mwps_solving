@@ -1,0 +1,23 @@
+{
+    "problem": "Ben flips a fair nickel four times. What is the probability that Ben flips Head, Tail, Head, Tail, in that order? Express your answer as a common fraction.",
+    "level": "Level 1",
+    "type": "Counting & Probability",
+    "solution": "Since any given flip has equal probability of $\\frac{1}{2}$ of being a Head or a Tail, and all outcomes are equally likely, the precise sequence given is equal to $\\frac{1}{2^4} = \\boxed{\\frac{1}{16}}$.",
+    "prompt": "### Instruction: Ben flips a fair nickel four times. What is the probability that Ben flips Head, Tail, Head, Tail, in that order? Express your answer as a common fraction.\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "Here's how to solve the problem:\n* **Each flip is independent:** The outcome of one flip doesn't affect the outcome of the others.\n* **Probability of a single outcome:** On any given flip, there's a 1/2 chance of getting heads (H) and a 1/2 chance of getting tails (T).\nSo, to get the probability of the specific sequence HTHT:\n* **Flip 1 (H):** Probability = 1/2\n* **Flip 2 (T):** Probability = 1/2\n* **Flip 3 (H):** Probability = 1/2\n* **Flip 4 (T):** Probability = 1/2\nTo get the probability of the entire sequence, we multiply the individual probabilities:\n(1/2) * (1/2) * (1/2) * (1/2) = **1/16** \n",
+        "Here's how to solve the problem step-by-step:\n* **Each flip is independent:**  The outcome of one flip doesn't affect the outcome of any other flip.\n* **Probability of each outcome:**  On any given flip, the probability of getting heads (H) or tails (T) is 1/2.\n**Let's break down the sequence:**\n* **Flip 1: H**  Probability = 1/2\n* **Flip 2: T**  Probability = 1/2\n* **Flip 3: H**  Probability = 1/2\n* **Flip 4: T**  Probability = 1/2\n**To get the probability of the entire sequence, we multiply the probabilities of each individual flip:**\n(1/2) * (1/2) * (1/2) * (1/2) = **1/16**\n**Therefore, the probability of Ben flipping Head, Tail, Head, Tail in that order is 1/16.** \n",
+        "Here's how to break down the probability:\n* **Each flip is independent:** The outcome of one flip doesn't affect the others.\n* **Probability of a single outcome:** On each flip, there's a 1/2 chance of getting heads (H) and a 1/2 chance of getting tails (T).\nTo get the probability of the specific sequence HTHT, we multiply the probabilities of each individual flip:\n* Probability of H on the first flip: 1/2\n* Probability of T on the second flip: 1/2\n* Probability of H on the third flip: 1/2\n* Probability of T on the fourth flip: 1/2\nTotal probability: (1/2) * (1/2) * (1/2) * (1/2) = **1/16** \n",
+        "Here's how to solve this step-by-step:\n* **Each flip is independent:**  The outcome of one flip doesn't affect the others.\n* **Probability of a single outcome:** The probability of getting heads or tails on any single flip is 1/2.\n**Let's break down the sequence:**\n* **Flip 1: Head (H):** Probability = 1/2\n* **Flip 2: Tail (T):** Probability = 1/2\n* **Flip 3: Head (H):** Probability = 1/2\n* **Flip 4: Tail (T):** Probability = 1/2\n**To find the probability of the entire sequence, we multiply the probabilities of each individual flip:**\n(1/2) * (1/2) * (1/2) * (1/2) = **1/16** \n**Therefore, the probability of Ben flipping Head, Tail, Head, Tail in that order is 1/16.** \n",
+        "Here's how to solve this problem step-by-step:\n* **Each flip is independent:**  The outcome of one flip doesn't affect the others.\n* **Probability of each outcome:**  On a fair coin, the probability of getting Heads (H) or Tails (T) is 1/2.\nSo, the probability of getting the sequence HTHT is:\n* **H:** Probability of 1/2\n* **T:** Probability of 1/2\n* **H:** Probability of 1/2\n* **T:** Probability of 1/2\nTo get the probability of the entire sequence, we multiply the probabilities together:\n(1/2) * (1/2) * (1/2) * (1/2) = **1/16** \n"
+    ],
+    "pred_answers": "16",
+    "final_pred_answer": [
+        "16",
+        "16",
+        "16",
+        "16",
+        "16"
+    ],
+    "ground_truth": "16"
+}

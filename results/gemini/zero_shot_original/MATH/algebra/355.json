@@ -1,0 +1,23 @@
+{
+    "problem": "Find the coefficient of $x$ when $(1+2x)-2(1+2x+3x^2)+3(1+2x+3x^2+4x^3)-4(1+2x+3x^2+4x^3+5x^4)$ is simplified.",
+    "level": "Level 3",
+    "type": "Algebra",
+    "solution": "The coefficient of $x$ is  \\[2-2\\cdot2+3\\cdot2-4\\cdot2=\\boxed{-4}.\\]",
+    "prompt": "### Instruction: Find the coefficient of $x$ when $(1+2x)-2(1+2x+3x^2)+3(1+2x+3x^2+4x^3)-4(1+2x+3x^2+4x^3+5x^4)$ is simplified.\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "Here's how to solve the problem step-by-step:\n1. **Distribute:** Expand each of the parentheses:\n   *  (1 + 2x) = 1 + 2x\n   *  -2(1 + 2x + 3x\u00b2) = -2 - 4x - 6x\u00b2\n   *  3(1 + 2x + 3x\u00b2 + 4x\u00b3) = 3 + 6x + 9x\u00b2 + 12x\u00b3\n   *  -4(1 + 2x + 3x\u00b2 + 4x\u00b3 + 5x\u2074) = -4 - 8x - 12x\u00b2 - 16x\u00b3 - 20x\u2074\n2. **Combine like terms:**  Add the coefficients of each power of *x* together:\n   * **x\u2074 term:** -20x\u2074\n   * **x\u00b3 term:** 12x\u00b3 - 16x\u00b3 = -4x\u00b3\n   * **x\u00b2 term:** 9x\u00b2 - 12x\u00b2 = -3x\u00b2\n   * **x term:** 2x - 4x + 6x - 8x = -4x\n   * **Constant term:** 1 - 2 + 3 - 4 = -2\n3. **Simplified expression:** The simplified expression is: -20x\u2074 - 4x\u00b3 - 3x\u00b2 - 4x - 2\n4. **Coefficient of x:** The coefficient of *x* is **-4**. \n",
+        "Here's how to solve the problem step-by-step:\n1. **Distribute:** Expand each term in the expression:\n   *  (1 + 2x) = 1 + 2x\n   * -2(1 + 2x + 3x\u00b2) = -2 - 4x - 6x\u00b2\n   * 3(1 + 2x + 3x\u00b2 + 4x\u00b3) = 3 + 6x + 9x\u00b2 + 12x\u00b3\n   * -4(1 + 2x + 3x\u00b2 + 4x\u00b3 + 5x\u2074) = -4 - 8x - 12x\u00b2 - 16x\u00b3 - 20x\u2074\n2. **Combine like terms:**  Add the coefficients of each power of *x*:\n   * **Constant term:** 1 - 2 + 3 - 4 = -2\n   * **x term:** 2 - 4 + 6 - 8 = -4\n   * **x\u00b2 term:** -6 + 9 - 12 = -9\n   * **x\u00b3 term:** 12 - 16 = -4\n   * **x\u2074 term:** -20\n3. **Result:** The simplified expression is: -2 - 4x - 9x\u00b2 - 4x\u00b3 - 20x\u2074\n4. **Coefficient of x:** The coefficient of *x* is **-4**. \n",
+        "Here's how to find the coefficient of the $x$ term:\n**1. Distribute the constants:**\n*  $(1 + 2x) - 2(1 + 2x + 3x^2) + 3(1 + 2x + 3x^2 + 4x^3) - 4(1 + 2x + 3x^2 + 4x^3 + 5x^4)$ \n*  $= 1 + 2x - 2 - 4x - 6x^2 + 3 + 6x + 9x^2 + 12x^3 - 4 - 8x - 12x^2 - 16x^3 - 20x^4$\n**2. Combine like terms:**\n*  $= (1 - 2 + 3 - 4) + (2 - 4 + 6 - 8)x + (-6 + 9 - 12)x^2 + (12 - 16)x^3 - 20x^4$\n*  $= -2 - 4x - 9x^2 - 4x^3 - 20x^4$\n**3. Identify the coefficient:**\n* The coefficient of the $x$ term is **-4**. \n \n**Therefore, the coefficient of $x$ in the simplified expression is -4.** \n",
+        "Here's how to solve the problem step by step:\n1. **Distribute:** Expand each of the terms in the expression:\n   ```\n   (1 + 2x) - 2(1 + 2x + 3x^2) + 3(1 + 2x + 3x^2 + 4x^3) - 4(1 + 2x + 3x^2 + 4x^3 + 5x^4) \n   = 1 + 2x - 2 - 4x - 6x^2 + 3 + 6x + 9x^2 + 12x^3 - 4 - 8x - 12x^2 - 16x^3 - 20x^4\n   ```\n2. **Combine Like Terms:** Combine the coefficients of each term with the same power of *x*:\n   ```\n   (1 - 2 + 3 - 4) + (2 - 4 + 6 - 8)x + (-6 + 9 - 12)x^2 + (12 - 16)x^3 - 20x^4 \n   ```\n3. **Simplify:**\n   ```\n   -2 - 4x - 9x^2 - 4x^3 - 20x^4\n   ```\n**Therefore, the coefficient of *x* is -4.** \n",
+        "Here's how to find the coefficient of $x$ step-by-step:\n1. **Expand the parentheses:**\n   \n   * $(1+2x) - 2(1+2x+3x^2) + 3(1+2x+3x^2+4x^3) - 4(1+2x+3x^2+4x^3+5x^4)$\n   * $= 1 + 2x - 2 - 4x - 6x^2 + 3 + 6x + 9x^2 + 12x^3 - 4 - 8x - 12x^2 - 16x^3 - 20x^4$\n2. **Combine like terms:**\n   *  $= (1-2+3-4) + (2-4+6-8)x + (-6+9-12)x^2 + (12-16)x^3 - 20x^4$\n   *  $= -2 - 4x - 9x^2 - 4x^3 - 20x^4$\n3. **Identify the coefficient of $x$:**\n   The coefficient of $x$ is the number multiplying $x$, which is **-4**.\n**Therefore, the coefficient of $x$ in the simplified expression is -4.** \n"
+    ],
+    "pred_answers": "-4",
+    "final_pred_answer": [
+        "-4",
+        "-4",
+        "-4",
+        "-4",
+        "-4"
+    ],
+    "ground_truth": "-4"
+}

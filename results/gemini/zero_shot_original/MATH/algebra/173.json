@@ -1,0 +1,23 @@
+{
+    "problem": "If $h(x) = \\sqrt{\\frac{x^3+72}{2}}+1$, what is the value of $h(6)$?",
+    "level": "Level 2",
+    "type": "Algebra",
+    "solution": "We have $h(6) = \\sqrt{\\frac{6^3+72}{2}}+1 = \\sqrt{\\frac{216+72}{2}}+1 = \\sqrt{144}+1 = 12+1 = \\boxed{13}$.",
+    "prompt": "### Instruction: If $h(x) = \\sqrt{\\frac{x^3+72}{2}}+1$, what is the value of $h(6)$?\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "1. **Substitute:**  We need to find the value of *h(6)*, which means we replace *x* with 6 in the function *h(x)*: \n   \n   *h(6) = \u221a((6\u00b3 + 72) / 2) + 1*\n2. **Simplify:**  Now, let's simplify the expression:\n   *h(6) = \u221a((216 + 72) / 2) + 1*\n   *h(6) = \u221a(288 / 2) + 1*\n   *h(6) = \u221a144 + 1*\n3. **Calculate:**  Finally, we can calculate the square root and add 1:\n   *h(6) = 12 + 1*\n   *h(6) = 13*\n**Therefore, the value of *h(6)* is 13.** \n",
+        "1. **Substitute x = 6 into the function:** \n   *  h(6) =  \u221a((6\u00b3 + 72)/2) + 1\n2. **Simplify inside the square root:**\n   * h(6) = \u221a((216 + 72)/2) + 1\n   * h(6) = \u221a(288/2) + 1\n   * h(6) = \u221a144 + 1\n3. **Calculate the square root:**\n   * h(6) = 12 + 1\n4. **Add to get the final answer:**\n   * h(6) = 13\n**Therefore, the value of h(6) is 13.** \n",
+        "1. **Substitute x = 6 into the function:**  \n   h(6) = \u221a((6\u00b3 + 72)/2) + 1\n2. **Simplify inside the square root:**\n   h(6) = \u221a((216 + 72)/2) + 1\n   h(6) = \u221a(288/2) + 1\n   h(6) = \u221a144 + 1\n3. **Calculate the square root:**\n   h(6) = 12 + 1\n4. **Add the final term:**\n   h(6) = 13\n**Therefore, the value of h(6) is 13.** \n",
+        "1. **Substitute:** Replace  'x' in the function with the value 6. \n   This gives us:  $h(6) = \\sqrt{\\frac{6^3+72}{2}}+1$\n2. **Simplify inside the square root:**\n   - Calculate 6 cubed: 6\u00b3 = 216\n   - Add 72: 216 + 72 = 288\n   - Divide by 2: 288 / 2 = 144\n3. **Calculate the square root:**\n   - \u221a144 = 12\n4. **Add 1:**\n   - 12 + 1 = 13\n**Therefore, the value of h(6) is 13.** \n",
+        "1. **Substitute:**  Since we want to find  *h*(6), we replace every *x* in the function with 6:\n   *h*(6) = \u221a((6\u00b3 + 72) / 2) + 1\n2. **Simplify inside the square root:**\n   *h*(6) = \u221a((216 + 72) / 2) + 1\n   *h*(6) = \u221a(288 / 2) + 1\n   *h*(6) = \u221a144 + 1\n3. **Calculate the square root:**\n   *h*(6) = 12 + 1\n4. **Final Calculation:**\n   *h*(6) = 13\n**Therefore, the value of *h*(6) is 13.** \n"
+    ],
+    "pred_answers": "13",
+    "final_pred_answer": [
+        "13",
+        "13",
+        "13",
+        "13",
+        "13"
+    ],
+    "ground_truth": "13"
+}

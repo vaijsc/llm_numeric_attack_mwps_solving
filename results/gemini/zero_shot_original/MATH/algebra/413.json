@@ -1,0 +1,23 @@
+{
+    "problem": "Find the value of $\\sqrt{12-\\!\\sqrt{12-\\!\\sqrt{12-\\cdots}}}$.",
+    "level": "Level 3",
+    "type": "Algebra",
+    "solution": "Letting $x = \\sqrt{12-\\!\\sqrt{12-\\!\\sqrt{12-\\cdots}}}$, we have $x = \\sqrt{12 - x}$.  Therefore, $x^2 = 12 -x$, so $x^2 + x - 12=0$,  or $(x+4)(x-3) = 0$.  Clearly, $x$ must be positive, so $x = \\boxed{3}$.",
+    "prompt": "### Instruction: Find the value of $\\sqrt{12-\\!\\sqrt{12-\\!\\sqrt{12-\\cdots}}}$.\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "Let's call the value of the expression $x$:\n$$x = \\sqrt{12-\\!\\sqrt{12-\\!\\sqrt{12-\\cdots}}}$$\nNotice that the expression inside the square root is the same as the entire expression.  This means we can substitute $x$ into itself:\n$$x = \\sqrt{12 - x}$$\nNow we have a simple equation to solve. Squaring both sides, we get:\n$$x^2 = 12 - x$$\nRearranging, we get a quadratic equation:\n$$x^2 + x - 12 = 0$$\nFactoring, we have:\n$$(x+4)(x-3) = 0$$\nThis gives us two possible solutions: $x = -4$ and $x = 3$. Since the expression under the square root must be non-negative, we discard the negative solution. \nTherefore, the value of the expression is $\\boxed{3}$. \n",
+        "Let  \n$$x = \\sqrt{12-\\!\\sqrt{12-\\!\\sqrt{12-\\cdots}}}.$$ \nSince the expression continues infinitely, we can write\n$$x = \\sqrt{12 - x}.$$ Squaring both sides gives \n$$x^2 = 12 - x.$$ \nRearranging, we get the quadratic equation \n$$x^2 + x - 12 = 0.$$ \nFactoring, we have \n$$(x+4)(x-3) = 0.$$ \nTherefore, $x = -4$ or $x = 3$.  Since the square root of a number is non-negative, the answer is $\\boxed{3}$. \n",
+        "Let's call the value we're trying to find  $x$:\n$$x = \\sqrt{12-\\!\\sqrt{12-\\!\\sqrt{12-\\cdots}}}$$\nNotice that the expression inside the square root is the same as the original expression,  so we can substitute:\n$$x = \\sqrt{12 - x}$$\nNow we have a simple equation to solve for $x$.  Let's square both sides:\n$$x^2 = 12 - x$$\nRearranging, we get a quadratic equation:\n$$x^2 + x - 12 = 0$$\nThis factors nicely:\n$$(x + 4)(x - 3) = 0$$\nThis gives us two possible solutions: $x = -4$ and $x = 3$.  Since the square root of a number is always non-negative, the solution must be $x = \\boxed{3}$. \n",
+        "Let  \\[x = \\sqrt{12-\\!\\sqrt{12-\\!\\sqrt{12-\\cdots}}}.\\]Then  \\[x = \\sqrt{12 - x}.\\]Squaring both sides gives $x^2 = 12 - x$, or $x^2 + x - 12 = 0$.  This factors as $(x + 4)(x - 3) = 0$, so $x = -4$ or $x = 3$.  Since $x$ is the square root of a number, it must be nonnegative, so $x = \\boxed{3}$.",
+        "Let $x = \\sqrt{12-\\!\\sqrt{12-\\!\\sqrt{12-\\cdots}}}$.  Notice that the expression under the radical is the same as $x$ itself.  So we can write:\n $$x = \\sqrt{12-x}$$\nSquaring both sides gives us:\n$$x^2 = 12-x$$\nRearranging into a quadratic equation:\n$$x^2 + x - 12 = 0$$\nFactoring the quadratic:\n$$(x+4)(x-3) = 0$$\nThis gives us two possible solutions: $x = -4$ and $x=3$.  Since the square root of a number is always non-negative, the solution $x = -4$ is extraneous. \nTherefore, the value of  $\\sqrt{12-\\!\\sqrt{12-\\!\\sqrt{12-\\cdots}}}$ is $\\boxed{3}$. \n"
+    ],
+    "pred_answers": "3",
+    "final_pred_answer": [
+        "3",
+        "3",
+        "3",
+        "3",
+        "3"
+    ],
+    "ground_truth": "3"
+}

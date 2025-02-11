@@ -1,0 +1,23 @@
+{
+    "problem": "Evaluate $\\left(\\frac{i}{2}\\right)^2$.",
+    "level": "Level 3",
+    "type": "Algebra",
+    "solution": "$(i/2)^2 = (i^2)/(2^2) = (-1)/4 = \\boxed{-\\frac{1}{4}}$",
+    "prompt": "### Instruction: Evaluate $\\left(\\frac{i}{2}\\right)^2$.\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "To evaluate \\(\\left(\\frac{i}{2}\\right)^2\\), we will follow these steps:\n1. **Identify the expression**: We have \\(\\left(\\frac{i}{2}\\right)^2\\).\n2. **Apply the power**: We can distribute the square over the fraction:\n   \\[\n   \\left(\\frac{i}{2}\\right)^2 = \\frac{i^2}{2^2}\n   \\]\n3. **Calculate \\(2^2\\)**: \n   \\[\n   2^2 = 4\n   \\]\n4. **Calculate \\(i^2\\)**: Using the property of the imaginary unit, we know:\n   \\[\n   i^2 = -1\n   \\]\n5. **Substitute these values back into the expression**:\n   \\[\n   \\left(\\frac{i}{2}\\right)^2 = \\frac{-1}{4}\n   \\]\nThus, the final result is:\n\\[\n\\left(\\frac{i}{2}\\right)^2 = -\\frac{1}{4}\n\\]",
+        "To evaluate \\(\\left(\\frac{i}{2}\\right)^2\\), we can break this down into simpler steps.\n1. **Evaluate the square of the fraction**:\n   \\[\n   \\left(\\frac{i}{2}\\right)^2 = \\frac{i^2}{2^2}\n   \\]\n2. **Calculate \\(2^2\\)**:\n   \\[\n   2^2 = 4\n   \\]\n   Thus, we have:\n   \\[\n   \\left(\\frac{i}{2}\\right)^2 = \\frac{i^2}{4}\n   \\]\n3. **Recall the value of \\(i^2\\)**:\n   We know that:\n   \\[\n   i^2 = -1\n   \\]\n4. **Substitute \\(i^2\\) into the equation**:\n   \\[\n   \\left(\\frac{i}{2}\\right)^2 = \\frac{-1}{4}\n   \\]\n5. **Final result**:\n   Therefore, the evaluated expression is:\n   \\[\n   \\left(\\frac{i}{2}\\right)^2 = -\\frac{1}{4}\n   \\]\nSo, the answer is \\(\\boxed{-\\frac{1}{4}}\\).",
+        "To evaluate \\( \\left(\\frac{i}{2}\\right)^2 \\), we can follow these steps:\n1. Start with the expression:\n   \\[\n   \\left(\\frac{i}{2}\\right)^2\n   \\]\n2. Apply the property of exponents:\n   \\[\n   \\left(\\frac{i}{2}\\right)^2 = \\frac{i^2}{2^2}\n   \\]\n3. Calculate \\( 2^2 \\):\n   \\[\n   2^2 = 4\n   \\]\n4. Now, recall the value of \\( i^2 \\):\n   \\[\n   i^2 = -1\n   \\]\n5. Substitute \\( i^2 \\) and \\( 2^2 \\) into the expression:\n   \\[\n   \\left(\\frac{i}{2}\\right)^2 = \\frac{-1}{4}\n   \\]\nThus, the evaluated result is:\n\\[\n\\boxed{-\\frac{1}{4}}\n\\]",
+        "To evaluate \\(\\left(\\frac{i}{2}\\right)^2\\), we will follow these steps:\n1. Write down the expression:\n   \\[\n   \\left(\\frac{i}{2}\\right)^2\n   \\]\n2. Use the property of exponents that states \\((a/b)^2 = \\frac{a^2}{b^2}\\):\n   \\[\n   \\left(\\frac{i}{2}\\right)^2 = \\frac{i^2}{2^2}\n   \\]\n3. Calculate \\(2^2\\):\n   \\[\n   2^2 = 4\n   \\]\n4. Next, we need to find \\(i^2\\):\n   \\[\n   i^2 = -1\n   \\]\n5. Substitute back both values into the fraction:\n   \\[\n   \\frac{i^2}{2^2} = \\frac{-1}{4}\n   \\]\n6. Therefore, we can conclude:\n   \\[\n   \\left(\\frac{i}{2}\\right)^2 = -\\frac{1}{4}\n   \\]\nSo, the final answer is:\n\\[\n\\boxed{-\\frac{1}{4}}\n\\]",
+        "To evaluate \\(\\left(\\frac{i}{2}\\right)^2\\), we will follow these steps:\n1. **Identify the expression**:\n   We have \\(\\left(\\frac{i}{2}\\right)^2\\).\n2. **Apply the square**:\n   When we square a fraction, we square both the numerator and the denominator. Therefore, we can write:\n   \\[\n   \\left(\\frac{i}{2}\\right)^2 = \\frac{i^2}{2^2}\n   \\]\n3. **Calculate \\(i^2\\)**:\n   We know that \\(i\\), the imaginary unit, is defined such that:\n   \\[\n   i^2 = -1\n   \\]\n4. **Calculate \\(2^2\\)**:\n   \\[\n   2^2 = 4\n   \\]\n5. **Substitute back into the expression**:\n   Now substituting \\(i^2\\) and \\(2^2\\) into our fraction gives us:\n   \\[\n   \\left(\\frac{i}{2}\\right)^2 = \\frac{-1}{4}\n   \\]\n6. **Final Result**:\n   Thus, the final result of the evaluation is:\n   \\[\n   \\left(\\frac{i}{2}\\right)^2 = -\\frac{1}{4}\n   \\]\nTherefore, the answer is \\(\\boxed{-\\frac{1}{4}}\\)."
+    ],
+    "pred_answers": "4",
+    "final_pred_answer": [
+        "4",
+        "4",
+        "4",
+        "4",
+        "4"
+    ],
+    "ground_truth": "4"
+}

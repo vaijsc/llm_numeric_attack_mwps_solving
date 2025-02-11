@@ -1,0 +1,23 @@
+{
+    "problem": "A group of 10 Caltech students go to Lake Street for lunch. Each student eats at either Chipotle or Panda Express.  In how many different ways can the students collectively go to lunch?",
+    "level": "Level 3",
+    "type": "Counting & Probability",
+    "solution": "For each person, there are 2 choices: eat at Chipotle, or eat at Panda Express. To get the total number of outcomes, we multiply the number of possibilities for each person; $2 \\cdot 2 \\cdot 2 \\cdot \\ldots \\cdot 2 = 2^{10}=\\boxed{1024}$.",
+    "prompt": "### Instruction: A group of 10 Caltech students go to Lake Street for lunch. Each student eats at either Chipotle or Panda Express.  In how many different ways can the students collectively go to lunch?\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "Here's how to break down the problem:\n* **Each student has two choices:** Chipotle or Panda Express.\n* **There are 10 students:**  We need to consider the choices of all 10.\n**Thinking step-by-step:**\n* **Student 1:** Has 2 choices (Chipotle or Panda Express).\n* **Student 2:** Also has 2 choices (Chipotle or Panda Express).  Since Student 1's choice doesn't affect Student 2's, we have 2 * 2 = 4 possible combinations for the first two students.\n* **Student 3:**  Again, has 2 choices, giving us 2 * 2 * 2 = 8 possibilities for the first three students.\n**The Pattern**\nYou can see a pattern emerging.  For each additional student, we multiply the number of possibilities by 2.\n**Calculation**\nSince we have 10 students, the total number of ways they can choose where to eat is:\n2 * 2 * 2 * 2 * 2 * 2 * 2 * 2 * 2 * 2 = 2\u00b9\u2070 = **1024**\n**Therefore, there are 1024 different ways the students can collectively go to lunch.** \n",
+        "Here's how to break down the problem:\n* **Each student has two choices:** Chipotle or Panda Express.\n* **We have 10 students:**  This means we're making 10 independent decisions (one for each student).\n**Therefore, the total number of ways the students can go to lunch is:**\n2 (choices for student 1) * 2 (choices for student 2) * ... * 2 (choices for student 10) = 2^10 = **1024**\n**So there are 1024 different ways the group of 10 students can go to lunch.** \n",
+        "Here's how to break down the problem:\n* **Each student has two choices:** Chipotle or Panda Express.\n* **There are 10 students:** We need to account for the choices of all 10.\nSince each student has two options, and there are 10 students, we multiply the number of possibilities for each student together:\n2 * 2 * 2 * 2 * 2 * 2 * 2 * 2 * 2 * 2 = 2^10 = **1024**\n**Therefore, there are 1024 different ways the students can collectively go to lunch.** \n",
+        "Here's how to break down the problem:\n* **Each student has two choices:** Chipotle or Panda Express.\n* **We have 10 students:**  This means we have 10 independent decisions.\n**To find the total number of possibilities, we multiply the number of choices for each student:**\n2 choices * 2 choices * 2 choices * ... (10 times) = 2^10\n**Therefore, there are 2^10 = 1024 different ways the students can collectively go to lunch.** \n",
+        "Here's how to solve this problem:\n**Step 1:  Consider the choices for each student**\n* Each student has two options: Chipotle or Panda Express.\n**Step 2:  Apply the Multiplication Principle**\n* Since each student has two independent choices, we multiply the number of choices together for all 10 students.\n**Step 3:  Calculate the total number of ways**\n* There are 2 choices for each of the 10 students, so the total number of ways is 2 * 2 * 2 * 2 * 2 * 2 * 2 * 2 * 2 * 2 = 2^10 = **1024**\n**Answer:** There are 1024 different ways the students can collectively go to lunch. \n"
+    ],
+    "pred_answers": "1024",
+    "final_pred_answer": [
+        "1024",
+        "10",
+        "1024",
+        "1024",
+        "1024"
+    ],
+    "ground_truth": "1024"
+}

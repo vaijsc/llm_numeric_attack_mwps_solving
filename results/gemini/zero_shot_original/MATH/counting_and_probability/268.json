@@ -1,0 +1,23 @@
+{
+    "problem": "Determine the number of ways to arrange the letters of the word CEASE.",
+    "level": "Level 2",
+    "type": "Counting & Probability",
+    "solution": "First we count the arrangements if the two E's are unique, which is $5!$. Then since the E's are not unique, we divide by $2!$ for the arrangements of E, for an answer of $\\dfrac{5!}{2!} = \\boxed{60}$.",
+    "prompt": "### Instruction: Determine the number of ways to arrange the letters of the word CEASE.\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "Here's how to determine the number of ways to arrange the letters in the word CEASE:\n**1. Count the Letters:**\n* There are 5 letters in the word CEASE.\n**2. Consider Repetition:**\n* The letter 'E' appears twice.\n**3. The Formula:**\nThe number of ways to arrange *n* objects, where *r* objects are identical is:\nn! / (r!)\n**4. Apply the Formula:**\n* n = 5 (total letters)\n* r = 2 (number of 'E's)\nTherefore, the number of arrangements is:\n5! / (2!) = 120 / 2 = 60\n**Answer:** There are 60 different ways to arrange the letters of the word CEASE. \n",
+        "Here's how to determine the number of ways to arrange the letters of the word CEASE:\n**1. Count the Letters:**\n* The word \"CEASE\" has 5 letters.\n**2. Identify Repetitions:**\n* The letter 'E' appears twice.\n**3. Calculate the Arrangements:**\n* If all the letters were unique, there would be 5! (5 factorial) ways to arrange them: 5 * 4 * 3 * 2 * 1 = 120.\n* However, we need to account for the repeated 'E'.  We've overcounted because we treated the two 'E's as distinct. \n* To correct for this, we divide by 2! (2 factorial): 2 * 1 = 2.\n**4. The Final Calculation:**\n* The number of ways to arrange the letters of the word \"CEASE\" is: (5!)/(2!) = 120 / 2 = 60\n**Therefore, there are 60 ways to arrange the letters of the word CEASE.** \n",
+        "Here's how to determine the number of ways to arrange the letters of the word CEASE:\n**1. Count the letters:**\n* There are 5 letters in the word CEASE.\n**2. Consider repetitions:**\n* The letter 'E' appears twice.\n**3. The formula:**\n* If all letters were unique, there would be 5! (5 factorial) ways to arrange them, which is 5 * 4 * 3 * 2 * 1 = 120.\n* However, since 'E' repeats, we need to divide by 2! (2 factorial) to avoid overcounting arrangements that are identical except for the position of the 'E's.  2! = 2 * 1 = 2.\n**4. Calculate:**\n* The number of arrangements is (5!)/(2!) = 120 / 2 = 60\n**Therefore, there are 60 different ways to arrange the letters of the word CEASE.** \n",
+        "Here's how we can determine the number of ways to arrange the letters of the word CEASE:\n**1. Count the Letters:**\n* There are 5 letters in the word \"CEASE\".\n**2. Account for Repetition:**\n* The letter 'E' repeats twice.\n**3. The Formula:**\n* To handle the repetition, we use the following formula:\n   * **Total arrangements = (Number of letters)! / (Repetitions of letter 1)! * (Repetitions of letter 2)! ...**\n**4. Calculation:**\n* In our case, the formula becomes: 5! / 2! = (5 * 4 * 3 * 2 * 1) / (2 * 1) = 120 / 2 = 60\n**Therefore, there are 60 different ways to arrange the letters of the word \"CEASE\".** \n",
+        "Here's how to determine the number of ways to arrange the letters of the word CEASE:\n**1. Count the letters:**\n* The word CEASE has 5 letters.\n**2. Identify repeated letters:**\n* The letter \"E\" appears twice.\n**3. Apply the formula:**\nThe number of ways to arrange *n* objects, where *r* objects are identical, is given by:\nn! / (r!)\n**4. Calculate:**\n* n = 5 (total letters)\n* r = 2 (repeated \"E\"s)\nTherefore, the number of arrangements is:\n5! / (2!) = 120 / 2 = 60\n**Answer:** There are **60** ways to arrange the letters of the word CEASE. \n"
+    ],
+    "pred_answers": "60",
+    "final_pred_answer": [
+        "60",
+        "60",
+        "60",
+        "60",
+        "60"
+    ],
+    "ground_truth": "60"
+}

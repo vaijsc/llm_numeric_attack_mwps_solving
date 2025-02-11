@@ -1,0 +1,23 @@
+{
+    "problem": "Jasmine drank 1.5 pints of water on the first 3 miles of her hike. If she continued at this rate, how many pints of water would she drink in the next 10 miles?",
+    "level": "Level 1",
+    "type": "Algebra",
+    "solution": "We can set up the ratios $\\frac{1.5}{3}=\\frac{x}{10}$, where $x$ is how many pints of water she'd drink in the next 10 miles. We cross-multiply to get $3x=1.5(10)=15$, which means $x=5$. Jasmine would drink $\\boxed{5}$ pints of water in the next 10 miles.",
+    "prompt": "### Instruction: Jasmine drank 1.5 pints of water on the first 3 miles of her hike. If she continued at this rate, how many pints of water would she drink in the next 10 miles?\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "Here's how to solve this problem step-by-step:\n**1. Find the water consumption per mile:**\n* Jasmine drank 1.5 pints in 3 miles.\n* Divide the total pints by the number of miles: 1.5 pints / 3 miles = 0.5 pints per mile\n**2. Calculate the water needed for the next 10 miles:**\n* Multiply the water consumption per mile by the distance: 0.5 pints/mile * 10 miles = 5 pints\n**Answer:** Jasmine would drink **5 pints** of water in the next 10 miles. \n",
+        "Here's how to solve this step-by-step:\n**1. Find out how much water Jasmine drinks per mile:**\n* She drinks 1.5 pints in 3 miles.\n* Divide the total pints by the number of miles: 1.5 pints / 3 miles = 0.5 pints per mile\n**2. Calculate the total water needed for the next 10 miles:**\n* Multiply the water per mile by the number of miles: 0.5 pints/mile * 10 miles = 5 pints\n**Answer:** Jasmine would drink **5 pints** of water in the next 10 miles. \n",
+        "Here's how to solve the problem step-by-step:\n**1. Find out how much water Jasmine drinks per mile:**\n* She drank 1.5 pints in 3 miles.\n* Divide the total pints by the number of miles: 1.5 pints / 3 miles = 0.5 pints per mile\n**2. Calculate how much water she'll drink in the next 10 miles:**\n* Multiply the water per mile by the number of miles: 0.5 pints/mile * 10 miles = 5 pints\n**Answer:** Jasmine would drink **5 pints** of water in the next 10 miles. \n",
+        "Here's how to solve this problem step-by-step:\n**1. Find the water consumption per mile:**\n* Jasmine drank 1.5 pints in 3 miles.\n* Divide the total pints by the number of miles: 1.5 pints / 3 miles = 0.5 pints per mile\n**2. Calculate water consumption for the next 10 miles:**\n* Multiply the water consumption per mile by the distance: 0.5 pints/mile * 10 miles = 5 pints\n**Answer:** Jasmine would drink **5 pints** of water in the next 10 miles. \n",
+        "Here's how to solve the problem step-by-step:\n**1. Find the water consumption per mile:**\n* Jasmine drank 1.5 pints in 3 miles.\n* Divide the total pints by the number of miles: 1.5 pints / 3 miles = 0.5 pints per mile.\n**2. Calculate the water consumption for 10 miles:**\n* Multiply the water consumption per mile by the distance of the next segment: 0.5 pints/mile * 10 miles = 5 pints.\n**Answer:** Jasmine would drink 5 pints of water in the next 10 miles. \n"
+    ],
+    "pred_answers": "5",
+    "final_pred_answer": [
+        "5",
+        "5",
+        "5",
+        "5",
+        "5"
+    ],
+    "ground_truth": "10"
+}

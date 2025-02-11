@@ -1,0 +1,23 @@
+{
+    "problem": "What fraction is the same as \\[\n\\frac{2-4+6-8+10-12+14}{3-6+9-12+15-18+21}?\n\\]",
+    "level": "Level 1",
+    "type": "Algebra",
+    "solution": "We have \\begin{align*}\n&\\frac{2-4+6-8+10-12+14}{3-6+9-12+15-18+21} \\\\\n& \\qquad = \\frac{2(1-2+3-4+5-6+7)}{3(1-2+3-4+5-6+7)} \\\\\n& \\qquad = \\boxed{\\frac{2}{3}}.\n\\end{align*}",
+    "prompt": "### Instruction: What fraction is the same as \\[\n\\frac{2-4+6-8+10-12+14}{3-6+9-12+15-18+21}?\n\\]\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "Here's how to solve the problem step-by-step:\n**1. Recognize the Patterns:**\n* **Numerator:** The numerator has a pattern of adding 2, then subtracting 4, then adding 6, and so on. \n* **Denominator:** The denominator also has a pattern of adding 3, then subtracting 6, then adding 9, and so on.\n**2. Simplify by Factoring:**\n* **Numerator:**  We can factor out a 2 from each term: \n   2(1 - 2 + 3 - 4 + 5 - 6 + 7)\n* **Denominator:** We can factor out a 3 from each term:\n   3(1 - 2 + 3 - 4 + 5 - 6 + 7)\n**3. Cancel Common Factors:**\nNotice that both the numerator and denominator share the same expression (1 - 2 + 3 - 4 + 5 - 6 + 7).  We can cancel these out:\n  (2 * (1 - 2 + 3 - 4 + 5 - 6 + 7)) / (3 * (1 - 2 + 3 - 4 + 5 - 6 + 7)) = 2/3\n**Therefore, the fraction \\[\\frac{2-4+6-8+10-12+14}{3-6+9-12+15-18+21}\\] is equivalent to 2/3.** \n",
+        "Let's break down the problem step by step:\n**1. Simplify the numerator:**\n* Notice that the numerator is a series of alternating additions and subtractions of even numbers.  We can group the terms: \n   (2 - 4) + (6 - 8) + (10 - 12) + 14  =  -2 - 2 - 2 + 14 = 8\n**2. Simplify the denominator:**\n*  The denominator follows the same pattern, but with odd numbers:\n   (3 - 6) + (9 - 12) + (15 - 18) + 21 = -3 - 3 - 3 + 21 = 12\n**3. The fraction:**\n* Now we have the fraction 8/12.\n**4. Simplify the fraction:**\n* Both the numerator and denominator are divisible by 4.  Simplifying gives us **2/3**. \nTherefore, the fraction \\[\\frac{2-4+6-8+10-12+14}{3-6+9-12+15-18+21}\\] is equivalent to **2/3**. \n",
+        "Here's how to simplify the fraction step-by-step:\n**1. Factor out a 2 from the numerator:**\n* The numerator can be rewritten as: 2(1 - 2 + 3 - 4 + 5 - 6 + 7)\n**2. Factor out a 3 from the denominator:**\n* The denominator can be rewritten as: 3(1 - 2 + 3 - 4 + 5 - 6 + 7)\n**3. Simplify:**\n* Now we have:  (2(1 - 2 + 3 - 4 + 5 - 6 + 7)) / (3(1 - 2 + 3 - 4 + 5 - 6 + 7)) \n* The (1 - 2 + 3 - 4 + 5 - 6 + 7) terms cancel out, leaving us with:  2/3\n**Therefore, the fraction \\[\\frac{2-4+6-8+10-12+14}{3-6+9-12+15-18+21}\\] is equivalent to  2/3.** \n",
+        "**Step 1: Simplify the numerator.**\nNotice that the numerator is a series of alternating additions and subtractions of even numbers. We can group the terms like this:\n (2 - 4) + (6 - 8) + (10 - 12) + 14 = -2 - 2 - 2 + 14 = 8\n**Step 2: Simplify the denominator.**\nThe denominator follows the same pattern as the numerator, but with odd numbers:\n(3 - 6) + (9 - 12) + (15 - 18) + 21 = -3 - 3 - 3 + 21 = 12\n**Step 3: Reduce the fraction.**\nNow we have the fraction 8/12. Both 8 and 12 are divisible by 4, so we can reduce the fraction:\n8/12 = (8/4) / (12/4) = **2/3**\n**Therefore, the fraction \\[\\frac{2-4+6-8+10-12+14}{3-6+9-12+15-18+21}\\] is equivalent to 2/3.** \n",
+        "Here's how to solve the problem step-by-step:\n**1. Factor out common factors:**\n* **Numerator:** Notice that each term in the numerator has a common factor of 2:  \n   2 - 4 + 6 - 8 + 10 - 12 + 14 = 2(1 - 2 + 3 - 4 + 5 - 6 + 7)\n* **Denominator:**  Each term in the denominator has a common factor of 3:\n   3 - 6 + 9 - 12 + 15 - 18 + 21 = 3(1 - 2 + 3 - 4 + 5 - 6 + 7)\n**2. Simplify:**\nNow our fraction looks like this: \n[2(1 - 2 + 3 - 4 + 5 - 6 + 7)] / [3(1 - 2 + 3 - 4 + 5 - 6 + 7)]\nSince the same expression (1 - 2 + 3 - 4 + 5 - 6 + 7) appears in both the numerator and denominator, we can cancel them out:\n[2(1 - 2 + 3 - 4 + 5 - 6 + 7)] / [3(1 - 2 + 3 - 4 + 5 - 6 + 7)]  =  2/3\n**Answer:** The fraction \\[\\frac{2-4+6-8+10-12+14}{3-6+9-12+15-18+21}\\] is equivalent to **2/3**. \n"
+    ],
+    "pred_answers": "3",
+    "final_pred_answer": [
+        "3",
+        "3",
+        "3",
+        "3",
+        "2"
+    ],
+    "ground_truth": "3"
+}

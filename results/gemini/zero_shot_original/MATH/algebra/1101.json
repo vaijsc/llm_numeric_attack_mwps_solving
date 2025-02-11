@@ -1,0 +1,23 @@
+{
+    "problem": "For complex numbers $z$, let \\[f(z) = \\left\\{\n\\begin{array}{cl}\nz^{2}&\\text{ if }z\\text{ is not real}, \\\\\nz+2 &\\text{ if }z\\text{ is real}.\n\\end{array}\n\\right.\\]Find $f(i)+f(1)+f(-1)+f(-i)$.",
+    "level": "Level 4",
+    "type": "Algebra",
+    "solution": "Since $i$ is not a real number, $f(i)=i^2=-1$. Since $1$ is a real number,  $f(1)=1+2=3$. Also, $-1$ is a real number, so $f(-1)=-1+2=1$. Finally, $-i$ is not a real number, so $f(-i)=(-i)^2=-1$. Therefore, $f(i)+f(1)+f(-1)+f(-i)=-1+3+1+(-1)=\\boxed{2}$.",
+    "prompt": "### Instruction: For complex numbers $z$, let \\[f(z) = \\left\\{\n\\begin{array}{cl}\nz^{2}&\\text{ if }z\\text{ is not real}, \\\\\nz+2 &\\text{ if }z\\text{ is real}.\n\\end{array}\n\\right.\\]Find $f(i)+f(1)+f(-1)+f(-i)$.\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "Here's how to solve the problem step-by-step:\n* **Identify the type of each complex number:**\n    *  *i* is not real.\n    *  1 is real.\n    *  -1 is real.\n    *  -*i* is not real.\n* **Apply the correct rule for each complex number:**\n    *  *f(i) = i\u00b2 = -1* (since *i* is not real)\n    *  *f(1) = 1 + 2 = 3* (since 1 is real)\n    *  *f(-1) = -1 + 2 = 1* (since -1 is real)\n    *  *f(-i) = (-i)\u00b2 = -1* (since -*i* is not real)\n* **Add the results:**\n    *  *f(i) + f(1) + f(-1) + f(-i) = -1 + 3 + 1 - 1 = 2*\n**Therefore, f(i) + f(1) + f(-1) + f(-i) = 2** \n",
+        "Here's how to solve the problem step-by-step:\n* **Identify the type of each input:**\n    *  *i* is not real\n    *  1 is real\n    *  -1 is real\n    *  -i is not real\n* **Apply the function rule:**\n    *  *f(i) = i\u00b2 = -1* (since *i* is not real)\n    *  *f(1) = 1 + 2 = 3* (since 1 is real)\n    *  *f(-1) = -1 + 2 = 1* (since -1 is real)\n    *  *f(-i) = (-i)\u00b2 = -1* (since -i is not real)\n* **Calculate the sum:**\n    * *f(i) + f(1) + f(-1) + f(-i) = -1 + 3 + 1 - 1 = 2*\n**Therefore, f(i) + f(1) + f(-1) + f(-i) = 2** \n",
+        "Here's how to solve the problem step-by-step:\n* **Identify the type of each input:**\n    *  *i* is not real.\n    *  1 is real.\n    *  -1 is real.\n    *  - *i* is not real.\n* **Apply the appropriate rule for each input:**\n    *  *f(i)* = *i*\u00b2 = -1 (since *i* is not real)\n    *  *f(1)* = 1 + 2 = 3 (since 1 is real)\n    *  *f(-1)* = -1 + 2 = 1 (since -1 is real)\n    *  *f(-i)* = (-*i*)\u00b2 = -1 (since -*i* is not real)\n* **Add the results:**\n    *  *f(i) + f(1) + f(-1) + f(-i) = -1 + 3 + 1 - 1 = 2*\n**Therefore, f(i) + f(1) + f(-1) + f(-i) = 2.** \n",
+        "Here's how to solve the problem step-by-step:\n* **Identify the type of each complex number:**\n    *  *i* is not real.\n    *  1 is real.\n    *  -1 is real.\n    *  -i is not real.\n* **Apply the appropriate rule from the function definition:**\n    *  *f(i) = i\u00b2 = -1*  (since *i* is not real)\n    *  *f(1) = 1 + 2 = 3* (since 1 is real)\n    *  *f(-1) = -1 + 2 = 1* (since -1 is real)\n    *  *f(-i) = (-i)\u00b2 = -1*  (since -i is not real)\n* **Calculate the sum:**\n    *  *f(i) + f(1) + f(-1) + f(-i) = -1 + 3 + 1 - 1 = 2*\n**Therefore,  *f(i) + f(1) + f(-1) + f(-i) = 2*** \n",
+        "Here's how to break down the problem:\n* **Identify the type of number:**  We need to determine whether each of the numbers  *i*, 1, -1, and -*i* are real or not. \n    * *i* is imaginary (not real)\n    * 1 is real\n    * -1 is real\n    * -*i* is imaginary (not real)\n* **Apply the function definition:**\n    *  *f(i) = i\u00b2*  (since *i* is not real)\n    *  *f(1) = 1 + 2*  (since 1 is real)\n    *  *f(-1) = -1 + 2*  (since -1 is real)\n    *  *f(-i) = (-i)\u00b2* (since -*i* is not real)\n* **Simplify:**\n    *  *f(i) = -1*\n    *  *f(1) = 3*\n    *  *f(-1) = 1*\n    *  *f(-i) = -1*\n* **Calculate the sum:**\n    *  *f(i) + f(1) + f(-1) + f(-i) = -1 + 3 + 1 - 1 = **2**\nTherefore,  *f(i) + f(1) + f(-1) + f(-i) = 2*. \n"
+    ],
+    "pred_answers": "2",
+    "final_pred_answer": [
+        "2",
+        "2",
+        "2",
+        "2",
+        "2"
+    ],
+    "ground_truth": "2"
+}

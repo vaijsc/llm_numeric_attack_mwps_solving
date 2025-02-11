@@ -1,0 +1,41 @@
+{
+    "index_adversarial_question": 2,
+    "problem": "\nConsider the function $g(x)=3x-4$.  What is $g(2)$?\n",
+    "pcot_answer": "# Define the value of x at which we want to evaluate the function g\nx = 3  ### condition: 'x': {'type': 'int', '<=': None, '>=': 0, 'science_constant': False, 'direct_from_question': True}\n# Define the coefficients in the function g(x)\ncoefficient = 3  ### condition: 'coefficient': {'type': 'int', '<=': None, '>=': 0, 'science_constant': False, 'direct_from_question': True}\nconstant = 4  ### condition: 'constant': {'type': 'int', '<=': None, '>=': 0, 'science_constant': False, 'direct_from_question': True}\n# Calculate g(x) using the defined function\ng_x = coefficient * x - constant  ### condition: 'g_x': {'type': 'int', '<=': None, '>=': -4, 'science_constant': False, 'direct_from_question': False}\n# Print the result of g(0)\nprint(f\"g(0) = {g_x}\")",
+    "answer": "5",
+    "vllm_responses": [
+        " \nGiven the function $g(x)=3x-4$, we can substitute $x=2$ into the function to find $g(2)$.\n$g(2)=3(2)-4$\n$g(2)=6-4$\n$g(2)=\\boxed{2}$. The answer is: 2",
+        "\n$g(2) = 3(2) - 4 = 4$\n compromises between a solution that is too long and a solution that is too short.\u7740\u4e00\u5230\u4e09\n\u6587\u8a00\u6587\u6b62\u4e8e\u81f3\u5584",
+        " \nWe have $g(2) = 3(2) - 4 = 6 - 4 = \\boxed{2}$.",
+        "\nSince $g(x)=3x-4$, $g(2)=3(2)-4=6-4=\\boxed{2}$.",
+        "\nFirst, we substitute 2 for $x$ in the function $g(x) = 3x - 4$ to get $g(2) = 3(2) - 4$.\nSimplifying, we have $g(2) = 6 - 4 = \\boxed{2}$.\nThe answer is: 2",
+        "\nTo find $g(2)$, we substitute $x=2$ into the expression for $g(x)$. We have  \\begin{align*}\ng(2) &= 3(2) -4\\\\\n&= 6-4\\\\\n&= \\boxed{2}.\n\\end{align*}",
+        "\nTo find $g(2)$, we substitute $x=2$ into the expression for $g(x)$. Since $x=2$, we have  \\[g(2)=3\\cdot2 -4 = 6-4 = \\boxed{2}.\\]",
+        " \nTo find $g(2)$, we substitute $x=2$ into the function $g(x)=3x-4$. \nSo, $g(2)=3(2)-4$. \nLet\u2019s calculate this. \n$=6-4$ \n$=2$. \nTherefore, $g(2)=2$.",
+        "\nTo find $g(2)$, we substitute $x=2$ into the expression for $g(x)=3x-4$.\nLet's do the calculation.\n$g(2)=3 \\cdot 2 - 4=6-4=\\boxed{2}$.",
+        "\nTo find $g(2)$, we substitute $x=2$ into the function $g(x)=3x-4$.\n$g(2) = 3(2) - 4 = 6 - 4 = \\boxed{2}$. \nThe answer is: 2",
+        "\nWe are given that the function $g(x)=3x-4$ and we want to evaluate the function at $x=2$.\nPlugging in $x=2$ into the function, we get:\n$$g(2)=3(2)-4$$\nSimplifying the expression, we get:\n$$g(2)=6-4$$\nFinally, we perform the subtraction:\n$$g(2)=2$$\nTherefore, $g(2)=\\boxed{2}$.",
+        "\nWe have the function $g(x)=3x-4$, so in order to find $g(2)$, we substitute $x=2$ into the function. Doing so gives us $g(2)=3(2)-4=\\boxed{2}$.",
+        "\nWe can find $g(2)$ by plugging in $2$ into the function $g(x)$.  So, $g(2)=3(2)-4$.  $3(2)=6$ so $g(2)=\\boxed{6}$.",
+        "\nTo find $g(2)$, we can substitute $x=2$ into the function $g(x)$.  \nTherefore, \\[g(2) = 3(2) - 4 = 6 - 4 = \\boxed{2}.\\]",
+        "\nTo find $g(2)$, we can substitute $x=2$ into the function $g(x) = 3x - 4$.\nSo,\n$g(2) = 3(2) - 4$\n$= 6 - 4$\n$= \\boxed{2}$."
+    ],
+    "vllm_answers": [
+        "2",
+        "4",
+        "2",
+        "2",
+        "2",
+        "2",
+        "2",
+        "2",
+        "2",
+        "2",
+        "2",
+        "2",
+        "6",
+        "2",
+        "2"
+    ],
+    "vllm_pred_answer": "2"
+}

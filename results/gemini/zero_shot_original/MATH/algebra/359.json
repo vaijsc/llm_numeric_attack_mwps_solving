@@ -1,0 +1,23 @@
+{
+    "problem": "What is the sum of all integers $x$ for which $-30 \\leq x \\leq 26$ ?",
+    "level": "Level 4",
+    "type": "Algebra",
+    "solution": "The sum of all integers $y$ for which $-26\\le y\\le26$ is 0 since for every negative term there is a positive term of the same absolute value. Thus, the sum of all integers $x$ for which $-30\\le x\\le26$ is $-30-29-28-27=-30\\times4+1+2+3=-120+6=\\boxed{-114}$.",
+    "prompt": "### Instruction: What is the sum of all integers $x$ for which $-30 \\leq x \\leq 26$ ?\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "Here's how to solve the problem step-by-step:\n**1. Identify the Integers**\nThe integers between -30 and 26 (inclusive) form an arithmetic sequence:\n-30, -29, -28, ..., 24, 25, 26\n**2. Calculate the Sum**\nTo find the sum of an arithmetic sequence, we use the formula:\n*Sum = (n/2) * (first term + last term)*\nWhere:\n* n = number of terms\n* First term = -30\n* Last term = 26\n**3. Find the Number of Terms**\nThe number of terms in this sequence is the difference between the last and first term, plus one (to include both endpoints):\n* n = 26 - (-30) + 1 = 57\n**4. Substitute and Solve**\nNow we can substitute the values into the sum formula:\n*Sum = (57/2) * (-30 + 26) = (57/2) * (-4) = -114*\n**Therefore, the sum of all integers between -30 and 26 (inclusive) is -114.** \n",
+        "Here's how to solve this problem step-by-step:\n**1. Understand the Problem**\nWe need to find the sum of all the integers from -30 to 26, inclusive.\n**2. Use Arithmetic Series**\nThis is an arithmetic series because the difference between consecutive terms is constant (1).  We can use the following formula to find the sum (S) of an arithmetic series:\nS = (n/2) * (a + l)\nWhere:\n* n = number of terms\n* a = first term\n* l = last term\n**3. Calculate the Number of Terms**\nTo find 'n', we need to count the integers from -30 to 26.  Think of it as:\n-30, -29, -28, ... , 24, 25, 26\nThere are 30 integers from -30 to 0, 27 integers from 1 to 26, and one more integer (0).  Therefore:\nn = 30 + 27 + 1 = 58\n**4. Identify the First and Last Terms**\n* a = -30\n* l = 26\n**5. Calculate the Sum**\nS = (58/2) * (-30 + 26)\nS = 29 * (-4)\nS = **-116**\n**Therefore, the sum of all integers from -30 to 26 is -116.** \n",
+        "Here's how to solve the problem step-by-step:\n**1. Identify the Series:**\nThe integers from -30 to 26 form an arithmetic series. This means the difference between consecutive terms is constant (in this case, the difference is 1).\n**2. Find the Number of Terms:**\nTo find the number of terms in the series, subtract the starting value from the ending value and add 1: \n* 26 - (-30) + 1 = 57 terms\n**3. Apply the Sum Formula:**\nThe sum (S) of an arithmetic series is:\n* S = (n/2) * (a + l)\nWhere:\n* n = number of terms\n* a = first term\n* l = last term\n**4. Calculate the Sum:**\n* S = (57/2) * (-30 + 26)\n* S = (57/2) * (-4)\n* S = -114\n**Therefore, the sum of all integers from -30 to 26 is -114.** \n",
+        "Here's how to solve this problem step-by-step:\n**1. Understand the problem:**\nWe need to find the sum of all integers between -30 and 26, including both -30 and 26.\n**2.  Recognize the pattern:**\nThe sum of an arithmetic series is equal to the average of the first and last term, multiplied by the number of terms.\n**3.  Calculate the average:**\nThe average of -30 and 26 is (-30 + 26) / 2 = -2\n**4.  Calculate the number of terms:**\nThe number of integers from -30 to 26 is 26 - (-30) + 1 = 57 \n**5.  Calculate the sum:**\nThe sum of the integers is -2 * 57 = **-114** \n",
+        "Here's how to solve the problem step-by-step:\n**1. Understand the problem:**\nWe need to find the sum of all integers from -30 to 26, inclusive.\n**2.  Recognize the pattern:**\nThe integers from -30 to 26 form an arithmetic sequence with a common difference of 1.\n**3. Use the formula for the sum of an arithmetic series:**\nThe sum (S) of an arithmetic series is given by: \nS = (n/2)(a + l) \nwhere:\n* n is the number of terms\n* a is the first term\n* l is the last term\n**4. Calculate the values:**\n* n = 26 - (-30) + 1 = 57 (We add 1 to include both -30 and 26)\n* a = -30\n* l = 26\n**5. Substitute and solve:**\nS = (57/2)(-30 + 26)\nS = (57/2)(-4)\nS = 57 * (-2)\nS = **-114**\n**Therefore, the sum of all integers from -30 to 26 is -114.** \n"
+    ],
+    "pred_answers": "-114",
+    "final_pred_answer": [
+        "-114",
+        "-116",
+        "-114",
+        "-114",
+        "-114"
+    ],
+    "ground_truth": "-114"
+}

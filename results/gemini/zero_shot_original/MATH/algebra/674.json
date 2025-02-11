@@ -1,0 +1,23 @@
+{
+    "problem": "Rationalize the denominator of: $\\frac{1}{\\sqrt{2}+\\sqrt{8}+\\sqrt{32}}$. The answer can be written as $\\frac{\\sqrt{A}}{B}$, where $A$ and $B$ are integers. Find the minimum possible value of $A+B$.",
+    "level": "Level 3",
+    "type": "Algebra",
+    "solution": "First, we simplify the denominator. $$\\frac{1}{\\sqrt{2}+\\sqrt{8}+\\sqrt{32}}=$$$$\\frac{1}{\\sqrt{2}+2\\sqrt{2}+4\\sqrt{2}}=$$$$\\frac{1}{7\\sqrt{2}}$$Then, we multiply the top and bottom by $\\sqrt{2}$. $$\\frac{1}{7\\sqrt{2}} \\cdot \\frac{\\sqrt{2}}{\\sqrt{2}}=$$$$\\frac{\\sqrt{2}}{14}$$Therefore, $A+B=\\boxed{16}$.",
+    "prompt": "### Instruction: Rationalize the denominator of: $\\frac{1}{\\sqrt{2}+\\sqrt{8}+\\sqrt{32}}$. The answer can be written as $\\frac{\\sqrt{A}}{B}$, where $A$ and $B$ are integers. Find the minimum possible value of $A+B$.\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "Here's how to rationalize the denominator:\n**1. Simplify the Radicals:**\n*  $\\sqrt{8} = \\sqrt{4 \\cdot 2} = 2\\sqrt{2}$\n*  $\\sqrt{32} = \\sqrt{16 \\cdot 2} = 4\\sqrt{2}$\n**2. Substitute and Combine:**\nThe expression becomes: \n  \n  $\\frac{1}{\\sqrt{2} + 2\\sqrt{2} + 4\\sqrt{2}} = \\frac{1}{7\\sqrt{2}}$\n**3. Rationalize the Denominator:**\nMultiply the numerator and denominator by $\\sqrt{2}$:\n  $\\frac{1}{7\\sqrt{2}} \\cdot \\frac{\\sqrt{2}}{\\sqrt{2}} = \\frac{\\sqrt{2}}{7 \\cdot 2} = \\frac{\\sqrt{2}}{14}$\n**4. Find A + B:**\nWe have $\\frac{\\sqrt{A}}{B} = \\frac{\\sqrt{2}}{14}$, so $A = 2$ and $B = 14$.  Therefore, the minimum possible value of $A + B$ is $2 + 14 = \\boxed{16}$. \n",
+        "Here's how to rationalize the denominator and find the minimum value of A + B:\n**1. Simplify the Radicals:**\n*  \u221a8 = \u221a(4 * 2) = 2\u221a2\n*  \u221a32 = \u221a(16 * 2) = 4\u221a2\n**2. Rewrite the Expression:**\nThe expression becomes: \n   1 / (\u221a2 + 2\u221a2 + 4\u221a2) = 1 / (7\u221a2)\n**3. Rationalize the Denominator:**\nTo rationalize the denominator, multiply both the numerator and denominator by \u221a2:\n   (1 * \u221a2) / (7\u221a2 * \u221a2) = \u221a2 / (7 * 2) = \u221a2 / 14\n**4. Find A + B:**\nNow we have the expression in the form \u221aA / B, where A = 2 and B = 14.\nTherefore, A + B = 2 + 14 = **16**. \n",
+        "Here's how to rationalize the denominator and find the minimum value of A + B:\n**1. Simplify the Radicals**\n*  \u221a8 = \u221a(4 * 2) = 2\u221a2\n*  \u221a32 = \u221a(16 * 2) = 4\u221a2\n**2. Substitute and Combine**\nThe expression becomes: \n  \n  1 / (\u221a2 + 2\u221a2 + 4\u221a2) = 1 / (7\u221a2)\n**3. Rationalize the Denominator**\nMultiply the numerator and denominator by \u221a2:\n  (1 * \u221a2) / (7\u221a2 * \u221a2) = \u221a2 / (7 * 2) = \u221a2 / 14\n**4. Determine A and B**\nWe have the expression in the form \u221aA / B, where A = 2 and B = 14.\n**5. Calculate A + B**\nA + B = 2 + 14 = 16\n**Therefore, the minimum possible value of A + B is 16.** \n",
+        "Here's how to rationalize the denominator and find the minimum value of A + B:\n**1. Simplify the Radicals**\n*  \u221a8 = \u221a(4 * 2) = 2\u221a2\n*  \u221a32 = \u221a(16 * 2) = 4\u221a2\n**2. Substitute and Combine**\nThe expression becomes: \n  1 / (\u221a2 + 2\u221a2 + 4\u221a2) = 1 / (7\u221a2)\n**3. Rationalize the Denominator**\nMultiply the numerator and denominator by \u221a2:\n(1 * \u221a2) / (7\u221a2 * \u221a2) = \u221a2 / (7 * 2) = \u221a2 / 14\n**4. Find A + B**\nA = 2, B = 14\nA + B = 2 + 14 = **16**\nTherefore, the minimum possible value of A + B is **16**. \n",
+        "Here's how to rationalize the denominator step-by-step:\n**1. Simplify the radicals:**\n*  \u221a8 = \u221a(4 * 2) = 2\u221a2\n*  \u221a32 = \u221a(16 * 2) = 4\u221a2\n**2. Substitute the simplified radicals:**\nThe expression becomes: \n  \n  1 / (\u221a2 + 2\u221a2 + 4\u221a2) = 1 / (7\u221a2)\n**3. Rationalize the denominator:**\nMultiply both numerator and denominator by \u221a2:\n  (1 * \u221a2) / (7\u221a2 * \u221a2) = \u221a2 / (7 * 2) = \u221a2 / 14\n**4. Find the minimum possible value of A + B:**\nA = 2 and B = 14, so A + B = 2 + 14 = **16** \n"
+    ],
+    "pred_answers": "16",
+    "final_pred_answer": [
+        "16",
+        "16",
+        "16",
+        "16",
+        "16"
+    ],
+    "ground_truth": "16"
+}

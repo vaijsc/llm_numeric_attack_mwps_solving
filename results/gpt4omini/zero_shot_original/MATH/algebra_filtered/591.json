@@ -1,0 +1,23 @@
+{
+    "problem": "Evaluate $(x+y)(x-y)$ when $x=13$ and $y = 5$.",
+    "level": "Level 1",
+    "type": "Algebra",
+    "solution": "We can evaluate directly or we can use the difference of squares factorization: $(x+y)(x-y) = x^2-y^2 = 13^2-5^2 = 169-25 =\\boxed{144}$.",
+    "prompt": "### Instruction: Evaluate $(x+y)(x-y)$ when $x=13$ and $y = 5$.\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "To evaluate the expression \\((x+y)(x-y)\\) with the values \\(x=13\\) and \\(y=5\\), we can follow these steps:\n1. Calculate \\(x + y\\):\n   \\[\n   x + y = 13 + 5 = 18\n   \\]\n2. Calculate \\(x - y\\):\n   \\[\n   x - y = 13 - 5 = 8\n   \\]\n3. Now, multiply the two results together:\n   \\[\n   (x+y)(x-y) = (18)(8)\n   \\]\n4. Perform the multiplication:\n   \\[\n   18 \\times 8 = 144\n   \\]\nThus, the value of \\((x+y)(x-y)\\) when \\(x=13\\) and \\(y=5\\) is \\(\\boxed{144}\\).",
+        "To evaluate \\((x+y)(x-y)\\) with the given values \\(x = 13\\) and \\(y = 5\\), we will follow these steps:\n1. **Calculate \\(x + y\\)**:\n   \\[\n   x + y = 13 + 5 = 18\n   \\]\n2. **Calculate \\(x - y\\)**:\n   \\[\n   x - y = 13 - 5 = 8\n   \\]\n3. **Multiply the results of \\(x + y\\) and \\(x - y\\)**:\n   \\[\n   (x+y)(x-y) = 18 \\times 8\n   \\]\n4. **Perform the multiplication**:\n   \\[\n   18 \\times 8 = 144\n   \\]\nTherefore, the value of \\((x+y)(x-y)\\) when \\(x = 13\\) and \\(y = 5\\) is \\(\\boxed{144}\\).",
+        "To evaluate \\((x+y)(x-y)\\) when \\(x = 13\\) and \\(y = 5\\), we will follow these steps:\n1. **Calculate \\(x + y\\)**:\n   \\[\n   x + y = 13 + 5 = 18\n   \\]\n2. **Calculate \\(x - y\\)**:\n   \\[\n   x - y = 13 - 5 = 8\n   \\]\n3. **Multiply the results from steps 1 and 2**:\n   \\[\n   (x+y)(x-y) = 18 \\times 8\n   \\]\n4. **Calculate \\(18 \\times 8\\)**:\n   \\[\n   18 \\times 8 = 144\n   \\]\nThus, the final result is:\n\\[\n\\boxed{144}\n\\]",
+        "To evaluate the expression \\((x+y)(x-y)\\) when \\(x=13\\) and \\(y=5\\), we can follow these steps:\n1. Start by substituting the values of \\(x\\) and \\(y\\) into the expression:\n    \\[\n    (x+y)(x-y) = (13+5)(13-5)\n    \\]\n2. Calculate \\(x+y\\) and \\(x-y\\):\n    \\[\n    x+y = 13+5 = 18\n    \\]\n    \\[\n    x-y = 13-5 = 8\n    \\]\n3. Now substitute these results back into the expression:\n    \\[\n    (x+y)(x-y) = 18 \\times 8\n    \\]\n4. Finally, perform the multiplication:\n    \\[\n    18 \\times 8 = 144\n    \\]\nThus, the value of \\((x+y)(x-y)\\) when \\(x=13\\) and \\(y=5\\) is \\(\\boxed{144}\\).",
+        "To evaluate \\((x+y)(x-y)\\) when \\(x = 13\\) and \\(y = 5\\), we'll follow these steps:\n1. **Calculate \\(x+y\\):**\n   \\[\n   x+y = 13 + 5 = 18\n   \\]\n2. **Calculate \\(x-y\\):**\n   \\[\n   x-y = 13 - 5 = 8\n   \\]\n3. **Multiply the results from steps 1 and 2:**\n   \\[\n   (x+y)(x-y) = 18 \\times 8\n   \\]\n4. **Now, perform the multiplication:**\n   \\[\n   18 \\times 8 = 144\n   \\]\nThus, the value of \\((x+y)(x-y)\\) when \\(x = 13\\) and \\(y = 5\\) is \\(\\boxed{144}\\)."
+    ],
+    "pred_answers": "144",
+    "final_pred_answer": [
+        "144",
+        "144",
+        "144",
+        "144",
+        "144"
+    ],
+    "ground_truth": "144"
+}

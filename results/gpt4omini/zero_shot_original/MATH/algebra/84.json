@@ -1,0 +1,23 @@
+{
+    "problem": "If $a\\ast b = 2a+5b-ab$, what is the value of $3\\ast10$?",
+    "level": "Level 1",
+    "type": "Algebra",
+    "solution": "From the defined function, we know that $3\\ast 10 = 2(3)+5(10)-(3)(10) = 6+50-30=\\boxed{26}$.",
+    "prompt": "### Instruction: If $a\\ast b = 2a+5b-ab$, what is the value of $3\\ast10$?\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "To find the value of \\(3 \\ast 10\\) using the operation defined by \\(a \\ast b = 2a + 5b - ab\\), we need to substitute \\(a = 3\\) and \\(b = 10\\) into the expression.\nWe start with the formula:\n\\[\na \\ast b = 2a + 5b - ab\n\\]\nSubstituting \\(a = 3\\) and \\(b = 10\\):\n\\[\n3 \\ast 10 = 2(3) + 5(10) - (3)(10)\n\\]\nNow, we compute each term:\n1. \\(2(3) = 6\\)\n2. \\(5(10) = 50\\)\n3. \\((3)(10) = 30\\)\nNow, we put these values together:\n\\[\n3 \\ast 10 = 6 + 50 - 30\n\\]\nNow, perform the addition and subtraction:\n\\[\n3 \\ast 10 = 56 - 30 = 26\n\\]\nThus, the value of \\(3 \\ast 10\\) is\n\\[\n\\boxed{26}\n\\]",
+        "To find the value of \\(3 \\ast 10\\) using the operation defined by \\(a \\ast b = 2a + 5b - ab\\), we will substitute \\(a = 3\\) and \\(b = 10\\) into the expression.\n1. **Substitute** \\(a\\) and \\(b\\):\n   \\[\n   3 \\ast 10 = 2(3) + 5(10) - (3)(10)\n   \\]\n2. **Calculate each component**:\n   - Calculate \\(2(3)\\):\n     \\[\n     2 \\times 3 = 6\n     \\]\n   - Calculate \\(5(10)\\):\n     \\[\n     5 \\times 10 = 50\n     \\]\n   - Calculate \\((3)(10)\\):\n     \\[\n     3 \\times 10 = 30\n     \\]\n3. **Combine the results**:\n   \\[\n   3 \\ast 10 = 6 + 50 - 30\n   \\]\n4. **Perform the addition and subtraction**:\n   - First, add \\(6 + 50\\):\n     \\[\n     6 + 50 = 56\n     \\]\n   - Next, subtract \\(30\\):\n     \\[\n     56 - 30 = 26\n     \\]\nThus, the value of \\(3 \\ast 10\\) is \\(\\boxed{26}\\).",
+        "We need to find the value of \\(3 \\ast 10\\) using the operation defined by \\(a \\ast b = 2a + 5b - ab\\).\nLet's start by substituting \\(a = 3\\) and \\(b = 10\\) into the expression.\n\\[\n3 \\ast 10 = 2(3) + 5(10) - (3)(10)\n\\]\nNow we calculate each term:\n1. Calculate \\(2(3)\\):\n   \\[\n   2(3) = 6\n   \\]\n2. Calculate \\(5(10)\\):\n   \\[\n   5(10) = 50\n   \\]\n3. Calculate \\((3)(10)\\):\n   \\[\n   (3)(10) = 30\n   \\]\nNow substitute these values back into the expression:\n\\[\n3 \\ast 10 = 6 + 50 - 30\n\\]\nNext, we perform the addition and subtraction from left to right:\n1. First add \\(6 + 50\\):\n   \\[\n   6 + 50 = 56\n   \\]\n2. Now subtract \\(30\\) from \\(56\\):\n   \\[\n   56 - 30 = 26\n   \\]\nTherefore, the value of \\(3 \\ast 10\\) is \n\\[\n\\boxed{26}\n\\]",
+        "To find the value of \\(3 \\ast 10\\) using the operation defined by \\(a \\ast b = 2a + 5b - ab\\), we can substitute \\(a = 3\\) and \\(b = 10\\) into the expression.\n1. First, we break down the operation:\n   \\[\n   3 \\ast 10 = 2(3) + 5(10) - (3)(10)\n   \\]\n2. Next, we calculate each term individually:\n   - For \\(2(3)\\):\n     \\[\n     2(3) = 6\n     \\]\n   - For \\(5(10)\\):\n     \\[\n     5(10) = 50\n     \\]\n   - For \\((3)(10)\\):\n     \\[\n     (3)(10) = 30\n     \\]\n3. Now, we substitute these values back into the expression:\n   \\[\n   3 \\ast 10 = 6 + 50 - 30\n   \\]\n4. We combine the terms:\n   - First, we add \\(6\\) and \\(50\\):\n     \\[\n     6 + 50 = 56\n     \\]\n   - Then we subtract \\(30\\):\n     \\[\n     56 - 30 = 26\n     \\]\nThus, the value of \\(3 \\ast 10\\) is \\(\\boxed{26}\\).",
+        "To calculate \\( 3 \\ast 10 \\) using the operation defined by \\( a \\ast b = 2a + 5b - ab \\), we can substitute \\( a = 3 \\) and \\( b = 10 \\) into the expression.\nFirst, we plug in the values:\n\\[\n3 \\ast 10 = 2(3) + 5(10) - (3)(10)\n\\]\nNow, let's calculate each term step by step:\n1. Calculate \\( 2(3) \\):\n   \\[\n   2(3) = 6\n   \\]\n2. Calculate \\( 5(10) \\):\n   \\[\n   5(10) = 50\n   \\]\n3. Calculate \\( (3)(10) \\):\n   \\[\n   (3)(10) = 30\n   \\]\nNow we substitute these results back into the expression:\n\\[\n3 \\ast 10 = 6 + 50 - 30\n\\]\nNow, simplify by performing the additions and subtractions:\n1. Add \\( 6 + 50 \\):\n   \\[\n   6 + 50 = 56\n   \\]\n2. Now subtract \\( 30 \\):\n   \\[\n   56 - 30 = 26\n   \\]\nThus, the final result is:\n\\[\n\\boxed{26}\n\\]"
+    ],
+    "pred_answers": "26",
+    "final_pred_answer": [
+        "26",
+        "26",
+        "26",
+        "26",
+        "26"
+    ],
+    "ground_truth": "26"
+}

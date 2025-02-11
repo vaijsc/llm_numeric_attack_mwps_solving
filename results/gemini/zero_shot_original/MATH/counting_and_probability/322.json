@@ -1,0 +1,23 @@
+{
+    "problem": "How many paths are there from $C$ to $B$, if every step must be up or to the right?[asy]size(4cm,4cm);int w=6;int h=5;int i;pen p=fontsize(9);for (i=0; i<h; ++i){draw((0,i) -- (w-1,i));}for (i=0; i<w; ++i){draw((i, 0)--(i,h-1));}dot(\"$A$\", (0,0), SW, p);dot(\"$C$\", (1,2), NE, p);dot(\"$B$\", (w-1,h-1), NE, p);[/asy]",
+    "level": "Level 3",
+    "type": "Counting & Probability",
+    "solution": "There are 4 steps to the right, and 2 steps up.  These 6 steps can be made in any order, so the answer is $\\binom{6}{4} = \\boxed{15}$.",
+    "prompt": "### Instruction: How many paths are there from $C$ to $B$, if every step must be up or to the right?[asy]size(4cm,4cm);int w=6;int h=5;int i;pen p=fontsize(9);for (i=0; i<h; ++i){draw((0,i) -- (w-1,i));}for (i=0; i<w; ++i){draw((i, 0)--(i,h-1));}dot(\"$A$\", (0,0), SW, p);dot(\"$C$\", (1,2), NE, p);dot(\"$B$\", (w-1,h-1), NE, p);[/asy]\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "To get from point C to point B, you need to move 4 steps to the right and 3 steps up.  \nThink of it this way: you have a total of 7 steps to take (4 right + 3 up), and you need to choose which 4 of those steps will be to the right.  This is a combination problem.\nThe number of ways to choose 4 steps out of 7 is  \n  *  7C4 = 7! / (4! * 3!) = (7*6*5)/(3*2*1) = **35**\nTherefore, there are **35** different paths from C to B. \n",
+        "To get from point C to point B, we need to move 4 steps to the right and 3 steps up.  This gives us a total of 7 steps.\nThink of it like this: we have 7 spaces to fill, and we need to choose 4 of them to be \"right\" steps (the remaining 3 will automatically be \"up\" steps).\nTherefore, the number of paths is the same as the number of ways to choose 4 objects out of 7, which is  \n $$ \\binom{7}{4} = \\frac{7!}{4!3!} = \\boxed{35}.$$ \n",
+        "To get from point $C$ to point $B$, you need to move 4 steps to the right and 3 steps up.  Any sequence of 4 right steps and 3 up steps will get you there.\nSo, the problem reduces to finding the number of ways to arrange the letters in the word \"RRRRUUU\" (4 Rs and 3 Us).\nThink of it this way:  You have 7 slots to fill. You need to choose 4 of them to be Rs, and the rest will automatically be Us. This is a combination problem:  There are $\\binom{7}{4} = \\boxed{35}$ ways to choose 4 slots out of 7. \n",
+        "To get from point C to point B, you need to move 5 steps to the right and 3 steps up.  This is a total of 8 steps.\nThink of it like this: any path can be represented by a sequence of \"R\" (right) and \"U\" (up). For example, \"RRURRUU\" represents a path that goes right twice, then up, then right, then up twice, then up again.\nSince we need 5 \"R\"s and 3 \"U\"s, we just need to figure out how many ways to arrange these letters. This is a classic combinatorics problem!\nThe number of ways to arrange 8 letters with 5 of one kind and 3 of another is:\n  8! / (5! * 3!) = 56\n**Therefore, there are 56 paths from C to B.** \n",
+        "To get from point $C$ to point $B$, we need to move 4 units to the right and 3 units up.  \nThink of this as a sequence of \"R\" (right) and \"U\" (up).  We need a sequence of 7 letters, with 4 \"R\"s and 3 \"U\"s.  \nHow many ways can we arrange these letters? This is a classic combinatorics problem.  The answer is $\\binom{7}{4} = \\boxed{35}$. \n"
+    ],
+    "pred_answers": "35",
+    "final_pred_answer": [
+        "35",
+        "35",
+        "7",
+        "56",
+        "35"
+    ],
+    "ground_truth": "15"
+}

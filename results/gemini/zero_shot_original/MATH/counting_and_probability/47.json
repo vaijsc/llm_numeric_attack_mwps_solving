@@ -1,0 +1,23 @@
+{
+    "problem": "Determine the number of ways to arrange the letters of the word NINE.",
+    "level": "Level 2",
+    "type": "Counting & Probability",
+    "solution": "First we count the arrangements if the two N's are unique, which is 4!. Then since the N's are not unique, we divide by $2!$ for the arrangements of the N's, for an answer of $\\dfrac{4!}{2!} = \\boxed{12}$.",
+    "prompt": "### Instruction: Determine the number of ways to arrange the letters of the word NINE.\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "Here's how to determine the number of ways to arrange the letters of the word \"NINE\":\n**1.  Count the letters:** The word \"NINE\" has four letters.\n**2.  Consider repetitions:** There are no repeated letters in \"NINE\".\n**3.  Apply the factorial:**  Since we have four distinct letters, the number of arrangements is 4! (4 factorial).\n**4.  Calculate the factorial:** 4! = 4 * 3 * 2 * 1 = 24\n**Therefore, there are 24 different ways to arrange the letters of the word \"NINE\".** \n",
+        "Here's how to determine the number of ways to arrange the letters of the word NINE:\n**1. Count the Letters:**\n* The word \"NINE\" has 4 letters.\n**2. Consider Repetition:**\n* There are no repeated letters in \"NINE\".\n**3. Apply the Factorial Formula:**\n* When all letters are distinct, the number of ways to arrange *n* letters is *n*! (n factorial). \n* In this case, 4! = 4 * 3 * 2 * 1 = 24\n**Therefore, there are 24 ways to arrange the letters of the word NINE.** \n",
+        "Here's how to determine the number of ways to arrange the letters of the word \"NINE\":\n**1. Count the Letters:**\n* The word \"NINE\" has 4 letters.\n**2. Factorial:**\n* If all the letters were unique, we'd have 4! (4 factorial) ways to arrange them. \n* 4! = 4 * 3 * 2 * 1 = 24\n**3. Consider Repetition:**\n* However, the letter \"N\" repeats twice. This means we've overcounted our arrangements.\n**4. Adjust for Repetition:**\n* To correct for the repeated \"N\", we need to divide our initial count (24) by the factorial of the number of times the letter repeats (2!).\n* 2! = 2 * 1 = 2\n**5. Final Calculation:**\n* The number of unique arrangements is 24 / 2 = 12.\n**Therefore, there are 12 ways to arrange the letters of the word \"NINE\".** \n",
+        "Here's how to determine the number of ways to arrange the letters of the word \"NINE\":\n**1. Count the letters:**\n* The word \"NINE\" has **4** letters.\n**2. Consider repetitions:**\n* There are **no repeated letters** in the word \"NINE\".\n**3. Calculate the arrangements:**\n* Since we have 4 unique letters, we can arrange them in 4! (4 factorial) ways.\n**4. Calculate the factorial:**\n* 4! = 4 * 3 * 2 * 1 = 24\n**Therefore, there are 24 ways to arrange the letters of the word \"NINE\".** \n",
+        "Here's how to determine the number of ways to arrange the letters in the word NINE:\n* **Step 1: Count the letters.**  The word \"NINE\" has 4 letters.\n* **Step 2: Consider repetitions.**  There are no repeated letters in \"NINE\".\n* **Step 3: Calculate the factorial.**  Since there are no repetitions, the number of arrangements is simply the factorial of the number of letters: 4! \n* **Step 4: Calculate the factorial.**  4! = 4 * 3 * 2 * 1 = 24\n**Therefore, there are 24 ways to arrange the letters of the word NINE.** \n"
+    ],
+    "pred_answers": "24",
+    "final_pred_answer": [
+        "24",
+        "24",
+        "12",
+        "24",
+        "24"
+    ],
+    "ground_truth": "12"
+}

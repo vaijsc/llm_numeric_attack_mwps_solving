@@ -1,0 +1,23 @@
+{
+    "problem": "Simplify $\\frac{2s^5}{s^3} - 6s^2 + \\frac{7s^3}{s}$.",
+    "level": "Level 2",
+    "type": "Algebra",
+    "solution": "We have \\begin{align*}\n\\frac{2s^5}{s^3} - 6s^2 + \\frac{7s^3}{s}&=\n2s^{5-3} - 6s^2 + 7s^{3-1}\\\\\n&=2s^2 - 6s^2 + 7s^2\\\\\n&=\\boxed{3s^2}.\n\\end{align*}",
+    "prompt": "### Instruction: Simplify $\\frac{2s^5}{s^3} - 6s^2 + \\frac{7s^3}{s}$.\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "To simplify the expression \\(\\frac{2s^5}{s^3} - 6s^2 + \\frac{7s^3}{s}\\), we will simplify each term step by step.\n1. **Simplify \\(\\frac{2s^5}{s^3}\\):**\n   When dividing powers of the same base, we subtract the exponents. Thus:\n   \\[\n   \\frac{2s^5}{s^3} = 2s^{5-3} = 2s^2\n   \\]\n2. **Simplify \\(6s^2\\):**\n   This is already simplified.\n3. **Simplify \\(\\frac{7s^3}{s}\\):**\n   Again, subtract the exponents:\n   \\[\n   \\frac{7s^3}{s} = 7s^{3-1} = 7s^2\n   \\]\nNow we substitute these simplified terms back into the expression:\n\\[\n2s^2 - 6s^2 + 7s^2\n\\]\n4. **Combine like terms:**\n   Combine the coefficients of \\(s^2\\):\n   \\[\n   (2 - 6 + 7)s^2 = 3s^2\n   \\]\nThus, the simplified expression is:\n\\[\n\\boxed{3s^2}\n\\]",
+        "To simplify the given expression \\(\\frac{2s^5}{s^3} - 6s^2 + \\frac{7s^3}{s}\\), we will work step by step:\n1. **Simplify each fraction separately:**\n   \\[\n   \\frac{2s^5}{s^3} = 2s^{5-3} = 2s^2\n   \\]\n   \\[\n   \\frac{7s^3}{s} = 7s^{3-1} = 7s^2\n   \\]\n2. **Substitute the simplified terms back into the expression:**\n   The original expression is:\n   \\[\n   \\frac{2s^5}{s^3} - 6s^2 + \\frac{7s^3}{s}\n   \\]\n   Replacing the simplified parts:\n   \\[\n   2s^2 - 6s^2 + 7s^2\n   \\]\n3. **Combine like terms:**\n   Combine the \\(s^2\\) terms:\n   \\[\n   (2s^2 + 7s^2 - 6s^2) = 3s^2\n   \\]\nThus, the simplified expression is \\(\\boxed{3s^2}\\).",
+        "To simplify the expression \\(\\frac{2s^5}{s^3} - 6s^2 + \\frac{7s^3}{s}\\), we will simplify each term individually and combine them.\n1. **Simplify the first term \\(\\frac{2s^5}{s^3}\\):**\n   \\[\n   \\frac{2s^5}{s^3} = 2s^{5-3} = 2s^2\n   \\]\n2. **Simplify the second term, which is already in its simplest form:**\n   \\[\n   -6s^2\n   \\]\n3. **Simplify the third term \\(\\frac{7s^3}{s}\\):**\n   \\[\n   \\frac{7s^3}{s} = 7s^{3-1} = 7s^2\n   \\]\nNow, combine all the simplified terms:\n\\[\n2s^2 - 6s^2 + 7s^2\n\\]\nCombine like terms:\n\\[\n(2 - 6 + 7)s^2 = 3s^2\n\\]\nThus, the simplified expression is:\n\\[\n3s^2\n\\]",
+        "To simplify the expression \\(\\frac{2s^5}{s^3} - 6s^2 + \\frac{7s^3}{s}\\), we will simplify each term step-by-step.\n1. **Simplify the first term \\(\\frac{2s^5}{s^3}\\):**\n   \\[\n   \\frac{2s^5}{s^3} = 2s^{5-3} = 2s^2\n   \\]\n2. **The second term is \\(-6s^2\\):**\n   No simplification is needed here. It remains \\(-6s^2\\).\n3. **Simplify the third term \\(\\frac{7s^3}{s}\\):**\n   \\[\n   \\frac{7s^3}{s} = 7s^{3-1} = 7s^2\n   \\]\nNow, we substitute the simplified terms back into the original expression:\n\\[\n2s^2 - 6s^2 + 7s^2\n\\]\nCombine the like terms:\n\\[\n(2s^2 + 7s^2 - 6s^2) = (2 + 7 - 6)s^2 = 3s^2\n\\]\nTherefore, the simplified expression is \\(\\boxed{3s^2}\\).",
+        "To simplify the expression \\(\\frac{2s^5}{s^3} - 6s^2 + \\frac{7s^3}{s}\\), we need to simplify each term separately.\n1. Simplify the first term: \\(\\frac{2s^5}{s^3}\\).\n   \\[\n   \\frac{2s^5}{s^3} = 2s^{5-3} = 2s^2 \n   \\]\n2. The second term is already simple: \\(-6s^2\\).\n3. Simplify the third term: \\(\\frac{7s^3}{s}\\).\n   \\[\n   \\frac{7s^3}{s} = 7s^{3-1} = 7s^2\n   \\]\nNow we combine the simplified terms:\n\\[\n2s^2 - 6s^2 + 7s^2\n\\]\nCombine like terms:\n\\[\n(2s^2 + 7s^2) - 6s^2 = 9s^2 - 6s^2 = 3s^2\n\\]\nThus, the simplified expression is:\n\\[\n3s^2\n\\]"
+    ],
+    "pred_answers": "2",
+    "final_pred_answer": [
+        "2",
+        "2",
+        "2",
+        "2",
+        "2"
+    ],
+    "ground_truth": "2"
+}

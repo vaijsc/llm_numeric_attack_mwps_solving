@@ -1,0 +1,23 @@
+{
+    "problem": "What is the sum of the coordinates of the midpoint of a line segment with endpoints at $(3,1)$ and $(5,1)$?",
+    "level": "Level 2",
+    "type": "Algebra",
+    "solution": "Since the midpoint of a segment has coordinates that are the average of the coordinates of the endpoints, we see that the midpoint has coordinates $\\left(\\frac{5+3}{2}, \\frac{1+1}{2}\\right) = (4,1)$.  Thus our desired answer is $4 + 1 = \\boxed{5}$.",
+    "prompt": "### Instruction: What is the sum of the coordinates of the midpoint of a line segment with endpoints at $(3,1)$ and $(5,1)$?\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "Here's how to solve the problem step-by-step:\n1. **Find the midpoint formula:** The midpoint of a line segment with endpoints (x1, y1) and (x2, y2) is given by:\n   ((x1 + x2)/2, (y1 + y2)/2)\n2. **Apply the formula:**  In our case, (x1, y1) = (3, 1) and (x2, y2) = (5, 1).  Substituting these values into the midpoint formula, we get:\n   ((3 + 5)/2, (1 + 1)/2) = (8/2, 2/2) = (4, 1)\n3. **Calculate the sum of the coordinates:** The sum of the coordinates of the midpoint (4, 1) is 4 + 1 = **5**. \n",
+        "Here's how to solve the problem step-by-step:\n**1. Find the midpoint formula:**\nThe midpoint of a line segment with endpoints (x1, y1) and (x2, y2) is given by:\n((x1 + x2)/2, (y1 + y2)/2)\n**2. Apply the formula:**\n*  In our case, (x1, y1) = (3, 1) and (x2, y2) = (5, 1)\n*  Substitute these values into the midpoint formula:\n   ((3 + 5)/2, (1 + 1)/2)\n**3. Simplify:**\n*  (8/2, 2/2) = (4, 1)\n**4. Find the sum of the coordinates:**\n*  The sum of the coordinates of the midpoint (4, 1) is 4 + 1 = 5\n**Answer:** The sum of the coordinates of the midpoint is **5**. \n",
+        "Here's how to solve the problem step-by-step:\n**1. Find the midpoint formula:**\nThe midpoint of a line segment with endpoints (x1, y1) and (x2, y2) is:\n((x1 + x2)/2, (y1 + y2)/2)\n**2. Apply the formula to our points:**\n* (x1, y1) = (3, 1)\n* (x2, y2) = (5, 1)\nMidpoint = ((3 + 5)/2, (1 + 1)/2)\n**3. Simplify:**\nMidpoint = (8/2, 2/2) = (4, 1)\n**4. Find the sum of the coordinates:**\nThe sum of the coordinates is 4 + 1 = **5** \n",
+        "Here's how to find the sum of the coordinates of the midpoint:\n1. **Find the midpoint:** \n   - The midpoint of a line segment is found by averaging the x-coordinates and averaging the y-coordinates.\n   - Midpoint x-coordinate: (3 + 5) / 2 = 4\n   - Midpoint y-coordinate: (1 + 1) / 2 = 1\n2. **The midpoint is (4, 1).**\n3. **Sum the coordinates:** 4 + 1 = 5\n**Therefore, the sum of the coordinates of the midpoint is 5.** \n",
+        "Here's how to find the sum of the coordinates of the midpoint:\n**1. Find the midpoint:**\n* The midpoint of a line segment is found by averaging the x-coordinates and averaging the y-coordinates.\n* Midpoint x-coordinate: (3 + 5) / 2 = 4\n* Midpoint y-coordinate: (1 + 1) / 2 = 1\n**2. Determine the sum of the coordinates:**\n* The midpoint is (4, 1).\n* The sum of the coordinates is 4 + 1 = **5**. \n"
+    ],
+    "pred_answers": "5",
+    "final_pred_answer": [
+        "5",
+        "5",
+        "5",
+        "5",
+        "5"
+    ],
+    "ground_truth": "5"
+}

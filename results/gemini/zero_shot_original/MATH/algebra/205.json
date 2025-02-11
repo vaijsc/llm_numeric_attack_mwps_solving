@@ -1,0 +1,23 @@
+{
+    "problem": "The product of two positive numbers is 24, and the sum of their squares is 73. What is the square of their difference?",
+    "level": "Level 3",
+    "type": "Algebra",
+    "solution": "Let the two numbers be $a$ and $b$.  We know that $ab=24$ and $a^2+b^2=73$, and we are looking for\n\n$$(a-b)^2=a^2+b^2-2ab=73-2(24)=\\boxed{25}$$",
+    "prompt": "### Instruction: The product of two positive numbers is 24, and the sum of their squares is 73. What is the square of their difference?\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "Here's how to solve the problem step-by-step:\n**1. Set up the equations:**\n* Let the two positive numbers be  *x* and *y*.\n* We are given: \n    *  *x* * y* = 24 \n    *  *x*\u00b2 + *y*\u00b2 = 73\n**2. Use the algebraic identity:**\n* We know that (x - y)\u00b2 = x\u00b2 - 2xy + y\u00b2\n**3. Substitute and simplify:**\n* We can rewrite the equation for the sum of squares as: \n    * x\u00b2 + y\u00b2 = 73 \n    *  x\u00b2 - 2xy + y\u00b2 + 2xy = 73 \n* Substitute *xy* = 24 into the equation:\n    *  (x - y)\u00b2 + 2 * 24 = 73\n    * (x - y)\u00b2 = 73 - 48\n    * (x - y)\u00b2 = 25\n**4. The answer:**\n* The square of the difference of the two numbers is **25**. \n",
+        "Here's how to solve the problem step-by-step:\n**1. Set up the equations:**\n* Let the two positive numbers be *x* and *y*.\n* We are given: \n    *  *x* * y* = 24 \n    *  *x*\u00b2 + *y*\u00b2 = 73\n**2.  Manipulate the equations:**\n* We want to find (*x* - *y*)\u00b2.  Notice that this is a difference of squares, which can be expanded as: \n    * (*x* - *y*)\u00b2 = *x*\u00b2 - 2*x*y + *y*\u00b2\n* We already have *x*\u00b2 + *y*\u00b2, but we need -2*x*y. We can get this by multiplying the first equation by -2:\n    * -2(*x* * y*) = -48\n**3. Combine the equations:**\n* Add the equation *x*\u00b2 + *y*\u00b2 = 73 and -2(*x* * y*) = -48:\n    * *x*\u00b2 + *y*\u00b2 - 2*x*y = 73 - 48\n    * *x*\u00b2 - 2*x*y + *y*\u00b2 = 25\n**4.  The solution:**\n* We have now found that (*x* - *y*)\u00b2 = 25\n**Therefore, the square of the difference of the two numbers is 25.** \n",
+        "Here's how to solve this problem step-by-step:\n**1. Set up equations:**\n* Let the two positive numbers be *x* and *y*.\n* We're given: \n    *  *x* * y* = 24 \n    *  *x*\u00b2 + *y*\u00b2 = 73\n**2. Use the difference of squares identity:**\n* The difference of squares identity states:  (a + b)(a - b) = a\u00b2 - b\u00b2\n* Notice that we need to find (*x* - *y*)\u00b2  \n* We can rewrite this as: (*x* - *y*)\u00b2 = *x*\u00b2 - 2*x*y + *y*\u00b2\n**3. Substitute and solve:**\n* We know *x*\u00b2 + *y*\u00b2 = 73 and *x*y = 24. \n* Substitute these values into the equation from step 2: \n    * (*x* - *y*)\u00b2 = 73 - 2(24)\n    * (*x* - *y*)\u00b2 = 73 - 48\n    * (*x* - *y*)\u00b2 = 25\n**Answer:** The square of the difference of the two numbers is **25**. \n",
+        "Here's how to solve this problem step-by-step:\n**1. Set up equations:**\n* Let the two numbers be *x* and *y*.\n* We are given: \n    *  *x*y = 24 \n    *  *x*\u00b2 + *y*\u00b2 = 73\n**2. Use the algebraic identity:**\n* We know that (x - y)\u00b2 = x\u00b2 - 2xy + y\u00b2 \n* We can manipulate the given equations to get this expression:\n    *  x\u00b2 + y\u00b2 = 73\n    *  2xy = 48 (since xy = 24)\n**3. Substitute and solve:**\n* Substitute the values of x\u00b2 + y\u00b2 and 2xy into the identity:\n    * (x - y)\u00b2 = 73 - 48\n    * (x - y)\u00b2 = 25\n**4. Answer:**\n* Therefore, the square of the difference of the two numbers is **25**. \n",
+        "Here's how to solve this problem step-by-step:\n**1. Set up equations:**\n* Let the two positive numbers be  *x* and *y*.\n* We're given: \n    *  *x* * y* = 24 \n    *  *x*\u00b2 + *y*\u00b2 = 73\n**2. Use the algebraic identity:**\n* Recall the algebraic identity: ( *x* - *y* )\u00b2 = *x*\u00b2 - 2*x*y + *y*\u00b2 \n**3. Substitute and solve:**\n* Notice that we can rearrange the identity to get: *x*\u00b2 - 2*x*y + *y*\u00b2 = ( *x* - *y* )\u00b2\n* We know *x*\u00b2 + *y*\u00b2 = 73 and *x*y = 24. Substitute these values into the identity:\n    * 73 - 2(24) = ( *x* - *y* )\u00b2\n    * 73 - 48 = ( *x* - *y* )\u00b2\n    * 25 = ( *x* - *y* )\u00b2\n**4. The answer:**\n* The square of the difference of the two numbers is **25**. \n"
+    ],
+    "pred_answers": "25",
+    "final_pred_answer": [
+        "25",
+        "25",
+        "25",
+        "25",
+        "25"
+    ],
+    "ground_truth": "25"
+}

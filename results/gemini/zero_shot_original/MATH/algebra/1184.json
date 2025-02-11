@@ -1,0 +1,23 @@
+{
+    "problem": "A line goes through point $A(9, 1)$, point $B(19, k)$ and point $C(7, 0)$. What is the value of $k$?",
+    "level": "Level 3",
+    "type": "Algebra",
+    "solution": "The slope of the line is $\\frac{1-0}{9-7}=\\frac12$, so $\\frac{k-1}{19-9}=\\frac12$, or $k-1=\\frac{10}{2}$ and $k=\\boxed{6}$.",
+    "prompt": "### Instruction: A line goes through point $A(9, 1)$, point $B(19, k)$ and point $C(7, 0)$. What is the value of $k$?\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "Here's how to solve the problem step-by-step:\n**1. Understand the Concept:**\n* **Collinearity:** If three points lie on the same line, they are called collinear.\n* **Slope:** The slope of a line is constant throughout.  This means the slope calculated between any two points on the line will be the same.\n**2. Calculate the Slopes:**\n* **Slope between A and C:** \n   *  Slope (m) = (change in y) / (change in x) = (0 - 1) / (7 - 9) = -1 / -2 = 1/2\n* **Slope between B and C:**\n   * Slope (m) = (k - 0) / (19 - 7) = k / 12\n**3. Set the Slopes Equal:**\nSince points A, B, and C are collinear, the slopes calculated above must be equal:\n1/2 = k/12\n**4. Solve for k:**\n* Multiply both sides by 12: 12 * (1/2) = k\n* Simplify: 6 = k\n**Therefore, the value of k is 6.** \n",
+        "Here's how to solve this problem step-by-step:\n**Understanding the Problem**\nWe're given three points on a line.  The goal is to find the value of *k* which makes all three points lie on the same line. \n**Strategy**\nWe can use the concept of slope.  If three points lie on the same line, the slope between any two pairs of points must be equal.\n**Calculations**\n1. **Find the slope between points A and C:**\n   The slope formula is:  (y2 - y1) / (x2 - x1)\n   Slope (AC) = (0 - 1) / (7 - 9) = -1 / -2 = 1/2\n2. **Find the slope between points B and C:**\n   Slope (BC) = (k - 0) / (19 - 7) = k / 12\n3. **Set the slopes equal to each other:**\n   Since all three points lie on the same line, the slopes must be equal:\n   1/2 = k / 12\n4. **Solve for k:**\n   Multiply both sides by 12:  6 = k\n**Answer**\nTherefore, the value of *k* is **6**. \n",
+        "Here's how to solve the problem step-by-step:\n**1. Understand the Concept**\n* **Collinearity:**  If three points lie on the same line, they are called collinear. \n* **Slope:** The slope of a line is constant throughout.\n**2.  Find the Slope**\n* **Using points A and C:**\n   The slope of the line passing through A(9, 1) and C(7, 0) is:\n   ```\n   slope = (change in y) / (change in x) = (0 - 1) / (7 - 9) = -1 / -2 = 1/2 \n   ```\n* **Using points B and C:**\n   Since points A, B, and C are collinear, the slope between points B(19, k) and C(7, 0) must also be 1/2. \n   ```\n   slope = (k - 0) / (19 - 7) = 1/2\n   ```\n**3. Solve for k**\n* Simplify the equation:\n   ```\n   k / 12 = 1/2\n   ```\n* Multiply both sides by 12:\n   ```\n   k = 6\n   ```\n**Therefore, the value of k is 6.** \n",
+        "Here's how to solve the problem step-by-step:\n**1. Understand the Concept:**\n* **Collinearity:** If three points lie on the same line, they are collinear.  This means the slope between any two pairs of points will be the same.\n**2. Calculate Slopes:**\n* **Slope between A and C:**  \n   * Slope = (change in y) / (change in x) = (0 - 1) / (7 - 9) = -1 / -2 = 1/2\n* **Slope between B and C:**\n   * Slope = (k - 0) / (19 - 7) = k / 12\n**3. Set Slopes Equal:**\n* Since points A, B, and C are collinear, the slopes between any two pairs must be equal.\n   * 1/2 = k / 12\n**4. Solve for k:**\n* Cross-multiply: 1 * 12 = 2 * k\n* Simplify: 12 = 2k\n* Divide both sides by 2: k = 6\n**Answer:** The value of k is **6**. \n",
+        "Here's how to solve the problem step by step:\n**1. Understand the Concept:**\n* If three points lie on the same line, they are collinear.\n* Collinear points have the same slope between any two pairs of them.\n**2. Calculate the Slope:**\n* **Slope between points A and C:** \n   *  Slope = (change in y) / (change in x) = (0 - 1) / (7 - 9) = -1 / -2 = 1/2\n* **Slope between points B and C:**\n   * Slope = (k - 0) / (19 - 7) = k / 12\n**3. Set the Slopes Equal:**\n* Since the points are collinear, the slopes must be equal:\n   * 1/2 = k / 12\n**4. Solve for k:**\n* Cross-multiply: 1 * 12 = 2 * k\n* Simplify: 12 = 2k\n* Divide both sides by 2: k = 6\n**Therefore, the value of k is 6.** \n"
+    ],
+    "pred_answers": "6",
+    "final_pred_answer": [
+        "6",
+        "6",
+        "6",
+        "6",
+        "6"
+    ],
+    "ground_truth": "6"
+}

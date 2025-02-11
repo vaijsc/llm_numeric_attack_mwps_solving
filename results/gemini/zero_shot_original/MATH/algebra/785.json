@@ -1,0 +1,23 @@
+{
+    "problem": "Find $y$: $\\sqrt{19+3y} = 7$.",
+    "level": "Level 1",
+    "type": "Algebra",
+    "solution": "Squaring both sides of this equation, we have that $19+3y=49$. Now, we subtract $19$ from both sides of the equation and then divide by $3$ to get that $3y = 30 \\Rightarrow y = \\boxed{10}$.",
+    "prompt": "### Instruction: Find $y$: $\\sqrt{19+3y} = 7$.\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "1. **Square both sides:** To get rid of the square root, we square both sides of the equation:\n   \n   $(\\sqrt{19+3y})^2 = 7^2$\n2. **Simplify:** This gives us:\n   $19 + 3y = 49$\n3. **Isolate the 'y' term:** Subtract 19 from both sides:\n   $3y = 30$\n4. **Solve for 'y':** Divide both sides by 3:\n   $y = \\boxed{10}$ \n",
+        "1. **Square both sides:** To get rid of the square root, we square both sides of the equation: \n   \n   $(\\sqrt{19 + 3y})^2 = 7^2$\n2. **Simplify:** This gives us:\n   $19 + 3y = 49$\n3. **Isolate the y term:** Subtract 19 from both sides:\n   $3y = 30$\n4. **Solve for y:** Divide both sides by 3:\n   $y = \\boxed{10}$ \n",
+        "Here's how to solve for *y*:\n1. **Square both sides:** To get rid of the square root, square both sides of the equation:\n   \n   (\u221a(19 + 3y))^2 = 7^2\n2. **Simplify:** This gives us:\n   19 + 3y = 49\n3. **Isolate the *y* term:** Subtract 19 from both sides:\n   3y = 30\n4. **Solve for *y*:** Divide both sides by 3:\n   y = 10\n**Therefore, y = 10** \n",
+        "1. **Square both sides:** To get rid of the square root, we square both sides of the equation:\n   \n   $(\\sqrt{19+3y})^2 = 7^2$\n2. **Simplify:**  This gives us:\n   $19 + 3y = 49$\n3. **Isolate the 'y' term:** Subtract 19 from both sides:\n   $3y = 30$\n4. **Solve for 'y':** Divide both sides by 3:\n   $y = 10$\n**Therefore, y = 10** \n",
+        "1. **Square both sides:** To get rid of the square root, square both sides of the equation: \n   \n   $(\\sqrt{19+3y})^2 = 7^2$\n2. **Simplify:** This gives us:\n   $19 + 3y = 49$\n3. **Isolate the 'y' term:** Subtract 19 from both sides:\n   $3y = 30$\n4. **Solve for 'y':** Divide both sides by 3:\n   $y = \\boxed{10}$ \n"
+    ],
+    "pred_answers": "10",
+    "final_pred_answer": [
+        "10",
+        "10",
+        "10",
+        "10",
+        "10"
+    ],
+    "ground_truth": "10"
+}

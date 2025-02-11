@@ -1,0 +1,23 @@
+{
+    "problem": "Find $x$ such that $\\log_5(x-18)=2$.",
+    "level": "Level 2",
+    "type": "Algebra",
+    "solution": "Writing the equation in exponential form gives $5^2=x-18$. This means that $x-18=25$, so $x=\\boxed{43}$.",
+    "prompt": "### Instruction: Find $x$ such that $\\log_5(x-18)=2$.\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "1. **Rewrite in exponential form:** The equation $\\log_5(x-18) = 2$  means \"5 raised to the power of 2 equals (x-18)\".  This can be written as: \n   \n   $5^2 = x-18$\n2. **Simplify:** Calculate 5 squared:\n   $25 = x-18$\n3. **Solve for x:**  Add 18 to both sides of the equation:\n   $25 + 18 = x$\n   $43 = x$\n**Therefore, x = 43** \n",
+        "1. **Rewrite in exponential form:** The equation $\\log_5(x-18) = 2$ is equivalent to $5^2 = x-18$. \n2. **Simplify:**  $5^2 = 25$, so we have $25 = x-18$.\n3. **Solve for x:** Add 18 to both sides of the equation:  $25 + 18 = x$.\n4. **Final answer:** Therefore, $x = \\boxed{43}$. \n",
+        "Here's how to solve the equation step-by-step:\n1. **Rewrite in exponential form:** The equation $\\log_5(x-18) = 2$ is equivalent to  \n   $5^2 = x-18$\n2. **Simplify:**  Calculate $5^2$ to get $25 = x-18$\n3. **Solve for x:** Add 18 to both sides of the equation: $25 + 18 = x$\n4. **Solution:** Therefore, $x = \\boxed{43}$. \n",
+        "Here's how to solve the equation step-by-step:\n1. **Convert to exponential form:** \n   The equation  $\\log_5(x-18) = 2$ is in logarithmic form.  To solve for *x*, we need to rewrite it in exponential form.  Remember that the equation $\\log_b a = c$ is equivalent to  $b^c = a$.  Applying this to our problem, we get: \n   \n   $5^2 = x - 18$\n2. **Simplify:**\n   Calculate the left side of the equation: \n   \n   $25 = x - 18$\n3. **Isolate x:**\n   Add 18 to both sides to get *x* by itself:\n   $25 + 18 = x$\n4. **Solve for x:**\n   Simplify to find the solution:\n   $x = 43$\n**Therefore, the solution to the equation is x = 43.** \n",
+        "1. **Rewrite in exponential form:**  The equation $\\log_5(x-18) = 2$ is equivalent to $5^2 = x-18$.\n2. **Simplify:**  We have $25 = x-18$.\n3. **Solve for x:**  Add 18 to both sides to get $x = 25 + 18 = \\boxed{43}$. \n"
+    ],
+    "pred_answers": "43",
+    "final_pred_answer": [
+        "43",
+        "43",
+        "43",
+        "43",
+        "43"
+    ],
+    "ground_truth": "43"
+}

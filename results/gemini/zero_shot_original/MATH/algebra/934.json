@@ -1,0 +1,23 @@
+{
+    "problem": "The points $(7, -6)$ and $(-3, -4)$ are the endpoints of a diameter of a circle. What is the sum of the coordinates of the center of the circle?",
+    "level": "Level 2",
+    "type": "Algebra",
+    "solution": "The midpoint of a circle's diameter is its center. Thus, the center of the circle is at $\\left(\\frac{7+(-3)}{2},\\frac{-6+(-4)}{2}\\right)=(2,-5)$. The sum of the coordinates of this point is $2+(-5)=\\boxed{-3}$.",
+    "prompt": "### Instruction: The points $(7, -6)$ and $(-3, -4)$ are the endpoints of a diameter of a circle. What is the sum of the coordinates of the center of the circle?\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "Here's how to solve the problem step-by-step:\n**1. Find the midpoint of the diameter:**\n* The midpoint of a line segment is found by averaging the x-coordinates and the y-coordinates of the endpoints.\n*  Midpoint =  ((7 + (-3))/2, (-6 + (-4))/2) = (4/2, -10/2) = (2, -5)\n**2. The midpoint of the diameter is the center of the circle:**\n* The center of a circle is always located at the midpoint of any diameter.\n**3. Calculate the sum of the coordinates of the center:**\n* The sum of the coordinates of the center (2, -5) is 2 + (-5) = **-3** \n",
+        "Here's how to solve the problem step-by-step:\n**1. Understand the Relationship**\n* The center of a circle is the midpoint of any diameter.\n**2. Find the Midpoint**\n* The midpoint formula is:  ((x\u2081 + x\u2082)/2, (y\u2081 + y\u2082)/2) \n* Substitute the coordinates of the endpoints: ((7 + (-3))/2, (-6 + (-4))/2)\n* Simplify: (4/2, -10/2) = (2, -5)\n**3. Calculate the Sum**\n* The center of the circle is (2, -5)\n* Sum of the coordinates: 2 + (-5) = **-3** \n**Therefore, the sum of the coordinates of the center of the circle is -3.** \n",
+        "Here's how to solve the problem step-by-step:\n**1. Find the midpoint:**\n* The center of the circle is the midpoint of the diameter.\n* To find the midpoint, use the midpoint formula:  \n   * Midpoint = ((x\u2081 + x\u2082)/2, (y\u2081 + y\u2082)/2)\n* Substitute the given points: \n   * Midpoint = ((7 + (-3))/2, (-6 + (-4))/2) \n   * Midpoint = (4/2, -10/2)\n   * Midpoint = (2, -5)\n**2. Sum the coordinates:**\n* The center of the circle is at (2, -5).\n* The sum of the coordinates is 2 + (-5) = -3\n**Therefore, the sum of the coordinates of the center of the circle is -3.** \n",
+        "Here's how to solve the problem step-by-step:\n**1. Find the midpoint:**\n* The center of the circle is the midpoint of the diameter. \n* To find the midpoint, use the midpoint formula:  \n   ((x\u2081 + x\u2082)/2, (y\u2081 + y\u2082)/2) \n* Plug in the coordinates of the endpoints:\n   ((7 + (-3))/2, (-6 + (-4))/2) \n* Simplify:\n   (4/2, -10/2) = (2, -5)\n**2. Find the sum of the coordinates:**\n* The center of the circle is (2, -5)\n* The sum of the coordinates is 2 + (-5) = **-3** \n",
+        "Here's how to solve the problem step-by-step:\n**1. Find the midpoint of the diameter:**\n* The midpoint of a line segment is the average of the x-coordinates and the average of the y-coordinates.\n* Midpoint = ((7 + (-3))/2, (-6 + (-4))/2) = (2, -5)\n**2. The midpoint is the center of the circle:**\n* Since the diameter of a circle passes through the center, the midpoint of the diameter is the center of the circle.\n**3. Find the sum of the coordinates of the center:**\n* The sum of the coordinates of the center (2, -5) is 2 + (-5) = **-3**. \n"
+    ],
+    "pred_answers": "-3",
+    "final_pred_answer": [
+        "-3",
+        "-3",
+        "-3",
+        "-3",
+        "-3"
+    ],
+    "ground_truth": "-3"
+}

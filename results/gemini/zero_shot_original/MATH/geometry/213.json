@@ -1,0 +1,23 @@
+{
+    "problem": "What is the area, in square units, of the square with the four vertices at $(-2, 2), (2, -2), (-2, -6)$, and $(-6, -2)$?",
+    "level": "Level 4",
+    "type": "Geometry",
+    "solution": "The length of the square is $\\sqrt{4^2 + 4^2} = 4\\sqrt{2}$. Therefore, the area of the square is $(4\\sqrt{2})^2 = \\boxed{32}$.",
+    "prompt": "### Instruction: What is the area, in square units, of the square with the four vertices at $(-2, 2), (2, -2), (-2, -6)$, and $(-6, -2)$?\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "Here's how to find the area of the square:\n**1. Visualize the Square**\nImagine plotting the points on a coordinate plane.  You'll see that the square is tilted at a 45-degree angle.\n**2. Find the Side Length**\n* **Horizontal/Vertical Distance:**  Notice that the horizontal distance between any two adjacent vertices is 4 units (e.g., from (-2,2) to (2,-2)). \n* **Diagonal:**  The diagonal of the square is also the hypotenuse of a right triangle formed by two sides of the square.  Since the square is tilted at 45 degrees, this right triangle is a 45-45-90 triangle.\n* **Special Triangle Ratios:** In a 45-45-90 triangle, the sides are in the ratio 1:1:\u221a2.  Since the diagonal (hypotenuse) has a length of 4\u221a2 (using the distance formula or by recognizing the pattern of the coordinates), each side of the square has a length of 4.\n**3. Calculate the Area**\nThe area of a square is side length squared:\n* Area = side\u00b2 = 4\u00b2 = **16 square units** \n",
+        "Here's how to find the area of the square:\n**1. Visualize the Square**\nImagine plotting the points on a coordinate plane. You'll see that the square is tilted, but we can still find its side length.\n**2. Find the Side Length**\n* **Horizontal Side:**  Notice that the points (-2, 2) and (2, -2) lie on a horizontal line. The distance between them is 4 units (2 - (-2) = 4).\n* **Vertical Side:**  The points (2, -2) and (-6, -2) lie on a vertical line. The distance between them is 8 units (2 - (-6) = 8).\n**3. Calculate the Area**\nSince the square has sides of length 4 and 8, we can use the formula for the area of a square:\n* **Area = side * side**\n* **Area = 4 * 8 = 32 square units**\n**Therefore, the area of the square is 32 square units.** \n",
+        "Here's how to find the area of the square:\n**1. Visualize the Square:**\n* Plot the points on a coordinate plane. You'll notice they form a square.\n**2. Find the Side Length:**\n*  Choose any two adjacent vertices. For example, let's use (-2, 2) and (2, -2).\n* Calculate the distance between these points using the distance formula:\n   * Distance = \u221a[(2 - (-2))^2 + (-2 - 2)^2] = \u221a(16 + 16) = \u221a32 = 4\u221a2\n**3. Calculate the Area:**\n* The area of a square is side length squared.\n* Area = (4\u221a2)\u00b2 = 16 * 2 = **32 square units** \n",
+        "Here's how to find the area of the square:\n**1. Visualize the Square**\nImagine plotting the points on a coordinate plane. You'll see that the square is tilted, but its sides are parallel to the diagonals of the coordinate plane.\n**2. Calculate the Side Length**\n*  Pick any two adjacent vertices of the square. For example, let's take (-2, 2) and (2, -2).\n*  Find the distance between these points using the distance formula: \n   \u221a[(2 - (-2))^2 + (-2 - 2)^2] = \u221a(16 + 16) = \u221a32 = 4\u221a2 \n**3. Calculate the Area**\n* The area of a square is side length squared: (side length)\u00b2 \n*  Area = (4\u221a2)\u00b2 = 16 * 2 = **32 square units** \n**Therefore, the area of the square is 32 square units.** \n",
+        "Here's how to find the area of the square step-by-step:\n1. **Visualize:** Imagine plotting the points on a coordinate plane. You'll see that the square is tilted, but we can still find its dimensions. \n2. **Find the Side Length:**  Pick any two adjacent vertices. For example, let's use (-2, 2) and (2, -2). To find the distance between these points, we can use the distance formula:\n   * Distance =  \u221a[(x\u2082 - x\u2081)\u00b2 + (y\u2082 - y\u2081)\u00b2] \n   * Distance = \u221a[(2 - (-2))\u00b2 + (-2 - 2)\u00b2] = \u221a(4\u00b2 + (-4)\u00b2) = \u221a32 = 4\u221a2\n3. **Calculate the Area:** Since the side length of the square is 4\u221a2, the area is:\n   * Area = side * side = (4\u221a2) * (4\u221a2) = 16 * 2 = **32 square units** \n"
+    ],
+    "pred_answers": "32",
+    "final_pred_answer": [
+        "16",
+        "32",
+        "32",
+        "32",
+        "32"
+    ],
+    "ground_truth": "32"
+}

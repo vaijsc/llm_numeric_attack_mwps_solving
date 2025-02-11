@@ -1,0 +1,23 @@
+{
+    "problem": "Factor $32x^3-4x^2+20x$.",
+    "level": "Level 2",
+    "type": "Algebra",
+    "solution": "We see that the largest common factor of the coefficients is $4$ and that $x^1$ is the largest power of $x$ which divides all the terms, so we can factor out $4x$ and get $$\\boxed{4x(8x^2-x+5)}.$$",
+    "prompt": "### Instruction: Factor $32x^3-4x^2+20x$.\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "1. **Find the Greatest Common Factor (GCF):** The GCF of 32, 4, and 20 is 4. The GCF of  $x^3$, $x^2$, and $x$ is $x$. Therefore, the GCF of the entire expression is $4x$.\n2. **Factor out the GCF:** Divide each term in the expression by $4x$:\n   *  $32x^3 / 4x = 8x^2$\n   *  $-4x^2 / 4x = -x$\n   *  $20x / 4x = 5$\n3. **Write the factored expression:** \n   The factored expression is:  **4x(8x^2 - x + 5)** \n",
+        "**1. Find the Greatest Common Factor (GCD):**\n* The GCD of 32, -4, and 20 is 4.\n* The GCD of  x\u00b3, x\u00b2, and x is x.\nTherefore, the GCD of the entire expression is 4x.\n**2. Factor out the GCD:**\n* Divide each term in the expression by 4x: \n    * (32x\u00b3 / 4x) = 8x\u00b2\n    * (-4x\u00b2 / 4x) = -x\n    * (20x / 4x) = 5\n**3. Write the factored expression:**\nThe factored expression is: **4x(8x\u00b2 - x + 5)** \n",
+        "1. **Find the greatest common factor (GCF):** The GCF of 32, 4, and 20 is 4. The GCF of $x^3$, $x^2$, and $x$ is $x$.  Therefore, the GCF of the entire expression is $4x$.\n2. **Factor out the GCF:** Divide each term in the expression by the GCF, $4x$:\n   \n   * $32x^3 / 4x = 8x^2$\n   * $-4x^2 / 4x = -x$\n   * $20x / 4x = 5$\n3. **Rewrite the expression:** Now, we can rewrite the original expression as the product of the GCF and the result of our division:\n    \n    $32x^3 - 4x^2 + 20x = 4x(8x^2 - x + 5)$\n**Therefore, the factored form of $32x^3 - 4x^2 + 20x$ is $4x(8x^2 - x + 5)$.** \n",
+        "1. **Find the greatest common factor (GCF):** The GCF of 32, 4, and 20 is 4.  The GCF of  $x^3$, $x^2$, and $x$ is $x$. Therefore, the GCF of the entire expression is $4x$.\n2. **Factor out the GCF:** Divide each term in the expression by $4x$:\n   *  $32x^3 / 4x = 8x^2$\n   *  $-4x^2 / 4x = -x$\n   *  $20x / 4x = 5$\n3. **Rewrite the expression:** Now we can rewrite the original expression as:\n   $32x^3 - 4x^2 + 20x = 4x(8x^2 - x + 5)$\n**Therefore, the factored form of the expression is 4x(8x^2 - x + 5).** \n",
+        "1. **Find the greatest common factor (GCF) of the terms:** The GCF of 32, 4, and 20 is 4. The GCF of  $x^3$, $x^2$, and $x$ is $x$. Therefore, the GCF of the entire expression is $4x$.\n2. **Factor out the GCF:**  \n   * Divide each term in the expression by $4x$: \n      *  $32x^3 / 4x = 8x^2$\n      *  $-4x^2 / 4x = -x$\n      *  $20x / 4x = 5$\n3. **Rewrite the expression:** \n   *  The factored expression is:  $4x(8x^2 - x + 5)$\n**Therefore, the factored form of $32x^3 - 4x^2 + 20x$ is $4x(8x^2 - x + 5)$.** \n"
+    ],
+    "pred_answers": "5",
+    "final_pred_answer": [
+        "5",
+        "5",
+        "5",
+        "5",
+        "5"
+    ],
+    "ground_truth": "5"
+}

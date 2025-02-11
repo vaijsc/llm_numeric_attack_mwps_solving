@@ -1,0 +1,23 @@
+{
+    "problem": "Given that $x < 5$, rewrite $5x - |x - 5|$ without using absolute value signs.",
+    "level": "Level 5",
+    "type": "Algebra",
+    "solution": "Since $x<5,$ $x-5<0.$ It follows that $|x-5|=-(x-5),$ and the equation can be simplified as  \\[5x-|x-5|=5x+(x-5)=\\boxed{6x-5}.\\]",
+    "prompt": "### Instruction: Given that $x < 5$, rewrite $5x - |x - 5|$ without using absolute value signs.\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "Here's how to rewrite the expression:\n**1. Understand the absolute value:**\n   The absolute value of an expression, denoted by  |  |, gives its distance from zero.  So, |x - 5| represents the distance between *x* and 5.\n**2. Consider the given condition:**\n   We are given that *x* < 5. This means *x* is to the left of 5 on the number line.  \n**3. Interpret the distance:**\n   Since *x* is less than 5, the expression (x - 5) will always be negative.  To find the distance from *x* to 5, we need to take the opposite of (x - 5).\n**4. Rewrite the expression:**\n   Therefore,  |x - 5| can be rewritten as -(x - 5)  when x < 5.\n**5. Simplify:**\n   Substituting -(x - 5) for |x - 5| in the original expression gives us:\n   5x - |x - 5| = 5x - (-(x - 5)) = 5x + x - 5 = **6x - 5** \n",
+        "Here's how to rewrite the expression step-by-step:\n**1. Understand the Absolute Value**\nThe absolute value of a number is its distance from zero.  Since we know  *x* < 5, we know that ( *x* - 5 ) will always be negative.\n**2.  Simplify the Absolute Value**\nSince ( *x* - 5 ) is negative, its absolute value is the opposite of itself.  We can rewrite the expression as:\n  * 5*x* - ( - (*x* - 5) )\n**3. Distribute the Negative Sign**\n  * 5*x* + *x* - 5\n**4. Combine Like Terms**\n  * 6*x* - 5 \n**Therefore, 5*x* - |*x* - 5| can be rewritten as 6*x* - 5 when *x* < 5.** \n",
+        "Here's how to rewrite the expression without absolute value signs:\n**1. Understand the Absolute Value:**\nThe absolute value of an expression is its distance from zero. So,  |x - 5| represents the distance between x and 5.\n**2. Consider the Given Information:**\nWe know that x < 5.  This means x is less than 5, placing it to the left of 5 on the number line.\n**3. Apply the Definition of Absolute Value:**\nSince x is less than 5, the expression (x - 5) is always negative. To get the distance from zero, we need to make it positive. Therefore, we can rewrite the absolute value as:\n|x - 5| = -(x - 5)\n**4. Substitute and Simplify:**\nNow we can substitute this back into the original expression:\n5x - |x - 5| = 5x - (-(x - 5)) \n                 = 5x + x - 5\n                 = **6x - 5**\n**Therefore, 5x - |x - 5| can be rewritten as 6x - 5 when x < 5.** \n",
+        "Here's how we can rewrite the expression:\n**1. Consider the definition of absolute value:**\n*  The absolute value of a number is its distance from zero.\n*  Therefore,  |x - 5| represents the distance between *x* and 5.\n**2. Apply the given information:**\n*  We know *x* is less than 5. This means *x* is to the left of 5 on the number line.\n**3.  Interpret the distance:**\n*  Since *x* is less than 5, the distance between *x* and 5 is simply 5 - *x*.\n**4.  Rewrite the expression:**\n*  We can replace |x - 5| with (5 - *x*) in the original expression:\n   5*x* - |x - 5|  =  5*x* - (5 - *x*)\n**5. Simplify:**\n*  Distribute the negative sign: 5*x* - 5 + *x* \n*  Combine like terms: **6*x* - 5**\n**Therefore, 5*x* - |x - 5| can be rewritten as 6*x* - 5 when x < 5.** \n",
+        "Here's how to rewrite the expression:\n**1. Understand the Absolute Value**\nThe absolute value of an expression is its distance from zero.  Since we know  *x* < 5, the expression (x - 5) will always be negative.\n**2.  Simplify the Absolute Value**\nSince (x - 5) is negative, the absolute value is its opposite:\n  * |x - 5| = -(x - 5) = -x + 5\n**3. Substitute**\nNow substitute this back into the original expression:\n  * 5x - |x - 5| = 5x - (-x + 5) \n**4. Simplify**\nDistribute the negative sign and combine like terms:\n  * 5x - (-x + 5) = 5x + x - 5 = **6x - 5**\n**Therefore, 5x - |x - 5| can be rewritten as 6x - 5 when x < 5.** \n"
+    ],
+    "pred_answers": "5",
+    "final_pred_answer": [
+        "5",
+        "5",
+        "5",
+        "5",
+        "5"
+    ],
+    "ground_truth": "-5"
+}

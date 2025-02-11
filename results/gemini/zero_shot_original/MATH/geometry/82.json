@@ -1,0 +1,23 @@
+{
+    "problem": "In China, spheres are used to exercise a person's hands. If the diameter of a sphere is 2 inches, how many square inches are in its surface area? Express your answer in terms of $\\pi$.",
+    "level": "Level 2",
+    "type": "Geometry",
+    "solution": "The sphere has radius $2/2=1$ inch and surface area \\[4\\pi(1^2)=\\boxed{4\\pi}\\] square inches.",
+    "prompt": "### Instruction: In China, spheres are used to exercise a person's hands. If the diameter of a sphere is 2 inches, how many square inches are in its surface area? Express your answer in terms of $\\pi$.\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "Here's how to solve the problem step-by-step:\n* **Find the radius:** The diameter is 2 inches, so the radius is half of that, or 1 inch.\n* **Surface area formula:** The surface area of a sphere is given by the formula  4\u03c0r\u00b2, where r is the radius.\n* **Substitute and calculate:**  Substitute r = 1 inch into the formula: 4\u03c0(1\u00b2) = 4\u03c0 square inches.\n**Answer:** The surface area of the sphere is **4\u03c0 square inches**. \n",
+        "Here's how to solve the problem step-by-step:\n* **Find the radius:** The radius of a sphere is half its diameter, so the radius is 2 inches / 2 = 1 inch.\n* **Use the surface area formula:** The surface area of a sphere is given by the formula  4\u03c0r\u00b2, where r is the radius.\n* **Substitute and calculate:**  Plug in the radius we found: 4\u03c0(1 inch)\u00b2 = 4\u03c0 square inches.\n**Answer:** The surface area of the sphere is **4\u03c0 square inches**. \n",
+        "Here's how to solve the problem:\n* **Formula:** The surface area of a sphere is given by the formula  4\u03c0r\u00b2, where r is the radius.\n* **Radius:** The diameter is 2 inches, so the radius is 2/2 = 1 inch.\n* **Calculate:** Substitute the radius into the formula: 4\u03c0(1\u00b2) = 4\u03c0 square inches.\n**Answer:** The surface area of the sphere is **4\u03c0** square inches. \n",
+        "Here's how to solve the problem step-by-step:\n* **Find the radius:** The radius of the sphere is half the diameter, so the radius is 2 inches / 2 = 1 inch.\n* **Use the surface area formula:** The surface area of a sphere is given by the formula  4\u03c0r\u00b2, where r is the radius.\n* **Substitute and calculate:**  Substitute the radius (1 inch) into the formula: 4\u03c0(1 inch)\u00b2 = 4\u03c0 square inches.\n**Answer:** The surface area of the sphere is **4\u03c0 square inches**. \n",
+        "Here's how to solve the problem step-by-step:\n**1. Find the radius:**\n* The diameter is 2 inches, so the radius is half of that: 2 inches / 2 = 1 inch.\n**2.  Use the formula for surface area of a sphere:**\n* The surface area of a sphere is given by the formula:  4\u03c0r\u00b2 \n* Where 'r' represents the radius.\n**3. Substitute the radius and calculate:**\n* Surface area = 4\u03c0(1 inch)\u00b2 \n* Surface area = 4\u03c0(1 square inch)\n* Surface area = **4\u03c0 square inches** \n**Answer:** The surface area of the sphere is **4\u03c0 square inches**. \n"
+    ],
+    "pred_answers": "4",
+    "final_pred_answer": [
+        "4",
+        "4",
+        "4",
+        "4",
+        "4"
+    ],
+    "ground_truth": "4"
+}

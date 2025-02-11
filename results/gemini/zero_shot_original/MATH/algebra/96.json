@@ -1,0 +1,23 @@
+{
+    "problem": "Twelve people purchased supplies for a ten-day camping trip with the understanding that each of the twelve will get equal daily shares. They are then joined by three more people, but make no further purchases. How many days will the supplies last if the original daily share for each person is not changed?",
+    "level": "Level 2",
+    "type": "Algebra",
+    "solution": "Since each person of the original group had 10 daily shares, the total supplies are equivalent to 120 daily shares. When 3 people join the group, the total number of people becomes 15. Then each person in the new group will have $\\frac{120}{15}$ or 8 daily shares. The supplies will last $\\boxed{8}$ days.",
+    "prompt": "### Instruction: Twelve people purchased supplies for a ten-day camping trip with the understanding that each of the twelve will get equal daily shares. They are then joined by three more people, but make no further purchases. How many days will the supplies last if the original daily share for each person is not changed?\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "Here's how to solve this problem step-by-step:\n**1. Calculate the total number of daily shares:**\n* 12 people * 10 days = 120 daily shares\n**2. Calculate the new total number of people:**\n* 12 people + 3 people = 15 people\n**3. Calculate the number of days the supplies will last:**\n* 120 daily shares / 15 people = 8 days\n**Answer:** The supplies will last for **8 days**. \n",
+        "Here's how we can solve this problem step-by-step:\n**1. Calculate the total food units:**\n* Since 12 people were planning for 10 days, they had enough food for 12 people * 10 days = 120 \"food units\". \n**2. Calculate the new number of people:**\n* Three more people joined, making a total of 12 + 3 = 15 people.\n**3. Calculate how many days the food will last:**\n* Divide the total food units by the new number of people: 120 food units / 15 people = 8 days.\n**Answer:** The supplies will last for **8 days**. \n",
+        "Here's how to solve this problem step-by-step:\n**1. Calculate the total supply units:**\n*  Since we don't know the actual quantity of supplies, let's assume they have enough for 12 people for 10 days.  \n* This means they have a total of 12 people * 10 days = 120 \"supply units\" (this could be meals, water, etc.).\n**2. Calculate the new number of people:**\n* The original 12 people are joined by 3 more, bringing the total to 12 + 3 = 15 people.\n**3. Calculate how long the supplies will last:**\n* Divide the total supply units by the new number of people: 120 supply units / 15 people = 8 days.\n**Answer:** The supplies will last for 8 days. \n",
+        "Here's how we can solve this problem step by step:\n**1. Calculate the total supply units:**\n* Since 12 people were initially planning for 10 days, they had enough supplies for 12 people * 10 days = 120 \"supply units\".  We can think of a supply unit as a single person's food for one day.\n**2. Calculate the new number of people:**\n* Three more people joined, so now there are 12 + 3 = 15 people.\n**3. Calculate how long the supplies will last:**\n* With 15 people and 120 supply units, the supplies will last 120 supply units / 15 people = 8 days.\n**Answer:** The supplies will last for **8 days**. \n",
+        "Here's how to solve this problem step-by-step:\n**1. Calculate the total supply units:**\n*  Let's assume they bought enough supplies for 12 people for 10 days. This means they have a total of 12 people * 10 days = 120 \"supply units\".\n**2. Calculate the new number of people:**\n*  The original 12 people are joined by 3 more, making a total of 12 + 3 = 15 people.\n**3. Determine how long the supplies will last:**\n*  With 15 people and 120 supply units, the supplies will last 120 supply units / 15 people = 8 days.\n**Answer:** The supplies will last for 8 days. \n"
+    ],
+    "pred_answers": "8",
+    "final_pred_answer": [
+        "8",
+        "8",
+        "8",
+        "8",
+        "8"
+    ],
+    "ground_truth": "8"
+}

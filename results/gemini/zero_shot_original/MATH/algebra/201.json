@@ -1,0 +1,23 @@
+{
+    "problem": "If $j$ and $k$ are inversely proportional and $j = 42$ when $k = 56$, what is the value of $j$ when $k = 32$? Express your answer as a decimal rounded to the nearest tenth.",
+    "level": "Level 3",
+    "type": "Algebra",
+    "solution": "By the definition of inverse proportion, the product $jk$ is always equal to some constant $C$.  Substituting the given values, we can see that $42\\cdot 56= 2352=C$.  Using this $C$ value, we can solve for $j$ when $k=32$: \\begin{align*}\nj\\cdot 32&=2352\\\\\n\\Rightarrow\\qquad j&=\\frac{2352}{32}=\\boxed{73.5}\n\\end{align*}",
+    "prompt": "### Instruction: If $j$ and $k$ are inversely proportional and $j = 42$ when $k = 56$, what is the value of $j$ when $k = 32$? Express your answer as a decimal rounded to the nearest tenth.\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "Here's how to solve the problem step-by-step:\n**1. Understand Inverse Proportionality**\nInverse proportionality means that as one quantity increases, the other decreases at a rate that keeps their product constant.  We can express this mathematically as:\n*  j * k = constant\n**2. Find the Constant**\nWe know j = 42 when k = 56.  Substitute these values into the equation:\n*  42 * 56 = constant\n*  2352 = constant\n**3. Solve for j when k = 32**\nWe know the constant is 2352.  Now we want to find j when k = 32.  Substitute these values into the equation:\n*  j * 32 = 2352\n**4. Isolate j**\nDivide both sides of the equation by 32:\n* j = 2352 / 32\n* j \u2248 73.5\n**Answer:** The value of j when k = 32 is approximately **73.5**. \n",
+        "Here's how to solve the problem step-by-step:\n**Understanding Inverse Proportionality**\nInverse proportionality means that as one variable increases, the other decreases at a rate that keeps their product constant.  This can be expressed as:\n*  j * k = constant\n**Finding the Constant**\n1. We know that j = 42 when k = 56.  Let's use this to find the constant:\n   * 42 * 56 = 2352 \n**Calculating j when k = 32**\n1. We know the constant is 2352.  We can use this to find j when k = 32:\n   * j * 32 = 2352\n   * j = 2352 / 32\n   * j = 73.5\n**Answer:** The value of j when k = 32 is **73.5**. \n",
+        "Here's how to solve the problem step-by-step:\n**1. Understand Inverse Proportionality**\nInverse proportionality means that as one quantity increases, the other decreases proportionally. Mathematically, this can be expressed as:\nj * k = constant\n**2. Find the Constant**\nWe know that j = 42 when k = 56.  Let's plug these values into the equation:\n42 * 56 = constant\nThis gives us a constant of 2352.\n**3. Find j when k = 32**\nNow we want to find the value of j when k = 32. Using the constant we found:\nj * 32 = 2352\n**4. Solve for j**\nDivide both sides by 32:\nj = 2352 / 32 \nj \u2248 73.5\n**Answer:**  The value of j when k = 32 is approximately **73.5**. \n",
+        "Here's how to solve the problem step-by-step:\n**1. Understand Inverse Proportionality**\nInverse proportionality means that as one quantity increases, the other decreases proportionally. This relationship can be expressed mathematically as:\nj * k = constant\n**2. Find the Constant**\nWe know that j = 42 when k = 56.  Let's plug these values into the equation to find the constant:\n42 * 56 = 2352\n**3. Solve for j when k = 32**\nNow we know the constant is 2352. We can use this to find j when k = 32:\nj * 32 = 2352\nDivide both sides by 32:\nj = 2352 / 32 \nj = 73.5\n**Answer:** The value of j when k = 32 is **73.5**. \n",
+        "Here's how to solve the problem step-by-step:\n**1. Understand Inverse Proportionality**\nInverse proportionality means that as one quantity increases, the other decreases at a rate that keeps their product constant.  We can write this mathematically as:\n* j * k = constant\n**2. Find the Constant**\nWe're given that j = 42 when k = 56.  Let's plug these values into our equation:\n* 42 * 56 = constant\n* 2352 = constant\n**3. Find j when k = 32**\nNow we know the constant is 2352.  We want to find j when k = 32.  Let's plug these values into our equation:\n* j * 32 = 2352\n**4. Solve for j**\nDivide both sides of the equation by 32:\n* j = 2352 / 32\n* j = 73.5\n**Answer:**  The value of j when k = 32 is **73.5**. \n"
+    ],
+    "pred_answers": "32",
+    "final_pred_answer": [
+        "32",
+        "32",
+        "32",
+        "32",
+        "32"
+    ],
+    "ground_truth": "73.5"
+}

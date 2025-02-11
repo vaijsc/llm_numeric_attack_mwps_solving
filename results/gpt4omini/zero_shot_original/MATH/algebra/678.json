@@ -1,0 +1,23 @@
+{
+    "problem": "How much greater than $19^2$ is $31^2$ ?",
+    "level": "Level 1",
+    "type": "Algebra",
+    "solution": "We want to find the value of $31^2 - 19^2$. This factors into $(31+19)(31-19)$, which equals $50 \\cdot 12$, or $\\boxed{600}$.",
+    "prompt": "### Instruction: How much greater than $19^2$ is $31^2$ ?\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "To find how much greater \\(31^2\\) is than \\(19^2\\), we can first calculate both squares.\n1. Calculate \\(19^2\\):\n   \\[\n   19^2 = 19 \\times 19 = 361\n   \\]\n2. Calculate \\(31^2\\):\n   \\[\n   31^2 = 31 \\times 31 = 961\n   \\]\n3. Now, we need to find the difference between \\(31^2\\) and \\(19^2\\):\n   \\[\n   31^2 - 19^2 = 961 - 361\n   \\]\n4. Perform the subtraction:\n   \\[\n   961 - 361 = 600\n   \\]\nTherefore, \\(31^2\\) is \\(600\\) greater than \\(19^2\\).\nThe final answer is:\n\\[\n\\boxed{600}\n\\]",
+        "To find how much greater \\( 31^2 \\) is than \\( 19^2 \\), we can calculate both squares first.\n1. Calculate \\( 19^2 \\):\n   \\[\n   19^2 = 19 \\times 19 = 361\n   \\]\n2. Calculate \\( 31^2 \\):\n   \\[\n   31^2 = 31 \\times 31 = 961\n   \\]\n3. Now, we will find the difference between \\( 31^2 \\) and \\( 19^2 \\):\n   \\[\n   31^2 - 19^2 = 961 - 361\n   \\]\n4. Perform the subtraction:\n   \\[\n   961 - 361 = 600\n   \\]\nTherefore, \\( 31^2 \\) is \\( 600 \\) greater than \\( 19^2 \\).\n\\[\n\\text{The final answer is } 600.\n\\]",
+        "To find how much greater \\(31^2\\) is than \\(19^2\\), we first need to calculate both \\(31^2\\) and \\(19^2\\).\n1. Calculate \\(31^2\\):\n   \\[\n   31^2 = 31 \\times 31 = 961\n   \\]\n2. Calculate \\(19^2\\):\n   \\[\n   19^2 = 19 \\times 19 = 361\n   \\]\n3. Now, find the difference between \\(31^2\\) and \\(19^2\\):\n   \\[\n   31^2 - 19^2 = 961 - 361\n   \\]\n4. Perform the subtraction:\n   \\[\n   961 - 361 = 600\n   \\]\nNow, we conclude that \\(31^2\\) is \\(600\\) greater than \\(19^2\\).\n### Final Answer:\n\\[\n31^2 \\text{ is } 600 \\text{ greater than } 19^2.\n\\]",
+        "To find how much greater \\(31^2\\) is than \\(19^2\\), we will first calculate both squares.\n1. Calculate \\(31^2\\):\n   \\[\n   31^2 = 31 \\times 31 = 961\n   \\]\n2. Calculate \\(19^2\\):\n   \\[\n   19^2 = 19 \\times 19 = 361\n   \\]\n3. Now, we need to find the difference between \\(31^2\\) and \\(19^2\\):\n   \\[\n   31^2 - 19^2 = 961 - 361\n   \\]\n4. Subtract \\(361\\) from \\(961\\):\n   \\[\n   961 - 361 = 600\n   \\]\nTherefore, \\(31^2\\) is \\(600\\) greater than \\(19^2\\).\nSo, the final answer is:\n\\[\n\\boxed{600}\n\\]",
+        "To determine how much greater \\( 31^2 \\) is than \\( 19^2 \\), we can follow these steps:\n1. **Calculate \\( 31^2 \\)**:\n   \\[\n   31^2 = 31 \\times 31 = 961\n   \\]\n2. **Calculate \\( 19^2 \\)**:\n   \\[\n   19^2 = 19 \\times 19 = 361\n   \\]\n3. **Find the difference \\( 31^2 - 19^2 \\)**:\n   \\[\n   31^2 - 19^2 = 961 - 361\n   \\]\n4. **Performing the subtraction**:\n   \\[\n   961 - 361 = 600\n   \\]\nThus, \\( 31^2 \\) is greater than \\( 19^2 \\) by \\( \\boxed{600} \\)."
+    ],
+    "pred_answers": "600",
+    "final_pred_answer": [
+        "600",
+        "600",
+        "31",
+        "600",
+        "600"
+    ],
+    "ground_truth": "600"
+}

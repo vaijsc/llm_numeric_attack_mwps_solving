@@ -1,0 +1,23 @@
+{
+    "problem": "Evaluate $\\left(\\frac{i}{4}\\right)^4$.",
+    "level": "Level 3",
+    "type": "Algebra",
+    "solution": "$(i/4)^4 = (i^4)/(4^4) = (1)/256 = \\boxed{\\frac{1}{256}}$",
+    "prompt": "### Instruction: Evaluate $\\left(\\frac{i}{4}\\right)^4$.\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "To evaluate \\(\\left(\\frac{i}{4}\\right)^4\\), we can start by expressing the expression as \\(\\frac{i^4}{4^4}\\).\nFirst, let's calculate \\(i^4\\):\n\\[\ni^1 = i,\n\\]\n\\[\ni^2 = -1,\n\\]\n\\[\ni^3 = -i,\n\\]\n\\[\ni^4 = 1.\n\\]\nNext, we compute \\(4^4\\):\n\\[\n4^4 = 4 \\times 4 \\times 4 \\times 4.\n\\]\nBreaking it down:\n\\[\n4^2 = 16,\n\\]\n\\[\n4^4 = 16 \\times 16 = 256.\n\\]\nNow, combine the results:\n\\[\n\\left(\\frac{i}{4}\\right)^4 = \\frac{i^4}{4^4} = \\frac{1}{256}.\n\\]\nThus, the final result is\n\\[\n\\boxed{\\frac{1}{256}}.\n\\]",
+        "To evaluate \\(\\left(\\frac{i}{4}\\right)^4\\), we can break it down into two parts: the real number \\(\\frac{1}{4}\\) raised to the fourth power and \\(i\\) raised to the fourth power.\n1. **Calculate \\(i^4\\)**:\n   We know that \\(i\\) is the imaginary unit where \\(i = \\sqrt{-1}\\). The powers of \\(i\\) cycle every four steps:\n   - \\(i^1 = i\\)\n   - \\(i^2 = -1\\)\n   - \\(i^3 = -i\\)\n   - \\(i^4 = 1\\)\n   Therefore, \n   \\[\n   i^4 = 1.\n   \\]\n2. **Calculate \\(\\left(\\frac{1}{4}\\right)^4\\)**:\n   We can compute this as follows:\n   \\[\n   \\left(\\frac{1}{4}\\right)^4 = \\frac{1^4}{4^4} = \\frac{1}{256}.\n   \\]\n3. **Combine the results**:\n   Now we can combine the results from the steps above:\n   \\[\n   \\left(\\frac{i}{4}\\right)^4 = \\left(\\frac{1}{4}\\right)^4 \\cdot i^4 = \\frac{1}{256} \\cdot 1 = \\frac{1}{256}.\n   \\]\nThus, the final result is:\n\\[\n\\boxed{\\frac{1}{256}}.\n\\]",
+        "To evaluate \\(\\left(\\frac{i}{4}\\right)^4\\), we can break this down into easier steps.\n1. **Recognize the components**: We have two parts in the expression \\(\\frac{i}{4}\\): the imaginary unit \\(i\\), and the real number \\(4\\).\n2. **Raise the fraction to the power of 4**: Using the property of exponents, we can rewrite the expression as follows:\n\\[\n\\left(\\frac{i}{4}\\right)^4 = \\frac{i^4}{4^4}\n\\]\n3. **Calculate each part separately**:\n   - **Calculating \\(i^4\\)**:\n     The powers of \\(i\\) are known to cycle every four values: \n     - \\(i^1 = i\\)\n     - \\(i^2 = -1\\)\n     - \\(i^3 = -i\\)\n     - \\(i^4 = 1\\)\n     \n     Therefore, \\(i^4 = 1\\).\n   - **Calculating \\(4^4\\)**:\n     Now we compute \\(4^4\\):\n     \\[\n     4^4 = 256\n     \\]\n4. **Combine the results**:\n   Now substituting back into our equation, we have:\n\\[\n\\left(\\frac{i}{4}\\right)^4 = \\frac{1}{256}\n\\]\n5. **Final Result**:\nThus, the final result is:\n\\[\n\\left(\\frac{i}{4}\\right)^4 = \\frac{1}{256}\n\\]",
+        "To evaluate \\(\\left(\\frac{i}{4}\\right)^4\\), we can follow the steps outlined below:\n1. **Apply the power to the fraction**:\n   \\[\n   \\left(\\frac{i}{4}\\right)^4 = \\frac{i^4}{4^4}\n   \\]\n2. **Calculate \\(i^4\\)**:\n   - We know that \\(i = \\sqrt{-1}\\), and the powers of \\(i\\) cycle every four:\n     - \\(i^1 = i\\)\n     - \\(i^2 = -1\\)\n     - \\(i^3 = -i\\)\n     - \\(i^4 = 1\\)\n   - Therefore, \\(i^4 = 1\\).\n3. **Calculate \\(4^4\\)**:\n   - We compute \\(4^4 = 4 \\times 4 \\times 4 \\times 4\\):\n     \\[\n     4^2 = 16, \\quad \\text{and} \\quad 4^4 = 16 \\times 16 = 256\n     \\]\n4. **Substitute back into the fraction**:\n   \\[\n   \\frac{i^4}{4^4} = \\frac{1}{256}\n   \\]\n5. **Final result**: \n   Therefore, the value of \\(\\left(\\frac{i}{4}\\right)^4\\) is \n   \\[\n   \\boxed{\\frac{1}{256}}.\n   \\]",
+        "To evaluate \\(\\left(\\frac{i}{4}\\right)^4\\), we can break it down step by step.\n1. **Break Down the Expression:**\n   We can express the fourth power of the fraction as:\n   \\[\n   \\left(\\frac{i}{4}\\right)^4 = \\frac{i^4}{4^4}\n   \\]\n2. **Calculate \\(4^4\\):**\n   We know that:\n   \\[\n   4^4 = 4 \\times 4 \\times 4 \\times 4 = 256\n   \\]\n3. **Calculate \\(i^4\\):**\n   The imaginary unit \\(i\\) is defined such that \\(i^2 = -1\\). Therefore:\n   \\[\n   i^4 = (i^2)^2 = (-1)^2 = 1\n   \\]\n4. **Combine Results:**\n   Now that we have both \\(i^4\\) and \\(4^4\\), we combine them:\n   \\[\n   \\left(\\frac{i}{4}\\right)^4 = \\frac{i^4}{4^4} = \\frac{1}{256}\n   \\]\nThus, the final result is:\n\\[\n\\boxed{\\frac{1}{256}}\n\\]"
+    ],
+    "pred_answers": "256",
+    "final_pred_answer": [
+        "256",
+        "256",
+        "256",
+        "256",
+        "256"
+    ],
+    "ground_truth": "256"
+}

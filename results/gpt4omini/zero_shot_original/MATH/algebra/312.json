@@ -1,0 +1,23 @@
+{
+    "problem": "Let $a$ and $b$ satisfy $ab=7$ and $a+b=5$. What is the value of $a^2 + b^2$?",
+    "level": "Level 2",
+    "type": "Algebra",
+    "solution": "We have two equations and two variables, so it's possible to solve for $a$ and $b$ directly and then calculate $a^2$ and $b^2$ separately to get our answer. However, doing so involves a fair amount of computation with complex numbers and square roots, so we look for an alternative approach. We square the second equation to get $(a+b)^2 = a^2 + 2ab + b^2 = 25$, which is close to what we want but has the extra $2ab$ term. Since we know that $ab=7$, we can substitute to get $$a^2 + 2(7) +b^2 = 25 \\Longrightarrow a^2+b^2 = \\boxed{11}.$$",
+    "prompt": "### Instruction: Let $a$ and $b$ satisfy $ab=7$ and $a+b=5$. What is the value of $a^2 + b^2$?\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "To find \\( a^2 + b^2 \\), we can use the identity:\n\\[\na^2 + b^2 = (a+b)^2 - 2ab\n\\]\nWe know from the problem that:\n- \\( a+b = 5 \\)\n- \\( ab = 7 \\)\nNow we can calculate \\( (a+b)^2 \\):\n\\[\n(a+b)^2 = 5^2 = 25\n\\]\nNext, we will multiply \\( ab \\) by 2:\n\\[\n2ab = 2 \\times 7 = 14\n\\]\nNow we can substitute these values into the identity:\n\\[\na^2 + b^2 = (a+b)^2 - 2ab = 25 - 14\n\\]\nFinally, we compute:\n\\[\na^2 + b^2 = 25 - 14 = 11\n\\]\nThus, the value of \\( a^2 + b^2 \\) is \n\\[\n\\boxed{11}\n\\]",
+        "We start with the two equations given in the problem:\n1. \\( ab = 7 \\)\n2. \\( a + b = 5 \\)\nWe want to find \\( a^2 + b^2 \\). We can use the identity that relates \\( a^2 + b^2 \\) to \\( a + b \\) and \\( ab \\):\n\\[\na^2 + b^2 = (a + b)^2 - 2ab\n\\]\nNow, substituting in the values for \\( a + b \\) and \\( ab \\):\n\\[\na^2 + b^2 = (5)^2 - 2(7)\n\\]\nCalculating \\( (5)^2 \\):\n\\[\n(5)^2 = 25\n\\]\nNext, we calculate \\( 2(7) \\):\n\\[\n2(7) = 14\n\\]\nNow substitute these values into the equation:\n\\[\na^2 + b^2 = 25 - 14\n\\]\nPerform the subtraction:\n\\[\na^2 + b^2 = 11\n\\]\nThus, the value of \\( a^2 + b^2 \\) is \n\\[\n\\boxed{11}\n\\]",
+        "We start with the two equations given:\n1. \\( ab = 7 \\)\n2. \\( a + b = 5 \\)\nTo find \\( a^2 + b^2 \\), we can use the identity that relates \\( a^2 + b^2 \\) to \\( a + b \\) and \\( ab \\):\n\\[\na^2 + b^2 = (a + b)^2 - 2ab\n\\]\nNow we will calculate \\( (a + b)^2 \\) and \\( 2ab \\).\nFirst, we calculate \\( (a + b)^2 \\):\n\\[\n(a + b)^2 = 5^2 = 25\n\\]\nNext, we calculate \\( 2ab \\):\n\\[\n2ab = 2 \\cdot 7 = 14\n\\]\nNow we can substitute these values into the equation for \\( a^2 + b^2 \\):\n\\[\na^2 + b^2 = (a + b)^2 - 2ab = 25 - 14 = 11\n\\]\nThus, the value of \\( a^2 + b^2 \\) is \n\\[\n\\boxed{11}\n\\]",
+        "To find the value of \\( a^2 + b^2 \\), we can use the relationship between \\( a^2 + b^2 \\), \\( a + b \\), and \\( ab \\).\nWe know the identity:\n\\[\na^2 + b^2 = (a + b)^2 - 2ab\n\\]\nGiven:\n- \\( ab = 7 \\)\n- \\( a + b = 5 \\)\nFirst, we calculate \\( (a + b)^2 \\):\n\\[\n(a + b)^2 = 5^2 = 25\n\\]\nNext, we substitute \\( ab \\) into the identity to find \\( a^2 + b^2 \\):\n\\[\na^2 + b^2 = (a + b)^2 - 2ab = 25 - 2(7)\n\\]\nCalculating \\( 2(7) \\):\n\\[\n2(7) = 14\n\\]\nNow substituting this back:\n\\[\na^2 + b^2 = 25 - 14 = 11\n\\]\nThus, the value of \\( a^2 + b^2 \\) is \n\\[\n\\boxed{11}\n\\]",
+        "Given the equations \n\\[\nab = 7 \n\\]\nand \n\\[\na + b = 5,\n\\]\nwe want to find the value of \\( a^2 + b^2 \\).\nWe can use the identity for the sum of squares, which states that \n\\[\na^2 + b^2 = (a + b)^2 - 2ab.\n\\]\nNow, we can substitute the known values into this equation. First, we calculate \\( (a + b)^2 \\):\n\\[\n(a + b)^2 = 5^2 = 25.\n\\]\nNext, we have \\( ab = 7 \\), so \\( 2ab \\) is:\n\\[\n2ab = 2 \\cdot 7 = 14.\n\\]\nNow we can substitute these results back into the identity to find \\( a^2 + b^2 \\):\n\\[\na^2 + b^2 = (a+b)^2 - 2ab = 25 - 14.\n\\]\nCalculating this gives:\n\\[\na^2 + b^2 = 25 - 14 = 11.\n\\]\nThus, the value of \\( a^2 + b^2 \\) is \n\\[\n\\boxed{11}.\n\\]"
+    ],
+    "pred_answers": "11",
+    "final_pred_answer": [
+        "11",
+        "11",
+        "11",
+        "11",
+        "11"
+    ],
+    "ground_truth": "11"
+}

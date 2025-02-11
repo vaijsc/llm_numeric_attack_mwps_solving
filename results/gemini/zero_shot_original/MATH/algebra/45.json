@@ -1,0 +1,23 @@
+{
+    "problem": "Evaluate $(1+2i)6-3i$.",
+    "level": "Level 3",
+    "type": "Algebra",
+    "solution": "Distribute the factor of 6 and simplify to obtain $(1+2i)6-3i=6+12i-3i=\\boxed{6+9i}$.",
+    "prompt": "### Instruction: Evaluate $(1+2i)6-3i$.\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "Here's how to evaluate $(1+2i)6-3i$ step-by-step:\n1. **Distribute the 6:** \n   (1 + 2i) * 6 = 6 + 12i\n2. **Combine the terms:**\n   6 + 12i - 3i = 6 + 9i\n**Therefore, (1 + 2i)6 - 3i = 6 + 9i** \n",
+        "Here's how to evaluate $(1+2i)6-3i$:\n1. **Distribute the 6:** \n   (1 + 2i)6 = 6 + 12i\n2. **Combine terms:**\n   6 + 12i - 3i = 6 + 9i\n**Therefore, (1 + 2i)6 - 3i = 6 + 9i** \n",
+        "Here's how to evaluate $(1+2i)6-3i$ step-by-step:\n1. **Distribute the 6:** \n   (1 + 2i) * 6 = 6 + 12i\n2. **Combine terms:**\n   6 + 12i - 3i = 6 + 9i\n**Therefore, (1 + 2i)6 - 3i = 6 + 9i** \n",
+        "**Step 1: Distribute the 6**\n(1 + 2i) * 6 - 3i = 6 + 12i - 3i\n**Step 2: Combine the imaginary terms**\n6 + 12i - 3i = 6 + 9i\n**Answer:** (1 + 2i) * 6 - 3i = **6 + 9i** \n",
+        "Here's how to evaluate the expression step-by-step:\n1. **Distribute:**\n   * Multiply the real number 6 by both the real and imaginary parts of (1 + 2i): \n      * 6 * 1 = 6\n      * 6 * 2i = 12i\n   * This gives us: 6 + 12i - 3i\n2. **Combine like terms:**\n   * Combine the imaginary terms: 12i - 3i = 9i\n3. **Final result:**\n   * The simplified expression is **6 + 9i**. \n"
+    ],
+    "pred_answers": "9",
+    "final_pred_answer": [
+        "9",
+        "9",
+        "9",
+        "1",
+        "9"
+    ],
+    "ground_truth": "9"
+}

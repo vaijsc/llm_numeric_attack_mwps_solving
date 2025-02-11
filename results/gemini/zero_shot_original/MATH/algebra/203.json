@@ -1,0 +1,23 @@
+{
+    "problem": "An infinite geometric series has common ratio $-1/2$ and sum 45.  What is the first term of the series?",
+    "level": "Level 5",
+    "type": "Algebra",
+    "solution": "Let the first term be $a$.  Because the sum of the series is 45, we have $45= a/[1-(-1/2)] = a/(3/2) = 2a/3$.  Therefore, $a=\\boxed{\\frac{135}{2}}$.",
+    "prompt": "### Instruction: An infinite geometric series has common ratio $-1/2$ and sum 45.  What is the first term of the series?\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "Here's how to solve the problem step-by-step:\n**1. Formula for the Sum of an Infinite Geometric Series**\nThe sum (S) of an infinite geometric series is given by:\nS = a / (1 - r)\nwhere:\n* a is the first term\n* r is the common ratio\n**2.  Apply the Given Information**\nWe are given:\n* r = -1/2\n* S = 45\n**3. Substitute and Solve for the First Term (a)**\nSubstitute the given values into the formula:\n45 = a / (1 - (-1/2))\n45 = a / (3/2)\nTo isolate 'a', multiply both sides by (3/2):\n45 * (3/2) = a\n**4. Simplify**\na = 135/2 = **67.5**\n**Therefore, the first term of the infinite geometric series is 67.5.** \n",
+        "Here's how to solve the problem step-by-step:\n**1. Understand the Formula**\nThe sum (S) of an infinite geometric series is given by:\nS = a / (1 - r) \nwhere:\n* a = the first term\n* r = the common ratio\n**2. Plug in the Given Values**\nWe know:\n* S = 45 \n* r = -1/2\nSubstitute these values into the formula:\n45 = a / (1 - (-1/2))\n**3. Simplify and Solve for 'a'**\n* 45 = a / (3/2)\n* 45 * (3/2) = a\n* a = 67.5\n**Therefore, the first term of the series is 67.5** \n",
+        "Here's how to solve this problem step-by-step:\n**1. Formula for the Sum of an Infinite Geometric Series**\nThe sum (S) of an infinite geometric series is given by:\nS = a / (1 - r) \nwhere:\n* a is the first term\n* r is the common ratio\n**2. Substitute the Given Information**\nWe are given:\n* r = -1/2\n* S = 45\nSubstitute these values into the formula:\n45 = a / (1 - (-1/2))\n**3. Simplify and Solve for 'a'**\nSimplify the denominator:\n45 = a / (3/2)\nMultiply both sides by (3/2):\n45 * (3/2) = a\nSimplify:\n67.5 = a\n**Therefore, the first term of the series is 67.5.** \n",
+        "Here's how to solve the problem step-by-step:\n**1. Understand the Formula**\nThe sum (S) of an infinite geometric series is given by:\nS = a / (1 - r) \nwhere:\n* a = the first term\n* r = the common ratio\n**2.  Apply the Given Information**\nWe know:\n* r = -1/2\n* S = 45\n**3. Substitute and Solve**\nSubstitute the values into the formula:\n45 = a / (1 - (-1/2))\nSimplify:\n45 = a / (3/2)\nMultiply both sides by (3/2):\n45 * (3/2) = a\n**4. Calculate the First Term**\nSimplify to find the first term:\na = 67.5\n**Therefore, the first term of the series is 67.5.** \n",
+        "Here's how to solve this problem step-by-step:\n**1. Understand the Formula**\nThe sum of an infinite geometric series is given by:\n*  S = a / (1 - r) \n   where:\n    * S = the sum of the infinite series\n    * a = the first term\n    * r = the common ratio \n**2. Apply the Given Information**\n* We know the common ratio (r) is -1/2.\n* We know the sum (S) is 45. \n**3. Substitute and Solve**\n* Substitute the values of S and r into the formula:\n   45 = a / (1 - (-1/2))\n* Simplify:\n   45 = a / (3/2)\n* Multiply both sides by (3/2):\n   45 * (3/2) = a\n* Calculate:\n   a = 67.5\n**Answer:** The first term of the series is 67.5. \n"
+    ],
+    "pred_answers": "67.5",
+    "final_pred_answer": [
+        "67.5",
+        "67.5",
+        "67.5",
+        "67.5",
+        "67.5"
+    ],
+    "ground_truth": "2"
+}

@@ -1,0 +1,23 @@
+{
+    "problem": "Square $ABCD$ and equilateral triangle $AED$ are coplanar and share $\\overline{AD}$, as shown. What is the measure, in degrees, of angle $BAE$? [asy] size(3cm);\npair A,B,C,D,E;\nA = (0,0);\nB = (0,1);\nC = (1,1);\nD = (1,0);\nE = dir(60);\ndraw(A--B--C--D--E--A--D);\nlabel(\"$A$\",A,dir(180));\nlabel(\"$B$\",B,dir(180));\nlabel(\"$C$\",C,dir(0));\nlabel(\"$D$\",D,dir(0));\nlabel(\"$E$\",E,dir(0));\n[/asy]",
+    "level": "Level 1",
+    "type": "Geometry",
+    "solution": "The angles in a triangle sum to 180 degrees, so the measure of each angle of an equilateral triangle is 60 degrees.  Therefore, the measure of angle $EAD$ is 60 degrees.  Also, angle $BAD$ measures 90 degrees.  Therefore, the measure of angle $BAE$ is $90^\\circ-60^\\circ=\\boxed{30}$ degrees.",
+    "prompt": "### Instruction: Square $ABCD$ and equilateral triangle $AED$ are coplanar and share $\\overline{AD}$, as shown. What is the measure, in degrees, of angle $BAE$? [asy] size(3cm);\npair A,B,C,D,E;\nA = (0,0);\nB = (0,1);\nC = (1,1);\nD = (1,0);\nE = dir(60);\ndraw(A--B--C--D--E--A--D);\nlabel(\"$A$\",A,dir(180));\nlabel(\"$B$\",B,dir(180));\nlabel(\"$C$\",C,dir(0));\nlabel(\"$D$\",D,dir(0));\nlabel(\"$E$\",E,dir(0));\n[/asy]\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "Here's how to solve the problem step-by-step:\n* **Angles in a square:**  Since $ABCD$ is a square, all its angles are right angles.  Therefore, $\\angle BAD = 90^\\circ$.\n* **Angles in an equilateral triangle:** Since $AED$ is an equilateral triangle, all its angles are $60^\\circ$. Therefore, $\\angle EAD = 60^\\circ$.\n* **Finding angle BAE:**  Angle $BAE$ is the sum of angles $BAD$ and $EAD$: \n  \n   $\\angle BAE = \\angle BAD + \\angle EAD = 90^\\circ + 60^\\circ = \\boxed{150^\\circ}$. \n",
+        "Here's how to solve the problem step-by-step:\n* **Angles in a square:**  Each angle of a square is a right angle, so  \u2220BAD = 90\u00b0.\n* **Angles in an equilateral triangle:** Each angle of an equilateral triangle measures 60\u00b0, so \u2220EAD = 60\u00b0.\n* **Finding \u2220BAE:**  Since \u2220BAD and \u2220EAD share the same side AD, we can find \u2220BAE by subtracting:\n   \u2220BAE = \u2220BAD - \u2220EAD = 90\u00b0 - 60\u00b0 = **30\u00b0** \n",
+        "Here's how to solve the problem step-by-step:\n* **Angles in a square:**  Since $ABCD$ is a square, all its angles are right angles.  Therefore, $\\angle BAD = 90^\\circ$.\n* **Angles in an equilateral triangle:** Since $AED$ is an equilateral triangle, all its angles are $60^\\circ$. Therefore, $\\angle EAD = 60^\\circ$.\n* **Angle addition:**  Angle $BAE$ is the sum of angles $BAD$ and $DAE$.  \n* **Calculation:**  Therefore, $\\angle BAE = \\angle BAD + \\angle DAE = 90^\\circ + 60^\\circ = \\boxed{150^\\circ}$. \n",
+        "Here's how to solve the problem step-by-step:\n* **Angles in a Square:**  Since $ABCD$ is a square, all its angles are right angles, so $\\angle BAD = 90^\\circ$.\n* **Angles in an Equilateral Triangle:** Since $AED$ is an equilateral triangle, all its angles are $60^\\circ$, so $\\angle EAD = 60^\\circ$.\n* **Angle Addition:**  Angle $BAE$ is the sum of angles $BAD$ and $EAD$: \n   \n   $\\angle BAE = \\angle BAD + \\angle EAD = 90^\\circ + 60^\\circ = \\boxed{150^\\circ}$. \n",
+        "Here's how to solve the problem step-by-step:\n* **Angles in a square:**  Since $ABCD$ is a square, all its angles are right angles.  Therefore, $\\angle BAD = 90^\\circ$.\n* **Angles in an equilateral triangle:** Since $AED$ is an equilateral triangle, all its angles are equal to $60^\\circ$. Therefore, $\\angle EAD = 60^\\circ$.\n* **Angle addition:**  Angle $BAE$ is the sum of angles $BAD$ and $EAD$:  $\\angle BAE = \\angle BAD + \\angle EAD = 90^\\circ + 60^\\circ = \\boxed{150^\\circ}$. \n"
+    ],
+    "pred_answers": "150",
+    "final_pred_answer": [
+        "150",
+        "30",
+        "150",
+        "150",
+        "150"
+    ],
+    "ground_truth": "30"
+}

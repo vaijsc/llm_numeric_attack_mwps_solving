@@ -1,0 +1,23 @@
+{
+    "problem": "Compute $91^2$ in your head.",
+    "level": "Level 1",
+    "type": "Algebra",
+    "solution": "Note that $91\\times 91 = (90 + 1)^2 = 90^2 + 2\\cdot 90 + 1 = 8100 + 180 + 1 = \\boxed{8281}$.",
+    "prompt": "### Instruction: Compute $91^2$ in your head.\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "To compute \\( 91^2 \\), we can use the identity \\( (a + b)^2 = a^2 + 2ab + b^2 \\).\nLet's break down \\( 91 \\) as \\( 90 + 1 \\):\n\\[\n91^2 = (90 + 1)^2\n\\]\nNow applying the formula:\n\\[\n(90 + 1)^2 = 90^2 + 2 \\cdot 90 \\cdot 1 + 1^2\n\\]\nCalculating each term:\n1. \\( 90^2 = 8100 \\)\n2. \\( 2 \\cdot 90 \\cdot 1 = 180 \\)\n3. \\( 1^2 = 1 \\)\nNow we can add these results together:\n\\[\n91^2 = 8100 + 180 + 1\n\\]\n\\[\n91^2 = 8100 + 180 = 8280\n\\]\n\\[\n8280 + 1 = 8281\n\\]\nThus, \\( 91^2 = 8281 \\).",
+        "To compute \\( 91^2 \\), we can use the formula for the square of a binomial:\n\\[\n(a - b)^2 = a^2 - 2ab + b^2\n\\]\nWe can represent 91 as \\( 100 - 9 \\):\n\\[\n91^2 = (100 - 9)^2\n\\]\nNow, applying the formula:\n\\[\n(100 - 9)^2 = 100^2 - 2 \\cdot 100 \\cdot 9 + 9^2\n\\]\nCalculating each part step-by-step:\n1. \\( 100^2 = 10000 \\)\n2. \\( 2 \\cdot 100 \\cdot 9 = 1800 \\)\n3. \\( 9^2 = 81 \\)\nPutting it all together:\n\\[\n91^2 = 10000 - 1800 + 81\n\\]\nNow, calculate \\( 10000 - 1800 \\):\n\\[\n10000 - 1800 = 8200\n\\]\nNext, add \\( 81 \\):\n\\[\n8200 + 81 = 8281\n\\]\nTherefore, the result is:\n\\[\n\\boxed{8281}\n\\]",
+        "To compute \\( 91^2 \\) in my head, I can use the identity for squaring a number close to 100. Specifically, we can use the formula:\n\\[\n(a-b)^2 = a^2 - 2ab + b^2\n\\]\nIn this case, let \\( a = 100 \\) and \\( b = 9 \\) since \\( 91 = 100 - 9 \\). Thus,\n\\[\n91^2 = (100 - 9)^2 = 100^2 - 2 \\times 100 \\times 9 + 9^2\n\\]\nNow let's calculate each term:\n1. \\( 100^2 = 10000 \\)\n2. \\( 2 \\times 100 \\times 9 = 1800 \\)\n3. \\( 9^2 = 81 \\)\nNext, we combine these results:\n\\[\n91^2 = 10000 - 1800 + 81\n\\]\nNow perform the addition and subtraction:\n\\[\n10000 - 1800 = 8200\n\\]\nThen add \\( 81 \\):\n\\[\n8200 + 81 = 8281\n\\]\nThus, the final result is \n\\[\n\\boxed{8281}\n\\]",
+        "To compute \\( 91^2 \\) in my head, I can use the formula for the square of a number close to a round number. In this case, I can use the identity:\n\\[\n(a - b)^2 = a^2 - 2ab + b^2\n\\]\nHere, let's take \\( a = 100 \\) and \\( b = 9 \\) (since \\( 91 = 100 - 9 \\)).\nNow, applying the formula:\n\\[\n91^2 = (100 - 9)^2 = 100^2 - 2 \\cdot 100 \\cdot 9 + 9^2\n\\]\nCalculating each term:\n1. \\( 100^2 = 10000 \\)\n2. \\( 2 \\cdot 100 \\cdot 9 = 1800 \\)\n3. \\( 9^2 = 81 \\)\nNow we substitute these values back into the formula:\n\\[\n91^2 = 10000 - 1800 + 81\n\\]\nNow we perform the arithmetic:\n\\[\n10000 - 1800 = 8200\n\\]\n\\[\n8200 + 81 = 8281\n\\]\nThus, the final answer is:\n\\[\n\\boxed{8281}\n\\]",
+        "To compute \\( 91^2 \\) in my head, I can use the formula for squaring a number, which states:\n\\[\n(a+b)^2 = a^2 + 2ab + b^2\n\\]\nIn this case, I can express \\( 91 \\) as \\( 90 + 1 \\). Thus, we can set \\( a = 90 \\) and \\( b = 1 \\).\nNow, calculating \\( 91^2 \\):\n\\[\n91^2 = (90 + 1)^2 = 90^2 + 2 \\cdot 90 \\cdot 1 + 1^2\n\\]\nNow let's calculate each term:\n1. \\( 90^2 = 8100 \\)\n2. \\( 2 \\cdot 90 \\cdot 1 = 180 \\)\n3. \\( 1^2 = 1 \\)\nNow, adding them together:\n\\[\n91^2 = 8100 + 180 + 1\n\\]\nCalculating step-by-step:\n1. \\( 8100 + 180 = 8280 \\)\n2. \\( 8280 + 1 = 8281 \\)\nThus, the final answer is:\n\\[\n91^2 = 8281\n\\]"
+    ],
+    "pred_answers": "8281",
+    "final_pred_answer": [
+        "8281",
+        "8281",
+        "8281",
+        "8281",
+        "8281"
+    ],
+    "ground_truth": "8281"
+}

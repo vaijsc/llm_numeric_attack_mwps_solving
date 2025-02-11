@@ -1,0 +1,23 @@
+{
+    "problem": "If $\\sqrt[3]{4x^2}=4$, find all possible values of $x$ and list them from least to greatest.",
+    "level": "Level 3",
+    "type": "Algebra",
+    "solution": "In order to get rid of the cube root, we start by cubing the both sides of the equation \\begin{align*} (\\sqrt[3]{4x^2})^3&=(4)^3\n\\\\ \\Rightarrow \\qquad 4x^2& =64\n\\\\\\Rightarrow \\qquad x^2& =16\n\\end{align*}From here, we can see that the only possible values of $x$ are 4 and -4. Since the question asked to list them from least to greatest, the final answer is $\\boxed{-4, 4}$.",
+    "prompt": "### Instruction: If $\\sqrt[3]{4x^2}=4$, find all possible values of $x$ and list them from least to greatest.\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "Here's how to solve the problem step-by-step:\n1. **Cube both sides:** To get rid of the cube root, cube both sides of the equation:\n   \n   $(\\sqrt[3]{4x^2})^3 = 4^3$\n2. **Simplify:**  This gives us:\n   $4x^2 = 64$\n3. **Solve for x\u00b2:** Divide both sides by 4:\n   $x^2 = 16$\n4. **Take the square root:**  Take the square root of both sides, remembering that there are two possible solutions:\n   $x = \\pm 4$\n**Therefore, the possible values of x are -4 and 4. Listed from least to greatest, the solutions are:**\n* **-4**\n* **4** \n",
+        "1. **Cube both sides:** To get rid of the cube root, cube both sides of the equation: \n   \n   $(\\sqrt[3]{4x^2})^3 = 4^3$\n2. **Simplify:** This gives us:\n   $4x^2 = 64$\n3. **Solve for x\u00b2:** Divide both sides by 4:\n   $x^2 = 16$\n4. **Take the square root:** Take the square root of both sides, remembering that there are two possible solutions:\n   $x = \\pm 4$\n**Therefore, the possible values of x are -4 and 4. Listed from least to greatest, the answer is -4, 4.** \n",
+        "Here's how to solve the problem step-by-step:\n1. **Cube both sides:** To get rid of the cube root, we cube both sides of the equation: \n   \n   $(\\sqrt[3]{4x^2})^3 = 4^3$\n2. **Simplify:** This gives us:\n   $4x^2 = 64$\n3. **Solve for x\u00b2:** Divide both sides by 4:\n   $x^2 = 16$\n4. **Take the square root:**  Take the square root of both sides, remembering that there are two possible solutions:\n   $x = \\pm 4$\n**Therefore, the possible values of x are -4 and 4. Listed from least to greatest, they are:**\n**-4, 4** \n",
+        "Here's how to solve the problem step-by-step:\n1. **Cube both sides:** To get rid of the cube root, we cube both sides of the equation:\n   \n   ```\n   (\\sqrt[3]{4x^2})^3 = 4^3 \n   ```\n2. **Simplify:**  This simplifies to:\n   ```\n   4x^2 = 64\n   ```\n3. **Solve for x\u00b2:** Divide both sides by 4:\n   ```\n   x^2 = 16\n   ```\n4. **Take the square root:** Take the square root of both sides, remembering that there are two possible solutions:\n   ```\n   x = \u00b14 \n   ```\n**Therefore, the possible values of x are -4 and 4. Listed from least to greatest, they are:**\n-4, 4 \n",
+        "Here's how to solve the problem step-by-step:\n1. **Cube both sides:** To get rid of the cube root, cube both sides of the equation: \n   \n   ```\n   (\\sqrt[3]{4x^2})^3 = 4^3\n   ```\n2. **Simplify:** This simplifies to:\n   ```\n   4x^2 = 64\n   ```\n3. **Solve for x\u00b2:** Divide both sides by 4:\n   ```\n   x^2 = 16\n   ```\n4. **Take the square root:**  Take the square root of both sides, remembering that there are two possible solutions:\n   ```\n   x = \u00b14\n   ```\n**Therefore, the possible values of x are -4 and 4. Listing them from least to greatest, we have:**\n**-4, 4** \n"
+    ],
+    "pred_answers": "4",
+    "final_pred_answer": [
+        "4",
+        "4",
+        "4",
+        "4",
+        "4"
+    ],
+    "ground_truth": "4"
+}

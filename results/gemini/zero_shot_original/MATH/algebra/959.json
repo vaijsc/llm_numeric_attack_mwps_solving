@@ -1,0 +1,23 @@
+{
+    "problem": "The sum of two numbers is $3$.  The difference of the squares of the numbers is $33$.  What is the absolute value of the difference of the two numbers?",
+    "level": "Level 3",
+    "type": "Algebra",
+    "solution": "Let the two numbers be $x$ and $y$.  We are given $x+y=3$ and $x^2-y^2=33$. Factoring the second equation, we have $(x+y)(x-y)=33$.  Thus $3(x-y)=33$, and so $x-y=\\boxed{11}$.",
+    "prompt": "### Instruction: The sum of two numbers is $3$.  The difference of the squares of the numbers is $33$.  What is the absolute value of the difference of the two numbers?\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "Here's how to solve the problem step-by-step:\n**1. Set up the equations:**\n* Let the two numbers be *x* and *y*. \n* We are given: \n    *  x + y = 3 \n    *  x\u00b2 - y\u00b2 = 33\n**2. Factor the difference of squares:**\n*  The difference of squares factors as (x + y)(x - y) = 33\n**3. Substitute and solve for (x - y):**\n* We know (x + y) = 3. Substitute this into the factored equation:\n    * 3(x - y) = 33\n    * x - y = 11\n**4. Find the absolute value:**\n* The absolute value of (x - y) is **11**.\n**Therefore, the absolute value of the difference of the two numbers is 11.** \n",
+        "Here's how to solve the problem step-by-step:\n**1. Set up the equations:**\n* Let the two numbers be *x* and *y*.\n* We are given:\n    *  x + y = 3 \n    *  x\u00b2 - y\u00b2 = 33\n**2. Factor the difference of squares:**\n* The difference of squares factors as:  x\u00b2 - y\u00b2 = (x + y)(x - y)\n**3. Substitute and solve:**\n* Substitute (x + y) = 3 into the factored equation:  3(x - y) = 33\n* Divide both sides by 3:  x - y = 11\n**4. Find the absolute value of the difference:**\n* The absolute value of the difference is |x - y| = |11| = **11** \n**Therefore, the absolute value of the difference of the two numbers is 11.** \n",
+        "Here's how to solve the problem step-by-step:\n**1. Set up equations:**\n* Let the two numbers be *x* and *y*.\n* We are given: \n   *  x + y = 3 \n   *  x\u00b2 - y\u00b2 = 33\n**2. Factor the difference of squares:**\n* The difference of squares factors as (x + y)(x - y) = 33\n**3. Substitute and solve:**\n* We know (x + y) = 3, so substitute that into the factored equation: \n   * 3(x - y) = 33\n   * x - y = 11\n**4. Find the absolute difference:**\n* The absolute value of the difference of the two numbers is |x - y| = **11** \n",
+        "Here's how to solve the problem step-by-step:\n**1. Set up equations:**\n* Let the two numbers be  *x* and *y*.\n* We are given: \n    *  x + y = 3\n    *  x\u00b2 - y\u00b2 = 33\n**2. Factor the difference of squares:**\n* The equation x\u00b2 - y\u00b2 = 33 can be factored as (x + y)(x - y) = 33\n**3. Substitute and solve:**\n* We know (x + y) = 3. Substitute this into the factored equation:\n    * 3(x - y) = 33\n* Divide both sides by 3: \n    * x - y = 11\n**4. Find the absolute value of the difference:**\n* The absolute value of (x - y) is simply the magnitude of the difference, regardless of whether it's positive or negative.\n*  |x - y| = |11| = **11**\n**Therefore, the absolute value of the difference of the two numbers is 11.** \n",
+        "Let's break down this problem step-by-step:\n**1. Define Variables:**\n* Let 'x' be the first number.\n* Let 'y' be the second number.\n**2. Set Up Equations:**\n* **Equation 1:** The sum of the two numbers is 3:  x + y = 3\n* **Equation 2:** The difference of the squares of the numbers is 33: x\u00b2 - y\u00b2 = 33\n**3.  Factor Equation 2:**\n* Notice that Equation 2 is a difference of squares. We can factor it: (x + y)(x - y) = 33\n**4.  Substitute and Solve:**\n* We know from Equation 1 that (x + y) = 3.  Substitute this into the factored Equation 2: 3(x - y) = 33\n* Simplify and solve for (x - y): x - y = 11\n**5. Find the Absolute Value:**\n* The absolute value of the difference of the two numbers is |x - y| = |11| = **11**\n**Therefore, the absolute value of the difference of the two numbers is 11.** \n"
+    ],
+    "pred_answers": "11",
+    "final_pred_answer": [
+        "11",
+        "11",
+        "11",
+        "11",
+        "11"
+    ],
+    "ground_truth": "11"
+}

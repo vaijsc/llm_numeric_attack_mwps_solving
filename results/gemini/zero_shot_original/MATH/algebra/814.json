@@ -1,0 +1,23 @@
+{
+    "problem": "What number, when added to the numerator and to the denominator of $\\frac{5}{8}$, results in a fraction whose value is 0.4?",
+    "level": "Level 2",
+    "type": "Algebra",
+    "solution": "Let $n$ be the desired the number, so adding the number to the numerator and denominator of $\\dfrac{5}{8}$ gives $\\dfrac{5+n}{8+n}$, and we must have $$\\dfrac{5+n}{8+n} = 0.4.$$  Writing $0.4$ as a fraction, we have $$\\dfrac{5+n}{8+n} = \\dfrac{2}{5}.$$Multiplying both sides by $8+n$ and by 5 gives $$5(5+n) = 2(8+n).$$Expanding both sides gives$$25+5n = 16 + 2n.$$Subtracting 25 and $2n$ from both sides gives $3n=-9$, so $n=\\boxed{-3}.$",
+    "prompt": "### Instruction: What number, when added to the numerator and to the denominator of $\\frac{5}{8}$, results in a fraction whose value is 0.4?\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "Here's how to solve the problem step-by-step:\n**1. Set up an equation:**\nLet  'x' be the number we need to add. The problem translates to the following equation:\n  (5 + x) / (8 + x) = 0.4\n**2. Solve for x:**\n* **Multiply both sides by (8 + x):**\n   5 + x = 0.4(8 + x)\n* **Distribute on the right side:**\n   5 + x = 3.2 + 0.4x\n* **Subtract 0.4x from both sides:**\n   0.6x + 5 = 3.2\n* **Subtract 5 from both sides:**\n   0.6x = -1.8\n* **Divide both sides by 0.6:**\n   x = -3\n**Therefore, the number that needs to be added to both the numerator and denominator is -3.** \n",
+        "Here's how to solve the problem step-by-step:\n**1. Set up the equation:**\nLet the unknown number be *x*.  We're told that adding *x* to both the numerator and denominator of 5/8 gives us a fraction equivalent to 0.4:\n(5 + *x*) / (8 + *x*) = 0.4\n**2. Solve for *x*:**\n* **Convert decimal to a fraction:**  0.4 is equivalent to 2/5.\n* **Cross-multiply:**  (5 + *x*) * 5 = (8 + *x*) * 2\n* **Simplify:** 25 + 5*x = 16 + 2*x\n* **Isolate *x*:**  3*x = -9\n* **Solve for *x*:** *x* = -3\n**Therefore, the number -3, when added to the numerator and denominator of 5/8, results in a fraction whose value is 0.4.** \n",
+        "Here's how to solve the problem step-by-step:\n**1. Set up an equation:**\nLet the unknown number be represented by the variable *x*.  We're told that adding *x* to both the numerator and denominator of 5/8 gives us a fraction equal to 0.4.  This can be written as:\n(5 + x) / (8 + x) = 0.4\n**2. Solve for x:**\n* **Multiply both sides by (8 + x):**  \n   5 + x = 0.4(8 + x)\n* **Distribute on the right side:**\n   5 + x = 3.2 + 0.4x\n* **Subtract 0.4x from both sides:**\n   0.6x + 5 = 3.2\n* **Subtract 5 from both sides:**\n   0.6x = -1.8\n* **Divide both sides by 0.6:**\n   x = -3\n**Therefore, the number -3, when added to both the numerator and denominator of 5/8, results in a fraction whose value is 0.4.** \n",
+        "Here's how to solve the problem step-by-step:\n**1. Set up an equation:**\nLet \"x\" represent the number we need to add.  The problem can be written as:\n(5 + x) / (8 + x) = 0.4\n**2. Solve for x:**\n* **Multiply both sides by (8 + x):**  5 + x = 0.4(8 + x)\n* **Distribute on the right side:** 5 + x = 3.2 + 0.4x\n* **Subtract 0.4x from both sides:** 5 + 0.6x = 3.2\n* **Subtract 5 from both sides:** 0.6x = -1.8\n* **Divide both sides by 0.6:** x = -3\n**Therefore, the number -3, when added to both the numerator and denominator of 5/8, results in a fraction whose value is 0.4.** \n",
+        "Here's how to solve the problem step-by-step:\n**1. Set up an equation:**\nLet \"x\" be the number we need to add. The problem translates to the equation:\n(5 + x) / (8 + x) = 0.4\n**2. Solve for x:**\n* **Multiply both sides by (8 + x):** \n   5 + x = 0.4(8 + x)\n* **Distribute:** \n   5 + x = 3.2 + 0.4x\n* **Subtract 0.4x from both sides:**\n   0.6x + 5 = 3.2\n* **Subtract 5 from both sides:**\n   0.6x = -1.8\n* **Divide both sides by 0.6:**\n   x = -3\n**Answer:** The number -3, when added to both the numerator and denominator of 5/8, results in a fraction equal to 0.4. \n"
+    ],
+    "pred_answers": "0.4",
+    "final_pred_answer": [
+        "-3",
+        "0.4",
+        "0.4",
+        "0.4",
+        "-3"
+    ],
+    "ground_truth": "-3"
+}

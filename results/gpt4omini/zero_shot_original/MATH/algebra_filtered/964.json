@@ -1,0 +1,23 @@
+{
+    "problem": "Let \\[f(x) = \\begin{cases}\n-x^2 - 1 &\\text{if }x<0, \\\\\n2&\\text{if }0 \\le x< 4, \\\\\n\\sqrt{x}&\\text{if }x \\ge 4.\n\\end{cases}\n\\]Find $f(\\pi)$.",
+    "level": "Level 2",
+    "type": "Algebra",
+    "solution": "Since $\\pi$ is about 3.14, we use the second case, so $f(\\pi) = \\boxed{2}$.",
+    "prompt": "### Instruction: Let \\[f(x) = \\begin{cases}\n-x^2 - 1 &\\text{if }x<0, \\\\\n2&\\text{if }0 \\le x< 4, \\\\\n\\sqrt{x}&\\text{if }x \\ge 4.\n\\end{cases}\n\\]Find $f(\\pi)$.\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "To find \\( f(\\pi) \\), we first need to determine which case of the piecewise function \\( f(x) \\) applies to \\( x = \\pi \\).\nWe have the function:\n\\[\nf(x) = \n\\begin{cases}\n-x^2 - 1 & \\text{if } x < 0, \\\\\n2 & \\text{if } 0 \\leq x < 4, \\\\\n\\sqrt{x} & \\text{if } x \\geq 4.\n\\end{cases}\n\\]\nNow, we need to check the value of \\( \\pi \\):\n1. \\( \\pi \\) is approximately \\( 3.14 \\), which means \\( \\pi > 0 \\).\n2. We also note that \\( \\pi < 4 \\).\nGiven these observations, \\( \\pi \\) falls into the second case of the piecewise function, where \\( 0 \\leq x < 4 \\). \nTherefore, according to the definition of the function in this interval, we have:\n\\[\nf(\\pi) = 2.\n\\]\nThus, the value of \\( f(\\pi) \\) is:\n\\[\n\\boxed{2}.\n\\]",
+        "To find \\( f(\\pi) \\), we must first determine which case of the piecewise function applies to \\( \\pi \\).\n1. **Identify the range of \\( \\pi \\)**:\n   - Since \\( \\pi \\approx 3.14 \\), we know that \\( 0 \\leq \\pi < 4 \\).\n2. **Choose the correct case**:\n   - Based on the piecewise definition of \\( f(x) \\), the relevant case for \\( \\pi \\) is the second one, which is valid when \\( 0 \\leq x < 4 \\).\n   - This case states:\n     \\[\n     f(x) = 2\n     \\]\n3. **Calculate \\( f(\\pi) \\)**:\n   - Since \\( \\pi \\) falls within the specified range for this case, we have:\n     \\[\n     f(\\pi) = 2\n     \\]\nThus, the final answer is:\n\\[\n\\boxed{2}\n\\]",
+        "To determine \\( f(\\pi) \\), we need to identify which piece of the piecewise function definition applies to \\( x = \\pi \\).\n1. **Identify the value of \\( \\pi \\)**: \n   \\[\n   \\pi \\approx 3.14\n   \\]\n   Since \\( \\pi \\) is approximately 3.14, we note that \\( \\pi \\) is greater than 0 but less than 4. Thus, the suitable condition for our piecewise function is \\( 0 \\leq \\pi < 4 \\).\n2. **Select the appropriate case**:\n   Looking at the definition of the function \\( f(x) \\), we find the relevant case:\n   \\[\n   f(x) = 2 \\quad \\text{if } 0 \\le x < 4.\n   \\]\n   Since \\( \\pi \\) falls in this range, we use this case.\n3. **Determine the value of \\( f(\\pi) \\)**:\n   Therefore, we conclude that:\n   \\[\n   f(\\pi) = 2.\n   \\]\nThus, the final answer is:\n\\[\n\\boxed{2}.\n\\]",
+        "To evaluate \\( f(\\pi) \\), we need to determine which case of the piecewise function applies to \\( \\pi \\).\n1. **Identify the range of \\( \\pi \\)**: The value of \\( \\pi \\) is approximately \\( 3.14 \\).\n2. **Determine which case applies**:\n   - The first case is for \\( x < 0 \\). Since \\( \\pi \\) is approximately \\( 3.14 \\), this case does not apply.\n   - The second case is for \\( 0 \\le x < 4 \\). Since \\( \\pi \\) falls within this range, we will use this case.\n   - The third case is for \\( x \\ge 4 \\). Since \\( \\pi \\) is less than \\( 4 \\), this case does not apply.\n3. **Use the appropriate case**: Since \\( \\pi \\) satisfies \\( 0 \\le \\pi < 4 \\), we use the second case of the piecewise function:\n   \\[\n   f(x) = 2\n   \\]\n4. **Conclusion**: Thus, we find that:\n   \\[\n   f(\\pi) = 2\n   \\]\nThe answer is \\( \\boxed{2} \\).",
+        "To find \\( f(\\pi) \\), we first need to determine which case in the piecewise function \\( f(x) \\) applies to \\( \\pi \\).\n1. **Identify the value of \\( \\pi \\)**:\n   Since \\( \\pi \\) is approximately \\( 3.14 \\), it is greater than \\( 0 \\) but less than \\( 4 \\).\n2. **Find the appropriate case**:\n   Given the piecewise function:\n   \\[\n   f(x) = \\begin{cases}\n   -x^2 - 1 & \\text{if } x < 0, \\\\\n   2 & \\text{if } 0 \\le x < 4, \\\\\n   \\sqrt{x} & \\text{if } x \\ge 4.\n   \\end{cases}\n   \\]\n   Since \\( 0 \\le \\pi < 4 \\), we use the second case, where \\( f(x) = 2 \\).\n3. **Evaluate \\( f(\\pi) \\)**:\n   Since \\( \\pi \\) falls within the range of the second case, we find that:\n   \\[\n   f(\\pi) = 2.\n   \\]\nThus, the final answer is:\n\\[\n\\boxed{2}.\n\\]"
+    ],
+    "pred_answers": "2",
+    "final_pred_answer": [
+        "2",
+        "2",
+        "2",
+        "2",
+        "2"
+    ],
+    "ground_truth": "2"
+}

@@ -1,0 +1,23 @@
+{
+    "problem": "For integers $n$, let \\[f(n) = \\left\\{\n\\begin{array}{cl}\nn^2 + 1 & \\text{ if }n\\text{ is odd}, \\\\\nn^2 - 3n + 1 & \\text{ if }n\\text{ is even}.\n\\end{array}\n\\right.\\]Find $f(f(f(f(f(f(2))))))$.",
+    "level": "Level 2",
+    "type": "Algebra",
+    "solution": "Working from the inside out, we first compute $f(2) = 2^2-3(2)+1=-1$.  Next we find $f(-1)=(-1)^2 + 1=2$. Putting these together, we have:\n\n$f(f(f(f(f(f(2))))))=f(f(f(f(f(-1)))))=f(f(f(f(2))))=f(f(f(-1)))=f(f(2))=f(-1)=\\boxed{2}.$",
+    "prompt": "### Instruction: For integers $n$, let \\[f(n) = \\left\\{\n\\begin{array}{cl}\nn^2 + 1 & \\text{ if }n\\text{ is odd}, \\\\\nn^2 - 3n + 1 & \\text{ if }n\\text{ is even}.\n\\end{array}\n\\right.\\]Find $f(f(f(f(f(f(2))))))$.\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "Let's break down the problem step by step:\n1. **Start with the innermost function:**  We have  $f(2)$. Since 2 is even, we use the second part of the definition: \n   \\[f(2) = 2^2 - 3(2) + 1 = -1.\\]\n2. **Next layer:** We now need to find $f(f(2))$, which is $f(-1)$.  Since -1 is odd, we use the first part of the definition:\n   \\[f(-1) = (-1)^2 + 1 = 2.\\]\n3. **Continuing:** We have $f(f(f(2)))$, which is $f(f(-1)) = f(2)$. We already know that $f(2) = -1$.\n4. **Two more layers:**  We now have $f(f(f(f(2))))$, which is $f(f(-1)) = f(2) = -1$.\n5. **The final layer:**  Finally, we have $f(f(f(f(f(f(2)))))) = f(f(f(f(-1)))) = f(f(f(2))) = f(f(-1)) = f(2) = \\boxed{-1}$. \n",
+        "Let's work our way inside out:\n* **Step 1:**  We start with $f(2)$. Since 2 is even, we use the second part of the definition:  \n   $f(2) = 2^2 - 3(2) + 1 = 1$.\n* **Step 2:** Now we have $f(f(2)) = f(1)$. Since 1 is odd, we use the first part:\n   $f(1) = 1^2 + 1 = 2$.\n* **Step 3:**  $f(f(f(2))) = f(f(1)) = f(2)$. We already calculated this, and we know $f(2) = 1$.\n* **Step 4:**  $f(f(f(f(2)))) = f(f(f(1))) = f(f(2)) = f(1) = 2$.\n* **Step 5:**  $f(f(f(f(f(2))))) = f(f(f(f(1)))) = f(f(f(2))) = f(f(1)) = f(2) = 1$.\n* **Step 6:**  $f(f(f(f(f(f(2)))))) = f(f(f(f(f(1))))) = f(f(f(f(2)))) = f(f(f(1))) = f(f(2)) = f(1) = 2$.\nTherefore, $f(f(f(f(f(f(2)))))) = \\boxed{2}$. \n",
+        "Here's how to solve the problem step by step:\n* **Step 1:  f(2)**  Since 2 is even, we use the second part of the definition:  \n   * f(2) = 2\u00b2 - 3(2) + 1 = 4 - 6 + 1 = -1\n* **Step 2: f(-1)** Since -1 is odd, we use the first part of the definition:\n   * f(-1) = (-1)\u00b2 + 1 = 1 + 1 = 2\n* **Step 3: f(2)**  We've already calculated this in step 1: f(2) = -1\n* **Step 4: f(-1)** We've already calculated this in step 2: f(-1) = 2\n* **Step 5: f(2)**  We've already calculated this in step 1: f(2) = -1\n* **Step 6: f(-1)** We've already calculated this in step 2: f(-1) = 2\nTherefore,  $f(f(f(f(f(f(2)))))) = \\boxed{2}$. \n",
+        "Let's work our way inward:\n* **Step 1:**  Since 2 is even,  \\[f(2) = 2^2 - 3(2) + 1 = -1.\\]\n* **Step 2:** Since -1 is odd, \\[f(-1) = (-1)^2 + 1 = 2.\\]\n* **Step 3:** Since 2 is even, \\[f(2) = 2^2 - 3(2) + 1 = -1.\\]\n* **Step 4:** Since -1 is odd, \\[f(-1) = (-1)^2 + 1 = 2.\\]\n* **Step 5:** Since 2 is even, \\[f(2) = 2^2 - 3(2) + 1 = -1.\\]\n* **Step 6:** Since -1 is odd, \\[f(-1) = (-1)^2 + 1 = 2.\\]\nTherefore,  \\[f(f(f(f(f(f(2)))))) = \\boxed{2}.\\] \n",
+        "Let's work our way inside out:\n* **Step 1:**  $f(2) = 2^2 - 3(2) + 1 = -1$.\n* **Step 2:** Since $-1$ is odd, $f(-1) = (-1)^2 + 1 = 2$.\n* **Step 3:**  $f(2) = -1$ (we already calculated this).\n* **Step 4:** $f(-1) = 2$ (we already calculated this).\n* **Step 5:** $f(2) = -1$ (we already calculated this).\n* **Step 6:** $f(-1) = 2$ (we already calculated this).\nTherefore, $f(f(f(f(f(f(2)))))) = \\boxed{2}$. \n"
+    ],
+    "pred_answers": "2",
+    "final_pred_answer": [
+        "-1",
+        "2",
+        "2",
+        "2",
+        "2"
+    ],
+    "ground_truth": "2"
+}

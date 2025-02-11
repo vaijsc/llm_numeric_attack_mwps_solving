@@ -1,0 +1,23 @@
+{
+    "problem": "Given that $x^2 + \\frac{1}{x^2} = 7$, what is the value of $x^4 + \\frac{1}{x^4}$?",
+    "level": "Level 3",
+    "type": "Algebra",
+    "solution": "Observe that \\[\n\\left(x^2+\\frac{1}{x^2}\\right)^2=x^4+2\\cdot x^2\\left(\\frac{1}{x^2}\\right)+\\frac{1}{x^4}=x^4+\\frac{1}{x^4}+2.\n\\] Therefore, $x^4+\\frac{1}{x^4}=\\left(x^2+\\frac{1}{x^2}\\right)^2-2=7^2-2=\\boxed{47}$.",
+    "prompt": "### Instruction: Given that $x^2 + \\frac{1}{x^2} = 7$, what is the value of $x^4 + \\frac{1}{x^4}$?\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "Here's how to solve the problem step-by-step:\n**1. Square the given equation:**\n   Squaring both sides of  $x^2 + \\frac{1}{x^2} = 7$, we get:\n   \n   ```\n   (x^2 + 1/x^2)^2 = 7^2\n   ```\n**2. Expand the left side:**\n   Expanding the left side using the FOIL method:\n   ```\n   x^4 + 2(x^2)(1/x^2) + 1/x^4 = 49\n   ```\n**3. Simplify:**\n   Simplify the middle term:\n   ```\n   x^4 + 2 + 1/x^4 = 49\n   ```\n**4. Isolate the desired term:**\n   Subtract 2 from both sides to get the value of  $x^4 + 1/x^4$:\n   ```\n   x^4 + 1/x^4 = 49 - 2 = 47\n   ```\n**Therefore, the value of  $x^4 + \\frac{1}{x^4}$ is 47.** \n",
+        "Here's how to solve this problem step-by-step:\n**1. Square the given equation:**\n   Squaring both sides of the equation  $x^2 + \\frac{1}{x^2} = 7$, we get:\n   ```\n   (x^2 + 1/x^2)^2 = 7^2\n   ```\n**2. Expand the left side:**\n   Expanding the left side using the formula  (a + b)^2 = a^2 + 2ab + b^2, we have:\n   ```\n   x^4 + 2(x^2)(1/x^2) + 1/x^4 = 49\n   ```\n**3. Simplify:**\n   Simplifying the middle term, we get:\n   ```\n   x^4 + 2 + 1/x^4 = 49\n   ```\n**4. Isolate the desired expression:**\n   Subtracting 2 from both sides, we get:\n   ```\n   x^4 + 1/x^4 = 49 - 2\n   ```\n**5. Final answer:**\n   Therefore,  $x^4 + \\frac{1}{x^4} = \\boxed{47}$. \n",
+        "Here's how to solve the problem step-by-step:\n**1. Square the given equation:**\n   Square both sides of the equation  $x^2 + \\frac{1}{x^2} = 7$:\n   ```\n   (x^2 + 1/x^2)^2 = 7^2 \n   ```\n**2. Expand the left side:**\n   Expand the left side using the FOIL method:\n   ```\n   x^4 + 2(x^2)(1/x^2) + 1/x^4 = 49\n   ```\n**3. Simplify:**\n   Simplify the middle term and rearrange the equation:\n   ```\n   x^4 + 1/x^4 + 2 = 49\n   x^4 + 1/x^4 = 49 - 2 \n   ```\n**4. Solution:**\n   Therefore, the value of  $x^4 + \\frac{1}{x^4}$ is **47**. \n",
+        "Here's how to solve the problem step-by-step:\n**1. Square the given equation:**\n   Squaring both sides of  $x^2 + \\frac{1}{x^2} = 7$, we get:\n   $(x^2 + \\frac{1}{x^2})^2 = 7^2$\n**2. Expand the left side:**\n   Expanding the square, we get:\n   $x^4 + 2(x^2)(\\frac{1}{x^2}) + \\frac{1}{x^4} = 49$\n**3. Simplify:**\n   Simplifying the middle term, we have:\n   $x^4 + 2 + \\frac{1}{x^4} = 49$\n**4. Isolate the desired expression:**\n   Subtracting 2 from both sides gives us:\n   $x^4 + \\frac{1}{x^4} = 47$\n**Therefore, the value of  $x^4 + \\frac{1}{x^4}$ is 47.** \n",
+        "Here's how to solve the problem step by step:\n**1. Square the given equation:**\n* Square both sides of the equation  $x^2 + \\frac{1}{x^2} = 7$:\n  \n   (x\u00b2 + 1/x\u00b2)\u00b2 = 7\u00b2\n**2. Expand the squared term:**\n* Use the formula (a + b)\u00b2 = a\u00b2 + 2ab + b\u00b2 to expand the left side:\n   x\u2074 + 2(x\u00b2)(1/x\u00b2) + 1/x\u2074 = 49\n**3. Simplify the equation:**\n* Simplify the middle term:\n   x\u2074 + 2 + 1/x\u2074 = 49\n**4. Isolate the desired term:**\n* Subtract 2 from both sides:\n   x\u2074 + 1/x\u2074 = 47\n**Therefore, the value of  x\u2074 + 1/x\u2074 is 47.** \n"
+    ],
+    "pred_answers": "47",
+    "final_pred_answer": [
+        "47",
+        "47",
+        "47",
+        "47",
+        "47"
+    ],
+    "ground_truth": "47"
+}

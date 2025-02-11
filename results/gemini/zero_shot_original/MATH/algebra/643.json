@@ -1,0 +1,23 @@
+{
+    "problem": "Adina and Lynn are going rock-climbing and need to rent special shoes. Lynn is normally size 9 and knows that her rock-climbing shoe-size is 42. If Adina is normally size 6, what size rock-climbing shoes should she rent assuming shoe size is directly proportional to rock-climbing shoe size?",
+    "level": "Level 2",
+    "type": "Algebra",
+    "solution": "Let $x$ be Adina's rock-climbing size.  The ratio of the girl's shoe sizes must be constant: \\[\\frac{\\text{Lynn's size}}{\\text{Adina's size}} = \\frac{9}{6}=\\frac{42}{x},\\]so $9x=42\\cdot 6$, or $x=\\frac{42\\cdot 6}{9}=\\boxed{28}$.",
+    "prompt": "### Instruction: Adina and Lynn are going rock-climbing and need to rent special shoes. Lynn is normally size 9 and knows that her rock-climbing shoe-size is 42. If Adina is normally size 6, what size rock-climbing shoes should she rent assuming shoe size is directly proportional to rock-climbing shoe size?\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "Here's how to solve the problem:\n**1. Find the conversion factor:**\n* Lynn's normal shoe size is 9, and her rock-climbing shoe size is 42.\n* Divide the rock-climbing size by the normal size: 42 / 9 = 4.67. This means each normal shoe size corresponds to approximately 4.67 rock-climbing shoe sizes.\n**2. Apply the conversion factor to Adina's size:**\n* Adina's normal shoe size is 6.\n* Multiply her normal size by the conversion factor: 6 * 4.67 = 28.\n**Answer:** Adina should rent size 28 rock-climbing shoes. \n",
+        "Here's how to solve this problem:\n**1. Find the ratio between normal shoe size and rock-climbing shoe size for Lynn:**\n* Lynn's normal shoe size: 9\n* Lynn's rock-climbing shoe size: 42\n* Ratio: 42 / 9 = 4.67 (approximately)\n**2. Apply the ratio to Adina's normal shoe size:**\n* Adina's normal shoe size: 6\n* Ratio: 4.67\n* Adina's rock-climbing shoe size: 6 * 4.67 = 28 (approximately)\n**Therefore, Adina should rent rock-climbing shoes in size 28.** \n",
+        "Here's how to solve this problem:\n**1. Find the ratio between regular shoe size and rock-climbing shoe size for Lynn:**\n* Lynn's regular size: 9\n* Lynn's rock-climbing size: 42\n* Ratio: 42 / 9 = 4.67 (approximately)\n**2. Apply the ratio to Adina's regular size:**\n* Adina's regular size: 6\n* Ratio: 4.67 \n* Adina's rock-climbing size: 6 * 4.67 = 28 (approximately)\n**Therefore, Adina should rent size 28 rock-climbing shoes.** \n",
+        "Here's how to solve this problem:\n**1. Find the ratio of Lynn's regular shoe size to her rock-climbing shoe size:**\n* Lynn's regular shoe size: 9\n* Lynn's rock-climbing shoe size: 42\n* Ratio: 9/42 = 3/14\n**2. Apply the ratio to Adina's regular shoe size:**\n* Adina's regular shoe size: 6\n* We want to find her rock-climbing shoe size (let's call it 'x')\n* The ratio should be the same: 6/x = 3/14\n**3. Solve for x:**\n* Cross-multiply: 6 * 14 = 3 * x\n* Simplify: 84 = 3x\n* Divide both sides by 3: x = 28\n**Therefore, Adina should rent size 28 rock-climbing shoes.** \n",
+        "Here's how to solve this problem:\n**1. Find the conversion factor:**\n* Lynn's normal shoe size is 9, and her rock-climbing shoe size is 42.\n* Divide Lynn's rock-climbing shoe size by her normal shoe size: 42 / 9 = 4.67\nThis means for every 1 unit of normal shoe size, you need approximately 4.67 units of rock-climbing shoe size.\n**2. Apply the conversion factor to Adina's size:**\n* Adina's normal shoe size is 6.\n* Multiply Adina's normal shoe size by the conversion factor: 6 * 4.67 = 28.02\n**3. Round to the nearest whole number:**\n* Since you can't rent partial shoe sizes, round 28.02 to the nearest whole number, which is 28.\n**Answer:** Adina should rent size 28 rock-climbing shoes. \n"
+    ],
+    "pred_answers": "28",
+    "final_pred_answer": [
+        "28",
+        "28",
+        "28",
+        "28",
+        "28"
+    ],
+    "ground_truth": "28"
+}

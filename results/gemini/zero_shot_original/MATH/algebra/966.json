@@ -1,0 +1,23 @@
+{
+    "problem": "Evaluate $\\log_327$.",
+    "level": "Level 1",
+    "type": "Algebra",
+    "solution": "Since $3^3=27$, $\\log_327=\\boxed{3}$.",
+    "prompt": "### Instruction: Evaluate $\\log_327$.\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "We want to find the exponent we need to raise 3 to in order to get 27.  \n* Since $3^3 = 27$, we know that $\\log_3 27 = \\boxed{3}$. \n",
+        "Let's think step by step:\n* **Understanding Logarithms:**  The expression $\\log_3 27$ asks: \"To what power do we raise 3 to get 27?\"\n* **Finding the Power:**  We know that 3 raised to the power of 3 equals 27 (i.e., 3 x 3 x 3 = 27).\n* **Answer:** Therefore, $\\log_3 27 = \\boxed{3}$. \n",
+        "We want to find the exponent to which we must raise 3 to get 27.  In other words, we want to solve the equation $3^x = 27$.\nSince $3^3 = 27$, we have $\\log_3 27 = \\boxed{3}$. \n",
+        "**1. Understand Logarithms:**\n   * A logarithm answers the question: \"What exponent do I need to raise the base to in order to get a certain number?\" \n   * In the expression  log<sub>3</sub>27, the base is 3, and we're looking for the exponent that makes 3 equal 27.\n**2. Find the Exponent:**\n   * We know that 3 x 3 x 3 = 27, or  3<sup>3</sup> = 27.\n**3. Answer:**\n   * Therefore, log<sub>3</sub>27 = **3**. \n",
+        "**Understanding Logarithms**\nThe expression $\\log_3 27$ asks the question: \"To what power must we raise 3 to get 27?\"\n**Solving the Problem**\n* We know that 3 multiplied by itself three times equals 27 (3 x 3 x 3 = 27). \n* This means that 3 raised to the power of 3 is 27, or  $3^3 = 27$.\n* Therefore, $\\log_3 27 = \\boxed{3}$. \n"
+    ],
+    "pred_answers": "3",
+    "final_pred_answer": [
+        "3",
+        "3",
+        "3",
+        "3",
+        "3"
+    ],
+    "ground_truth": "3"
+}

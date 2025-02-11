@@ -1,0 +1,23 @@
+{
+    "problem": "How many dollars in interest are earned in two years on a deposit of $\\$$10,000 invested at 4.5$\\%$ and compounded annually? Express your answer to the nearest cent.",
+    "level": "Level 4",
+    "type": "Algebra",
+    "solution": "After two years, at a 4.5 percent annual interest rate, the investment will have grown to $10000 \\cdot (1.045)^2 = 10920.25$, so the interest earned is $10920.25 - 10000 = \\boxed{920.25}$.",
+    "prompt": "### Instruction: How many dollars in interest are earned in two years on a deposit of $\\$$10,000 invested at 4.5$\\%$ and compounded annually? Express your answer to the nearest cent.\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "Here's how to solve the problem step-by-step:\n**1. Calculate the interest earned in the first year:**\n* Interest rate: 4.5% = 0.045 (as a decimal)\n* Principal: $10,000\n* Interest earned in the first year: $10,000 * 0.045 = $450\n**2. Calculate the new principal at the beginning of the second year:**\n* Original principal: $10,000\n* Interest earned in the first year: $450\n* New principal: $10,000 + $450 = $10,450\n**3. Calculate the interest earned in the second year:**\n* Interest rate: 4.5% = 0.045 (as a decimal)\n* Principal: $10,450\n* Interest earned in the second year: $10,450 * 0.045 = $470.25\n**4. Calculate the total interest earned over two years:**\n* Interest earned in the first year: $450\n* Interest earned in the second year: $470.25\n* Total interest earned: $450 + $470.25 = $920.25\n**Answer:** The total interest earned in two years is **$920.25**. \n",
+        "Here's how to solve the problem step-by-step:\n**1. Calculate the interest earned in the first year:**\n* Interest rate: 4.5% = 0.045 (decimal form)\n* Interest earned: $10,000 * 0.045 = $450\n**2. Calculate the total amount after the first year:**\n* Initial deposit: $10,000\n* Interest earned: $450\n* Total: $10,000 + $450 = $10,450\n**3. Calculate the interest earned in the second year:**\n* Interest rate: 4.5% = 0.045 \n* Interest earned: $10,450 * 0.045 = $470.25\n**4. Calculate the total interest earned over two years:**\n* Interest earned in year 1: $450\n* Interest earned in year 2: $470.25\n* Total interest: $450 + $470.25 = $920.25\n**Answer:** The interest earned in two years is **$920.25**. \n",
+        "Here's how to solve the problem step-by-step:\n**1. Calculate the interest earned in the first year:**\n* Interest rate: 4.5% = 0.045\n* Interest earned: $10,000 * 0.045 = $450\n**2. Calculate the balance after the first year:**\n* Starting balance: $10,000\n* Interest earned: $450\n* Total balance after one year: $10,000 + $450 = $10,450\n**3. Calculate the interest earned in the second year:**\n* Interest rate: 4.5% = 0.045\n* Interest earned: $10,450 * 0.045 = $470.25\n**4. Calculate the total interest earned over two years:**\n* Total interest: $450 + $470.25 = $920.25\n**Answer:**  Approximately **$920.25** in interest is earned over two years. \n",
+        "Here's how to solve this problem step-by-step:\n**1. Calculate the interest earned after the first year:**\n* Interest rate: 4.5% = 0.045 (as a decimal)\n* Principal: $10,000\n* Interest earned: $10,000 * 0.045 = $450\n**2. Calculate the new principal after the first year:**\n* Original principal: $10,000\n* Interest earned: $450\n* New principal: $10,000 + $450 = $10,450\n**3. Calculate the interest earned after the second year:**\n* Interest rate: 4.5% = 0.045 \n* Principal: $10,450\n* Interest earned: $10,450 * 0.045 = $470.25\n**4. Calculate the total interest earned over two years:**\n* Interest earned in year 1: $450\n* Interest earned in year 2: $470.25\n* Total interest: $450 + $470.25 = $920.25\n**Answer:** The total interest earned in two years is **$920.25**. \n",
+        "Here's how to solve this problem step-by-step:\n**1. Calculate the interest earned in the first year:**\n* Interest = Principal * Rate \n* Interest = $10,000 * 0.045 = $450\n**2. Calculate the new principal after the first year:**\n* New Principal = Original Principal + Interest\n* New Principal = $10,000 + $450 = $10,450\n**3. Calculate the interest earned in the second year:**\n* Interest = New Principal * Rate\n* Interest = $10,450 * 0.045 = $470.25\n**4. Calculate the total interest earned over two years:**\n* Total Interest = Interest (Year 1) + Interest (Year 2)\n* Total Interest = $450 + $470.25 = $920.25\n**Answer:** You will earn approximately **$920.25** in interest over two years. \n"
+    ],
+    "pred_answers": "920.25",
+    "final_pred_answer": [
+        "920.25",
+        "920.25",
+        "920.25",
+        "920.25",
+        "920.25"
+    ],
+    "ground_truth": "920.25"
+}

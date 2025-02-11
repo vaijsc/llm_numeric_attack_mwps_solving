@@ -1,0 +1,23 @@
+{
+    "problem": "What is the sum of the next two terms in the geometric sequence 1, $\\frac{1}{2}$, $\\frac{1}{4}$, $\\frac{1}{8}$, $\\ldots$? Express your answer as a common fraction.",
+    "level": "Level 2",
+    "type": "Algebra",
+    "solution": "The next two terms are $1/16$ and $1/32$. Their sum is $\\frac{1}{16}+\\frac{1}{32}=\\frac{2}{32}+\\frac{1}{32}=\\boxed{\\frac{3}{32}}$.",
+    "prompt": "### Instruction: What is the sum of the next two terms in the geometric sequence 1, $\\frac{1}{2}$, $\\frac{1}{4}$, $\\frac{1}{8}$, $\\ldots$? Express your answer as a common fraction.\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "**1. Find the Common Ratio**\nIn a geometric sequence, each term is found by multiplying the previous term by a constant value called the common ratio.  \n* Divide the second term by the first term:  (1/2) / 1 = 1/2\n* Divide the third term by the second term: (1/4) / (1/2) = 1/2\n* Divide the fourth term by the third term: (1/8) / (1/4) = 1/2\nThe common ratio is 1/2.\n**2. Find the Next Two Terms**\n* To find the fifth term, multiply the fourth term by the common ratio: (1/8) * (1/2) = 1/16\n* To find the sixth term, multiply the fifth term by the common ratio: (1/16) * (1/2) = 1/32\n**3. Calculate the Sum**\nThe sum of the next two terms is (1/16) + (1/32) = **3/32**. \n",
+        "Here's how to solve the problem step-by-step:\n* **Identify the common ratio:** In a geometric sequence, each term is found by multiplying the previous term by a constant value called the common ratio.  In this case, the common ratio is 1/2 (since 1/2 * 1 = 1/2, 1/2 * 1/2 = 1/4, and so on).\n* **Find the next two terms:** \n    * The next term after 1/8 is (1/2) * (1/8) = 1/16\n    * The term after 1/16 is (1/2) * (1/16) = 1/32\n* **Calculate the sum:** The sum of the next two terms is 1/16 + 1/32 = 3/32\n**Therefore, the sum of the next two terms in the geometric sequence is 3/32.** \n",
+        "Here's how to solve the problem:\n**1. Find the common ratio:**\n* Divide any term by the term before it. For example,  (1/2) / 1 = 1/2.  \n* The common ratio is 1/2.\n**2. Find the next two terms:**\n* Multiply the last term (1/8) by the common ratio (1/2): (1/8) * (1/2) = 1/16\n* Multiply the new term (1/16) by the common ratio (1/2): (1/16) * (1/2) = 1/32\n**3. Find the sum:**\n* Add the two new terms: 1/16 + 1/32 = 3/32\n**Therefore, the sum of the next two terms is 3/32.** \n",
+        "Here's how to solve the problem:\n**1. Identify the Common Ratio**\nIn a geometric sequence, each term is found by multiplying the previous term by a constant value called the common ratio.  In this case, the common ratio is 1/2:\n* 1 * (1/2) = 1/2\n* (1/2) * (1/2) = 1/4\n* (1/4) * (1/2) = 1/8\n**2. Find the Next Two Terms**\n* The next term is (1/8) * (1/2) = 1/16\n* The term after that is (1/16) * (1/2) = 1/32\n**3. Calculate the Sum**\nThe sum of the next two terms is (1/16) + (1/32) = **3/32**. \n",
+        "Here's how to solve the problem:\n**1. Find the common ratio:**\nIn a geometric sequence, each term is found by multiplying the previous term by a constant value called the common ratio. \n*  Divide any term by the previous term to find the common ratio:  \n   (1/2) / 1 = 1/4 / (1/2) = 1/8 / (1/4) = **1/2** \n**2. Find the next two terms:**\n*  The next term after 1/8 is (1/8) * (1/2) = **1/16**\n*  The term after that is (1/16) * (1/2) = **1/32**\n**3. Calculate the sum:**\n*  The sum of the next two terms is (1/16) + (1/32) = **3/32** \n**Therefore, the sum of the next two terms in the geometric sequence is 3/32.** \n"
+    ],
+    "pred_answers": "32",
+    "final_pred_answer": [
+        "32",
+        "32",
+        "32",
+        "32",
+        "32"
+    ],
+    "ground_truth": "32"
+}

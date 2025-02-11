@@ -1,0 +1,41 @@
+{
+    "index_adversarial_question": 0,
+    "problem": "If &x is defined as &x = x + 5 and #x is defined as #x = x^2, what is the value of #( &7 )?",
+    "pcot_answer": "# Define the initial value of x\nx = 5  ### condition: 'x': {'type': 'int', '<=': None, '>=': 0, 'science_constant': False, 'direct_from_question': True}\n# Calculate &x which is defined as x + 5\nand_x = x + 5  ### condition: 'and_x': {'type': 'int', '<=': None, '>=': 0, 'science_constant': False, 'direct_from_question': False}\n# Calculate #x which is defined as x^2\nhash_and_x = and_x ** 2  ### condition: 'hash_and_x': {'type': 'int', '<=': None, '>=': 0, 'science_constant': False, 'direct_from_question': False}\n# Print the value of #(&4)\nprint(f\"The value of #(&4) is: {hash_and_x}\")",
+    "answer": "100",
+    "vllm_responses": [
+        "First, evaluate the expression inside the outer parentheses: &7 = 7 + 5 = 12.\nThen, evaluate the expression inside the inner parentheses: #12 = 12^2 = 144.\nTherefore, the value of #( &7 ) is 144.The answer is: 144",
+        "First, we evaluate &7 by plugging in 7 for x in the definition of &x:\n&7 = 7 + 5 = 12.\nNext, we evaluate #( &7 ) by plugging in 12 for x in the definition of #x:\n#( &7 ) = 12^2 = 144.\nTherefore, the value of #( &7 ) is $\\boxed{144}$.The answer is: 144",
+        "First, we find the value of &7.\nUsing the definition of &x, we have &7 = 7 + 5 = 12.\nNext, we find the value of #( &7 ).\nUsing the definition of #x, we have #( &7 ) = ( &7 )^2 = 12^2 = 144.\nTherefore, the value of #( &7 ) is 144.The answer is: 144",
+        "We first evaluate &7, which is equal to 7 + 5 = 12.\nNext, we evaluate #( &7), which is equal to #12 = 12^2 = 144.\nTherefore, the value of #( &7 ) is 144.The answer is: 144",
+        "First, we find the value of &7.\nUsing the definition &x = x + 5, we substitute x=7 to get &7 = 7 + 5 = 12.\nNext, we find the value of #( &7 ).\nUsing the definition #x = x^2, we substitute x=12 to get #( &7 ) = 12^2 = 144.\nTherefore, the value of #( &7 ) is 144.The answer is: 144",
+        "We are given that &x = x + 5 and #x = x^2.\nTo find #( &7 ), we substitute 7 for x in the expression &x.\nSo, &7 = 7 + 5 = 12.\nNow, we substitute 12 for x in the expression #x.\nSo, #( &7 ) = #12 = 12^2 = 144.\nTherefore, the value of #( &7 ) is 144.The answer is: 144",
+        "First, we evaluate &7 by substituting 7 into the expression &x = x + 5.\nWe get &7 = 7 + 5 = 12.\nNow, we evaluate #12 by substituting 12 into the expression #x = x^2.\nWe get #12 = 12^2 = 144.\nSo, the value of #( &7 ) is 144.The answer is: 144",
+        "First, we need to find the value of &7.\n&x is defined as x + 5, so &7 = 7 + 5 = 12.\nNext, we need to find the value of #( &7 ).\n#x is defined as x^2, so #( &7 ) = ( &7 )^2 = 12^2 = 144.\nTherefore, the value of #( &7 ) is \\boxed{144}.The answer is: 144",
+        "First, we evaluate &7. Since &x is defined as x + 5, &7 = 7 + 5 = 12.\nThen, we evaluate #( &7 ). Since #x is defined as x^2, #( &7 ) = ( &7 )^2 = 12^2 = 144.\nTherefore, the value of #( &7 ) is 144.The answer is: 144",
+        "First, we substitute 7 into the expression &x = x + 5.\n&7 = 7 + 5 = 12.\nNext, we substitute 12 into the expression #x = x^2.\n#( &7 ) = #12 = 12^2 = 144.\nThe value of #( &7 ) is 144.The answer is: 144",
+        "First, we substitute 7 into the function &x to find that &7 = 7 + 5 = 12.\nThen, we substitute 12 into the function #x to find that #( &7 ) = #(12) = 12^2 = 144.\nSo, the value of #( &7 ) is 144.\nThe answer is: 144",
+        "We know that &x = x + 5, so &7 = 7 + 5 = 12.\nThen, #x = x^2, so #( &7 ) = #12 = 12^2 = 144.\nThe answer is: 144",
+        "First, we find the value of &7.\nSubstituting 7 into the expression for &x, we get &7 = 7 + 5 = 12.\nNext, we find the value of #( &7 ).\nSubstituting 12 into the expression for #x, we get #( &7 ) = 12^2 = 144.\nTherefore, the value of #( &7 ) is 144.The answer is: 144",
+        "First, we substitute 7 into the expression &x.\n&7 = 7 + 5 = 12.\nNext, we substitute 12 into the expression #x.\n#( &7 ) = #12 = 12^2 = 144.\nSo the value of #( &7 ) is 144.The answer is: 144",
+        "We start by evaluating the expression &7.\nUsing the definition of &x, we have &7 = 7 + 5 = 12.\nNext, we evaluate the expression #( &7 ).\nUsing the definition of #x, we have #( &7 ) = ( &7 )^2 = 12^2 = 144.\nTherefore, the value of #( &7 ) is \\boxed{144}.The answer is: 144"
+    ],
+    "vllm_answers": [
+        "144",
+        "144",
+        "144",
+        "144",
+        "144",
+        "144",
+        "144",
+        "144",
+        "144",
+        "144",
+        "144",
+        "144",
+        "144",
+        "144",
+        "144"
+    ],
+    "vllm_pred_answer": "144"
+}

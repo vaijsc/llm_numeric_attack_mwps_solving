@@ -1,0 +1,23 @@
+{
+    "problem": "How many units long is a segment whose endpoints are $(-4,1)$ and $(1,13)$?",
+    "level": "Level 2",
+    "type": "Algebra",
+    "solution": "We use the distance formula: $\\sqrt{(-4 - 1)^2 + (1 - 13)^2},$ which is $\\sqrt{25 + 144} = \\sqrt{169} = \\boxed{13}$.\n\n- OR -\n\nWe note that the points $(-4,1)$, $(1,13)$, and $(1,1)$ form a right triangle with legs of length 5 and 12. $(5,12,13)$ is a Pythagorean triple, so the hypotenuse has length $\\boxed{13}$.",
+    "prompt": "### Instruction: How many units long is a segment whose endpoints are $(-4,1)$ and $(1,13)$?\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "Here's how to find the length of the segment:\n**1. Understand the Concept:**\n* The length of a segment is the distance between its endpoints.\n* Since the endpoints have the same y-coordinate (both have a y-coordinate of 1), this segment is a horizontal line.\n**2. Calculate the Distance:**\n* The segment stretches from x = -4 to x = 1.\n* The distance between these x-values is 1 - (-4) = 5 units.\n**Answer:** The segment is **5 units** long. \n",
+        "Here's how to find the length of the segment:\n**1. Understand the Concept:**\n* The length of a segment is the distance between its endpoints.\n* We can use the distance formula to calculate this distance.\n**2. The Distance Formula:**\nThe distance formula is derived from the Pythagorean theorem:\n  *  Distance =  \u221a[(x\u2082 - x\u2081)\u00b2 + (y\u2082 - y\u2081)\u00b2] \n**3. Apply the Formula:**\n* Let (-4, 1) be (x\u2081, y\u2081)\n* Let (1, 13) be (x\u2082, y\u2082)\nSubstitute the values into the distance formula:\n  * Distance = \u221a[(1 - (-4))\u00b2 + (13 - 1)\u00b2]\n  * Distance = \u221a[(5)\u00b2 + (12)\u00b2]\n  * Distance = \u221a(25 + 144)\n  * Distance = \u221a169\n  * Distance = 13\n**Answer:** The segment is 13 units long. \n",
+        "Here's how to find the length of the segment:\n**1. Understand the Concept**\nThe length of a segment is simply the distance between its endpoints.  Since the endpoints have the same y-coordinate (both are 1), this is a horizontal segment.\n**2. Calculate the Distance**\nThe distance between the x-coordinates is: 1 - (-4) = 5 units\n**Answer:** The segment is **5 units** long. \n",
+        "Here's how to find the length of the segment:\n**1. Understand the Concept**\n* The length of a segment is the distance between its endpoints.\n* Since the endpoints have the same y-coordinate (both have a y-coordinate of 1), this segment is a horizontal line.\n**2. Calculate the Length**\n*  The length is simply the difference in the x-coordinates: \n   * 1 - (-4) = 5\n**Answer:** The segment is **5 units** long. \n",
+        "Here's how to find the length of the segment:\n**1. Understand the Distance Formula**\nThe distance formula is derived from the Pythagorean theorem and helps us calculate the distance between two points in a coordinate plane.  It looks like this:\n  * Distance = \u221a[(x\u2082 - x\u2081)\u00b2 + (y\u2082 - y\u2081)\u00b2]\n**2. Identify the Coordinates**\n*  Let (-4, 1) be (x\u2081, y\u2081)\n*  Let (1, 13) be (x\u2082, y\u2082)\n**3. Plug the Values into the Distance Formula**\nDistance = \u221a[(1 - (-4))\u00b2 + (13 - 1)\u00b2]\n**4. Simplify the Equation**\nDistance = \u221a[(5)\u00b2 + (12)\u00b2]\nDistance = \u221a(25 + 144)\nDistance = \u221a169\n**5. Calculate the Final Answer**\nDistance = 13\n**Therefore, the segment is 13 units long.** \n"
+    ],
+    "pred_answers": "5",
+    "final_pred_answer": [
+        "5",
+        "13",
+        "5",
+        "5",
+        "13"
+    ],
+    "ground_truth": "13"
+}

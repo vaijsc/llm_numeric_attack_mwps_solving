@@ -1,0 +1,23 @@
+{
+    "problem": "Mr. Patrick is preparing a five-question true-false quiz for his class. He flips a coin before writing the first question. If it is heads, he writes a true statement and if it is tails, he writes a false statement. He continues this until all five statements are written. What is the probability that the correct sequence of answers is TFTFT ? Express your answer as a common fraction.",
+    "level": "Level 2",
+    "type": "Counting & Probability",
+    "solution": "Since all sequences of 5 answers are equally likely, the probability of any given 5-answer sequence is simply $\\frac{1}{2^5}$, since each answer is equally likely to be true or false. So, the answer evaluates to $\\frac{1}{2^5} = \\boxed{\\frac{1}{32}}$.",
+    "prompt": "### Instruction: Mr. Patrick is preparing a five-question true-false quiz for his class. He flips a coin before writing the first question. If it is heads, he writes a true statement and if it is tails, he writes a false statement. He continues this until all five statements are written. What is the probability that the correct sequence of answers is TFTFT ? Express your answer as a common fraction.\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "Here's how to solve this problem:\n* **Each question has two possibilities:** True (T) or False (F).  \n* **The coin flips are independent:** The outcome of one flip doesn't affect the others.\nSince each question has two possibilities, there are a total of 2 x 2 x 2 x 2 x 2 = 32 possible answer sequences.\nOnly one of these sequences is TFTFT.\nTherefore, the probability of getting the sequence TFTFT is **1/32**. \n",
+        "Here's how to solve the problem step-by-step:\n* **Each question has two possibilities:**  The answer is either true (T) or false (F).\n* **Independent events:** Each coin flip (and therefore each question's truth value) is independent of the others. \n* **Probability of a specific sequence:**  Since each question has a 1/2 chance of being T or F, the probability of getting a specific sequence like TFTFT is: (1/2) * (1/2) * (1/2) * (1/2) * (1/2) = 1/32\n**Therefore, the probability of the correct sequence being TFTFT is 1/32.** \n",
+        "Here's how to solve the problem:\n* **Each question has two possibilities:** True (T) or False (F).\n* **The probability of getting a specific answer (T or F) for each question is 1/2.** Since the coin flip determines the answer, it's a 50/50 chance.\nNow let's look at the desired sequence TFTFT:\n* **Probability of the first question being True (T):** 1/2\n* **Probability of the second question being False (F):** 1/2\n* **Probability of the third question being True (T):** 1/2\n* **Probability of the fourth question being False (F):** 1/2\n* **Probability of the fifth question being True (T):** 1/2\nTo get the probability of the entire sequence, we multiply the probabilities of each individual question:\n(1/2) * (1/2) * (1/2) * (1/2) * (1/2) = **1/32**\nTherefore, the probability of the correct sequence being TFTFT is **1/32**. \n",
+        "Here's how to solve this step-by-step:\n* **Each question has two possibilities:**  True (T) or False (F).\n* **The coin flip is independent for each question:**  The outcome of one flip doesn't affect the others. \n* **Probability of a specific sequence:**  Since each question has two possibilities, and there are five questions, there are 2 * 2 * 2 * 2 * 2 = 32 possible sequences of answers.  Only one of these sequences is TFTFT.\n**Therefore, the probability of the correct sequence being TFTFT is 1/32.** \n",
+        "Here's how to solve the problem:\n* **Each question has two possibilities:** True (T) or False (F).\n* **The coin flips are independent:** The outcome of one flip doesn't affect the others.\nSince each question has two possibilities, there are  2*2*2*2*2 = 32 possible sequences of answers. \nOnly one of these sequences is TFTFT.\nTherefore, the probability of the correct sequence being TFTFT is **1/32**. \n"
+    ],
+    "pred_answers": "32",
+    "final_pred_answer": [
+        "32",
+        "32",
+        "32",
+        "32",
+        "32"
+    ],
+    "ground_truth": "32"
+}

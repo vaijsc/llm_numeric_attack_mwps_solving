@@ -1,0 +1,23 @@
+{
+    "problem": "$441+2(21)(19)+361=x$. Solve for $x$.",
+    "level": "Level 1",
+    "type": "Algebra",
+    "solution": "We note that $361=19^2$ and $441=21^2$, so $x=21^2+2(21)(19)+19^2$. This is just the binomial expansion of $(21+19)^2=40^2=\\boxed{1600}$.",
+    "prompt": "### Instruction: $441+2(21)(19)+361=x$. Solve for $x$.\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "To solve for \\( x \\) in the equation \\( 441 + 2(21)(19) + 361 = x \\), we will first simplify the expression step by step.\n1. **Calculate \\( 2(21)(19) \\)**:\n   \\[\n   2(21)(19) = 2 \\times 21 \\times 19\n   \\]\n   First, calculate \\( 21 \\times 19 \\):\n   \\[\n   21 \\times 19 = 399\n   \\]\n   Now, multiply by 2:\n   \\[\n   2 \\times 399 = 798\n   \\]\n2. **Sum the components**:\n   Now we can combine all parts of the expression:\n   \\[\n   441 + 798 + 361\n   \\]\n3. **Add \\( 441 + 798 \\)**:\n   \\[\n   441 + 798 = 1239\n   \\]\n4. **Add \\( 1239 + 361 \\)**:\n   \\[\n   1239 + 361 = 1600\n   \\]\nThus, substituting back, we find that:\n\\[\nx = 1600\n\\]\nTherefore, the solution is\n\\[\n\\boxed{1600}\n\\]",
+        "To solve for \\( x \\) in the equation \n\\[\nx = 441 + 2(21)(19) + 361,\n\\]\nwe start by calculating each component step by step.\n1. **Calculate \\( 2(21)(19) \\)**:\n   \\[\n   21 \\times 19 = 399.\n   \\]\n   Therefore,\n   \\[\n   2(21)(19) = 2 \\times 399 = 798.\n   \\]\n2. **Now substitute back into the equation**:\n   \\[\n   x = 441 + 798 + 361.\n   \\]\n3. **Add \\( 441 \\) and \\( 798 \\)**:\n   \\[\n   441 + 798 = 1239.\n   \\]\n4. **Now add \\( 1239 \\) and \\( 361 \\)**:\n   \\[\n   1239 + 361 = 1600.\n   \\]\nFinally, we conclude that \n\\[\nx = 1600.\n\\]\nThus, the solution is \n\\[\n\\boxed{1600}.\n\\]",
+        "To solve the equation \\( 441 + 2(21)(19) + 361 = x \\), we will break it down step by step.\n1. **Calculate \\( 2(21)(19) \\)**:\n   - First calculate \\( 21 \\times 19 \\):\n     \\[\n     21 \\times 19 = 399\n     \\]\n   - Now, multiply by 2:\n     \\[\n     2 \\times 399 = 798\n     \\]\n2. **Add up all the terms**:\n   - Substitute back into the equation:\n     \\[\n     x = 441 + 798 + 361\n     \\]\n3. **Perform the additions step by step**:\n   - Start with \\( 441 + 798 \\):\n     \\[\n     441 + 798 = 1239\n     \\]\n   - Now add \\( 361 \\):\n     \\[\n     1239 + 361 = 1600\n     \\]\nTherefore, the value of \\( x \\) is \\( \\boxed{1600} \\).",
+        "To solve for \\( x \\) in the equation \\( 441 + 2(21)(19) + 361 = x \\), we will evaluate it step by step.\n1. First, we simplify \\( 2(21)(19) \\):\n   \\[\n   2(21)(19) = 2 \\times 21 \\times 19\n   \\]\n   Let's calculate \\( 21 \\times 19 \\):\n   \\[\n   21 \\times 19 = 399\n   \\]\n   Then, we multiply by 2:\n   \\[\n   2 \\times 399 = 798\n   \\]\n2. Next, we substitute this value back into the equation:\n   \\[\n   x = 441 + 798 + 361\n   \\]\n3. Now, we will add these numbers together step by step:\n   First, add \\( 441 \\) and \\( 798 \\):\n   \\[\n   441 + 798 = 1239\n   \\]\n4. Now, add \\( 1239 \\) and \\( 361 \\):\n   \\[\n   1239 + 361 = 1600\n   \\]\nThus, the value of \\( x \\) is:\n\\[\n\\boxed{1600}\n\\]",
+        "To solve the equation \\( 441 + 2(21)(19) + 361 = x \\), we will break it down step by step.\n1. **Calculate the multiplication inside the parentheses:**\n   First, we need to calculate \\( 2(21)(19) \\).\n   \\[\n   2(21)(19) = 2 \\times 21 \\times 19\n   \\]\n   We can first calculate \\( 21 \\times 19 \\).\n   \\[\n   21 \\times 19 = 399\n   \\]\n   Now, multiply by 2.\n   \\[\n   2 \\times 399 = 798\n   \\]\n2. **Substitute back into the equation:**\n   Now we replace \\( 2(21)(19) \\) with \\( 798 \\) in the original equation:\n   \\[\n   441 + 798 + 361 = x\n   \\]\n3. **Add the three numbers together:**\n   Start with \\( 441 + 798 \\):\n   \\[\n   441 + 798 = 1239\n   \\]\n   Now, add \\( 361 \\):\n   \\[\n   1239 + 361 = 1600\n   \\]\n4. **Final value of \\( x \\):**\n   So the value of \\( x \\) is:\n   \\[\n   x = 1600\n   \\]\nThus, the final answer is \\( \\boxed{1600} \\)."
+    ],
+    "pred_answers": "1600",
+    "final_pred_answer": [
+        "1600",
+        "1600",
+        "1600",
+        "1600",
+        "1600"
+    ],
+    "ground_truth": "1600"
+}

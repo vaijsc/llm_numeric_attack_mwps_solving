@@ -1,0 +1,23 @@
+{
+    "problem": "The letters C, O, U, N and T are randomly placed around a circle. One such arrangement is shown here. If we always start with the C and continue to read the rest of the letters in order clockwise, in how many different orders can the letters appear?\n\n[asy]\ndraw(circle((0,0),1),dashed);\nlabel(\"U\",dir(90));\nlabel(\"C\",dir(90+360/5));\nlabel(\"O\",dir(90+2*360/5));\nlabel(\"N\",dir(90+3*360/5));\nlabel(\"T\",dir(90+4*360/5));\n[/asy]",
+    "level": "Level 3",
+    "type": "Counting & Probability",
+    "solution": "Since we always read the letters clockwise, this is really the same as counting the number of linear permutations of the 5 letters, given that C must go first. So, there are $1 \\cdot 4 \\cdot 3 \\cdot 2 \\cdot 1 = 4! = \\boxed{24}$ orders.",
+    "prompt": "### Instruction: The letters C, O, U, N and T are randomly placed around a circle. One such arrangement is shown here. If we always start with the C and continue to read the rest of the letters in order clockwise, in how many different orders can the letters appear?\n\n[asy]\ndraw(circle((0,0),1),dashed);\nlabel(\"U\",dir(90));\nlabel(\"C\",dir(90+360/5));\nlabel(\"O\",dir(90+2*360/5));\nlabel(\"N\",dir(90+3*360/5));\nlabel(\"T\",dir(90+4*360/5));\n[/asy]\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "Here's how to solve this problem:\n* **Fix the \"C\":** Since we always start with the \"C\", it's essentially fixed in place. We only need to figure out the arrangements of the remaining letters.\n* **Positions for the other letters:** We have 4 remaining positions for the letters \"O\", \"U\", \"N\", and \"T\".\n* **Choices for the first position:** We have 4 options for which letter goes in the first position after the \"C\".\n* **Choices for the second position:** Once we've placed the first letter, we only have 3 options left for the second position.\n* **Continuing the pattern:**  We continue in this way: 2 choices for the third position, and finally 1 choice for the last position.\nSo, the total number of different orders is: 4 * 3 * 2 * 1 = **24** \n**Therefore, there are 24 different orders in which the letters can appear.** \n",
+        "Here's how to solve this problem:\n* **Starting Point:** We always begin with the letter \"C.\"\n* **Second Letter:**  There are 4 remaining spots for the second letter.\n* **Third Letter:** After placing the second letter, there are 3 spots left for the third letter.\n* **Fourth Letter:** Two spots remain for the fourth letter.\n* **Fifth Letter:** The final letter automatically goes in the last spot.\nTherefore, the total number of different orders is: 4 * 3 * 2 * 1 = **24** \n",
+        "Here's how to solve this problem:\n* **Start with C:**  Since we always begin with \"C,\" it's fixed in its position.\n* **Second Letter:** There are 4 remaining positions for the second letter (O, U, N, or T).\n* **Third Letter:** After placing the second letter, there are only 3 positions left for the third letter.\n* **Fourth Letter:** There are 2 positions remaining for the fourth letter.\n* **Fifth Letter:**  The final letter automatically goes in the last remaining position.\nTherefore, the total number of different orders is 4 * 3 * 2 = **24**. \n",
+        "Here's how to solve this problem:\n* **Starting Point:** We always start with the letter \"C\", so that's fixed. \n* **Remaining Letters:** We have 4 remaining letters (O, U, N, T) that can be arranged in any order.\n* **Permutations:** The number of ways to arrange 4 distinct objects is 4!, which is 4 * 3 * 2 * 1 = 24.\n**Therefore, there are 24 different orders in which the letters can appear around the circle.** \n",
+        "Here's how to solve this problem:\n* **Starting Point:**  We always start with the letter C, so that's fixed.\n* **Remaining Letters:**  We have 4 remaining letters (O, U, N, T) to arrange.\n* **Choices:**\n    * For the second position, we have 4 choices (any of the remaining letters).\n    * For the third position, we have 3 choices left.\n    * For the fourth position, we have 2 choices left.\n    * For the final position, we only have 1 choice left.\n* **Total Arrangements:** To find the total number of different orders, we multiply the number of choices at each step: 4 * 3 * 2 * 1 = 24\n**Therefore, there are 24 different orders the letters can appear in.** \n"
+    ],
+    "pred_answers": "24",
+    "final_pred_answer": [
+        "24",
+        "24",
+        "24",
+        "24",
+        "24"
+    ],
+    "ground_truth": "24"
+}

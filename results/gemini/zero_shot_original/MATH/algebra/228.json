@@ -1,0 +1,23 @@
+{
+    "problem": "Find the value of $x$ that satisfies $\\frac{1}{3x-1} = \\frac{2}{x+1}$.",
+    "level": "Level 2",
+    "type": "Algebra",
+    "solution": "Cross multiplying, we obtain $ x+1 = 2(3x-1)$. (This is the same thing as multiplying both sides by both $3x-1$ and by $x+1$.)  Then, we solve for $x$: \\begin{align*}\nx+1 &= 2(3x-1)\\\\\n\\Rightarrow \\qquad x+1 &= 6x-2\\\\\n\\Rightarrow \\qquad-5x &= -3\\\\\n\\Rightarrow \\qquad x &= \\boxed{\\frac{3}{5}}.\n\\end{align*}",
+    "prompt": "### Instruction: Find the value of $x$ that satisfies $\\frac{1}{3x-1} = \\frac{2}{x+1}$.\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "Here's how to solve for *x*:\n**1. Cross-multiplication:**\nMultiply both sides of the equation by $(3x-1)(x+1)$:\n```\n(x+1) = 2(3x-1) \n```\n**2. Distribute:**\nExpand both sides:\n```\nx + 1 = 6x - 2 \n```\n**3. Isolate x:**\n* Subtract *x* from both sides: \n   ```\n   1 = 5x - 2\n   ```\n* Add 2 to both sides:\n   ```\n   3 = 5x\n   ```\n**4. Solve for x:**\n* Divide both sides by 5:\n   ```\n   x = \\frac{3}{5}\n   ```\n**Therefore, the value of x that satisfies the equation is x = 3/5.** \n",
+        "Here's how to solve the equation step-by-step:\n1. **Cross-multiply:**  To get rid of the fractions, multiply both sides of the equation by $(3x-1)(x+1)$:\n   \n   ```\n   (3x-1)(x+1) *  (1/(3x-1)) = (3x-1)(x+1) * (2/(x+1)) \n   ```\n2. **Simplify:** Cancel out the common factors:\n   ```\n   x + 1 = 2(3x - 1)\n   ```\n3. **Distribute:** Expand the right side of the equation:\n   ```\n   x + 1 = 6x - 2\n   ```\n4. **Isolate x:** Subtract x from both sides and add 2 to both sides:\n   ```\n   3 = 5x \n   ```\n5. **Solve for x:** Divide both sides by 5:\n   ```\n   x = \\frac{3}{5}\n   ```\n**Therefore, the value of x that satisfies the equation is  x = 3/5.** \n",
+        "Here's how to solve the equation step-by-step:\n1. **Cross-multiply:**  Multiply both sides of the equation by $(3x-1)$ and $(x+1)$ to get rid of the fractions:\n   \n   ```\n   (3x-1) * (x+1) * (1/(3x-1)) = (3x-1) * (x+1) * (2/(x+1)) \n   ```\n2. **Simplify:** This leaves us with:\n   ```\n   x + 1 = 2(3x - 1)\n   ```\n3. **Distribute:** Expand the right side of the equation:\n   ```\n   x + 1 = 6x - 2\n   ```\n4. **Combine like terms:**  Subtract *x* from both sides and add 2 to both sides:\n   ```\n   3 = 5x\n   ```\n5. **Solve for x:** Divide both sides by 5:\n   ```\n   x = \\boxed{\\frac{3}{5}} \n   ``` \n",
+        "1. **Cross-multiply:** To get rid of the fractions, we can cross-multiply. This means multiplying the numerator of the left side by the denominator of the right side, and vice versa. This gives us:\n   \n   (1)(x+1) = (2)(3x-1)\n2. **Simplify:** Expanding both sides of the equation, we get:\n   x + 1 = 6x - 2\n3. **Solve for x:**  Now we can solve for x by isolating it on one side of the equation. First, subtract x from both sides:\n   1 = 5x - 2\n   Then, add 2 to both sides:\n   3 = 5x\n   Finally, divide both sides by 5:\n   x = **3/5**\nTherefore, the value of x that satisfies the equation is **x = 3/5**. \n",
+        "Here's how to solve the equation step-by-step:\n1. **Cross-multiply:** To get rid of the fractions, multiply both sides of the equation by $(3x-1)(x+1)$:\n   \n   ```\n   (3x-1)(x+1) * (1/(3x-1)) = (3x-1)(x+1) * (2/(x+1))\n   ```\n2. **Simplify:** Cancel out the common factors on each side:\n   ```\n   x+1 = 2(3x-1)\n   ```\n3. **Distribute:** Expand the right side of the equation:\n   ```\n   x + 1 = 6x - 2\n   ```\n4. **Solve for x:**  \n   * Subtract *x* from both sides: \n     ```\n     1 = 5x - 2\n     ```\n   * Add 2 to both sides:\n     ```\n     3 = 5x\n     ```\n   * Divide both sides by 5:\n     ```\n     x = 3/5\n     ```\n**Therefore, the value of x that satisfies the equation is x = 3/5.** \n"
+    ],
+    "pred_answers": "5",
+    "final_pred_answer": [
+        "5",
+        "5",
+        "5",
+        "5",
+        "5"
+    ],
+    "ground_truth": "5"
+}

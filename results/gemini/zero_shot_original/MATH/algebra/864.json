@@ -1,0 +1,23 @@
+{
+    "problem": "What is the largest number $c$ such that $2x^2+5x+c=0$ has at least one real solution? Express your answer as a common fraction.",
+    "level": "Level 4",
+    "type": "Algebra",
+    "solution": "In order for this quadratic to have at least one real solution, its discriminant must be non-negative. In other words, $b^2 - 4ac = 5^2 - 4(2)(c) = 25 - 8c \\ge 0$. Rearranging, we have $25 \\ge 8c$. Dividing by 8, we have $25/8 \\ge c$. Therefore, the largest possible value of $c$ such that this quadratic has a real solution is $\\boxed{\\frac{25}{8}}$.",
+    "prompt": "### Instruction: What is the largest number $c$ such that $2x^2+5x+c=0$ has at least one real solution? Express your answer as a common fraction.\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "A quadratic equation has at least one real solution if and only if its discriminant is nonnegative. The discriminant of $2x^2 + 5x + c = 0$ is $5^2 - 4 \\cdot 2 \\cdot c = 25 - 8c$.  Therefore, we want $25-8c \\ge 0$.  Solving for $c$, we find $c \\le \\boxed{\\frac{25}{8}}$. \n",
+        "A quadratic equation has at least one real solution if and only if its discriminant is non-negative.  The discriminant of $2x^2 + 5x + c = 0$ is $5^2 - 4 \\cdot 2 \\cdot c = 25 - 8c$.  Thus, we want $25 - 8c \\ge 0$, which means $c \\le \\frac{25}{8}$.  The largest such value of $c$ is $\\boxed{\\frac{25}{8}}$. \n",
+        "A quadratic equation has at least one real solution if and only if its discriminant is nonnegative. The discriminant of $2x^2 + 5x + c$ is $5^2 - 4 \\cdot 2 \\cdot c = 25 - 8c$.  We want this to be nonnegative, so $25 - 8c \\ge 0$.  Solving for $c$, we find $c \\le \\boxed{\\frac{25}{8}}$. \n",
+        "A quadratic equation has at least one real solution if and only if its discriminant is non-negative.  The discriminant of $2x^2 + 5x + c = 0$ is $5^2 - 4 \\cdot 2 \\cdot c = 25 - 8c$.  We want $25 - 8c \\ge 0$, which means $c \\le \\frac{25}{8}$.  The largest such value of $c$ is $\\boxed{\\frac{25}{8}}$. \n",
+        "A quadratic equation has at least one real solution if and only if its discriminant is non-negative.  The discriminant of $ax^2 + bx + c = 0$ is $b^2 - 4ac$, so in this case, the discriminant is $5^2 - 4 \\cdot 2 \\cdot c = 25 - 8c$.  We want this to be non-negative, so $25 - 8c \\ge 0$.  Solving for $c$, we find $c \\le \\boxed{\\frac{25}{8}}$. \n"
+    ],
+    "pred_answers": "8",
+    "final_pred_answer": [
+        "8",
+        "8",
+        "8",
+        "8",
+        "8"
+    ],
+    "ground_truth": "8"
+}

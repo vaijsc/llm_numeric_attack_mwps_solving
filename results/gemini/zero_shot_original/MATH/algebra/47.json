@@ -1,0 +1,23 @@
+{
+    "problem": "Simplify $(2-2i)(5+5i)$, where $i^2 = -1.$",
+    "level": "Level 3",
+    "type": "Algebra",
+    "solution": "$(2-2i)(5+5i) = 2(5) + 2(5i) -2i(5) -2i(5i) = 10+10i-10i +10 = \\boxed{20}$.",
+    "prompt": "### Instruction: Simplify $(2-2i)(5+5i)$, where $i^2 = -1.$\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "We can simplify this expression by using the distributive property (also known as FOIL):\n1. **FOIL:**\n   * **F**irst: (2)(5) = 10\n   * **O**uter: (2)(5i) = 10i\n   * **I**nner: (-2i)(5) = -10i\n   * **L**ast: (-2i)(5i) = -10i\u00b2\n2. **Combine terms:** \n   10 + 10i - 10i - 10i\u00b2\n3. **Substitute i\u00b2 = -1:** \n   10 + 10i - 10i - 10(-1)\n4. **Simplify:** \n   10 + 10i - 10i + 10 = **20**\nTherefore, $(2-2i)(5+5i) = \\boxed{20}$. \n",
+        "### Response:\n1. **Expand the product:**\n   (2 - 2i)(5 + 5i) = 2(5 + 5i) - 2i(5 + 5i)\n2. **Distribute:**\n   = 10 + 10i - 10i - 10i\u00b2\n3. **Substitute i\u00b2 with -1:**\n   = 10 + 10i - 10i - 10(-1)\n4. **Simplify:**\n   = 10 + 10i - 10i + 10\n5. **Combine like terms:**\n   = **20**\nTherefore, (2 - 2i)(5 + 5i) simplifies to **20**. \n",
+        "### Response:\n1. **Expand the product:** \n   We use the distributive property (FOIL method) to expand the product:\n   \n   (2 - 2i)(5 + 5i) = (2 * 5) + (2 * 5i) + (-2i * 5) + (-2i * 5i)\n2. **Simplify:** \n   \n   = 10 + 10i - 10i - 10i\u00b2\n3. **Substitute i\u00b2 = -1:**\n   = 10 + 10i - 10i - 10(-1)\n4. **Combine terms:**\n   = 10 + 10 = **20** \nTherefore, $(2-2i)(5+5i) = \\boxed{20}$. \n",
+        "Here's how to simplify the expression:\n**1. Expand the product:**\nWe can expand the expression using the distributive property (or FOIL method):\n(2 - 2i)(5 + 5i) = (2 * 5) + (2 * 5i) + (-2i * 5) + (-2i * 5i)\n**2. Simplify:**\nThis gives us:\n10 + 10i - 10i - 10i\u00b2\n**3. Substitute i\u00b2 = -1:**\nSince we know i\u00b2 = -1, we can replace it:\n10 + 10i - 10i - 10(-1)\n**4. Combine like terms:**\nCombining the real and imaginary terms, we get:\n10 + 10 = 20\n**Therefore, (2 - 2i)(5 + 5i) simplifies to 20.** \n",
+        "1. **Expand the product:**\n   (2 - 2i)(5 + 5i) = 2(5 + 5i) - 2i(5 + 5i) \n2. **Distribute:**\n   = 10 + 10i - 10i - 10i\u00b2\n3. **Simplify using i\u00b2 = -1:**\n   = 10 + 10i - 10i + 10\n4. **Combine like terms:**\n   = 10 + 10 = 20\nTherefore, (2 - 2i)(5 + 5i) simplifies to **20**. \n"
+    ],
+    "pred_answers": "20",
+    "final_pred_answer": [
+        "20",
+        "20",
+        "20",
+        "20",
+        "20"
+    ],
+    "ground_truth": "20"
+}

@@ -1,0 +1,23 @@
+{
+    "problem": "What is the smallest positive four-digit integer that is the product of two consecutive integers?",
+    "level": "Level 2",
+    "type": "Algebra",
+    "solution": "We look for the smallest positive integer $n$ for which $n(n+1)$ is greater than 999.  We expect this value of $n$ to be near $\\sqrt{1000}$, which is between 31 and 32. Trying $n=31$, we find that $31(32)=992$. Adding 1 gives us $n=32$ and $32(33)=\\boxed{1056}$.",
+    "prompt": "### Instruction: What is the smallest positive four-digit integer that is the product of two consecutive integers?\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "Here's how to solve this problem:\n**1. Understand the problem:**\nWe need to find two consecutive integers that multiply to give a four-digit number. Since we want the smallest possible four-digit number, we should start by considering integers close to the square root of the smallest four-digit number (1000).\n**2. Find the approximate square root:**\nThe square root of 1000 is slightly more than 31.  Therefore, we should look at integers around 31 and 32.\n**3. Test consecutive integers:**\n* 31 * 32 = 992 (too small)\n* 32 * 33 = 1056 (this is a four-digit number!)\n**4. Answer:**\nThe smallest positive four-digit integer that is the product of two consecutive integers is **1056**. \n",
+        "Here's how to solve this problem:\n**1. Understand the Problem:**\nWe need to find a four-digit number that can be formed by multiplying two consecutive integers.\n**2. Estimate the Range:**\n* The square root of the smallest four-digit number (1000) is a bit over 31.\n* The square root of the largest four-digit number (9999) is a bit under 100.\nThis means the two consecutive integers we're looking for will be somewhere between 31 and 100.\n**3. Test Consecutive Integers:**\nStart testing pairs of consecutive integers within that range:\n* 31 x 32 = 992 (too small)\n* 32 x 33 = 1056 (too big)\n* 31 x 32 = 992 (too small)\n* 32 x 33 = 1056 (too big)\n**4. Find the Solution:**\nSince 31 x 32 is too small, and 32 x 33 is too big, the smallest four-digit number that is the product of two consecutive integers must be **1056**.\n**Answer:** The smallest positive four-digit integer that is the product of two consecutive integers is 1056. \n",
+        "Here's how to solve the problem:\n**1. Understanding the problem:**\nWe need to find two consecutive integers whose product is a four-digit number.  Since we're looking for the smallest such number, the integers should be as small as possible.\n**2. Estimating:**\n* The square root of 1000 (the smallest four-digit number) is a little over 31. \n* This means the two consecutive integers we're looking for are likely close to 31.\n**3. Trying:**\n* 31 x 32 = 992 (too small)\n* 32 x 33 = 1056 (this works!)\n**4. Answer:**\nThe smallest positive four-digit integer that is the product of two consecutive integers is **1056**. \n",
+        "Here's how to find the smallest four-digit integer that's the product of consecutive integers:\n**Understanding the Problem**\n* We need a number between 1000 and 9999.\n* This number must be the result of multiplying two numbers that are right next to each other (consecutive).\n**Finding the Numbers**\n1. **Estimate:** Since 30 x 30 = 900 and 40 x 40 = 1600, the consecutive integers we're looking for lie between 30 and 40.\n2. **Check Consecutive Pairs:**  Let's test some consecutive pairs:\n   * 31 x 32 = 992 (too small)\n   * 32 x 33 = 1056 \n**Answer:**\nThe smallest four-digit integer that is the product of two consecutive integers is **1056**. \n",
+        "Here's how to find the smallest four-digit integer that's the product of consecutive integers:\n**1. Understanding the Problem:**\n* We need a number that's formed by multiplying two numbers that are right next to each other in the number line (consecutive).\n* This number must be a four-digit integer, meaning it must be greater than or equal to 1000.\n**2. Finding the Range:**\n* Think about the square roots of numbers close to 1000. The square root of 1000 is a bit more than 31.\n*  This means the two consecutive integers we're looking for are likely around 30 and 31 (since 30 * 31 is close to 1000).\n**3. Checking:**\n* 30 * 31 = 930 (too small)\n* 31 * 32 = 992 (too small)\n* 32 * 33 = 1056 (This is the smallest four-digit integer that fits the criteria!)\n**Answer:** The smallest positive four-digit integer that is the product of two consecutive integers is **1056**. \n"
+    ],
+    "pred_answers": "1056",
+    "final_pred_answer": [
+        "1056",
+        "1056",
+        "1056",
+        "1056",
+        "1056"
+    ],
+    "ground_truth": "1056"
+}

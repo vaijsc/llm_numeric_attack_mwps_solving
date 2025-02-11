@@ -1,0 +1,23 @@
+{
+    "problem": "If $f(x) = x^2 - 1$ and $g(x) = x + 7,$ evaluate $f(g(7)) + g(f(3)).$",
+    "level": "Level 3",
+    "type": "Algebra",
+    "solution": "We just plug into our function definitions given in the problem:\n\n\\begin{align*}\nf(g(7)) + g(f(3)) &= f(7 + 7) + g(3^2 - 1) \\\\\n&= f(14) + g(8) = (14^2 - 1) + (8 + 7) \\\\\n&= 195 + 15 = \\boxed{210}\n\\end{align*}",
+    "prompt": "### Instruction: If $f(x) = x^2 - 1$ and $g(x) = x + 7,$ evaluate $f(g(7)) + g(f(3)).$\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "Here's how to solve the problem step by step:\n1. **Find g(7):** \n   Since  g(x) = x + 7,  we have g(7) = 7 + 7 = 14.\n2. **Find f(g(7)) which is f(14):**\n   Since f(x) = x\u00b2 - 1, we have f(14) = 14\u00b2 - 1 = 196 - 1 = 195.\n3. **Find f(3):**\n   Since f(x) = x\u00b2 - 1, we have f(3) = 3\u00b2 - 1 = 9 - 1 = 8.\n4. **Find g(f(3)) which is g(8):**\n   Since g(x) = x + 7, we have g(8) = 8 + 7 = 15.\n5. **Calculate f(g(7)) + g(f(3)):**\n   We found f(g(7)) = 195 and g(f(3)) = 15, so:\n   f(g(7)) + g(f(3)) = 195 + 15 = **210** \n",
+        "Here's how to solve the problem step-by-step:\n**1. Find g(7):**\n* Substitute 7 for *x* in the function *g(x)*: \n   * g(7) = 7 + 7 = 14\n**2. Find f(g(7)) which is f(14):**\n* Substitute 14 for *x* in the function *f(x)*:\n   * f(14) = 14\u00b2 - 1 = 196 - 1 = 195\n**3. Find f(3):**\n* Substitute 3 for *x* in the function *f(x)*:\n   * f(3) = 3\u00b2 - 1 = 9 - 1 = 8\n**4. Find g(f(3)) which is g(8):**\n* Substitute 8 for *x* in the function *g(x)*:\n   * g(8) = 8 + 7 = 15\n**5. Calculate f(g(7)) + g(f(3))**\n* Add the results from steps 2 and 4:\n   * f(g(7)) + g(f(3)) = 195 + 15 = 210\n**Therefore, f(g(7)) + g(f(3)) = 210** \n",
+        "Here's how to solve this problem step-by-step:\n**1. Find g(7):**\n*  Substitute 7 for *x* in the expression for *g(x)*:\n   *  g(7) = 7 + 7 = 14\n**2. Find f(g(7)), which is f(14):**\n* Substitute 14 for *x* in the expression for *f(x)*:\n   * f(14) = 14\u00b2 - 1 = 196 - 1 = 195\n**3. Find f(3):**\n* Substitute 3 for *x* in the expression for *f(x)*:\n   * f(3) = 3\u00b2 - 1 = 9 - 1 = 8\n**4. Find g(f(3)), which is g(8):**\n* Substitute 8 for *x* in the expression for *g(x)*:\n   * g(8) = 8 + 7 = 15\n**5. Finally, calculate f(g(7)) + g(f(3)):**\n* f(g(7)) + g(f(3)) = 195 + 15 = 210\n**Therefore, f(g(7)) + g(f(3)) = 210** \n",
+        "Here's how to break down the problem step-by-step:\n1. **Find g(7):** \n   * Substitute 7 for *x* in the function *g(x)*:\n     *  *g(7) = 7 + 7 = 14*\n2. **Find f(g(7)), which is f(14):**\n   * Substitute 14 for *x* in the function *f(x)*:\n     *  *f(14) = 14\u00b2 - 1 = 196 - 1 = 195*\n3. **Find f(3):**\n   * Substitute 3 for *x* in the function *f(x)*:\n     * *f(3) = 3\u00b2 - 1 = 9 - 1 = 8*\n4. **Find g(f(3)), which is g(8):**\n   * Substitute 8 for *x* in the function *g(x)*:\n     *  *g(8) = 8 + 7 = 15*\n5. **Finally, calculate f(g(7)) + g(f(3)):**\n   *  *f(g(7)) + g(f(3)) = 195 + 15 = 210*\n**Therefore, f(g(7)) + g(f(3)) = 210** \n",
+        "Here's how to solve the problem step-by-step:\n**1. Find g(7):**\n* Substitute 7 for *x* in the expression for *g(x)*:\n   *  *g(7) = 7 + 7 = 14*\n**2. Find f(g(7)), which is f(14):**\n* Substitute 14 for *x* in the expression for *f(x)*:\n   * *f(14) = 14\u00b2 - 1 = 196 - 1 = 195*\n**3. Find f(3):**\n* Substitute 3 for *x* in the expression for *f(x)*:\n   * *f(3) = 3\u00b2 - 1 = 9 - 1 = 8*\n**4. Find g(f(3)), which is g(8):**\n* Substitute 8 for *x* in the expression for *g(x)*:\n   * *g(8) = 8 + 7 = 15*\n**5. Calculate f(g(7)) + g(f(3)):**\n* We found that *f(g(7)) = 195* and *g(f(3)) = 15*.  Add these together:\n   * *f(g(7)) + g(f(3)) = 195 + 15 = 210*\n**Therefore, f(g(7)) + g(f(3)) = 210** \n"
+    ],
+    "pred_answers": "210",
+    "final_pred_answer": [
+        "210",
+        "210",
+        "210",
+        "210",
+        "210"
+    ],
+    "ground_truth": "210"
+}

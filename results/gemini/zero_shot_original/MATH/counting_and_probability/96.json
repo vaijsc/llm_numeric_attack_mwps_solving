@@ -1,0 +1,23 @@
+{
+    "problem": "What is the value of $(8-4)!\\div(8-3)!$? Express your answer as a common fraction.",
+    "level": "Level 1",
+    "type": "Counting & Probability",
+    "solution": "$(8-4)!\\div(8-3)!=4!\\div5!=4!\\div(4!\\cdot5)=\\boxed{\\frac{1}{5}}$.",
+    "prompt": "### Instruction: What is the value of $(8-4)!\\div(8-3)!$? Express your answer as a common fraction.\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "1. **Simplify inside the parentheses:** \n   * (8 - 4) = 4\n   * (8 - 3) = 5\n2. **Calculate the factorials:**\n   * 4! = 4 * 3 * 2 * 1 = 24\n   * 5! = 5 * 4 * 3 * 2 * 1 = 120\n3. **Divide the factorials:**\n   * 24 / 120 = 1/5\n**Therefore, the value of (8-4)!\\div(8-3)! is 1/5.** \n",
+        "Here's how to solve the problem step-by-step:\n1. **Simplify inside the parentheses:**\n   * (8 - 4) = 4\n   * (8 - 3) = 5\n2. **Calculate the factorials:**\n   * 4! = 4 * 3 * 2 * 1 = 24\n   * 5! = 5 * 4 * 3 * 2 * 1 = 120\n3. **Divide the factorials:**\n   * 24 \u00f7 120 = **1/5** \nTherefore, the value of $(8-4)!\\div(8-3)!$ is **1/5**. \n",
+        "Here's how to solve the problem step-by-step:\n1. **Simplify inside the parentheses:**\n   * (8 - 4) = 4\n   * (8 - 3) = 5\n2. **Calculate the factorials:**\n   * 4! = 4 * 3 * 2 * 1 = 24\n   * 5! = 5 * 4 * 3 * 2 * 1 = 120\n3. **Divide the factorials:**\n   * 24 \u00f7 120 = 1/5\n**Therefore, the value of (8-4)! \u00f7 (8-3)! is 1/5.** \n",
+        "Here's how to solve the problem step-by-step:\n1. **Simplify inside the parentheses:**\n   *  (8 - 4) = 4\n   *  (8 - 3) = 5\n2. **Calculate the factorials:**\n   *  4! = 4 * 3 * 2 * 1 = 24\n   *  5! = 5 * 4 * 3 * 2 * 1 = 120\n3. **Divide the factorials:**\n   *  24 / 120 = 1/5\n**Therefore, the value of (8-4)! / (8-3)! is 1/5.** \n",
+        "1. **Simplify inside the parentheses:**  \n   (8 - 4)! = 4! and (8 - 3)! = 5!\n2. **Calculate the factorials:**\n   4! = 4 * 3 * 2 * 1 = 24\n   5! = 5 * 4 * 3 * 2 * 1 = 120\n3. **Divide the results:**\n   24 / 120 = **1/5** \nTherefore, the value of (8 - 4)! \u00f7 (8 - 3)! is **1/5**. \n"
+    ],
+    "pred_answers": "5",
+    "final_pred_answer": [
+        "5",
+        "5",
+        "5",
+        "5",
+        "5"
+    ],
+    "ground_truth": "5"
+}

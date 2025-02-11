@@ -1,0 +1,23 @@
+{
+    "problem": "Today a father's age is five times his son's age. Exactly three years ago, the sum of their ages was 30. How old is the son today?",
+    "level": "Level 2",
+    "type": "Algebra",
+    "solution": "Let $x$ be the son's age today and his father's age $y$.  We know: $5x = y$, and that $(x -3) + (y -3) = 30$.  Substituting the first equation into the second, we get: $6x = 36$, and thus, $x=\\boxed{6}$.",
+    "prompt": "### Instruction: Today a father's age is five times his son's age. Exactly three years ago, the sum of their ages was 30. How old is the son today?\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "Here's how to solve this problem step-by-step:\n**1. Define Variables:**\n* Let 'x' represent the son's current age.\n* The father's current age is 5x.\n**2. Set up Equations:**\n* **Today:**  Father's age (5x) + Son's age (x) = Total age today\n* **Three Years Ago:** (Father's age - 3) + (Son's age - 3) = 30\n**3. Solve the Equations:**\n* **Equation 1:** 5x + x = Total age today\n* **Equation 2:** (5x - 3) + (x - 3) = 30\n**4. Simplify Equation 2:**\n* 6x - 6 = 30\n* 6x = 36\n**5. Solve for x (Son's Age):**\n* x = 36 / 6\n* x = 6\n**Therefore, the son is 6 years old today.** \n",
+        "Here's how to solve this problem step-by-step:\n**Let's use variables:**\n* Let the son's current age be \"s\"\n* Let the father's current age be \"f\"\n**Set up equations based on the given information:**\n* **Today:**  f = 5s  (The father's age is five times the son's age)\n* **Three years ago:** (f - 3) + (s - 3) = 30  (The sum of their ages three years ago was 30)\n**Now we can solve for \"s\" (the son's age):**\n1. **Simplify the second equation:** f + s - 6 = 30\n2. **Combine like terms:** f + s = 36\n3. **Substitute the value of \"f\" from the first equation into the second equation:** 5s + s = 36\n4. **Combine like terms:** 6s = 36\n5. **Solve for \"s\":** s = 6\n**Therefore, the son is 6 years old today.** \n",
+        "Here's how to solve this word problem step-by-step:\n**1. Define Variables:**\n* Let  'x' represent the son's current age.\n* The father's current age is '5x' (five times the son's age).\n**2. Set Up Equations Based on the Information:**\n* **Today:**  The father's age is 5x, and the son's age is x.\n* **Three years ago:** The father's age was (5x - 3), and the son's age was (x - 3).\n**3. Formulate the Equation:**\nThe problem states that three years ago, the sum of their ages was 30. So, we can write the equation:\n(5x - 3) + (x - 3) = 30\n**4. Solve the Equation:**\n* Combine like terms: 6x - 6 = 30\n* Add 6 to both sides: 6x = 36\n* Divide both sides by 6: x = 6\n**Answer:** The son is currently **6 years old**. \n",
+        "Here's how to solve this problem step-by-step:\n**Let's use variables:**\n* Let 'x' represent the son's current age.\n* The father's current age is 5x.\n**Three years ago:**\n* The son's age was x - 3.\n* The father's age was 5x - 3.\n**Set up the equation:**\nThe problem states that three years ago, the sum of their ages was 30:\n(x - 3) + (5x - 3) = 30\n**Solve for x:**\n1. Combine like terms: 6x - 6 = 30\n2. Add 6 to both sides: 6x = 36\n3. Divide both sides by 6: x = 6\n**Answer:** The son is currently **6 years old**. \n",
+        "Here's how to solve the problem step-by-step:\n**Let's use variables:**\n* Let 'x' represent the son's current age.\n* The father's current age is 5x.\n**Set up equations based on the information given:**\n* **Today:**  Father's age (5x) + Son's age (x) = 6x\n* **Three years ago:** (Father's age - 3) + (Son's age - 3) = 30\n**Solve the equations:**\n1. **Simplify the equation for three years ago:** (5x - 3) + (x - 3) = 30\n2. **Combine like terms:** 6x - 6 = 30\n3. **Add 6 to both sides:** 6x = 36\n4. **Divide both sides by 6:** x = 6\n**Answer:** The son is currently **6 years old**. \n"
+    ],
+    "pred_answers": "6",
+    "final_pred_answer": [
+        "6",
+        "6",
+        "6",
+        "6",
+        "6"
+    ],
+    "ground_truth": "6"
+}

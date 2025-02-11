@@ -1,0 +1,23 @@
+{
+    "problem": "What is the product of the coordinates of the midpoint of a line segment with endpoints at $(1,1)$ and $(-7,5)$?",
+    "level": "Level 2",
+    "type": "Algebra",
+    "solution": "We see that the midpoint has coordinates $\\left(\\frac{1 + (-7)}{2}, \\frac{1+5}{2}\\right) = (-3, 3)$.  Thus our desired answer is $-3\\cdot 3 = \\boxed{-9}$.",
+    "prompt": "### Instruction: What is the product of the coordinates of the midpoint of a line segment with endpoints at $(1,1)$ and $(-7,5)$?\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "Here's how to solve this problem step-by-step:\n**1. Find the midpoint:**\n* The midpoint of a line segment is found by averaging the x-coordinates and averaging the y-coordinates.\n* Midpoint =  ((1 + (-7))/2 , (1 + 5)/2) = (-3, 3)\n**2. Find the product of the coordinates:**\n* The product of the coordinates of the midpoint is (-3) * 3 = **-9**\n**Therefore, the product of the coordinates of the midpoint is -9.** \n",
+        "Here's how to solve the problem step-by-step:\n1. **Find the midpoint:**\n   - The midpoint of a line segment is found by averaging the x-coordinates and the y-coordinates of the endpoints.\n   - Midpoint x-coordinate: (1 + (-7))/2 = -3\n   - Midpoint y-coordinate: (1 + 5)/2 = 3\n2. **The midpoint is (-3, 3).**\n3. **Find the product of the coordinates:**\n   - Product = (-3) * (3) = **-9**\nTherefore, the product of the coordinates of the midpoint is **-9**. \n",
+        "Here's how to solve the problem step-by-step:\n**1. Find the midpoint:**\n* The midpoint of a line segment is found by averaging the x-coordinates and averaging the y-coordinates.\n* Midpoint = ((1 + (-7))/2, (1 + 5)/2) = (-3, 3)\n**2. Find the product of the coordinates:**\n* The product of the coordinates of the midpoint (-3, 3) is (-3) * (3) = **-9**. \n**Therefore, the product of the coordinates of the midpoint is -9.** \n",
+        "Here's how to find the product of the coordinates of the midpoint:\n**1. Find the midpoint:**\n* **Midpoint formula:** The midpoint of a line segment with endpoints (x1, y1) and (x2, y2) is:\n   ((x1 + x2)/2, (y1 + y2)/2)\n* **Apply the formula:**\n    *  x-coordinate of midpoint: (1 + (-7))/2 = -3\n    *  y-coordinate of midpoint: (1 + 5)/2 = 3\n* **Midpoint:** (-3, 3)\n**2. Find the product of the coordinates:**\n* **Product:** (-3) * (3) = -9\n**Therefore, the product of the coordinates of the midpoint is -9.** \n",
+        "Here's how to solve the problem step-by-step:\n**1. Find the midpoint:**\n* The midpoint of a line segment is found by averaging the x-coordinates and the y-coordinates of the endpoints.\n* Midpoint x-coordinate: (1 + (-7))/2 = -3\n* Midpoint y-coordinate: (1 + 5)/2 = 3\n**2. Find the product of the coordinates:**\n* The product of the coordinates of the midpoint is (-3) * 3 = -9\n**Therefore, the product of the coordinates of the midpoint is -9.** \n"
+    ],
+    "pred_answers": "-9",
+    "final_pred_answer": [
+        "-9",
+        "-9",
+        "-9",
+        "-9",
+        "-9"
+    ],
+    "ground_truth": "-9"
+}

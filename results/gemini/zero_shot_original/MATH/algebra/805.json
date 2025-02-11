@@ -1,0 +1,23 @@
+{
+    "problem": "Simplify $\\frac{(10r^3)(4r^6)}{8r^4}$.",
+    "level": "Level 2",
+    "type": "Algebra",
+    "solution": "We have  \\[\\frac{(10r^3)(4r^6)}{8r^4}= \\frac{40r^{3+6}}{8r^4} = \\frac{40}{8}r^{3+6-4} = \\boxed{5r^5}.\\]",
+    "prompt": "### Instruction: Simplify $\\frac{(10r^3)(4r^6)}{8r^4}$.\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "**1. Simplify the numerator:**\n* Multiply the coefficients: (10)(4) = 40\n* Multiply the variables:  r\u00b3 * r\u2076 = r\u2079  (Remember: when multiplying exponents with the same base, add the powers)\n**2. Combine the numerator and denominator:**\n* Now we have: (40r\u2079) / 8r\u2074\n**3. Simplify by dividing the coefficients and subtracting the exponents of the variables:**\n* 40 / 8 = 5\n* r\u2079 / r\u2074 = r\u2075 (Remember: when dividing exponents with the same base, subtract the powers)\n**Therefore, the simplified expression is 5r\u2075** \n",
+        "1. **Multiply the numerators:**  (10r\u00b3)(4r\u2076) = 40r\u2079 \n2. **Rewrite the expression:**  The expression now becomes 40r\u2079 / 8r\u2074\n3. **Simplify the coefficients:** 40/8 = 5\n4. **Simplify the variables:** r\u2079 / r\u2074 = r\u2075 (using the rule that x\u1d43 / x\u1d47 = x\u1d43\u207b\u1d47)\n5. **Combine the results:** 5r\u2075\nTherefore, the simplified expression is **5r\u2075**. \n",
+        "Here's how to simplify the expression step-by-step:\n1. **Multiply the numerators:**\n   (10r\u00b3)(4r\u2076) = 40r\u2079 \n2. **Now the expression looks like this:**\n   (40r\u2079) / (8r\u2074)\n3. **Simplify by dividing the coefficients and subtracting the exponents of the 'r' terms:**\n   40/8 = 5\n   r\u2079 / r\u2074 = r\u2075\n4. **The simplified expression is:**\n   **5r\u2075** \n",
+        "1. **Multiply the coefficients:** (10)(4) = 40\n2. **Multiply the variables:**  r\u00b3 * r\u2076 = r\u2079 \n3. **Combine the results:**  (40r\u2079) / 8r\u2074\n4. **Simplify by dividing the coefficients:** 40 / 8 = 5\n5. **Simplify by dividing the variables:** r\u2079 / r\u2074 = r\u2075 \nTherefore, the simplified expression is **5r\u2075**. \n",
+        "Here's how to simplify the expression step-by-step:\n1. **Multiply the numerators:** \n   (10r\u00b3)(4r\u2076) = 40r\u2079\n2. **Now we have:** \n   (40r\u2079) / (8r\u2074)\n3. **Simplify the coefficients:**\n   40 / 8 = 5\n4. **Simplify the variables using the quotient rule of exponents (x^m / x^n = x^(m-n)):**\n   r\u2079 / r\u2074 = r\u2075\n5. **Combine the simplified terms:**\n   5r\u2075\n**Therefore, the simplified expression is 5r\u2075.** \n"
+    ],
+    "pred_answers": "5",
+    "final_pred_answer": [
+        "5",
+        "5",
+        "5",
+        "5",
+        "5"
+    ],
+    "ground_truth": "5"
+}

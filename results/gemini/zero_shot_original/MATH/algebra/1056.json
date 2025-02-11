@@ -1,0 +1,23 @@
+{
+    "problem": "Marsha adds all but one of the first ten positive integers. Her sum is a square number. Which one of the first ten positive integers did Marsha not include?",
+    "level": "Level 2",
+    "type": "Algebra",
+    "solution": "Let's find the sum of the first ten positive integers: $1+2+\\ldots+10=\\frac{10(1+10)}{2}=55$. Now we need to find which of the first ten positive integers, when subtracted from 55, gives a perfect square, namely 49 (36 is 19 away from 55, so it cannot be obtained). The desired integer is $\\boxed{6}$ since $55-6=49=7^2$.",
+    "prompt": "### Instruction: Marsha adds all but one of the first ten positive integers. Her sum is a square number. Which one of the first ten positive integers did Marsha not include?\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "Here's how to solve this problem step-by-step:\n**1. Calculate the sum of the first ten positive integers:**\n   The sum of the first *n* positive integers is given by the formula *n(n+1)/2*.  Therefore, the sum of the first ten positive integers is 10(10+1)/2 = 55.\n**2. Find the possible square numbers less than 55:**\n   The square numbers less than 55 are 1, 4, 9, 16, 25, 36, and 49.\n**3.  Subtract each square number from 55:**\n   * 55 - 1 = 54\n   * 55 - 4 = 51\n   * 55 - 9 = 46\n   * 55 - 16 = 39\n   * 55 - 25 = 30\n   * 55 - 36 = 19\n   * 55 - 49 = 6\n**4. Identify the result that is a positive integer:**\n   Only 6 is a positive integer.\n**5. Conclusion:**\n   Marsha did not include the number **6** in her sum. \n",
+        "Here's how to solve this problem step-by-step:\n**1. Calculate the sum of the first ten positive integers:**\nThe sum of the first ten positive integers is 1 + 2 + 3 + ... + 10 = 55.\n**2.  Find the square numbers close to 55:**\nThe nearest square numbers to 55 are 49 (7\u00b2) and 64 (8\u00b2).\n**3.  Determine the missing integer:**\n* To get 49, Marsha would need to exclude 6 (55 - 6 = 49)\n* To get 64, Marsha would need to exclude 41 (55 - 41 = 14, not a square number).\n**4.  The answer:**\nTherefore, Marsha did not include the number **6**. \n",
+        "Here's how to solve this problem step-by-step:\n**1. Find the sum of the first ten positive integers:**\n   The sum of the first *n* positive integers is given by the formula: n(n+1)/2\n   In this case, n = 10, so the sum is: 10(10+1)/2 = 55\n**2.  Consider the possible square numbers:**\n    Since Marsha's sum is a square number, let's think about the perfect squares less than 55: 1, 4, 9, 16, 25, 36, 49.\n**3. Subtract the squares from the total sum:**\n   * 55 - 1 = 54\n   * 55 - 4 = 51\n   * 55 - 9 = 46\n   * 55 - 16 = 39\n   * 55 - 25 = 30\n   * 55 - 36 = 19\n   * 55 - 49 = 6\n**4. Check if the differences are sums of consecutive integers:**\n   We're looking for a difference that represents the sum of 9 consecutive integers.  Of the above differences, only 36 is the sum of 9 consecutive integers: 1 + 2 + 3 + 4 + 5 + 6 + 7 + 8 + 9 = 36\n**Conclusion:**\nMarsha did not include the number **9** in her sum. \n",
+        "Here's how we can solve this problem:\n**1. Calculate the sum of the first ten positive integers:**\nThe sum of the first ten positive integers is 1 + 2 + 3 + ... + 10 = 55.\n**2. Consider possible square numbers:**\nWe need to find a square number that's one less than 55.  Let's look at some squares:\n* 7\u00b2 = 49\n* 8\u00b2 = 64 \n**3. Find the missing number:**\nSince 55 - 49 = 6, Marsha didn't include the number **6**. \n**Therefore, the answer is 6.** \n",
+        "Here's how to solve the problem step by step:\n**1. Calculate the sum of the first ten positive integers:**\nThe sum of an arithmetic series is found by: (n/2) * (first term + last term)\nIn this case: (10/2) * (1 + 10) = 5 * 11 = 55\n**2. Identify the possible square numbers less than 55:**\nThe square numbers less than 55 are 1, 4, 9, 16, 25, 36, and 49.\n**3. Subtract each square number from 55:**\n* 55 - 1 = 54\n* 55 - 4 = 51\n* 55 - 9 = 46\n* 55 - 16 = 39\n* 55 - 25 = 30\n* 55 - 36 = 19\n* 55 - 49 = 6\n**4. Determine which result is one of the first ten positive integers:**\nThe only result that is one of the first ten positive integers is **6**.\n**Therefore, Marsha did not include the number 6.** \n"
+    ],
+    "pred_answers": "6",
+    "final_pred_answer": [
+        "6",
+        "6",
+        "9",
+        "6",
+        "6"
+    ],
+    "ground_truth": "2"
+}

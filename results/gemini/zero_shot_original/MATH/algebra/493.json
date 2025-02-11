@@ -1,0 +1,23 @@
+{
+    "problem": "Expand the following product: $\\frac{1}{4}\\left(\\frac{4}{y} + 4y\\right)$.",
+    "level": "Level 2",
+    "type": "Algebra",
+    "solution": "We apply the distributive property to get\\begin{align*}\n\\frac{1}{4}\\left(\\frac{4}{y}+4y\\right)&= \\frac{1}{4}\\cdot\\frac{4}{y}+\\frac{1}{4}\\cdot 4y\\\\\n&= \\boxed{\\frac{1}{y} + y}.\n\\end{align*}",
+    "prompt": "### Instruction: Expand the following product: $\\frac{1}{4}\\left(\\frac{4}{y} + 4y\\right)$.\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "Here's how to expand the product step-by-step:\n1. **Distribute the 1/4:**\n   \n   We multiply each term inside the parentheses by 1/4:\n   (1/4) * (4/y) + (1/4) * (4y)\n2. **Simplify:**\n   (1/4) * (4/y) = 1/y\n   (1/4) * (4y) = y\n3. **Combine the simplified terms:**\n   1/y + y \n**Therefore, the expanded product is 1/y + y** \n",
+        "Here's how to expand the product step-by-step:\n1. **Distribute the 1/4:**  Multiply each term inside the parentheses by 1/4.\n   (1/4) * (4/y) + (1/4) * (4y)\n2. **Simplify:**  Cancel common factors.\n   (1/1) * (1/y) + (1/1) * (y)\n3. **Combine:** This simplifies to:\n   **1/y + y** \n",
+        "Here's how to expand the product step-by-step:\n**1. Distribute the 1/4:**\n* Multiply the first term inside the parentheses by 1/4:  (1/4) * (4/y) = 1/y\n* Multiply the second term inside the parentheses by 1/4: (1/4) * (4y) = y\n**2. Write the expanded expression:**\nThe expanded product is: **1/y + y** \n",
+        "**Step 1: Distribute the $\\frac{1}{4}$**\nMultiply each term inside the parentheses by $\\frac{1}{4}$:\n*  $\\frac{1}{4} \\cdot \\frac{4}{y} = \\frac{1}{y}$ \n*  $\\frac{1}{4} \\cdot 4y = y$\n**Step 2: Write the expanded product**\nNow we have:\n$\\frac{1}{4}\\left(\\frac{4}{y} + 4y\\right) = \\boxed{\\frac{1}{y} + y}$ \n",
+        "1. **Distribute the $\\frac{1}{4}$:** \n   We multiply each term inside the parentheses by $\\frac{1}{4}$:\n   \n   ```\n   (1/4) * (4/y) + (1/4) * (4y) \n   ```\n2. **Simplify:**\n   Cancel out the common factors in each multiplication:\n   ```\n   (1/1) * (1/y) + (1/1) * (y) \n   ```\n3. **Final Result:**\n   This simplifies to:\n   ```\n   1/y + y \n   ```\nTherefore, the expanded product is **1/y + y**. \n"
+    ],
+    "pred_answers": "1",
+    "final_pred_answer": [
+        "1",
+        "1",
+        "1",
+        "1",
+        "1"
+    ],
+    "ground_truth": "1"
+}

@@ -1,0 +1,23 @@
+{
+    "problem": "Determine the number of ways to arrange the letters of the word THAT.",
+    "level": "Level 2",
+    "type": "Counting & Probability",
+    "solution": "First we count the arrangements if the two T's are unique, which is $4!$. Then since the T's are not unique, we divide by $2!$ for the arrangements of T, for an answer of $\\dfrac{4!}{2!} = \\boxed{12}$.",
+    "prompt": "### Instruction: Determine the number of ways to arrange the letters of the word THAT.\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "Here's how to determine the number of ways to arrange the letters of the word \"THAT\":\n**1. Count the letters:**\nThe word \"THAT\" has 4 letters.\n**2. Consider repetition:**\nThere are no repeated letters in the word \"THAT\".\n**3. Calculate the factorial:**\nSince we have 4 distinct letters, the number of ways to arrange them is 4! (4 factorial).\n**4. Calculate the factorial:**\n4! = 4 * 3 * 2 * 1 = 24\n**Therefore, there are 24 different ways to arrange the letters of the word \"THAT\".** \n",
+        "Here's how to determine the number of ways to arrange the letters of the word \"THAT\":\n* **Step 1: Count the letters:** The word \"THAT\" has 4 letters.\n* **Step 2: Consider repetitions:**  There are no repeated letters in \"THAT.\"\n* **Step 3: Calculate the factorial:**  Since there are no repetitions, the number of arrangements is simply the factorial of the number of letters. \n   *  4! = 4 * 3 * 2 * 1 = 24\n**Therefore, there are 24 ways to arrange the letters of the word \"THAT.\"** \n",
+        "Here's how to determine the number of ways to arrange the letters of the word \"THAT\":\n**1. Count the Letters:**\n* The word \"THAT\" has 4 letters.\n**2. Consider Repetition:**\n* There are no repeated letters in \"THAT\".\n**3. Calculate the Factorial:**\n* When you have a set of distinct objects, the number of ways to arrange them is given by the factorial of the number of objects. \n* In this case, the factorial of 4 (denoted by 4!) is: 4! = 4 * 3 * 2 * 1 = 24\n**Therefore, there are 24 ways to arrange the letters of the word \"THAT\".** \n",
+        "Here's how to determine the number of ways to arrange the letters of the word \"THAT\":\n**1. Count the letters:**\n* The word \"THAT\" has 4 letters.\n**2. Consider repetitions:**\n* There are no repeated letters in \"THAT\".\n**3. Calculate the arrangements:**\n* When there are no repetitions, the number of ways to arrange *n* items is *n*! (n factorial).\n* In this case, 4! = 4 * 3 * 2 * 1 = 24\n**Therefore, there are 24 ways to arrange the letters of the word \"THAT\".** \n",
+        "Here's how to determine the number of ways to arrange the letters in the word \"THAT\":\n**1. Count the Letters:**\n* The word \"THAT\" has **4** letters.\n**2. Consider Repetition:**\n* There are **no repeating letters** in the word \"THAT\".\n**3. Calculate the Arrangements:**\n* For the first letter, we have 4 choices.\n* For the second letter, we have 3 choices left.\n* For the third letter, we have 2 choices left.\n* For the fourth letter, we only have 1 choice left.\nTherefore, the total number of arrangements is: 4 * 3 * 2 * 1 = **24**\n**In conclusion, there are 24 different ways to arrange the letters of the word \"THAT\".** \n"
+    ],
+    "pred_answers": "24",
+    "final_pred_answer": [
+        "24",
+        "24",
+        "24",
+        "24",
+        "24"
+    ],
+    "ground_truth": "12"
+}

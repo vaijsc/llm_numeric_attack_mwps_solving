@@ -1,0 +1,23 @@
+{
+    "problem": "What is the discriminant of $2x^2 - 8x + 15$?",
+    "level": "Level 3",
+    "type": "Algebra",
+    "solution": "We simply plug into $b^2 - 4ac = (-8)^2 - 4(2)(15) = 64 - 120 = \\boxed{-56},$ and that is our answer.",
+    "prompt": "### Instruction: What is the discriminant of $2x^2 - 8x + 15$?\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "The discriminant of a quadratic equation in the form $ax^2 + bx + c = 0$ is given by:\n$b^2 - 4ac$\nIn our case, $a = 2$, $b = -8$, and $c = 15$.  Let's substitute these values into the discriminant formula:\n$(-8)^2 - 4(2)(15) = 64 - 120 = \\boxed{-56}$ \n",
+        "The discriminant of a quadratic equation in the form $ax^2 + bx + c = 0$ is given by the expression $b^2 - 4ac$. This value helps us determine the nature of the roots (solutions) of the quadratic equation.\n**Step 1: Identify the coefficients.**\nIn the equation $2x^2 - 8x + 15$, we have:\n*  $a = 2$\n*  $b = -8$\n*  $c = 15$\n**Step 2: Substitute the values into the discriminant formula.**\n$b^2 - 4ac = (-8)^2 - 4(2)(15) = 64 - 120 = -56$\n**Therefore, the discriminant of the quadratic equation $2x^2 - 8x + 15$ is -56.** \n",
+        "Here's how to find the discriminant of the quadratic equation:\n**1. Understand the Discriminant**\nThe discriminant of a quadratic equation in the form *ax\u00b2 + bx + c = 0* is calculated as:\n   * **\u0394 = b\u00b2 - 4ac**\nThe discriminant tells us about the nature of the roots (solutions) of the quadratic equation:\n* **\u0394 > 0:**  The equation has two distinct real roots.\n* **\u0394 = 0:** The equation has one real root (a double root).\n* **\u0394 < 0:** The equation has no real roots (two complex roots).\n**2. Identify the Coefficients**\nIn the equation *2x\u00b2 - 8x + 15 = 0*:\n* a = 2\n* b = -8\n* c = 15\n**3. Calculate the Discriminant**\nSubstitute the values into the discriminant formula:\n\u0394 = (-8)\u00b2 - 4 * 2 * 15\n\u0394 = 64 - 120\n\u0394 = -56\n**4. Interpret the Result**\nSince \u0394 = -56, which is less than zero, the quadratic equation *2x\u00b2 - 8x + 15 = 0* has **no real roots**. It has two complex roots. \n",
+        "The discriminant of a quadratic equation in the form $ax^2 + bx + c = 0$ is given by:\n$b^2 - 4ac$\nLet's identify the coefficients in our equation:\n* $a = 2$\n* $b = -8$\n* $c = 15$\nNow, substitute these values into the discriminant formula:\n$(-8)^2 - 4(2)(15) = 64 - 120 = -56$\nTherefore, the discriminant of the quadratic equation $2x^2 - 8x + 15$ is **-56**. \n",
+        "Here's how to find the discriminant of the quadratic equation:\n**1. Identify the coefficients**\n*  The quadratic equation is in the form  *ax\u00b2 + bx + c* \n*  In our equation, *2x\u00b2 - 8x + 15*, we have:\n    *  *a* = 2\n    *  *b* = -8\n    *  *c* = 15\n**2. Apply the discriminant formula**\nThe discriminant is calculated using the following formula:\n*  *Discriminant = b\u00b2 - 4ac*\n**3. Substitute the values and calculate**\n*  Discriminant = (-8)\u00b2 - 4 * 2 * 15\n*  Discriminant = 64 - 120\n*  Discriminant = **-56**\n**Therefore, the discriminant of the quadratic equation 2x\u00b2 - 8x + 15 is -56.** \n"
+    ],
+    "pred_answers": "-56",
+    "final_pred_answer": [
+        "-56",
+        "-56",
+        "0",
+        "-56",
+        "-56"
+    ],
+    "ground_truth": "-56"
+}

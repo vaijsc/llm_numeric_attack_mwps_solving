@@ -1,0 +1,23 @@
+{
+    "problem": "If $x$ is a real number, find $49x^2+14x(19-7x)+(19-7x)^2$.",
+    "level": "Level 4",
+    "type": "Algebra",
+    "solution": "\\begin{align*}\n&49x^2+14x(19-7x)+(19-7x)^2\\\\\n&\\qquad=(7x)^2+2(7x)(19-7x)+(19-7x)^2\\\\\n&\\qquad=[7x+(19-7x)]^2\\\\\n&\\qquad=19^2\\\\\n&\\qquad=\\boxed{361}.\n\\end{align*}",
+    "prompt": "### Instruction: If $x$ is a real number, find $49x^2+14x(19-7x)+(19-7x)^2$.\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "**1. Expand the squared term:**\n   (19 - 7x)^2 = (19 - 7x)(19 - 7x) = 361 - 266x + 49x^2\n**2. Substitute the expanded term back into the original expression:**\n   49x^2 + 14x(19 - 7x) + (19 - 7x)^2 = 49x^2 + 14x(19 - 7x) + 361 - 266x + 49x^2\n**3. Distribute the 14x:**\n   49x^2 + 266x - 98x^2 + 361 - 266x + 49x^2\n**4. Combine like terms:**\n   (49x^2 - 98x^2 + 49x^2) + (266x - 266x) + 361 = **361**\n**Therefore, the simplified expression is 361.** \n",
+        "Here's how to solve the problem step-by-step:\n**1. Expand the square:**\nThe expression $(19-7x)^2$ can be expanded using the formula $(a-b)^2 = a^2 - 2ab + b^2$:\n* $(19-7x)^2 = 19^2 - 2(19)(7x) + (7x)^2 = 361 - 266x + 49x^2$\n**2. Substitute the expanded term:**\nNow we can substitute this expanded term back into the original expression:\n* $49x^2 + 14x(19-7x) + (19-7x)^2 = 49x^2 + 14x(19-7x) + 361 - 266x + 49x^2$\n**3. Distribute:**\nDistribute the $14x$ in the second term:\n* $49x^2 + 266x - 98x^2 + 361 - 266x + 49x^2$\n**4. Combine like terms:**\nFinally, combine the terms with the same powers of $x$:\n* $(49x^2 - 98x^2 + 49x^2) + (266x - 266x) + 361$\nThis simplifies to:\n* $\\boxed{361}$\n**Therefore, the value of the expression is 361, regardless of the value of x.** \n",
+        "We can solve this problem by recognizing that the expression is a perfect square trinomial. \nHere's how to see it:\n1. **Recognize the pattern:** The expression resembles the expansion of $(a + b)^2 = a^2 + 2ab + b^2$.\n2. **Identify 'a' and 'b':** \n   *  Let  'a' = 7x\n   *  Let 'b' = 19 - 7x\n3. **Substitute:** Substitute these values into the perfect square trinomial formula:\n   * (7x + (19 - 7x))^2 \n4. **Simplify:**\n   * (19)^2\nTherefore,  $49x^2 + 14x(19 - 7x) + (19 - 7x)^2 = \\boxed{361}$. \n",
+        "Here's how to solve the problem step-by-step:\n1. **Expand the square:**  \n   (19 - 7x)\u00b2 = 19\u00b2 - 2(19)(7x) + (7x)\u00b2 = 361 - 266x + 49x\u00b2\n2. **Rewrite the expression:**\n   The given expression becomes:\n   49x\u00b2 + 14x(19 - 7x) + 361 - 266x + 49x\u00b2\n3. **Distribute:**\n   49x\u00b2 + 266x - 98x\u00b2 + 361 - 266x + 49x\u00b2\n4. **Combine like terms:**\n   (49x\u00b2 - 98x\u00b2 + 49x\u00b2) + (266x - 266x) + 361\n5. **Simplify:**\n   0 + 0 + 361 = 361\n**Therefore, 49x\u00b2 + 14x(19 - 7x) + (19 - 7x)\u00b2 = 361** \n",
+        "We can solve this problem by recognizing that the expression is a perfect square trinomial. Here's how:\n**1. Identify the Pattern:**\nThe expression looks like this:  a\u00b2 + 2ab + b\u00b2 \n*  Let 'a' = 7x\n*  Let 'b' = 19 - 7x\n**2. Apply the Perfect Square Trinomial Formula:**\nThe formula for a perfect square trinomial is: (a + b)\u00b2 = a\u00b2 + 2ab + b\u00b2\n**3. Substitute and Simplify:**\nTherefore, our expression is equivalent to: \n(7x + (19 - 7x))\u00b2\nSimplifying inside the parentheses: (19)\u00b2 \n**4. Final Answer:**\nThe simplified expression is: **361** \n"
+    ],
+    "pred_answers": "361",
+    "final_pred_answer": [
+        "361",
+        "361",
+        "361",
+        "361",
+        "361"
+    ],
+    "ground_truth": "361"
+}

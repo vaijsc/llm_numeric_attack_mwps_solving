@@ -1,0 +1,23 @@
+{
+    "problem": "Twelve friends met for dinner at Oscar's Overstuffed Oyster House, and each ordered one meal. The portions were so large, there was enough food for 18 people. If they share, how many meals should they have ordered to have just enough food for the 12 of them?",
+    "level": "Level 2",
+    "type": "Algebra",
+    "solution": "If 12 people order $\\frac{18}{12}=1\\frac{1}{2}$ times too much food, they should have ordered $\\frac{12}{\\frac{3}{2}}=\\frac{2}{3}\\times 12=\\boxed{8}$ meals.",
+    "prompt": "### Instruction: Twelve friends met for dinner at Oscar's Overstuffed Oyster House, and each ordered one meal. The portions were so large, there was enough food for 18 people. If they share, how many meals should they have ordered to have just enough food for the 12 of them?\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "Here's how to solve this:\n* **Figure out the ratio:** Each meal provides enough food for 18 people / 12 meals = 1.5 people per meal.\n* **Calculate the meals needed:** 12 people / 1.5 people per meal = 8 meals.\n**Answer:** They should have ordered 8 meals to have just enough food for the 12 of them. \n",
+        "Here's how to solve this problem:\n* **The problem:**  They ordered enough food for 18 people, but only 12 are eating.\n* **Find the ratio:**  The ratio of food to people is 18:12.\n* **Simplify the ratio:** This ratio can be simplified by dividing both sides by 6, giving us 3:2.\n* **The answer:** This means they need to order 2 meals for every 3 people. Since they have 12 people, they should have ordered 8 meals (12 people / 3 people per 2 meals = 4 sets of 2 meals). \n**Therefore, they should have ordered 8 meals to have just enough food for 12 people.** \n",
+        "Here's how to solve this problem:\n* **Figure out the ratio:**  The food at Oscar's is enough for 18 people, but they only have 12. This means they have 18/12 = 1.5 times more food than they need.\n* **Divide to find the right amount:** Since they have 1.5 times more food than needed, they should have ordered 12 people / 1.5 = **8 meals**.\n**Therefore, they should have ordered 8 meals to have just enough food for the 12 of them.** \n",
+        "Here's how to solve this problem:\n* **Figure out the ratio:** Each meal provides enough food for 18 people / 12 friends = 1.5 people.\n* **Calculate the needed meals:** To have enough for 12 people, divide the total people by the food-per-meal ratio: 12 people / 1.5 people/meal = 8 meals.\n**Answer:** They should have ordered 8 meals. \n",
+        "Here's how to solve this problem step-by-step:\n* **Figure out the ratio:** The food from one meal is enough for 18/12 = 1.5 people.\n* **Calculate the meals needed:** To feed 12 people, they would need 12 / 1.5 = 8 meals.\n**Answer:** They should have ordered 8 meals to have just enough food for the 12 of them. \n"
+    ],
+    "pred_answers": "8",
+    "final_pred_answer": [
+        "8",
+        "12",
+        "12",
+        "8",
+        "8"
+    ],
+    "ground_truth": "8"
+}

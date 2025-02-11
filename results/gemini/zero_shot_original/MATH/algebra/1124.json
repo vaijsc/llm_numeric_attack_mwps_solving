@@ -1,0 +1,23 @@
+{
+    "problem": "Find $g(x)$, with terms in order of decreasing degree, if we have that \\[8x^4-7x^2+8x-7+g(x)=x + 1.\\]",
+    "level": "Level 3",
+    "type": "Algebra",
+    "solution": "Isolating $g(x),$ we find: \\begin{align*}\ng(x) &= (x + 1) - (8x^4-7x^2 + 8x - 7) \\\\\n&= x + 1 - 8x^4 + 7x^2 - 8x + 7 \\\\\n&= \\boxed{-8 x^4+7x^2-7x+8}.\n\\end{align*}",
+    "prompt": "### Instruction: Find $g(x)$, with terms in order of decreasing degree, if we have that \\[8x^4-7x^2+8x-7+g(x)=x + 1.\\]\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "1. **Isolate g(x):**  To get g(x) by itself, subtract the terms on the left side of the equation from both sides:\n   \\[g(x) = x + 1 - (8x^4 - 7x^2 + 8x - 7)\\]\n2. **Distribute the negative sign:**\n   \\[g(x) = x + 1 - 8x^4 + 7x^2 - 8x + 7\\]\n3. **Combine like terms:**\n   \\[g(x) = -8x^4 + 7x^2 - 7x + 8\\]\nTherefore,  $g(x) = \\boxed{-8x^4 + 7x^2 - 7x + 8}$. \n",
+        "1. **Isolate g(x):** To get  g(x) by itself, subtract all the terms on the left side of the equation from both sides: \n   \n   ```\n   g(x) = x + 1 - (8x^4 - 7x^2 + 8x - 7) \n   ```\n2. **Simplify:**  Distribute the negative sign and combine like terms:\n   ```\n   g(x) = x + 1 - 8x^4 + 7x^2 - 8x + 7 \n   g(x) = -8x^4 + 7x^2 - 7x + 8 \n   ```\n3. **Order of decreasing degree:**  The terms are already in order of decreasing degree (highest power of x first).\nTherefore,  **g(x) = -8x^4 + 7x^2 - 7x + 8**. \n",
+        "1. **Isolate g(x):**  To get  $g(x)$ by itself, subtract the terms on the left side of the equation from both sides: \n   \\[g(x) = x + 1 - (8x^4 - 7x^2 + 8x - 7)\\]\n2. **Distribute the negative sign:**\n   \\[g(x) = x + 1 - 8x^4 + 7x^2 - 8x + 7\\]\n3. **Combine like terms:**\n   \\[g(x) = \\boxed{-8x^4 + 7x^2 - 7x + 8}\\] \nTherefore, $g(x) = -8x^4 + 7x^2 - 7x + 8$. \n",
+        "1. **Isolate g(x):**  To get $g(x)$ by itself, subtract the left-hand side terms from both sides of the equation:\n   ```\n   g(x) = x + 1 - (8x^4 - 7x^2 + 8x - 7)\n   ```\n2. **Simplify:**  Distribute the negative sign and combine like terms:\n   ```\n   g(x) = x + 1 - 8x^4 + 7x^2 - 8x + 7\n   g(x) = -8x^4 + 7x^2 - 7x + 8 \n   ```\nTherefore,  **g(x) = -8x^4 + 7x^2 - 7x + 8**. \n",
+        "1. **Isolate g(x):**  To get g(x) by itself, subtract the terms on the left side of the equation from both sides: \n   \n   ```\n   g(x) = x + 1 - (8x^4 - 7x^2 + 8x - 7) \n   ```\n2. **Simplify:** Distribute the negative sign and combine like terms:\n   ```\n   g(x) = x + 1 - 8x^4 + 7x^2 - 8x + 7 \n   g(x) = -8x^4 + 7x^2 - 7x + 8 \n   ```\n**Therefore, g(x) = -8x^4 + 7x^2 - 7x + 8** \n"
+    ],
+    "pred_answers": "8",
+    "final_pred_answer": [
+        "8",
+        "8",
+        "8",
+        "8",
+        "8"
+    ],
+    "ground_truth": "8"
+}

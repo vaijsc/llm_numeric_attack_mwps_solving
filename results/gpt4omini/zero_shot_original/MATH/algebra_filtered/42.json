@@ -1,0 +1,23 @@
+{
+    "problem": "Find the sum of all values of $x$ such that $|x-1| = 7$.",
+    "level": "Level 2",
+    "type": "Algebra",
+    "solution": "We must have either $x-1 = 7$ or $x-1=-7$.  If $x-1=7$, we have $x=8$, and if $x-1 = -7$, we have $x= -6$, so the sum of the possible values of $x$ is $8+(-6) = \\boxed{2}$.",
+    "prompt": "### Instruction: Find the sum of all values of $x$ such that $|x-1| = 7$.\nLet\u2019s think step by step.\n### Response:",
+    "responses": [
+        "To solve the equation \\( |x - 1| = 7 \\), we will start by considering the definition of the absolute value. The absolute value equation \\( |A| = B \\) means that \\( A = B \\) or \\( A = -B \\).\nHere, we set \\( A = x - 1 \\) and \\( B = 7 \\). Therefore, we can split our absolute value equation into two separate equations:\n1. \\( x - 1 = 7 \\)\n2. \\( x - 1 = -7 \\)\nNow, let's solve each equation step by step.\n**For the first equation:**\n\\[\nx - 1 = 7\n\\]\nAdding 1 to both sides gives:\n\\[\nx = 7 + 1 = 8\n\\]\n**For the second equation:**\n\\[\nx - 1 = -7\n\\]\nAdding 1 to both sides gives:\n\\[\nx = -7 + 1 = -6\n\\]\nNow we have two solutions for \\( x \\):\n1. \\( x = 8 \\)\n2. \\( x = -6 \\)\nNext, we need to find the sum of all values of \\( x \\):\n\\[\n8 + (-6) = 8 - 6 = 2\n\\]\nThus, the sum of all values of \\( x \\) such that \\( |x - 1| = 7 \\) is \n\\[\n\\boxed{2}\n\\]",
+        "To solve the equation \\( |x - 1| = 7 \\), we need to understand how absolute value works. The equation \\( |A| = B \\) means that \\( A = B \\) or \\( A = -B \\).\nIn our case, we set:\n1. \\( x - 1 = 7 \\)\n2. \\( x - 1 = -7 \\)\nNow, we will solve each equation separately.\n**First Equation:**\n\\[\nx - 1 = 7\n\\]\nTo isolate \\( x \\), we add 1 to both sides:\n\\[\nx = 7 + 1 = 8\n\\]\n**Second Equation:**\n\\[\nx - 1 = -7\n\\]\nTo isolate \\( x \\), we again add 1 to both sides:\n\\[\nx = -7 + 1 = -6\n\\]\nNow we have two solutions for \\( x \\):\n1. \\( x = 8 \\)\n2. \\( x = -6 \\)\nNext, we find the sum of these values:\n\\[\n8 + (-6) = 8 - 6 = 2\n\\]\nThus, the sum of all values of \\( x \\) such that \\( |x - 1| = 7 \\) is \n\\[\n\\boxed{2}\n\\]",
+        "To solve the equation \\( |x - 1| = 7 \\), we start by recalling the definition of absolute value. The expression \\( |a| = b \\) means that \\( a = b \\) or \\( a = -b \\). Applying this to our equation, we have two cases:\n1. \\( x - 1 = 7 \\)\n2. \\( x - 1 = -7 \\)\nWe will solve each case separately.\n**Case 1:**  \n\\[\nx - 1 = 7\n\\]\nTo solve for \\( x \\), we add 1 to both sides:\n\\[\nx = 7 + 1 = 8\n\\]\n**Case 2:**  \n\\[\nx - 1 = -7\n\\]\nAgain, we solve for \\( x \\) by adding 1 to both sides:\n\\[\nx = -7 + 1 = -6\n\\]\nNow we have two solutions for \\( x \\):\n\\[\nx = 8 \\quad \\text{and} \\quad x = -6\n\\]\nNext, we need to find the sum of these values:\n\\[\n8 + (-6) = 8 - 6 = 2\n\\]\nThus, the sum of all values of \\( x \\) such that \\( |x - 1| = 7 \\) is \n\\[\n\\boxed{2}\n\\]",
+        "To solve the equation \\( |x - 1| = 7 \\), we can break it down into two separate cases based on the definition of absolute value.\n#### Case 1: \\( x - 1 = 7 \\)\nFor this case, we add 1 to both sides to solve for \\( x \\):\n\\[\nx - 1 = 7 \\\\\nx = 7 + 1 \\\\\nx = 8\n\\]\n#### Case 2: \\( x - 1 = -7 \\)\nFor this case, we again add 1 to both sides:\n\\[\nx - 1 = -7 \\\\\nx = -7 + 1 \\\\\nx = -6\n\\]\nNow we have found the two values of \\( x \\):\n1. \\( x = 8 \\)\n2. \\( x = -6 \\)\nNext, we need to find the sum of these values:\n\\[\n8 + (-6) = 8 - 6 = 2\n\\]\nTherefore, the sum of all values of \\( x \\) such that \\( |x - 1| = 7 \\) is \n\\[\n\\boxed{2}\n\\]",
+        "To solve the equation \\( |x - 1| = 7 \\), we need to consider the definition of absolute value. The equation \\( |a| = b \\) implies two possible cases:\n1. \\( a = b \\)\n2. \\( a = -b \\)\nIn our case, we have:\n1. \\( x - 1 = 7 \\)\n2. \\( x - 1 = -7 \\)\nNow we will solve each equation separately.\n**Case 1:**\n\\[\nx - 1 = 7\n\\]\nTo solve for \\( x \\), we add 1 to both sides:\n\\[\nx = 7 + 1 = 8\n\\]\n**Case 2:**\n\\[\nx - 1 = -7\n\\]\nAgain, we solve for \\( x \\) by adding 1 to both sides:\n\\[\nx = -7 + 1 = -6\n\\]\nNow we have the two solutions for \\( x \\):\n\\[\nx = 8 \\quad \\text{and} \\quad x = -6\n\\]\nTo find the sum of all values of \\( x \\), we add these two solutions together:\n\\[\n8 + (-6) = 2\n\\]\nThus, the sum of all values of \\( x \\) that satisfy the equation \\( |x - 1| = 7 \\) is:\n\\[\n\\boxed{2}\n\\]"
+    ],
+    "pred_answers": "2",
+    "final_pred_answer": [
+        "2",
+        "2",
+        "2",
+        "2",
+        "2"
+    ],
+    "ground_truth": "2"
+}
